@@ -1,0 +1,16 @@
+# Source PDFs (too large for git)
+kindle_pdfs/
+book_analysis/pdfs/
+*.pdf
+
+# Temporary processing state
+book_analysis/knowledge_bases/*_progress.json
+book_analysis/knowledge_bases/*_status.json
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment
+.env
