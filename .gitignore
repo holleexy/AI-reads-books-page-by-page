@@ -7,6 +7,9 @@ book_analysis/pdfs/
 book_analysis/knowledge_bases/*_progress.json
 book_analysis/knowledge_bases/*_status.json
 
+# Intermediate summaries (only final summaries needed downstream)
+book_analysis/summaries/*_interval_*
+
 # Python
 __pycache__/
 *.pyc
