@@ -4,6 +4,7 @@
 #   ./run.sh smoke_test.py
 #   ./run.sh read_books.py book.pdf
 #   ./run.sh run_all_books.py
+#   ./run.sh images_to_pdf.py pages/ -o kindle_pdfs/book.pdf
 set -euo pipefail
 cd "$(dirname "$0")"
 

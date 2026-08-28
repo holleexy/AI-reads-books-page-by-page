@@ -25,3 +25,5 @@ upstream の README は古い。
 - [動かないとき](07-troubleshoot.md)
 - [xAI OAuth](08-xai-oauth.md)
 - [ローカル PDF の受け取り](10-local-upload.md)
+- [スクリーンショットから PDF](11-screenshot-to-pdf.md)
+- [Kindle 自動めくり](12-kindle-auto-screenshot.md)
