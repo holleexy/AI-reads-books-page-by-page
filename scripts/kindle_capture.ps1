@@ -1,5 +1,8 @@
+﻿#Requires -Version 5.1
+#Requires -STA
 # Capture Kindle for PC pages by screenshot + left/right page-turn.
 # Runs on Windows only. Does not read Kindle files or remove DRM.
+# ASCII only so Windows PowerShell 5.1 can parse -File as system ANSI.
 # Usage:
 #   powershell -ExecutionPolicy Bypass -File scripts/kindle_capture.ps1 -ListWindows
 #   powershell -ExecutionPolicy Bypass -File scripts/kindle_capture.ps1 -Direction Right
@@ -27,7 +30,7 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-if (-not $IsWindows -and $env:OS -ne "Windows_NT") {
+if ($env:OS -ne "Windows_NT") {
     Write-Error "This script runs on Windows only."
     exit 1
 }
@@ -135,7 +138,10 @@ public static class KindleWin {
 }
 "@
 
-Add-Type -ReferencedAssemblies System.Drawing -TypeDefinition $native
+if (-not ("KindleWin" -as [type])) {
+    $drawing = [System.Drawing.Bitmap].Assembly.Location
+    Add-Type -TypeDefinition $native -ReferencedAssemblies $drawing
+}
 
 function Get-CaptureWindows {
     Get-Process -ErrorAction SilentlyContinue |
@@ -144,21 +150,21 @@ function Get-CaptureWindows {
 }
 
 function Resolve-KindleWindow {
-    $matches = @(Get-CaptureWindows | Where-Object {
+    $found = @(Get-CaptureWindows | Where-Object {
         $_.ProcessName -like "*$ProcessName*" -or $_.MainWindowTitle -like "*$Title*"
     })
-    if ($matches.Count -eq 0) {
+    if ($found.Count -eq 0) {
         throw "Kindle window not found. Open the book in Kindle for PC, or pass -ListWindows / -Title."
     }
-    if ($matches.Count -gt 1) {
+    if ($found.Count -gt 1) {
         Write-Host "Multiple windows matched; using the first:"
-        $matches | Format-Table Id, ProcessName, MainWindowTitle | Out-Host
+        Write-Host ($found | Select-Object Id, ProcessName, MainWindowTitle | Out-String)
     }
-    return $matches[0]
+    return $found[0]
 }
 
 function Parse-Crop([string]$spec) {
-    $parts = $spec.Split(",") | ForEach-Object { [int]$_.Trim() }
+    $parts = @($spec.Split(",") | ForEach-Object { [int]$_.Trim() })
     if ($parts.Count -ne 4) {
         throw "Crop must be L,T,R,B (example: 80,50,80,40)"
     }
@@ -166,7 +172,7 @@ function Parse-Crop([string]$spec) {
 }
 
 if ($ListWindows) {
-    Get-CaptureWindows | Format-Table Id, ProcessName, MainWindowTitle -AutoSize
+    Write-Host (Get-CaptureWindows | Select-Object Id, ProcessName, MainWindowTitle | Out-String)
     return
 }
 
@@ -179,6 +185,9 @@ New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
 
 $win = Resolve-KindleWindow
 $hwnd = $win.MainWindowHandle
+if ($hwnd -eq [IntPtr]::Zero) {
+    throw "Kindle window handle is zero. Open the book and try again."
+}
 Write-Host ("Target: pid={0} name={1} title={2}" -f $win.Id, $win.ProcessName, $win.MainWindowTitle)
 Write-Host ("Output: {0}" -f $OutDir)
 Write-Host ("Turn: direction={0} keys={1} method={2}" -f $Direction, $Keys, $TurnMethod)
