@@ -1,10 +1,14 @@
 # Kindle 自動めくりスクリーンショット（Windows）
 
-DeDRM は使わない。Kindle for PC のウィンドウを前面にして、見えているページを PNG に保存し、次のページへ送る。
+DeDRM は使わない。
+Kindle for PC のウィンドウを前面にして、見えているページを PNG に保存し、次のページへ送る。
 右めくり（右キー／画面右端クリック）と左めくり（左キー／画面左端クリック）の両方に対応する。
-ファイルを復号しない。弁護士ではないので合法性は保証しない。撮った画像の配布はしない。
+ファイルを復号しない。
+弁護士ではないので合法性は保証しない。
+撮った画像の配布はしない。
 
-このスクリプトは **Windows だけで** 動く。Linux 上のエージェントからは Kindle アプリを撮れない。
+このスクリプトは **Windows だけで** 動く。
+Linux 上のエージェントからは Kindle アプリを撮れない。
 
 ## 準備
 
@@ -14,15 +18,19 @@ DeDRM は使わない。Kindle for PC のウィンドウを前面にして、見
 
 ## 実行
 
-Windows にこのリポジトリ（または `scripts` フォルダ）を置いて、**`KindleCapture.bat` をダブルクリック**する。
-右めくり／左めくりのボタンが出る。Kindle で本を開いてから押す。5 秒後に撮影が始まる。
+Windows でこのリポジトリを最新にしてから、**リポジトリ直下の `KindleCapture.bat` をダブルクリック**する。
+黒い窓に `R = Right page-turn` と `L = Left page-turn` が出る。
+本を開いた状態で `R` か `L` を押す。
+5 秒後に撮影が始まる。
 
 方向が決まっているときは次でもよい。
 
 - `scripts/KindleCapture-Right.bat` … 右めくり一発
 - `scripts/KindleCapture-Left.bat` … 左めくり一発
 
-コマンドを打つ必要はない。同じ画面が 3 回続いたら本の末尾とみなして止まる。コンソールで `Ctrl+C` でも止められる。
+コマンドを打つ必要はない。
+同じ画面が 3 回続いたら本の末尾とみなして止まる。
+コンソールで `Ctrl+C` でも止められる。
 
 詳細な引数が必要なときだけ `kindle_capture.ps1` を直接呼ぶ。
 
@@ -42,6 +50,17 @@ Windows にこのリポジトリ（または `scripts` フォルダ）を置い�
 | `-CopyFromScreen` | PrintWindow が真っ黒なときの画面コピー |
 
 出力は `0001.png`, `0002.png`, … である。
+
+## 動かないとき
+
+黒い窓が赤い ParserError で即終了する場合、古い `kindle_capture_gui.ps1` が残っている。
+`git pull` してから、もう一度リポジトリ直下の `KindleCapture.bat` を使う。
+
+Windows PowerShell 5.1 は BOM なし UTF-8 の日本語を壊して読む。
+そのため `.ps1` は ASCII 本文と UTF-8 BOM に固定してある。
+既定の起動は WinForms ではなく `cmd` の `choice` である。
+
+レビュー内容は [2026-08-28 の記録](../reviews/2026-08-28-kindle-capture-ps51.md) にある。
 
 ## このあと
 
