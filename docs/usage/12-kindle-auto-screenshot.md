@@ -53,8 +53,11 @@ Windows でこのリポジトリを最新にしてから、**リポジトリ直�
 
 ## 動かないとき
 
-黒い窓が赤い ParserError で即終了する場合、古い `kindle_capture_gui.ps1` が残っている。
+黒い窓が赤い ParserError で即終了する場合、古いスクリプトが残っている。
 `git pull` してから、もう一度リポジトリ直下の `KindleCapture.bat` を使う。
+
+「パラメーター -STA に引数が必要です」と出る場合も同じである。
+`#Requires -STA` は Windows PowerShell 5.1 では無効なので、現行版では削除してある。
 
 Windows PowerShell 5.1 は BOM なし UTF-8 の日本語を壊して読む。
 そのため `.ps1` は ASCII 本文と UTF-8 BOM に固定してある。

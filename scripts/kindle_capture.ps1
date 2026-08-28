@@ -1,5 +1,4 @@
 ﻿#Requires -Version 5.1
-#Requires -STA
 # Capture Kindle for PC pages by screenshot + left/right page-turn.
 # Runs on Windows only. Does not read Kindle files or remove DRM.
 # ASCII only so Windows PowerShell 5.1 can parse -File as system ANSI.
@@ -26,6 +25,25 @@ param(
     [switch]$ListWindows,
     [switch]$CopyFromScreen
 )
+
+# STA is requested on powershell.exe. The #Requires STA flag is not valid in 5.1.
+if ($MyInvocation.MyCommand.Path) {
+    if ([System.Threading.Thread]::CurrentThread.GetApartmentState() -ne "STA") {
+        $exe = Join-Path $env:SystemRoot "System32\WindowsPowerShell\v1.0\powershell.exe"
+        $pass = @()
+        foreach ($name in $PSBoundParameters.Keys) {
+            $value = $PSBoundParameters[$name]
+            if ($value -is [System.Management.Automation.SwitchParameter]) {
+                if ($value) { $pass += ("-" + $name) }
+            } else {
+                $pass += ("-" + $name)
+                $pass += [string]$value
+            }
+        }
+        & $exe -NoProfile -STA -ExecutionPolicy Bypass -File $MyInvocation.MyCommand.Path @pass
+        exit $LASTEXITCODE
+    }
+}
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"

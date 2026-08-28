@@ -49,9 +49,9 @@ WinForms GUI を既定の起動経路から外した。
 - `$matches` を `$found` に改名する
 - 一覧表示を `Out-String` にする
 - hwnd がゼロなら throw する
-- `#Requires -Version 5.1` と `#Requires -STA` を付ける
+- `#Requires -Version 5.1` を付ける。`#Requires -STA` は 5.1 では無効なので使わない
 - `.ps1` は UTF-8 BOM + CRLF + ASCII 本文にする
-- `.bat` は ASCII + CRLF にする
+- `.bat` は ASCII + CRLF にする。`powershell.exe` に `-STA` を付ける
 
 `kindle_capture_gui.ps1` は ASCII のみの任意 GUI として残した。
 既定のダブルクリック経路は使わない。
@@ -60,6 +60,16 @@ WinForms GUI を既定の起動経路から外した。
 
 実装後の再確認では、上記 7 件はいずれも FIXED だった。
 既定経路に GUI は残っていない。
+
+## `#Requires -STA` による再発（2026-08-28 追記）
+
+Windows 実機で `R` を押した直後、`kindle_capture.ps1` 2 行目が ParserError になった。
+メッセージは「パラメーター -STA に引数が必要です」である。
+
+`#Requires` が受け付けるのは `-Version` や `-Modules` などであり、`-STA` は無い。
+パーサは `-STA` を値付きパラメータと見なし、引数不足で止まる。
+
+STA は `#Requires` ではなく、`.bat` の `powershell.exe -STA` と、未 STA なら自分を `-STA` で呼び直す処理に移した。
 
 ## 検証の範囲
 

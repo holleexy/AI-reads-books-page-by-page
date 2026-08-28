@@ -1,7 +1,15 @@
 ﻿#Requires -Version 5.1
-#Requires -STA
 # Optional ASCII WinForms chooser. The default path is KindleCapture.bat (cmd CHOICE).
 # Keep this file ASCII-only. Windows PowerShell 5.1 misparses UTF-8 Japanese without BOM.
+# STA is requested on powershell.exe. The #Requires STA flag is not valid in 5.1.
+
+if ($MyInvocation.MyCommand.Path) {
+    if ([System.Threading.Thread]::CurrentThread.GetApartmentState() -ne "STA") {
+        $exe = Join-Path $env:SystemRoot "System32\WindowsPowerShell\v1.0\powershell.exe"
+        & $exe -NoProfile -STA -ExecutionPolicy Bypass -File $MyInvocation.MyCommand.Path
+        exit $LASTEXITCODE
+    }
+}
 
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
