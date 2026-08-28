@@ -1,6 +1,7 @@
 """Encoding and token checks for Kindle Windows launchers (Linux-safe)."""
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -27,6 +28,18 @@ FORBIDDEN_IN_PS1 = (
     "左めくり",
 )
 
+_REQUIRES_PARAMS = frozenset(
+    {
+        "version",
+        "modules",
+        "pssnapin",
+        "shellid",
+        "runasadministrator",
+        "psedition",
+        "assembly",
+    }
+)
+
 
 class CheckError(Exception):
     pass
@@ -36,6 +49,18 @@ def has_crlf(data: bytes) -> bool:
     if b"\n" not in data:
         return True
     return b"\r\n" in data and b"\n" not in data.replace(b"\r\n", b"")
+
+
+def _assert_requires_params(path: Path, text: str) -> None:
+    normalized = text.replace("\r\n", "\n")
+    for match in re.finditer(r"(?im)^#requires\b(.*)$", normalized):
+        rest = match.group(1)
+        for pm in re.finditer(r"-([A-Za-z]+)", rest):
+            name = pm.group(1).lower()
+            if name not in _REQUIRES_PARAMS:
+                raise CheckError(
+                    f"{path}: #Requires -{pm.group(1)} is not valid in Windows PowerShell 5.1"
+                )
 
 
 def assert_ps1(path: Path) -> None:
@@ -55,6 +80,9 @@ def assert_ps1(path: Path) -> None:
         needle = token.lower() if token.isascii() else token
         if needle in haystack:
             raise CheckError(f"{path}: forbidden token {token!r}")
+    _assert_requires_params(path, text)
+    if "GetApartmentState()" not in text:
+        raise CheckError(f"{path}: missing STA relaunch (do not use #Requires -STA)")
     if path.name == "kindle_capture.ps1":
         if "ReferencedAssemblies $drawing" not in text:
             raise CheckError(f"{path}: Add-Type must pass System.Drawing assembly path")
@@ -88,6 +116,11 @@ def assert_bat(path: Path) -> None:
             raise CheckError(f"{path}: CHOICE must branch on errorlevel 2 before 1")
         if errorlevel2_at > min(right_at, left_at):
             raise CheckError(f"{path}: if errorlevel 2 must come before labels")
+        if "-STA" not in text:
+            raise CheckError(f"{path}: powershell.exe must be started with -STA")
+    elif path.name in {"KindleCapture-Right.bat", "KindleCapture-Left.bat"}:
+        if "-STA" not in text:
+            raise CheckError(f"{path}: powershell.exe must be started with -STA")
 
 
 # CP932 lead bytes (JIS X 0208). A following 0x22 is consumed as a trail byte.

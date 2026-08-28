@@ -33,6 +33,23 @@ class KindleLauncherTests(unittest.TestCase):
         self.assertNotIn("kindle_capture_gui.ps1", text)
         self.assertIn("choice /c RL", text)
 
+    def test_ps1_does_not_use_invalid_requires_sta(self):
+        for path in encoding.PS1_FILES:
+            text = path.read_bytes()[len(encoding.UTF8_BOM) :].decode("ascii")
+            for line in text.splitlines():
+                stripped = line.strip().lower()
+                if stripped.startswith("#requires") and "-sta" in stripped:
+                    self.fail(f"{path} still has invalid #Requires -STA")
+
+    def test_capture_bats_pass_sta_to_powershell(self):
+        for name in (
+            "KindleCapture.bat",
+            "KindleCapture-Right.bat",
+            "KindleCapture-Left.bat",
+        ):
+            text = (ROOT / "scripts" / name).read_text(encoding="ascii")
+            self.assertIn("-STA", text, msg=name)
+
     def test_all_expected_files_exist(self):
         for path in (*encoding.PS1_FILES, *encoding.BAT_FILES):
             self.assertTrue(path.is_file(), msg=str(path))
