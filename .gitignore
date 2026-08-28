@@ -14,6 +14,10 @@ book_analysis/summaries/*_interval_*
 __pycache__/
 *.pyc
 .pytest_cache/
+.venv/
+
+# Upload tokens and run logs
+book_analysis/logs/
 
 # Environment
 .env

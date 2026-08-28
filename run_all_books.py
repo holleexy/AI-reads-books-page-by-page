@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Batch process all Kindle PDFs with GLM 5.1 — parallel book processing."""
+"""Batch process all Kindle PDFs with xAI Grok — parallel book processing."""
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 import os

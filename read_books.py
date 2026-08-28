@@ -2,7 +2,8 @@ from pathlib import Path
 from dataclasses import dataclass
 from pydantic import BaseModel
 import json
-import anthropic
+import openai
+from openai import OpenAI
 import os
 import time
 import hashlib
@@ -10,9 +11,19 @@ import fitz  # PyMuPDF
 from termcolor import colored
 from datetime import datetime
 import shutil
+import tempfile
+from dotenv import load_dotenv
+import xai_oauth
+import book_cli
 
-ZAI_BASE_URL = "https://api.z.ai/api/anthropic"
+load_dotenv()
+
+# Cursor の Grok と同じ系統。xAI キーがあれば api.x.ai、無ければ Cursor Agent SDK。
+BASE_URL = os.environ.get("XAI_BASE_URL", "https://api.x.ai/v1")
+PRIMARY_MODEL = os.environ.get("XAI_MODEL", "grok-4.6")
+FALLBACK_MODEL = os.environ.get("XAI_FALLBACK_MODEL", "grok-4.5")
 SAVE_INTERVAL = 10
+CURSOR_BASE_URL = "https://api.cursor.com/v1"
 
 SYSTEM_PROMPT_EXTRACT = """Analyze this page as if you're studying from a book.
 
@@ -65,8 +76,8 @@ Return only the markdown summary, nothing else. Do not say 'here is the summary'
 class BookConfig:
     pdf_path: Path
     base_dir: Path = Path("book_analysis")
-    model: str = "glm-5.1"
-    analysis_model: str = "glm-5.1"
+    model: str = PRIMARY_MODEL
+    analysis_model: str = PRIMARY_MODEL
     analysis_interval: int | None = 20
     test_pages: int | None = 60
     start_page: int = 0
@@ -106,6 +117,15 @@ class PageContent(BaseModel):
     knowledge: list[str]
 
 
+@dataclass
+class LlmClient:
+    provider: str
+    base_url: str
+    openai: OpenAI | None = None
+    cursor_api_key: str | None = None
+    auth_mode: str = "api_key"
+
+
 # --- T4: Atomic file write helpers ---
 
 def atomic_write_json(path: Path, data):
@@ -142,17 +162,77 @@ def should_skip_locally(page_text: str) -> bool:
     return False
 
 
-# --- T1: API retry helper with response guard ---
+# --- T1: API retry helper with response guard + model fallback ---
 
-def call_api(client: anthropic.Anthropic, *, max_retries: int = 3, **kwargs) -> str:
+_CURSOR_CWD: Path | None = None
+
+
+def _cursor_workspace() -> str:
+    global _CURSOR_CWD
+    if _CURSOR_CWD is None:
+        _CURSOR_CWD = Path(tempfile.mkdtemp(prefix="book-llm-"))
+    return str(_CURSOR_CWD)
+
+
+def _is_rate_limited(exc: Exception) -> bool:
+    msg = str(exc).lower()
+    return "cooling" in msg or "rate_limit" in msg or "cooldown" in msg
+
+
+def _flatten_messages(system: str | None, messages: list) -> str:
+    parts: list[str] = []
+    if system:
+        parts.append(f"SYSTEM:\n{system}")
+    for item in messages:
+        role = str(item.get("role", "user")).upper()
+        parts.append(f"{role}:\n{item.get('content', '')}")
+    parts.append("Reply with the answer only. Do not use tools. Do not edit files.")
+    return "\n\n".join(parts)
+
+
+def _call_cursor(client: "LlmClient", *, model: str, system: str | None, messages: list) -> str:
+    from cursor_sdk import Agent, AgentOptions, LocalAgentOptions
+
+    result = Agent.prompt(
+        _flatten_messages(system, messages),
+        AgentOptions(
+            model=model,
+            api_key=client.cursor_api_key,
+            local=LocalAgentOptions(cwd=_cursor_workspace()),
+        ),
+    )
+    text = getattr(result, "result", None)
+    if callable(text):
+        text = text()
+    if not text:
+        raise ValueError("Empty response from Cursor")
+    return str(text)
+
+
+def call_api(client: LlmClient, *, max_retries: int = 3, model: str,
+             system: str | None = None, messages: list, max_tokens: int = 2048) -> str:
+    chat_messages = ([{"role": "system", "content": system}] if system else []) + messages
+    use_model = model
     for attempt in range(max_retries):
         try:
-            message = client.messages.create(**kwargs)
-            if not message.content or message.content[0].type != "text":
-                raise ValueError("Empty or non-text response from API")
-            return message.content[0].text
-        except (anthropic.APIError, anthropic.APIConnectionError,
-                anthropic.RateLimitError, ValueError) as e:
+            if client.provider == "cursor":
+                content = _call_cursor(
+                    client, model=use_model, system=system, messages=messages)
+            else:
+                if client.openai is None:
+                    raise RuntimeError("xAI client is not initialized")
+                completion = client.openai.chat.completions.create(
+                    model=use_model, max_tokens=max_tokens, messages=chat_messages)
+                content = completion.choices[0].message.content
+            if not content:
+                raise ValueError("Empty response from API")
+            return content
+        except Exception as e:
+            if client.provider == "xai" and not isinstance(e, (openai.APIError, ValueError)):
+                raise
+            if use_model == PRIMARY_MODEL and _is_rate_limited(e):
+                use_model = FALLBACK_MODEL
+                print(colored(f"  Primary rate-limited, switching to {use_model}", "yellow"))
             if attempt == max_retries - 1:
                 raise
             wait = 2 ** (attempt + 1)
@@ -160,11 +240,38 @@ def call_api(client: anthropic.Anthropic, *, max_retries: int = 3, **kwargs) -> 
             time.sleep(wait)
 
 
-def create_client() -> anthropic.Anthropic:
-    api_key = os.environ.get("ZAI_API_KEY")
-    if not api_key:
-        raise RuntimeError("ZAI_API_KEY is not set")
-    return anthropic.Anthropic(api_key=api_key, base_url=ZAI_BASE_URL)
+def create_client() -> LlmClient:
+    xai_key = os.environ.get("XAI_API_KEY")
+    if xai_key:
+        return LlmClient(
+            provider="xai",
+            base_url=BASE_URL,
+            openai=OpenAI(api_key=xai_key, base_url=BASE_URL),
+            auth_mode="api_key",
+        )
+    try:
+        oauth_token = xai_oauth.resolve_access_token()
+    except xai_oauth.XaiOAuthError as exc:
+        print(colored(f"xAI OAuth failed: {exc}", "yellow"))
+        oauth_token = None
+    if oauth_token:
+        return LlmClient(
+            provider="xai",
+            base_url=BASE_URL,
+            openai=OpenAI(api_key=oauth_token, base_url=BASE_URL),
+            auth_mode="oauth",
+        )
+    cursor_key = os.environ.get("CURSOR_API_KEY")
+    if cursor_key:
+        return LlmClient(
+            provider="cursor",
+            base_url=CURSOR_BASE_URL,
+            cursor_api_key=cursor_key,
+            auth_mode="cursor",
+        )
+    raise RuntimeError(
+        "XAI_API_KEY, xAI OAuth (Hermes auth.json), or CURSOR_API_KEY is not set"
+    )
 
 
 def save_knowledge_base(knowledge_base: list[str], config: BookConfig):
@@ -173,7 +280,7 @@ def save_knowledge_base(knowledge_base: list[str], config: BookConfig):
 
 # --- T2: Parse retry with failed-page tracking ---
 
-def process_page(client: anthropic.Anthropic, page_text: str, knowledge: list[str], page_num: int, config: BookConfig) -> list[str] | None:
+def process_page(client: LlmClient, page_text: str, knowledge: list[str], page_num: int, config: BookConfig) -> list[str] | None:
     """Process a single page. Returns updated knowledge list, or None if all parse retries failed."""
     if should_skip_locally(page_text):
         print(colored(f"  Skipping page {page_num + 1} (local heuristic)", "yellow"))
@@ -227,7 +334,7 @@ def load_existing_knowledge(config: BookConfig) -> list[str]:
     return []
 
 
-def analyze_knowledge_base(client: anthropic.Anthropic, knowledge_base: list[str], config: BookConfig) -> str:
+def analyze_knowledge_base(client: LlmClient, knowledge_base: list[str], config: BookConfig) -> str:
     if not knowledge_base:
         print(colored("\nSkipping analysis: No knowledge points collected", "yellow"))
         return ""
@@ -264,7 +371,7 @@ Generated on: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
 {summary}
 
 ---
-*Analysis generated using AI Book Analysis Tool (GLM 5.1)*
+*Analysis generated using AI Book Analysis Tool*
 """
 
     print(colored(f"\nSaving {kind} analysis to markdown...", "cyan"))
@@ -309,7 +416,7 @@ def resolve_pdf_destination(config: BookConfig) -> Path:
     return dest_pdf
 
 
-def process_book(client: anthropic.Anthropic, config: BookConfig):
+def process_book(client: LlmClient, config: BookConfig):
     """Main processing loop for a single book."""
     ensure_directories(config)
     dest_pdf = resolve_pdf_destination(config)
@@ -390,23 +497,27 @@ def process_book(client: anthropic.Anthropic, config: BookConfig):
         print(colored(f"  Warning: {len(failed_pages)} pages failed: {failed_pages}", "yellow"))
 
 
-def main():
-    print(colored("""
-PDF Book Analysis Tool (GLM 5.1)
----------------------------
-Place your PDF in the same directory, then update PDF_NAME below.
-Press Enter to continue or Ctrl+C to exit...
-""", "cyan"))
+def main(argv: list[str] | None = None):
     try:
-        input()
-    except KeyboardInterrupt:
-        print(colored("\nCancelled.", "red"))
-        return
+        args = book_cli.parse_args(argv)
+        pdfs = book_cli.resolve_pdf_paths(args.pdfs)
+    except (FileNotFoundError, ValueError) as exc:
+        print(colored(str(exc), "red"))
+        raise SystemExit(1) from exc
 
-    pdf_name = "meditations.pdf"
-    config = BookConfig(pdf_path=Path(pdf_name), test_pages=60)
+    options = book_cli.run_options_from_args(args)
+    print(colored("PDF Book Analysis Tool (xAI Grok)", "cyan"))
+    for pdf in pdfs:
+        print(colored(f"  {pdf}", "white"))
+
     client = create_client()
-    process_book(client, config)
+    for pdf in pdfs:
+        config = BookConfig(
+            pdf_path=pdf,
+            test_pages=options.test_pages,
+            analysis_interval=options.analysis_interval,
+        )
+        process_book(client, config)
 
 
 if __name__ == "__main__":
