@@ -45,12 +45,13 @@ param(
     [ValidateSet("Right", "Left")]
     [string]$Direction = "Right",
     [ValidateSet("Key", "Click", "Both")]
-    [string]$TurnMethod = "Key",
+    [string]$TurnMethod = "Both",
     [string]$Keys = "",
     [int]$StartDelaySec = 5,
-    [int]$IntervalMs = 1200,
+    [int]$IntervalMs = 2000,
+    [int]$RenderWaitMs = 400,
     [int]$MaxPages = 2500,
-    [int]$StopOnDuplicate = 3,
+    [int]$StopOnDuplicate = 4,
     [string]$Crop = "0,0,0,0",
     [switch]$ListWindows,
     [switch]$CopyFromScreen,
@@ -130,9 +131,17 @@ public static class KindleWin {
     public const uint SRCCOPY = 0x00CC0020;
     public const uint MOUSEEVENTF_LEFTDOWN = 0x0002;
     public const uint MOUSEEVENTF_LEFTUP = 0x0004;
+    public const uint MOUSEEVENTF_WHEEL = 0x0800;
     public const uint KEYEVENTF_KEYUP = 0x0002;
+    public const uint WM_KEYDOWN = 0x0100;
+    public const uint WM_KEYUP = 0x0101;
     public const byte VK_LEFT = 0x25;
+    public const byte VK_UP = 0x26;
     public const byte VK_RIGHT = 0x27;
+    public const byte VK_DOWN = 0x28;
+    public const byte VK_PRIOR = 0x21;
+    public const byte VK_NEXT = 0x22;
+    public const byte VK_SPACE = 0x20;
     public const int FP_SIZE = 32;
 
     [StructLayout(LayoutKind.Sequential)]
@@ -151,6 +160,7 @@ public static class KindleWin {
     [DllImport("kernel32.dll")] public static extern uint GetCurrentThreadId();
     [DllImport("user32.dll")] public static extern bool AttachThreadInput(uint idAttach, uint idAttachTo, bool fAttach);
     [DllImport("user32.dll")] public static extern void keybd_event(byte bVk, byte bScan, uint dwFlags, UIntPtr dwExtraInfo);
+    [DllImport("user32.dll")] public static extern bool PostMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);
     [DllImport("user32.dll")] public static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
     [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr hWnd, out RECT lpRect);
     [DllImport("user32.dll")] public static extern bool PrintWindow(IntPtr hwnd, IntPtr hdcBlt, uint nFlags);
@@ -210,12 +220,6 @@ public static class KindleWin {
         }
     }
 
-    public static void SendTurnKey(bool nextOnRight) {
-        byte vk = nextOnRight ? VK_RIGHT : VK_LEFT;
-        keybd_event(vk, 0, 0, UIntPtr.Zero);
-        keybd_event(vk, 0, KEYEVENTF_KEYUP, UIntPtr.Zero);
-    }
-
     public static RECT GetCaptureRect(IntPtr hwnd) {
         RECT r;
         int size = Marshal.SizeOf(typeof(RECT));
@@ -227,17 +231,43 @@ public static class KindleWin {
         return r;
     }
 
-    public static void ClickTurnSide(IntPtr hwnd, bool nextOnRight) {
+    public static void ClickAt(IntPtr hwnd, double fx, double fy) {
         RECT r = GetCaptureRect(hwnd);
         int width = r.Right - r.Left;
         int height = r.Bottom - r.Top;
-        int x = nextOnRight
-            ? r.Left + (int)(width * 0.94)
-            : r.Left + (int)(width * 0.06);
-        int y = r.Top + (int)(height * 0.50);
+        int x = r.Left + (int)(width * fx);
+        int y = r.Top + (int)(height * fy);
         SetCursorPos(x, y);
         mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, UIntPtr.Zero);
         mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, UIntPtr.Zero);
+    }
+
+    public static void ClickTurnSide(IntPtr hwnd, bool nextOnRight) {
+        ClickAt(hwnd, nextOnRight ? 0.94 : 0.06, 0.50);
+    }
+
+    public static void WheelAt(IntPtr hwnd, double fx, double fy, int delta) {
+        RECT r = GetCaptureRect(hwnd);
+        int width = r.Right - r.Left;
+        int height = r.Bottom - r.Top;
+        int x = r.Left + (int)(width * fx);
+        int y = r.Top + (int)(height * fy);
+        SetCursorPos(x, y);
+        mouse_event(MOUSEEVENTF_WHEEL, 0, 0, unchecked((uint)delta), UIntPtr.Zero);
+    }
+
+    public static void TapKey(byte vk) {
+        keybd_event(vk, 0, 0, UIntPtr.Zero);
+        keybd_event(vk, 0, KEYEVENTF_KEYUP, UIntPtr.Zero);
+    }
+
+    public static void SendTurnKey(bool nextOnRight) {
+        TapKey(nextOnRight ? VK_RIGHT : VK_LEFT);
+    }
+
+    public static void PostKey(IntPtr hwnd, int vk) {
+        PostMessage(hwnd, WM_KEYDOWN, (IntPtr)vk, IntPtr.Zero);
+        PostMessage(hwnd, WM_KEYUP, (IntPtr)vk, IntPtr.Zero);
     }
 
     public static Bitmap CaptureRect(int left, int top, int w, int h) {
@@ -530,21 +560,18 @@ Write-Host ("Target: pid={0} name={1} title={2}" -f $win.Id, $win.ProcessName, $
 Write-Host ("Output: {0}" -f $OutDir)
 Write-Host ("Turn: direction={0} keys={1} method={2}" -f $Direction, $Keys, $TurnMethod)
 Write-Host ("Display: physical={0}x{1} logical={2}x{3} dpiAware={4}" -f $phys[0], $phys[1], $phys[2], $phys[3], $dpiOk)
-Write-Host ("Capture: {0}; stop when the same page content repeats {1} times." -f ($(if ($FullScreen) { "full screen" } else { "Kindle window" }), $StopOnDuplicate))
+Write-Host ("Capture: {0}; retry turns until page content changes, then stop after {1} full ladders." -f ($(if ($FullScreen) { "full screen" } else { "Kindle window" }), $StopOnDuplicate))
 Write-Host ("Focus Kindle, wait {0}s, then capture starts. Ctrl+C to stop." -f $StartDelaySec)
 
 [KindleWin]::FocusWindow($hwnd)
 Start-Sleep -Seconds $StartDelaySec
 
-$useScreen = $true
+$script:useScreen = $true
 if (-not $CopyFromScreen) {
     # Default is screen copy so GPU-composited Kindle pages are complete.
-    $useScreen = $true
+    $script:useScreen = $true
 }
-$prevFp = $null
-$streak = 0
-$page = 0
-$saved = 0
+$peekPath = Join-Path $OutDir "_peek.png"
 $consoleHwnd = [KindleWin]::GetConsoleWindow()
 $hidConsole = $false
 if ($FullScreen -and ($consoleHwnd -ne [IntPtr]::Zero)) {
@@ -552,70 +579,152 @@ if ($FullScreen -and ($consoleHwnd -ne [IntPtr]::Zero)) {
     $hidConsole = $true
 }
 
-try { while ($page -lt $MaxPages) {
-    $page++
+function Get-KindleFrameFingerprint {
     [KindleWin]::FocusWindow($hwnd)
-    Start-Sleep -Milliseconds 150
-
-    $bmp = Get-PageBitmap $hwnd $useScreen $phys
+    $bmp = Get-PageBitmap $hwnd $script:useScreen $phys
     try {
         $cropped = [KindleWin]::Crop($bmp, $cropVals[0], $cropVals[1], $cropVals[2], $cropVals[3])
     } finally {
         $bmp.Dispose()
     }
+    $fp = [KindleWin]::ContentFingerprint($cropped)
+    $cropped.Save($peekPath, [System.Drawing.Imaging.ImageFormat]::Png)
+    $cropped.Dispose()
+    return $fp
+}
 
-    if ($page -eq 1) {
-        Write-Host ("First frame: {0}x{1}" -f $cropped.Width, $cropped.Height)
-        if ($phys[0] -gt ($phys[2] + 10) -and $cropped.Width -le $phys[2]) {
+function Get-StableKindleFingerprint {
+    $f1 = Get-KindleFrameFingerprint
+    $tries = 0
+    while ($tries -lt 8) {
+        Start-Sleep -Milliseconds $RenderWaitMs
+        $f2 = Get-KindleFrameFingerprint
+        if ([KindleWin]::FingerprintsMatch($f1, $f2)) {
+            return $f1
+        }
+        $f1 = $f2
+        $tries++
+    }
+    return $f1
+}
+
+function Invoke-KindleAdvance([string]$method) {
+    [KindleWin]::FocusWindow($hwnd)
+    Start-Sleep -Milliseconds 80
+    $side = 0.94
+    if (-not $nextOnRight) {
+        $side = 0.06
+    }
+    $vkArrow = [byte]0x27
+    $vkPage = [byte]0x22
+    $vkVert = [byte]0x28
+    $vkPostArrow = 0x27
+    $vkPostPage = 0x22
+    $wheel = -360
+    if (-not $nextOnRight) {
+        $vkArrow = [byte]0x25
+        $vkPage = [byte]0x21
+        $vkVert = [byte]0x26
+        $vkPostArrow = 0x25
+        $vkPostPage = 0x21
+        $wheel = 360
+    }
+    switch ($method) {
+        "arrow-key" {
+            if (($Keys -eq "{RIGHT}") -or ($Keys -eq "{LEFT}")) {
+                [KindleWin]::SendTurnKey($nextOnRight)
+            } else {
+                [System.Windows.Forms.SendKeys]::SendWait($Keys)
+            }
+        }
+        "page-key" { [KindleWin]::TapKey($vkPage) }
+        "arrow-post" { [KindleWin]::PostKey($hwnd, $vkPostArrow) }
+        "page-post" { [KindleWin]::PostKey($hwnd, $vkPostPage) }
+        "space" { [KindleWin]::TapKey([byte]0x20) }
+        "line" {
+            [KindleWin]::TapKey($vkVert)
+            [KindleWin]::TapKey($vkVert)
+        }
+        "focus" { [KindleWin]::ClickAt($hwnd, 0.50, 0.55) }
+        "focus-arrow" {
+            [KindleWin]::ClickAt($hwnd, 0.50, 0.55)
+            Start-Sleep -Milliseconds 80
+            [KindleWin]::TapKey($vkArrow)
+        }
+        "click-side" { [KindleWin]::ClickAt($hwnd, $side, 0.50) }
+        "click-low" { [KindleWin]::ClickAt($hwnd, $side, 0.66) }
+        "click-high" { [KindleWin]::ClickAt($hwnd, $side, 0.38) }
+        "wheel" { [KindleWin]::WheelAt($hwnd, 0.50, 0.55, $wheel) }
+    }
+}
+
+$methods = @("arrow-key", "page-key", "arrow-post", "page-post", "space", "line", "focus-arrow", "click-side", "wheel", "click-low", "click-high")
+if ($TurnMethod -eq "Key") {
+    $methods = @("arrow-key", "page-key", "arrow-post", "page-post", "line", "space")
+}
+if ($TurnMethod -eq "Click") {
+    $methods = @("focus", "click-side", "click-low", "click-high", "wheel")
+}
+
+$page = 0
+try {
+    $fp = Get-StableKindleFingerprint
+    $page = 1
+    $path = Join-Path $OutDir ("{0:D4}.png" -f $page)
+    Copy-Item -Force $peekPath $path
+    $peekBmp = New-Object System.Drawing.Bitmap $peekPath
+    try {
+        Write-Host ("First frame: {0}x{1}" -f $peekBmp.Width, $peekBmp.Height)
+        if ($phys[0] -gt ($phys[2] + 10) -and $peekBmp.Width -le $phys[2]) {
             Write-Host "WARNING: capture width still matches logical pixels; page may be cropped."
         }
+    } finally {
+        $peekBmp.Dispose()
     }
+    Write-Host ("page {0}: saved {1}" -f $page, $path)
+    $stalls = 0
 
-    $fp = [KindleWin]::ContentFingerprint($cropped)
-    $similar = ($null -ne $prevFp) -and [KindleWin]::FingerprintsMatch($prevFp, $fp)
-    if ($similar) {
-        $streak++
-    } else {
-        $streak = 1
-        $prevFp = $fp
-    }
-
-    $path = Join-Path $OutDir ("{0:D4}.png" -f $page)
-    $cropped.Save($path, [System.Drawing.Imaging.ImageFormat]::Png)
-    $cropped.Dispose()
-    $saved++
-
-    if ($similar) {
-        Write-Host ("page {0}: same content {1}/{2} {3}" -f $page, $streak, $StopOnDuplicate, $path)
-        if (($StopOnDuplicate -gt 0) -and ($streak -ge $StopOnDuplicate)) {
-            Write-Host "Same image repeated; treating as end of book."
-            break
+    while ($page -lt $MaxPages) {
+        $moved = $false
+        foreach ($method in $methods) {
+            Invoke-KindleAdvance $method
+            $wait = $IntervalMs
+            if ($stalls -gt 0) {
+                $wait = $IntervalMs + (400 * $stalls)
+            }
+            Start-Sleep -Milliseconds $wait
+            $nextFp = Get-StableKindleFingerprint
+            if (-not [KindleWin]::FingerprintsMatch($fp, $nextFp)) {
+                $fp = $nextFp
+                $moved = $true
+                $stalls = 0
+                Write-Host ("advanced with {0}" -f $method)
+                break
+            }
+            Write-Host ("no change after {0}; trying another turn" -f $method)
         }
-    } else {
+        if (-not $moved) {
+            $stalls++
+            Write-Host ("still the same page after a full turn ladder ({0}/{1})" -f $stalls, $StopOnDuplicate)
+            if (($StopOnDuplicate -gt 0) -and ($stalls -ge $StopOnDuplicate)) {
+                Write-Host "Page did not change after retries; treating as end of book."
+                break
+            }
+            continue
+        }
+        $page++
+        $path = Join-Path $OutDir ("{0:D4}.png" -f $page)
+        Copy-Item -Force $peekPath $path
         Write-Host ("page {0}: saved {1}" -f $page, $path)
     }
-
-    [KindleWin]::FocusWindow($hwnd)
-    if ($TurnMethod -eq "Key" -or $TurnMethod -eq "Both") {
-        if (($Keys -eq "{RIGHT}") -or ($Keys -eq "{LEFT}")) {
-            [KindleWin]::SendTurnKey($nextOnRight)
-        } else {
-            [System.Windows.Forms.SendKeys]::SendWait($Keys)
-        }
-    }
-    # Skip click on a repeated page. Kindle toggles chrome on tap, which
-    # used to make SHA256 hashes alternate so the 3-page stop never fired.
-    if (-not $similar -and ($TurnMethod -eq "Click" -or $TurnMethod -eq "Both")) {
-        [KindleWin]::ClickTurnSide($hwnd, $nextOnRight)
-    }
-    Start-Sleep -Milliseconds $IntervalMs
-} } finally {
+} finally {
+    Remove-Item -Force -ErrorAction SilentlyContinue $peekPath
     if ($hidConsole) {
         [KindleWin]::ShowWindow($consoleHwnd, 9) | Out-Null
     }
 }
 
-Write-Host ("Done. {0} files in {1}" -f $saved, $OutDir)
+Write-Host ("Done. {0} files in {1}" -f $page, $OutDir)
 Write-Host "Next: copy the folder to Linux, then images_to_pdf.py and ocrmypdf."
 '''
 

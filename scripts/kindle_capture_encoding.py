@@ -103,6 +103,9 @@ def assert_ps1(path: Path) -> None:
             "SendTurnKey",
             "AttachThreadInput",
             "SelfTest",
+            "Invoke-KindleAdvance",
+            "TapKey",
+            "Get-StableKindleFingerprint",
         ):
             if token not in text:
                 raise CheckError(f"{path}: missing {token}")
