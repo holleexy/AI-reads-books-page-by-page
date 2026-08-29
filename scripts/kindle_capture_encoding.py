@@ -92,10 +92,23 @@ def assert_ps1(path: Path) -> None:
             raise CheckError(f"{path}: missing $env:OS Windows check")
         if "$found =" not in text:
             raise CheckError(f"{path}: Resolve-KindleWindow must not use $matches")
-        if "Invoke-KindleAdvance" not in text:
-            raise CheckError(f"{path}: missing page-turn retry ladder")
-        if "TapKey" not in text:
-            raise CheckError(f"{path}: missing TapKey page-turn fallback")
+        for token in (
+            "KindleDpi",
+            "SetProcessDpiAwarenessContext",
+            "CapturePhysicalScreen",
+            "ContentFingerprint",
+            "FingerprintsMatch",
+            "FocusWindow",
+            "GetConsoleWindow",
+            "SendTurnKey",
+            "AttachThreadInput",
+            "SelfTest",
+            "Invoke-KindleAdvance",
+            "TapKey",
+            "Get-StableKindleFingerprint",
+        ):
+            if token not in text:
+                raise CheckError(f"{path}: missing {token}")
 
 
 def assert_bat(path: Path) -> None:
