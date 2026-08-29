@@ -92,6 +92,20 @@ def assert_ps1(path: Path) -> None:
             raise CheckError(f"{path}: missing $env:OS Windows check")
         if "$found =" not in text:
             raise CheckError(f"{path}: Resolve-KindleWindow must not use $matches")
+        for token in (
+            "KindleDpi",
+            "SetProcessDpiAwarenessContext",
+            "CapturePhysicalScreen",
+            "ContentFingerprint",
+            "FingerprintsMatch",
+            "FocusWindow",
+            "GetConsoleWindow",
+            "SendTurnKey",
+            "AttachThreadInput",
+            "SelfTest",
+        ):
+            if token not in text:
+                raise CheckError(f"{path}: missing {token}")
 
 
 def assert_bat(path: Path) -> None:

@@ -54,6 +54,21 @@ class KindleLauncherTests(unittest.TestCase):
         for path in (*encoding.PS1_FILES, *encoding.BAT_FILES):
             self.assertTrue(path.is_file(), msg=str(path))
 
+    def test_capture_script_has_dpi_and_fuzzy_stop(self):
+        text = encoding.PS1_FILES[0].read_bytes()[len(encoding.UTF8_BOM) :].decode("ascii")
+        self.assertIn("SetProcessDpiAwarenessContext", text)
+        self.assertIn("CapturePhysicalScreen", text)
+        self.assertIn("ContentFingerprint", text)
+        self.assertIn("FingerprintsMatch", text)
+        self.assertIn("SendTurnKey", text)
+        self.assertIn('TurnMethod = "Key"', text)
+        self.assertIn("same content", text)
+        self.assertIn("-SelfTest", text)
+        self.assertIn("Kindle window", text)
+        self.assertIn("[switch]$FullScreen", text)
+        self.assertNotIn("[switch]$WindowOnly", text)
+        self.assertNotIn("$prevHash", text)
+
 
 if __name__ == "__main__":
     unittest.main()

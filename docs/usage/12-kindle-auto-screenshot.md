@@ -29,8 +29,12 @@ Windows でこのリポジトリを最新にしてから、**リポジトリ直�
 - `scripts/KindleCapture-Left.bat` … 左めくり一発
 
 コマンドを打つ必要はない。
-同じ画面が 3 回続いたら本の末尾とみなして止まる。
+同じページ内容が 3 回続いたら本の末尾とみなして止まる。
+ツールバーの表示／非表示だけの差は同一ページとして扱う。
 コンソールで `Ctrl+C` でも止められる。
+
+キャプチャは Kindle ウィンドウだけを、ディスプレイの物理解像度で撮る（200% 表示でも欠けない）。
+デスクトップ全体が欲しいときは `-FullScreen` を付ける。
 
 詳細な引数が必要なときだけ `kindle_capture.ps1` を直接呼ぶ。
 
@@ -40,14 +44,16 @@ Windows でこのリポジトリを最新にしてから、**リポジトリ直�
 | `-Title` | ウィンドウタイトルの部分一致。既定 `Kindle` |
 | `-ProcessName` | プロセス名の部分一致。既定 `Kindle` |
 | `-Direction` | `Right` で右めくり、`Left` で左めくり。既定 `Right` |
-| `-TurnMethod` | `Key` / `Click` / `Both`。既定 `Both`（キーとめくり側クリック） |
+| `-TurnMethod` | `Key` / `Click` / `Both`。既定 `Key`（右／左キーだけ。クリックは図や全画面ボタンを踏みやすい） |
 | `-Keys` | 省略時は Direction に従い `{RIGHT}` または `{LEFT}` |
 | `-StartDelaySec` | 開始前の待ち秒 |
 | `-IntervalMs` | めくり後の待ち。描画が遅いときは増やす |
 | `-MaxPages` | 安全上限。既定 2500 |
-| `-StopOnDuplicate` | 同一画像が続いたら終了。既定 3 |
+| `-StopOnDuplicate` | 本文が同じページが続いたら終了。既定 3。0 で無効 |
 | `-Crop` | 左,上,右,下 の余白ピクセル。ツールバーを落とす |
-| `-CopyFromScreen` | PrintWindow が真っ黒なときの画面コピー |
+| `-CopyFromScreen` | 互換用。既定で画面コピーする |
+| `-FullScreen` | Kindle ウィンドウではなく、そのディスプレイ全体を撮る |
+| `-SelfTest` | DPI と同一ページ判定の自己診断。Kindle は不要 |
 
 出力は `0001.png`, `0002.png`, … である。
 
