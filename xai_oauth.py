@@ -247,7 +247,7 @@ def persist_tokens(
     _write_store(path, store)
 
 
-def resolve_access_token() -> str | None:
+def resolve_access_token(*, force_refresh: bool = False) -> str | None:
     if oauth_disabled():
         return None
     for path in candidate_auth_files():
@@ -262,9 +262,10 @@ def resolve_access_token() -> str | None:
         creds = iter_credentials(store)
         if not creds:
             continue
-        for cred in creds:
-            if not access_token_needs_refresh(cred["access"]):
-                return cred["access"]
+        if not force_refresh:
+            for cred in creds:
+                if not access_token_needs_refresh(cred["access"]):
+                    return cred["access"]
         for cred in creds:
             try:
                 payload = refresh_tokens(
@@ -281,5 +282,7 @@ def resolve_access_token() -> str | None:
                 pool_index=cred["pool_index"],
             )
             return payload["access_token"]
+        if force_refresh:
+            return None
         return creds[0]["access"]
     return None

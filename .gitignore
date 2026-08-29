@@ -1,5 +1,6 @@
 # Source PDFs (too large for git)
 kindle_pdfs/
+kindle_pages/
 book_analysis/pdfs/
 *.pdf
 
@@ -15,6 +16,7 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .venv/
+.ocr-deps/
 
 # Upload tokens and run logs
 book_analysis/logs/

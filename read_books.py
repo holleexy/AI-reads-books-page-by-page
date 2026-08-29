@@ -179,6 +179,27 @@ def _is_rate_limited(exc: Exception) -> bool:
     return "cooling" in msg or "rate_limit" in msg or "cooldown" in msg
 
 
+def _is_auth_error(exc: Exception) -> bool:
+    name = type(exc).__name__.lower()
+    msg = str(exc).lower()
+    if "authentication" in name or "permissiondenied" in name:
+        return True
+    return any(
+        token in msg
+        for token in ("unauthenticated", "bad-credentials", "invalid_api_key", "unauthorized")
+    )
+
+
+def _refresh_oauth_client(client: LlmClient) -> bool:
+    if client.provider != "xai" or client.auth_mode != "oauth":
+        return False
+    token = xai_oauth.resolve_access_token(force_refresh=True)
+    if not token:
+        return False
+    client.openai = OpenAI(api_key=token, base_url=client.base_url)
+    return True
+
+
 def _flatten_messages(system: str | None, messages: list) -> str:
     parts: list[str] = []
     if system:
@@ -233,9 +254,13 @@ def call_api(client: LlmClient, *, max_retries: int = 3, model: str,
             if use_model == PRIMARY_MODEL and _is_rate_limited(e):
                 use_model = FALLBACK_MODEL
                 print(colored(f"  Primary rate-limited, switching to {use_model}", "yellow"))
+            refreshed = False
+            if _is_auth_error(e) and _refresh_oauth_client(client):
+                refreshed = True
+                print(colored("  Refreshed xAI OAuth token, retrying...", "yellow"))
             if attempt == max_retries - 1:
                 raise
-            wait = 2 ** (attempt + 1)
+            wait = 1 if refreshed else 2 ** (attempt + 1)
             print(colored(f"  API error: {e}, retrying in {wait}s...", "yellow"))
             time.sleep(wait)
 
@@ -416,6 +441,20 @@ def resolve_pdf_destination(config: BookConfig) -> Path:
     return dest_pdf
 
 
+def pages_to_process(
+    *,
+    start_page: int,
+    end_page: int,
+    progress_last: int,
+    failed_pages: list[int],
+    summary_generated: bool,
+) -> tuple[list[int], bool]:
+    """Choose page indices. Retry failed pages after a finished scan without a summary."""
+    if failed_pages and not summary_generated and progress_last >= end_page > 0:
+        return sorted(set(failed_pages)), True
+    return list(range(start_page, end_page)), False
+
+
 def process_book(client: LlmClient, config: BookConfig):
     """Main processing loop for a single book."""
     ensure_directories(config)
@@ -423,16 +462,16 @@ def process_book(client: LlmClient, config: BookConfig):
 
     status = load_status(config)
     knowledge_base = load_existing_knowledge(config)
-    failed_pages: list[int] = status.get("failed_pages", [])
+    failed_pages: list[int] = list(status.get("failed_pages", []))
 
     # Resume support
     start_page = config.start_page
+    progress_last = 0
     if config.progress_file.exists():
         with open(config.progress_file, 'r') as f:
             progress = json.load(f)
-            start_page = max(start_page, progress.get("last_page", 0))
-        if start_page > 0:
-            print(colored(f"  Resuming from page {start_page + 1}", "yellow"))
+            progress_last = int(progress.get("last_page", 0) or 0)
+            start_page = max(start_page, progress_last)
 
     # T5: Track last analyzed index for interval delta
     last_analyzed_idx = 0
@@ -444,38 +483,55 @@ def process_book(client: LlmClient, config: BookConfig):
         status["pdf_pages"] = pdf_total
         status["test_mode"] = config.test_pages is not None
 
+        pages, retrying_failed = pages_to_process(
+            start_page=start_page,
+            end_page=end_page,
+            progress_last=progress_last,
+            failed_pages=failed_pages,
+            summary_generated=bool(status.get("summary_generated")),
+        )
+        if retrying_failed:
+            print(colored(f"  Retrying {len(pages)} failed pages (from page {pages[0] + 1})", "yellow"))
+            failed_pages = []
+        elif start_page > 0:
+            print(colored(f"  Resuming from page {start_page + 1}", "yellow"))
+
         print(colored(f"\nProcessing {end_page} pages...", "cyan"))
-        for page_num in range(start_page, end_page):
+        for index, page_num in enumerate(pages):
             page_text = pdf_document[page_num].get_text()
             result = process_page(client, page_text, knowledge_base, page_num, config)
 
             if result is None:
-                failed_pages.append(page_num)
+                if page_num not in failed_pages:
+                    failed_pages.append(page_num)
                 print(colored(f"  Page {page_num + 1} recorded as failed", "red"))
             else:
                 knowledge_base = result
+                if page_num in failed_pages:
+                    failed_pages.remove(page_num)
+
+            is_last = index + 1 == len(pages)
 
             # Periodic save
-            if (page_num + 1) % SAVE_INTERVAL == 0 or page_num + 1 == end_page:
+            if (page_num + 1) % SAVE_INTERVAL == 0 or is_last:
                 save_knowledge_base(knowledge_base, config)
                 atomic_write_json(config.progress_file, {"last_page": page_num + 1, "total_pages": end_page})
-                status["processed_pages"] = page_num + 1
+                status["processed_pages"] = max(int(status.get("processed_pages") or 0), page_num + 1)
                 status["failed_pages"] = failed_pages
                 save_status(status, config)
 
             # T5: Interval analysis with delta
             if config.analysis_interval:
                 is_interval = (page_num + 1) % config.analysis_interval == 0
-                is_final = page_num + 1 == end_page
-                if is_interval and not is_final:
+                if is_interval and not is_last:
                     print(colored(f"\n  Progress: {page_num + 1}/{end_page}", "cyan"))
                     delta = knowledge_base[last_analyzed_idx:]
                     summary = analyze_knowledge_base(client, delta, config)
                     save_summary(summary, config, is_final=False)
                     last_analyzed_idx = len(knowledge_base)
 
-            # Final analysis
-            if page_num + 1 == end_page:
+            # Final analysis only when every page succeeded
+            if is_last and not failed_pages:
                 print(colored(f"\n  Final page ({end_page}/{end_page})", "cyan"))
                 status["pages_extracted"] = True
                 save_status(status, config)
@@ -488,8 +544,17 @@ def process_book(client: LlmClient, config: BookConfig):
                 status["completed_at"] = datetime.now().isoformat()
                 save_status(status, config)
 
+        if not pages and not failed_pages and not status.get("summary_generated"):
+            print(colored(f"\n  Final page ({end_page}/{end_page})", "cyan"))
+            summary = analyze_knowledge_base(client, knowledge_base, config)
+            save_summary(summary, config, is_final=True)
+            status["pages_extracted"] = True
+            status["summary_generated"] = True
+            status["completed_at"] = datetime.now().isoformat()
+            save_status(status, config)
+
     # Cleanup progress file only after full completion
-    if config.progress_file.exists():
+    if status.get("summary_generated") and config.progress_file.exists():
         config.progress_file.unlink()
 
     print(colored("\nProcessing complete!", "green", attrs=['bold']))
