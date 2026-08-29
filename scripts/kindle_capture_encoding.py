@@ -92,6 +92,10 @@ def assert_ps1(path: Path) -> None:
             raise CheckError(f"{path}: missing $env:OS Windows check")
         if "$found =" not in text:
             raise CheckError(f"{path}: Resolve-KindleWindow must not use $matches")
+        if "Invoke-KindleAdvance" not in text:
+            raise CheckError(f"{path}: missing page-turn retry ladder")
+        if "TapKey" not in text:
+            raise CheckError(f"{path}: missing TapKey page-turn fallback")
 
 
 def assert_bat(path: Path) -> None:

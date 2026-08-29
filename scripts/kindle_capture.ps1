@@ -18,9 +18,10 @@ param(
     [string]$TurnMethod = "Both",
     [string]$Keys = "",
     [int]$StartDelaySec = 5,
-    [int]$IntervalMs = 1200,
+    [int]$IntervalMs = 2000,
+    [int]$RenderWaitMs = 400,
     [int]$MaxPages = 2500,
-    [int]$StopOnDuplicate = 3,
+    [int]$StopOnDuplicate = 4,
     [string]$Crop = "0,0,0,0",
     [switch]$ListWindows,
     [switch]$CopyFromScreen
@@ -84,21 +85,53 @@ public static class KindleWin {
 
     public const uint MOUSEEVENTF_LEFTDOWN = 0x0002;
     public const uint MOUSEEVENTF_LEFTUP = 0x0004;
+    public const uint MOUSEEVENTF_WHEEL = 0x0800;
+    public const uint KEYEVENTF_KEYUP = 0x0002;
+    public const uint WM_KEYDOWN = 0x0100;
+    public const uint WM_KEYUP = 0x0101;
 
-    public static void ClickTurnSide(IntPtr hwnd, bool nextOnRight) {
+    [DllImport("user32.dll")] public static extern void keybd_event(byte bVk, byte bScan, uint dwFlags, UIntPtr dwExtraInfo);
+    [DllImport("user32.dll")] public static extern bool PostMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);
+
+    public static void ClickAt(IntPtr hwnd, double fx, double fy) {
         RECT r;
         if (!GetWindowRect(hwnd, out r)) {
             throw new InvalidOperationException("GetWindowRect failed");
         }
         int width = r.Right - r.Left;
         int height = r.Bottom - r.Top;
-        int x = nextOnRight
-            ? r.Left + (int)(width * 0.88)
-            : r.Left + (int)(width * 0.12);
-        int y = r.Top + (int)(height * 0.50);
+        int x = r.Left + (int)(width * fx);
+        int y = r.Top + (int)(height * fy);
         SetCursorPos(x, y);
         mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, UIntPtr.Zero);
         mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, UIntPtr.Zero);
+    }
+
+    public static void ClickTurnSide(IntPtr hwnd, bool nextOnRight) {
+        ClickAt(hwnd, nextOnRight ? 0.90 : 0.10, 0.50);
+    }
+
+    public static void WheelAt(IntPtr hwnd, double fx, double fy, int delta) {
+        RECT r;
+        if (!GetWindowRect(hwnd, out r)) {
+            throw new InvalidOperationException("GetWindowRect failed");
+        }
+        int width = r.Right - r.Left;
+        int height = r.Bottom - r.Top;
+        int x = r.Left + (int)(width * fx);
+        int y = r.Top + (int)(height * fy);
+        SetCursorPos(x, y);
+        mouse_event(MOUSEEVENTF_WHEEL, 0, 0, unchecked((uint)delta), UIntPtr.Zero);
+    }
+
+    public static void TapKey(byte vk) {
+        keybd_event(vk, 0, 0, UIntPtr.Zero);
+        keybd_event(vk, 0, KEYEVENTF_KEYUP, UIntPtr.Zero);
+    }
+
+    public static void PostKey(IntPtr hwnd, int vk) {
+        PostMessage(hwnd, WM_KEYDOWN, (IntPtr)vk, IntPtr.Zero);
+        PostMessage(hwnd, WM_KEYUP, (IntPtr)vk, IntPtr.Zero);
     }
 
     public static Bitmap CaptureWindow(IntPtr hwnd, bool copyFromScreen) {
@@ -215,21 +248,16 @@ Write-Host ("Focus Kindle, wait {0}s, then capture starts. Ctrl+C to stop." -f $
 [KindleWin]::SetForegroundWindow($hwnd) | Out-Null
 Start-Sleep -Seconds $StartDelaySec
 
-$useScreen = [bool]$CopyFromScreen
-$prevHash = ""
-$dup = 0
-$page = 0
+$script:useScreen = [bool]$CopyFromScreen
+$peekPath = Join-Path $OutDir "_peek.png"
 
-while ($page -lt $MaxPages) {
-    $page++
+function Get-KindleFrameHash {
     [KindleWin]::SetForegroundWindow($hwnd) | Out-Null
-    Start-Sleep -Milliseconds 150
-
-    $bmp = [KindleWin]::CaptureWindow($hwnd, $useScreen)
+    $bmp = [KindleWin]::CaptureWindow($hwnd, $script:useScreen)
     try {
-        if (-not $useScreen -and [KindleWin]::MostlyBlack($bmp, 0.92)) {
+        if (-not $script:useScreen -and [KindleWin]::MostlyBlack($bmp, 0.92)) {
             Write-Host "PrintWindow looks black; switching to CopyFromScreen"
-            $useScreen = $true
+            $script:useScreen = $true
             $bmp.Dispose()
             $bmp = [KindleWin]::CaptureWindow($hwnd, $true)
         }
@@ -237,34 +265,124 @@ while ($page -lt $MaxPages) {
     } finally {
         $bmp.Dispose()
     }
-
-    $path = Join-Path $OutDir ("{0:D4}.png" -f $page)
-    $cropped.Save($path, [System.Drawing.Imaging.ImageFormat]::Png)
+    $cropped.Save($peekPath, [System.Drawing.Imaging.ImageFormat]::Png)
     $cropped.Dispose()
-
-    $hash = (Get-FileHash -Algorithm SHA256 -Path $path).Hash
-    if ($hash -eq $prevHash) {
-        $dup++
-        Write-Host ("page {0}: duplicate {1}/{2}" -f $page, $dup, $StopOnDuplicate)
-        if ($dup -ge $StopOnDuplicate) {
-            Write-Host "Same image repeated; treating as end of book."
-            break
-        }
-    } else {
-        $dup = 0
-        $prevHash = $hash
-        Write-Host ("page {0}: saved {1}" -f $page, $path)
-    }
-
-    [KindleWin]::SetForegroundWindow($hwnd) | Out-Null
-    if ($TurnMethod -eq "Key" -or $TurnMethod -eq "Both") {
-        [System.Windows.Forms.SendKeys]::SendWait($Keys)
-    }
-    if ($TurnMethod -eq "Click" -or $TurnMethod -eq "Both") {
-        [KindleWin]::ClickTurnSide($hwnd, $nextOnRight)
-    }
-    Start-Sleep -Milliseconds $IntervalMs
+    return (Get-FileHash -Algorithm SHA256 -Path $peekPath).Hash
 }
 
+function Get-StableKindleHash {
+    $h1 = Get-KindleFrameHash
+    $tries = 0
+    while ($tries -lt 8) {
+        Start-Sleep -Milliseconds $RenderWaitMs
+        $h2 = Get-KindleFrameHash
+        if ($h2 -eq $h1) {
+            return $h1
+        }
+        $h1 = $h2
+        $tries++
+    }
+    return $h1
+}
+
+function Invoke-KindleAdvance([string]$method) {
+    [KindleWin]::ShowWindow($hwnd, 9) | Out-Null
+    [KindleWin]::SetForegroundWindow($hwnd) | Out-Null
+    Start-Sleep -Milliseconds 80
+    $side = 0.90
+    if (-not $nextOnRight) {
+        $side = 0.10
+    }
+    $vkArrow = [byte]0x27
+    $vkPage = [byte]0x22
+    $vkVert = [byte]0x28
+    $vkPostArrow = 0x27
+    $vkPostPage = 0x22
+    $wheel = -360
+    if (-not $nextOnRight) {
+        $vkArrow = [byte]0x25
+        $vkPage = [byte]0x21
+        $vkVert = [byte]0x26
+        $vkPostArrow = 0x25
+        $vkPostPage = 0x21
+        $wheel = 360
+    }
+    switch ($method) {
+        "focus" { [KindleWin]::ClickAt($hwnd, 0.50, 0.55) }
+        "arrow-key" {
+            [KindleWin]::ClickAt($hwnd, 0.50, 0.55)
+            Start-Sleep -Milliseconds 80
+            [KindleWin]::TapKey($vkArrow)
+            [System.Windows.Forms.SendKeys]::SendWait($Keys)
+        }
+        "arrow-post" { [KindleWin]::PostKey($hwnd, $vkPostArrow) }
+        "page-key" {
+            [KindleWin]::ClickAt($hwnd, 0.50, 0.55)
+            Start-Sleep -Milliseconds 80
+            [KindleWin]::TapKey($vkPage)
+        }
+        "page-post" { [KindleWin]::PostKey($hwnd, $vkPostPage) }
+        "space" { [KindleWin]::TapKey([byte]0x20) }
+        "line" {
+            [KindleWin]::TapKey($vkVert)
+            [KindleWin]::TapKey($vkVert)
+        }
+        "click-side" { [KindleWin]::ClickAt($hwnd, $side, 0.50) }
+        "click-low" { [KindleWin]::ClickAt($hwnd, $side, 0.66) }
+        "click-high" { [KindleWin]::ClickAt($hwnd, $side, 0.38) }
+        "wheel" { [KindleWin]::WheelAt($hwnd, 0.50, 0.55, $wheel) }
+    }
+}
+
+$methods = @("focus", "arrow-key", "click-side", "page-key", "wheel", "click-low", "arrow-post", "page-post", "line", "space", "click-high")
+if ($TurnMethod -eq "Key") {
+    $methods = @("focus", "arrow-key", "page-key", "arrow-post", "page-post", "line", "space")
+}
+if ($TurnMethod -eq "Click") {
+    $methods = @("focus", "click-side", "click-low", "click-high", "wheel")
+}
+
+$hash = Get-StableKindleHash
+$page = 1
+$path = Join-Path $OutDir ("{0:D4}.png" -f $page)
+Copy-Item -Force $peekPath $path
+Write-Host ("page {0}: saved {1}" -f $page, $path)
+$stalls = 0
+
+while ($page -lt $MaxPages) {
+    $moved = $false
+    foreach ($method in $methods) {
+        Invoke-KindleAdvance $method
+        $wait = $IntervalMs
+        if ($stalls -gt 0) {
+            $wait = $IntervalMs + (400 * $stalls)
+        }
+        Start-Sleep -Milliseconds $wait
+        $nextHash = Get-StableKindleHash
+        if ($nextHash -ne $hash) {
+            $hash = $nextHash
+            $moved = $true
+            $stalls = 0
+            Write-Host ("advanced with {0}" -f $method)
+            break
+        }
+        Write-Host ("no change after {0}; trying another turn" -f $method)
+    }
+    if (-not $moved) {
+        $stalls++
+        Write-Host ("still the same page after a full turn ladder ({0}/{1})" -f $stalls, $StopOnDuplicate)
+        if ($stalls -ge $StopOnDuplicate) {
+            Write-Host "Page did not change after retries; treating as end of book."
+            break
+        }
+        continue
+    }
+    $page++
+    $path = Join-Path $OutDir ("{0:D4}.png" -f $page)
+    Copy-Item -Force $peekPath $path
+    Write-Host ("page {0}: saved {1}" -f $page, $path)
+}
+
+Remove-Item -Force -ErrorAction SilentlyContinue $peekPath
 Write-Host ("Done. {0} files in {1}" -f $page, $OutDir)
 Write-Host "Next: copy the folder to Linux, then images_to_pdf.py and ocrmypdf."
