@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/労務入門.ocr/">
+    <rdfs:label>労務入門.ocrOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">Illustrated introductory labor-affairs title such as 図解労務入門 100のツボ.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/Person">
+    <rdfs:label xml:lang="ja">人物</rdfs:label>
+    <rdfs:comment>Author, co-author, practitioner, worker, or manager.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/Organization">
+    <rdfs:label xml:lang="ja">組織</rdfs:label>
+    <rdfs:comment>Enterprise, workplace, union, or labor-standards office.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/HumanResources">
+    <rdfs:label xml:lang="ja">人事</rdfs:label>
+    <rdfs:comment xml:lang="ja">Domain of making people thrive in order to accomplish things (人を生かして事をなす).</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/LaborAffairs">
+    <rdfs:label xml:lang="ja">労務</rdfs:label>
+    <rdfs:comment>Defensive HR that fulfills labor obligations, protects workers, and underpins livelihood, order, and humanity of the firm.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/HumanResources"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/TalentManagement">
+    <rdfs:label xml:lang="ja">人材マネジメント</rdfs:label>
+    <rdfs:comment>Offensive HR that preferentially invests in selected talent for results.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/HumanResources"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/Worker">
+    <rdfs:label xml:lang="ja">労働者</rdfs:label>
+    <rdfs:comment>Person who provides labor and maintains internal order.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/Person"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/Employer">
+    <rdfs:label xml:lang="ja">使用者</rdfs:label>
+    <rdfs:comment>Enterprise obliged to protect workers under law.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/Organization"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/LaborObligation">
+    <rdfs:label xml:lang="ja">労働上の義務</rdfs:label>
+    <rdfs:comment>Mutual duties arising in labor: protection by the enterprise; labor and order by the worker.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/ConstituentElement">
+    <rdfs:label xml:lang="ja">労務の構成要素</rdfs:label>
+    <rdfs:comment>One of six elements: rules, hours and pay, life and health, employment, labor-management relations, labor-affairs system.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/EmploymentSystem">
+    <rdfs:label xml:lang="ja">雇用システム</rdfs:label>
+    <rdfs:comment>Society-wide employment model (membership-type or job-type).</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/MembershipTypeEmployment">
+    <rdfs:label xml:lang="ja">メンバーシップ型雇用</rdfs:label>
+    <rdfs:comment>Japanese model: mass new-graduate hiring, unlimited duties and location, long-term security, strict dismissal rules.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/EmploymentSystem"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/JobTypeEmployment">
+    <rdfs:label xml:lang="ja">ジョブ型雇用</rdfs:label>
+    <rdfs:comment>Post-defined employment with limited duties, consent for transfers, and higher mobility.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/EmploymentSystem"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/LaborRole">
+    <rdfs:label xml:lang="ja">労務の役割</rdfs:label>
+    <rdfs:comment>Holon role in labor affairs: OE, RM, or ST.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/OperationExcellence">
+    <rdfs:label>OE</rdfs:label>
+    <rdfs:comment>Foundational role: accurate timely processes (attendance, payroll, insurance, join/leave).</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/LaborRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/RuleMaster">
+    <rdfs:label>RM</rdfs:label>
+    <rdfs:comment xml:lang="ja">Central role: interpret labor law, work rules, and contracts; start from 就業規則に照らす.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/LaborRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/Strategist">
+    <rdfs:label>ST</rdfs:label>
+    <rdfs:comment>Transformer of working styles and rules using macro trends and Pain/Gain design.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/LaborRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/LegalInstrument">
+    <rdfs:label xml:lang="ja">法的規範</rdfs:label>
+    <rdfs:comment>Norm in the labor-law pyramid from Constitution down to guidelines.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/WorkRules">
+    <rdfs:label xml:lang="ja">就業規則</rdfs:label>
+    <rdfs:comment>Workplace-wide wage, hours and conditions with legal normative force; basis of labor judgments.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/LegalInstrument"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/LaborLaw">
+    <rdfs:label xml:lang="ja">労働法</rdfs:label>
+    <rdfs:comment>Collective name for statutes protecting unequal worker–employer relations (public and private law).</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/LegalInstrument"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/LaborContract">
+    <rdfs:label xml:lang="ja">個別労働契約</rdfs:label>
+    <rdfs:comment>Contract with a single worker; cannot undercut work-rule minimums.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/LegalInstrument"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/CollectiveAgreement">
+    <rdfs:label xml:lang="ja">労働協約</rdfs:label>
+    <rdfs:comment>Union–employer agreement applying to union members.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/LegalInstrument"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/LaborManagementAgreement">
+    <rdfs:label xml:lang="ja">労使協定</rdfs:label>
+    <rdfs:comment xml:lang="ja">Workplace agreement such as a 36 Agreement; distinct from 労働協約.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/労務入門.ocr/LegalInstrument"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/WorkingHours">
+    <rdfs:label xml:lang="ja">労働時間</rdfs:label>
+    <rdfs:comment>Time under employer command and supervision, including implicit overtime.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/HolidayOrLeave">
+    <rdfs:label xml:lang="ja">休日・休暇</rdfs:label>
+    <rdfs:comment xml:lang="ja">休日 (no labor obligation) versus 休暇 (exemption from a scheduled workday), including annual paid leave.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/Wage">
+    <rdfs:label xml:lang="ja">賃金</rdfs:label>
+    <rdfs:comment>Compensation subject to Art. 24 principles, minimum wage, and premium rates.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/WorkStyle">
+    <rdfs:label xml:lang="ja">働き方</rdfs:label>
+    <rdfs:comment>Flexible or hybrid (Workstyle 3.0) patterns of time, place, and affiliation.</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/労務入門.ocr/HistoricalEra">
+    <rdfs:label xml:lang="ja">歴史的時期</rdfs:label>
+    <rdfs:comment>Pre-war, wartime, post-war, high-growth, or modern period of Japanese labor.</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/authoredBy">
+    <rdfs:label xml:lang="ja">著者</rdfs:label>
+    <rdfs:comment>Primary or co-author of the book.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/Book"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/hasConstituentElement">
+    <rdfs:label xml:lang="ja">構成要素を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">Links 労務 to rules, hours/pay, life/health, employment, labor-management relations, or labor-affairs system.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/LaborAffairs"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/ConstituentElement"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/complementaryTo">
+    <rdfs:label xml:lang="ja">相互補完</rdfs:label>
+    <rdfs:comment xml:lang="ja">Neither 労務 nor talent management alone constitutes 人事.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/LaborAffairs"/>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/TalentManagement"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/LaborAffairs"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/TalentManagement"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/protects">
+    <rdfs:label xml:lang="ja">保護する</rdfs:label>
+    <rdfs:comment>Enterprise duty to protect workers under law.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/Employer"/>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/LaborAffairs"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/Worker"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/providesLabor">
+    <rdfs:label xml:lang="ja">労働を提供する</rdfs:label>
+    <rdfs:comment>Worker obligation to provide labor and keep order.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/Worker"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/Employer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/hasLaborRole">
+    <rdfs:label xml:lang="ja">労務役割を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">Practitioner role OE, RM, or ST; growth via 深化 or 進化.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/Person"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/LaborRole"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/transcendsAndIncludes">
+    <rdfs:label xml:lang="ja">超えて含む</rdfs:label>
+    <rdfs:comment>Holon nesting: ST includes RM includes OE; without OE everything collapses.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/LaborRole"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/LaborRole"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/employsUnder">
+    <rdfs:label xml:lang="ja">雇用システムで雇用する</rdfs:label>
+    <rdfs:comment>Membership-type or job-type practice, including work rules and contracts.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/Employer"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/EmploymentSystem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/governedBy">
+    <rdfs:label xml:lang="ja">規律される</rdfs:label>
+    <rdfs:comment>Subject to constitution, statutes, work rules, agreements, or contracts.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/LaborAffairs"/>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/Employer"/>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/WorkingHours"/>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/Wage"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/LegalInstrument"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/hasHigherNorm">
+    <rdfs:label xml:lang="ja">上位規範</rdfs:label>
+    <rdfs:comment xml:lang="ja">Hierarchy: 法令 → 労働協約 → 労使協定/就業規則 → 個別労働契約.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/LegalInstrument"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/LegalInstrument"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/労務入門.ocr/hasNormativeForce">
+    <rdfs:label xml:lang="ja">法的規範性</rdfs:label>
+    <rdfs:comment>Work rules apply even without individual knowledge or consent.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/WorkRules"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/overwritesContract">
+    <rdfs:label xml:lang="ja">最低基準効</rdfs:label>
+    <rdfs:comment>Contract terms below work-rule standards are invalid in that part.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/WorkRules"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/LaborContract"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/requiresAgreement">
+    <rdfs:label xml:lang="ja">協定を要する</rdfs:label>
+    <rdfs:comment>Overtime or statutory holiday work requires a 36 Agreement.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/WorkingHours"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/LaborManagementAgreement"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/commandedTime">
+    <rdfs:label xml:lang="ja">指揮命令下の時間</rdfs:label>
+    <rdfs:comment>Hours the worker is placed under employer supervision.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/Worker"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/WorkingHours"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/paidAs">
+    <rdfs:label xml:lang="ja">対価として支払われる</rdfs:label>
+    <rdfs:comment>Hours, overtime, night, holiday, and leave convert to wage and premiums.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/WorkingHours"/>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/HolidayOrLeave"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/Wage"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/evolvesWith">
+    <rdfs:label xml:lang="ja">時代とともに進化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">Meaning of living standards and 労務 change from post-war poverty to diversified COVID-era values.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/LaborAffairs"/>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/WorkStyle"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/HistoricalEra"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/労務入門.ocr/supportsWorkStyle">
+    <rdfs:label xml:lang="ja">働き方を支える</rdfs:label>
+    <rdfs:comment>Telework, side jobs, and hybrid career (Workstyle 3.0) grounded in company philosophy.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/LaborAffairs"/>
+    <rdfs:range rdf:resource="https://books.local/労務入門.ocr/WorkStyle"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/労務入門.ocr/title">
+    <rdfs:label xml:lang="ja">書名</rdfs:label>
+    <rdfs:comment>Title of the work.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/Book"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/労務入門.ocr/catchphrase">
+    <rdfs:label xml:lang="ja">ツボ・標語</rdfs:label>
+    <rdfs:comment xml:lang="ja">Key teaching such as 先手を打つ or 就業規則に照らす.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/LaborAffairs"/>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/LaborRole"/>
+    <rdfs:domain rdf:resource="https://books.local/労務入門.ocr/WorkRules"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

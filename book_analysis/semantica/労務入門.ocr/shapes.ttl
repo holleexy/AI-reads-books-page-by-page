@@ -1,0 +1,376 @@
+@prefix ex: <https://books.local/労務入門.ocr/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/労務入門.ocr/shapes> a owl:Ontology .
+
+<https://books.local/労務入門.ocr/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "Illustrated introductory labor-affairs title such as 図解労務入門 100のツボ." ;
+    sh:property [
+        sh:path ex:authoredBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:title ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人物" ;
+    sh:description "Author, co-author, practitioner, worker, or manager." ;
+    sh:property [
+        sh:path ex:hasLaborRole ;
+        sh:class ex:LaborRole ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "Enterprise, workplace, union, or labor-standards office." .
+
+<https://books.local/労務入門.ocr/HumanResourcesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HumanResources ;
+    sh:name "人事" ;
+    sh:description "Domain of making people thrive in order to accomplish things (人を生かして事をなす)." .
+
+<https://books.local/労務入門.ocr/LaborAffairsShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LaborAffairs ;
+    sh:name "労務" ;
+    sh:description "Defensive HR that fulfills labor obligations, protects workers, and underpins livelihood, order, and humanity of the firm." ;
+    sh:property [
+        sh:path ex:hasConstituentElement ;
+        sh:class ex:ConstituentElement ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:complementaryTo ;
+        sh:class ex:LaborAffairs ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:protects ;
+        sh:class ex:Worker ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:governedBy ;
+        sh:class ex:LegalInstrument ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:evolvesWith ;
+        sh:class ex:HistoricalEra ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportsWorkStyle ;
+        sh:class ex:WorkStyle ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:catchphrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/TalentManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TalentManagement ;
+    sh:name "人材マネジメント" ;
+    sh:description "Offensive HR that preferentially invests in selected talent for results." ;
+    sh:property [
+        sh:path ex:complementaryTo ;
+        sh:class ex:LaborAffairs ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/WorkerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Worker ;
+    sh:name "労働者" ;
+    sh:description "Person who provides labor and maintains internal order." ;
+    sh:property [
+        sh:path ex:providesLabor ;
+        sh:class ex:Employer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:commandedTime ;
+        sh:class ex:WorkingHours ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLaborRole ;
+        sh:class ex:LaborRole ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/EmployerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Employer ;
+    sh:name "使用者" ;
+    sh:description "Enterprise obliged to protect workers under law." ;
+    sh:property [
+        sh:path ex:protects ;
+        sh:class ex:Worker ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:employsUnder ;
+        sh:class ex:EmploymentSystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:governedBy ;
+        sh:class ex:LegalInstrument ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/LaborObligationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LaborObligation ;
+    sh:name "労働上の義務" ;
+    sh:description "Mutual duties arising in labor: protection by the enterprise; labor and order by the worker." .
+
+<https://books.local/労務入門.ocr/ConstituentElementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConstituentElement ;
+    sh:name "労務の構成要素" ;
+    sh:description "One of six elements: rules, hours and pay, life and health, employment, labor-management relations, labor-affairs system." .
+
+<https://books.local/労務入門.ocr/EmploymentSystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EmploymentSystem ;
+    sh:name "雇用システム" ;
+    sh:description "Society-wide employment model (membership-type or job-type)." .
+
+<https://books.local/労務入門.ocr/MembershipTypeEmploymentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MembershipTypeEmployment ;
+    sh:name "メンバーシップ型雇用" ;
+    sh:description "Japanese model: mass new-graduate hiring, unlimited duties and location, long-term security, strict dismissal rules." .
+
+<https://books.local/労務入門.ocr/JobTypeEmploymentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:JobTypeEmployment ;
+    sh:name "ジョブ型雇用" ;
+    sh:description "Post-defined employment with limited duties, consent for transfers, and higher mobility." .
+
+<https://books.local/労務入門.ocr/LaborRoleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LaborRole ;
+    sh:name "労務の役割" ;
+    sh:description "Holon role in labor affairs: OE, RM, or ST." ;
+    sh:property [
+        sh:path ex:transcendsAndIncludes ;
+        sh:class ex:LaborRole ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:catchphrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/OperationExcellenceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OperationExcellence ;
+    sh:name "OE" ;
+    sh:description "Foundational role: accurate timely processes (attendance, payroll, insurance, join/leave)." ;
+    sh:property [
+        sh:path ex:transcendsAndIncludes ;
+        sh:class ex:LaborRole ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:catchphrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/RuleMasterShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RuleMaster ;
+    sh:name "RM" ;
+    sh:description "Central role: interpret labor law, work rules, and contracts; start from 就業規則に照らす." ;
+    sh:property [
+        sh:path ex:transcendsAndIncludes ;
+        sh:class ex:LaborRole ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:catchphrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/StrategistShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Strategist ;
+    sh:name "ST" ;
+    sh:description "Transformer of working styles and rules using macro trends and Pain/Gain design." ;
+    sh:property [
+        sh:path ex:transcendsAndIncludes ;
+        sh:class ex:LaborRole ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:catchphrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/LegalInstrumentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LegalInstrument ;
+    sh:name "法的規範" ;
+    sh:description "Norm in the labor-law pyramid from Constitution down to guidelines." ;
+    sh:property [
+        sh:path ex:hasHigherNorm ;
+        sh:class ex:LegalInstrument ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/WorkRulesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WorkRules ;
+    sh:name "就業規則" ;
+    sh:description "Workplace-wide wage, hours and conditions with legal normative force; basis of labor judgments." ;
+    sh:property [
+        sh:path ex:hasNormativeForce ;
+        sh:datatype xsd:boolean ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:overwritesContract ;
+        sh:class ex:LaborContract ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:catchphrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHigherNorm ;
+        sh:class ex:LegalInstrument ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/LaborLawShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LaborLaw ;
+    sh:name "労働法" ;
+    sh:description "Collective name for statutes protecting unequal worker–employer relations (public and private law)." ;
+    sh:property [
+        sh:path ex:hasHigherNorm ;
+        sh:class ex:LegalInstrument ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/LaborContractShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LaborContract ;
+    sh:name "個別労働契約" ;
+    sh:description "Contract with a single worker; cannot undercut work-rule minimums." ;
+    sh:property [
+        sh:path ex:hasHigherNorm ;
+        sh:class ex:LegalInstrument ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/CollectiveAgreementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CollectiveAgreement ;
+    sh:name "労働協約" ;
+    sh:description "Union–employer agreement applying to union members." ;
+    sh:property [
+        sh:path ex:hasHigherNorm ;
+        sh:class ex:LegalInstrument ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/LaborManagementAgreementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LaborManagementAgreement ;
+    sh:name "労使協定" ;
+    sh:description "Workplace agreement such as a 36 Agreement; distinct from 労働協約." ;
+    sh:property [
+        sh:path ex:hasHigherNorm ;
+        sh:class ex:LegalInstrument ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/WorkingHoursShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WorkingHours ;
+    sh:name "労働時間" ;
+    sh:description "Time under employer command and supervision, including implicit overtime." ;
+    sh:property [
+        sh:path ex:governedBy ;
+        sh:class ex:LegalInstrument ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresAgreement ;
+        sh:class ex:LaborManagementAgreement ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:paidAs ;
+        sh:class ex:Wage ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/HolidayOrLeaveShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HolidayOrLeave ;
+    sh:name "休日・休暇" ;
+    sh:description "休日 (no labor obligation) versus 休暇 (exemption from a scheduled workday), including annual paid leave." ;
+    sh:property [
+        sh:path ex:paidAs ;
+        sh:class ex:Wage ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/WageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Wage ;
+    sh:name "賃金" ;
+    sh:description "Compensation subject to Art. 24 principles, minimum wage, and premium rates." ;
+    sh:property [
+        sh:path ex:governedBy ;
+        sh:class ex:LegalInstrument ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/WorkStyleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WorkStyle ;
+    sh:name "働き方" ;
+    sh:description "Flexible or hybrid (Workstyle 3.0) patterns of time, place, and affiliation." ;
+    sh:property [
+        sh:path ex:evolvesWith ;
+        sh:class ex:HistoricalEra ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/労務入門.ocr/HistoricalEraShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HistoricalEra ;
+    sh:name "歴史的時期" ;
+    sh:description "Pre-war, wartime, post-war, high-growth, or modern period of Japanese labor." .

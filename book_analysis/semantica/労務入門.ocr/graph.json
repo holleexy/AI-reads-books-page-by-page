@@ -1,0 +1,315 @@
+{
+  "entities": [
+    {
+      "id": "Labor",
+      "name": "Labor",
+      "text": "Labor",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "id": "労務",
+      "name": "労務",
+      "text": "労務",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "id": "attendance management",
+      "name": "attendance management",
+      "text": "attendance management",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "id": "勤怠管理",
+      "name": "勤怠管理",
+      "text": "勤怠管理",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "id": "payroll calculation",
+      "name": "payroll calculation",
+      "text": "payroll calculation",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "id": "給与計算",
+      "name": "給与計算",
+      "text": "給与計算",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "id": "legal amendments",
+      "name": "legal amendments",
+      "text": "legal amendments",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "id": "diversity",
+      "name": "diversity",
+      "text": "diversity",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "id": "harassment",
+      "name": "harassment",
+      "text": "harassment",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "id": "whack-a-mole",
+      "name": "whack-a-mole",
+      "text": "whack-a-mole",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "id": "モグラ叩き",
+      "name": "モグラ叩き",
+      "text": "モグラ叩き",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Labor",
+      "target": "労務",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "source": "attendance management",
+      "target": "勤怠管理",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "source": "payroll calculation",
+      "target": "給与計算",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "source": "Labor",
+      "target": "attendance management",
+      "type": "focuses_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "source": "Labor",
+      "target": "payroll calculation",
+      "type": "focuses_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "source": "Labor",
+      "target": "legal amendments",
+      "type": "responds_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "source": "Labor",
+      "target": "diversity",
+      "type": "focuses_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "source": "Labor",
+      "target": "harassment",
+      "type": "focuses_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "source": "労務",
+      "target": "勤怠管理",
+      "type": "focuses_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "source": "労務",
+      "target": "給与計算",
+      "type": "focuses_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    },
+    {
+      "source": "whack-a-mole",
+      "target": "モグラ叩き",
+      "type": "translated_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "労務入門.ocr"
+      },
+      "book_key": "労務入門.ocr"
+    }
+  ],
+  "metadata": {
+    "num_entities": 11,
+    "num_relationships": 11,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-30T10:13:31.782175",
+    "entity_resolution_applied": true,
+    "book_key": "労務入門.ocr",
+    "limit": 3,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

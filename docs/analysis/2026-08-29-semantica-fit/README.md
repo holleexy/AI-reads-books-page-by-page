@@ -19,5 +19,8 @@
 - [同じ判断の平文](08-plain-language.md)
 - [挙げた 4 項目は実現するか](09-will-those-four-land.md)
 - [全部やったあとに実現する状態](10-end-state.md)
+- [end-state の上に DeepTutor を足すと広がるか](13-deeptutor-on-end-state.md)
 - [ページ番号は必須である](11-page-provenance.md)
 - [既存コーパスは取り直さない](12-no-full-reextract.md)
+- [品質のすきまを、プログラムを追わない人向けに](15-quality-gaps-plain.md)
+- [同じすきまが戻らないようにした](16-quality-recurrence-plain.md)

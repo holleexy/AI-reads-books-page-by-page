@@ -27,3 +27,4 @@ upstream の README は古い。
 - [ローカル PDF の受け取り](10-local-upload.md)
 - [スクリーンショットから PDF](11-screenshot-to-pdf.md)
 - [Kindle 自動めくり](12-kindle-auto-screenshot.md)
+- [Semantica で1冊のグラフを作る](13-semantica-books.md)

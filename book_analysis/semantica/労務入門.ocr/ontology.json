@@ -1,0 +1,466 @@
+{
+  "uri": "https://books.local/労務入門.ocr/",
+  "name": "労務入門.ocrOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/労務入門.ocr/Book",
+      "label": "書籍",
+      "comment": "Illustrated introductory labor-affairs title such as 図解労務入門 100のツボ.",
+      "parent": null
+    },
+    {
+      "name": "Person",
+      "uri": "https://books.local/労務入門.ocr/Person",
+      "label": "人物",
+      "comment": "Author, co-author, practitioner, worker, or manager.",
+      "parent": null
+    },
+    {
+      "name": "Organization",
+      "uri": "https://books.local/労務入門.ocr/Organization",
+      "label": "組織",
+      "comment": "Enterprise, workplace, union, or labor-standards office.",
+      "parent": null
+    },
+    {
+      "name": "HumanResources",
+      "uri": "https://books.local/労務入門.ocr/HumanResources",
+      "label": "人事",
+      "comment": "Domain of making people thrive in order to accomplish things (人を生かして事をなす).",
+      "parent": null
+    },
+    {
+      "name": "LaborAffairs",
+      "uri": "https://books.local/労務入門.ocr/LaborAffairs",
+      "label": "労務",
+      "comment": "Defensive HR that fulfills labor obligations, protects workers, and underpins livelihood, order, and humanity of the firm.",
+      "parent": "HumanResources"
+    },
+    {
+      "name": "TalentManagement",
+      "uri": "https://books.local/労務入門.ocr/TalentManagement",
+      "label": "人材マネジメント",
+      "comment": "Offensive HR that preferentially invests in selected talent for results.",
+      "parent": "HumanResources"
+    },
+    {
+      "name": "Worker",
+      "uri": "https://books.local/労務入門.ocr/Worker",
+      "label": "労働者",
+      "comment": "Person who provides labor and maintains internal order.",
+      "parent": "Person"
+    },
+    {
+      "name": "Employer",
+      "uri": "https://books.local/労務入門.ocr/Employer",
+      "label": "使用者",
+      "comment": "Enterprise obliged to protect workers under law.",
+      "parent": "Organization"
+    },
+    {
+      "name": "LaborObligation",
+      "uri": "https://books.local/労務入門.ocr/LaborObligation",
+      "label": "労働上の義務",
+      "comment": "Mutual duties arising in labor: protection by the enterprise; labor and order by the worker.",
+      "parent": null
+    },
+    {
+      "name": "ConstituentElement",
+      "uri": "https://books.local/労務入門.ocr/ConstituentElement",
+      "label": "労務の構成要素",
+      "comment": "One of six elements: rules, hours and pay, life and health, employment, labor-management relations, labor-affairs system.",
+      "parent": null
+    },
+    {
+      "name": "EmploymentSystem",
+      "uri": "https://books.local/労務入門.ocr/EmploymentSystem",
+      "label": "雇用システム",
+      "comment": "Society-wide employment model (membership-type or job-type).",
+      "parent": null
+    },
+    {
+      "name": "MembershipTypeEmployment",
+      "uri": "https://books.local/労務入門.ocr/MembershipTypeEmployment",
+      "label": "メンバーシップ型雇用",
+      "comment": "Japanese model: mass new-graduate hiring, unlimited duties and location, long-term security, strict dismissal rules.",
+      "parent": "EmploymentSystem"
+    },
+    {
+      "name": "JobTypeEmployment",
+      "uri": "https://books.local/労務入門.ocr/JobTypeEmployment",
+      "label": "ジョブ型雇用",
+      "comment": "Post-defined employment with limited duties, consent for transfers, and higher mobility.",
+      "parent": "EmploymentSystem"
+    },
+    {
+      "name": "LaborRole",
+      "uri": "https://books.local/労務入門.ocr/LaborRole",
+      "label": "労務の役割",
+      "comment": "Holon role in labor affairs: OE, RM, or ST.",
+      "parent": null
+    },
+    {
+      "name": "OperationExcellence",
+      "uri": "https://books.local/労務入門.ocr/OperationExcellence",
+      "label": "OE",
+      "comment": "Foundational role: accurate timely processes (attendance, payroll, insurance, join/leave).",
+      "parent": "LaborRole"
+    },
+    {
+      "name": "RuleMaster",
+      "uri": "https://books.local/労務入門.ocr/RuleMaster",
+      "label": "RM",
+      "comment": "Central role: interpret labor law, work rules, and contracts; start from 就業規則に照らす.",
+      "parent": "LaborRole"
+    },
+    {
+      "name": "Strategist",
+      "uri": "https://books.local/労務入門.ocr/Strategist",
+      "label": "ST",
+      "comment": "Transformer of working styles and rules using macro trends and Pain/Gain design.",
+      "parent": "LaborRole"
+    },
+    {
+      "name": "LegalInstrument",
+      "uri": "https://books.local/労務入門.ocr/LegalInstrument",
+      "label": "法的規範",
+      "comment": "Norm in the labor-law pyramid from Constitution down to guidelines.",
+      "parent": null
+    },
+    {
+      "name": "WorkRules",
+      "uri": "https://books.local/労務入門.ocr/WorkRules",
+      "label": "就業規則",
+      "comment": "Workplace-wide wage, hours and conditions with legal normative force; basis of labor judgments.",
+      "parent": "LegalInstrument"
+    },
+    {
+      "name": "LaborLaw",
+      "uri": "https://books.local/労務入門.ocr/LaborLaw",
+      "label": "労働法",
+      "comment": "Collective name for statutes protecting unequal worker–employer relations (public and private law).",
+      "parent": "LegalInstrument"
+    },
+    {
+      "name": "LaborContract",
+      "uri": "https://books.local/労務入門.ocr/LaborContract",
+      "label": "個別労働契約",
+      "comment": "Contract with a single worker; cannot undercut work-rule minimums.",
+      "parent": "LegalInstrument"
+    },
+    {
+      "name": "CollectiveAgreement",
+      "uri": "https://books.local/労務入門.ocr/CollectiveAgreement",
+      "label": "労働協約",
+      "comment": "Union–employer agreement applying to union members.",
+      "parent": "LegalInstrument"
+    },
+    {
+      "name": "LaborManagementAgreement",
+      "uri": "https://books.local/労務入門.ocr/LaborManagementAgreement",
+      "label": "労使協定",
+      "comment": "Workplace agreement such as a 36 Agreement; distinct from 労働協約.",
+      "parent": "LegalInstrument"
+    },
+    {
+      "name": "WorkingHours",
+      "uri": "https://books.local/労務入門.ocr/WorkingHours",
+      "label": "労働時間",
+      "comment": "Time under employer command and supervision, including implicit overtime.",
+      "parent": null
+    },
+    {
+      "name": "HolidayOrLeave",
+      "uri": "https://books.local/労務入門.ocr/HolidayOrLeave",
+      "label": "休日・休暇",
+      "comment": "休日 (no labor obligation) versus 休暇 (exemption from a scheduled workday), including annual paid leave.",
+      "parent": null
+    },
+    {
+      "name": "Wage",
+      "uri": "https://books.local/労務入門.ocr/Wage",
+      "label": "賃金",
+      "comment": "Compensation subject to Art. 24 principles, minimum wage, and premium rates.",
+      "parent": null
+    },
+    {
+      "name": "WorkStyle",
+      "uri": "https://books.local/労務入門.ocr/WorkStyle",
+      "label": "働き方",
+      "comment": "Flexible or hybrid (Workstyle 3.0) patterns of time, place, and affiliation.",
+      "parent": null
+    },
+    {
+      "name": "HistoricalEra",
+      "uri": "https://books.local/労務入門.ocr/HistoricalEra",
+      "label": "歴史的時期",
+      "comment": "Pre-war, wartime, post-war, high-growth, or modern period of Japanese labor.",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "authoredBy",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "著者",
+      "comment": "Primary or co-author of the book.",
+      "uri": "https://books.local/労務入門.ocr/authoredBy"
+    },
+    {
+      "name": "hasConstituentElement",
+      "type": "object",
+      "domain": [
+        "LaborAffairs"
+      ],
+      "range": [
+        "ConstituentElement"
+      ],
+      "label": "構成要素を持つ",
+      "comment": "Links 労務 to rules, hours/pay, life/health, employment, labor-management relations, or labor-affairs system.",
+      "uri": "https://books.local/労務入門.ocr/hasConstituentElement"
+    },
+    {
+      "name": "complementaryTo",
+      "type": "object",
+      "domain": [
+        "LaborAffairs",
+        "TalentManagement"
+      ],
+      "range": [
+        "LaborAffairs",
+        "TalentManagement"
+      ],
+      "label": "相互補完",
+      "comment": "Neither 労務 nor talent management alone constitutes 人事.",
+      "uri": "https://books.local/労務入門.ocr/complementaryTo"
+    },
+    {
+      "name": "protects",
+      "type": "object",
+      "domain": [
+        "Employer",
+        "LaborAffairs"
+      ],
+      "range": [
+        "Worker"
+      ],
+      "label": "保護する",
+      "comment": "Enterprise duty to protect workers under law.",
+      "uri": "https://books.local/労務入門.ocr/protects"
+    },
+    {
+      "name": "providesLabor",
+      "type": "object",
+      "domain": [
+        "Worker"
+      ],
+      "range": [
+        "Employer"
+      ],
+      "label": "労働を提供する",
+      "comment": "Worker obligation to provide labor and keep order.",
+      "uri": "https://books.local/労務入門.ocr/providesLabor"
+    },
+    {
+      "name": "hasLaborRole",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "LaborRole"
+      ],
+      "label": "労務役割を持つ",
+      "comment": "Practitioner role OE, RM, or ST; growth via 深化 or 進化.",
+      "uri": "https://books.local/労務入門.ocr/hasLaborRole"
+    },
+    {
+      "name": "transcendsAndIncludes",
+      "type": "object",
+      "domain": [
+        "LaborRole"
+      ],
+      "range": [
+        "LaborRole"
+      ],
+      "label": "超えて含む",
+      "comment": "Holon nesting: ST includes RM includes OE; without OE everything collapses.",
+      "uri": "https://books.local/労務入門.ocr/transcendsAndIncludes"
+    },
+    {
+      "name": "employsUnder",
+      "type": "object",
+      "domain": [
+        "Employer"
+      ],
+      "range": [
+        "EmploymentSystem"
+      ],
+      "label": "雇用システムで雇用する",
+      "comment": "Membership-type or job-type practice, including work rules and contracts.",
+      "uri": "https://books.local/労務入門.ocr/employsUnder"
+    },
+    {
+      "name": "governedBy",
+      "type": "object",
+      "domain": [
+        "LaborAffairs",
+        "Employer",
+        "WorkingHours",
+        "Wage"
+      ],
+      "range": [
+        "LegalInstrument"
+      ],
+      "label": "規律される",
+      "comment": "Subject to constitution, statutes, work rules, agreements, or contracts.",
+      "uri": "https://books.local/労務入門.ocr/governedBy"
+    },
+    {
+      "name": "hasHigherNorm",
+      "type": "object",
+      "domain": [
+        "LegalInstrument"
+      ],
+      "range": [
+        "LegalInstrument"
+      ],
+      "label": "上位規範",
+      "comment": "Hierarchy: 法令 → 労働協約 → 労使協定/就業規則 → 個別労働契約.",
+      "uri": "https://books.local/労務入門.ocr/hasHigherNorm"
+    },
+    {
+      "name": "hasNormativeForce",
+      "type": "data",
+      "domain": [
+        "WorkRules"
+      ],
+      "range": [
+        "xsd:boolean"
+      ],
+      "label": "法的規範性",
+      "comment": "Work rules apply even without individual knowledge or consent.",
+      "uri": "https://books.local/労務入門.ocr/hasNormativeForce"
+    },
+    {
+      "name": "overwritesContract",
+      "type": "object",
+      "domain": [
+        "WorkRules"
+      ],
+      "range": [
+        "LaborContract"
+      ],
+      "label": "最低基準効",
+      "comment": "Contract terms below work-rule standards are invalid in that part.",
+      "uri": "https://books.local/労務入門.ocr/overwritesContract"
+    },
+    {
+      "name": "requiresAgreement",
+      "type": "object",
+      "domain": [
+        "WorkingHours"
+      ],
+      "range": [
+        "LaborManagementAgreement"
+      ],
+      "label": "協定を要する",
+      "comment": "Overtime or statutory holiday work requires a 36 Agreement.",
+      "uri": "https://books.local/労務入門.ocr/requiresAgreement"
+    },
+    {
+      "name": "commandedTime",
+      "type": "object",
+      "domain": [
+        "Worker"
+      ],
+      "range": [
+        "WorkingHours"
+      ],
+      "label": "指揮命令下の時間",
+      "comment": "Hours the worker is placed under employer supervision.",
+      "uri": "https://books.local/労務入門.ocr/commandedTime"
+    },
+    {
+      "name": "paidAs",
+      "type": "object",
+      "domain": [
+        "WorkingHours",
+        "HolidayOrLeave"
+      ],
+      "range": [
+        "Wage"
+      ],
+      "label": "対価として支払われる",
+      "comment": "Hours, overtime, night, holiday, and leave convert to wage and premiums.",
+      "uri": "https://books.local/労務入門.ocr/paidAs"
+    },
+    {
+      "name": "evolvesWith",
+      "type": "object",
+      "domain": [
+        "LaborAffairs",
+        "WorkStyle"
+      ],
+      "range": [
+        "HistoricalEra"
+      ],
+      "label": "時代とともに進化する",
+      "comment": "Meaning of living standards and 労務 change from post-war poverty to diversified COVID-era values.",
+      "uri": "https://books.local/労務入門.ocr/evolvesWith"
+    },
+    {
+      "name": "supportsWorkStyle",
+      "type": "object",
+      "domain": [
+        "LaborAffairs"
+      ],
+      "range": [
+        "WorkStyle"
+      ],
+      "label": "働き方を支える",
+      "comment": "Telework, side jobs, and hybrid career (Workstyle 3.0) grounded in company philosophy.",
+      "uri": "https://books.local/労務入門.ocr/supportsWorkStyle"
+    },
+    {
+      "name": "title",
+      "type": "data",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "書名",
+      "comment": "Title of the work.",
+      "uri": "https://books.local/労務入門.ocr/title"
+    },
+    {
+      "name": "catchphrase",
+      "type": "data",
+      "domain": [
+        "LaborAffairs",
+        "LaborRole",
+        "WorkRules"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "ツボ・標語",
+      "comment": "Key teaching such as 先手を打つ or 就業規則に照らす.",
+      "uri": "https://books.local/労務入門.ocr/catchphrase"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

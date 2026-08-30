@@ -1,0 +1,51 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/労務入門.ocr/> .
+
+book:source a prov:Entity ;
+  foaf:name "労務入門.ocr" ;
+  book:book_key "労務入門.ocr" .
+
+book:Labor a prov:Entity ;
+  book:book_key "労務入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:労務 a prov:Entity ;
+  book:book_key "労務入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:attendance management a prov:Entity ;
+  book:book_key "労務入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:勤怠管理 a prov:Entity ;
+  book:book_key "労務入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:payroll calculation a prov:Entity ;
+  book:book_key "労務入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:給与計算 a prov:Entity ;
+  book:book_key "労務入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:legal amendments a prov:Entity ;
+  book:book_key "労務入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:diversity a prov:Entity ;
+  book:book_key "労務入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:harassment a prov:Entity ;
+  book:book_key "労務入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:whack-a-mole a prov:Entity ;
+  book:book_key "労務入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:モグラ叩き a prov:Entity ;
+  book:book_key "労務入門.ocr" ;
+  prov:wasDerivedFrom book:source .
