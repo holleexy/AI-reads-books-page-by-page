@@ -1,5 +1,6 @@
 from pathlib import Path
 from dataclasses import dataclass
+from typing import TypedDict
 from pydantic import BaseModel
 import json
 import openai
@@ -115,6 +116,50 @@ class BookConfig:
 class PageContent(BaseModel):
     has_content: bool
     knowledge: list[str]
+
+
+class KnowledgeItem(TypedDict):
+    text: str
+    page: int | None
+
+
+def attach_page(points: list[str], page_num: int) -> list[KnowledgeItem]:
+    """Stamp LLM strings with the 1-based PDF page shown in logs."""
+    page = page_num + 1
+    return [{"text": text, "page": page} for text in points if str(text).strip()]
+
+
+def normalize_knowledge_item(raw) -> KnowledgeItem | None:
+    if isinstance(raw, str):
+        text = raw.strip()
+        if not text:
+            return None
+        return {"text": text, "page": None}
+    if isinstance(raw, dict):
+        text = str(raw.get("text") or "").strip()
+        if not text:
+            return None
+        page = raw.get("page")
+        if page is not None:
+            try:
+                page = int(page)
+            except (TypeError, ValueError):
+                page = None
+        return {"text": text, "page": page}
+    return None
+
+
+def normalize_knowledge(raw_list) -> list[KnowledgeItem]:
+    items: list[KnowledgeItem] = []
+    for raw in raw_list or []:
+        item = normalize_knowledge_item(raw)
+        if item:
+            items.append(item)
+    return items
+
+
+def knowledge_texts(knowledge_base: list[KnowledgeItem]) -> list[str]:
+    return [item["text"] for item in knowledge_base]
 
 
 @dataclass
@@ -299,13 +344,13 @@ def create_client() -> LlmClient:
     )
 
 
-def save_knowledge_base(knowledge_base: list[str], config: BookConfig):
+def save_knowledge_base(knowledge_base: list[KnowledgeItem], config: BookConfig):
     atomic_write_json(config.knowledge_file, {"knowledge": knowledge_base})
 
 
 # --- T2: Parse retry with failed-page tracking ---
 
-def process_page(client: LlmClient, page_text: str, knowledge: list[str], page_num: int, config: BookConfig) -> list[str] | None:
+def process_page(client: LlmClient, page_text: str, knowledge: list[KnowledgeItem], page_num: int, config: BookConfig) -> list[KnowledgeItem] | None:
     """Process a single page. Returns updated knowledge list, or None if all parse retries failed."""
     if should_skip_locally(page_text):
         print(colored(f"  Skipping page {page_num + 1} (local heuristic)", "yellow"))
@@ -341,25 +386,26 @@ def process_page(client: LlmClient, page_text: str, knowledge: list[str], page_n
 
     if result.has_content:
         print(colored(f"  Found {len(result.knowledge)} new knowledge points", "green"))
-        knowledge.extend(result.knowledge)
+        knowledge.extend(attach_page(result.knowledge, page_num))
     else:
         print(colored("  Skipping page (no relevant content)", "yellow"))
 
     return knowledge
 
 
-def load_existing_knowledge(config: BookConfig) -> list[str]:
+def load_existing_knowledge(config: BookConfig) -> list[KnowledgeItem]:
     if config.knowledge_file.exists():
         print(colored("Loading existing knowledge base...", "cyan"))
         with open(config.knowledge_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            print(colored(f"  Loaded {len(data['knowledge'])} existing knowledge points", "green"))
-            return data['knowledge']
+            items = normalize_knowledge(data.get("knowledge") or [])
+            print(colored(f"  Loaded {len(items)} existing knowledge points", "green"))
+            return items
     print(colored("Starting with fresh knowledge base", "cyan"))
     return []
 
 
-def analyze_knowledge_base(client: LlmClient, knowledge_base: list[str], config: BookConfig) -> str:
+def analyze_knowledge_base(client: LlmClient, knowledge_base: list[KnowledgeItem], config: BookConfig) -> str:
     if not knowledge_base:
         print(colored("\nSkipping analysis: No knowledge points collected", "yellow"))
         return ""
@@ -370,7 +416,7 @@ def analyze_knowledge_base(client: LlmClient, knowledge_base: list[str], config:
         model=config.analysis_model,
         max_tokens=4096,
         system=SYSTEM_PROMPT_ANALYSIS,
-        messages=[{"role": "user", "content": "Analyze this content:\n" + "\n".join(knowledge_base)}],
+        messages=[{"role": "user", "content": "Analyze this content:\n" + "\n".join(knowledge_texts(knowledge_base))}],
     )
     print(colored("Analysis generated successfully!", "green"))
     return text
