@@ -1,0 +1,531 @@
+{
+  "uri": "https://books.local/Sales_is/",
+  "name": "Sales_isOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "ScientificSalesMethod",
+      "uri": "https://books.local/Sales_is/ScientificSalesMethod",
+      "label": "科学的営業術",
+      "comment": "勘・偶然・根性といった不確実要素を排除し、論理とデータで成果をコントロールする再現性の高い営業手法。",
+      "parent": null
+    },
+    {
+      "name": "Salesperson",
+      "uri": "https://books.local/Sales_is/Salesperson",
+      "label": "営業パーソン",
+      "comment": "科学的営業術を実践し、顧客の課題解決と成果創出を担う専門職・技術職。",
+      "parent": null
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/Sales_is/Customer",
+      "label": "顧客",
+      "comment": "商品そのものではなく、課題が解決できる可能性に対して契約する相手。",
+      "parent": null
+    },
+    {
+      "name": "DecisionMaker",
+      "uri": "https://books.local/Sales_is/DecisionMaker",
+      "label": "決裁者",
+      "comment": "会うべき人である役職者・意思決定者。鶴の一声による白紙化を防ぐ対象。",
+      "parent": "Customer"
+    },
+    {
+      "name": "NonPurchaseReason",
+      "uri": "https://books.local/Sales_is/NonPurchaseReason",
+      "label": "買わない理由",
+      "comment": "売れた理由より信憑性が高く、営業プロセスで一つずつ排除すべき成約阻害要因。",
+      "parent": null
+    },
+    {
+      "name": "LostDeal",
+      "uri": "https://books.local/Sales_is/LostDeal",
+      "label": "失注",
+      "comment": "受注よりサンプルが多く早期改善に役立つ宝の山であり、分析と実行の対象。",
+      "parent": null
+    },
+    {
+      "name": "SalesOpportunityLead",
+      "uri": "https://books.local/Sales_is/SalesOpportunityLead",
+      "label": "SOL",
+      "comment": "購買のタイミングと理由が明確になったリード（Sales Opportunity Lead）。",
+      "parent": null
+    },
+    {
+      "name": "TargetList",
+      "uri": "https://books.local/Sales_is/TargetList",
+      "label": "ターゲットリスト",
+      "comment": "ニーズのある見込み客を集めたリスト。探客力の中核となる。",
+      "parent": null
+    },
+    {
+      "name": "TargetListCriterion",
+      "uri": "https://books.local/Sales_is/TargetListCriterion",
+      "label": "ターゲットリスト要素",
+      "comment": "勝利を掴むリストに必要な精度・鮮度・具体性・絶対数の四要素。",
+      "parent": null
+    },
+    {
+      "name": "GiveModel",
+      "uri": "https://books.local/Sales_is/GiveModel",
+      "label": "Giveモデル",
+      "comment": "先に有益情報を提供し返報性の法則でSOLを得るスマート・アウトバウンド手法。",
+      "parent": null
+    },
+    {
+      "name": "ConsultingSalesProcess",
+      "uri": "https://books.local/Sales_is/ConsultingSalesProcess",
+      "label": "コンサルティングセールスプロセス",
+      "comment": "違和感・不要感・不安感を未然に防ぎ合意と共感を積み重ねる七段階の営業プロセス。",
+      "parent": null
+    },
+    {
+      "name": "ProcessStep",
+      "uri": "https://books.local/Sales_is/ProcessStep",
+      "label": "プロセスステップ",
+      "comment": "コンサルティングセールスを構成する各フェーズ。",
+      "parent": null
+    },
+    {
+      "name": "LeadSales",
+      "uri": "https://books.local/Sales_is/LeadSales",
+      "label": "リードセールス",
+      "comment": "アカウントプランからオーダーコントロールまでの案件獲得プロセス（前工程）。",
+      "parent": "ProcessStep"
+    },
+    {
+      "name": "CoreSales",
+      "uri": "https://books.local/Sales_is/CoreSales",
+      "label": "コアセールス",
+      "comment": "企画作成からクロージングまでの案件攻略プロセス（後工程）。",
+      "parent": "ProcessStep"
+    },
+    {
+      "name": "AccountPlan",
+      "uri": "https://books.local/Sales_is/AccountPlan",
+      "label": "アカウントプラン",
+      "comment": "三C＋二C×マクロ環境などで顧客の勝ち筋と課題仮説を構築する商談前の攻略計画。",
+      "parent": "LeadSales"
+    },
+    {
+      "name": "Approach",
+      "uri": "https://books.local/Sales_is/Approach",
+      "label": "アプローチ",
+      "comment": "第一印象・壁の除去・興味喚起・信頼構築の四ステップとファーストピッチで土台を築く工程。",
+      "parent": "LeadSales"
+    },
+    {
+      "name": "FactFinding",
+      "uri": "https://books.local/Sales_is/FactFinding",
+      "label": "ファクトファインディング",
+      "comment": "事業理解・問題発見・課題設定により顧客と課題を一緒に見つける究極の営業力。",
+      "parent": "LeadSales"
+    },
+    {
+      "name": "OrderControl",
+      "uri": "https://books.local/Sales_is/OrderControl",
+      "label": "オーダーコントロール",
+      "comment": "グランドデザイン・体制・予算感と意思決定者をすり合わせ、白紙化を防ぐ要件定義。",
+      "parent": "LeadSales"
+    },
+    {
+      "name": "ProposalCreation",
+      "uri": "https://books.local/Sales_is/ProposalCreation",
+      "label": "企画作成",
+      "comment": "課題解決・評価基準・ストーリー・実現性の四要件を満たす提案書を起転承結で作る工程。",
+      "parent": "CoreSales"
+    },
+    {
+      "name": "Presentation",
+      "uri": "https://books.local/Sales_is/Presentation",
+      "label": "プレゼンテーション",
+      "comment": "相手の立場にスポットライトを変え、テストクロージングで障壁を除く最適な提案。",
+      "parent": "CoreSales"
+    },
+    {
+      "name": "Closing",
+      "uri": "https://books.local/Sales_is/Closing",
+      "label": "クロージング",
+      "comment": "説得ではなく納得を支援し、意思決定を後押しする工程。",
+      "parent": "CoreSales"
+    },
+    {
+      "name": "CustomerCase",
+      "uri": "https://books.local/Sales_is/CustomerCase",
+      "label": "顧客事例",
+      "comment": "可能性の見える化、否定しない問題提起、トークスキル非依存の説得を実現する武器。",
+      "parent": null
+    },
+    {
+      "name": "MindsetRule",
+      "uri": "https://books.local/Sales_is/MindsetRule",
+      "label": "マインドセットルール",
+      "comment": "買いもの提案・顧客主語・コンサルタント思想など営業パーソンの十の行動原則。",
+      "parent": null
+    },
+    {
+      "name": "DiSCType",
+      "uri": "https://books.local/Sales_is/DiSCType",
+      "label": "DiSCタイプ",
+      "comment": "支配的・社交的・協調的・慎重の行動傾向に合わせたコミュニケーション類型。",
+      "parent": null
+    },
+    {
+      "name": "Problem",
+      "uri": "https://books.local/Sales_is/Problem",
+      "label": "問題",
+      "comment": "現状から理想を引いたギャップとして可視化されるもの。",
+      "parent": null
+    },
+    {
+      "name": "Issue",
+      "uri": "https://books.local/Sales_is/Issue",
+      "label": "課題",
+      "comment": "原因と示唆から導かれ、解決するためのポジティブな取り組みに昇華したもの。",
+      "parent": null
+    },
+    {
+      "name": "CustomerSuccess",
+      "uri": "https://books.local/Sales_is/CustomerSuccess",
+      "label": "カスタマーサクセス",
+      "comment": "購買をきっかけに問題解決を実現し、指名枠を得る営業の究極目標。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "practices",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "ScientificSalesMethod"
+      ],
+      "label": "実践する",
+      "comment": "営業パーソンが科学的営業術を用いる関係。",
+      "uri": "https://books.local/Sales_is/practices"
+    },
+    {
+      "name": "serves",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "担当する",
+      "comment": "営業パーソンが顧客を主語にして価値提供する関係。",
+      "uri": "https://books.local/Sales_is/serves"
+    },
+    {
+      "name": "hasRule",
+      "type": "object",
+      "domain": [
+        "ScientificSalesMethod"
+      ],
+      "range": [
+        "MindsetRule"
+      ],
+      "label": "ルールを持つ",
+      "comment": "科学的営業術を支える十のマインドセット。",
+      "uri": "https://books.local/Sales_is/hasRule"
+    },
+    {
+      "name": "followsProcess",
+      "type": "object",
+      "domain": [
+        "ScientificSalesMethod"
+      ],
+      "range": [
+        "ConsultingSalesProcess"
+      ],
+      "label": "プロセスに従う",
+      "comment": "成果をコントロールするために七ステップを用いる。",
+      "uri": "https://books.local/Sales_is/followsProcess"
+    },
+    {
+      "name": "hasStep",
+      "type": "object",
+      "domain": [
+        "ConsultingSalesProcess"
+      ],
+      "range": [
+        "ProcessStep"
+      ],
+      "label": "ステップを持つ",
+      "comment": "プロセスがリードセールスとコアセールスの工程から構成される。",
+      "uri": "https://books.local/Sales_is/hasStep"
+    },
+    {
+      "name": "precedes",
+      "type": "object",
+      "domain": [
+        "ProcessStep"
+      ],
+      "range": [
+        "ProcessStep"
+      ],
+      "label": "先行する",
+      "comment": "前工程から後工程へ合意と共感を積み重ねる順序関係。",
+      "uri": "https://books.local/Sales_is/precedes"
+    },
+    {
+      "name": "eliminates",
+      "type": "object",
+      "domain": [
+        "ProcessStep"
+      ],
+      "range": [
+        "NonPurchaseReason"
+      ],
+      "label": "排除する",
+      "comment": "各フェーズで買わない理由を未然に取り除く。",
+      "uri": "https://books.local/Sales_is/eliminates"
+    },
+    {
+      "name": "causedBy",
+      "type": "object",
+      "domain": [
+        "LostDeal"
+      ],
+      "range": [
+        "NonPurchaseReason"
+      ],
+      "label": "原因となる",
+      "comment": "失注が買わない理由によって生じる関係。",
+      "uri": "https://books.local/Sales_is/causedBy"
+    },
+    {
+      "name": "analyzes",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "LostDeal"
+      ],
+      "label": "分析する",
+      "comment": "失注を金脈と捉え検証し同じ失敗を防ぐ。",
+      "uri": "https://books.local/Sales_is/analyzes"
+    },
+    {
+      "name": "usesCase",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "CustomerCase"
+      ],
+      "label": "事例を用いる",
+      "comment": "個人の話術に依存せず顧客事例をコンテンツとして使う。",
+      "uri": "https://books.local/Sales_is/usesCase"
+    },
+    {
+      "name": "visualizesPossibility",
+      "type": "object",
+      "domain": [
+        "CustomerCase"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "可能性を見える化する",
+      "comment": "親近感のある事例で導入後の理想を想像させる。",
+      "uri": "https://books.local/Sales_is/visualizesPossibility"
+    },
+    {
+      "name": "hasTargetList",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "TargetList"
+      ],
+      "label": "リストを持つ",
+      "comment": "探客力に基づきターゲットリストを保有する。",
+      "uri": "https://books.local/Sales_is/hasTargetList"
+    },
+    {
+      "name": "hasCriterion",
+      "type": "object",
+      "domain": [
+        "TargetList"
+      ],
+      "range": [
+        "TargetListCriterion"
+      ],
+      "label": "要素を備える",
+      "comment": "精度・鮮度・具体性・絶対数を満たす。",
+      "uri": "https://books.local/Sales_is/hasCriterion"
+    },
+    {
+      "name": "usesGiveModel",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "GiveModel"
+      ],
+      "label": "Giveモデルを用いる",
+      "comment": "先に価値提供してからヒアリングへ移行する。",
+      "uri": "https://books.local/Sales_is/usesGiveModel"
+    },
+    {
+      "name": "obtains",
+      "type": "object",
+      "domain": [
+        "GiveModel"
+      ],
+      "range": [
+        "SalesOpportunityLead"
+      ],
+      "label": "獲得する",
+      "comment": "GiveモデルによりSOLを創出・獲得する。",
+      "uri": "https://books.local/Sales_is/obtains"
+    },
+    {
+      "name": "sourcedFrom",
+      "type": "object",
+      "domain": [
+        "SalesOpportunityLead"
+      ],
+      "range": [
+        "TargetList"
+      ],
+      "label": "リストから生じる",
+      "comment": "質の高いターゲットリストからSOLが生まれる。",
+      "uri": "https://books.local/Sales_is/sourcedFrom"
+    },
+    {
+      "name": "meets",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "DecisionMaker"
+      ],
+      "label": "商談する",
+      "comment": "会える人ではなく会うべき決裁者と商談する。",
+      "uri": "https://books.local/Sales_is/meets"
+    },
+    {
+      "name": "hasBehavioralType",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "DiSCType"
+      ],
+      "label": "行動傾向を持つ",
+      "comment": "アプローチ時にDiSCで快適なコミュニケーションを選ぶ。",
+      "uri": "https://books.local/Sales_is/hasBehavioralType"
+    },
+    {
+      "name": "identifiesProblem",
+      "type": "object",
+      "domain": [
+        "FactFinding"
+      ],
+      "range": [
+        "Problem"
+      ],
+      "label": "問題を発見する",
+      "comment": "現状と理想のギャップを共同作業で可視化する。",
+      "uri": "https://books.local/Sales_is/identifiesProblem"
+    },
+    {
+      "name": "setsIssue",
+      "type": "object",
+      "domain": [
+        "FactFinding"
+      ],
+      "range": [
+        "Issue"
+      ],
+      "label": "課題を設定する",
+      "comment": "問題を解決のためのポジティブな取り組みへ昇華する。",
+      "uri": "https://books.local/Sales_is/setsIssue"
+    },
+    {
+      "name": "derivedFrom",
+      "type": "object",
+      "domain": [
+        "Issue"
+      ],
+      "range": [
+        "Problem"
+      ],
+      "label": "問題から導かれる",
+      "comment": "原因と示唆により問題が課題へ変換される。",
+      "uri": "https://books.local/Sales_is/derivedFrom"
+    },
+    {
+      "name": "solves",
+      "type": "object",
+      "domain": [
+        "ProposalCreation"
+      ],
+      "range": [
+        "Issue"
+      ],
+      "label": "課題を解決する",
+      "comment": "顧客課題にフィットした情報だけに絞り込んだ提案を行う。",
+      "uri": "https://books.local/Sales_is/solves"
+    },
+    {
+      "name": "leadsToSuccess",
+      "type": "object",
+      "domain": [
+        "Closing"
+      ],
+      "range": [
+        "CustomerSuccess"
+      ],
+      "label": "成功へ導く",
+      "comment": "受注をきっかけに顧客の問題解決実現へつなげる。",
+      "uri": "https://books.local/Sales_is/leadsToSuccess"
+    },
+    {
+      "name": "pursues",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "CustomerSuccess"
+      ],
+      "label": "寄り添い続ける",
+      "comment": "受注後も責任を放棄せず顧客成功に貢献する。",
+      "uri": "https://books.local/Sales_is/pursues"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "ScientificSalesMethod",
+        "MindsetRule",
+        "ProcessStep",
+        "CustomerCase",
+        "NonPurchaseReason"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "概念やルール、工程の日本語による補足説明。",
+      "uri": "https://books.local/Sales_is/description"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

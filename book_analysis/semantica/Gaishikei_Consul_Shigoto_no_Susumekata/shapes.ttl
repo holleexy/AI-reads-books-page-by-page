@@ -1,0 +1,605 @@
+@prefix ex: <https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/shapes> a owl:Ontology .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntellectualLaborShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IntellectualLabor ;
+    sh:name "知的労働" ;
+    sh:description "タスクの本質を理解し、人と生成AIを含むチーム全体で成果を最大化する労働形態。" ;
+    sh:property [
+        sh:path ex:usesAI ;
+        sh:class ex:GenerativeAI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:maximizesPerformanceOf ;
+        sh:class ex:Team ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:principle ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/TeamShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Team ;
+    sh:name "チーム" ;
+    sh:description "個人スキルではなく協働の情報処理プロセスにより成果を最大化する単位。" ;
+    sh:property [
+        sh:path ex:hasMember ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:worksOn ;
+        sh:class ex:Project ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:serves ;
+        sh:class ex:Client ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:dividedInto ;
+        sh:class ex:WorkModule ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:produces ;
+        sh:class ex:IntermediateDeliverable ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:holdsDiscussion ;
+        sh:class ex:Discussion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:principle ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人" ;
+    sh:description "プロジェクトや議論、調査に関与する個人。" ;
+    sh:property [
+        sh:path ex:worksOn ;
+        sh:class ex:Project ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:produces ;
+        sh:class ex:IntermediateDeliverable ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:createsSlide ;
+        sh:class ex:Slide ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ConsultantShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Consultant ;
+    sh:name "コンサルタント" ;
+    sh:description "仮説検証と中間成果物を通じて問題解決を進める実務者。" ;
+    sh:property [
+        sh:path ex:reportsTo ;
+        sh:class ex:Manager ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:performsResearch ;
+        sh:class ex:LiteratureResearch ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:performsAnalysis ;
+        sh:class ex:QuantitativeAnalysis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:conductsInterview ;
+        sh:class ex:Interview ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:receivesFeedback ;
+        sh:class ex:Feedback ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:worksOn ;
+        sh:class ex:Project ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:produces ;
+        sh:class ex:IntermediateDeliverable ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:createsSlide ;
+        sh:class ex:Slide ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Manager ;
+    sh:name "マネージャー" ;
+    sh:description "トップダウンでリスクを洗い出し、タッチポイントと合意形成を設計する上位者。" ;
+    sh:property [
+        sh:path ex:givesFeedback ;
+        sh:class ex:Feedback ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:worksOn ;
+        sh:class ex:Project ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:produces ;
+        sh:class ex:IntermediateDeliverable ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:createsSlide ;
+        sh:class ex:Slide ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ClientShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Client ;
+    sh:name "クライアント" ;
+    sh:description "意思決定の完了基準を持ち、論理的なツッコミに耐えうる説明を求める相手。" ;
+    sh:property [
+        sh:path ex:givesFeedback ;
+        sh:class ex:Feedback ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:worksOn ;
+        sh:class ex:Project ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:produces ;
+        sh:class ex:IntermediateDeliverable ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:createsSlide ;
+        sh:class ex:Slide ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProjectShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Project ;
+    sh:name "プロジェクト" ;
+    sh:description "独自のプロダクトや所産を創造する有期的業務。コンサルティングでは完了基準が意思決定で期限は1〜3ヶ月と厳格。" ;
+    sh:property [
+        sh:path ex:serves ;
+        sh:class ex:Client ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPhase ;
+        sh:class ex:ProjectPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesProcess ;
+        sh:class ex:ProblemSolvingProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHypothesis ;
+        sh:class ex:Hypothesis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasArgumentPoint ;
+        sh:class ex:ArgumentPoint ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:dividedInto ;
+        sh:class ex:WorkModule ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasTouchPoint ;
+        sh:class ex:TouchPoint ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:definition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:duration ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:completionCriterion ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProjectPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProjectPhase ;
+    sh:name "プロジェクトフェーズ" ;
+    sh:description "初期流動と平常運転など、進め方の段階。" ;
+    sh:property [
+        sh:path ex:duration ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/InitialFluidPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InitialFluidPhase ;
+    sh:name "初期流動" ;
+    sh:description "期間の前半3分の1程度でスピード重視により全体像の解像度を上げる段階。" ;
+    sh:property [
+        sh:path ex:duration ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/SteadyOperationPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SteadyOperationPhase ;
+    sh:name "平常運転" ;
+    sh:description "詳細詰めと合意形成を進める段階。" ;
+    sh:property [
+        sh:path ex:duration ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProblemSolvingProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProblemSolvingProcess ;
+    sh:name "問題解決プロセス" ;
+    sh:description "問題の定義、メカニズム解明、課題特定、打ち手策定からなる基本プロセス。" ;
+    sh:property [
+        sh:path ex:definesProblem ;
+        sh:class ex:Problem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:identifiesIssue ;
+        sh:class ex:Issue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:proposesSolution ;
+        sh:class ex:Solution ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHypothesis ;
+        sh:class ex:Hypothesis ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProblemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Problem ;
+    sh:name "問題" ;
+    sh:description "価値基準と現状・予測のギャップとして定義される望ましくない事象。" ;
+    sh:property [
+        sh:path ex:hasMechanism ;
+        sh:class ex:Mechanism ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:definition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:valueCriterion ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/MechanismShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Mechanism ;
+    sh:name "メカニズム" ;
+    sh:description "単一・複合・循環など、問題の発生原因の整理。" .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IssueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Issue ;
+    sh:name "課題" ;
+    sh:description "最も投資対効果の高い介入ポイント。ボウリングのセンターピンに例えられる。" .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/SolutionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Solution ;
+    sh:name "打ち手" ;
+    sh:description "コスト・即効性・効果のトレードオフを考慮して選ぶ具体的解決策。" ;
+    sh:property [
+        sh:path ex:exhibitsPattern ;
+        sh:class ex:BadSolutionPattern ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/BadSolutionPatternShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BadSolutionPattern ;
+    sh:name "ダメな打ち手の典型" ;
+    sh:description "問題の言い換え、表面的対処、副作用を生む対処など、避けるべき打ち手の型。" .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/HypothesisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Hypothesis ;
+    sh:name "仮説" ;
+    sh:description "問題・課題・打ち手を早期に構築し、検証と更新を繰り返す暫定的な見解。" ;
+    sh:property [
+        sh:path ex:verifiedBy ;
+        sh:class ex:HypothesisVerificationCycle ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:evolvesInto ;
+        sh:class ex:Hypothesis ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/HypothesisVerificationCycleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HypothesisVerificationCycle ;
+    sh:name "仮説検証サイクル" ;
+    sh:description "仮説をプロジェクト期間を通じて検証し更新する反復的なサイクル。" .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ArgumentPointShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ArgumentPoint ;
+    sh:name "論点" ;
+    sh:description "見解の統一されていない点（疑問）を単純化した意思疎通の単位。" ;
+    sh:property [
+        sh:path ex:definition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/WorkModuleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WorkModule ;
+    sh:name "作業モジュール" ;
+    sh:description "作業種類ではなく意味の塊で分担し、サイロ化を防ぎ主体的問題解決を促す単位。" ;
+    sh:property [
+        sh:path ex:assignedTo ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:principle ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntermediateDeliverableShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IntermediateDeliverable ;
+    sh:name "中間成果物" ;
+    sh:description "チームの情報処理を効率化するサマリ・ストーリー・ワークプラン。" .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/SummaryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Summary ;
+    sh:name "サマリ" ;
+    sh:description "問い、答え（主張）、論理展開を要約した中間成果物。結論ファーストで書く。" ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:LogicalFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:fleshedOutAs ;
+        sh:class ex:Story ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:message ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/StoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Story ;
+    sh:name "ストーリー" ;
+    sh:description "サマリに論拠と根拠を肉づけし、検証が必要な命題を特定する中間成果物。" ;
+    sh:property [
+        sh:path ex:plannedAs ;
+        sh:class ex:WorkPlan ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/WorkPlanShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WorkPlan ;
+    sh:name "ワークプラン" ;
+    sh:description "ストーリーの検証作業計画。所要時間、担当、情報源、リスクを含む。" ;
+    sh:property [
+        sh:path ex:hasTouchPoint ;
+        sh:class ex:TouchPoint ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/LogicalFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LogicalFramework ;
+    sh:name "論理フレームワーク" ;
+    sh:description "問い設定と論理確認のための型。" .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/SCQAFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SCQAFramework ;
+    sh:name "SCQAフレームワーク" ;
+    sh:description "Situation、Complication、Question、Answerの順で問いを設定する枠組み。" .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/PyramidStructureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PyramidStructure ;
+    sh:name "ピラミッドストラクチャー" ;
+    sh:description "Why So? と So What? の双方向から論理を確認する構造。" .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/DiscussionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Discussion ;
+    sh:name "議論" ;
+    sh:description "伝える、見解を昇華させる、次の論点とアクションを明確にする情報処理により良い意思決定を行うこと。" ;
+    sh:property [
+        sh:path ex:hasHypothesis ;
+        sh:class ex:Hypothesis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasArgumentPoint ;
+        sh:class ex:ArgumentPoint ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:LogicalFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:definition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:message ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/SlideShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Slide ;
+    sh:name "スライド" ;
+    sh:description "1スライド1メッセージを原則とし、ナビゲーター・タイトル・メッセージ・ボディ・フットノートで構成する資料。" ;
+    sh:property [
+        sh:path ex:derivedFromStory ;
+        sh:class ex:Story ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasChart ;
+        sh:class ex:Chart ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:principle ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:message ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ChartShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Chart ;
+    sh:name "チャート" ;
+    sh:description "定性11種・定量9種から選ぶ図示。合成やスケール操作による印象操作は禁じる。" .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/LiteratureResearchShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LiteratureResearch ;
+    sh:name "文献調査" ;
+    sh:description "全体像設計から検証事項抽出、成果物逆算、実行分析、仮説進化までの定性調査。" ;
+    sh:property [
+        sh:path ex:usesAI ;
+        sh:class ex:GenerativeAI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:purpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/QuantitativeAnalysisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:QuantitativeAnalysis ;
+    sh:name "定量分析" ;
+    sh:description "アウトプットから逆算し、仮説具体化・チャート設計・手順設計・実行・仮説進化を反復する分析。" ;
+    sh:property [
+        sh:path ex:purpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/InterviewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Interview ;
+    sh:name "インタビュー" ;
+    sh:description "表層に出ない知に触れ、真因や意図を引き出すための6ステップの対話調査。" ;
+    sh:property [
+        sh:path ex:hasIntervieweePortfolio ;
+        sh:class ex:IntervieweePortfolio ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:purpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntervieweePortfolioShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IntervieweePortfolio ;
+    sh:name "インタビュイーポートフォリオ" ;
+    sh:description "多様な立場や成功・失敗経験を持つ対象者の構成。" .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/TouchPointShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TouchPoint ;
+    sh:name "タッチポイント" ;
+    sh:description "不確実性とリスクに応じて上位者への報告・相談を前倒しで設定する機会。" ;
+    sh:property [
+        sh:path ex:purpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/FeedbackShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Feedback ;
+    sh:name "フィードバック" ;
+    sh:description "頭で受け止め心までは落とさず、感情ではなく論理的にアクションへ反映する指摘。" .
+
+<https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/GenerativeAIShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GenerativeAI ;
+    sh:name "生成AI" ;
+    sh:description "リサーチの壁打ち相手として使うが、真贋判定と文脈解釈は人間が担う支援技術。" .

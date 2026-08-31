@@ -1,0 +1,92 @@
+[
+  {
+    "conflict_id": "創業メンバー_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "創業メンバー",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "PERSON",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Eigyou_no_Kagaku"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Eigyou_no_Kagaku"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.84,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Eigyou_no_Kagaku"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "大規模調査_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "大規模調査",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "EVENT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Eigyou_no_Kagaku"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Eigyou_no_Kagaku"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

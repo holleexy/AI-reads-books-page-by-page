@@ -1,0 +1,572 @@
+{
+  "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/",
+  "name": "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gmOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Book",
+      "label": "書籍",
+      "comment": "非エンジニアを対象としたAIコーディング入門書。基礎からツール活用、自動化、エージェント開発までを体系的に扱う。",
+      "parent": null
+    },
+    {
+      "name": "Occupation",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Occupation",
+      "label": "職種",
+      "comment": "人事やプロダクトマネージャーなど、従来は専門家向けだったプログラミングを活用しうる多様な職種。",
+      "parent": null
+    },
+    {
+      "name": "LearningGoal",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/LearningGoal",
+      "label": "学習目標",
+      "comment": "AIを通じたプログラミング能力の習得、分解して設計するエンジニアリング思考、ツールの汎用的な活用。",
+      "parent": null
+    },
+    {
+      "name": "AICoding",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICoding",
+      "label": "AIコーディング",
+      "comment": "コードの完全理解より目的達成を重視するAI活用プログラミング。軽いニュアンスを避けるためバイブコーディングとは呼ばない。",
+      "parent": null
+    },
+    {
+      "name": "ProgrammingLanguage",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/ProgrammingLanguage",
+      "label": "プログラミング言語",
+      "comment": "JavaScriptやPythonなど主流言語。本書はNode.js前提、Chrome拡張、GAS、主要AI API対応からJavaScriptを採用する。",
+      "parent": null
+    },
+    {
+      "name": "DevelopmentEnvironment",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DevelopmentEnvironment",
+      "label": "開発環境",
+      "comment": "本書で必要なのはAntigravityとNode.jsの二つにほぼ限られる開発のための基盤。",
+      "parent": null
+    },
+    {
+      "name": "CodeEditor",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/CodeEditor",
+      "label": "コードエディター",
+      "comment": "VSCodeベースのAI搭載エディター。タブ補完、日本語指示によるコード生成、エラー説明と修正を備える。",
+      "parent": "DevelopmentEnvironment"
+    },
+    {
+      "name": "RuntimeEnvironment",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/RuntimeEnvironment",
+      "label": "実行環境",
+      "comment": "Node.jsのようにブラウザ外でJavaScriptを実行し、同時にnpmを利用可能にする環境。",
+      "parent": "DevelopmentEnvironment"
+    },
+    {
+      "name": "Variable",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Variable",
+      "label": "変数",
+      "comment": "データを保存する箱。constは再代入不可の定数、letは再代入可能。constでも配列やオブジェクトの中身は変更できる。",
+      "parent": null
+    },
+    {
+      "name": "DataType",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DataType",
+      "label": "データ型",
+      "comment": "文字列、数値、真偽値、配列、オブジェクトなどの種類。暗黙の結合と明示的なNumber変換に注意する。",
+      "parent": null
+    },
+    {
+      "name": "Function",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Function",
+      "label": "関数",
+      "comment": "引数を受け戻り値を返す再利用単位。function構文、アロー関数、デフォルト引数がある。",
+      "parent": null
+    },
+    {
+      "name": "ControlFlow",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/ControlFlow",
+      "label": "制御フロー",
+      "comment": "ifによる条件分岐と、for...of、Object.entries、whileによる繰り返し。比較演算子と論理演算子を用いる。",
+      "parent": null
+    },
+    {
+      "name": "BuiltInMethod",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/BuiltInMethod",
+      "label": "組み込みメソッド",
+      "comment": "配列のpush、filter、reduceや文字列のsplit、replaceなど言語に備わる操作。",
+      "parent": null
+    },
+    {
+      "name": "API",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/API",
+      "label": "API",
+      "comment": "ソフトウェア間の公式なルールブック。UI変更に強く、仕様変更の告知やスケジュール実行が可能。",
+      "parent": null
+    },
+    {
+      "name": "APIKey",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/APIKey",
+      "label": "APIキー",
+      "comment": "パスワード以上に機密な認証情報。ハードコーディングせず.envに置き.gitignoreで除外する。",
+      "parent": null
+    },
+    {
+      "name": "HttpRequest",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/HttpRequest",
+      "label": "HTTPリクエスト",
+      "comment": "fetchで送る通信。URL、ボディ、ヘッダーから成り、GET、POST、PUT、DELETEとステータスコードを持つ。",
+      "parent": null
+    },
+    {
+      "name": "Token",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Token",
+      "label": "トークン",
+      "comment": "AIがテキストを処理する最小単位で従量課金の基準。日本語はおおよそ1文字が0.5から0.7トークン。",
+      "parent": null
+    },
+    {
+      "name": "Library",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Library",
+      "label": "ライブラリ",
+      "comment": "標準ライブラリまたは第三者のサードパーティライブラリ。依存の連鎖とサプライチェーン攻撃のリスクがある。",
+      "parent": null
+    },
+    {
+      "name": "PackageManager",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/PackageManager",
+      "label": "パッケージマネージャー",
+      "comment": "npmのようにインストール、package.jsonへの依存記録、node_modules、auditによる脆弱性修正を担う。",
+      "parent": null
+    },
+    {
+      "name": "OpenSourceSoftware",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/OpenSourceSoftware",
+      "label": "オープンソースソフトウェア",
+      "comment": "ソースが公開され誰でも利用できる文化。Node.jsやaxiosなどが代表例。",
+      "parent": null
+    },
+    {
+      "name": "AICodingTool",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICodingTool",
+      "label": "AIコーディングツール",
+      "comment": "単発スクリプト、エディター型、CLI型、クラウド型、オールインワンに分類されるAI支援開発手段。",
+      "parent": null
+    },
+    {
+      "name": "AIAgent",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AIAgent",
+      "label": "AIエージェント",
+      "comment": "ファイルメンション、Webサーチ、MCP、ルール、カスタムコマンド、ガードレールを持つ自動コーディング主体。",
+      "parent": "AICodingTool"
+    },
+    {
+      "name": "Context",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Context",
+      "label": "コンテキスト",
+      "comment": "AIの選択肢を狭めて最良の回答へ導く情報。メンションやステップごとの文脈設計で渡す。",
+      "parent": null
+    },
+    {
+      "name": "RuleFile",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/RuleFile",
+      "label": "ルールファイル",
+      "comment": "AGENTS.mdのような作業マニュアル。Why・Who・What、例と制約、参照先を明示し失敗を反復反映する。",
+      "parent": null
+    },
+    {
+      "name": "Guardrail",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Guardrail",
+      "label": "ガードレール",
+      "comment": "実行前確認、許可リストと拒否リスト、アクセス制限、サンドボックスなど危険操作を防ぐ安全機構。",
+      "parent": null
+    },
+    {
+      "name": "CommandLineInterface",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/CommandLineInterface",
+      "label": "コマンドラインインタフェース",
+      "comment": "cd、ls、mkdir、mv、cp、rmなどで高速操作し、テキスト指示と自動化に向くインタフェース。rmは復元不可。",
+      "parent": null
+    },
+    {
+      "name": "VersionControlSystem",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/VersionControlSystem",
+      "label": "バージョン管理システム",
+      "comment": "リポジトリ、コミット、ステージング、ブランチにより変更を記録し、AIの予期せぬ変更を取り消せる分散型の仕組み。",
+      "parent": null
+    },
+    {
+      "name": "GitHub",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/GitHub",
+      "label": "GitHub",
+      "comment": "プッシュとプルによるクラウドバックアップ、Jules等のクラウドエージェント連携、Actionsによる自動化を提供する。",
+      "parent": null
+    },
+    {
+      "name": "AIParameter",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AIParameter",
+      "label": "AIパラメータ",
+      "comment": "systemInstructionで役割を固定し、temperatureで創造性を調整するAPI設定。プロンプトインジェクション対策が必要。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "teaches",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "AICoding"
+      ],
+      "label": "教える対象",
+      "comment": "書籍が体系的に解説するAIコーディングという主題。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/teaches"
+    },
+    {
+      "name": "targetsOccupation",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Occupation"
+      ],
+      "label": "対象職種",
+      "comment": "書籍が想定する非エンジニアを含む読者の職種。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/targetsOccupation"
+    },
+    {
+      "name": "hasLearningGoal",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "LearningGoal"
+      ],
+      "label": "学習目標を持つ",
+      "comment": "書籍が掲げる能力習得と思考法とツール活用の目標。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hasLearningGoal"
+    },
+    {
+      "name": "usesLanguage",
+      "type": "object",
+      "domain": [
+        "AICoding",
+        "Function"
+      ],
+      "range": [
+        "ProgrammingLanguage"
+      ],
+      "label": "使用言語",
+      "comment": "AIコーディングや関数実装で主に用いるプログラミング言語。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/usesLanguage"
+    },
+    {
+      "name": "requiresEnvironment",
+      "type": "object",
+      "domain": [
+        "AICoding"
+      ],
+      "range": [
+        "DevelopmentEnvironment"
+      ],
+      "label": "必要な環境",
+      "comment": "AIコーディングの前提となるエディターと実行環境。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/requiresEnvironment"
+    },
+    {
+      "name": "hasEditor",
+      "type": "object",
+      "domain": [
+        "DevelopmentEnvironment"
+      ],
+      "range": [
+        "CodeEditor"
+      ],
+      "label": "エディターを含む",
+      "comment": "開発環境に含まれるAI搭載コードエディター。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hasEditor"
+    },
+    {
+      "name": "hasRuntime",
+      "type": "object",
+      "domain": [
+        "DevelopmentEnvironment"
+      ],
+      "range": [
+        "RuntimeEnvironment"
+      ],
+      "label": "実行環境を含む",
+      "comment": "開発環境に含まれるNode.jsなどの実行基盤。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hasRuntime"
+    },
+    {
+      "name": "hasDataType",
+      "type": "object",
+      "domain": [
+        "Variable"
+      ],
+      "range": [
+        "DataType"
+      ],
+      "label": "データ型を持つ",
+      "comment": "変数が保持する文字列や数値などの型。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hasDataType"
+    },
+    {
+      "name": "usesControlFlow",
+      "type": "object",
+      "domain": [
+        "Function",
+        "AICoding"
+      ],
+      "range": [
+        "ControlFlow"
+      ],
+      "label": "制御フローを使う",
+      "comment": "条件分岐やループで処理の流れを組み立てる関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/usesControlFlow"
+    },
+    {
+      "name": "hasBuiltInMethod",
+      "type": "object",
+      "domain": [
+        "DataType"
+      ],
+      "range": [
+        "BuiltInMethod"
+      ],
+      "label": "組み込みメソッドを持つ",
+      "comment": "配列や文字列などの型が提供する標準操作。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hasBuiltInMethod"
+    },
+    {
+      "name": "invokesAPI",
+      "type": "object",
+      "domain": [
+        "AICoding",
+        "Function"
+      ],
+      "range": [
+        "API"
+      ],
+      "label": "APIを呼び出す",
+      "comment": "ブラウザを介さずサービスを直接利用する関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/invokesAPI"
+    },
+    {
+      "name": "authenticatesWith",
+      "type": "object",
+      "domain": [
+        "API"
+      ],
+      "range": [
+        "APIKey"
+      ],
+      "label": "認証に用いる",
+      "comment": "APIアクセスをAPIキーで認証する関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/authenticatesWith"
+    },
+    {
+      "name": "usesHttpRequest",
+      "type": "object",
+      "domain": [
+        "API"
+      ],
+      "range": [
+        "HttpRequest"
+      ],
+      "label": "HTTPリクエストを用いる",
+      "comment": "API呼び出しがURL、ボディ、ヘッダー、メソッドで構成される関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/usesHttpRequest"
+    },
+    {
+      "name": "billedByToken",
+      "type": "object",
+      "domain": [
+        "API"
+      ],
+      "range": [
+        "Token"
+      ],
+      "label": "トークンで課金される",
+      "comment": "従量課金、プロンプトキャッシュ、Batch API割引の単位となる関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/billedByToken"
+    },
+    {
+      "name": "hasParameter",
+      "type": "object",
+      "domain": [
+        "API"
+      ],
+      "range": [
+        "AIParameter"
+      ],
+      "label": "パラメータを持つ",
+      "comment": "システムプロンプトやtemperatureなどAPIの振る舞いを決める設定。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hasParameter"
+    },
+    {
+      "name": "managedBy",
+      "type": "object",
+      "domain": [
+        "Library"
+      ],
+      "range": [
+        "PackageManager"
+      ],
+      "label": "管理される",
+      "comment": "ライブラリのインストールと依存関係がパッケージマネージャーに記録される関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/managedBy"
+    },
+    {
+      "name": "dependsOn",
+      "type": "object",
+      "domain": [
+        "Library"
+      ],
+      "range": [
+        "Library"
+      ],
+      "label": "依存する",
+      "comment": "ライブラリが別ライブラリに依存する連鎖。脆弱性伝播の経路にもなる。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/dependsOn"
+    },
+    {
+      "name": "isDistributedAs",
+      "type": "object",
+      "domain": [
+        "Library",
+        "RuntimeEnvironment"
+      ],
+      "range": [
+        "OpenSourceSoftware"
+      ],
+      "label": "OSSとして配布される",
+      "comment": "ライブラリや実行環境がオープンソースとして公開される関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/isDistributedAs"
+    },
+    {
+      "name": "usesTool",
+      "type": "object",
+      "domain": [
+        "AICoding"
+      ],
+      "range": [
+        "AICodingTool"
+      ],
+      "label": "ツールを使う",
+      "comment": "エディター型、CLI型、クラウド型などのAIコーディングツール利用。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/usesTool"
+    },
+    {
+      "name": "usesContext",
+      "type": "object",
+      "domain": [
+        "AIAgent"
+      ],
+      "range": [
+        "Context"
+      ],
+      "label": "コンテキストを使う",
+      "comment": "メンション等で必要な情報を渡し回答の質を上げる関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/usesContext"
+    },
+    {
+      "name": "guidedBy",
+      "type": "object",
+      "domain": [
+        "AIAgent"
+      ],
+      "range": [
+        "RuleFile"
+      ],
+      "label": "ルールに従う",
+      "comment": "エージェントが作業マニュアルであるルールファイルに従って動く関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/guidedBy"
+    },
+    {
+      "name": "constrainedBy",
+      "type": "object",
+      "domain": [
+        "AIAgent"
+      ],
+      "range": [
+        "Guardrail"
+      ],
+      "label": "ガードレールで制約される",
+      "comment": "危険な操作を承認や隔離によって制限する関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/constrainedBy"
+    },
+    {
+      "name": "operatesViaCli",
+      "type": "object",
+      "domain": [
+        "AICoding",
+        "AIAgent"
+      ],
+      "range": [
+        "CommandLineInterface"
+      ],
+      "label": "CLI経由で操作する",
+      "comment": "テキストコマンドで高速に指示し自動化する関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/operatesViaCli"
+    },
+    {
+      "name": "versionedBy",
+      "type": "object",
+      "domain": [
+        "AICoding"
+      ],
+      "range": [
+        "VersionControlSystem"
+      ],
+      "label": "版管理される",
+      "comment": "変更履歴をGitなどで記録しいつでも戻せる関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/versionedBy"
+    },
+    {
+      "name": "hostedOn",
+      "type": "object",
+      "domain": [
+        "VersionControlSystem"
+      ],
+      "range": [
+        "GitHub"
+      ],
+      "label": "ホストされる",
+      "comment": "ローカルの変更をリモートへプッシュしクラウドと連携する関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hostedOn"
+    },
+    {
+      "name": "collaboratesWithAgent",
+      "type": "object",
+      "domain": [
+        "GitHub"
+      ],
+      "range": [
+        "AIAgent"
+      ],
+      "label": "エージェントと連携する",
+      "comment": "Jules、Claude Code Web、Codexなどクラウド型エージェントへ作業を依頼する関係。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/collaboratesWithAgent"
+    },
+    {
+      "name": "title",
+      "type": "data",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "タイトル",
+      "comment": "書籍や成果物の名称。",
+      "uri": "https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/title"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

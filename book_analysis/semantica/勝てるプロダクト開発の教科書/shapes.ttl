@@ -1,0 +1,311 @@
+@prefix ex: <https://books.local/勝てるプロダクト開発の教科書/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/勝てるプロダクト開発の教科書/shapes> a owl:Ontology .
+
+<https://books.local/勝てるプロダクト開発の教科書/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "プロダクト責任の引き受けと勝ち切る開発組織を論じた教科書そのもの。" ;
+    sh:property [
+        sh:path ex:writtenBy ;
+        sh:class ex:Author ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasChapter ;
+        sh:class ex:Chapter ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsAudience ;
+        sh:class ex:Audience ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:title ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/勝てるプロダクト開発の教科書/AuthorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Author ;
+    sh:name "著者" ;
+    sh:description "現場PMと意思決定者の双方を経験した書き手。蜂須賀大貴を想定する。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/ChapterShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Chapter ;
+    sh:name "章" ;
+    sh:description "独立して読めるが一つの哲学でつながる章。多くは学びのリソースで終わる。" ;
+    sh:property [
+        sh:path ex:belongsToLayer ;
+        sh:class ex:KnowledgeLayer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLearningResource ;
+        sh:class ex:LearningResource ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:title ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/勝てるプロダクト開発の教科書/AudienceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Audience ;
+    sh:name "想定読者" ;
+    sh:description "第一は価値と事業成果に責任を持つプロダクトオーナー、第二は協働する専門家。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/ProductOwnerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductOwner ;
+    sh:name "プロダクト責任者" ;
+    sh:description "肩書ではなく、最終判断と成果説明から逃げない姿勢を持つ人。ミニCEOでもある。" ;
+    sh:property [
+        sh:path ex:takesResponsibilityFor ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStance ;
+        sh:class ex:Stance ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasThinkingOS ;
+        sh:class ex:ThinkingOS ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:selectsMarket ;
+        sh:class ex:Market ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:positionedInQuadrant ;
+        sh:class ex:PassionMarketQuadrant ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:delegatesTo ;
+        sh:class ex:Specialist ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:dumpsOnto ;
+        sh:class ex:Specialist ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:holdsCriterion ;
+        sh:class ex:HeldCriterion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:posesQuestion ;
+        sh:class ex:JudgmentQuestion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasVision ;
+        sh:class ex:Vision ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:operatesInPhase ;
+        sh:class ex:OrganizationPhase ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/勝てるプロダクト開発の教科書/SpecialistShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Specialist ;
+    sh:name "専門家" ;
+    sh:description "エンジニア、デザイナー、マーケ、営業、PR、法務など、委任先となりうる専門職。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/ProductShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Product ;
+    sh:name "プロダクト" ;
+    sh:description "顧客価値と事業成果が同時に問われる対象。生存と同僚の生活がかかることがある。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/MarketShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Market ;
+    sh:name "市場" ;
+    sh:description "生きた水系のように上流下流を持つ戦場。勝てる市場選びが勝敗を決する。" ;
+    sh:property [
+        sh:path ex:hasWinnableCondition ;
+        sh:class ex:WinnableMarketCondition ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMoat ;
+        sh:class ex:Moat ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exhibitsFailurePattern ;
+        sh:class ex:MarketSelectionFailurePattern ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/勝てるプロダクト開発の教科書/ResponsibilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Responsibility ;
+    sh:name "責任" ;
+    sh:description "不確実性の中で最終決定し、失敗時も他責せず火中に立つこと。逃げない罰則の覚悟を含む。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/StanceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Stance ;
+    sh:name "姿勢" ;
+    sh:description "顧客価値から逃げない、決断を先送りしない、委任しても責任を捨てない、失敗時に弁解しない。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/ThinkingOSShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThinkingOS ;
+    sh:name "思考OS" ;
+    sh:description "戦略・組織・技術・マーケ・法務などの知識を正しく使うための土台。アプリより先に整える。" ;
+    sh:property [
+        sh:path ex:comprisesAbility ;
+        sh:class ex:FoundationalAbility ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/勝てるプロダクト開発の教科書/FoundationalAbilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FoundationalAbility ;
+    sh:name "基礎体力" ;
+    sh:description "論理的思考、具体と抽象の往来、意思決定リテラシーが連動する三つの基礎能力。" ;
+    sh:property [
+        sh:path ex:comprisesAbility ;
+        sh:class ex:FoundationalAbility ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/勝てるプロダクト開発の教科書/KnowledgeLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KnowledgeLayer ;
+    sh:name "知識の層" ;
+    sh:description "根（哲学）、幹（基礎技術）、枝葉（専門応用）からなる一本の木としての知識構造。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/DelegationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Delegation ;
+    sh:name "委任" ;
+    sh:description "成果責任は自分が保持したまま、専門家にオーナーシップを渡すこと。丸投げではない。" ;
+    sh:property [
+        sh:path ex:requiresAlignment ;
+        sh:class ex:AlignmentElement ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/勝てるプロダクト開発の教科書/DumpingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Dumping ;
+    sh:name "丸投げ" ;
+    sh:description "成果責任と思考の両方を渡し専門家を孤立させる行為。責任所在を不明確にし失敗を招く。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/AlignmentElementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AlignmentElement ;
+    sh:name "引き継ぎ要素" ;
+    sh:description "背景、目的、判断基準、期待値、期限、リスクと不確実性の六要素。欠けるとブラックボックス化する。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/HeldCriterionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HeldCriterion ;
+    sh:name "保持すべき判断基準" ;
+    sh:description "目的、制約条件、成功指標、代替案、最悪ケース。委任しても手放してはならない軸。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/WinnableMarketConditionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WinnableMarketCondition ;
+    sh:name "勝てる市場の条件" ;
+    sh:description "成長市場、圧倒的首位の不在、独自技術や資産による独占的地位（MOAT）の三つ。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/MarketSelectionFailurePatternShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MarketSelectionFailurePattern ;
+    sh:name "市場選びの失敗パターン" ;
+    sh:description "情熱のみ、過密ブーム、時期尚早、実在顧客不在、思考の偏り、過信の六類型。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/PassionMarketQuadrantShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PassionMarketQuadrant ;
+    sh:name "情熱と市場理解の象限" ;
+    sh:description "経験×現在市場、経験×未来市場、志×現在市場、志×未来市場の二次元で戦場を意識する枠。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/VisionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Vision ;
+    sh:name "ビジョン" ;
+    sh:description "Why me と Why now を自分の言葉で重ねた先に立ち現れる、スローガンではない目的。" ;
+    sh:property [
+        sh:path ex:answersWhyMe ;
+        sh:class ex:WhyMe ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:answersWhyNow ;
+        sh:class ex:WhyNow ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/勝てるプロダクト開発の教科書/WhyMeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WhyMe ;
+    sh:name "なぜ自分か" ;
+    sh:description "原体験、代替不能な資産、実現したい社会変革が重なる、自分がやる必然。" ;
+    sh:property [
+        sh:path ex:groundedIn ;
+        sh:class ex:OriginalExperience ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/勝てるプロダクト開発の教科書/WhyNowShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WhyNow ;
+    sh:name "なぜ今か" ;
+    sh:description "技術制度インフラ、社会文化、競争と産業構造の変化が重なる、このタイミングの必然。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/OriginalExperienceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OriginalExperience ;
+    sh:name "原体験" ;
+    sh:description "持続動機の源泉。肯定的である必要はなく、言語化されていないだけであることが多い。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/MoatShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Moat ;
+    sh:name "堀" ;
+    sh:description "独自技術や資産、プラットフォーム化の可能性によって築く排他的・独占的地位。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/OrganizationPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationPhase ;
+    sh:name "組織フェーズ" ;
+    sh:description "立ち上げ・成長・拡大。戦略・戦術・施策のどこを自ら保持しどこを委任するかが変わる。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/LearningResourceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LearningResource ;
+    sh:name "学びのリソース" ;
+    sh:description "各章末に置かれ、実務の途中で開いて戻るための学習材料。" .
+
+<https://books.local/勝てるプロダクト開発の教科書/JudgmentQuestionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:JudgmentQuestion ;
+    sh:name "専門家への問い" ;
+    sh:description "何を聞くか、何を決めるか、リスクはどこか、何を委任し何を保持するか、の四種。" .

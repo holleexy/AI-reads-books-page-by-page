@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/">
+    <rdfs:label>Kasetsu_Kiten_no_Eigyou_Ron__seerusuOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesPerson">
+    <rdfs:label xml:lang="ja">セールスパーソン</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客対応や製品理解を行い、型の限界を超えてトップセールスを目指す営業担当者。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesKata">
+    <rdfs:label xml:lang="ja">営業の型</rdfs:label>
+    <rdfs:comment xml:lang="ja">基本手法を教える定型だが、顧客に合わせたカスタマイズ提案のスキルは養われない。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/IntermediaryValue">
+    <rdfs:label xml:lang="ja">介在価値</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業が生み出す付加価値。売上至上主義ではなく顧客提供価値を前提とする存在意義。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Hypothesis">
+    <rdfs:label xml:lang="ja">仮説</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報不足の状況で一時的に立てる結論。間違えてもよい前提で早期に顧客にぶつける。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/HypothesisThinking">
+    <rdfs:label xml:lang="ja">仮説思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">ゴールから逆算し、必要最小限の情報で検証する思考。キーエンスのガイ報制度などで実践される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Customer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">課題が複雑化し自ら気づけていない対象。サブスクリプションではLTVが重視される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/CustomerIssue">
+    <rdfs:label xml:lang="ja">顧客課題</rdfs:label>
+    <rdfs:comment xml:lang="ja">複雑化した顧客の問題。営業は仮説により気づかせ決断と行動を支援する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/HypothesisPerspective">
+    <rdfs:label xml:lang="ja">仮説構築の視点</rdfs:label>
+    <rdfs:comment xml:lang="ja">ゴールから見る、俯瞰する、分解する、顧客視点、エッジから見るの5つの視点。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/BusinessFramework">
+    <rdfs:label xml:lang="ja">ビジネスフレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">3C、PEST、ファイブフォース、VRIO、SWOT、STP、4Pなどの分析と戦略の枠組み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/ThreeCAnalysis">
+    <rdfs:label xml:lang="ja">3C分析</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客・自社・競合の相互作用からバリュープロポジションを明確にする。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/BusinessFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SWOTAnalysis">
+    <rdfs:label xml:lang="ja">SWOT分析</rdfs:label>
+    <rdfs:comment xml:lang="ja">強み弱みと機会脅威を掛け合わせ具体的戦略を立案する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/BusinessFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/InferenceMethod">
+    <rdfs:label xml:lang="ja">推論手法</rdfs:label>
+    <rdfs:comment xml:lang="ja">演繹法、帰納法、アブダクション。仮説作りにはアブダクションが最も有効。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Abduction">
+    <rdfs:label xml:lang="ja">アブダクション</rdfs:label>
+    <rdfs:comment xml:lang="ja">結果とルールから原因を推測する仮説推論。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/InferenceMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/CognitiveBias">
+    <rdfs:label xml:lang="ja">認知バイアス</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロスペクト理論、サンクコスト、現状維持バイアスなど人間の非合理判断。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/ProspectTheory">
+    <rdfs:label xml:lang="ja">プロスペクト理論</rdfs:label>
+    <rdfs:comment xml:lang="ja">利益より損失を約2倍大きく感じる損失回避性。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/CognitiveBias"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesTechnique">
+    <rdfs:label xml:lang="ja">営業技術</rdfs:label>
+    <rdfs:comment xml:lang="ja">SPIN話法、BANT、PSS、PREP法、交渉とクロージングなどの実践スキル。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SPINMethod">
+    <rdfs:label xml:lang="ja">SPIN話法</rdfs:label>
+    <rdfs:comment xml:lang="ja">状況・問題・示唆・解決質問で潜在課題を引き出し影響を気づかせる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesTechnique"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Fact">
+    <rdfs:label xml:lang="ja">事実</rdfs:label>
+    <rdfs:comment xml:lang="ja">客観的な出来事。解釈と明確に分離して報告する必要がある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Interpretation">
+    <rdfs:label xml:lang="ja">解釈</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説に基づく主観。事実として伝えると信頼を損なう危険がある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/VerificationProcess">
+    <rdfs:label xml:lang="ja">仮説検証プロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">粗い仮説を早期に顧客と共に磨き上げる。リーンスタートアップのMVP発想に近い。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/DataAnalysis">
+    <rdfs:label xml:lang="ja">データ分析</rdfs:label>
+    <rdfs:comment xml:lang="ja">適切な可視化と因果・相関の区別、疑似相関や交絡因子に注意しA/Bテストで検証する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/FutureSalesRole">
+    <rdfs:label xml:lang="ja">これからの営業の価値</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説を用いて顧客が取り組むべき課題に気づかせ、スピード感を持って決断し行動できるよう支援すること。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/createsValue">
+    <rdfs:label xml:lang="ja">介在価値を生み出す</rdfs:label>
+    <rdfs:comment xml:lang="ja">セールスパーソンが付加価値を創出する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/IntermediaryValue"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/constructsHypothesis">
+    <rdfs:label xml:lang="ja">仮説を構築する</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説思考により一時的な結論を立てる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesPerson"/>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/HypothesisThinking"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Hypothesis"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/appliesTo">
+    <rdfs:label xml:lang="ja">顧客に適用される</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説を顧客にぶつけ共に磨き上げる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Hypothesis"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/addressesIssue">
+    <rdfs:label xml:lang="ja">課題に取り組む</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客課題の気づきと解決を支援する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Hypothesis"/>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/IntermediaryValue"/>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/FutureSalesRole"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/CustomerIssue"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/usesPerspective">
+    <rdfs:label xml:lang="ja">視点を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">5つの視点から仮説を立てる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/HypothesisThinking"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/HypothesisPerspective"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/usesFramework">
+    <rdfs:label xml:lang="ja">フレームワークを使用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">分析や戦略立案にビジネスフレームワークを活用する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesPerson"/>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/HypothesisThinking"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/BusinessFramework"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/usesTechnique">
+    <rdfs:label xml:lang="ja">営業技術を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">ヒアリングや交渉に実践的スキルを適用する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesTechnique"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/influencedByBias">
+    <rdfs:label xml:lang="ja">バイアスの影響を受ける</rdfs:label>
+    <rdfs:comment xml:lang="ja">認知バイアスが判断に影響する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Customer"/>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/CognitiveBias"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/distinguishesFrom">
+    <rdfs:label xml:lang="ja">解釈と区別される</rdfs:label>
+    <rdfs:comment xml:lang="ja">事実と解釈を明確に分離することが信頼維持に重要。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Fact"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Interpretation"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/verifiedBy">
+    <rdfs:label xml:lang="ja">検証される</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説は検証プロセスやデータ分析により確認される。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Hypothesis"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/VerificationProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/DataAnalysis"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/derivedUsing">
+    <rdfs:label xml:lang="ja">推論により導出される</rdfs:label>
+    <rdfs:comment xml:lang="ja">特にアブダクションを用いて仮説を作る。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Hypothesis"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/InferenceMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/limitedBy">
+    <rdfs:label xml:lang="ja">型により制限される</rdfs:label>
+    <rdfs:comment xml:lang="ja">型の習得が応用力育成の弊害となる場合がある。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesKata"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/description">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念や実体の詳細な説明を表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Hypothesis"/>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/IntermediaryValue"/>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/CustomerIssue"/>
+    <rdfs:domain rdf:resource="https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesKata"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

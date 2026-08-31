@@ -1,0 +1,455 @@
+@prefix ex: <https://books.local/Sales_is/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Sales_is/shapes> a owl:Ontology .
+
+<https://books.local/Sales_is/ScientificSalesMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ScientificSalesMethod ;
+    sh:name "科学的営業術" ;
+    sh:description "勘・偶然・根性といった不確実要素を排除し、論理とデータで成果をコントロールする再現性の高い営業手法。" ;
+    sh:property [
+        sh:path ex:hasRule ;
+        sh:class ex:MindsetRule ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsProcess ;
+        sh:class ex:ConsultingSalesProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/SalespersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Salesperson ;
+    sh:name "営業パーソン" ;
+    sh:description "科学的営業術を実践し、顧客の課題解決と成果創出を担う専門職・技術職。" ;
+    sh:property [
+        sh:path ex:practices ;
+        sh:class ex:ScientificSalesMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:serves ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:analyzes ;
+        sh:class ex:LostDeal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesCase ;
+        sh:class ex:CustomerCase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasTargetList ;
+        sh:class ex:TargetList ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesGiveModel ;
+        sh:class ex:GiveModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:meets ;
+        sh:class ex:DecisionMaker ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:pursues ;
+        sh:class ex:CustomerSuccess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "商品そのものではなく、課題が解決できる可能性に対して契約する相手。" ;
+    sh:property [
+        sh:path ex:hasBehavioralType ;
+        sh:class ex:DiSCType ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/DecisionMakerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DecisionMaker ;
+    sh:name "決裁者" ;
+    sh:description "会うべき人である役職者・意思決定者。鶴の一声による白紙化を防ぐ対象。" ;
+    sh:property [
+        sh:path ex:hasBehavioralType ;
+        sh:class ex:DiSCType ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/NonPurchaseReasonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:NonPurchaseReason ;
+    sh:name "買わない理由" ;
+    sh:description "売れた理由より信憑性が高く、営業プロセスで一つずつ排除すべき成約阻害要因。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/LostDealShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LostDeal ;
+    sh:name "失注" ;
+    sh:description "受注よりサンプルが多く早期改善に役立つ宝の山であり、分析と実行の対象。" ;
+    sh:property [
+        sh:path ex:causedBy ;
+        sh:class ex:NonPurchaseReason ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/SalesOpportunityLeadShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesOpportunityLead ;
+    sh:name "SOL" ;
+    sh:description "購買のタイミングと理由が明確になったリード（Sales Opportunity Lead）。" ;
+    sh:property [
+        sh:path ex:sourcedFrom ;
+        sh:class ex:TargetList ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/TargetListShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TargetList ;
+    sh:name "ターゲットリスト" ;
+    sh:description "ニーズのある見込み客を集めたリスト。探客力の中核となる。" ;
+    sh:property [
+        sh:path ex:hasCriterion ;
+        sh:class ex:TargetListCriterion ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/TargetListCriterionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TargetListCriterion ;
+    sh:name "ターゲットリスト要素" ;
+    sh:description "勝利を掴むリストに必要な精度・鮮度・具体性・絶対数の四要素。" .
+
+<https://books.local/Sales_is/GiveModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GiveModel ;
+    sh:name "Giveモデル" ;
+    sh:description "先に有益情報を提供し返報性の法則でSOLを得るスマート・アウトバウンド手法。" ;
+    sh:property [
+        sh:path ex:obtains ;
+        sh:class ex:SalesOpportunityLead ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/ConsultingSalesProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConsultingSalesProcess ;
+    sh:name "コンサルティングセールスプロセス" ;
+    sh:description "違和感・不要感・不安感を未然に防ぎ合意と共感を積み重ねる七段階の営業プロセス。" ;
+    sh:property [
+        sh:path ex:hasStep ;
+        sh:class ex:ProcessStep ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/ProcessStepShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProcessStep ;
+    sh:name "プロセスステップ" ;
+    sh:description "コンサルティングセールスを構成する各フェーズ。" ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:ProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:eliminates ;
+        sh:class ex:NonPurchaseReason ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/LeadSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LeadSales ;
+    sh:name "リードセールス" ;
+    sh:description "アカウントプランからオーダーコントロールまでの案件獲得プロセス（前工程）。" ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:ProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:eliminates ;
+        sh:class ex:NonPurchaseReason ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/CoreSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CoreSales ;
+    sh:name "コアセールス" ;
+    sh:description "企画作成からクロージングまでの案件攻略プロセス（後工程）。" ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:ProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:eliminates ;
+        sh:class ex:NonPurchaseReason ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/AccountPlanShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AccountPlan ;
+    sh:name "アカウントプラン" ;
+    sh:description "三C＋二C×マクロ環境などで顧客の勝ち筋と課題仮説を構築する商談前の攻略計画。" ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:ProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:eliminates ;
+        sh:class ex:NonPurchaseReason ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/ApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Approach ;
+    sh:name "アプローチ" ;
+    sh:description "第一印象・壁の除去・興味喚起・信頼構築の四ステップとファーストピッチで土台を築く工程。" ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:ProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:eliminates ;
+        sh:class ex:NonPurchaseReason ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/FactFindingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FactFinding ;
+    sh:name "ファクトファインディング" ;
+    sh:description "事業理解・問題発見・課題設定により顧客と課題を一緒に見つける究極の営業力。" ;
+    sh:property [
+        sh:path ex:identifiesProblem ;
+        sh:class ex:Problem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:setsIssue ;
+        sh:class ex:Issue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:ProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:eliminates ;
+        sh:class ex:NonPurchaseReason ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/OrderControlShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrderControl ;
+    sh:name "オーダーコントロール" ;
+    sh:description "グランドデザイン・体制・予算感と意思決定者をすり合わせ、白紙化を防ぐ要件定義。" ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:ProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:eliminates ;
+        sh:class ex:NonPurchaseReason ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/ProposalCreationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProposalCreation ;
+    sh:name "企画作成" ;
+    sh:description "課題解決・評価基準・ストーリー・実現性の四要件を満たす提案書を起転承結で作る工程。" ;
+    sh:property [
+        sh:path ex:solves ;
+        sh:class ex:Issue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:ProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:eliminates ;
+        sh:class ex:NonPurchaseReason ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/PresentationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Presentation ;
+    sh:name "プレゼンテーション" ;
+    sh:description "相手の立場にスポットライトを変え、テストクロージングで障壁を除く最適な提案。" ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:ProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:eliminates ;
+        sh:class ex:NonPurchaseReason ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/ClosingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Closing ;
+    sh:name "クロージング" ;
+    sh:description "説得ではなく納得を支援し、意思決定を後押しする工程。" ;
+    sh:property [
+        sh:path ex:leadsToSuccess ;
+        sh:class ex:CustomerSuccess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:ProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:eliminates ;
+        sh:class ex:NonPurchaseReason ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/CustomerCaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerCase ;
+    sh:name "顧客事例" ;
+    sh:description "可能性の見える化、否定しない問題提起、トークスキル非依存の説得を実現する武器。" ;
+    sh:property [
+        sh:path ex:visualizesPossibility ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/MindsetRuleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MindsetRule ;
+    sh:name "マインドセットルール" ;
+    sh:description "買いもの提案・顧客主語・コンサルタント思想など営業パーソンの十の行動原則。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/DiSCTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DiSCType ;
+    sh:name "DiSCタイプ" ;
+    sh:description "支配的・社交的・協調的・慎重の行動傾向に合わせたコミュニケーション類型。" .
+
+<https://books.local/Sales_is/ProblemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Problem ;
+    sh:name "問題" ;
+    sh:description "現状から理想を引いたギャップとして可視化されるもの。" .
+
+<https://books.local/Sales_is/IssueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Issue ;
+    sh:name "課題" ;
+    sh:description "原因と示唆から導かれ、解決するためのポジティブな取り組みに昇華したもの。" ;
+    sh:property [
+        sh:path ex:derivedFrom ;
+        sh:class ex:Problem ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Sales_is/CustomerSuccessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerSuccess ;
+    sh:name "カスタマーサクセス" ;
+    sh:description "購買をきっかけに問題解決を実現し、指名枠を得る営業の究極目標。" .

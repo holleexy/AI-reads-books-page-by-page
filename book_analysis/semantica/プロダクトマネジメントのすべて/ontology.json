@@ -1,0 +1,279 @@
+{
+  "uri": "https://books.local/プロダクトマネジメントのすべて/",
+  "name": "プロダクトマネジメントのすべてOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "ProductManager",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/ProductManager",
+      "label": "プロダクトマネージャー",
+      "comment": "プロダクトを市場成功に導きエンジニア・デザイナー・マーケターを統率する役割。ミニCEOとも呼ばれビジネス・UX・技術の交差点で意思決定する。",
+      "parent": null
+    },
+    {
+      "name": "Product",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/Product",
+      "label": "プロダクト",
+      "comment": "市場の顧客となりうる個人または組織に価値を提案するもの。狭義は成果物、広義は営業・PR・カスタマーサクセスを含む事業全体。",
+      "parent": null
+    },
+    {
+      "name": "Vision",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/Vision",
+      "label": "ビジョン",
+      "comment": "プロダクトが創り出したい未来の世界観であり存在理由。チーム全員が同じビジョンを述べ共有できることが重要。",
+      "parent": null
+    },
+    {
+      "name": "UserValue",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/UserValue",
+      "label": "ユーザー価値",
+      "comment": "ユーザーが価値を感じて継続利用する状態。当初は一部ユーザーに提案し検証済み仮説で拡大する。",
+      "parent": null
+    },
+    {
+      "name": "BusinessRevenue",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/BusinessRevenue",
+      "label": "事業収益",
+      "comment": "チームと投資を持続しビジョンへ進むために必要な収益。市場観察と独自戦略でビジネスモデルを構築する。",
+      "parent": null
+    },
+    {
+      "name": "ProductStage",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/ProductStage",
+      "label": "プロダクトステージ",
+      "comment": "0→1（PMF達成）、1→10（急成長）、10→100（大規模化）の段階。ステージごとに成功定義と必要な視点が変わる。",
+      "parent": null
+    },
+    {
+      "name": "ProductMarketFit",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/ProductMarketFit",
+      "label": "プロダクトマーケットフィット",
+      "comment": "強力な価値仮説を見つけユーザーが想定価格で購入する状態。スタートアップと新規事業で最重要。",
+      "parent": null
+    },
+    {
+      "name": "ProductLayer",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/ProductLayer",
+      "label": "プロダクトレイヤー",
+      "comment": "コア（世界観・戦略）、Why（誰をどの状態に）、What（UX・ビジネスモデル）、How（実現）の4階層。上層変更は下層再検討を要する。",
+      "parent": null
+    },
+    {
+      "name": "PMSkill",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/PMSkill",
+      "label": "PMスキル",
+      "comment": "発想力・計画力・実行力・仮説検証力・リスク管理力・チーム構築力の6つ。ステージにより相対的重要度が変わる。",
+      "parent": null
+    },
+    {
+      "name": "LeanCanvas",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/LeanCanvas",
+      "label": "リーンキャンバス",
+      "comment": "問題・ソリューション・UVP等9項目を1ページで整理しコア・Why・Whatの整合を検証するフレームワーク。",
+      "parent": null
+    },
+    {
+      "name": "MinimumViableProduct",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/MinimumViableProduct",
+      "label": "ミニマムバイアブルプロダクト",
+      "comment": "コア価値を提案する最小プロダクト。すべてを磨き切らず段階的リリースで価値検証する。",
+      "parent": null
+    },
+    {
+      "name": "ValuePropositionCanvas",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/ValuePropositionCanvas",
+      "label": "バリュープロポジションキャンバス",
+      "comment": "顧客プロファイル（Jobs/Pains/Gains）と価値マップの左右整合をペルソナごとに確認するツール。",
+      "parent": null
+    },
+    {
+      "name": "Persona",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/Persona",
+      "label": "ペルソナ",
+      "comment": "ターゲットセグメントから実データに基づき作られた架空ユーザー。役割ごとに1つ作成する。",
+      "parent": null
+    },
+    {
+      "name": "CustomerJourneyMap",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/CustomerJourneyMap",
+      "label": "カスタマージャーニーマップ",
+      "comment": "ユーザーの行動・思考とプロダクト機能を時系列で可視化し遷移・離脱理由を捉える。",
+      "parent": null
+    },
+    {
+      "name": "BusinessModelCanvas",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/BusinessModelCanvas",
+      "label": "ビジネスモデルキャンバス",
+      "comment": "顧客セグメントからコスト構造まで9ブロックで価値創造と提供の論理を記述する。",
+      "parent": null
+    },
+    {
+      "name": "ProductRoadmap",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/ProductRoadmap",
+      "label": "プロダクトロードマップ",
+      "comment": "ビジョンへ向かう中間マイルストーン付き行程。コミュニケーションツールとして継続更新する。",
+      "parent": null
+    },
+    {
+      "name": "NorthStarMetric",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/NorthStarMetric",
+      "label": "ノーススターメトリック",
+      "comment": "コア価値がユーザーに届いているかを測る単一指標。収益に先行しUX・リテンションと結びつく。",
+      "parent": null
+    },
+    {
+      "name": "ProductBacklog",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/ProductBacklog",
+      "label": "プロダクトバックログ",
+      "comment": "優先順位付けされた機能・仕組みの継続更新リスト。ユーザーストーリーで伝達する。",
+      "parent": null
+    },
+    {
+      "name": "Hypothesis",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/Hypothesis",
+      "label": "仮説",
+      "comment": "4階層を連鎖した検証対象。すべて仮説と捉え小さなリスクで高速ループを回す。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "managesProduct",
+      "type": "object",
+      "domain": [
+        "ProductManager"
+      ],
+      "range": [
+        "Product"
+      ],
+      "label": "プロダクトを管理する",
+      "comment": "プロダクトマネージャーがプロダクト成功の責任を負いステークホルダーを統率する関係。",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/managesProduct"
+    },
+    {
+      "name": "hasVision",
+      "type": "object",
+      "domain": [
+        "Product"
+      ],
+      "range": [
+        "Vision"
+      ],
+      "label": "ビジョンを持つ",
+      "comment": "プロダクトが目指す世界観との関係。ビジョン不在では成功とみなされない。",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/hasVision"
+    },
+    {
+      "name": "providesUserValue",
+      "type": "object",
+      "domain": [
+        "Product"
+      ],
+      "range": [
+        "UserValue"
+      ],
+      "label": "ユーザー価値を提供する",
+      "comment": "継続利用される価値をユーザーに届ける関係。一時的収益のための価値毀損は持続しない。",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/providesUserValue"
+    },
+    {
+      "name": "generatesRevenue",
+      "type": "object",
+      "domain": [
+        "Product"
+      ],
+      "range": [
+        "BusinessRevenue"
+      ],
+      "label": "事業収益を生み出す",
+      "comment": "ビジョン実現を支える収益との関係。3要素の相互バランスが必須。",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/generatesRevenue"
+    },
+    {
+      "name": "isInStage",
+      "type": "object",
+      "domain": [
+        "Product"
+      ],
+      "range": [
+        "ProductStage"
+      ],
+      "label": "ステージにある",
+      "comment": "プロダクトが0→1、1→10、10→100のいずれかの段階にある関係。",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/isInStage"
+    },
+    {
+      "name": "achievesPMF",
+      "type": "object",
+      "domain": [
+        "Product"
+      ],
+      "range": [
+        "ProductMarketFit"
+      ],
+      "label": "PMFを達成する",
+      "comment": "価値仮説が検証され本格的ライフサイクルが始まる関係。",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/achievesPMF"
+    },
+    {
+      "name": "hasLayer",
+      "type": "object",
+      "domain": [
+        "Product"
+      ],
+      "range": [
+        "ProductLayer"
+      ],
+      "label": "レイヤーを持つ",
+      "comment": "コア・Why・What・Howの階層で構成されFit&Refineで整合させる関係。",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/hasLayer"
+    },
+    {
+      "name": "requiresSkill",
+      "type": "object",
+      "domain": [
+        "ProductManager"
+      ],
+      "range": [
+        "PMSkill"
+      ],
+      "label": "スキルを必要とする",
+      "comment": "6つのコアスキルでユーザー価値と収益の両輪を支える関係。",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/requiresSkill"
+    },
+    {
+      "name": "validatesWithMVP",
+      "type": "object",
+      "domain": [
+        "Product"
+      ],
+      "range": [
+        "MinimumViableProduct"
+      ],
+      "label": "MVPで検証する",
+      "comment": "最小プロダクトでコア価値仮説を迅速に検証する関係。",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/validatesWithMVP"
+    },
+    {
+      "name": "hasDescription",
+      "type": "data",
+      "domain": [
+        "Product",
+        "ProductManager",
+        "Vision",
+        "Hypothesis"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "対象の名称や詳細を表す文字列。",
+      "uri": "https://books.local/プロダクトマネジメントのすべて/hasDescription"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/勝てるプロダクト開発の教科書/">
+    <rdfs:label>勝てるプロダクト開発の教科書Ontology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロダクト責任の引き受けと勝ち切る開発組織を論じた教科書そのもの。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Author">
+    <rdfs:label xml:lang="ja">著者</rdfs:label>
+    <rdfs:comment xml:lang="ja">現場PMと意思決定者の双方を経験した書き手。蜂須賀大貴を想定する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Chapter">
+    <rdfs:label xml:lang="ja">章</rdfs:label>
+    <rdfs:comment xml:lang="ja">独立して読めるが一つの哲学でつながる章。多くは学びのリソースで終わる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Audience">
+    <rdfs:label xml:lang="ja">想定読者</rdfs:label>
+    <rdfs:comment xml:lang="ja">第一は価値と事業成果に責任を持つプロダクトオーナー、第二は協働する専門家。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/ProductOwner">
+    <rdfs:label xml:lang="ja">プロダクト責任者</rdfs:label>
+    <rdfs:comment xml:lang="ja">肩書ではなく、最終判断と成果説明から逃げない姿勢を持つ人。ミニCEOでもある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Specialist">
+    <rdfs:label xml:lang="ja">専門家</rdfs:label>
+    <rdfs:comment xml:lang="ja">エンジニア、デザイナー、マーケ、営業、PR、法務など、委任先となりうる専門職。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Product">
+    <rdfs:label xml:lang="ja">プロダクト</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客価値と事業成果が同時に問われる対象。生存と同僚の生活がかかることがある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Market">
+    <rdfs:label xml:lang="ja">市場</rdfs:label>
+    <rdfs:comment xml:lang="ja">生きた水系のように上流下流を持つ戦場。勝てる市場選びが勝敗を決する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Responsibility">
+    <rdfs:label xml:lang="ja">責任</rdfs:label>
+    <rdfs:comment xml:lang="ja">不確実性の中で最終決定し、失敗時も他責せず火中に立つこと。逃げない罰則の覚悟を含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Stance">
+    <rdfs:label xml:lang="ja">姿勢</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客価値から逃げない、決断を先送りしない、委任しても責任を捨てない、失敗時に弁解しない。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/ThinkingOS">
+    <rdfs:label xml:lang="ja">思考OS</rdfs:label>
+    <rdfs:comment xml:lang="ja">戦略・組織・技術・マーケ・法務などの知識を正しく使うための土台。アプリより先に整える。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/FoundationalAbility">
+    <rdfs:label xml:lang="ja">基礎体力</rdfs:label>
+    <rdfs:comment xml:lang="ja">論理的思考、具体と抽象の往来、意思決定リテラシーが連動する三つの基礎能力。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ThinkingOS"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/KnowledgeLayer">
+    <rdfs:label xml:lang="ja">知識の層</rdfs:label>
+    <rdfs:comment xml:lang="ja">根（哲学）、幹（基礎技術）、枝葉（専門応用）からなる一本の木としての知識構造。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Delegation">
+    <rdfs:label xml:lang="ja">委任</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果責任は自分が保持したまま、専門家にオーナーシップを渡すこと。丸投げではない。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Dumping">
+    <rdfs:label xml:lang="ja">丸投げ</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果責任と思考の両方を渡し専門家を孤立させる行為。責任所在を不明確にし失敗を招く。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/AlignmentElement">
+    <rdfs:label xml:lang="ja">引き継ぎ要素</rdfs:label>
+    <rdfs:comment xml:lang="ja">背景、目的、判断基準、期待値、期限、リスクと不確実性の六要素。欠けるとブラックボックス化する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/HeldCriterion">
+    <rdfs:label xml:lang="ja">保持すべき判断基準</rdfs:label>
+    <rdfs:comment xml:lang="ja">目的、制約条件、成功指標、代替案、最悪ケース。委任しても手放してはならない軸。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/WinnableMarketCondition">
+    <rdfs:label xml:lang="ja">勝てる市場の条件</rdfs:label>
+    <rdfs:comment xml:lang="ja">成長市場、圧倒的首位の不在、独自技術や資産による独占的地位（MOAT）の三つ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/MarketSelectionFailurePattern">
+    <rdfs:label xml:lang="ja">市場選びの失敗パターン</rdfs:label>
+    <rdfs:comment xml:lang="ja">情熱のみ、過密ブーム、時期尚早、実在顧客不在、思考の偏り、過信の六類型。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/PassionMarketQuadrant">
+    <rdfs:label xml:lang="ja">情熱と市場理解の象限</rdfs:label>
+    <rdfs:comment xml:lang="ja">経験×現在市場、経験×未来市場、志×現在市場、志×未来市場の二次元で戦場を意識する枠。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Vision">
+    <rdfs:label xml:lang="ja">ビジョン</rdfs:label>
+    <rdfs:comment xml:lang="ja">Why me と Why now を自分の言葉で重ねた先に立ち現れる、スローガンではない目的。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/WhyMe">
+    <rdfs:label xml:lang="ja">なぜ自分か</rdfs:label>
+    <rdfs:comment xml:lang="ja">原体験、代替不能な資産、実現したい社会変革が重なる、自分がやる必然。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/WhyNow">
+    <rdfs:label xml:lang="ja">なぜ今か</rdfs:label>
+    <rdfs:comment xml:lang="ja">技術制度インフラ、社会文化、競争と産業構造の変化が重なる、このタイミングの必然。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/OriginalExperience">
+    <rdfs:label xml:lang="ja">原体験</rdfs:label>
+    <rdfs:comment xml:lang="ja">持続動機の源泉。肯定的である必要はなく、言語化されていないだけであることが多い。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/Moat">
+    <rdfs:label xml:lang="ja">堀</rdfs:label>
+    <rdfs:comment xml:lang="ja">独自技術や資産、プラットフォーム化の可能性によって築く排他的・独占的地位。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/OrganizationPhase">
+    <rdfs:label xml:lang="ja">組織フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">立ち上げ・成長・拡大。戦略・戦術・施策のどこを自ら保持しどこを委任するかが変わる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/LearningResource">
+    <rdfs:label xml:lang="ja">学びのリソース</rdfs:label>
+    <rdfs:comment xml:lang="ja">各章末に置かれ、実務の途中で開いて戻るための学習材料。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/勝てるプロダクト開発の教科書/JudgmentQuestion">
+    <rdfs:label xml:lang="ja">専門家への問い</rdfs:label>
+    <rdfs:comment xml:lang="ja">何を聞くか、何を決めるか、リスクはどこか、何を委任し何を保持するか、の四種。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/writtenBy">
+    <rdfs:label xml:lang="ja">著者である</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍とその著者を結ぶ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Book"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Author"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/hasChapter">
+    <rdfs:label xml:lang="ja">章を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍が根幹枝葉の知識構造に沿った章を含む。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Book"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Chapter"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/targetsAudience">
+    <rdfs:label xml:lang="ja">読者を想定する</rdfs:label>
+    <rdfs:comment xml:lang="ja">第一読者と協働専門家を指す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Book"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Audience"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/belongsToLayer">
+    <rdfs:label xml:lang="ja">知識の層に属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">章が根・幹・枝葉のいずれかの層に位置づく。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Chapter"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/KnowledgeLayer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/hasLearningResource">
+    <rdfs:label xml:lang="ja">学びのリソースを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">章末の学習材料との関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Chapter"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/LearningResource"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/takesResponsibilityFor">
+    <rdfs:label xml:lang="ja">最終責任を引き受ける</rdfs:label>
+    <rdfs:comment xml:lang="ja">この判断の最終責任を誰が引き受けるのか、という統一問いの中核関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ProductOwner"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Product"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Responsibility"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/hasStance">
+    <rdfs:label xml:lang="ja">姿勢を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">肩書ではなく四つの定義的姿勢でリーダーを特徴づける。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ProductOwner"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Stance"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/hasThinkingOS">
+    <rdfs:label xml:lang="ja">思考OSを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">個別スキルの前に必要な判断の土台。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ProductOwner"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ThinkingOS"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/comprisesAbility">
+    <rdfs:label xml:lang="ja">基礎体力からなる</rdfs:label>
+    <rdfs:comment xml:lang="ja">論理、具体抽象、判断軸が連動プロセスとしてOSを構成する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ThinkingOS"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/FoundationalAbility"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/selectsMarket">
+    <rdfs:label xml:lang="ja">市場を選ぶ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ゲームの難易度を選ぶ行為。身の程を知り勝てる戦場を決める。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ProductOwner"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Market"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/hasWinnableCondition">
+    <rdfs:label xml:lang="ja">勝てる条件を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">成長性、首位不在、堀の有無で市場の勝ちやすさを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Market"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/WinnableMarketCondition"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/hasMoat">
+    <rdfs:label xml:lang="ja">堀を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">市場における排他的地位。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Market"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Moat"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/exhibitsFailurePattern">
+    <rdfs:label xml:lang="ja">失敗パターンを示す</rdfs:label>
+    <rdfs:comment xml:lang="ja">市場選びの六つの敗北類型との関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Market"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/MarketSelectionFailurePattern"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/positionedInQuadrant">
+    <rdfs:label xml:lang="ja">情熱と市場の象限に位置づく</rdfs:label>
+    <rdfs:comment xml:lang="ja">どの象限で勝とうとしているかを意識する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ProductOwner"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/PassionMarketQuadrant"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/delegatesTo">
+    <rdfs:label xml:lang="ja">委任する</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果責任は保持したまま専門家に仕事の所有を渡す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ProductOwner"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Specialist"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/dumpsOnto">
+    <rdfs:label xml:lang="ja">丸投げする</rdfs:label>
+    <rdfs:comment xml:lang="ja">思考と成果責任まで手放し専門家を孤立させる誤った渡し方。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ProductOwner"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Specialist"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/requiresAlignment">
+    <rdfs:label xml:lang="ja">揃え要素を必要とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">渡す前に背景からリスクまで六要素を揃える。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Delegation"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/AlignmentElement"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/holdsCriterion">
+    <rdfs:label xml:lang="ja">判断基準を保持する</rdfs:label>
+    <rdfs:comment xml:lang="ja">Why、制約、指標、代替案、最悪ケースを自ら持ち続ける。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ProductOwner"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/HeldCriterion"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/posesQuestion">
+    <rdfs:label xml:lang="ja">問いを投げる</rdfs:label>
+    <rdfs:comment xml:lang="ja">非専門家が専門家と対等にリスク対リターンを評価するための問い。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ProductOwner"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/JudgmentQuestion"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/hasVision">
+    <rdfs:label xml:lang="ja">ビジョンを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">市場選定後に Why me / Why now から戦略の核を立てる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ProductOwner"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Vision"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/answersWhyMe">
+    <rdfs:label xml:lang="ja">なぜ自分かを答える</rdfs:label>
+    <rdfs:comment xml:lang="ja">原体験・独自資産・思想の重なりがビジョンの片方の核になる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Vision"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/WhyMe"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/answersWhyNow">
+    <rdfs:label xml:lang="ja">なぜ今かを答える</rdfs:label>
+    <rdfs:comment xml:lang="ja">技術・社会・競争環境の変化がタイミングの必然を与える。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Vision"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/WhyNow"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/groundedIn">
+    <rdfs:label xml:lang="ja">原体験に根ざす</rdfs:label>
+    <rdfs:comment xml:lang="ja">自分がやる必然の物語は過去の原体験から始まる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/WhyMe"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/OriginalExperience"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/operatesInPhase">
+    <rdfs:label xml:lang="ja">組織フェーズで活動する</rdfs:label>
+    <rdfs:comment xml:lang="ja">立ち上げ・成長・拡大で保持と委任の地図が変わる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/ProductOwner"/>
+    <rdfs:range rdf:resource="https://books.local/勝てるプロダクト開発の教科書/OrganizationPhase"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/勝てるプロダクト開発の教科書/title">
+    <rdfs:label xml:lang="ja">標題</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍名または章題の文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Book"/>
+    <rdfs:domain rdf:resource="https://books.local/勝てるプロダクト開発の教科書/Chapter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

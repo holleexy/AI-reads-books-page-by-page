@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/">
+    <rdfs:label>社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocrOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/InHouseSE">
+    <rdfs:label xml:lang="ja">社内SE</rdfs:label>
+    <rdfs:comment xml:lang="ja">事業会社に所属し内部システムと外部デジタルサービス双方を支援する情報システム担当。貢献は最高品質のシステムではなくビジネス価値である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/FirstYearInHouseSE">
+    <rdfs:label xml:lang="ja">1年目社内SE</rdfs:label>
+    <rdfs:comment xml:lang="ja">社会人1年目の社内SE。教えられない上司と学習対象の不明確さという構造的課題に直面し、何を誰から学ぶかを自ら考える必要がある。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/InHouseSE"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/SIer">
+    <rdfs:label>SIer</rdfs:label>
+    <rdfs:comment xml:lang="ja">システムインテグレーター等のベンダー企業。日本のIT人材の約70%が所属し、社内SEの主な取引先となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/BusinessCompany">
+    <rdfs:label xml:lang="ja">事業会社</rdfs:label>
+    <rdfs:comment xml:lang="ja">ユーザー企業。社内SEはIT業界ではなく所属する事業会社の業界に属し、利益と再投資の循環に貢献する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ITDepartment">
+    <rdfs:label xml:lang="ja">情報システム部門</rdfs:label>
+    <rdfs:comment xml:lang="ja">情シス。組織図上の位置やCIO・DX推進組織の有無から会社のIT推進姿勢（守りのITか攻めのITか）が読み取れる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Skill">
+    <rdfs:label xml:lang="ja">スキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果を出すために必要な知識・能力。単にスキルを上げても行動が成果に結びつかなければ結果は出ない。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ConceptualSkill">
+    <rdfs:label xml:lang="ja">コンセプチュアルスキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">本質を捉え課題を克服するスキル。論理思考・批判的思考・多面的視点・俯瞰力など。日常の問題解決に特に有効。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Skill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/HumanSkill">
+    <rdfs:label xml:lang="ja">ヒューマンスキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">関係を構築・維持するスキル。1年目には顧客視点と相手への敬意が最も効果的である。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Skill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/TechnicalSkill">
+    <rdfs:label xml:lang="ja">テクニカルスキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">直ちに活用可能なIT業界知識、開発・インフラ・運用・管理スキル、業界・業務知識およびビジネスモデル理解。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Skill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ManagementSkill">
+    <rdfs:label xml:lang="ja">マネジメントスキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">人・モノ・金・情報を対象とする管理スキル。1年目は限定的な定型業務やプロジェクトを管理する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Skill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Project">
+    <rdfs:label xml:lang="ja">プロジェクト</rdfs:label>
+    <rdfs:comment xml:lang="ja">期限付きの資源管理により成功へ導く取り組み。管理は手段であり目的ではない。進捗・資源・予算・課題等を可視化する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/OperationsMaintenance">
+    <rdfs:label xml:lang="ja">運用保守</rdfs:label>
+    <rdfs:comment xml:lang="ja">日常IT運用を支える登竜門業務。知識拡大・人脈拡大・問題解決スキル習得の機会となり、サービスデスク等の役割を含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/SystemConstruction">
+    <rdfs:label xml:lang="ja">システム構築</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務戦略・IT戦略・プロジェクト方針の下で行うシステム開発・導入。改善・スクラッチ・パッケージ・クラウド・RPAなどの手法がある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ProjectPhase">
+    <rdfs:label xml:lang="ja">プロジェクトフェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">起案・立ち上げ・構築・リリース運用の4段階。1年目は限られた一領域に参加し前後のつながりを理解する必要がある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ProposalPhase">
+    <rdfs:label xml:lang="ja">起案フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">事業会社で極めて重要な企画段階。As-Is/To-Be、ITソリューション検討、超概算、承認（関所）を含む。企画書のオーナーは提案部門。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ProjectPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/LaunchPhase">
+    <rdfs:label xml:lang="ja">立ち上げフェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">構築の方向性（ルール・ガバナンス・組織・SIer関与）を定める段階。RFI/RFP、PoC、契約・価格交渉、体制構築を行う。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ProjectPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ITInvestmentStyle">
+    <rdfs:label xml:lang="ja">IT投資スタイル</rdfs:label>
+    <rdfs:comment xml:lang="ja">会社のIT推進姿勢。投資額の目安や組織図から読み取れ、従来型と攻めのITに大別される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/OffensiveIT">
+    <rdfs:label xml:lang="ja">攻めのIT</rdfs:label>
+    <rdfs:comment xml:lang="ja">売上・付加価値、スピード第一、フロントエンド、アジャイル/DevOpsを特徴とするIT投資。CIOやDX推進組織がある場合に明確。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ITInvestmentStyle"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/TraditionalITInvestment">
+    <rdfs:label xml:lang="ja">従来型IT投資</rdfs:label>
+    <rdfs:comment xml:lang="ja">コスト削減、安全性第一、バックエンド、ウォーターフォールを特徴とする守りのIT投資。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ITInvestmentStyle"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/DevelopmentMethodology">
+    <rdfs:label xml:lang="ja">開発手法</rdfs:label>
+    <rdfs:comment xml:lang="ja">システム構築の進め方。ウォーターフォール、アジャイル、ハイブリッドなどがありプロジェクトの進行に大きく影響する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Waterfall">
+    <rdfs:label xml:lang="ja">ウォーターフォール</rdfs:label>
+    <rdfs:comment xml:lang="ja">管理・品質・計画がしやすい伝統的開発手法。従来型IT投資と親和性が高い。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/DevelopmentMethodology"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Agile">
+    <rdfs:label xml:lang="ja">アジャイル</rdfs:label>
+    <rdfs:comment xml:lang="ja">小さな単位で迅速にリリースし成果物を抑える手法。Web向きで物理運用には向きにくい。攻めのITと親和性が高い。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/DevelopmentMethodology"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/WBS">
+    <rdfs:label>WBS</rdfs:label>
+    <rdfs:comment xml:lang="ja">作業分解構造。大中小の階層分解に担当・進捗・日付を付与しMECEで内部タスクも列挙する。現実的計画とエスカレに用いる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/RASCI">
+    <rdfs:label>RASCI</rdfs:label>
+    <rdfs:comment xml:lang="ja">Responsible・Accountable・Support・Consulted・Informedによる役割分担マトリクス。誤解による超過を防ぐためRFPに添付する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/FourthIndustrialRevolution">
+    <rdfs:label xml:lang="ja">第4次産業革命</rdfs:label>
+    <rdfs:comment xml:lang="ja">IoT・ビッグデータ・AIによる最適化。社内SEの役割を内部IT導入支援からデジタルサービス提供支援へと拡大させた背景。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/StructuralChallenge">
+    <rdfs:label xml:lang="ja">構造的課題</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人の失敗ではなく構造に起因する1年目の困難。教えられない上司、学習対象の不明、人材偏在、リモートによる非公式学習の減少など。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/belongsToCompany">
+    <rdfs:label xml:lang="ja">所属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">社内SEはIT業界ではなく事業会社に所属し、その業界の一員としてビジネスに貢献する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/InHouseSE"/>
+    <rdfs:range rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/BusinessCompany"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/transactsWith">
+    <rdfs:label xml:lang="ja">取引する</rdfs:label>
+    <rdfs:comment xml:lang="ja">社内SEは依頼者として大手SIer（元請）やSESと取引し、新規はSIerへ委託、改修は既存運用ベンダーに相談することが多い。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/InHouseSE"/>
+    <rdfs:range rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/SIer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/possessesSkill">
+    <rdfs:label xml:lang="ja">スキルを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果・戦略・戦術を支えるコンセプチュアル・ヒューマン・テクニカル・マネジメントの各スキルを保有・習得する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/InHouseSE"/>
+    <rdfs:range rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Skill"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/isAssignedAsGateway">
+    <rdfs:label xml:lang="ja">登竜門として担当する</rdfs:label>
+    <rdfs:comment xml:lang="ja">1年目は比較的広く浅い知識で遂行できる運用保守やプロジェクト管理をゲートウェイとして割り当てられることが多い。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/FirstYearInHouseSE"/>
+    <rdfs:range rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/OperationsMaintenance"/>
+    <rdfs:range rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Project"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/facesChallenge">
+    <rdfs:label xml:lang="ja">直面する</rdfs:label>
+    <rdfs:comment xml:lang="ja">1年目社内SEは教えられない環境や学習対象の不明確さなど構造的課題に直面する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/FirstYearInHouseSE"/>
+    <rdfs:range rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/StructuralChallenge"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/hasPhase">
+    <rdfs:label xml:lang="ja">フェーズを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロジェクトは起案・立ち上げ・構築・リリース運用のフェーズからなり、前後のつながりを理解した協働が不可欠である。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Project"/>
+    <rdfs:range rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ProjectPhase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/employsMethodology">
+    <rdfs:label xml:lang="ja">開発手法を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">ウォーターフォール、アジャイル、ハイブリッドなど、業務改善の方法と合わせて構築の進め方を選択する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/SystemConstruction"/>
+    <rdfs:range rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/DevelopmentMethodology"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/indicatesAttitude">
+    <rdfs:label xml:lang="ja">IT姿勢を示す</rdfs:label>
+    <rdfs:comment xml:lang="ja">情シスの組織上の位置やCIO・DX組織の有無から、会社が守りのITか攻めのITかを読み取る。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ITDepartment"/>
+    <rdfs:range rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ITInvestmentStyle"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/usesWBS">
+    <rdfs:label xml:lang="ja">WBSを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">進捗管理のため階層分解したWBSで自領域タスクを洗い出し、期限が守れない場合は早期にエスカレする。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Project"/>
+    <rdfs:range rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/WBS"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/definesRolesWith">
+    <rdfs:label xml:lang="ja">RASCIで役割を定義する</rdfs:label>
+    <rdfs:comment xml:lang="ja">役割分担の誤解による超過を防ぐため、社内ですり合わせたRASCIをRFPに添付する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Project"/>
+    <rdfs:range rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/RASCI"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/name">
+    <rdfs:label xml:lang="ja">名称</rdfs:label>
+    <rdfs:comment xml:lang="ja">対象エンティティを識別するための名称。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/InHouseSE"/>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Project"/>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Skill"/>
+    <rdfs:domain rdf:resource="https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ITDepartment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

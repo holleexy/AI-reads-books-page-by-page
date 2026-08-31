@@ -1,0 +1,4843 @@
+{
+  "entities": [
+    {
+      "id": "consultant",
+      "name": "consultant",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "consultant",
+              "name": "consultant",
+              "source": null
+            },
+            {
+              "id": "consultant",
+              "name": "consultant",
+              "source": null
+            },
+            {
+              "id": "concepts",
+              "name": "concepts",
+              "source": null
+            },
+            {
+              "id": "composure",
+              "name": "composure",
+              "source": null
+            },
+            {
+              "id": "company president",
+              "name": "company president",
+              "source": null
+            },
+            {
+              "id": "cognitive traps",
+              "name": "cognitive traps",
+              "source": null
+            },
+            {
+              "id": "corporate business settings",
+              "name": "corporate business settings",
+              "source": null
+            },
+            {
+              "id": "calmness",
+              "name": "calmness",
+              "source": null
+            },
+            {
+              "id": "Core Framework",
+              "name": "Core Framework",
+              "source": null
+            }
+          ],
+          "merge_count": 9
+        }
+      },
+      "merged_from": [
+        "consultant",
+        "consultant",
+        "concepts",
+        "composure",
+        "company president",
+        "cognitive traps",
+        "corporate business settings",
+        "calmness",
+        "Core Framework"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "社長",
+      "name": "社長",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "社長",
+              "name": "社長",
+              "source": null
+            },
+            {
+              "id": "社長",
+              "name": "社長",
+              "source": null
+            },
+            {
+              "id": "社長たち",
+              "name": "社長たち",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "社長",
+        "社長",
+        "社長たち"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "コンサルティング会社",
+      "name": "コンサルティング会社",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "コンサルティング会社",
+              "name": "コンサルティング会社",
+              "source": null
+            },
+            {
+              "id": "コンサルティング会社",
+              "name": "コンサルティング会社",
+              "source": null
+            },
+            {
+              "id": "コンサルティング",
+              "name": "コンサルティング",
+              "source": null
+            },
+            {
+              "id": "コンサルタント",
+              "name": "コンサルタント",
+              "source": null
+            },
+            {
+              "id": "コンサルタント",
+              "name": "コンサルタント",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "コンサルティング会社",
+        "コンサルティング会社",
+        "コンサルティング",
+        "コンサルタント",
+        "コンサルタント"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "知性",
+      "name": "知性",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "知性",
+              "name": "知性",
+              "source": null
+            },
+            {
+              "id": "知性",
+              "name": "知性",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "知性",
+        "知性"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "入社1年目",
+      "name": "入社1年目",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "入社1年目",
+              "name": "入社1年目",
+              "source": null
+            },
+            {
+              "id": "入社1年目",
+              "name": "入社1年目",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "入社1年目",
+        "入社1年目"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "22年間",
+      "name": "22年間",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "22年間",
+              "name": "22年間",
+              "source": null
+            },
+            {
+              "id": "22年間",
+              "name": "22年間",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "22年間",
+        "22年間"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "コミュニケーション",
+      "name": "コミュニケーション",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "コミュニケーション",
+              "name": "コミュニケーション",
+              "source": null
+            },
+            {
+              "id": "コミュニケーション",
+              "name": "コミュニケーション",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "コミュニケーション",
+        "コミュニケーション"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "マインド",
+      "name": "マインド",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "マインド",
+              "name": "マインド",
+              "source": null
+            },
+            {
+              "id": "マインド",
+              "name": "マインド",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "マインド",
+        "マインド"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "頭のいい人",
+      "name": "頭のいい人",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "頭のいい人",
+              "name": "頭のいい人",
+              "source": null
+            },
+            {
+              "id": "頭のいい人",
+              "name": "頭のいい人",
+              "source": null
+            },
+            {
+              "id": "頭のいい人が話す前に考えていること",
+              "name": "頭のいい人が話す前に考えていること",
+              "source": null
+            },
+            {
+              "id": "頭の働き",
+              "name": "頭の働き",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "頭のいい人",
+        "頭のいい人",
+        "頭のいい人が話す前に考えていること",
+        "頭の働き"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "黄金法則",
+      "name": "黄金法則",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "黄金法則",
+              "name": "黄金法則",
+              "source": null
+            },
+            {
+              "id": "黄金法則",
+              "name": "黄金法則",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "黄金法則",
+        "黄金法則"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "思考のフォーム",
+      "name": "思考のフォーム",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "思考のフォーム",
+              "name": "思考のフォーム",
+              "source": null
+            },
+            {
+              "id": "思考のフォーム",
+              "name": "思考のフォーム",
+              "source": null
+            },
+            {
+              "id": "思考力",
+              "name": "思考力",
+              "source": null
+            },
+            {
+              "id": "思考力",
+              "name": "思考力",
+              "source": null
+            },
+            {
+              "id": "思考能力",
+              "name": "思考能力",
+              "source": null
+            },
+            {
+              "id": "思考",
+              "name": "思考",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "思考のフォーム",
+        "思考のフォーム",
+        "思考力",
+        "思考力",
+        "思考能力",
+        "思考"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "フォーム",
+      "name": "フォーム",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "フォーム",
+              "name": "フォーム",
+              "source": null
+            },
+            {
+              "id": "フォーム",
+              "name": "フォーム",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "フォーム",
+        "フォーム"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "話し方",
+      "name": "話し方",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "話し方",
+              "name": "話し方",
+              "source": null
+            },
+            {
+              "id": "話し方",
+              "name": "話し方",
+              "source": null
+            },
+            {
+              "id": "話し方の悩み",
+              "name": "話し方の悩み",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "話し方",
+        "話し方",
+        "話し方の悩み"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "人間関係",
+      "name": "人間関係",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "人間関係",
+              "name": "人間関係",
+              "source": null
+            },
+            {
+              "id": "人間関係",
+              "name": "人間関係",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "人間関係",
+        "人間関係"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "Takeshi Kitano",
+      "name": "Takeshi Kitano",
+      "type": "PERSON",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Takeshi Kitano",
+              "name": "Takeshi Kitano",
+              "source": null
+            },
+            {
+              "id": "Takeshi Kitano",
+              "name": "Takeshi Kitano",
+              "source": null
+            },
+            {
+              "id": "Thinking Methods/Forms",
+              "name": "Thinking Methods/Forms",
+              "source": null
+            },
+            {
+              "id": "Thinking, Fast and Slow",
+              "name": "Thinking, Fast and Slow",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "Takeshi Kitano",
+        "Takeshi Kitano",
+        "Thinking Methods/Forms",
+        "Thinking, Fast and Slow"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "Outrage",
+      "name": "Outrage",
+      "type": "PRODUCT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Outrage",
+              "name": "Outrage",
+              "source": null
+            },
+            {
+              "id": "Outrage",
+              "name": "Outrage",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Outrage",
+        "Outrage"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "rational thinking",
+      "name": "rational thinking",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "rational thinking",
+              "name": "rational thinking",
+              "source": null
+            },
+            {
+              "id": "rational thinking",
+              "name": "rational thinking",
+              "source": null
+            },
+            {
+              "id": "Rote Learning",
+              "name": "Rote Learning",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "rational thinking",
+        "rational thinking",
+        "Rote Learning"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "行動経済学",
+      "name": "行動経済学",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "行動経済学",
+              "name": "行動経済学",
+              "source": null
+            },
+            {
+              "id": "行動経済学",
+              "name": "行動経済学",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "行動経済学",
+        "行動経済学"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "テーム２",
+      "name": "テーム２",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "テーム２",
+              "name": "テーム２",
+              "source": null
+            },
+            {
+              "id": "テーム２",
+              "name": "テーム２",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "テーム２",
+        "テーム２"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "Daniel Kahneman",
+      "name": "Daniel Kahneman",
+      "type": "PERSON",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Daniel Kahneman",
+              "name": "Daniel Kahneman",
+              "source": null
+            },
+            {
+              "id": "Daniel Kahneman",
+              "name": "Daniel Kahneman",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Daniel Kahneman",
+        "Daniel Kahneman"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "Fast Thinking (System 1)",
+      "name": "Fast Thinking (System 1)",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Fast Thinking (System 1)",
+              "name": "Fast Thinking (System 1)",
+              "source": null
+            },
+            {
+              "id": "Fast Thinking (System 1)",
+              "name": "Fast Thinking (System 1)",
+              "source": null
+            },
+            {
+              "id": "Fast Thinking",
+              "name": "Fast Thinking",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "Fast Thinking (System 1)",
+        "Fast Thinking (System 1)",
+        "Fast Thinking"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "Slow Thinking (System 2)",
+      "name": "Slow Thinking (System 2)",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Slow Thinking (System 2)",
+              "name": "Slow Thinking (System 2)",
+              "source": null
+            },
+            {
+              "id": "Slow Thinking (System 2)",
+              "name": "Slow Thinking (System 2)",
+              "source": null
+            },
+            {
+              "id": "Slow Thinking",
+              "name": "Slow Thinking",
+              "source": null
+            },
+            {
+              "id": "swimming",
+              "name": "swimming",
+              "source": null
+            },
+            {
+              "id": "smart thinkers",
+              "name": "smart thinkers",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "Slow Thinking (System 2)",
+        "Slow Thinking (System 2)",
+        "Slow Thinking",
+        "swimming",
+        "smart thinkers"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "Kahneman",
+      "name": "Kahneman",
+      "type": "PERSON",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Kahneman",
+              "name": "Kahneman",
+              "source": null
+            },
+            {
+              "id": "Kahneman",
+              "name": "Kahneman",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Kahneman",
+        "Kahneman"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "Parallel Evaluation",
+      "name": "Parallel Evaluation",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Parallel Evaluation",
+              "name": "Parallel Evaluation",
+              "source": null
+            },
+            {
+              "id": "Parallel Evaluation",
+              "name": "Parallel Evaluation",
+              "source": null
+            },
+            {
+              "id": "Part 2",
+              "name": "Part 2",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "Parallel Evaluation",
+        "Parallel Evaluation",
+        "Part 2"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "Mindset",
+      "name": "Mindset",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Mindset",
+              "name": "Mindset",
+              "source": null
+            },
+            {
+              "id": "mindsets",
+              "name": "mindsets",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Mindset",
+        "mindsets"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "2002年",
+      "name": "2002年",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "2002年",
+              "name": "2002年",
+              "source": null
+            },
+            {
+              "id": "2002",
+              "name": "2002",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "2002年",
+        "2002"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "emotional control",
+      "name": "emotional control",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "emotional control",
+              "name": "emotional control",
+              "source": null
+            },
+            {
+              "id": "emotional composure",
+              "name": "emotional composure",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "emotional control",
+        "emotional composure"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "プログラム",
+      "name": "プログラム",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "プログラム",
+              "name": "プログラム",
+              "source": null
+            },
+            {
+              "id": "プログラミング",
+              "name": "プログラミング",
+              "source": null
+            },
+            {
+              "id": "プロポーズ",
+              "name": "プロポーズ",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "プログラム",
+        "プログラミング",
+        "プロポーズ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "デロイト",
+      "name": "デロイト",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "デロイト",
+              "name": "デロイト",
+              "source": null
+            },
+            {
+              "id": "デロイト トーマツ コンサルティング",
+              "name": "デロイト トーマツ コンサルティング",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "デロイト",
+        "デロイト トーマツ コンサルティング"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "話す前の考え方",
+      "name": "話す前の考え方",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "話す前の考え方",
+              "name": "話す前の考え方",
+              "source": null
+            },
+            {
+              "id": "話す前に考えること",
+              "name": "話す前に考えること",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "話す前の考え方",
+        "話す前に考えること"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "Director",
+      "name": "Director",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Director",
+              "name": "Director",
+              "source": null
+            },
+            {
+              "id": "dire consequences",
+              "name": "dire consequences",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Director",
+        "dire consequences"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "12年",
+      "name": "12年",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "12年",
+              "name": "12年",
+              "source": null
+            },
+            {
+              "id": "10年",
+              "name": "10年",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "12年",
+        "10年"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "考える力",
+      "name": "考える力",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "考える力",
+              "name": "考える力",
+              "source": null
+            },
+            {
+              "id": "考え方",
+              "name": "考え方",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "考える力",
+        "考え方"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "True mastery",
+      "name": "True mastery",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "True mastery",
+              "name": "True mastery",
+              "source": null
+            },
+            {
+              "id": "trustworthiness",
+              "name": "trustworthiness",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "True mastery",
+        "trustworthiness"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "東京",
+      "name": "東京",
+      "type": "GPE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "東京",
+              "name": "東京",
+              "source": null
+            },
+            {
+              "id": "東京海上日動火災",
+              "name": "東京海上日動火災",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "東京",
+        "東京海上日動火災"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "安達裕哉氏",
+      "name": "安達裕哉氏",
+      "type": "PERSON",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "安達裕哉氏",
+              "name": "安達裕哉氏",
+              "source": null
+            },
+            {
+              "id": "安達さん",
+              "name": "安達さん",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "安達裕哉氏",
+        "安達さん"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "Application over Rote Learning",
+      "name": "Application over Rote Learning",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Application over Rote Learning",
+              "name": "Application over Rote Learning",
+              "source": null
+            },
+            {
+              "id": "anger",
+              "name": "anger",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Application over Rote Learning",
+        "anger"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "forms",
+      "name": "forms",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "forms",
+              "name": "forms",
+              "source": null
+            },
+            {
+              "id": "film",
+              "name": "film",
+              "source": null
+            },
+            {
+              "id": "fear",
+              "name": "fear",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "forms",
+        "film",
+        "fear"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "workbook",
+      "name": "workbook",
+      "type": "PRODUCT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "workbook",
+              "name": "workbook",
+              "source": null
+            },
+            {
+              "id": "workplace incident",
+              "name": "workplace incident",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "workbook",
+        "workplace incident"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "企業経営者",
+      "name": "企業経営者",
+      "text": "企業経営者",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "アビームコンサルティング",
+      "name": "アビームコンサルティング",
+      "text": "アビームコンサルティング",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "入社8ヶ月後",
+      "name": "入社8ヶ月後",
+      "text": "入社8ヶ月後",
+      "type": "DATE",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "著者",
+      "name": "著者",
+      "text": "著者",
+      "type": "PERSON",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "研究者",
+      "name": "研究者",
+      "text": "研究者",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "システム",
+      "name": "システム",
+      "text": "システム",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "ティネクト株式会社",
+      "name": "ティネクト株式会社",
+      "text": "ティネクト株式会社",
+      "type": "ORG",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "スキル",
+      "name": "スキル",
+      "text": "スキル",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "成長",
+      "name": "成長",
+      "text": "成長",
+      "type": "CONCEPT",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "新卒",
+      "name": "新卒",
+      "text": "新卒",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "日本生命",
+      "name": "日本生命",
+      "text": "日本生命",
+      "type": "ORG",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "KDDI",
+      "name": "KDDI",
+      "text": "KDDI",
+      "type": "ORG",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "帝国ホテル",
+      "name": "帝国ホテル",
+      "text": "帝国ホテル",
+      "type": "ORG",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "茅ヶ崎",
+      "name": "茅ヶ崎",
+      "text": "茅ヶ崎",
+      "type": "GPE",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "福井",
+      "name": "福井",
+      "text": "福井",
+      "type": "GPE",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "スタートアップIT企業",
+      "name": "スタートアップIT企業",
+      "text": "スタートアップIT企業",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "中小企業",
+      "name": "中小企業",
+      "text": "中小企業",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "上場企業",
+      "name": "上場企業",
+      "text": "上場企業",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "経営者",
+      "name": "経営者",
+      "text": "経営者",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "結果は、話す前に決まっている",
+      "name": "結果は、話す前に決まっている",
+      "text": "結果は、話す前に決まっている",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "プレゼン",
+      "name": "プレゼン",
+      "text": "プレゼン",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "商談",
+      "name": "商談",
+      "text": "商談",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "上司",
+      "name": "上司",
+      "text": "上司",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "原則",
+      "name": "原則",
+      "text": "原則",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "若手コンサルタント",
+      "name": "若手コンサルタント",
+      "text": "若手コンサルタント",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "30年",
+      "name": "30年",
+      "text": "30年",
+      "type": "DATE",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "ビジネス",
+      "name": "ビジネス",
+      "text": "ビジネス",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "設計",
+      "name": "設計",
+      "text": "設計",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "public speaking",
+      "name": "public speaking",
+      "text": "public speaking",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "book summaries",
+      "name": "book summaries",
+      "text": "book summaries",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "active engagement",
+      "name": "active engagement",
+      "text": "active engagement",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "passive consumption",
+      "name": "passive consumption",
+      "text": "passive consumption",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "golden rules",
+      "name": "golden rules",
+      "text": "golden rules",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "intellect",
+      "name": "intellect",
+      "text": "intellect",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "信頼",
+      "name": "信頼",
+      "text": "信頼",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "baseball",
+      "name": "baseball",
+      "text": "baseball",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "Ultimate Goal",
+      "name": "Ultimate Goal",
+      "text": "Ultimate Goal",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "sheet",
+      "name": "sheet",
+      "text": "sheet",
+      "type": "PRODUCT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "checklist",
+      "name": "checklist",
+      "text": "checklist",
+      "type": "PRODUCT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "型",
+      "name": "型",
+      "text": "型",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "スポーツ",
+      "name": "スポーツ",
+      "text": "スポーツ",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "野球",
+      "name": "野球",
+      "text": "野球",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "水泳",
+      "name": "水泳",
+      "text": "水泳",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "知識の詰め込み",
+      "name": "知識の詰め込み",
+      "text": "知識の詰め込み",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "読み返さなくていい本",
+      "name": "読み返さなくていい本",
+      "text": "読み返さなくていい本",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "話すたびに頭がよくなるシート",
+      "name": "話すたびに頭がよくなるシート",
+      "text": "話すたびに頭がよくなるシート",
+      "type": "PRODUCT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "アウトプット",
+      "name": "アウトプット",
+      "text": "アウトプット",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "表面的なテクニック",
+      "name": "表面的なテクニック",
+      "text": "表面的なテクニック",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "ちゃんと考える",
+      "name": "ちゃんと考える",
+      "text": "ちゃんと考える",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "仕事の成果",
+      "name": "仕事の成果",
+      "text": "仕事の成果",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "yakuza",
+      "name": "yakuza",
+      "text": "yakuza",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "改善活動",
+      "name": "改善活動",
+      "text": "改善活動",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "violent conflicts",
+      "name": "violent conflicts",
+      "text": "violent conflicts",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "improvement activity",
+      "name": "improvement activity",
+      "text": "improvement activity",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "manager",
+      "name": "manager",
+      "text": "manager",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "leader",
+      "name": "leader",
+      "text": "leader",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "strong emotions",
+      "name": "strong emotions",
+      "text": "strong emotions",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "強い感情",
+      "name": "強い感情",
+      "text": "強い感情",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "怒り",
+      "name": "怒り",
+      "text": "怒り",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "恐怖",
+      "name": "恐怖",
+      "text": "恐怖",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "愚かな行動",
+      "name": "愚かな行動",
+      "text": "愚かな行動",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "サイモン教授",
+      "name": "サイモン教授",
+      "text": "サイモン教授",
+      "type": "PERSON",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "ファスト＆スロー",
+      "name": "ファスト＆スロー",
+      "text": "ファスト＆スロー",
+      "type": "PRODUCT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "早いテーム",
+      "name": "早いテーム",
+      "text": "早いテーム",
+      "type": "CONCEPT",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "カーネマン",
+      "name": "カーネマン",
+      "text": "カーネマン",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "役員",
+      "name": "役員",
+      "text": "役員",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "リーダー",
+      "name": "リーダー",
+      "text": "リーダー",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "キレる人",
+      "name": "キレる人",
+      "text": "キレる人",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "心理",
+      "name": "心理",
+      "text": "心理",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "behavioral economist",
+      "name": "behavioral economist",
+      "text": "behavioral economist",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "Nobel laureate in Economics",
+      "name": "Nobel laureate in Economics",
+      "text": "Nobel laureate in Economics",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "System 1",
+      "name": "System 1",
+      "text": "System 1",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "並列評価",
+      "name": "並列評価",
+      "text": "並列評価",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "アンガーマネジメント",
+      "name": "アンガーマネジメント",
+      "text": "アンガーマネジメント",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "自然科学研究機構生理学研究所",
+      "name": "自然科学研究機構生理学研究所",
+      "text": "自然科学研究機構生理学研究所",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "柿木隆介",
+      "name": "柿木隆介",
+      "text": "柿木隆介",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "前頭葉",
+      "name": "前頭葉",
+      "text": "前頭葉",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "3〜5秒",
+      "name": "3〜5秒",
+      "text": "3〜5秒",
+      "type": "DATE",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "6秒",
+      "name": "6秒",
+      "text": "6秒",
+      "type": "DATE",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "id": "冷静",
+      "name": "冷静",
+      "text": "冷静",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "consultant",
+      "target": "企業経営者 (CONCEPT)",
+      "type": "advises",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "安達裕哉氏",
+      "target": "デロイト トーマツ コンサルティング",
+      "type": "joined",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "デロイト トーマツ コンサルティング",
+      "target": "デロイト",
+      "type": "part_of",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "デロイト トーマツ コンサルティング",
+      "target": "アビームコンサルティング",
+      "type": "currently_known_as",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "安達裕哉氏",
+      "target": "安達さん",
+      "type": "referred_as",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "社長",
+      "target": "安達さん",
+      "type": "interacted_with",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "入社8ヶ月後",
+      "target": "安達裕哉氏",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "consultant",
+      "target": "profession",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "consultant",
+      "target": "high intelligence",
+      "type": "has_common_image_of",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "consultant",
+      "target": "high communication skills",
+      "type": "has_common_image_of",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "consultant",
+      "target": "necessary skills",
+      "type": "can_acquire",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "著者",
+      "target": "研究者",
+      "type": "aspired_to_become",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "著者",
+      "target": "コンサルティング会社",
+      "type": "joined",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "著者",
+      "target": "システム",
+      "type": "learned",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "著者",
+      "target": "知性",
+      "type": "acquired",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "コンサルティング",
+      "target": "スキル",
+      "type": "enables_acquisition_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "コンサルティング",
+      "target": "知性",
+      "type": "enables_acquisition_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "入社1年目",
+      "target": "成長",
+      "type": "can_precede",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "コンサルタント",
+      "target": "22年間",
+      "type": "has_experience_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "新卒",
+      "target": "コンサルティング会社",
+      "type": "joined",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "コンサルティング会社",
+      "target": "12年",
+      "type": "employment_duration",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "12年",
+      "target": "22年間",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "10年",
+      "target": "22年間",
+      "type": "part_of",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "東京海上日動火災",
+      "target": "上場企業",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "日本生命",
+      "target": "上場企業",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "KDDI",
+      "target": "上場企業",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "帝国ホテル",
+      "target": "上場企業",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "スタートアップIT企業",
+      "target": "中小企業",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "コンサルタント",
+      "target": "経営者",
+      "type": "interacts_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "経営者",
+      "target": "中小企業",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "結果は、話す前に決まっている",
+      "target": "原則",
+      "type": "is",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "原則",
+      "target": "コミュニケーション",
+      "type": "applies_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "プレゼン",
+      "target": "コミュニケーション",
+      "type": "is_example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "商談",
+      "target": "コミュニケーション",
+      "type": "is_example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "プロポーズ",
+      "target": "コミュニケーション",
+      "type": "is_example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "上司",
+      "target": "コミュニケーション",
+      "type": "involved_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "若手コンサルタント",
+      "target": "入社1年目",
+      "type": "has_tenure",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "社長たち",
+      "target": "30年",
+      "type": "has_experience",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "若手コンサルタント",
+      "target": "社長たち",
+      "type": "seeks_trust_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "若手コンサルタント",
+      "target": "ビジネス",
+      "type": "collaborates_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "頭のいい人が話す前に考えていること",
+      "target": "22年間",
+      "type": "based_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "第1部",
+      "target": "マインド",
+      "type": "teaches",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "第1部",
+      "target": "本書",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "第2部",
+      "target": "本書",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "プログラム",
+      "target": "設計",
+      "type": "includes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "プログラム",
+      "target": "プログラミング",
+      "type": "includes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "設計",
+      "target": "プログラム",
+      "type": "part_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "プログラミング",
+      "target": "プログラム",
+      "type": "part_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "smart thinkers",
+      "target": "頭のいい人",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Application over Rote Learning",
+      "target": "public speaking",
+      "type": "compared_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Application over Rote Learning",
+      "target": "Rote Learning",
+      "type": "preferred_over",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "True mastery",
+      "target": "active engagement",
+      "type": "requires",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "True mastery",
+      "target": "passive consumption",
+      "type": "does_not_result_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "book summaries",
+      "target": "passive consumption",
+      "type": "associated_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "book summaries",
+      "target": "True mastery",
+      "type": "rarely_leads_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Mindset",
+      "target": "golden rules",
+      "type": "focuses_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "golden rules",
+      "target": "黄金法則",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "golden rules",
+      "target": "Mindset",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "golden rules",
+      "target": "intellect",
+      "type": "enables_projection_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "golden rules",
+      "target": "trustworthiness",
+      "type": "enables_projection_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "intellect",
+      "target": "知性",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "trustworthiness",
+      "target": "信頼",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Part 2",
+      "target": "Thinking Methods/Forms",
+      "type": "focuses_on",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Thinking Methods/Forms",
+      "target": "思考のフォーム",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "baseball",
+      "target": "思考のフォーム",
+      "type": "used_as_metaphor_for",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "swimming",
+      "target": "思考のフォーム",
+      "type": "used_as_metaphor_for",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Part 2",
+      "target": "baseball",
+      "type": "uses_metaphor_of",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Part 2",
+      "target": "swimming",
+      "type": "uses_metaphor_of",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Ultimate Goal",
+      "target": "mindsets",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Ultimate Goal",
+      "target": "forms",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "sheet",
+      "target": "workbook",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "sheet",
+      "target": "checklist",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "sheet",
+      "target": "concepts",
+      "type": "reinforces",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "sheet",
+      "target": "concepts",
+      "type": "helps_apply",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "思考",
+      "target": "フォーム",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "フォーム",
+      "target": "型",
+      "type": "equivalent_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "野球",
+      "target": "スポーツ",
+      "type": "part_of",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "水泳",
+      "target": "スポーツ",
+      "type": "part_of",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "スポーツ",
+      "target": "フォーム",
+      "type": "requires",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "思考のフォーム",
+      "target": "フォーム",
+      "type": "is_a",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "思考",
+      "target": "思考のフォーム",
+      "type": "uses",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "思考のフォーム",
+      "target": "思考力",
+      "type": "enhances",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "黄金法則",
+      "target": "頭のいい人",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "マインド",
+      "target": "黄金法則",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "フォーム",
+      "target": "黄金法則",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "知識の詰め込み",
+      "target": "黄金法則",
+      "type": "contrasted_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "話す前の考え方",
+      "target": "コミュニケーション",
+      "type": "is_most_important_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "話す前の考え方",
+      "target": "話し方",
+      "type": "improves",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "話す前の考え方",
+      "target": "人間関係",
+      "type": "reduces_friction_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "読み返さなくていい本",
+      "target": "話すたびに頭がよくなるシート",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "話すたびに頭がよくなるシート",
+      "target": "アウトプット",
+      "type": "enables",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "読み返さなくていい本",
+      "target": "アウトプット",
+      "type": "promotes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "話し方の悩み",
+      "target": "表面的なテクニック",
+      "type": "not_solved_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "話し方の悩み",
+      "target": "考える力",
+      "type": "solved_by",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "考え方",
+      "target": "話し方の悩み",
+      "type": "describes_resolution_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "ちゃんと考える",
+      "target": "思考力",
+      "type": "is_a",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "思考力",
+      "target": "仕事の成果",
+      "type": "positively_influences",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "思考力",
+      "target": "人間関係",
+      "type": "positively_influences",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "思考力",
+      "target": "話し方",
+      "type": "positively_influences",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "話す前に考えること",
+      "target": "話し方",
+      "type": "more_effective_than",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "話す前に考えること",
+      "target": "コミュニケーション",
+      "type": "effective_for",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "話し方",
+      "target": "コミュニケーション",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Outrage",
+      "target": "Takeshi Kitano",
+      "type": "created_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Outrage",
+      "target": "yakuza",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Takeshi Kitano",
+      "target": "Director",
+      "type": "is_a",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Takeshi Kitano",
+      "target": "emotional control",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "composure",
+      "target": "rational thinking",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "violent conflicts",
+      "target": "film",
+      "type": "depicted_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "composure",
+      "target": "violent conflicts",
+      "type": "maintained_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "rational thinking",
+      "target": "violent conflicts",
+      "type": "maintained_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "composure",
+      "target": "corporate business settings",
+      "type": "maintained_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "rational thinking",
+      "target": "corporate business settings",
+      "type": "maintained_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "emotional composure",
+      "target": "calmness",
+      "type": "equivalent_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "emotional composure",
+      "target": "dire consequences",
+      "type": "loss_leads_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "calmness",
+      "target": "dire consequences",
+      "type": "loss_leads_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "workplace incident",
+      "target": "dire consequences",
+      "type": "used_as_example_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "improvement activity",
+      "target": "manager",
+      "type": "requires_reporting_in_front_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "company president",
+      "target": "leader",
+      "type": "reprimanded",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "company president",
+      "target": "leader",
+      "type": "mediated_situation_involving",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "cognitive traps",
+      "target": "strong emotions",
+      "type": "associated_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "anger",
+      "target": "strong emotions",
+      "type": "example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "fear",
+      "target": "strong emotions",
+      "type": "example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "cognitive traps",
+      "target": "rational thinking",
+      "type": "impairs",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "怒り",
+      "target": "強い感情",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "恐怖",
+      "target": "強い感情",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "強い感情",
+      "target": "愚かな行動",
+      "type": "leads_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "怒り",
+      "target": "頭の働き",
+      "type": "impairs",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "サイモン教授",
+      "target": "ファスト＆スロー",
+      "type": "explained_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "サイモン教授",
+      "target": "行動経済学",
+      "type": "explained",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "ファスト＆スロー",
+      "target": "行動経済学",
+      "type": "describes",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "行動経済学",
+      "target": "早いテーム",
+      "type": "includes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "行動経済学",
+      "target": "テーム２",
+      "type": "includes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "早いテーム",
+      "target": "テーム２",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "テーム２",
+      "target": "論理的な思考",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "テーム２",
+      "target": "感情に支配されない冷静な判断",
+      "type": "useful_for",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "カーネマン",
+      "target": "行動経済学",
+      "type": "explained",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "カーネマン",
+      "target": "2002年",
+      "type": "explained_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "社長",
+      "target": "役員",
+      "type": "made_reflect",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "社長",
+      "target": "リーダー",
+      "type": "lowered_evaluation_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "キレる人",
+      "target": "心理",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Daniel Kahneman",
+      "target": "behavioral economist",
+      "type": "is_a",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Daniel Kahneman",
+      "target": "Nobel laureate in Economics",
+      "type": "is_a",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Daniel Kahneman",
+      "target": "2002",
+      "type": "awarded_in",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Thinking, Fast and Slow",
+      "target": "Daniel Kahneman",
+      "type": "created_by",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Thinking, Fast and Slow",
+      "target": "Fast Thinking (System 1)",
+      "type": "describes",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Thinking, Fast and Slow",
+      "target": "Slow Thinking (System 2)",
+      "type": "describes",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Fast Thinking (System 1)",
+      "target": "System 1",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Fast Thinking (System 1)",
+      "target": "Slow Thinking (System 2)",
+      "type": "interacts_with",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Kahneman",
+      "target": "Fast Thinking (System 1)",
+      "type": "proposed",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Kahneman",
+      "target": "Slow Thinking (System 2)",
+      "type": "proposed",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Fast Thinking (System 1)",
+      "target": "Slow Thinking (System 2)",
+      "type": "contrasted_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Daniel Kahneman",
+      "target": "Fast Thinking (System 1)",
+      "type": "explains",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Daniel Kahneman",
+      "target": "Slow Thinking (System 2)",
+      "type": "explains",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Fast Thinking (System 1)",
+      "target": "Fast Thinking",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Slow Thinking (System 2)",
+      "target": "Slow Thinking",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Fast Thinking (System 1)",
+      "target": "Slow Thinking (System 2)",
+      "type": "contrasts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "people",
+      "target": "Fast Thinking (System 1)",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Fast Thinking (System 1)",
+      "target": "emotional reactions",
+      "type": "leads_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Fast Thinking (System 1)",
+      "target": "disadvantageous or irrational choices",
+      "type": "can_lead_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "you",
+      "target": "Slow Thinking (System 2)",
+      "type": "engage",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Kahneman",
+      "target": "Parallel Evaluation",
+      "type": "refers_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Parallel Evaluation",
+      "target": "並列評価",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Kahneman",
+      "target": "並列評価",
+      "type": "refers_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "Slow Thinking (System 2)",
+      "target": "Fast Thinking (System 1)",
+      "type": "should_be_activated_instead_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "柿木隆介",
+      "target": "自然科学研究機構生理学研究所",
+      "type": "affiliated_with",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "前頭葉",
+      "target": "3〜5秒",
+      "type": "takes_time_to_activate",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "冷静",
+      "target": "思考力",
+      "type": "recovers",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "6秒",
+      "target": "冷静",
+      "type": "waited_to_achieve",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "6秒",
+      "target": "思考力",
+      "type": "helps_recover",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    },
+    {
+      "source": "思考能力",
+      "target": "思考力",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+      },
+      "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai"
+    }
+  ],
+  "metadata": {
+    "num_entities": 119,
+    "num_relationships": 170,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-31T12:27:32.858583",
+    "entity_resolution_applied": true,
+    "book_key": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

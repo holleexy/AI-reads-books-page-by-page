@@ -1,0 +1,419 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Creative_Mindset/> .
+
+book:source a prov:Entity ;
+  foaf:name "Creative_Mindset" ;
+  book:book_key "Creative_Mindset" .
+
+book:innovation a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Creative Confidence a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:クリエイティブ・コンフィデンス a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Japan a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:David a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Tom a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:デイヴィッド a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:トム a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:咽頭がん a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:創造性 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:IDEO a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:designers a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:イノベーション a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:教育 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:世界 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:business a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:education a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:d.school a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:30+ years a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:2007年 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:artistic activities a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:hearing solutions a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Stanford University a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Core Philosophy a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Liberal Arts a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:The Innovator's DNA a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:pediatrician a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:research and development a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Facebook a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Google a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:ブラジル a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:発想する会社！ a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:author a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Ohio a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Galactic Destruction Company a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:management consulting a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:1987 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:半年間 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:サンパウロ a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:南米 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:アメリカ a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:がん a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:人生観 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:東京 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:京都 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:self-confidence a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Kyoto a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:sculpture a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:music a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:lawyers a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:doctors a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:infinite creativity a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Apple a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Medtronic a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:China a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Developmental Approach a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:核心 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:デザイン思考 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:医療 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:法律 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:科学 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:マインドセット a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:紛争地帯 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:軍人 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:臨時イノベーション・チーム a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:途上国 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:補聴器システム a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:現代 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:20th century a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:executives a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Sir Ken Robinson a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Twitter a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:IBM a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:leadership competency a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Adobe Systems a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:economic growth a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:経営幹部 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:自己イメージ a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポジティブなループ a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:人間の行動 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:子どもの頃 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:遊び心 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:チベット語 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:自然 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:幼児期 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:幼稚園のころ a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:社会的な拒絶 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:恐怖 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:恥ずかしさ a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:革新的な方法 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニティ a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:Fortune 500 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:研究科学者 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:上級マネージャー a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:オリンピック a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:航空業界 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:危機管理 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:パイロット a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:運航管理者 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .
+
+book:スケジュール管理者 a prov:Entity ;
+  book:book_key "Creative_Mindset" ;
+  prov:wasDerivedFrom book:source .

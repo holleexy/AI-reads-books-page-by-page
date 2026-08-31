@@ -1,0 +1,257 @@
+{
+  "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/",
+  "name": "shirikonbaree_Shiki_Chou_raifuhakku__-_deivuOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Book",
+      "label": "書籍",
+      "comment": "デイブ・アスプリー著『ゲームチェンジャー』に基づき、卓越した成功者の実践から導かれた法則をまとめた書籍",
+      "parent": null
+    },
+    {
+      "name": "Author",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Author",
+      "label": "著者",
+      "comment": "書籍を執筆した人物。本作ではデイブ・アスプリーを指す",
+      "parent": null
+    },
+    {
+      "name": "GameChanger",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/GameChanger",
+      "label": "ゲームチェンジャー",
+      "comment": "人類最高峰のパフォーマンスを発揮する卓越した成功者。約450人がインタビュー対象となった",
+      "parent": null
+    },
+    {
+      "name": "Pillar",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Pillar",
+      "label": "柱",
+      "comment": "法則を分類する三つの主要な柱。もっと賢く、もっと速く、もっと幸せに",
+      "parent": null
+    },
+    {
+      "name": "Law",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Law",
+      "label": "法則",
+      "comment": "超成果を生み出す四十二の実践的な法則",
+      "parent": null
+    },
+    {
+      "name": "Technique",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Technique",
+      "label": "手法",
+      "comment": "脳・身体・意識を最適化するためのバイオハックや実践技法",
+      "parent": null
+    },
+    {
+      "name": "MitochondrialEgo",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/MitochondrialEgo",
+      "label": "ミトコンドリアのエゴ",
+      "comment": "闘争逃走・食欲・生殖など、人間を縛る原始的な生存本能",
+      "parent": null
+    },
+    {
+      "name": "BiologicalState",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/BiologicalState",
+      "label": "生物学的状態",
+      "comment": "食事・光・睡眠・動きなどのインプットに反応する身体と脳の状態",
+      "parent": null
+    },
+    {
+      "name": "Belief",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Belief",
+      "label": "信念",
+      "comment": "過去の環境で植え付けられ行動を支配する脳のハードウェア。神経可塑性により書き換え可能",
+      "parent": null
+    },
+    {
+      "name": "Chronotype",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Chronotype",
+      "label": "クロノタイプ",
+      "comment": "ライオン・クマ・オオカミ・イルカなど、遺伝子に合わせた睡眠覚醒リズム",
+      "parent": null
+    },
+    {
+      "name": "CompassPrinciple",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/CompassPrinciple",
+      "label": "羅針盤",
+      "comment": "真の成功を導く三原則。感謝と赦し、脳の配線の理解、身体を知ること",
+      "parent": null
+    },
+    {
+      "name": "Community",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Community",
+      "label": "コミュニティ",
+      "comment": "幸福と成功を左右する周囲の人々。幸福は三次のつながりまで伝染する",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "hasAuthor",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Author"
+      ],
+      "label": "著者を持つ",
+      "comment": "書籍とその著者を関連付ける",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/hasAuthor"
+    },
+    {
+      "name": "basedOnInterview",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "GameChanger"
+      ],
+      "label": "インタビューに基づく",
+      "comment": "内容がゲームチェンジャーへのインタビューと統計分析から導かれたことを示す",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/basedOnInterview"
+    },
+    {
+      "name": "hasPillar",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Pillar"
+      ],
+      "label": "柱を持つ",
+      "comment": "書籍が含む主要な柱を示す",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/hasPillar"
+    },
+    {
+      "name": "belongsToPillar",
+      "type": "object",
+      "domain": [
+        "Law"
+      ],
+      "range": [
+        "Pillar"
+      ],
+      "label": "柱に属する",
+      "comment": "法則がどの柱に分類されるかを示す",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/belongsToPillar"
+    },
+    {
+      "name": "hasTechnique",
+      "type": "object",
+      "domain": [
+        "Law"
+      ],
+      "range": [
+        "Technique"
+      ],
+      "label": "手法を用いる",
+      "comment": "法則が推奨する具体的な手法を示す",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/hasTechnique"
+    },
+    {
+      "name": "hacksInstinct",
+      "type": "object",
+      "domain": [
+        "Technique"
+      ],
+      "range": [
+        "MitochondrialEgo"
+      ],
+      "label": "本能をハックする",
+      "comment": "手法が原始的な生存本能を克服または最適化することを示す",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/hacksInstinct"
+    },
+    {
+      "name": "optimizesState",
+      "type": "object",
+      "domain": [
+        "Technique"
+      ],
+      "range": [
+        "BiologicalState"
+      ],
+      "label": "状態を最適化する",
+      "comment": "手法が生物学的状態を改善することを示す",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/optimizesState"
+    },
+    {
+      "name": "rewritesBelief",
+      "type": "object",
+      "domain": [
+        "Technique"
+      ],
+      "range": [
+        "Belief"
+      ],
+      "label": "信念を書き換える",
+      "comment": "制限的な信念をポジティブな信念へ更新することを示す",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/rewritesBelief"
+    },
+    {
+      "name": "followsChronotype",
+      "type": "object",
+      "domain": [
+        "Technique"
+      ],
+      "range": [
+        "Chronotype"
+      ],
+      "label": "クロノタイプに従う",
+      "comment": "睡眠などの手法が個人の自然なリズムに合わせることを示す",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/followsChronotype"
+    },
+    {
+      "name": "hasCompass",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "CompassPrinciple"
+      ],
+      "label": "羅針盤を持つ",
+      "comment": "書籍が提示する真の成功の原則を示す",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/hasCompass"
+    },
+    {
+      "name": "buildsCommunity",
+      "type": "object",
+      "domain": [
+        "Technique"
+      ],
+      "range": [
+        "Community"
+      ],
+      "label": "コミュニティを構築する",
+      "comment": "人間関係の手法が自己実現を支える共同体を作ることを示す",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/buildsCommunity"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "Book",
+        "Pillar",
+        "Law",
+        "Technique",
+        "CompassPrinciple"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "対象についての日本語の説明文",
+      "uri": "https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/description"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

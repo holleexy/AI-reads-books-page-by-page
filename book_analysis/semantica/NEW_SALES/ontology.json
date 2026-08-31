@@ -1,0 +1,874 @@
+{
+  "uri": "https://books.local/NEW_SALES/",
+  "name": "NEW_SALESOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "SalesParadigm",
+      "uri": "https://books.local/NEW_SALES/SalesParadigm",
+      "label": "営業パラダイム",
+      "comment": "営業の役割・方法・目的を規定する時代ごとの枠組み。",
+      "parent": null
+    },
+    {
+      "name": "OldSales",
+      "uri": "https://books.local/NEW_SALES/OldSales",
+      "label": "OLD SALES",
+      "comment": "商品の売り込みを中心とする従来型の営業手法。",
+      "parent": "SalesParadigm"
+    },
+    {
+      "name": "NewSales",
+      "uri": "https://books.local/NEW_SALES/NewSales",
+      "label": "NEW SALES",
+      "comment": "顧客の購買プロセスに寄り添い専門性の高い提案を行う新しい営業手法。",
+      "parent": "SalesParadigm"
+    },
+    {
+      "name": "HistoricalStage",
+      "uri": "https://books.local/NEW_SALES/HistoricalStage",
+      "label": "歴史的進化段階",
+      "comment": "営業の役割・方法・目的が変化してきた歴史上の段階。",
+      "parent": null
+    },
+    {
+      "name": "RoleChange",
+      "uri": "https://books.local/NEW_SALES/RoleChange",
+      "label": "役割の変化",
+      "comment": "1900年頃に登場したハンター・ファーマー・モデルによる新規と既存の役割分離。",
+      "parent": "HistoricalStage"
+    },
+    {
+      "name": "MethodChange",
+      "uri": "https://books.local/NEW_SALES/MethodChange",
+      "label": "方法の変化",
+      "comment": "1925年以降、経験や勘からオブジェクションハンドリング等のテクニックへ移行した段階。",
+      "parent": "HistoricalStage"
+    },
+    {
+      "name": "PurposeChange",
+      "uri": "https://books.local/NEW_SALES/PurposeChange",
+      "label": "目的の変化",
+      "comment": "1970年頃、商品紹介から顧客の課題解決（ソリューション営業）へ目的が移った段階。",
+      "parent": "HistoricalStage"
+    },
+    {
+      "name": "SalesMethod",
+      "uri": "https://books.local/NEW_SALES/SalesMethod",
+      "label": "営業メソッド",
+      "comment": "現場の営業担当者が実践するNEW SALESの具体的アプローチ。",
+      "parent": null
+    },
+    {
+      "name": "StorySales",
+      "uri": "https://books.local/NEW_SALES/StorySales",
+      "label": "ストーリー営業",
+      "comment": "プロダクト営業やソリューション営業を進化させ、顧客と共に物語を紡ぐ手法。",
+      "parent": "SalesMethod"
+    },
+    {
+      "name": "SurpriseSales",
+      "uri": "https://books.local/NEW_SALES/SurpriseSales",
+      "label": "サプライズ営業",
+      "comment": "驚きと気付きを提供し、顧客の方から会いたいと思わせる手法。",
+      "parent": "SalesMethod"
+    },
+    {
+      "name": "ScenarioSales",
+      "uri": "https://books.local/NEW_SALES/ScenarioSales",
+      "label": "シナリオ営業",
+      "comment": "自社視点の行動から顧客視点の購買プロセスに沿って支援する手法。",
+      "parent": "SalesMethod"
+    },
+    {
+      "name": "SympathySales",
+      "uri": "https://books.local/NEW_SALES/SympathySales",
+      "label": "シンパシー営業",
+      "comment": "相手のキャラクターに合わせて共感を生み出す手法。",
+      "parent": "SalesMethod"
+    },
+    {
+      "name": "BuyingProcessStep",
+      "uri": "https://books.local/NEW_SALES/BuyingProcessStep",
+      "label": "購買プロセス段階",
+      "comment": "顧客の購買心理が進む理想・課題・価値・方法の基本構造。",
+      "parent": null
+    },
+    {
+      "name": "IdealState",
+      "uri": "https://books.local/NEW_SALES/IdealState",
+      "label": "理想",
+      "comment": "顧客が実現したい状態を思い描く段階。",
+      "parent": "BuyingProcessStep"
+    },
+    {
+      "name": "CustomerIssue",
+      "uri": "https://books.local/NEW_SALES/CustomerIssue",
+      "label": "課題",
+      "comment": "現状と理想のギャップを認識する段階。",
+      "parent": "BuyingProcessStep"
+    },
+    {
+      "name": "PerceivedValue",
+      "uri": "https://books.local/NEW_SALES/PerceivedValue",
+      "label": "価値",
+      "comment": "課題解決に必要な効果を理解する段階。",
+      "parent": "BuyingProcessStep"
+    },
+    {
+      "name": "PurchaseMethod",
+      "uri": "https://books.local/NEW_SALES/PurchaseMethod",
+      "label": "方法",
+      "comment": "価値を実現する手段として購入を決断する段階。",
+      "parent": "BuyingProcessStep"
+    },
+    {
+      "name": "AwarenessPattern",
+      "uri": "https://books.local/NEW_SALES/AwarenessPattern",
+      "label": "気付きパターン",
+      "comment": "サプライズ営業で顧客に気付きを与える情報提供の類型。",
+      "parent": null
+    },
+    {
+      "name": "DataInformation",
+      "uri": "https://books.local/NEW_SALES/DataInformation",
+      "label": "データ情報",
+      "comment": "業界課題や理想を裏付ける具体的な数値情報。",
+      "parent": "AwarenessPattern"
+    },
+    {
+      "name": "TrendInformation",
+      "uri": "https://books.local/NEW_SALES/TrendInformation",
+      "label": "トレンド情報",
+      "comment": "過去から未来への変遷を示し向かうべき方向を提示する情報。",
+      "parent": "AwarenessPattern"
+    },
+    {
+      "name": "SegmentInformation",
+      "uri": "https://books.local/NEW_SALES/SegmentInformation",
+      "label": "セグメント情報",
+      "comment": "業界や地域・性別など属性に特化した情報。",
+      "parent": "AwarenessPattern"
+    },
+    {
+      "name": "ScenarioStage",
+      "uri": "https://books.local/NEW_SALES/ScenarioStage",
+      "label": "シナリオ段階",
+      "comment": "顧客の購買プロセスに対応する情報提供から決定支援までの段階。",
+      "parent": null
+    },
+    {
+      "name": "InformationProvision",
+      "uri": "https://books.local/NEW_SALES/InformationProvision",
+      "label": "情報提供",
+      "comment": "情報収集に対応し不信を解消する段階。",
+      "parent": "ScenarioStage"
+    },
+    {
+      "name": "IssueAppeal",
+      "uri": "https://books.local/NEW_SALES/IssueAppeal",
+      "label": "課題訴求",
+      "comment": "課題設定に対応し不要感を解消する段階。",
+      "parent": "ScenarioStage"
+    },
+    {
+      "name": "ComparisonAppeal",
+      "uri": "https://books.local/NEW_SALES/ComparisonAppeal",
+      "label": "比較訴求",
+      "comment": "比較検討に対応し不適を解消する段階。",
+      "parent": "ScenarioStage"
+    },
+    {
+      "name": "DecisionSupport",
+      "uri": "https://books.local/NEW_SALES/DecisionSupport",
+      "label": "決定支援",
+      "comment": "最終決定に対応し不急を解消する段階。",
+      "parent": "ScenarioStage"
+    },
+    {
+      "name": "DecisionBarrier",
+      "uri": "https://books.local/NEW_SALES/DecisionBarrier",
+      "label": "購買決定の壁",
+      "comment": "購買決定前に乗り越えるべき金額・工程・期日・決裁の障壁。",
+      "parent": null
+    },
+    {
+      "name": "PriceBarrier",
+      "uri": "https://books.local/NEW_SALES/PriceBarrier",
+      "label": "金額の壁",
+      "comment": "値引きではなくROIを提示して乗り越える障壁。",
+      "parent": "DecisionBarrier"
+    },
+    {
+      "name": "ProcessBarrier",
+      "uri": "https://books.local/NEW_SALES/ProcessBarrier",
+      "label": "工程の壁",
+      "comment": "発注前後のステップとスケジュール明示で乗り越える障壁。",
+      "parent": "DecisionBarrier"
+    },
+    {
+      "name": "DeadlineBarrier",
+      "uri": "https://books.local/NEW_SALES/DeadlineBarrier",
+      "label": "期日の壁",
+      "comment": "時間的・空間的必然性を伝えて乗り越える障壁。",
+      "parent": "DecisionBarrier"
+    },
+    {
+      "name": "ApprovalBarrier",
+      "uri": "https://books.local/NEW_SALES/ApprovalBarrier",
+      "label": "決裁の壁",
+      "comment": "稟議支援や決裁者向けFAQで乗り越える障壁。",
+      "parent": "DecisionBarrier"
+    },
+    {
+      "name": "CustomerRole",
+      "uri": "https://books.local/NEW_SALES/CustomerRole",
+      "label": "顧客役割",
+      "comment": "運用者・利用者・管理者・決裁者など顧客側の立場。",
+      "parent": null
+    },
+    {
+      "name": "Operator",
+      "uri": "https://books.local/NEW_SALES/Operator",
+      "label": "運用者",
+      "comment": "導入・運用負担の軽減や他部署評価を重視する役割。",
+      "parent": "CustomerRole"
+    },
+    {
+      "name": "EndUser",
+      "uri": "https://books.local/NEW_SALES/EndUser",
+      "label": "利用者",
+      "comment": "日常業務の効率化や成果向上を重視する役割。",
+      "parent": "CustomerRole"
+    },
+    {
+      "name": "Administrator",
+      "uri": "https://books.local/NEW_SALES/Administrator",
+      "label": "管理者",
+      "comment": "導入リスクとその対策を重視する役割。",
+      "parent": "CustomerRole"
+    },
+    {
+      "name": "DecisionMaker",
+      "uri": "https://books.local/NEW_SALES/DecisionMaker",
+      "label": "決裁者",
+      "comment": "全社方針との整合性やROIなどマクロな価値を重視する役割。",
+      "parent": "CustomerRole"
+    },
+    {
+      "name": "PersonalityType",
+      "uri": "https://books.local/NEW_SALES/PersonalityType",
+      "label": "志向タイプ",
+      "comment": "DiSC理論等に基づく相手の深層心理の類型。",
+      "parent": null
+    },
+    {
+      "name": "AttackType",
+      "uri": "https://books.local/NEW_SALES/AttackType",
+      "label": "アタックタイプ",
+      "comment": "支配型。進行を相手に委ねつつ要望を細かく確認する。",
+      "parent": "PersonalityType"
+    },
+    {
+      "name": "ReceiveType",
+      "uri": "https://books.local/NEW_SALES/ReceiveType",
+      "label": "レシーブタイプ",
+      "comment": "受容型。進め方や結論をこちらから明確に提示する。",
+      "parent": "PersonalityType"
+    },
+    {
+      "name": "ThinkingType",
+      "uri": "https://books.local/NEW_SALES/ThinkingType",
+      "label": "シンキングタイプ",
+      "comment": "論理型。機能・性能・実績などの客観データを細かく提供する。",
+      "parent": "PersonalityType"
+    },
+    {
+      "name": "FeelingType",
+      "uri": "https://books.local/NEW_SALES/FeelingType",
+      "label": "フィーリングタイプ",
+      "comment": "感覚型。印象的な言葉や映像で心に訴えかける。",
+      "parent": "PersonalityType"
+    },
+    {
+      "name": "OrganizationalApproach",
+      "uri": "https://books.local/NEW_SALES/OrganizationalApproach",
+      "label": "組織的アプローチ",
+      "comment": "属人的営業から再現性のある科学的営業組織へ変革する手法。",
+      "parent": null
+    },
+    {
+      "name": "ShareSales",
+      "uri": "https://books.local/NEW_SALES/ShareSales",
+      "label": "シェア営業",
+      "comment": "ナレッジを共有し誰もが一定成果を出せる仕組みづくり。",
+      "parent": "OrganizationalApproach"
+    },
+    {
+      "name": "ScoreSales",
+      "uri": "https://books.local/NEW_SALES/ScoreSales",
+      "label": "スコア営業",
+      "comment": "CRM/SFA/MAを活用したデータドリブンなマネジメント。",
+      "parent": "OrganizationalApproach"
+    },
+    {
+      "name": "SignificanceSales",
+      "uri": "https://books.local/NEW_SALES/SignificanceSales",
+      "label": "意義営業",
+      "comment": "金銭報酬だけでなく仕事のやりがいを共有するマネジメント。",
+      "parent": "OrganizationalApproach"
+    },
+    {
+      "name": "SalesKnowledge",
+      "uri": "https://books.local/NEW_SALES/SalesKnowledge",
+      "label": "営業ナレッジ",
+      "comment": "営業コンテンツと営業ノウハウからなる共有すべき知識。",
+      "parent": null
+    },
+    {
+      "name": "SalesContent",
+      "uri": "https://books.local/NEW_SALES/SalesContent",
+      "label": "営業コンテンツ",
+      "comment": "ヒアリングシートや競合比較表、ROI資料など顧客向け資料。",
+      "parent": "SalesKnowledge"
+    },
+    {
+      "name": "SalesKnowHow",
+      "uri": "https://books.local/NEW_SALES/SalesKnowHow",
+      "label": "営業ノウハウ",
+      "comment": "トークスクリプトや模擬商談動画など社内向け知識。",
+      "parent": "SalesKnowledge"
+    },
+    {
+      "name": "AnalysisAxis",
+      "uri": "https://books.local/NEW_SALES/AnalysisAxis",
+      "label": "分析軸",
+      "comment": "誰に・どのように・何をというスコア営業の三つの分析観点。",
+      "parent": null
+    },
+    {
+      "name": "SignificancePerspective",
+      "uri": "https://books.local/NEW_SALES/SignificancePerspective",
+      "label": "意義の切り口",
+      "comment": "社会・顧客・キャリアへの貢献として仕事の意味を捉える観点。",
+      "parent": null
+    },
+    {
+      "name": "SalesEnablement",
+      "uri": "https://books.local/NEW_SALES/SalesEnablement",
+      "label": "セールス・イネーブルメント",
+      "comment": "再現性と実効性を両立させ営業の生産性と成果を高める全社的支援。",
+      "parent": null
+    },
+    {
+      "name": "EnablementDomain",
+      "uri": "https://books.local/NEW_SALES/EnablementDomain",
+      "label": "イネーブルメント実践領域",
+      "comment": "ナレッジ・ワーク・ラーニング・ピープルの四領域。",
+      "parent": null
+    },
+    {
+      "name": "KnowledgeDomain",
+      "uri": "https://books.local/NEW_SALES/KnowledgeDomain",
+      "label": "ナレッジ領域",
+      "comment": "商材・資料・ノウハウの展開によりCANを最大化する領域。",
+      "parent": "EnablementDomain"
+    },
+    {
+      "name": "WorkDomain",
+      "uri": "https://books.local/NEW_SALES/WorkDomain",
+      "label": "ワーク領域",
+      "comment": "営業プロセス設計によりMUSTを明確化する領域。",
+      "parent": "EnablementDomain"
+    },
+    {
+      "name": "LearningDomain",
+      "uri": "https://books.local/NEW_SALES/LearningDomain",
+      "label": "ラーニング領域",
+      "comment": "スキル獲得のための学習プログラム提供によりCANを最大化する領域。",
+      "parent": "EnablementDomain"
+    },
+    {
+      "name": "PeopleDomain",
+      "uri": "https://books.local/NEW_SALES/PeopleDomain",
+      "label": "ピープル領域",
+      "comment": "求められるスキル定義と人材配置によりMUSTを明確化する領域。",
+      "parent": "EnablementDomain"
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/NEW_SALES/Customer",
+      "label": "顧客",
+      "comment": "購買プロセスを進める企業または個人。",
+      "parent": null
+    },
+    {
+      "name": "Salesperson",
+      "uri": "https://books.local/NEW_SALES/Salesperson",
+      "label": "営業担当者",
+      "comment": "NEW SALESのメソッドを現場で実践する個人。",
+      "parent": null
+    },
+    {
+      "name": "ProfessionalSalesperson",
+      "uri": "https://books.local/NEW_SALES/ProfessionalSalesperson",
+      "label": "仕事のプロフェッショナル",
+      "comment": "組織依存ではなく高度な専門職としての営業人材。",
+      "parent": "Salesperson"
+    },
+    {
+      "name": "SalesOrganization",
+      "uri": "https://books.local/NEW_SALES/SalesOrganization",
+      "label": "営業組織",
+      "comment": "再現性のある科学的営業を目指すチームまたは部門。",
+      "parent": null
+    },
+    {
+      "name": "Deal",
+      "uri": "https://books.local/NEW_SALES/Deal",
+      "label": "商談",
+      "comment": "顧客との案件化から受注までの取引機会。",
+      "parent": null
+    },
+    {
+      "name": "Champion",
+      "uri": "https://books.local/NEW_SALES/Champion",
+      "label": "チャンピオン",
+      "comment": "顧客社内の推進役となる擁護者。MEDDICの応用対象。",
+      "parent": null
+    },
+    {
+      "name": "SalesProcess",
+      "uri": "https://books.local/NEW_SALES/SalesProcess",
+      "label": "営業プロセス",
+      "comment": "情報収集から最終決定までの営業活動の流れ。",
+      "parent": null
+    },
+    {
+      "name": "ForecastManagement",
+      "uri": "https://books.local/NEW_SALES/ForecastManagement",
+      "label": "ヨミ管理",
+      "comment": "確度別に案件を分類しヨミ換算金額で業績を予測する管理。",
+      "parent": null
+    },
+    {
+      "name": "LearningCourse",
+      "uri": "https://books.local/NEW_SALES/LearningCourse",
+      "label": "ラーニングコース",
+      "comment": "プロダクトリテラシーやセールススキルを体系化した学習プログラム。",
+      "parent": null
+    },
+    {
+      "name": "InternalRelationshipMap",
+      "uri": "https://books.local/NEW_SALES/InternalRelationshipMap",
+      "label": "社内関係図",
+      "comment": "エンタープライズセールスで複雑な社内関係を把握するための図。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "evolvesFrom",
+      "type": "object",
+      "domain": [
+        "NewSales"
+      ],
+      "range": [
+        "OldSales"
+      ],
+      "label": "から進化する",
+      "comment": "NEW SALESがOLD SALESから転換した関係。",
+      "uri": "https://books.local/NEW_SALES/evolvesFrom"
+    },
+    {
+      "name": "hasHistoricalStage",
+      "type": "object",
+      "domain": [
+        "SalesParadigm"
+      ],
+      "range": [
+        "HistoricalStage"
+      ],
+      "label": "歴史的段階を持つ",
+      "comment": "営業パラダイムが経てきた進化段階。",
+      "uri": "https://books.local/NEW_SALES/hasHistoricalStage"
+    },
+    {
+      "name": "hasFieldMethod",
+      "type": "object",
+      "domain": [
+        "NewSales"
+      ],
+      "range": [
+        "SalesMethod"
+      ],
+      "label": "現場メソッドを持つ",
+      "comment": "NEW SALESを構成する四つの現場メソッド。",
+      "uri": "https://books.local/NEW_SALES/hasFieldMethod"
+    },
+    {
+      "name": "hasOrganizationalApproach",
+      "type": "object",
+      "domain": [
+        "NewSales",
+        "SalesOrganization"
+      ],
+      "range": [
+        "OrganizationalApproach"
+      ],
+      "label": "組織的アプローチを持つ",
+      "comment": "チーム変革のための三つのS。",
+      "uri": "https://books.local/NEW_SALES/hasOrganizationalApproach"
+    },
+    {
+      "name": "followsBuyingStep",
+      "type": "object",
+      "domain": [
+        "StorySales",
+        "SalesProcess"
+      ],
+      "range": [
+        "BuyingProcessStep"
+      ],
+      "label": "購買段階に沿う",
+      "comment": "理想から方法までの購買心理に沿う関係。",
+      "uri": "https://books.local/NEW_SALES/followsBuyingStep"
+    },
+    {
+      "name": "providesAwareness",
+      "type": "object",
+      "domain": [
+        "SurpriseSales"
+      ],
+      "range": [
+        "AwarenessPattern"
+      ],
+      "label": "気付きを提供する",
+      "comment": "データ・トレンド・セグメント情報による気付き提供。",
+      "uri": "https://books.local/NEW_SALES/providesAwareness"
+    },
+    {
+      "name": "usesScenarioStage",
+      "type": "object",
+      "domain": [
+        "ScenarioSales"
+      ],
+      "range": [
+        "ScenarioStage"
+      ],
+      "label": "シナリオ段階を用いる",
+      "comment": "顧客視点の四段階アプローチ。",
+      "uri": "https://books.local/NEW_SALES/usesScenarioStage"
+    },
+    {
+      "name": "correspondsToBuyingStep",
+      "type": "object",
+      "domain": [
+        "ScenarioStage"
+      ],
+      "range": [
+        "BuyingProcessStep"
+      ],
+      "label": "購買段階に対応する",
+      "comment": "シナリオ段階と顧客購買プロセスの対応。",
+      "uri": "https://books.local/NEW_SALES/correspondsToBuyingStep"
+    },
+    {
+      "name": "overcomesBarrier",
+      "type": "object",
+      "domain": [
+        "DecisionSupport",
+        "ScenarioSales"
+      ],
+      "range": [
+        "DecisionBarrier"
+      ],
+      "label": "壁を乗り越える",
+      "comment": "金額・工程・期日・決裁の壁への支援。",
+      "uri": "https://books.local/NEW_SALES/overcomesBarrier"
+    },
+    {
+      "name": "adaptsToRole",
+      "type": "object",
+      "domain": [
+        "SympathySales",
+        "Salesperson"
+      ],
+      "range": [
+        "CustomerRole"
+      ],
+      "label": "役割に合わせる",
+      "comment": "顧客の立場に応じた訴求の調整。",
+      "uri": "https://books.local/NEW_SALES/adaptsToRole"
+    },
+    {
+      "name": "adaptsToPersonality",
+      "type": "object",
+      "domain": [
+        "SympathySales",
+        "Salesperson"
+      ],
+      "range": [
+        "PersonalityType"
+      ],
+      "label": "志向に合わせる",
+      "comment": "DiSC等の志向タイプに応じた対応。",
+      "uri": "https://books.local/NEW_SALES/adaptsToPersonality"
+    },
+    {
+      "name": "sharesKnowledge",
+      "type": "object",
+      "domain": [
+        "ShareSales",
+        "SalesOrganization"
+      ],
+      "range": [
+        "SalesKnowledge"
+      ],
+      "label": "ナレッジを共有する",
+      "comment": "コンテンツとノウハウの組織的共有。",
+      "uri": "https://books.local/NEW_SALES/sharesKnowledge"
+    },
+    {
+      "name": "analyzesBy",
+      "type": "object",
+      "domain": [
+        "ScoreSales"
+      ],
+      "range": [
+        "AnalysisAxis"
+      ],
+      "label": "分析軸で分析する",
+      "comment": "顧客・プロセス・コンテンツの三軸分析。",
+      "uri": "https://books.local/NEW_SALES/analyzesBy"
+    },
+    {
+      "name": "emphasizesPerspective",
+      "type": "object",
+      "domain": [
+        "SignificanceSales"
+      ],
+      "range": [
+        "SignificancePerspective"
+      ],
+      "label": "意義を強調する",
+      "comment": "社会・顧客・キャリアの意義の共有。",
+      "uri": "https://books.local/NEW_SALES/emphasizesPerspective"
+    },
+    {
+      "name": "hasEnablementDomain",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "EnablementDomain"
+      ],
+      "label": "実践領域を持つ",
+      "comment": "イネーブルメントの四つの実践領域。",
+      "uri": "https://books.local/NEW_SALES/hasEnablementDomain"
+    },
+    {
+      "name": "enables",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "SalesOrganization",
+        "Salesperson",
+        "NewSales"
+      ],
+      "label": "遂行を支援する",
+      "comment": "営業組織と担当者のNEW SALES実現を支援する。",
+      "uri": "https://books.local/NEW_SALES/enables"
+    },
+    {
+      "name": "targetsCustomer",
+      "type": "object",
+      "domain": [
+        "Salesperson",
+        "Deal",
+        "SalesMethod"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "顧客を対象とする",
+      "comment": "営業活動や商談が向かう顧客。",
+      "uri": "https://books.local/NEW_SALES/targetsCustomer"
+    },
+    {
+      "name": "belongsToOrganization",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "SalesOrganization"
+      ],
+      "label": "組織に所属する",
+      "comment": "営業担当者と営業組織の所属関係。",
+      "uri": "https://books.local/NEW_SALES/belongsToOrganization"
+    },
+    {
+      "name": "assignedTo",
+      "type": "object",
+      "domain": [
+        "Deal"
+      ],
+      "range": [
+        "Salesperson"
+      ],
+      "label": "担当する",
+      "comment": "商談を担当する営業担当者。",
+      "uri": "https://books.local/NEW_SALES/assignedTo"
+    },
+    {
+      "name": "hasChampion",
+      "type": "object",
+      "domain": [
+        "Customer",
+        "Deal"
+      ],
+      "range": [
+        "Champion"
+      ],
+      "label": "チャンピオンを持つ",
+      "comment": "顧客社内の擁護者との関係。",
+      "uri": "https://books.local/NEW_SALES/hasChampion"
+    },
+    {
+      "name": "hasInternalMap",
+      "type": "object",
+      "domain": [
+        "Customer",
+        "Deal"
+      ],
+      "range": [
+        "InternalRelationshipMap"
+      ],
+      "label": "社内関係図を持つ",
+      "comment": "複雑な意思決定構造の可視化。",
+      "uri": "https://books.local/NEW_SALES/hasInternalMap"
+    },
+    {
+      "name": "partOfProcess",
+      "type": "object",
+      "domain": [
+        "Deal",
+        "ScenarioStage"
+      ],
+      "range": [
+        "SalesProcess"
+      ],
+      "label": "プロセスの一部である",
+      "comment": "商談や段階が営業プロセスに属する関係。",
+      "uri": "https://books.local/NEW_SALES/partOfProcess"
+    },
+    {
+      "name": "forecasts",
+      "type": "object",
+      "domain": [
+        "ForecastManagement",
+        "ScoreSales"
+      ],
+      "range": [
+        "Deal"
+      ],
+      "label": "予測する",
+      "comment": "確度別ヨミによる案件の業績予測。",
+      "uri": "https://books.local/NEW_SALES/forecasts"
+    },
+    {
+      "name": "usesContent",
+      "type": "object",
+      "domain": [
+        "Salesperson",
+        "Deal",
+        "StorySales"
+      ],
+      "range": [
+        "SalesContent"
+      ],
+      "label": "コンテンツを用いる",
+      "comment": "顧客事例や比較表などの営業コンテンツ利用。",
+      "uri": "https://books.local/NEW_SALES/usesContent"
+    },
+    {
+      "name": "offersCourse",
+      "type": "object",
+      "domain": [
+        "ShareSales",
+        "LearningDomain",
+        "SalesOrganization"
+      ],
+      "range": [
+        "LearningCourse"
+      ],
+      "label": "学習コースを提供する",
+      "comment": "OJTに頼らない体系的学習の提供。",
+      "uri": "https://books.local/NEW_SALES/offersCourse"
+    },
+    {
+      "name": "playsRole",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "CustomerRole"
+      ],
+      "label": "役割を担う",
+      "comment": "顧客側関係者が担う運用・利用・管理・決裁の役割。",
+      "uri": "https://books.local/NEW_SALES/playsRole"
+    },
+    {
+      "name": "hasPersonalityType",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "PersonalityType"
+      ],
+      "label": "志向タイプを持つ",
+      "comment": "顧客個人のDiSC等に基づく志向。",
+      "uri": "https://books.local/NEW_SALES/hasPersonalityType"
+    },
+    {
+      "name": "practicesMethod",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "SalesMethod"
+      ],
+      "label": "メソッドを実践する",
+      "comment": "担当者が現場の四つのSを実践する関係。",
+      "uri": "https://books.local/NEW_SALES/practicesMethod"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "SalesParadigm",
+        "SalesMethod",
+        "OrganizationalApproach",
+        "SalesEnablement",
+        "Deal"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "概念や案件の日本語による説明文。",
+      "uri": "https://books.local/NEW_SALES/description"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

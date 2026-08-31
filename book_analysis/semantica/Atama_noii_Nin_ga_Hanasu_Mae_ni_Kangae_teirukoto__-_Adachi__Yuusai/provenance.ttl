@@ -1,0 +1,483 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/> .
+
+book:source a prov:Entity ;
+  foaf:name "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" .
+
+book:consultant a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:社長 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンサルティング会社 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:知性 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:入社1年目 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:22年間 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニケーション a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:マインド a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:頭のいい人 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:黄金法則 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:思考のフォーム a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:フォーム a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:話し方 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:人間関係 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:Takeshi Kitano a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:Outrage a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:rational thinking a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:行動経済学 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:テーム２ a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:Daniel Kahneman a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:Fast Thinking (System 1) a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:Slow Thinking (System 2) a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:Kahneman a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:Parallel Evaluation a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:Mindset a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:2002年 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:emotional control a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:プログラム a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:デロイト a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:話す前の考え方 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:Director a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:12年 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:考える力 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:True mastery a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:東京 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:安達裕哉氏 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:Application over Rote Learning a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:forms a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:workbook a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業経営者 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:アビームコンサルティング a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:入社8ヶ月後 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:著者 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:研究者 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:システム a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:ティネクト株式会社 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:スキル a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:成長 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:新卒 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本生命 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:KDDI a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:帝国ホテル a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:茅ヶ崎 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:福井 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:スタートアップIT企業 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:中小企業 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:上場企業 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:経営者 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:結果は、話す前に決まっている a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:プレゼン a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:商談 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:上司 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:原則 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:若手コンサルタント a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:30年 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:設計 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:public speaking a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:book summaries a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:active engagement a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:passive consumption a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:golden rules a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:intellect a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:信頼 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:baseball a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:Ultimate Goal a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:sheet a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:checklist a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:型 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:スポーツ a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:野球 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:水泳 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:知識の詰め込み a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:読み返さなくていい本 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:話すたびに頭がよくなるシート a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:アウトプット a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:表面的なテクニック a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:ちゃんと考える a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:仕事の成果 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:yakuza a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:改善活動 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:violent conflicts a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:improvement activity a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:manager a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:leader a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:strong emotions a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:強い感情 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:怒り a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:恐怖 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:愚かな行動 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:サイモン教授 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:ファスト＆スロー a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:早いテーム a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:カーネマン a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:役員 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:リーダー a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:キレる人 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:心理 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:behavioral economist a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:Nobel laureate in Economics a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:System 1 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:並列評価 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:アンガーマネジメント a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:自然科学研究機構生理学研究所 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:柿木隆介 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:前頭葉 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:3〜5秒 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:6秒 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .
+
+book:冷静 a prov:Entity ;
+  book:book_key "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai" ;
+  prov:wasDerivedFrom book:source .

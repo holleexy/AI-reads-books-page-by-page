@@ -1,0 +1,387 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Sales_is/> .
+
+book:source a prov:Entity ;
+  foaf:name "Sales_is" ;
+  book:book_key "Sales_is" .
+
+book:営業 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:成果 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:勘 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:偶然 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:根性 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:精神論 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:intuition a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:Selebricks a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:Celebricks a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客開拓メソッド a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:Outbound Sales a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:アウトバウンド営業 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:プル型営業 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:リード a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:担当者 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:アポイントメント a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:商談 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:見込み顧客 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:訪問営業 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:科学的な営業術 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:customer acquisition methodology a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:method for grasping victory a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーケター a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:運任せの営業手法 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:coincidence a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:再現性 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:オンライン商談 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:やりがい a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:無力感 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:不確実な要素 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:思い込み a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:好不調の波 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:前提 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:論理的な手法 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:fantasy elements a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:sheer willpower/grit a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:結果を出し続けるための理論 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:勝利を掴むメソッド a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:reproducibility a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネスモデル a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:依頼主 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:代理店 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:株式会社セレブリックス a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:Head of the Marketing Division a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:B2B a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:art of controlling sales results a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:motivational theories a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:systematic data analysis a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:1ヶ月 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:23年間 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:論理と技術で売る a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:セールステックツール a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:未完のメソッド a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:author a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:Quota a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:Noruma a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:Tough/Hard a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:Taisou a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:Japan a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:younger generations a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:Top Sales professionals a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:happiness a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:トップセールス a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:上司 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:同僚 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:自分の介在価値 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:幸福度 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:実績 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:人間関係 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:セレブリックス a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:transferable skills a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:inbound lead follow-ups a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:technology/skill a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:インバウンド営業 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:購買見込み客 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:インサイドセールス a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:非対面営業 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:フィールドセールス a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:案件 a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:タッチポイント a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヒアリング a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:テレアポ a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:聞き取りり a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:ピッチ a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:プレゼンテーション a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:無料トライアル a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:カスタマーサクセス a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:recipes a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:big picture a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:ideal finished product a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:presentation materials a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:framework a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:good sales a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .
+
+book:タイミング a prov:Entity ;
+  book:book_key "Sales_is" ;
+  prov:wasDerivedFrom book:source .

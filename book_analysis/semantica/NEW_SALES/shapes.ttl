@@ -1,0 +1,794 @@
+@prefix ex: <https://books.local/NEW_SALES/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/NEW_SALES/shapes> a owl:Ontology .
+
+<https://books.local/NEW_SALES/SalesParadigmShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesParadigm ;
+    sh:name "営業パラダイム" ;
+    sh:description "営業の役割・方法・目的を規定する時代ごとの枠組み。" ;
+    sh:property [
+        sh:path ex:hasHistoricalStage ;
+        sh:class ex:HistoricalStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/OldSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OldSales ;
+    sh:name "OLD SALES" ;
+    sh:description "商品の売り込みを中心とする従来型の営業手法。" ;
+    sh:property [
+        sh:path ex:hasHistoricalStage ;
+        sh:class ex:HistoricalStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/NewSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:NewSales ;
+    sh:name "NEW SALES" ;
+    sh:description "顧客の購買プロセスに寄り添い専門性の高い提案を行う新しい営業手法。" ;
+    sh:property [
+        sh:path ex:evolvesFrom ;
+        sh:class ex:OldSales ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasFieldMethod ;
+        sh:class ex:SalesMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasOrganizationalApproach ;
+        sh:class ex:OrganizationalApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHistoricalStage ;
+        sh:class ex:HistoricalStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/HistoricalStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HistoricalStage ;
+    sh:name "歴史的進化段階" ;
+    sh:description "営業の役割・方法・目的が変化してきた歴史上の段階。" .
+
+<https://books.local/NEW_SALES/RoleChangeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RoleChange ;
+    sh:name "役割の変化" ;
+    sh:description "1900年頃に登場したハンター・ファーマー・モデルによる新規と既存の役割分離。" .
+
+<https://books.local/NEW_SALES/MethodChangeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MethodChange ;
+    sh:name "方法の変化" ;
+    sh:description "1925年以降、経験や勘からオブジェクションハンドリング等のテクニックへ移行した段階。" .
+
+<https://books.local/NEW_SALES/PurposeChangeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PurposeChange ;
+    sh:name "目的の変化" ;
+    sh:description "1970年頃、商品紹介から顧客の課題解決（ソリューション営業）へ目的が移った段階。" .
+
+<https://books.local/NEW_SALES/SalesMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesMethod ;
+    sh:name "営業メソッド" ;
+    sh:description "現場の営業担当者が実践するNEW SALESの具体的アプローチ。" ;
+    sh:property [
+        sh:path ex:targetsCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/StorySalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:StorySales ;
+    sh:name "ストーリー営業" ;
+    sh:description "プロダクト営業やソリューション営業を進化させ、顧客と共に物語を紡ぐ手法。" ;
+    sh:property [
+        sh:path ex:followsBuyingStep ;
+        sh:class ex:BuyingProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesContent ;
+        sh:class ex:SalesContent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/SurpriseSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SurpriseSales ;
+    sh:name "サプライズ営業" ;
+    sh:description "驚きと気付きを提供し、顧客の方から会いたいと思わせる手法。" ;
+    sh:property [
+        sh:path ex:providesAwareness ;
+        sh:class ex:AwarenessPattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/ScenarioSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ScenarioSales ;
+    sh:name "シナリオ営業" ;
+    sh:description "自社視点の行動から顧客視点の購買プロセスに沿って支援する手法。" ;
+    sh:property [
+        sh:path ex:usesScenarioStage ;
+        sh:class ex:ScenarioStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:overcomesBarrier ;
+        sh:class ex:DecisionBarrier ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/SympathySalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SympathySales ;
+    sh:name "シンパシー営業" ;
+    sh:description "相手のキャラクターに合わせて共感を生み出す手法。" ;
+    sh:property [
+        sh:path ex:adaptsToRole ;
+        sh:class ex:CustomerRole ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:adaptsToPersonality ;
+        sh:class ex:PersonalityType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/BuyingProcessStepShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BuyingProcessStep ;
+    sh:name "購買プロセス段階" ;
+    sh:description "顧客の購買心理が進む理想・課題・価値・方法の基本構造。" .
+
+<https://books.local/NEW_SALES/IdealStateShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IdealState ;
+    sh:name "理想" ;
+    sh:description "顧客が実現したい状態を思い描く段階。" .
+
+<https://books.local/NEW_SALES/CustomerIssueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerIssue ;
+    sh:name "課題" ;
+    sh:description "現状と理想のギャップを認識する段階。" .
+
+<https://books.local/NEW_SALES/PerceivedValueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PerceivedValue ;
+    sh:name "価値" ;
+    sh:description "課題解決に必要な効果を理解する段階。" .
+
+<https://books.local/NEW_SALES/PurchaseMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PurchaseMethod ;
+    sh:name "方法" ;
+    sh:description "価値を実現する手段として購入を決断する段階。" .
+
+<https://books.local/NEW_SALES/AwarenessPatternShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AwarenessPattern ;
+    sh:name "気付きパターン" ;
+    sh:description "サプライズ営業で顧客に気付きを与える情報提供の類型。" .
+
+<https://books.local/NEW_SALES/DataInformationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DataInformation ;
+    sh:name "データ情報" ;
+    sh:description "業界課題や理想を裏付ける具体的な数値情報。" .
+
+<https://books.local/NEW_SALES/TrendInformationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TrendInformation ;
+    sh:name "トレンド情報" ;
+    sh:description "過去から未来への変遷を示し向かうべき方向を提示する情報。" .
+
+<https://books.local/NEW_SALES/SegmentInformationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SegmentInformation ;
+    sh:name "セグメント情報" ;
+    sh:description "業界や地域・性別など属性に特化した情報。" .
+
+<https://books.local/NEW_SALES/ScenarioStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ScenarioStage ;
+    sh:name "シナリオ段階" ;
+    sh:description "顧客の購買プロセスに対応する情報提供から決定支援までの段階。" ;
+    sh:property [
+        sh:path ex:correspondsToBuyingStep ;
+        sh:class ex:BuyingProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:partOfProcess ;
+        sh:class ex:SalesProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/InformationProvisionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InformationProvision ;
+    sh:name "情報提供" ;
+    sh:description "情報収集に対応し不信を解消する段階。" ;
+    sh:property [
+        sh:path ex:correspondsToBuyingStep ;
+        sh:class ex:BuyingProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:partOfProcess ;
+        sh:class ex:SalesProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/IssueAppealShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IssueAppeal ;
+    sh:name "課題訴求" ;
+    sh:description "課題設定に対応し不要感を解消する段階。" ;
+    sh:property [
+        sh:path ex:correspondsToBuyingStep ;
+        sh:class ex:BuyingProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:partOfProcess ;
+        sh:class ex:SalesProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/ComparisonAppealShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ComparisonAppeal ;
+    sh:name "比較訴求" ;
+    sh:description "比較検討に対応し不適を解消する段階。" ;
+    sh:property [
+        sh:path ex:correspondsToBuyingStep ;
+        sh:class ex:BuyingProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:partOfProcess ;
+        sh:class ex:SalesProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/DecisionSupportShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DecisionSupport ;
+    sh:name "決定支援" ;
+    sh:description "最終決定に対応し不急を解消する段階。" ;
+    sh:property [
+        sh:path ex:overcomesBarrier ;
+        sh:class ex:DecisionBarrier ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:correspondsToBuyingStep ;
+        sh:class ex:BuyingProcessStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:partOfProcess ;
+        sh:class ex:SalesProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/DecisionBarrierShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DecisionBarrier ;
+    sh:name "購買決定の壁" ;
+    sh:description "購買決定前に乗り越えるべき金額・工程・期日・決裁の障壁。" .
+
+<https://books.local/NEW_SALES/PriceBarrierShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PriceBarrier ;
+    sh:name "金額の壁" ;
+    sh:description "値引きではなくROIを提示して乗り越える障壁。" .
+
+<https://books.local/NEW_SALES/ProcessBarrierShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProcessBarrier ;
+    sh:name "工程の壁" ;
+    sh:description "発注前後のステップとスケジュール明示で乗り越える障壁。" .
+
+<https://books.local/NEW_SALES/DeadlineBarrierShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DeadlineBarrier ;
+    sh:name "期日の壁" ;
+    sh:description "時間的・空間的必然性を伝えて乗り越える障壁。" .
+
+<https://books.local/NEW_SALES/ApprovalBarrierShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ApprovalBarrier ;
+    sh:name "決裁の壁" ;
+    sh:description "稟議支援や決裁者向けFAQで乗り越える障壁。" .
+
+<https://books.local/NEW_SALES/CustomerRoleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerRole ;
+    sh:name "顧客役割" ;
+    sh:description "運用者・利用者・管理者・決裁者など顧客側の立場。" .
+
+<https://books.local/NEW_SALES/OperatorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Operator ;
+    sh:name "運用者" ;
+    sh:description "導入・運用負担の軽減や他部署評価を重視する役割。" .
+
+<https://books.local/NEW_SALES/EndUserShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EndUser ;
+    sh:name "利用者" ;
+    sh:description "日常業務の効率化や成果向上を重視する役割。" .
+
+<https://books.local/NEW_SALES/AdministratorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Administrator ;
+    sh:name "管理者" ;
+    sh:description "導入リスクとその対策を重視する役割。" .
+
+<https://books.local/NEW_SALES/DecisionMakerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DecisionMaker ;
+    sh:name "決裁者" ;
+    sh:description "全社方針との整合性やROIなどマクロな価値を重視する役割。" .
+
+<https://books.local/NEW_SALES/PersonalityTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PersonalityType ;
+    sh:name "志向タイプ" ;
+    sh:description "DiSC理論等に基づく相手の深層心理の類型。" .
+
+<https://books.local/NEW_SALES/AttackTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AttackType ;
+    sh:name "アタックタイプ" ;
+    sh:description "支配型。進行を相手に委ねつつ要望を細かく確認する。" .
+
+<https://books.local/NEW_SALES/ReceiveTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ReceiveType ;
+    sh:name "レシーブタイプ" ;
+    sh:description "受容型。進め方や結論をこちらから明確に提示する。" .
+
+<https://books.local/NEW_SALES/ThinkingTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThinkingType ;
+    sh:name "シンキングタイプ" ;
+    sh:description "論理型。機能・性能・実績などの客観データを細かく提供する。" .
+
+<https://books.local/NEW_SALES/FeelingTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FeelingType ;
+    sh:name "フィーリングタイプ" ;
+    sh:description "感覚型。印象的な言葉や映像で心に訴えかける。" .
+
+<https://books.local/NEW_SALES/OrganizationalApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationalApproach ;
+    sh:name "組織的アプローチ" ;
+    sh:description "属人的営業から再現性のある科学的営業組織へ変革する手法。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/ShareSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ShareSales ;
+    sh:name "シェア営業" ;
+    sh:description "ナレッジを共有し誰もが一定成果を出せる仕組みづくり。" ;
+    sh:property [
+        sh:path ex:sharesKnowledge ;
+        sh:class ex:SalesKnowledge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:offersCourse ;
+        sh:class ex:LearningCourse ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/ScoreSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ScoreSales ;
+    sh:name "スコア営業" ;
+    sh:description "CRM/SFA/MAを活用したデータドリブンなマネジメント。" ;
+    sh:property [
+        sh:path ex:analyzesBy ;
+        sh:class ex:AnalysisAxis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:forecasts ;
+        sh:class ex:Deal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/SignificanceSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SignificanceSales ;
+    sh:name "意義営業" ;
+    sh:description "金銭報酬だけでなく仕事のやりがいを共有するマネジメント。" ;
+    sh:property [
+        sh:path ex:emphasizesPerspective ;
+        sh:class ex:SignificancePerspective ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/SalesKnowledgeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesKnowledge ;
+    sh:name "営業ナレッジ" ;
+    sh:description "営業コンテンツと営業ノウハウからなる共有すべき知識。" .
+
+<https://books.local/NEW_SALES/SalesContentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesContent ;
+    sh:name "営業コンテンツ" ;
+    sh:description "ヒアリングシートや競合比較表、ROI資料など顧客向け資料。" .
+
+<https://books.local/NEW_SALES/SalesKnowHowShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesKnowHow ;
+    sh:name "営業ノウハウ" ;
+    sh:description "トークスクリプトや模擬商談動画など社内向け知識。" .
+
+<https://books.local/NEW_SALES/AnalysisAxisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnalysisAxis ;
+    sh:name "分析軸" ;
+    sh:description "誰に・どのように・何をというスコア営業の三つの分析観点。" .
+
+<https://books.local/NEW_SALES/SignificancePerspectiveShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SignificancePerspective ;
+    sh:name "意義の切り口" ;
+    sh:description "社会・顧客・キャリアへの貢献として仕事の意味を捉える観点。" .
+
+<https://books.local/NEW_SALES/SalesEnablementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesEnablement ;
+    sh:name "セールス・イネーブルメント" ;
+    sh:description "再現性と実効性を両立させ営業の生産性と成果を高める全社的支援。" ;
+    sh:property [
+        sh:path ex:hasEnablementDomain ;
+        sh:class ex:EnablementDomain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:enables ;
+        sh:class ex:SalesOrganization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/EnablementDomainShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EnablementDomain ;
+    sh:name "イネーブルメント実践領域" ;
+    sh:description "ナレッジ・ワーク・ラーニング・ピープルの四領域。" .
+
+<https://books.local/NEW_SALES/KnowledgeDomainShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KnowledgeDomain ;
+    sh:name "ナレッジ領域" ;
+    sh:description "商材・資料・ノウハウの展開によりCANを最大化する領域。" .
+
+<https://books.local/NEW_SALES/WorkDomainShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WorkDomain ;
+    sh:name "ワーク領域" ;
+    sh:description "営業プロセス設計によりMUSTを明確化する領域。" .
+
+<https://books.local/NEW_SALES/LearningDomainShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LearningDomain ;
+    sh:name "ラーニング領域" ;
+    sh:description "スキル獲得のための学習プログラム提供によりCANを最大化する領域。" ;
+    sh:property [
+        sh:path ex:offersCourse ;
+        sh:class ex:LearningCourse ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/PeopleDomainShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PeopleDomain ;
+    sh:name "ピープル領域" ;
+    sh:description "求められるスキル定義と人材配置によりMUSTを明確化する領域。" .
+
+<https://books.local/NEW_SALES/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "購買プロセスを進める企業または個人。" ;
+    sh:property [
+        sh:path ex:hasChampion ;
+        sh:class ex:Champion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasInternalMap ;
+        sh:class ex:InternalRelationshipMap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:playsRole ;
+        sh:class ex:CustomerRole ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPersonalityType ;
+        sh:class ex:PersonalityType ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/SalespersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Salesperson ;
+    sh:name "営業担当者" ;
+    sh:description "NEW SALESのメソッドを現場で実践する個人。" ;
+    sh:property [
+        sh:path ex:adaptsToRole ;
+        sh:class ex:CustomerRole ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:adaptsToPersonality ;
+        sh:class ex:PersonalityType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToOrganization ;
+        sh:class ex:SalesOrganization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesContent ;
+        sh:class ex:SalesContent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practicesMethod ;
+        sh:class ex:SalesMethod ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/ProfessionalSalespersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProfessionalSalesperson ;
+    sh:name "仕事のプロフェッショナル" ;
+    sh:description "組織依存ではなく高度な専門職としての営業人材。" ;
+    sh:property [
+        sh:path ex:adaptsToRole ;
+        sh:class ex:CustomerRole ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:adaptsToPersonality ;
+        sh:class ex:PersonalityType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToOrganization ;
+        sh:class ex:SalesOrganization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesContent ;
+        sh:class ex:SalesContent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practicesMethod ;
+        sh:class ex:SalesMethod ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/SalesOrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesOrganization ;
+    sh:name "営業組織" ;
+    sh:description "再現性のある科学的営業を目指すチームまたは部門。" ;
+    sh:property [
+        sh:path ex:hasOrganizationalApproach ;
+        sh:class ex:OrganizationalApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:sharesKnowledge ;
+        sh:class ex:SalesKnowledge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:offersCourse ;
+        sh:class ex:LearningCourse ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/DealShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Deal ;
+    sh:name "商談" ;
+    sh:description "顧客との案件化から受注までの取引機会。" ;
+    sh:property [
+        sh:path ex:targetsCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignedTo ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasChampion ;
+        sh:class ex:Champion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasInternalMap ;
+        sh:class ex:InternalRelationshipMap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:partOfProcess ;
+        sh:class ex:SalesProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesContent ;
+        sh:class ex:SalesContent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/ChampionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Champion ;
+    sh:name "チャンピオン" ;
+    sh:description "顧客社内の推進役となる擁護者。MEDDICの応用対象。" .
+
+<https://books.local/NEW_SALES/SalesProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesProcess ;
+    sh:name "営業プロセス" ;
+    sh:description "情報収集から最終決定までの営業活動の流れ。" ;
+    sh:property [
+        sh:path ex:followsBuyingStep ;
+        sh:class ex:BuyingProcessStep ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/ForecastManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ForecastManagement ;
+    sh:name "ヨミ管理" ;
+    sh:description "確度別に案件を分類しヨミ換算金額で業績を予測する管理。" ;
+    sh:property [
+        sh:path ex:forecasts ;
+        sh:class ex:Deal ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/NEW_SALES/LearningCourseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LearningCourse ;
+    sh:name "ラーニングコース" ;
+    sh:description "プロダクトリテラシーやセールススキルを体系化した学習プログラム。" .
+
+<https://books.local/NEW_SALES/InternalRelationshipMapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InternalRelationshipMap ;
+    sh:name "社内関係図" ;
+    sh:description "エンタープライズセールスで複雑な社内関係を把握するための図。" .

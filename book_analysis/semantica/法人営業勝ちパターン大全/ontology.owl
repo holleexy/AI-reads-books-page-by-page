@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/法人営業勝ちパターン大全/">
+    <rdfs:label>法人営業勝ちパターン大全Ontology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/CorporateSales">
+    <rdfs:label xml:lang="ja">法人営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業間取引におけるB2B営業。本書の対象領域であり、顧客の裏側を把握することが成果の前提となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/SalesMethodology">
+    <rdfs:label xml:lang="ja">営業方法論</rdfs:label>
+    <rdfs:comment xml:lang="ja">失注の悔しさから生まれ、約2万4千人の調査と4万人超の営業支援を通じて体系化した再現可能な勝ちパターンの方法論。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/Salesperson">
+    <rdfs:label xml:lang="ja">営業担当者</rdfs:label>
+    <rdfs:comment xml:lang="ja">法人営業を担う個人。顧客の見えない世界を照らす松明を使い、チームで勝ちパターンを再現する主体。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/Customer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">購買を行う組織。公式の窓口の背後に複数のキーパーソンと独自の世界観・裏側を持つ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/Deal">
+    <rdfs:label xml:lang="ja">案件</rdfs:label>
+    <rdfs:comment xml:lang="ja">法人営業における商談。神秘的な受注はあっても神秘的な失注はなく、裏側を見れば原因を特定できる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/HiddenCustomerWorld">
+    <rdfs:label xml:lang="ja">顧客の裏側</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の世界観と内部事情。これを見通せなければ優れた製品や提案も実を結ばない。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/PurchasingProcess">
+    <rdfs:label xml:lang="ja">購買プロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客側の5段階の購買過程。営業の4段階プロセスとは全く異なり、実質決定の66.8%は上流で起きる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/PurchasingStage">
+    <rdfs:label xml:lang="ja">購買ステージ</rdfs:label>
+    <rdfs:comment xml:lang="ja">課題認識・情報収集・要件定義・ベンダー比較・発注決定のいずれか。現在地の特定が松明の第一歩。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingProcess"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/IssueRecognition">
+    <rdfs:label xml:lang="ja">課題認識</rdfs:label>
+    <rdfs:comment xml:lang="ja">事業課題が生じ「何か買う必要があるかも」と感じる段階。エンゲージメント戦略の適用対象。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/InformationGathering">
+    <rdfs:label xml:lang="ja">情報収集</rdfs:label>
+    <rdfs:comment xml:lang="ja">選択肢を軽く調べる温度の低い段階。相談して安心な相手になるエキスパート戦略の適用対象。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/RequirementsDefinition">
+    <rdfs:label xml:lang="ja">要件定義</rdfs:label>
+    <rdfs:comment xml:lang="ja">予算・機能・時期・運用が言語化される段階。実質決定が集中し、ディスカッション戦略の適用対象。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/VendorComparison">
+    <rdfs:label xml:lang="ja">ベンダー比較</rdfs:label>
+    <rdfs:comment xml:lang="ja">正式提案と見積を比較する段階。中身だけでなく検討プロセスで差をつけるガイド戦略の適用対象。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/OrderDecision">
+    <rdfs:label xml:lang="ja">発注決定</rdfs:label>
+    <rdfs:comment xml:lang="ja">選定と契約の段階で、しばしば儀式的。特別感を生むカスタマイズ戦略の適用対象。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/Stakeholder">
+    <rdfs:label xml:lang="ja">ステークホルダー</rdfs:label>
+    <rdfs:comment xml:lang="ja">案件に関与する6類型の関係者。一人が複数役割を兼ね、影響力は分散・流動的で見えにくい。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/FieldUser">
+    <rdfs:label xml:lang="ja">現場の利用者</rdfs:label>
+    <rdfs:comment xml:lang="ja">速く安く日常業務で使え部門負担が少ないことを重視する「使えるか」志向の関係者。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/InternalPromoter">
+    <rdfs:label xml:lang="ja">社内推進者</rdfs:label>
+    <rdfs:comment xml:lang="ja">課題把握の正確さとプロジェクト成功を求め、「このベンダーは問題を理解しているか」を重視する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/OrderingPersonnel">
+    <rdfs:label xml:lang="ja">発注担当者</rdfs:label>
+    <rdfs:comment xml:lang="ja">ベンダー調整・見積・契約を担い、バランス志向で判断基準が分散しやすい。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/BudgetSupervisor">
+    <rdfs:label xml:lang="ja">予算の監督者</rdfs:label>
+    <rdfs:comment xml:lang="ja">費用対効果・実績・安心感を重視し、保守的なブレーキとして機能する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/InfluencerToDecisionMaker">
+    <rdfs:label xml:lang="ja">決裁者への影響者</rdfs:label>
+    <rdfs:comment xml:lang="ja">自社状況との適合を見られ、可視性は低いが「あの人が何と言うか」で影響が大きい。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/FinalDecisionMaker">
+    <rdfs:label xml:lang="ja">最終決裁者</rdfs:label>
+    <rdfs:comment xml:lang="ja">最安値ではなく投資価値とROIを見る。実質影響は16.7%に過ぎず、決裁権と実影響力は一致しない。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/KeyPerson">
+    <rdfs:label xml:lang="ja">キーパーソン</rdfs:label>
+    <rdfs:comment xml:lang="ja">正式な決裁者とは限らずステージで移る重要人物。数珠つなぎで接近し、目の前の人を決して飛ばさない。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/Maze">
+    <rdfs:label xml:lang="ja">迷路</rdfs:label>
+    <rdfs:comment xml:lang="ja">誰がいて内部がどうなっているか見えず時間が過ぎる状態。4つの迷路に分類し落とし穴を診断して脱出する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/UnableToMeetKeyPersonMaze">
+    <rdfs:label xml:lang="ja">キーパーソンに会えない迷路</rdfs:label>
+    <rdfs:comment xml:lang="ja">9つの落とし穴。数珠つなぎ・当日転送可能なメモ・心理的負担軽減でキーパーソンに到達する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Maze"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/ContactDoesNotConnectMaze">
+    <rdfs:label xml:lang="ja">コンタクトが取れない迷路</rdfs:label>
+    <rdfs:comment xml:lang="ja">既読にならない・情報過多・印象不良など9つの落とし穴。無返信は無関心と同義ではない。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Maze"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/ConsiderationDoesNotProgressMaze">
+    <rdfs:label xml:lang="ja">検討が進まない迷路</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人要因と組織要因の10の落とし穴。催促せず伴走し、鳥の目・虫の目・魚の目で進める。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Maze"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/BudgetDoesNotIncreaseMaze">
+    <rdfs:label xml:lang="ja">予算が増えない迷路</rdfs:label>
+    <rdfs:comment xml:lang="ja">「予算がない」は内部事情の一言要約であることが多い。値引きせず予算すごろくで論理と証拠を共創する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Maze"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/Torch">
+    <rdfs:label xml:lang="ja">松明</rdfs:label>
+    <rdfs:comment xml:lang="ja">迷路脱出の光。購買ステージ特定、目の前の人の役割判定、自社発注へ向かう道筋の描出の三点セット。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/DefensiveStrategy">
+    <rdfs:label xml:lang="ja">守りの戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">同じ電話やフォローを繰り返さず、どの迷路のどの落とし穴かを正しく診断して脱出する戦略。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/OffensiveStrategy">
+    <rdfs:label xml:lang="ja">攻めの戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の現在ステージを特定し対応する勝ちパターンを先手で適用する。上流先行が決定的。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/WinningPattern">
+    <rdfs:label xml:lang="ja">勝ちパターン</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の裏側理解に基づく再現可能な勝ち筋。個人の勘をシートと共通言語でチームに展開する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/OffensiveStrategy"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/EngagementStrategy">
+    <rdfs:label xml:lang="ja">エンゲージメント戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">課題認識段階でBANT成立前から関係を育て「今まさに我々向け」と感じさせる先手の関係構築。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPattern"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/ExpertStrategy">
+    <rdfs:label xml:lang="ja">エキスパート戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報収集段階で相談して安心な選択肢になる。悩み・従来策・落とし穴・独自アプローチを知識体系化する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPattern"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/DiscussionStrategy">
+    <rdfs:label xml:lang="ja">ディスカッション戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">要件定義段階で伴走する議論相手になり、つっこまれビリティとIKEA効果で他社には戻れなくする。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPattern"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/GuideStrategy">
+    <rdfs:label xml:lang="ja">ガイド戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">ベンダー比較段階で道先案内人となり、影響マップやMEDDICCで社内検討を滑らかにして差をつける。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPattern"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/CustomizeStrategy">
+    <rdfs:label xml:lang="ja">カスタマイズ戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">発注決定段階で特別感を生む。要望対応・原因分析・提案メッセージの三層で最後の一押しをする。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPattern"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/Pitfall">
+    <rdfs:label xml:lang="ja">落とし穴</rdfs:label>
+    <rdfs:comment xml:lang="ja">各迷路に固有の具体的つまずき。個人・組織・手続・文化などの層に分かれ、診断対象となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/Tactic">
+    <rdfs:label xml:lang="ja">戦術</rdfs:label>
+    <rdfs:comment xml:lang="ja">数珠つなぎ、付加価値メール、伴走、予算共創など、迷路脱出や勝ちパターン実行の具体手段。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/BuyerType">
+    <rdfs:label xml:lang="ja">購買者タイプ</rdfs:label>
+    <rdfs:comment xml:lang="ja">論理型27.2%、感情型14.9%、政治型57.9%。過半数は「安全か・他者はどう思うか」の政治型。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/LogicalBuyer">
+    <rdfs:label xml:lang="ja">論理型購買者</rdfs:label>
+    <rdfs:comment xml:lang="ja">論理で判断する購買者。調査対象の27.2%。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/BuyerType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/EmotionalBuyer">
+    <rdfs:label xml:lang="ja">感情型購買者</rdfs:label>
+    <rdfs:comment xml:lang="ja">感情で判断する購買者。調査対象の14.9%。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/BuyerType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/PoliticalBuyer">
+    <rdfs:label xml:lang="ja">政治型購買者</rdfs:label>
+    <rdfs:comment xml:lang="ja">安全か・周囲の目を気にして判断する購買者。過半数の57.9%を占める。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/BuyerType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/Framework">
+    <rdfs:label xml:lang="ja">フレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の裏側を可視化し判断を揃えるための共通枠組み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/ThreeEyesFramework">
+    <rdfs:label xml:lang="ja">三つの目</rdfs:label>
+    <rdfs:comment xml:lang="ja">鳥の目（経営整合）、虫の目（現場具体）、魚の目（業界潮流）で検討停滞を伴走する視点。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/BudgetSugoroku">
+    <rdfs:label xml:lang="ja">予算すごろく</rdfs:label>
+    <rdfs:comment xml:lang="ja">経営・事業・部門・個人の4層コミュニケーション階層で予算増額の経路を地図化する枠組み。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/MEDDICC">
+    <rdfs:label>MEDDICC</rdfs:label>
+    <rdfs:comment xml:lang="ja">Metrics・Economic Buyer・Decision Criteria・Decision Process・Identify Pain・Champion・Competitionを情報戦の道具として使う。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/BANTCH">
+    <rdfs:label>BANTCH</rdfs:label>
+    <rdfs:comment xml:lang="ja">従来BANTに競合（Competitor）と人的資源（Human resources）を加えた拡張資格確認。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/FiveCsContent">
+    <rdfs:label xml:lang="ja">ファイブシー</rdfs:label>
+    <rdfs:comment xml:lang="ja">Company・Customer・Customer’s Customer・Competitor・Customer’s Competitorで専門性コンテンツを設計する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/法人営業勝ちパターン大全/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/WinningPatternConstructionSheet">
+    <rdfs:label xml:lang="ja">勝ちパターン構築シート</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人の勘を超えて成功を再現するためチームが使うExcelの共通言語シート。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/LeadPersonPhase">
+    <rdfs:label xml:lang="ja">リードパーソンフェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">会社単位ではなく個人単位のInitial・Contact・Needs Grasp・Interested・Opportunityの関係深化段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/InfluenceMap">
+    <rdfs:label xml:lang="ja">影響マップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">役職・スタンス・実影響力と6役割を重ね、判断構造を選択肢×判断軸として可視化する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/Proposal">
+    <rdfs:label xml:lang="ja">提案</rdfs:label>
+    <rdfs:comment xml:lang="ja">見積や提案書。74.4%は見積前に実質決定済みで、応答速度が品質より効くことが多い。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/法人営業勝ちパターン大全/ResearchFinding">
+    <rdfs:label xml:lang="ja">調査知見</rdfs:label>
+    <rdfs:comment xml:lang="ja">購買経験者を含む約2万4千人調査と10万件超の苦情分析から得た、裏側とプロセス最適化に関する知見。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/hasPurchasingStage">
+    <rdfs:label xml:lang="ja">購買ステージを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">案件または顧客が今どの購買ステージにいるかを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Deal"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingStage"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/involvesStakeholder">
+    <rdfs:label xml:lang="ja">ステークホルダーを含む</rdfs:label>
+    <rdfs:comment xml:lang="ja">案件に関与する複数のキーパーソン・役割を結びつける。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Deal"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/belongsToCustomer">
+    <rdfs:label xml:lang="ja">顧客に属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">関係者・案件・裏側がどの顧客組織に属するかを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Deal"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/HiddenCustomerWorld"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/handledBy">
+    <rdfs:label xml:lang="ja">担当する</rdfs:label>
+    <rdfs:comment xml:lang="ja">案件を担当する営業担当者。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Deal"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/Salesperson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/hasHiddenWorld">
+    <rdfs:label xml:lang="ja">裏側を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の公式窓口の背後にある世界観と内部事情。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/HiddenCustomerWorld"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/trappedIn">
+    <rdfs:label xml:lang="ja">迷路に陥る</rdfs:label>
+    <rdfs:comment xml:lang="ja">案件や営業がどの迷路にいるかを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Deal"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/Maze"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/hasPitfall">
+    <rdfs:label xml:lang="ja">落とし穴を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">各迷路に固有の具体的つまずき。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Maze"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/Pitfall"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/usesTactic">
+    <rdfs:label xml:lang="ja">戦術を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">迷路脱出または勝ちパターン実行に使う具体手段。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Maze"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPattern"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/DefensiveStrategy"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/OffensiveStrategy"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/Tactic"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/appliesToStage">
+    <rdfs:label xml:lang="ja">ステージに適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">勝ちパターンが対応する顧客購買ステージ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPattern"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingStage"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/mappedToPattern">
+    <rdfs:label xml:lang="ja">勝ちパターンに対応する</rdfs:label>
+    <rdfs:comment xml:lang="ja">購買ステージから先手の攻めの戦略への写像。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingStage"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPattern"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/illuminates">
+    <rdfs:label xml:lang="ja">照らす</rdfs:label>
+    <rdfs:comment xml:lang="ja">松明が裏側・迷路・ステージ・役割を可視化する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Torch"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/HiddenCustomerWorld"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/Maze"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingStage"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/usesFramework">
+    <rdfs:label xml:lang="ja">フレームワークを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">三つの目、予算すごろく、MEDDICC、BANTCHなどを用いる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Salesperson"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPattern"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/DefensiveStrategy"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/Framework"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/hasBuyerType">
+    <rdfs:label xml:lang="ja">購買者タイプを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">論理型・感情型・政治型のいずれかを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/BuyerType"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/influences">
+    <rdfs:label xml:lang="ja">影響する</rdfs:label>
+    <rdfs:comment xml:lang="ja">形式権限ではなく実質的な意思決定への影響力。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/KeyPerson"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/Deal"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/FinalDecisionMaker"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/hasKeyPerson">
+    <rdfs:label xml:lang="ja">キーパーソンを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ステージにより移りうる実質的な重要人物。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Deal"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/KeyPerson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/hasInfluenceMap">
+    <rdfs:label xml:lang="ja">影響マップを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">役職・スタンス・実影響力と6役割の可視化。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Deal"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/InfluenceMap"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/hasLeadPersonPhase">
+    <rdfs:label xml:lang="ja">リードパーソンフェーズを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人単位の関係深化段階。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Stakeholder"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/LeadPersonPhase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/constructs">
+    <rdfs:label xml:lang="ja">構築する</rdfs:label>
+    <rdfs:comment xml:lang="ja">シートと共通言語で勝ちパターンを再現可能にする。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPatternConstructionSheet"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/SalesMethodology"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPattern"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/partOfProcess">
+    <rdfs:label xml:lang="ja">プロセスの一部である</rdfs:label>
+    <rdfs:comment xml:lang="ja">各購買ステージが5段階購買プロセスに属する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingStage"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/hasProposal">
+    <rdfs:label xml:lang="ja">提案を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">案件に紐づく提案や見積。完成度より初速と反復が効く。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Deal"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/Proposal"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/法人営業勝ちパターン大全/supportedByFinding">
+    <rdfs:label xml:lang="ja">調査知見に裏付けられる</rdfs:label>
+    <rdfs:comment xml:lang="ja">大規模調査と苦情分析による方法論の根拠。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/SalesMethodology"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPattern"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/PurchasingProcess"/>
+    <rdfs:range rdf:resource="https://books.local/法人営業勝ちパターン大全/ResearchFinding"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/法人営業勝ちパターン大全/description">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念や知見の補足説明テキスト。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/SalesMethodology"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/WinningPattern"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/Maze"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/ResearchFinding"/>
+    <rdfs:domain rdf:resource="https://books.local/法人営業勝ちパターン大全/HiddenCustomerWorld"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

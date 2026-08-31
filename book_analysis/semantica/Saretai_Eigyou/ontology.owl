@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Saretai_Eigyou/">
+    <rdfs:label>Saretai_EigyouOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">コロナ禍以降の不確実な環境で、約1000名の購買経験者データに基づきされたい営業の理論と実践を示したセールス指南書。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/SalesApproach">
+    <rdfs:label xml:lang="ja">営業アプローチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">売り手が提供したい進め方と、買い手が受けたい進め方を含む営業の基本的な向き合い方。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/ShitaiEigyou">
+    <rdfs:label xml:lang="ja">したい営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者が提供したい売り手都合のアプローチ。顧客がされたいアプローチとは一致しない。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saretai_Eigyou/SalesApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/SaretaiEigyou">
+    <rdfs:label xml:lang="ja">されたい営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が真に望む受けたい営業。べき論ではなく購買者の事実データに基づく本質的な戦略とスキル。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saretai_Eigyou/SalesApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/Customer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">購買経験を持つ買い手。知識ではなく顧客の事実を起点にアプローチすべき対象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/Salesperson">
+    <rdfs:label xml:lang="ja">営業担当者</rdfs:label>
+    <rdfs:comment xml:lang="ja">したい営業を脱却し、知っているとできるの差を反復練習で埋め、されたい営業を実践する売り手。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/SalesProcess">
+    <rdfs:label xml:lang="ja">営業プロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">旧来の電話から提案までの一方通行ではなく、まず先に役に立つGIVEから始める新しい営業の順序。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/CustomerJourney">
+    <rdfs:label xml:lang="ja">カスタマージャーニー</rdfs:label>
+    <rdfs:comment xml:lang="ja">認知から興味、課題認識、比較検討、導入、拡散までの心理段階に合わせてコンテンツとアプローチを変える設計図。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/JourneyStage">
+    <rdfs:label xml:lang="ja">心理段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">カスタマージャーニーを構成する認知、興味、課題認識、比較検討、導入、拡散などの段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/Meeting">
+    <rdfs:label xml:lang="ja">商談</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者と顧客が行う商談。データ上は約61.6パーセントが対面メインだが、約48.7パーセントはオンラインでもよいと回答する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/OnlineMeeting">
+    <rdfs:label xml:lang="ja">オンライン商談</rdfs:label>
+    <rdfs:comment xml:lang="ja">約67.4パーセントがマルチタスクをし、81.3パーセントが対面の方が集中できると回答する、心離れが起きやすい非対面商談。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saretai_Eigyou/Meeting"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/FaceToFaceMeeting">
+    <rdfs:label xml:lang="ja">対面商談</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が集中しやすく、商談の過半が依然としてメインとする対面の商談形態。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saretai_Eigyou/Meeting"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/KeyDriver">
+    <rdfs:label xml:lang="ja">キードライバー</rdfs:label>
+    <rdfs:comment xml:lang="ja">オンライン商談の心離れを防ぎ集中させる場創りの主要変数。コンテンツ、関係構築、情熱強化、プロジェクト化の四つ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/Content">
+    <rdfs:label xml:lang="ja">コンテンツ</rdfs:label>
+    <rdfs:comment xml:lang="ja">オンラインでは人柄より主役となる資料と演出。動的な共同作業、アジェンダ可視化、視線を誘導する参加型ツールを含む。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saretai_Eigyou/KeyDriver"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/RelationshipBuilding">
+    <rdfs:label xml:lang="ja">関係構築</rdfs:label>
+    <rdfs:comment xml:lang="ja">第0印象、公開情報に基づく事前準備、短時間多頻度接触によるザイオンス効果、SNSの緩い繋がりで非対面の信頼を築く。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saretai_Eigyou/KeyDriver"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/PassionEnhancement">
+    <rdfs:label xml:lang="ja">情熱強化</rdfs:label>
+    <rdfs:comment xml:lang="ja">タグワードと、なぜやるのかという動機やパーパスのストーリーで、画面越しに伝わりにくい熱意を感情へ届ける技術。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saretai_Eigyou/KeyDriver"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/Projectification">
+    <rdfs:label xml:lang="ja">プロジェクト化</rdfs:label>
+    <rdfs:comment xml:lang="ja">評価者と被評価者の対立をやめ、共通目標を持つプロジェクトメンバーとして顧客を巻き込み共創する意識改革。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saretai_Eigyou/KeyDriver"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/SalesContent">
+    <rdfs:label xml:lang="ja">セールスコンテンツ</rdfs:label>
+    <rdfs:comment xml:lang="ja">汎用資料ではなく商談で即座にカスタマイズするコンテンツ。3C分析や数字の物語り、断られた理由から作る反論対策を含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/CustomerCase">
+    <rdfs:label xml:lang="ja">顧客事例</rdfs:label>
+    <rdfs:comment xml:lang="ja">感情と事実、具体と抽象の軸で整理し、需要喚起、課題顕在化、評価検討の段階別に使い、防衛心を下げて自己開示を促す事例。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/OpportunityLoss">
+    <rdfs:label xml:lang="ja">機会損失</rdfs:label>
+    <rdfs:comment xml:lang="ja">つながらない、会えない、買ってもらえないという三つのロス。オンラインスキルの放棄も機会損失につながる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/HeartDetachment">
+    <rdfs:label xml:lang="ja">心離れ</rdfs:label>
+    <rdfs:comment xml:lang="ja">オンライン商談中に顧客の関心と集中が離れる現象。場創りのキードライバーで防ぐべき中核課題。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/SalesTechnology">
+    <rdfs:label xml:lang="ja">セールステック</rdfs:label>
+    <rdfs:comment xml:lang="ja">CRMや資料トラッキングなどの営業支援技術。究極の目的は自社効率化ではなく顧客の購買体験向上である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saretai_Eigyou/BlendSales">
+    <rdfs:label xml:lang="ja">ブレンド営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">リアルとオンラインを融合するOMO営業。初回オンライン後に対面で厚くフォローする型と、初回対面後にオンラインで進める型がある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/advocates">
+    <rdfs:label xml:lang="ja">提唱する</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍がしたい営業からの脱却としてされたい営業などのアプローチを提唱する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/Book"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/SalesApproach"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/intendedFor">
+    <rdfs:label xml:lang="ja">対象とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業アプローチが向けられる顧客を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/SalesApproach"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/practicedBy">
+    <rdfs:label xml:lang="ja">実践する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業アプローチを現場で実践する営業担当者を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/SalesApproach"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/Salesperson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/hasProcess">
+    <rdfs:label xml:lang="ja">用いるプロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者が採用するGIVE起点などの営業プロセス。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/SalesProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/experiencesJourney">
+    <rdfs:label xml:lang="ja">辿るジャーニー</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が認知から拡散まで辿るカスタマージャーニー。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/CustomerJourney"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/consistsOfStage">
+    <rdfs:label xml:lang="ja">段階を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">カスタマージャーニーを構成する心理段階。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/CustomerJourney"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/JourneyStage"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/usesMeeting">
+    <rdfs:label xml:lang="ja">用いる商談</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業プロセスが実施に用いる対面またはオンラインの商談。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/SalesProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/Meeting"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/hasDriver">
+    <rdfs:label xml:lang="ja">キードライバーを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">オンライン商談の場創りを支えるコンテンツなどの主要変数。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/OnlineMeeting"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/KeyDriver"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/usesSalesContent">
+    <rdfs:label xml:lang="ja">コンテンツを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">商談がその場に合わせてカスタマイズしたセールスコンテンツを用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/Meeting"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/SalesContent"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/includesCase">
+    <rdfs:label xml:lang="ja">事例を含む</rdfs:label>
+    <rdfs:comment xml:lang="ja">セールスコンテンツが段階別に活用する顧客事例。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/SalesContent"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/CustomerCase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/causesHeartDetachment">
+    <rdfs:label xml:lang="ja">心離れを引き起こす</rdfs:label>
+    <rdfs:comment xml:lang="ja">オンライン商談が顧客の集中低下である心離れを引き起こしうる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/OnlineMeeting"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/HeartDetachment"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/leadsToOpportunityLoss">
+    <rdfs:label xml:lang="ja">機会損失をもたらす</rdfs:label>
+    <rdfs:comment xml:lang="ja">心離れがつながらない、会えない、買ってもらえない等の機会損失につながる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/HeartDetachment"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/OpportunityLoss"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/usesTechnology">
+    <rdfs:label xml:lang="ja">技術を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者が顧客体験向上のためにセールステックを用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/SalesTechnology"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saretai_Eigyou/employsBlendSales">
+    <rdfs:label xml:lang="ja">ブレンド営業を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者がリアルとオンラインを組み合わせたOMO営業を採用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Saretai_Eigyou/BlendSales"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Saretai_Eigyou/description">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念の補足説明や本書で示された事実を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/Book"/>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/SalesApproach"/>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/SalesProcess"/>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/Meeting"/>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/KeyDriver"/>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/SalesContent"/>
+    <rdfs:domain rdf:resource="https://books.local/Saretai_Eigyou/OpportunityLoss"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

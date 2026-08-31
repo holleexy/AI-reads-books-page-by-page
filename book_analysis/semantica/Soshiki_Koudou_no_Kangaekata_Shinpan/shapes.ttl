@@ -1,0 +1,271 @@
+@prefix ex: <https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/shapes> a owl:Ontology .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SalesProfessionalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesProfessional ;
+    sh:name "営業パーソン" ;
+    sh:description "顧客に合わせて提案をカスタマイズし介在価値を生み出す営業の担い手" ;
+    sh:property [
+        sh:path ex:createsInterveningValue ;
+        sh:class ex:InterveningValue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practicesHypothesisThinking ;
+        sh:class ex:HypothesisThinking ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:servesCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:conductsNegotiation ;
+        sh:class ex:Negotiation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:operatesInEnvironment ;
+        sh:class ex:VUCAEnvironment ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/TopSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TopSales ;
+    sh:name "トップセールス" ;
+    sh:description "型の延長ではなく思考法により複雑な顧客課題へ対応し平均を超える成果を出す営業パーソン" ;
+    sh:property [
+        sh:path ex:createsInterveningValue ;
+        sh:class ex:InterveningValue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practicesHypothesisThinking ;
+        sh:class ex:HypothesisThinking ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:servesCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:conductsNegotiation ;
+        sh:class ex:Negotiation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:operatesInEnvironment ;
+        sh:class ex:VUCAEnvironment ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "製品そのものではなく片付けたいジョブを解決するために製品を雇用する主体" ;
+    sh:property [
+        sh:path ex:hiresForJob ;
+        sh:class ex:CustomerJob ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:affectedByBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InterveningValueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InterveningValue ;
+    sh:name "介在価値" ;
+    sh:description "営業が介在することで生まれる付加価値。プロダクトを届けるだけではウェブサイトで足りる" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HypothesisThinking ;
+    sh:name "仮説思考" ;
+    sh:description "情報不足の下で最も確からしい結論を立て検証により精度を高める思考法" ;
+    sh:property [
+        sh:path ex:constructsHypothesis ;
+        sh:class ex:Hypothesis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesInferenceMethod ;
+        sh:class ex:InferenceMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHypothesisViewpoint ;
+        sh:class ex:HypothesisViewpoint ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesAnalogicalThinking ;
+        sh:class ex:AnalogicalThinking ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Hypothesis ;
+    sh:name "仮説" ;
+    sh:description "顧客自身も気づいていない課題を提示し行動決断を促すための暫定的結論" ;
+    sh:property [
+        sh:path ex:textualDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/FrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Framework ;
+    sh:name "フレームワーク" ;
+    sh:description "顧客のビジネスや課題を解像度高く捉えるための分析および実践の枠組み" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/BusinessAnalysisFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessAnalysisFramework ;
+    sh:name "ビジネス分析フレームワーク" ;
+    sh:description "戦略と環境を構造化し競争優位や市場位置を明らかにする枠組み" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SellingSkillsFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SellingSkillsFramework ;
+    sh:name "営業スキルフレームワーク" ;
+    sh:description "商談を前進させるコミュニケーションと質問設計の枠組み" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/ThreeCAnalysisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThreeCAnalysis ;
+    sh:name "3C分析" ;
+    sh:description "顧客・自社・競合の観点から事業環境を捉える分析枠組み" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/ValuePropositionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ValueProposition ;
+    sh:name "バリュープロポジション" ;
+    sh:description "We help X do Y by doing Z の構造で顧客にとっての独自価値を定義する" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/FiveForcesAnalysisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FiveForcesAnalysis ;
+    sh:name "ファイブフォース分析" ;
+    sh:description "新規参入・代替品・売り手と買い手の交渉力・競合の五脅威から業界を分析する" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SWOTAnalysisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SWOTAnalysis ;
+    sh:name "SWOT分析" ;
+    sh:description "内部の強み弱みと外部の機会脅威を整理し戦略方向を見出す分析" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/STPTheoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:STPTheory ;
+    sh:name "STP理論" ;
+    sh:description "セグメンテーション・ターゲティング・ポジショニングで市場上の立ち位置を定める" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/JobsToBeDoneTheoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:JobsToBeDoneTheory ;
+    sh:name "ジョブ理論" ;
+    sh:description "顧客は製品ではなく片付けたいジョブのために製品を雇用するという理論" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/PSSFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PSSFramework ;
+    sh:name "PSS営業フレームワーク" ;
+    sh:description "開始・調査・提案・締結の四ステップで商談を進めるプロフェッショナルセリングスキル" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SPINSellingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SPINSelling ;
+    sh:name "SPIN営業術" ;
+    sh:description "状況・問題・示唆・解決の質問により真の課題と行動動機を引き出す話法" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InferenceMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InferenceMethod ;
+    sh:name "推論手法" ;
+    sh:description "仮説構築に用いる演繹・帰納・アブダクションなどの推論の方法" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/DeductiveReasoningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DeductiveReasoning ;
+    sh:name "演繹法" ;
+    sh:description "一般的なルールである大前提から具体的結論を導く推論" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InductiveReasoningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InductiveReasoning ;
+    sh:name "帰納法" ;
+    sh:description "複数の事例から一般的な法則を導く推論" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/AbductiveReasoningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AbductiveReasoning ;
+    sh:name "アブダクション" ;
+    sh:description "結果とルールから原因となる仮説を推測する遡及推論。営業の仮説構築で最も重要" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisViewpointShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HypothesisViewpoint ;
+    sh:name "仮説の視点" ;
+    sh:description "ゴールから見る・遠くから引く・分解する・反対から見る・端を見るという五つの視点" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/CustomerJobShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerJob ;
+    sh:name "ジョブ" ;
+    sh:description "顧客が片付けたい用事。機能面・感情面・社会面の三側面で捉える" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/CognitiveBiasShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CognitiveBias ;
+    sh:name "認知バイアス" ;
+    sh:description "合理的判断を歪める心理傾向。仮説構築や交渉に活かす対象" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/ProspectTheoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProspectTheory ;
+    sh:name "プロスペクト理論" ;
+    sh:description "損失回避性・参照点依存性・感応度逓減性。得る喜びより損の苦痛を約二倍大きく評価する" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/NegotiationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Negotiation ;
+    sh:name "交渉" ;
+    sh:description "勝ち取りではなく双方が納得する不等価交換によりWin-Winを目指す過程" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/AnalogicalThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnalogicalThinking ;
+    sh:name "アナロジー思考" ;
+    sh:description "他業界の構造や成功事例を適用し既存前提を覆す新しい仮説を生む思考法" .
+
+<https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/VUCAEnvironmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:VUCAEnvironment ;
+    sh:name "VUCA時代" ;
+    sh:description "複雑化多様化した環境。型通りの説明や御用聞き営業が限界を迎える背景" .

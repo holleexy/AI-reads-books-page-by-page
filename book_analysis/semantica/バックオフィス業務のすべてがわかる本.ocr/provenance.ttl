@@ -1,0 +1,335 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/バックオフィス業務のすべてがわかる本.ocr/> .
+
+book:source a prov:Entity ;
+  foaf:name "バックオフィス業務のすべてがわかる本.ocr" ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" .
+
+book:バックオフィス a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:accounting/finance a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:経理 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:human resources a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:人事 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:法務 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:general affairs a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:総務 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:management a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:公認会計士 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Conduct Group a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Japanese a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:経営企画 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:フロントオフィス a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:tax law a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:digitalization a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:DX a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:RPA a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Robotic Process Automation a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:OCR a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:systems a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Subcontract Act a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:outputs a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:monthly a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Payment processing a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:intermediate practitioners a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:large-enterprise management practice a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:労働基準法 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:beginners a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:法令・ルール a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:external-professional/consultant a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Yusuke Uenishi a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:植西祐介 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:税理士 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:social insurance and labor consultant a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:社会保険労務士 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:representative a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:new-graduate hire a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:zero-to-one phase a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:front-office work a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:founder/manager a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:管理部門 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:間接部門 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:コーポレート部門 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業部門 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:開発部門 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:販売 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:アフターサービス a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:企画・開発 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:製造 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:物流 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーケティング a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:サービス a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:aggregated time units a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:daily a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:weekly a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:yearly a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:one-off activities a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:事務職 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:dedicated departments a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:efficiency a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:bookkeeping a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:rules a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:people, goods, and money a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヒト・モノ・カネ a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:early 2010s a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:the following decade a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:specialized knowledge a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロボティクス・プロセス・オートメーション a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:UI/UX a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:会社法 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:独占禁止法 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:下請法 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:景品表示法 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:特許法 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:税法 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:会計基準 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Health Insurance Act a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:健康保険法 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:厚生年金保険法 a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Financial Instruments and Exchange Act a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Worker Dispatching Act a prov:Entity ;
+  book:book_key "バックオフィス業務のすべてがわかる本.ocr" ;
+  prov:wasDerivedFrom book:source .

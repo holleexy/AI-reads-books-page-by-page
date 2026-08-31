@@ -1,0 +1,4855 @@
+{
+  "entities": [
+    {
+      "id": "プロダクト営業",
+      "name": "プロダクト営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "プロダクト営業",
+              "name": "プロダクト営業",
+              "source": null
+            },
+            {
+              "id": "プロダクト営業",
+              "name": "プロダクト営業",
+              "source": null
+            },
+            {
+              "id": "プロダクト",
+              "name": "プロダクト",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "プロダクト営業",
+        "プロダクト営業",
+        "プロダクト"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "ソリューション営業",
+      "name": "ソリューション営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ソリューション営業",
+              "name": "ソリューション営業",
+              "source": null
+            },
+            {
+              "id": "ソリューション営業",
+              "name": "ソリューション営業",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ソリューション営業",
+        "ソリューション営業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "ストーリー営業",
+      "name": "ストーリー営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ストーリー営業",
+              "name": "ストーリー営業",
+              "source": null
+            },
+            {
+              "id": "ストーリー営業",
+              "name": "ストーリー営業",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ストーリー営業",
+        "ストーリー営業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "OLD SALES",
+      "name": "OLD SALES",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "OLD SALES",
+              "name": "OLD SALES",
+              "source": null
+            },
+            {
+              "id": "OLD SALES",
+              "name": "OLD SALES",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "OLD SALES",
+        "OLD SALES"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "NEW SALES",
+      "name": "NEW SALES",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "NEW SALES",
+              "name": "NEW SALES",
+              "source": null
+            },
+            {
+              "id": "NEW SALES",
+              "name": "NEW SALES",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "NEW SALES",
+        "NEW SALES"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "サプライズ営業",
+      "name": "サプライズ営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "サプライズ営業",
+              "name": "サプライズ営業",
+              "source": null
+            },
+            {
+              "id": "サプライズ営業",
+              "name": "サプライズ営業",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "サプライズ営業",
+        "サプライズ営業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "シナリオ営業",
+      "name": "シナリオ営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "シナリオ営業",
+              "name": "シナリオ営業",
+              "source": null
+            },
+            {
+              "id": "シナリオ営業",
+              "name": "シナリオ営業",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "シナリオ営業",
+        "シナリオ営業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "決定支援",
+      "name": "決定支援",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "決定支援",
+              "name": "決定支援",
+              "source": null
+            },
+            {
+              "id": "決定支援",
+              "name": "決定支援",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "決定支援",
+        "決定支援"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "Surprise",
+      "name": "Surprise",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Surprise",
+              "name": "Surprise",
+              "source": null
+            },
+            {
+              "id": "Surprise",
+              "name": "Surprise",
+              "source": null
+            },
+            {
+              "id": "SPIN",
+              "name": "SPIN",
+              "source": null
+            },
+            {
+              "id": "S",
+              "name": "S",
+              "source": null
+            },
+            {
+              "id": "Story",
+              "name": "Story",
+              "source": null
+            },
+            {
+              "id": "Score",
+              "name": "Score",
+              "source": null
+            },
+            {
+              "id": "Share",
+              "name": "Share",
+              "source": null
+            },
+            {
+              "id": "Scenario",
+              "name": "Scenario",
+              "source": null
+            },
+            {
+              "id": "Sympathy",
+              "name": "Sympathy",
+              "source": null
+            },
+            {
+              "id": "SFA",
+              "name": "SFA",
+              "source": null
+            }
+          ],
+          "merge_count": 10
+        }
+      },
+      "merged_from": [
+        "Surprise",
+        "Surprise",
+        "SPIN",
+        "S",
+        "Story",
+        "Score",
+        "Share",
+        "Scenario",
+        "Sympathy",
+        "SFA"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "ITエンジニア",
+      "name": "ITエンジニア",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ITエンジニア",
+              "name": "ITエンジニア",
+              "source": null
+            },
+            {
+              "id": "ITエンジニア",
+              "name": "ITエンジニア",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ITエンジニア",
+        "ITエンジニア"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "テクノロジー",
+      "name": "テクノロジー",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "テクノロジー",
+              "name": "テクノロジー",
+              "source": null
+            },
+            {
+              "id": "テクノロジー",
+              "name": "テクノロジー",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "テクノロジー",
+        "テクノロジー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "営業担当者",
+      "name": "営業担当者",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "営業担当者",
+              "name": "営業担当者",
+              "source": null
+            },
+            {
+              "id": "営業担当者",
+              "name": "営業担当者",
+              "source": null
+            },
+            {
+              "id": "営業職",
+              "name": "営業職",
+              "source": null
+            },
+            {
+              "id": "営業職",
+              "name": "営業職",
+              "source": null
+            },
+            {
+              "id": "営業",
+              "name": "営業",
+              "source": null
+            },
+            {
+              "id": "営業",
+              "name": "営業",
+              "source": null
+            },
+            {
+              "id": "営業力",
+              "name": "営業力",
+              "source": null
+            },
+            {
+              "id": "営業生産性",
+              "name": "営業生産性",
+              "source": null
+            },
+            {
+              "id": "営業不要論",
+              "name": "営業不要論",
+              "source": null
+            },
+            {
+              "id": "営業不要論",
+              "name": "営業不要論",
+              "source": null
+            },
+            {
+              "id": "営業管理職",
+              "name": "営業管理職",
+              "source": null
+            },
+            {
+              "id": "営業手法の進化プロセス",
+              "name": "営業手法の進化プロセス",
+              "source": null
+            }
+          ],
+          "merge_count": 12
+        }
+      },
+      "merged_from": [
+        "営業担当者",
+        "営業担当者",
+        "営業職",
+        "営業職",
+        "営業",
+        "営業",
+        "営業力",
+        "営業生産性",
+        "営業不要論",
+        "営業不要論",
+        "営業管理職",
+        "営業手法の進化プロセス"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "インターネット",
+      "name": "インターネット",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "インターネット",
+              "name": "インターネット",
+              "source": null
+            },
+            {
+              "id": "インターネット",
+              "name": "インターネット",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "インターネット",
+        "インターネット"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "AI",
+      "name": "AI",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "AI",
+              "name": "AI",
+              "source": null
+            },
+            {
+              "id": "AI",
+              "name": "AI",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "AI",
+        "AI"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "日本",
+      "name": "日本",
+      "type": "GPE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "日本",
+              "name": "日本",
+              "source": null
+            },
+            {
+              "id": "日本",
+              "name": "日本",
+              "source": null
+            },
+            {
+              "id": "日本経済",
+              "name": "日本経済",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "日本",
+        "日本",
+        "日本経済"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "著者",
+      "name": "著者",
+      "type": "PERSON",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "著者",
+              "name": "著者",
+              "source": null
+            },
+            {
+              "id": "著者",
+              "name": "著者",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "著者",
+        "著者"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "ITツール",
+      "name": "ITツール",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ITツール",
+              "name": "ITツール",
+              "source": null
+            },
+            {
+              "id": "ITツール",
+              "name": "ITツール",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ITツール",
+        "ITツール"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "アメリカ",
+      "name": "アメリカ",
+      "type": "GPE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "アメリカ",
+              "name": "アメリカ",
+              "source": null
+            },
+            {
+              "id": "アメリカ",
+              "name": "アメリカ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "アメリカ",
+        "アメリカ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "役割の変化",
+      "name": "役割の変化",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "役割の変化",
+              "name": "役割の変化",
+              "source": null
+            },
+            {
+              "id": "役割の変化",
+              "name": "役割の変化",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "役割の変化",
+        "役割の変化"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "目的の変化",
+      "name": "目的の変化",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "目的の変化",
+              "name": "目的の変化",
+              "source": null
+            },
+            {
+              "id": "目的の変化",
+              "name": "目的の変化",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "目的の変化",
+        "目的の変化"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "仕事",
+      "name": "仕事",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "仕事",
+              "name": "仕事",
+              "source": null
+            },
+            {
+              "id": "仕事",
+              "name": "仕事",
+              "source": null
+            },
+            {
+              "id": "仕事満足度",
+              "name": "仕事満足度",
+              "source": null
+            },
+            {
+              "id": "仕事のイネーブルメント",
+              "name": "仕事のイネーブルメント",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "仕事",
+        "仕事",
+        "仕事満足度",
+        "仕事のイネーブルメント"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "チャレンジャー・セールス・モデル",
+      "name": "チャレンジャー・セールス・モデル",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "チャレンジャー・セールス・モデル",
+              "name": "チャレンジャー・セールス・モデル",
+              "source": null
+            },
+            {
+              "id": "チャレンジャー・セールス・モデル",
+              "name": "チャレンジャー・セールス・モデル",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "チャレンジャー・セールス・モデル",
+        "チャレンジャー・セールス・モデル"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "ハイパフォーマー",
+      "name": "ハイパフォーマー",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ハイパフォーマー",
+              "name": "ハイパフォーマー",
+              "source": null
+            },
+            {
+              "id": "ハイパフォーマー",
+              "name": "ハイパフォーマー",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ハイパフォーマー",
+        "ハイパフォーマー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "働く",
+      "name": "働く",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "働く",
+              "name": "働く",
+              "source": null
+            },
+            {
+              "id": "働く",
+              "name": "働く",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "働く",
+        "働く"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "組織のエンゲージメント",
+      "name": "組織のエンゲージメント",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "組織のエンゲージメント",
+              "name": "組織のエンゲージメント",
+              "source": null
+            },
+            {
+              "id": "組織のエンゲージメント",
+              "name": "組織のエンゲージメント",
+              "source": null
+            },
+            {
+              "id": "組織",
+              "name": "組織",
+              "source": null
+            },
+            {
+              "id": "組織人事コンサルティング会社",
+              "name": "組織人事コンサルティング会社",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "組織のエンゲージメント",
+        "組織のエンゲージメント",
+        "組織",
+        "組織人事コンサルティング会社"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "エンゲージメント",
+      "name": "エンゲージメント",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "エンゲージメント",
+              "name": "エンゲージメント",
+              "source": null
+            },
+            {
+              "id": "エンゲージメント",
+              "name": "エンゲージメント",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "エンゲージメント",
+        "エンゲージメント"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "セールスイネーブルメント",
+      "name": "セールスイネーブルメント",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "セールスイネーブルメント",
+              "name": "セールスイネーブルメント",
+              "source": null
+            },
+            {
+              "id": "セールスイネーブルメント",
+              "name": "セールスイネーブルメント",
+              "source": null
+            },
+            {
+              "id": "セールスフォース",
+              "name": "セールスフォース",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "セールスイネーブルメント",
+        "セールスイネーブルメント",
+        "セールスフォース"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "1900年頃",
+      "name": "1900年頃",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "1900年頃",
+              "name": "1900年頃",
+              "source": null
+            },
+            {
+              "id": "1970年頃",
+              "name": "1970年頃",
+              "source": null
+            },
+            {
+              "id": "100年",
+              "name": "100年",
+              "source": null
+            },
+            {
+              "id": "10年",
+              "name": "10年",
+              "source": null
+            },
+            {
+              "id": "17年間",
+              "name": "17年間",
+              "source": null
+            },
+            {
+              "id": "1925年〜",
+              "name": "1925年〜",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "1900年頃",
+        "1970年頃",
+        "100年",
+        "10年",
+        "17年間",
+        "1925年〜"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "技術職",
+      "name": "技術職",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "技術職",
+              "name": "技術職",
+              "source": null
+            },
+            {
+              "id": "技術",
+              "name": "技術",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "技術職",
+        "技術"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "投資利益率",
+      "name": "投資利益率",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "投資利益率",
+              "name": "投資利益率",
+              "source": null
+            },
+            {
+              "id": "投資家",
+              "name": "投資家",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "投資利益率",
+        "投資家"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "商品開発部門",
+      "name": "商品開発部門",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "商品開発部門",
+              "name": "商品開発部門",
+              "source": null
+            },
+            {
+              "id": "商品",
+              "name": "商品",
+              "source": null
+            },
+            {
+              "id": "商談",
+              "name": "商談",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "商品開発部門",
+        "商品",
+        "商談"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "20世紀",
+      "name": "20世紀",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "20世紀",
+              "name": "20世紀",
+              "source": null
+            },
+            {
+              "id": "2020年",
+              "name": "2020年",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "20世紀",
+        "2020年"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "顧客事例",
+      "name": "顧客事例",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "顧客事例",
+              "name": "顧客事例",
+              "source": null
+            },
+            {
+              "id": "顧客の課題解決",
+              "name": "顧客の課題解決",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "顧客事例",
+        "顧客の課題解決"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "価値",
+      "name": "価値",
+      "text": "価値",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "課題",
+      "name": "課題",
+      "text": "課題",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "理想",
+      "name": "理想",
+      "text": "理想",
+      "type": "CONCEPT",
+      "confidence": 0.83,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "テレビCM絵コンテ",
+      "name": "テレビCM絵コンテ",
+      "text": "テレビCM絵コンテ",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "データ情報",
+      "name": "データ情報",
+      "text": "データ情報",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "トレンド情報",
+      "name": "トレンド情報",
+      "text": "トレンド情報",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "売らない営業",
+      "name": "売らない営業",
+      "text": "売らない営業",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "セグメント情報",
+      "name": "セグメント情報",
+      "text": "セグメント情報",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "気付き",
+      "name": "気付き",
+      "text": "気付き",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "ホワイトペーパー",
+      "name": "ホワイトペーパー",
+      "text": "ホワイトペーパー",
+      "type": "PRODUCT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "白書",
+      "name": "白書",
+      "text": "白書",
+      "type": "PRODUCT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "ウェビナー",
+      "name": "ウェビナー",
+      "text": "ウェビナー",
+      "type": "EVENT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "情報提供の専門家",
+      "name": "情報提供の専門家",
+      "text": "情報提供の専門家",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "購買プロセス",
+      "name": "購買プロセス",
+      "text": "購買プロセス",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "比較訴求",
+      "name": "比較訴求",
+      "text": "比較訴求",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "金額の壁",
+      "name": "金額の壁",
+      "text": "金額の壁",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "工程の壁",
+      "name": "工程の壁",
+      "text": "工程の壁",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "期日の壁",
+      "name": "期日の壁",
+      "text": "期日の壁",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "アポイントメント",
+      "name": "アポイントメント",
+      "text": "アポイントメント",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "専門職",
+      "name": "専門職",
+      "text": "専門職",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "古い営業",
+      "name": "古い営業",
+      "text": "古い営業",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "人工知能",
+      "name": "人工知能",
+      "text": "人工知能",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "バリューチェーン",
+      "name": "バリューチェーン",
+      "text": "バリューチェーン",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "マーケティング部門",
+      "name": "マーケティング部門",
+      "text": "マーケティング部門",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "カスタマーサービス部門",
+      "name": "カスタマーサービス部門",
+      "text": "カスタマーサービス部門",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "労働力人口",
+      "name": "労働力人口",
+      "text": "労働力人口",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "ROI",
+      "name": "ROI",
+      "text": "ROI",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "国際水準",
+      "name": "国際水準",
+      "text": "国際水準",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "モチベーション",
+      "name": "モチベーション",
+      "text": "モチベーション",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "企画職",
+      "name": "企画職",
+      "text": "企画職",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "事務職",
+      "name": "事務職",
+      "text": "事務職",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "満足度のランキング",
+      "name": "満足度のランキング",
+      "text": "満足度のランキング",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "毎日",
+      "name": "毎日",
+      "text": "毎日",
+      "type": "DATE",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "行動量",
+      "name": "行動量",
+      "text": "行動量",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "口八丁手八丁",
+      "name": "口八丁手八丁",
+      "text": "口八丁手八丁",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "精神論",
+      "name": "精神論",
+      "text": "精神論",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "近年",
+      "name": "近年",
+      "text": "近年",
+      "type": "DATE",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "CRM",
+      "name": "CRM",
+      "text": "CRM",
+      "type": "PRODUCT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "MA",
+      "name": "MA",
+      "text": "MA",
+      "type": "PRODUCT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "パーソナルトレーナー",
+      "name": "パーソナルトレーナー",
+      "text": "パーソナルトレーナー",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "ピーター・ティール氏",
+      "name": "ピーター・ティール氏",
+      "text": "ピーター・ティール氏",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "PayPal",
+      "name": "PayPal",
+      "text": "PayPal",
+      "type": "ORG",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "シリコンバレー",
+      "name": "シリコンバレー",
+      "text": "シリコンバレー",
+      "type": "GPE",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "創業者",
+      "name": "創業者",
+      "text": "創業者",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "独占",
+      "name": "独占",
+      "text": "独占",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "方法の変化",
+      "name": "方法の変化",
+      "text": "方法の変化",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "新規顧客",
+      "name": "新規顧客",
+      "text": "新規顧客",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "既存顧客",
+      "name": "既存顧客",
+      "text": "既存顧客",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "ハンター・ファーマー・モデル",
+      "name": "ハンター・ファーマー・モデル",
+      "text": "ハンター・ファーマー・モデル",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "第2段階「方法の変化」",
+      "name": "第2段階「方法の変化」",
+      "text": "第2段階「方法の変化」",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "The psychology of selling and advertising",
+      "name": "The psychology of selling and advertising",
+      "text": "The psychology of selling and advertising",
+      "type": "PRODUCT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "オブジェクションハンドリング",
+      "name": "オブジェクションハンドリング",
+      "text": "オブジェクションハンドリング",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "オープンクエスチョン・クローズドクエスチョン",
+      "name": "オープンクエスチョン・クローズドクエスチョン",
+      "text": "オープンクエスチョン・クローズドクエスチョン",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "変化への対応力",
+      "name": "変化への対応力",
+      "text": "変化への対応力",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "個人の成果",
+      "name": "個人の成果",
+      "text": "個人の成果",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "人類",
+      "name": "人類",
+      "text": "人類",
+      "type": "CONCEPT",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "数千年",
+      "name": "数千年",
+      "text": "数千年",
+      "type": "DATE",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "労働は苦役なり",
+      "name": "労働は苦役なり",
+      "text": "労働は苦役なり",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "問題意識",
+      "name": "問題意識",
+      "text": "問題意識",
+      "type": "CONCEPT",
+      "confidence": 0.79,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "ナレッジワーク",
+      "name": "ナレッジワーク",
+      "text": "ナレッジワーク",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "○○商事",
+      "name": "○○商事",
+      "text": "○○商事",
+      "type": "ORG",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "□□電機",
+      "name": "□□電機",
+      "text": "□□電機",
+      "type": "ORG",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "経理",
+      "name": "経理",
+      "text": "経理",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "開発",
+      "name": "開発",
+      "text": "開発",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "イネーブルメント",
+      "name": "イネーブルメント",
+      "text": "イネーブルメント",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "数年前",
+      "name": "数年前",
+      "text": "数年前",
+      "type": "DATE",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "パラダイムチェンジ",
+      "name": "パラダイムチェンジ",
+      "text": "パラダイムチェンジ",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "7つのS",
+      "name": "7つのS",
+      "text": "7つのS",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "4つのS",
+      "name": "4つのS",
+      "text": "4つのS",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "属人的なチーム",
+      "name": "属人的なチーム",
+      "text": "属人的なチーム",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "再現性のあるチーム",
+      "name": "再現性のあるチーム",
+      "text": "再現性のあるチーム",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "感覚的なチーム",
+      "name": "感覚的なチーム",
+      "text": "感覚的なチーム",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "科学的なチーム",
+      "name": "科学的なチーム",
+      "text": "科学的なチーム",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "television infomercials",
+      "name": "television infomercials",
+      "text": "television infomercials",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "Product Sales",
+      "name": "Product Sales",
+      "text": "Product Sales",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "id": "陳腐化",
+      "name": "陳腐化",
+      "text": "陳腐化",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "営業手法の進化プロセス",
+      "target": "プロダクト営業",
+      "type": "evolves",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業手法の進化プロセス",
+      "target": "ソリューション営業",
+      "type": "evolves",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業手法の進化プロセス",
+      "target": "ストーリー営業",
+      "type": "realizes",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業手法の進化プロセス",
+      "target": "ストーリー営業",
+      "type": "evolves",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "価値",
+      "target": "プロダクト営業",
+      "type": "used_to_evolve",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "課題",
+      "target": "ソリューション営業",
+      "type": "used_to_evolve",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "理想",
+      "target": "ストーリー営業",
+      "type": "proposed_to_realize",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "課題",
+      "target": "ストーリー営業",
+      "type": "proposed_to_realize",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "顧客事例",
+      "target": "ストーリー営業",
+      "type": "used_to_evolve",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ストーリー営業",
+      "target": "テレビCM絵コンテ",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "NEW SALES",
+      "type": "requires_conversion_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "サプライズ営業",
+      "target": "NEW SALES",
+      "type": "is_core_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "サプライズ営業",
+      "target": "データ情報",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "サプライズ営業",
+      "target": "トレンド情報",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "売らない営業",
+      "target": "セールスフォース",
+      "type": "uses",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "セグメント情報",
+      "target": "気付き",
+      "type": "used_to_give",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ホワイトペーパー",
+      "target": "白書",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ホワイトペーパー",
+      "target": "情報提供の専門家",
+      "type": "used_to_cultivate",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "白書",
+      "target": "情報提供の専門家",
+      "type": "used_to_cultivate",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ウェビナー",
+      "target": "情報提供の専門家",
+      "type": "used_to_cultivate",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "NEW SALES",
+      "type": "transitions_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "シナリオ営業",
+      "type": "is",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "購買プロセス",
+      "type": "cannot_correspond_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "シナリオ営業",
+      "target": "比較訴求",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "シナリオ営業",
+      "target": "決定支援",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "金額の壁",
+      "target": "決定支援",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "工程の壁",
+      "target": "決定支援",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "期日の壁",
+      "target": "決定支援",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "シナリオ営業",
+      "target": "決定支援",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "シナリオ営業",
+      "target": "金額の壁",
+      "type": "depends_on",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "シナリオ営業",
+      "target": "工程の壁",
+      "type": "depends_on",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "シナリオ営業",
+      "target": "期日の壁",
+      "type": "depends_on",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Surprise",
+      "target": "アポイントメント",
+      "type": "creates_opportunity_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Surprise",
+      "target": "商談",
+      "type": "creates_opportunity_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "NEW SALES",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "NEW SALES",
+      "type": "paradigm_shift_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "working population",
+      "type": "determines_success_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "NEW SALES",
+      "type": "contrasted_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "NEW SALES",
+      "type": "needs_to_transform_into",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ITエンジニア",
+      "target": "高度な専門職",
+      "type": "is_representative_example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ITエンジニア",
+      "target": "中高生の将来なりたい職業ランキング",
+      "type": "ranks_first_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ITエンジニア",
+      "target": "憧れの仕事",
+      "type": "is",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "専門職",
+      "type": "treated_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "ITエンジニア",
+      "type": "on_par_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ITエンジニア",
+      "target": "専門職",
+      "type": "is_a",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業担当者",
+      "target": "ITエンジニア",
+      "type": "similar_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "テクノロジー",
+      "target": "営業担当者",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "テクノロジー",
+      "target": "ITエンジニア",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "古い営業",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "AI",
+      "target": "人工知能",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "インターネット",
+      "target": "テクノロジー",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "AI",
+      "target": "テクノロジー",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "テクノロジー",
+      "type": "replaced_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "OLD SALES",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "OLD SALES",
+      "type": "contrasts_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "一部の企業",
+      "type": "practiced_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "個人",
+      "type": "practiced_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "経験則",
+      "type": "based_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業",
+      "target": "バリューチェーン",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "商品開発部門",
+      "target": "バリューチェーン",
+      "type": "part_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "マーケティング部門",
+      "target": "バリューチェーン",
+      "type": "part_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "カスタマーサービス部門",
+      "target": "バリューチェーン",
+      "type": "part_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業",
+      "target": "商品開発部門",
+      "type": "interacts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業",
+      "target": "マーケティング部門",
+      "type": "interacts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業",
+      "target": "カスタマーサービス部門",
+      "type": "interacts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "労働力人口",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "日本経済",
+      "type": "contributes_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "日本経済",
+      "target": "日本",
+      "type": "located_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "日本",
+      "target": "営業生産性",
+      "type": "has",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ROI",
+      "target": "投資利益率",
+      "type": "equivalent_to",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ROI",
+      "target": "国際水準",
+      "type": "lower_than",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業生産性",
+      "target": "ROI",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "仕事満足度",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "企画職",
+      "type": "ranks_lower_than",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "技術職",
+      "type": "ranks_lower_than",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "事務職",
+      "type": "ranks_lower_than",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "仕事満足度",
+      "target": "満足度のランキング",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "モチベーション",
+      "target": "営業職",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業という仕事",
+      "target": "OLD SALES",
+      "type": "remains_at",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "低い労働生産性",
+      "type": "causes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "低い仕事の満足度",
+      "type": "causes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "NEW SALES",
+      "type": "transforms_into",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "ビジネスの成長",
+      "type": "brings_transformation_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "キャリアの成功",
+      "type": "brings_transformation_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "商品",
+      "type": "explains",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "毎日",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "行動量",
+      "type": "overemphasizes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "口八丁手八丁",
+      "type": "characterized_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "精神論",
+      "type": "emphasizes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "NEW SALES",
+      "type": "contrasted_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "インターネット",
+      "target": "テクノロジー",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "インターネット",
+      "target": "営業不要論",
+      "type": "associated_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "テクノロジー",
+      "target": "営業不要論",
+      "type": "associated_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "著者",
+      "target": "営業不要論",
+      "type": "evaluates",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "近年",
+      "target": "営業不要論",
+      "type": "time_of",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業不要論",
+      "target": "インターネット",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業不要論",
+      "target": "ITツール",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "CRM",
+      "target": "ITツール",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "SFA",
+      "target": "ITツール",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "MA",
+      "target": "ITツール",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ITツール",
+      "target": "AI",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業不要論",
+      "target": "NEW SALES",
+      "type": "is_incorrect_due_to_importance_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "営業不要論",
+      "type": "practiced_to_counter",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "高度な判断",
+      "type": "requires",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "緻密な提案",
+      "type": "requires",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "医師の治療方針決定",
+      "type": "analogous_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "パーソナルトレーナー",
+      "type": "has_common_points_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "テクノロジー",
+      "type": "requires_support_not_replaceable_by",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ピーター・ティール氏",
+      "target": "PayPal",
+      "type": "founder_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ピーター・ティール氏",
+      "target": "創業者",
+      "type": "is",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ピーター・ティール氏",
+      "target": "投資家",
+      "type": "is",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "PayPal",
+      "target": "アメリカ",
+      "type": "located_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ピーター・ティール氏",
+      "target": "シリコンバレー",
+      "type": "associated_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ピーター・ティール氏",
+      "target": "営業力",
+      "type": "emphasizes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業力",
+      "target": "独占",
+      "type": "enables",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "プロダクト",
+      "target": "独占",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "テクノロジー",
+      "target": "AI",
+      "type": "partially_replaced_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "インターネット",
+      "target": "テクノロジー",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "インターネット",
+      "type": "remains_important_despite",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "テクノロジー",
+      "type": "remains_important_despite",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "NEW SALES",
+      "target": "AI",
+      "type": "remains_important_despite",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "書籍",
+      "target": "NEW SALES",
+      "type": "aims_to_realize",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "20世紀",
+      "type": "evolved_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "役割の変化",
+      "type": "went_through_stage",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "方法の変化",
+      "type": "went_through_stage",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業職",
+      "target": "目的の変化",
+      "type": "went_through_stage",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "役割の変化",
+      "target": "1900年頃",
+      "type": "occurred_around",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ハンター・ファーマー・モデル",
+      "target": "役割の変化",
+      "type": "appeared_during",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ハンター・ファーマー・モデル",
+      "target": "新規顧客",
+      "type": "involves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ハンター・ファーマー・モデル",
+      "target": "既存顧客",
+      "type": "involves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "新規顧客",
+      "target": "既存顧客",
+      "type": "role_shared_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "第2段階「方法の変化」",
+      "target": "1925年〜",
+      "type": "started_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "第2段階「方法の変化」",
+      "target": "The psychology of selling and advertising",
+      "type": "triggered_by",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "オブジェクションハンドリング",
+      "target": "第2段階「方法の変化」",
+      "type": "introduced_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "オープンクエスチョン・クローズドクエスチョン",
+      "target": "第2段階「方法の変化」",
+      "type": "introduced_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "技術",
+      "target": "第2段階「方法の変化」",
+      "type": "emphasized_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "オブジェクションハンドリング",
+      "target": "技術",
+      "type": "example_of",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "オープンクエスチョン・クローズドクエスチョン",
+      "target": "技術",
+      "type": "example_of",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "目的の変化",
+      "target": "1970年頃",
+      "type": "occurred_around",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "目的の変化",
+      "target": "顧客の課題解決",
+      "type": "focuses_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "SPIN",
+      "target": "目的の変化",
+      "type": "emerged_during",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "SPIN",
+      "target": "1970年頃",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "仕事",
+      "target": "営業",
+      "type": "becomes_more_complex_throughout_history_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "変化への対応力",
+      "target": "個人の成果",
+      "type": "causes_difference_in",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "チャレンジャー・セールス・モデル",
+      "target": "プロダクト営業",
+      "type": "provides_insights_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ハイパフォーマー",
+      "target": "プロダクト営業",
+      "type": "outperforms_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "チャレンジャー・セールス・モデル",
+      "target": "ハイパフォーマー",
+      "type": "describes_performance_of",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "チャレンジャー・セールス・モデル",
+      "target": "ソリューション営業",
+      "type": "provides_insights_about",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ハイパフォーマー",
+      "target": "ソリューション営業",
+      "type": "excels_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "インターネット",
+      "target": "テクノロジー",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "100年",
+      "target": "10年",
+      "type": "compressed_into",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "インターネット",
+      "target": "10年",
+      "type": "accelerates_change_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "テクノロジー",
+      "target": "10年",
+      "type": "accelerates_change_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "人類",
+      "target": "労働は苦役なり",
+      "type": "bound_by",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "人類",
+      "target": "数千年",
+      "type": "over_period",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "問題意識",
+      "target": "働く",
+      "type": "concerns",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "労働は苦役なり",
+      "target": "働く",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "著者",
+      "target": "組織人事コンサルティング会社",
+      "type": "worked_at",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "著者",
+      "target": "17年間",
+      "type": "employed_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "著者",
+      "target": "組織",
+      "type": "worked_on_theme",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "著者",
+      "target": "エンゲージメント",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ナレッジワーク",
+      "target": "2020年",
+      "type": "founded_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "ナレッジワーク",
+      "target": "仕事",
+      "type": "has_theme",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "○○商事",
+      "target": "□□電機",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業",
+      "target": "経理",
+      "type": "related_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "経理",
+      "target": "開発",
+      "type": "related_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "営業",
+      "target": "開発",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "仕事のイネーブルメント",
+      "target": "組織のエンゲージメント",
+      "type": "builds_upon",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "仕事のイネーブルメント",
+      "target": "働く",
+      "type": "supports",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "セールスイネーブルメント",
+      "target": "アメリカ",
+      "type": "widely_adopted_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "セールスイネーブルメント",
+      "target": "数年前",
+      "type": "popular_since",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "セールスイネーブルメント",
+      "target": "日本",
+      "type": "unknown_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "NEW SALES",
+      "type": "transforms_into",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "7つのS",
+      "target": "パラダイムチェンジ",
+      "type": "proposed_as_methodology_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "パラダイムチェンジ",
+      "target": "日本",
+      "type": "required_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "4つのS",
+      "target": "営業担当者",
+      "type": "targeted_at",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Story",
+      "target": "4つのS",
+      "type": "part_of",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Surprise",
+      "target": "4つのS",
+      "type": "part_of",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Scenario",
+      "target": "4つのS",
+      "type": "part_of",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Sympathy",
+      "target": "4つのS",
+      "type": "part_of",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "S",
+      "target": "営業管理職",
+      "type": "intended_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Share",
+      "target": "S",
+      "type": "part_of",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Score",
+      "target": "S",
+      "type": "part_of",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Share",
+      "target": "再現性のあるチーム",
+      "type": "creates",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Share",
+      "target": "属人的なチーム",
+      "type": "avoids",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Score",
+      "target": "科学的なチーム",
+      "type": "creates",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Score",
+      "target": "感覚的なチーム",
+      "type": "avoids",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "OLD SALES",
+      "target": "television infomercials",
+      "type": "epitomized_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Product Sales",
+      "target": "プロダクト営業",
+      "type": "referred_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    },
+    {
+      "source": "Product Sales",
+      "target": "陳腐化",
+      "type": "becoming",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "NEW_SALES"
+      },
+      "book_key": "NEW_SALES"
+    }
+  ],
+  "metadata": {
+    "num_entities": 109,
+    "num_relationships": 190,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-31T03:28:46.051857",
+    "entity_resolution_applied": true,
+    "book_key": "NEW_SALES",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

@@ -1,0 +1,481 @@
+@prefix ex: <https://books.local/エンジニアのための自己管理入門/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/エンジニアのための自己管理入門/shapes> a owl:Ontology .
+
+<https://books.local/エンジニアのための自己管理入門/SelfManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SelfManagement ;
+    sh:name "セルフマネジメント" ;
+    sh:description "自分自身を管理の対象として扱い、自らのハンドルを握る実践。状態の変動を観察し調整し、意図した方向へ戻すことで、変化の中でも自らの意志で進む基盤をつくる。" ;
+    sh:property [
+        sh:path ex:requiresSlack ;
+        sh:class ex:Slack ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/エンジニアのための自己管理入門/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人" ;
+    sh:description "自己管理の主体。エンジニアとマネージャーの役割は重なることが多く、自己管理する個人はチームへ良い影響を与える。" ;
+    sh:property [
+        sh:path ex:practices ;
+        sh:class ex:SelfManagement ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasAgency ;
+        sh:class ex:Agency ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMotivation ;
+        sh:class ex:Motivation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDesiredState ;
+        sh:class ex:DesiredState ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCurrentState ;
+        sh:class ex:CurrentState ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:Goal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:managesTask ;
+        sh:class ex:Task ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasValue ;
+        sh:class ex:PersonalValue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToTeam ;
+        sh:class ex:Team ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:experiences ;
+        sh:class ex:Stress ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasResilience ;
+        sh:class ex:Resilience ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTechnique ;
+        sh:class ex:Technique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:developsSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:managesCareer ;
+        sh:class ex:Career ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/エンジニアのための自己管理入門/EngineerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Engineer ;
+    sh:name "エンジニア" ;
+    sh:description "実装や技術的課題に向き合う役割。創造的で一点ものの仕事が多く、モチベーションと余白が成果と成長を左右する。" ;
+    sh:property [
+        sh:path ex:practices ;
+        sh:class ex:SelfManagement ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasAgency ;
+        sh:class ex:Agency ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMotivation ;
+        sh:class ex:Motivation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDesiredState ;
+        sh:class ex:DesiredState ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCurrentState ;
+        sh:class ex:CurrentState ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:Goal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:managesTask ;
+        sh:class ex:Task ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasValue ;
+        sh:class ex:PersonalValue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToTeam ;
+        sh:class ex:Team ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:experiences ;
+        sh:class ex:Stress ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasResilience ;
+        sh:class ex:Resilience ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTechnique ;
+        sh:class ex:Technique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:developsSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:managesCareer ;
+        sh:class ex:Career ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/エンジニアのための自己管理入門/ManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Manager ;
+    sh:name "マネージャー" ;
+    sh:description "人と優先順位に向き合う役割。思考ブロックの確保、委譲、心理的安全性の土壌づくりが自己管理の一部となる。" ;
+    sh:property [
+        sh:path ex:practices ;
+        sh:class ex:SelfManagement ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasAgency ;
+        sh:class ex:Agency ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMotivation ;
+        sh:class ex:Motivation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDesiredState ;
+        sh:class ex:DesiredState ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCurrentState ;
+        sh:class ex:CurrentState ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:Goal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:managesTask ;
+        sh:class ex:Task ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasValue ;
+        sh:class ex:PersonalValue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToTeam ;
+        sh:class ex:Team ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:experiences ;
+        sh:class ex:Stress ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasResilience ;
+        sh:class ex:Resilience ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTechnique ;
+        sh:class ex:Technique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:developsSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:managesCareer ;
+        sh:class ex:Career ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/エンジニアのための自己管理入門/AgencyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Agency ;
+    sh:name "主体性" ;
+    sh:description "自ら選び、なぜ働くかを見失わず、義務ではなく欲求に駆動される感覚。その喪失が忙しさそのものよりも疲弊の真因となる。" .
+
+<https://books.local/エンジニアのための自己管理入門/JohariWindowShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:JohariWindow ;
+    sh:name "ジョハリの窓" ;
+    sh:description "自己情報を自己と他者の既知・未知の二軸で四象限に分ける自己理解の枠組み。盲点と未知を小さくすることが自己統制につながる。" ;
+    sh:property [
+        sh:path ex:hasQuadrant ;
+        sh:class ex:WindowQuadrant ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/エンジニアのための自己管理入門/WindowQuadrantShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WindowQuadrant ;
+    sh:name "窓の象限" ;
+    sh:description "ジョハリの窓を構成する四つの領域。開放・盲点・隠れ・未知のいずれかとして自己情報を位置づける。" .
+
+<https://books.local/エンジニアのための自己管理入門/OpenWindowShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OpenWindow ;
+    sh:name "開放の窓" ;
+    sh:description "自己にも他者にも知られている領域。技術スタックや働き方、価値観の共有が含まれ、広いほど協力と自己管理が容易になる。" .
+
+<https://books.local/エンジニアのための自己管理入門/BlindSpotWindowShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BlindSpotWindow ;
+    sh:name "盲点の窓" ;
+    sh:description "他者には見えるが本人は気づいていない領域。繰り返されるレビュー指摘や無自覚な割り込みなどが該当し、自己統制を妨げる。" .
+
+<https://books.local/エンジニアのための自己管理入門/HiddenWindowShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HiddenWindow ;
+    sh:name "隠れた窓" ;
+    sh:description "本人は知っているが他者には見せていない領域。未挑戦のスキルやキャリア関心、困難などが含まれ、ある程度大きくてもよい。" .
+
+<https://books.local/エンジニアのための自己管理入門/UnknownWindowShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:UnknownWindow ;
+    sh:name "未知の窓" ;
+    sh:description "自己にも他者にも未知の領域。新しい役割で現れる強みや、圧力下の予測不能な反応などが含まれ、最小化が望ましい。" .
+
+<https://books.local/エンジニアのための自己管理入門/MotivationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Motivation ;
+    sh:name "モチベーション" ;
+    sh:description "特定の目標に向かって行動を起こし維持させるエネルギー。ワクワクする状況づくりが最大の加速要因であり、創造的な開発仕事に不可欠。" ;
+    sh:property [
+        sh:path ex:generates ;
+        sh:class ex:GrowthLoop ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:explainedBy ;
+        sh:class ex:MotivationTheory ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:verbalization ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/エンジニアのための自己管理入門/GrowthLoopShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GrowthLoop ;
+    sh:name "成長ループ" ;
+    sh:description "高いモチベーションが主体的行動と複数のアプローチを生み、新たなケイパビリティを通じてさらに成長が加速する循環。" .
+
+<https://books.local/エンジニアのための自己管理入門/MotivationTheoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MotivationTheory ;
+    sh:name "動機づけ理論" ;
+    sh:description "何が動機づけるか（内容理論）と、どのように動機が生じるか（過程理論）を説明する理論群。" .
+
+<https://books.local/エンジニアのための自己管理入門/ERGTheoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ERGTheory ;
+    sh:name "ERG理論" ;
+    sh:description "生存・関係・成長の三カテゴリで欲求を整理し、同時並行と欲求不満回帰を認める理論。エンジニアの賃金・信頼・挑戦の説明に適する。" .
+
+<https://books.local/エンジニアのための自己管理入門/ExpectancyTheoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExpectancyTheory ;
+    sh:name "期待理論" ;
+    sh:description "動機づけを期待×道具性×誘意性の積として捉えるブルーームの理論。最も弱い要因から強化する。" .
+
+<https://books.local/エンジニアのための自己管理入門/DesiredStateShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DesiredState ;
+    sh:name "あるべき姿" ;
+    sh:description "TOBE。近い将来に望む状態。スキルアップや行動を逆算する起点となり、周囲の変化の中でも焦点を保つ。" .
+
+<https://books.local/エンジニアのための自己管理入門/CurrentStateShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CurrentState ;
+    sh:name "現状" ;
+    sh:description "ASIS。現在の自分の状態。あるべき姿とのギャップを認識し、埋める行動を設計する起点。" ;
+    sh:property [
+        sh:path ex:closesGapToward ;
+        sh:class ex:DesiredState ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/エンジニアのための自己管理入門/GoalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Goal ;
+    sh:name "目標" ;
+    sh:description "行動の方向を定めるもの。SMARTでややストレッチに設定し、明確さ・難易度・フィードバック・コミットメントを点検する。" ;
+    sh:property [
+        sh:path ex:verbalization ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/エンジニアのための自己管理入門/TaskShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Task ;
+    sh:name "タスク" ;
+    sh:description "行うべき仕事。何をすべきかを整理し、一日で完了できる大きさまで分解し、完了条件を明確にする対象。" .
+
+<https://books.local/エンジニアのための自己管理入門/SlackShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Slack ;
+    sh:name "余白" ;
+    sh:description "意図的に残す時間的・認知的余裕。100パーセント稼働を避け、変化・学習・検査・適応と創造性、燃え尽き防止を支える。" .
+
+<https://books.local/エンジニアのための自己管理入門/TimeThiefShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TimeThief ;
+    sh:name "時間どろぼう" ;
+    sh:description "集中と余白を奪う内外の要因。散在会議や通知などの外部要因と、未完了タスクや無限スクロールなどの内部要因がある。" ;
+    sh:property [
+        sh:path ex:stealsFrom ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/エンジニアのための自己管理入門/StressShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Stress ;
+    sh:name "ストレス" ;
+    sh:description "刺激に対する心身の反応。期限や技術的負債、要求の衝突などが典型因となり、中長期の状態調整の対象となる。" ;
+    sh:property [
+        sh:path ex:triggers ;
+        sh:class ex:Anger ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isAddressedBy ;
+        sh:class ex:Coping ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:canLeadTo ;
+        sh:class ex:Burnout ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/エンジニアのための自己管理入門/AngerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Anger ;
+    sh:name "怒り" ;
+    sh:description "蓄積したストレスから生じる二次感情。大切にしている価値観が侵害されたときのセンサーであり、一拍おいて建設的に扱う。" .
+
+<https://books.local/エンジニアのための自己管理入門/ResilienceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Resilience ;
+    sh:name "レジリエンス" ;
+    sh:description "竹のようにしなやかな心の回復力。適切に落ち込み、回復し、教訓を抽出して前に進む力であり、決して揺れないことではない。" .
+
+<https://books.local/エンジニアのための自己管理入門/CopingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Coping ;
+    sh:name "コーピング" ;
+    sh:description "ストレスに対処する認知的・行動的努力。問題焦点型と情動焦点型があり、動揺時はまず情動焦点で落ち着いてから再解釈する。" .
+
+<https://books.local/エンジニアのための自己管理入門/BurnoutShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Burnout ;
+    sh:name "バーンアウト" ;
+    sh:description "管理されない慢性ストレスによる疲弊・冷笑・効力感低下。早期兆候に気づき、休息と自己ケアで防ぐ。" .
+
+<https://books.local/エンジニアのための自己管理入門/TeamShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Team ;
+    sh:name "チーム" ;
+    sh:description "協働する集団。共有された世界観と心理的安全性が持続的モチベーションを支え、自己管理する個人が良い影響を及ぼす。" ;
+    sh:property [
+        sh:path ex:hasPsychologicalSafety ;
+        sh:class ex:PsychologicalSafety ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/エンジニアのための自己管理入門/PsychologicalSafetyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PsychologicalSafety ;
+    sh:name "心理的安全性" ;
+    sh:description "誰もが恐れずに発言できる土壌。ポジティブ感情が思考と行動のレパートリーを広げるための戦略的投資。" .
+
+<https://books.local/エンジニアのための自己管理入門/PersonalValueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PersonalValue ;
+    sh:name "価値観" ;
+    sh:description "無意識に抱く優先事項。どんな状況で何をなぜ優先するかを言語化することが深い自己理解の鍵となる。" ;
+    sh:property [
+        sh:path ex:verbalization ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/エンジニアのための自己管理入門/TechniqueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Technique ;
+    sh:name "技法" ;
+    sh:description "自己管理に用いる具体的手法。GTD、ポモドーロ、タイムボクシング、アイゼンハワーマトリクス、ABC理論、Moving Motivatorsなど。" .
+
+<https://books.local/エンジニアのための自己管理入門/SkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Skill ;
+    sh:name "スキル" ;
+    sh:description "あるべき姿から逆算して伸ばす能力。継続学習が前提の業界において、ギャップを埋める行動の対象。" .
+
+<https://books.local/エンジニアのための自己管理入門/CareerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Career ;
+    sh:name "キャリア" ;
+    sh:description "自らの条件で切り拓く職業的軌跡。日々の自己管理が仕事の質を高め、自律的な進路選択を可能にする。" .

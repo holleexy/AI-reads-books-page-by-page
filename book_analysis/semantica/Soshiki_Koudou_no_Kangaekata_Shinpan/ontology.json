@@ -1,0 +1,378 @@
+{
+  "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/",
+  "name": "Soshiki_Koudou_no_Kangaekata_ShinpanOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "SalesProfessional",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SalesProfessional",
+      "label": "営業パーソン",
+      "comment": "顧客に合わせて提案をカスタマイズし介在価値を生み出す営業の担い手",
+      "parent": null
+    },
+    {
+      "name": "TopSales",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/TopSales",
+      "label": "トップセールス",
+      "comment": "型の延長ではなく思考法により複雑な顧客課題へ対応し平均を超える成果を出す営業パーソン",
+      "parent": "SalesProfessional"
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Customer",
+      "label": "顧客",
+      "comment": "製品そのものではなく片付けたいジョブを解決するために製品を雇用する主体",
+      "parent": null
+    },
+    {
+      "name": "InterveningValue",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InterveningValue",
+      "label": "介在価値",
+      "comment": "営業が介在することで生まれる付加価値。プロダクトを届けるだけではウェブサイトで足りる",
+      "parent": null
+    },
+    {
+      "name": "HypothesisThinking",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisThinking",
+      "label": "仮説思考",
+      "comment": "情報不足の下で最も確からしい結論を立て検証により精度を高める思考法",
+      "parent": null
+    },
+    {
+      "name": "Hypothesis",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Hypothesis",
+      "label": "仮説",
+      "comment": "顧客自身も気づいていない課題を提示し行動決断を促すための暫定的結論",
+      "parent": null
+    },
+    {
+      "name": "Framework",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Framework",
+      "label": "フレームワーク",
+      "comment": "顧客のビジネスや課題を解像度高く捉えるための分析および実践の枠組み",
+      "parent": null
+    },
+    {
+      "name": "BusinessAnalysisFramework",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/BusinessAnalysisFramework",
+      "label": "ビジネス分析フレームワーク",
+      "comment": "戦略と環境を構造化し競争優位や市場位置を明らかにする枠組み",
+      "parent": "Framework"
+    },
+    {
+      "name": "SellingSkillsFramework",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SellingSkillsFramework",
+      "label": "営業スキルフレームワーク",
+      "comment": "商談を前進させるコミュニケーションと質問設計の枠組み",
+      "parent": "Framework"
+    },
+    {
+      "name": "ThreeCAnalysis",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/ThreeCAnalysis",
+      "label": "3C分析",
+      "comment": "顧客・自社・競合の観点から事業環境を捉える分析枠組み",
+      "parent": "BusinessAnalysisFramework"
+    },
+    {
+      "name": "ValueProposition",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/ValueProposition",
+      "label": "バリュープロポジション",
+      "comment": "We help X do Y by doing Z の構造で顧客にとっての独自価値を定義する",
+      "parent": "BusinessAnalysisFramework"
+    },
+    {
+      "name": "FiveForcesAnalysis",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/FiveForcesAnalysis",
+      "label": "ファイブフォース分析",
+      "comment": "新規参入・代替品・売り手と買い手の交渉力・競合の五脅威から業界を分析する",
+      "parent": "BusinessAnalysisFramework"
+    },
+    {
+      "name": "SWOTAnalysis",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SWOTAnalysis",
+      "label": "SWOT分析",
+      "comment": "内部の強み弱みと外部の機会脅威を整理し戦略方向を見出す分析",
+      "parent": "BusinessAnalysisFramework"
+    },
+    {
+      "name": "STPTheory",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/STPTheory",
+      "label": "STP理論",
+      "comment": "セグメンテーション・ターゲティング・ポジショニングで市場上の立ち位置を定める",
+      "parent": "BusinessAnalysisFramework"
+    },
+    {
+      "name": "JobsToBeDoneTheory",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/JobsToBeDoneTheory",
+      "label": "ジョブ理論",
+      "comment": "顧客は製品ではなく片付けたいジョブのために製品を雇用するという理論",
+      "parent": "Framework"
+    },
+    {
+      "name": "PSSFramework",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/PSSFramework",
+      "label": "PSS営業フレームワーク",
+      "comment": "開始・調査・提案・締結の四ステップで商談を進めるプロフェッショナルセリングスキル",
+      "parent": "SellingSkillsFramework"
+    },
+    {
+      "name": "SPINSelling",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SPINSelling",
+      "label": "SPIN営業術",
+      "comment": "状況・問題・示唆・解決の質問により真の課題と行動動機を引き出す話法",
+      "parent": "SellingSkillsFramework"
+    },
+    {
+      "name": "InferenceMethod",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InferenceMethod",
+      "label": "推論手法",
+      "comment": "仮説構築に用いる演繹・帰納・アブダクションなどの推論の方法",
+      "parent": null
+    },
+    {
+      "name": "DeductiveReasoning",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/DeductiveReasoning",
+      "label": "演繹法",
+      "comment": "一般的なルールである大前提から具体的結論を導く推論",
+      "parent": "InferenceMethod"
+    },
+    {
+      "name": "InductiveReasoning",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InductiveReasoning",
+      "label": "帰納法",
+      "comment": "複数の事例から一般的な法則を導く推論",
+      "parent": "InferenceMethod"
+    },
+    {
+      "name": "AbductiveReasoning",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/AbductiveReasoning",
+      "label": "アブダクション",
+      "comment": "結果とルールから原因となる仮説を推測する遡及推論。営業の仮説構築で最も重要",
+      "parent": "InferenceMethod"
+    },
+    {
+      "name": "HypothesisViewpoint",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisViewpoint",
+      "label": "仮説の視点",
+      "comment": "ゴールから見る・遠くから引く・分解する・反対から見る・端を見るという五つの視点",
+      "parent": null
+    },
+    {
+      "name": "CustomerJob",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/CustomerJob",
+      "label": "ジョブ",
+      "comment": "顧客が片付けたい用事。機能面・感情面・社会面の三側面で捉える",
+      "parent": null
+    },
+    {
+      "name": "CognitiveBias",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/CognitiveBias",
+      "label": "認知バイアス",
+      "comment": "合理的判断を歪める心理傾向。仮説構築や交渉に活かす対象",
+      "parent": null
+    },
+    {
+      "name": "ProspectTheory",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/ProspectTheory",
+      "label": "プロスペクト理論",
+      "comment": "損失回避性・参照点依存性・感応度逓減性。得る喜びより損の苦痛を約二倍大きく評価する",
+      "parent": "CognitiveBias"
+    },
+    {
+      "name": "Negotiation",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Negotiation",
+      "label": "交渉",
+      "comment": "勝ち取りではなく双方が納得する不等価交換によりWin-Winを目指す過程",
+      "parent": null
+    },
+    {
+      "name": "AnalogicalThinking",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/AnalogicalThinking",
+      "label": "アナロジー思考",
+      "comment": "他業界の構造や成功事例を適用し既存前提を覆す新しい仮説を生む思考法",
+      "parent": null
+    },
+    {
+      "name": "VUCAEnvironment",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/VUCAEnvironment",
+      "label": "VUCA時代",
+      "comment": "複雑化多様化した環境。型通りの説明や御用聞き営業が限界を迎える背景",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "createsInterveningValue",
+      "type": "object",
+      "domain": [
+        "SalesProfessional"
+      ],
+      "range": [
+        "InterveningValue"
+      ],
+      "label": "介在価値を生み出す",
+      "comment": "営業が介在することで顧客に付加価値を提供する関係",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/createsInterveningValue"
+    },
+    {
+      "name": "practicesHypothesisThinking",
+      "type": "object",
+      "domain": [
+        "SalesProfessional"
+      ],
+      "range": [
+        "HypothesisThinking"
+      ],
+      "label": "仮説思考を実践する",
+      "comment": "トップセールスへ成長するために仮説思考を用いる関係",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/practicesHypothesisThinking"
+    },
+    {
+      "name": "constructsHypothesis",
+      "type": "object",
+      "domain": [
+        "HypothesisThinking"
+      ],
+      "range": [
+        "Hypothesis"
+      ],
+      "label": "仮説を構築する",
+      "comment": "検証を前提に最も確からしい暫定結論を立てる関係",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/constructsHypothesis"
+    },
+    {
+      "name": "servesCustomer",
+      "type": "object",
+      "domain": [
+        "SalesProfessional"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "顧客に向き合う",
+      "comment": "顧客起点で課題を捉え提案する関係",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/servesCustomer"
+    },
+    {
+      "name": "usesFramework",
+      "type": "object",
+      "domain": [
+        "SalesProfessional"
+      ],
+      "range": [
+        "Framework"
+      ],
+      "label": "フレームワークを用いる",
+      "comment": "顧客ビジネスの全体像を構造化するために枠組みを適用する",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/usesFramework"
+    },
+    {
+      "name": "usesInferenceMethod",
+      "type": "object",
+      "domain": [
+        "HypothesisThinking"
+      ],
+      "range": [
+        "InferenceMethod"
+      ],
+      "label": "推論手法を用いる",
+      "comment": "演繹・帰納・アブダクションを使い分けて仮説の確からしさを高める",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/usesInferenceMethod"
+    },
+    {
+      "name": "hasHypothesisViewpoint",
+      "type": "object",
+      "domain": [
+        "HypothesisThinking"
+      ],
+      "range": [
+        "HypothesisViewpoint"
+      ],
+      "label": "仮説の視点を持つ",
+      "comment": "五つの視点のいずれかから仮説を立てる関係",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/hasHypothesisViewpoint"
+    },
+    {
+      "name": "hiresForJob",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "CustomerJob"
+      ],
+      "label": "ジョブのために雇用する",
+      "comment": "片付けたい用事を解決するために製品やサービスを雇用する関係",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/hiresForJob"
+    },
+    {
+      "name": "affectedByBias",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "CognitiveBias"
+      ],
+      "label": "バイアスの影響を受ける",
+      "comment": "顧客判断が損失回避などの認知バイアスにより歪む関係",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/affectedByBias"
+    },
+    {
+      "name": "conductsNegotiation",
+      "type": "object",
+      "domain": [
+        "SalesProfessional"
+      ],
+      "range": [
+        "Negotiation"
+      ],
+      "label": "交渉を行う",
+      "comment": "優先順位のリストと事前合意に基づき不等価交換を進める関係",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/conductsNegotiation"
+    },
+    {
+      "name": "usesAnalogicalThinking",
+      "type": "object",
+      "domain": [
+        "HypothesisThinking"
+      ],
+      "range": [
+        "AnalogicalThinking"
+      ],
+      "label": "類推により発想する",
+      "comment": "他業界の成功構造を移し新しい仮説を得る関係",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/usesAnalogicalThinking"
+    },
+    {
+      "name": "operatesInEnvironment",
+      "type": "object",
+      "domain": [
+        "SalesProfessional"
+      ],
+      "range": [
+        "VUCAEnvironment"
+      ],
+      "label": "環境下で活動する",
+      "comment": "VUCA時代においてスピードと仮説提示が競争優位となる関係",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/operatesInEnvironment"
+    },
+    {
+      "name": "textualDescription",
+      "type": "data",
+      "domain": [
+        "Hypothesis"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明文",
+      "comment": "仮説の内容を表す文字列",
+      "uri": "https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/textualDescription"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

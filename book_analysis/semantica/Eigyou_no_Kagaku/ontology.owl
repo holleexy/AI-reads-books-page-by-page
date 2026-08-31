@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Eigyou_no_Kagaku/">
+    <rdfs:label>Eigyou_no_KagakuOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/Salesperson">
+    <rdfs:label xml:lang="ja">営業担当者</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客へ提案や関係構築を行う担い手。成果には急所を踏まえた武器の習得が不可欠である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/Customer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">購買者の仮面を無意識に付け、本音や真のニーズを隠すことがある購買側の当事者。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/Manager">
+    <rdfs:label xml:lang="ja">マネジャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業組織を指導する立場。精神論ではなく急所に基づく具体的マネジメントが求められる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/Organization">
+    <rdfs:label xml:lang="ja">組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者とマネジャーから成る集団。超人の成功体験やガンバリズムが蔓延しやすい。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/Superhuman">
+    <rdfs:label xml:lang="ja">超人</rdfs:label>
+    <rdfs:comment xml:lang="ja">突出成果を出す創業メンバー等。自身の当たり前が他者には尋常ならざる努力であることに無自覚な存在。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Eigyou_no_Kagaku/Salesperson"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/DecisionMaker">
+    <rdfs:label xml:lang="ja">決裁者</rdfs:label>
+    <rdfs:comment xml:lang="ja">決める人ではなく決めきれずに悩む人として支援すべき社内の意思決定者。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Eigyou_no_Kagaku/Customer"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/BuyerMask">
+    <rdfs:label xml:lang="ja">購買者の仮面</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が本音や真のニーズを隠すために無意識につける防衛的な仮面。営業の中核的な急所。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/EvasionMask">
+    <rdfs:label xml:lang="ja">はぐらかしの仮面</rdfs:label>
+    <rdfs:comment xml:lang="ja">予算や競合などの機微情報を聞かれた際、リスクを避けるために曖昧にはぐらかす防衛反応。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Eigyou_no_Kagaku/BuyerMask"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/BusynessMask">
+    <rdfs:label xml:lang="ja">忙しさの仮面</rdfs:label>
+    <rdfs:comment xml:lang="ja">今は忙しい、資料を送ってと拒絶し、レベルの低い営業に時間を使いたくない本音を隠す仮面。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Eigyou_no_Kagaku/BuyerMask"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/SuddenRequestMask">
+    <rdfs:label xml:lang="ja">いきなりの仮面</rdfs:label>
+    <rdfs:comment xml:lang="ja">突然の短納期見積もり要求。競合先行のサインであり、話が早く頼れる営業へ依頼したい本音を隠す。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Eigyou_no_Kagaku/BuyerMask"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/CheapnessMask">
+    <rdfs:label xml:lang="ja">とにかく安くの仮面</rdfs:label>
+    <rdfs:comment xml:lang="ja">安くしてほしいという要求の裏に判断基準の不明確さを隠す仮面。見積もりだけを見る顧客はごく少数である。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Eigyou_no_Kagaku/BuyerMask"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/ConsiderationMask">
+    <rdfs:label xml:lang="ja">検討しますの仮面</rdfs:label>
+    <rdfs:comment xml:lang="ja">社内で検討しますと述べて面倒なやり取りを避ける一時しのぎの現実逃避。多くの場合に営業チャンスが残る。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Eigyou_no_Kagaku/BuyerMask"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/CustomerType">
+    <rdfs:label xml:lang="ja">顧客タイプ</rdfs:label>
+    <rdfs:comment xml:lang="ja">意思決定で動くツボに基づく顧客分類。論理・感情・政治の三類型がある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/LogicalType">
+    <rdfs:label xml:lang="ja">論理タイプ</rdfs:label>
+    <rdfs:comment xml:lang="ja">結論先行や定量的根拠、一貫性を重視し無駄な時間を嫌う顧客タイプ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Eigyou_no_Kagaku/CustomerType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/EmotionalType">
+    <rdfs:label xml:lang="ja">感情タイプ</rdfs:label>
+    <rdfs:comment xml:lang="ja">感覚や好き嫌いを重視し言語化が苦手な顧客タイプ。本音での共感や一体感が鍵となる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Eigyou_no_Kagaku/CustomerType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/PoliticalType">
+    <rdfs:label xml:lang="ja">政治タイプ</rdfs:label>
+    <rdfs:comment xml:lang="ja">社内評価や他者の意見、リスク回避を重視する最も多い顧客タイプ。実績や権威の提示が有効。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Eigyou_no_Kagaku/CustomerType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/CriticalPoint">
+    <rdfs:label xml:lang="ja">急所</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果を左右する営業の急所。購買者の仮面を外し正しい方向へ努力を向けることが中核である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/SalesWeapon">
+    <rdfs:label xml:lang="ja">武器</rdfs:label>
+    <rdfs:comment xml:lang="ja">急所を踏まえて習得すべき具体的アクション。枕詞、深掘り質問、高速ラリー、要件整理などが含まれる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/SalesTechnique">
+    <rdfs:label xml:lang="ja">営業技法</rdfs:label>
+    <rdfs:comment xml:lang="ja">枕詞、深掘り質問、特定質問、高速ラリー、ハイブリッド営業、テストクロージング、スモールステップなどの具体技法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/GanbarismTrap">
+    <rdfs:label xml:lang="ja">ガンバリズムの罠</rdfs:label>
+    <rdfs:comment xml:lang="ja">努力不足ではなくがんばり方の間違いが組織に蔓延し、誤った努力が逆効果になる罠。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/SalesMeeting">
+    <rdfs:label xml:lang="ja">商談</rdfs:label>
+    <rdfs:comment xml:lang="ja">一方的な提案ではなく、高速ラリーを通じて考えを整理し最適解を共創する場。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/CoCreation">
+    <rdfs:label xml:lang="ja">共創</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客との高速ラリーを通じ、二人三脚で最適解を作り上げる関係性とプロセス。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/ValueBasis">
+    <rdfs:label xml:lang="ja">価値の根拠</rdfs:label>
+    <rdfs:comment xml:lang="ja">課題解決力、費用対効果、クイックレスポンスなど、アタリの営業であることを早期に示す根拠。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Eigyou_no_Kagaku/SFASystem">
+    <rdfs:label>SFA</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業プロセスの見える化ツール。指導力不足やラッキー成果の露見を恐れて活用が進みにくい。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/wearsMask">
+    <rdfs:label xml:lang="ja">仮面を付ける</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が本音を隠すために購買者の仮面を無意識に付ける関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/BuyerMask"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/hasCustomerType">
+    <rdfs:label xml:lang="ja">顧客タイプを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が論理・感情・政治のいずれかの意思決定タイプに属する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/CustomerType"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/usesWeapon">
+    <rdfs:label xml:lang="ja">武器を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者が急所を踏まえた具体的アクションとしての武器を用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/SalesWeapon"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/appliesTechnique">
+    <rdfs:label xml:lang="ja">技法を適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者が商談で具体的な営業技法を適用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/SalesTechnique"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/countersMask">
+    <rdfs:label xml:lang="ja">仮面に対処する</rdfs:label>
+    <rdfs:comment xml:lang="ja">武器や技法が特定の購買者の仮面を外すために用いられる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/SalesWeapon"/>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/SalesTechnique"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/BuyerMask"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/targetsCriticalPoint">
+    <rdfs:label xml:lang="ja">急所を狙う</rdfs:label>
+    <rdfs:comment xml:lang="ja">武器が成果を左右する営業の急所に向けられる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/SalesWeapon"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/CriticalPoint"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/managesMember">
+    <rdfs:label xml:lang="ja">メンバーを管理する</rdfs:label>
+    <rdfs:comment xml:lang="ja">マネジャーが営業担当者を指導・管理する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Manager"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/Salesperson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/belongsTo">
+    <rdfs:label xml:lang="ja">組織に所属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者またはマネジャーが組織に所属する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Salesperson"/>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Manager"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/Organization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/participatesIn">
+    <rdfs:label xml:lang="ja">商談に参加する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者または顧客が商談に参加する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Salesperson"/>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/SalesMeeting"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/coCreatesWith">
+    <rdfs:label xml:lang="ja">共創する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者が顧客と高速ラリーを通じ最適解を共に作り上げる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/showsValueBasis">
+    <rdfs:label xml:lang="ja">価値の根拠を示す</rdfs:label>
+    <rdfs:comment xml:lang="ja">忙しさの仮面などに対し、課題解決力や費用対効果、クイックレスポンスを早期に示す関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/ValueBasis"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/fallsIntoTrap">
+    <rdfs:label xml:lang="ja">罠にはまる</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織や個人ががんばり方を誤ったガンバリズムの罠に陥る関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Salesperson"/>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Manager"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/GanbarismTrap"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/hasDecisionMaker">
+    <rdfs:label xml:lang="ja">決裁者を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客側組織に決めきれずに悩む決裁者が存在する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Customer"/>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/DecisionMaker"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/usesSFA">
+    <rdfs:label xml:lang="ja">SFAを利用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">マネジャーや営業担当者が営業の見える化のためにSFAを利用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Manager"/>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/SFASystem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Eigyou_no_Kagaku/embodiesCoCreation">
+    <rdfs:label xml:lang="ja">共創を体現する</rdfs:label>
+    <rdfs:comment xml:lang="ja">商談が顧客との共創プロセスとして行われる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/SalesMeeting"/>
+    <rdfs:range rdf:resource="https://books.local/Eigyou_no_Kagaku/CoCreation"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Eigyou_no_Kagaku/hasDescription">
+    <rdfs:label xml:lang="ja">説明を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念の補足説明や調査に基づく特徴を文字列で保持する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/BuyerMask"/>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/CustomerType"/>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/SalesWeapon"/>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/SalesTechnique"/>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/CriticalPoint"/>
+    <rdfs:domain rdf:resource="https://books.local/Eigyou_no_Kagaku/ValueBasis"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

@@ -1,0 +1,362 @@
+@prefix ex: <https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/shapes> a owl:Ontology .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "非エンジニアを対象としたAIコーディング入門書。基礎からツール活用、自動化、エージェント開発までを体系的に扱う。" ;
+    sh:property [
+        sh:path ex:teaches ;
+        sh:class ex:AICoding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsOccupation ;
+        sh:class ex:Occupation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLearningGoal ;
+        sh:class ex:LearningGoal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:title ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/OccupationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Occupation ;
+    sh:name "職種" ;
+    sh:description "人事やプロダクトマネージャーなど、従来は専門家向けだったプログラミングを活用しうる多様な職種。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/LearningGoalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LearningGoal ;
+    sh:name "学習目標" ;
+    sh:description "AIを通じたプログラミング能力の習得、分解して設計するエンジニアリング思考、ツールの汎用的な活用。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICodingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AICoding ;
+    sh:name "AIコーディング" ;
+    sh:description "コードの完全理解より目的達成を重視するAI活用プログラミング。軽いニュアンスを避けるためバイブコーディングとは呼ばない。" ;
+    sh:property [
+        sh:path ex:usesLanguage ;
+        sh:class ex:ProgrammingLanguage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresEnvironment ;
+        sh:class ex:DevelopmentEnvironment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesControlFlow ;
+        sh:class ex:ControlFlow ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:invokesAPI ;
+        sh:class ex:API ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTool ;
+        sh:class ex:AICodingTool ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:operatesViaCli ;
+        sh:class ex:CommandLineInterface ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:versionedBy ;
+        sh:class ex:VersionControlSystem ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/ProgrammingLanguageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProgrammingLanguage ;
+    sh:name "プログラミング言語" ;
+    sh:description "JavaScriptやPythonなど主流言語。本書はNode.js前提、Chrome拡張、GAS、主要AI API対応からJavaScriptを採用する。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DevelopmentEnvironmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DevelopmentEnvironment ;
+    sh:name "開発環境" ;
+    sh:description "本書で必要なのはAntigravityとNode.jsの二つにほぼ限られる開発のための基盤。" ;
+    sh:property [
+        sh:path ex:hasEditor ;
+        sh:class ex:CodeEditor ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasRuntime ;
+        sh:class ex:RuntimeEnvironment ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/CodeEditorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CodeEditor ;
+    sh:name "コードエディター" ;
+    sh:description "VSCodeベースのAI搭載エディター。タブ補完、日本語指示によるコード生成、エラー説明と修正を備える。" ;
+    sh:property [
+        sh:path ex:hasEditor ;
+        sh:class ex:CodeEditor ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasRuntime ;
+        sh:class ex:RuntimeEnvironment ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/RuntimeEnvironmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RuntimeEnvironment ;
+    sh:name "実行環境" ;
+    sh:description "Node.jsのようにブラウザ外でJavaScriptを実行し、同時にnpmを利用可能にする環境。" ;
+    sh:property [
+        sh:path ex:isDistributedAs ;
+        sh:class ex:OpenSourceSoftware ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasEditor ;
+        sh:class ex:CodeEditor ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasRuntime ;
+        sh:class ex:RuntimeEnvironment ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/VariableShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Variable ;
+    sh:name "変数" ;
+    sh:description "データを保存する箱。constは再代入不可の定数、letは再代入可能。constでも配列やオブジェクトの中身は変更できる。" ;
+    sh:property [
+        sh:path ex:hasDataType ;
+        sh:class ex:DataType ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DataTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DataType ;
+    sh:name "データ型" ;
+    sh:description "文字列、数値、真偽値、配列、オブジェクトなどの種類。暗黙の結合と明示的なNumber変換に注意する。" ;
+    sh:property [
+        sh:path ex:hasBuiltInMethod ;
+        sh:class ex:BuiltInMethod ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/FunctionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Function ;
+    sh:name "関数" ;
+    sh:description "引数を受け戻り値を返す再利用単位。function構文、アロー関数、デフォルト引数がある。" ;
+    sh:property [
+        sh:path ex:usesLanguage ;
+        sh:class ex:ProgrammingLanguage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesControlFlow ;
+        sh:class ex:ControlFlow ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:invokesAPI ;
+        sh:class ex:API ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/ControlFlowShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ControlFlow ;
+    sh:name "制御フロー" ;
+    sh:description "ifによる条件分岐と、for...of、Object.entries、whileによる繰り返し。比較演算子と論理演算子を用いる。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/BuiltInMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BuiltInMethod ;
+    sh:name "組み込みメソッド" ;
+    sh:description "配列のpush、filter、reduceや文字列のsplit、replaceなど言語に備わる操作。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/APIShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:API ;
+    sh:name "API" ;
+    sh:description "ソフトウェア間の公式なルールブック。UI変更に強く、仕様変更の告知やスケジュール実行が可能。" ;
+    sh:property [
+        sh:path ex:authenticatesWith ;
+        sh:class ex:APIKey ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesHttpRequest ;
+        sh:class ex:HttpRequest ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:billedByToken ;
+        sh:class ex:Token ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasParameter ;
+        sh:class ex:AIParameter ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/APIKeyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:APIKey ;
+    sh:name "APIキー" ;
+    sh:description "パスワード以上に機密な認証情報。ハードコーディングせず.envに置き.gitignoreで除外する。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/HttpRequestShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HttpRequest ;
+    sh:name "HTTPリクエスト" ;
+    sh:description "fetchで送る通信。URL、ボディ、ヘッダーから成り、GET、POST、PUT、DELETEとステータスコードを持つ。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/TokenShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Token ;
+    sh:name "トークン" ;
+    sh:description "AIがテキストを処理する最小単位で従量課金の基準。日本語はおおよそ1文字が0.5から0.7トークン。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/LibraryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Library ;
+    sh:name "ライブラリ" ;
+    sh:description "標準ライブラリまたは第三者のサードパーティライブラリ。依存の連鎖とサプライチェーン攻撃のリスクがある。" ;
+    sh:property [
+        sh:path ex:managedBy ;
+        sh:class ex:PackageManager ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:dependsOn ;
+        sh:class ex:Library ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isDistributedAs ;
+        sh:class ex:OpenSourceSoftware ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/PackageManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PackageManager ;
+    sh:name "パッケージマネージャー" ;
+    sh:description "npmのようにインストール、package.jsonへの依存記録、node_modules、auditによる脆弱性修正を担う。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/OpenSourceSoftwareShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OpenSourceSoftware ;
+    sh:name "オープンソースソフトウェア" ;
+    sh:description "ソースが公開され誰でも利用できる文化。Node.jsやaxiosなどが代表例。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICodingToolShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AICodingTool ;
+    sh:name "AIコーディングツール" ;
+    sh:description "単発スクリプト、エディター型、CLI型、クラウド型、オールインワンに分類されるAI支援開発手段。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AIAgentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AIAgent ;
+    sh:name "AIエージェント" ;
+    sh:description "ファイルメンション、Webサーチ、MCP、ルール、カスタムコマンド、ガードレールを持つ自動コーディング主体。" ;
+    sh:property [
+        sh:path ex:usesContext ;
+        sh:class ex:Context ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:guidedBy ;
+        sh:class ex:RuleFile ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:constrainedBy ;
+        sh:class ex:Guardrail ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:operatesViaCli ;
+        sh:class ex:CommandLineInterface ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/ContextShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Context ;
+    sh:name "コンテキスト" ;
+    sh:description "AIの選択肢を狭めて最良の回答へ導く情報。メンションやステップごとの文脈設計で渡す。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/RuleFileShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RuleFile ;
+    sh:name "ルールファイル" ;
+    sh:description "AGENTS.mdのような作業マニュアル。Why・Who・What、例と制約、参照先を明示し失敗を反復反映する。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/GuardrailShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Guardrail ;
+    sh:name "ガードレール" ;
+    sh:description "実行前確認、許可リストと拒否リスト、アクセス制限、サンドボックスなど危険操作を防ぐ安全機構。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/CommandLineInterfaceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CommandLineInterface ;
+    sh:name "コマンドラインインタフェース" ;
+    sh:description "cd、ls、mkdir、mv、cp、rmなどで高速操作し、テキスト指示と自動化に向くインタフェース。rmは復元不可。" .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/VersionControlSystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:VersionControlSystem ;
+    sh:name "バージョン管理システム" ;
+    sh:description "リポジトリ、コミット、ステージング、ブランチにより変更を記録し、AIの予期せぬ変更を取り消せる分散型の仕組み。" ;
+    sh:property [
+        sh:path ex:hostedOn ;
+        sh:class ex:GitHub ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/GitHubShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GitHub ;
+    sh:name "GitHub" ;
+    sh:description "プッシュとプルによるクラウドバックアップ、Jules等のクラウドエージェント連携、Actionsによる自動化を提供する。" ;
+    sh:property [
+        sh:path ex:collaboratesWithAgent ;
+        sh:class ex:AIAgent ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AIParameterShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AIParameter ;
+    sh:name "AIパラメータ" ;
+    sh:description "systemInstructionで役割を固定し、temperatureで創造性を調整するAPI設定。プロンプトインジェクション対策が必要。" .

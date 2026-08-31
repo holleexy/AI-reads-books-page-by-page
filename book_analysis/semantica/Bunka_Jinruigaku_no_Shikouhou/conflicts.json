@@ -1,0 +1,41 @@
+[
+  {
+    "conflict_id": "ポトラッチ_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "ポトラッチ",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "EVENT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "conflict_id": "HR_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "HR",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "ORG",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "採用入門.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "採用入門.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "採用入門.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "採用入門.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "採用入門.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "採用入門.ocr"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "organization_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "organization",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "CONCEPT",
+      "ORG",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.85,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "採用入門.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.9,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "採用入門.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.8,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "採用入門.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "採用入門.ocr"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "Recruitment Team_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "Recruitment Team",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "ORG"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "採用入門.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "採用入門.ocr"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

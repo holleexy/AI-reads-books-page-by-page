@@ -1,0 +1,41 @@
+[
+  {
+    "conflict_id": "Bulletproof_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "Bulletproof",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "ORG"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "shirikonbaree_Shiki_Chou_raifuhakku__-_deivu"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "shirikonbaree_Shiki_Chou_raifuhakku__-_deivu"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

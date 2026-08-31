@@ -1,0 +1,935 @@
+@prefix ex: <https://books.local/法人営業勝ちパターン大全/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/法人営業勝ちパターン大全/shapes> a owl:Ontology .
+
+<https://books.local/法人営業勝ちパターン大全/CorporateSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CorporateSales ;
+    sh:name "法人営業" ;
+    sh:description "企業間取引におけるB2B営業。本書の対象領域であり、顧客の裏側を把握することが成果の前提となる。" .
+
+<https://books.local/法人営業勝ちパターン大全/SalesMethodologyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesMethodology ;
+    sh:name "営業方法論" ;
+    sh:description "失注の悔しさから生まれ、約2万4千人の調査と4万人超の営業支援を通じて体系化した再現可能な勝ちパターンの方法論。" ;
+    sh:property [
+        sh:path ex:constructs ;
+        sh:class ex:WinningPattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/SalespersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Salesperson ;
+    sh:name "営業担当者" ;
+    sh:description "法人営業を担う個人。顧客の見えない世界を照らす松明を使い、チームで勝ちパターンを再現する主体。" ;
+    sh:property [
+        sh:path ex:trappedIn ;
+        sh:class ex:Maze ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasProposal ;
+        sh:class ex:Proposal ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "購買を行う組織。公式の窓口の背後に複数のキーパーソンと独自の世界観・裏側を持つ。" ;
+    sh:property [
+        sh:path ex:hasPurchasingStage ;
+        sh:class ex:PurchasingStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHiddenWorld ;
+        sh:class ex:HiddenCustomerWorld ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBuyerType ;
+        sh:class ex:BuyerType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasInfluenceMap ;
+        sh:class ex:InfluenceMap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLeadPersonPhase ;
+        sh:class ex:LeadPersonPhase ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/DealShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Deal ;
+    sh:name "案件" ;
+    sh:description "法人営業における商談。神秘的な受注はあっても神秘的な失注はなく、裏側を見れば原因を特定できる。" ;
+    sh:property [
+        sh:path ex:hasPurchasingStage ;
+        sh:class ex:PurchasingStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:involvesStakeholder ;
+        sh:class ex:Stakeholder ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:handledBy ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:trappedIn ;
+        sh:class ex:Maze ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasKeyPerson ;
+        sh:class ex:KeyPerson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasInfluenceMap ;
+        sh:class ex:InfluenceMap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasProposal ;
+        sh:class ex:Proposal ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/HiddenCustomerWorldShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HiddenCustomerWorld ;
+    sh:name "顧客の裏側" ;
+    sh:description "顧客の世界観と内部事情。これを見通せなければ優れた製品や提案も実を結ばない。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/PurchasingProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PurchasingProcess ;
+    sh:name "購買プロセス" ;
+    sh:description "顧客側の5段階の購買過程。営業の4段階プロセスとは全く異なり、実質決定の66.8%は上流で起きる。" ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/PurchasingStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PurchasingStage ;
+    sh:name "購買ステージ" ;
+    sh:description "課題認識・情報収集・要件定義・ベンダー比較・発注決定のいずれか。現在地の特定が松明の第一歩。" ;
+    sh:property [
+        sh:path ex:mappedToPattern ;
+        sh:class ex:WinningPattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:partOfProcess ;
+        sh:class ex:PurchasingProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/IssueRecognitionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IssueRecognition ;
+    sh:name "課題認識" ;
+    sh:description "事業課題が生じ「何か買う必要があるかも」と感じる段階。エンゲージメント戦略の適用対象。" ;
+    sh:property [
+        sh:path ex:mappedToPattern ;
+        sh:class ex:WinningPattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:partOfProcess ;
+        sh:class ex:PurchasingProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/InformationGatheringShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InformationGathering ;
+    sh:name "情報収集" ;
+    sh:description "選択肢を軽く調べる温度の低い段階。相談して安心な相手になるエキスパート戦略の適用対象。" ;
+    sh:property [
+        sh:path ex:mappedToPattern ;
+        sh:class ex:WinningPattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:partOfProcess ;
+        sh:class ex:PurchasingProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/RequirementsDefinitionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RequirementsDefinition ;
+    sh:name "要件定義" ;
+    sh:description "予算・機能・時期・運用が言語化される段階。実質決定が集中し、ディスカッション戦略の適用対象。" ;
+    sh:property [
+        sh:path ex:mappedToPattern ;
+        sh:class ex:WinningPattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:partOfProcess ;
+        sh:class ex:PurchasingProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/VendorComparisonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:VendorComparison ;
+    sh:name "ベンダー比較" ;
+    sh:description "正式提案と見積を比較する段階。中身だけでなく検討プロセスで差をつけるガイド戦略の適用対象。" ;
+    sh:property [
+        sh:path ex:mappedToPattern ;
+        sh:class ex:WinningPattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:partOfProcess ;
+        sh:class ex:PurchasingProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/OrderDecisionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrderDecision ;
+    sh:name "発注決定" ;
+    sh:description "選定と契約の段階で、しばしば儀式的。特別感を生むカスタマイズ戦略の適用対象。" ;
+    sh:property [
+        sh:path ex:mappedToPattern ;
+        sh:class ex:WinningPattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:partOfProcess ;
+        sh:class ex:PurchasingProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/StakeholderShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Stakeholder ;
+    sh:name "ステークホルダー" ;
+    sh:description "案件に関与する6類型の関係者。一人が複数役割を兼ね、影響力は分散・流動的で見えにくい。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBuyerType ;
+        sh:class ex:BuyerType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:influences ;
+        sh:class ex:Deal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLeadPersonPhase ;
+        sh:class ex:LeadPersonPhase ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/FieldUserShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FieldUser ;
+    sh:name "現場の利用者" ;
+    sh:description "速く安く日常業務で使え部門負担が少ないことを重視する「使えるか」志向の関係者。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBuyerType ;
+        sh:class ex:BuyerType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:influences ;
+        sh:class ex:Deal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLeadPersonPhase ;
+        sh:class ex:LeadPersonPhase ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/InternalPromoterShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InternalPromoter ;
+    sh:name "社内推進者" ;
+    sh:description "課題把握の正確さとプロジェクト成功を求め、「このベンダーは問題を理解しているか」を重視する。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBuyerType ;
+        sh:class ex:BuyerType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:influences ;
+        sh:class ex:Deal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLeadPersonPhase ;
+        sh:class ex:LeadPersonPhase ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/OrderingPersonnelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrderingPersonnel ;
+    sh:name "発注担当者" ;
+    sh:description "ベンダー調整・見積・契約を担い、バランス志向で判断基準が分散しやすい。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBuyerType ;
+        sh:class ex:BuyerType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:influences ;
+        sh:class ex:Deal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLeadPersonPhase ;
+        sh:class ex:LeadPersonPhase ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/BudgetSupervisorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BudgetSupervisor ;
+    sh:name "予算の監督者" ;
+    sh:description "費用対効果・実績・安心感を重視し、保守的なブレーキとして機能する。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBuyerType ;
+        sh:class ex:BuyerType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:influences ;
+        sh:class ex:Deal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLeadPersonPhase ;
+        sh:class ex:LeadPersonPhase ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/InfluencerToDecisionMakerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InfluencerToDecisionMaker ;
+    sh:name "決裁者への影響者" ;
+    sh:description "自社状況との適合を見られ、可視性は低いが「あの人が何と言うか」で影響が大きい。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBuyerType ;
+        sh:class ex:BuyerType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:influences ;
+        sh:class ex:Deal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLeadPersonPhase ;
+        sh:class ex:LeadPersonPhase ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/FinalDecisionMakerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FinalDecisionMaker ;
+    sh:name "最終決裁者" ;
+    sh:description "最安値ではなく投資価値とROIを見る。実質影響は16.7%に過ぎず、決裁権と実影響力は一致しない。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBuyerType ;
+        sh:class ex:BuyerType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:influences ;
+        sh:class ex:Deal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLeadPersonPhase ;
+        sh:class ex:LeadPersonPhase ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/KeyPersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KeyPerson ;
+    sh:name "キーパーソン" ;
+    sh:description "正式な決裁者とは限らずステージで移る重要人物。数珠つなぎで接近し、目の前の人を決して飛ばさない。" ;
+    sh:property [
+        sh:path ex:influences ;
+        sh:class ex:Deal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBuyerType ;
+        sh:class ex:BuyerType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLeadPersonPhase ;
+        sh:class ex:LeadPersonPhase ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/MazeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Maze ;
+    sh:name "迷路" ;
+    sh:description "誰がいて内部がどうなっているか見えず時間が過ぎる状態。4つの迷路に分類し落とし穴を診断して脱出する。" ;
+    sh:property [
+        sh:path ex:hasPitfall ;
+        sh:class ex:Pitfall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/UnableToMeetKeyPersonMazeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:UnableToMeetKeyPersonMaze ;
+    sh:name "キーパーソンに会えない迷路" ;
+    sh:description "9つの落とし穴。数珠つなぎ・当日転送可能なメモ・心理的負担軽減でキーパーソンに到達する。" ;
+    sh:property [
+        sh:path ex:hasPitfall ;
+        sh:class ex:Pitfall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/ContactDoesNotConnectMazeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ContactDoesNotConnectMaze ;
+    sh:name "コンタクトが取れない迷路" ;
+    sh:description "既読にならない・情報過多・印象不良など9つの落とし穴。無返信は無関心と同義ではない。" ;
+    sh:property [
+        sh:path ex:hasPitfall ;
+        sh:class ex:Pitfall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/ConsiderationDoesNotProgressMazeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConsiderationDoesNotProgressMaze ;
+    sh:name "検討が進まない迷路" ;
+    sh:description "個人要因と組織要因の10の落とし穴。催促せず伴走し、鳥の目・虫の目・魚の目で進める。" ;
+    sh:property [
+        sh:path ex:hasPitfall ;
+        sh:class ex:Pitfall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/BudgetDoesNotIncreaseMazeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BudgetDoesNotIncreaseMaze ;
+    sh:name "予算が増えない迷路" ;
+    sh:description "「予算がない」は内部事情の一言要約であることが多い。値引きせず予算すごろくで論理と証拠を共創する。" ;
+    sh:property [
+        sh:path ex:hasPitfall ;
+        sh:class ex:Pitfall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/TorchShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Torch ;
+    sh:name "松明" ;
+    sh:description "迷路脱出の光。購買ステージ特定、目の前の人の役割判定、自社発注へ向かう道筋の描出の三点セット。" ;
+    sh:property [
+        sh:path ex:illuminates ;
+        sh:class ex:HiddenCustomerWorld ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/DefensiveStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DefensiveStrategy ;
+    sh:name "守りの戦略" ;
+    sh:description "同じ電話やフォローを繰り返さず、どの迷路のどの落とし穴かを正しく診断して脱出する戦略。" ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/OffensiveStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OffensiveStrategy ;
+    sh:name "攻めの戦略" ;
+    sh:description "顧客の現在ステージを特定し対応する勝ちパターンを先手で適用する。上流先行が決定的。" ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/WinningPatternShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WinningPattern ;
+    sh:name "勝ちパターン" ;
+    sh:description "顧客の裏側理解に基づく再現可能な勝ち筋。個人の勘をシートと共通言語でチームに展開する。" ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesToStage ;
+        sh:class ex:PurchasingStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/EngagementStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EngagementStrategy ;
+    sh:name "エンゲージメント戦略" ;
+    sh:description "課題認識段階でBANT成立前から関係を育て「今まさに我々向け」と感じさせる先手の関係構築。" ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesToStage ;
+        sh:class ex:PurchasingStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/ExpertStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExpertStrategy ;
+    sh:name "エキスパート戦略" ;
+    sh:description "情報収集段階で相談して安心な選択肢になる。悩み・従来策・落とし穴・独自アプローチを知識体系化する。" ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesToStage ;
+        sh:class ex:PurchasingStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/DiscussionStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DiscussionStrategy ;
+    sh:name "ディスカッション戦略" ;
+    sh:description "要件定義段階で伴走する議論相手になり、つっこまれビリティとIKEA効果で他社には戻れなくする。" ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesToStage ;
+        sh:class ex:PurchasingStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/GuideStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GuideStrategy ;
+    sh:name "ガイド戦略" ;
+    sh:description "ベンダー比較段階で道先案内人となり、影響マップやMEDDICCで社内検討を滑らかにして差をつける。" ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesToStage ;
+        sh:class ex:PurchasingStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/CustomizeStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomizeStrategy ;
+    sh:name "カスタマイズ戦略" ;
+    sh:description "発注決定段階で特別感を生む。要望対応・原因分析・提案メッセージの三層で最後の一押しをする。" ;
+    sh:property [
+        sh:path ex:usesTactic ;
+        sh:class ex:Tactic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesToStage ;
+        sh:class ex:PurchasingStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByFinding ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/PitfallShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Pitfall ;
+    sh:name "落とし穴" ;
+    sh:description "各迷路に固有の具体的つまずき。個人・組織・手続・文化などの層に分かれ、診断対象となる。" .
+
+<https://books.local/法人営業勝ちパターン大全/TacticShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Tactic ;
+    sh:name "戦術" ;
+    sh:description "数珠つなぎ、付加価値メール、伴走、予算共創など、迷路脱出や勝ちパターン実行の具体手段。" .
+
+<https://books.local/法人営業勝ちパターン大全/BuyerTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BuyerType ;
+    sh:name "購買者タイプ" ;
+    sh:description "論理型27.2%、感情型14.9%、政治型57.9%。過半数は「安全か・他者はどう思うか」の政治型。" .
+
+<https://books.local/法人営業勝ちパターン大全/LogicalBuyerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LogicalBuyer ;
+    sh:name "論理型購買者" ;
+    sh:description "論理で判断する購買者。調査対象の27.2%。" .
+
+<https://books.local/法人営業勝ちパターン大全/EmotionalBuyerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EmotionalBuyer ;
+    sh:name "感情型購買者" ;
+    sh:description "感情で判断する購買者。調査対象の14.9%。" .
+
+<https://books.local/法人営業勝ちパターン大全/PoliticalBuyerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PoliticalBuyer ;
+    sh:name "政治型購買者" ;
+    sh:description "安全か・周囲の目を気にして判断する購買者。過半数の57.9%を占める。" .
+
+<https://books.local/法人営業勝ちパターン大全/FrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Framework ;
+    sh:name "フレームワーク" ;
+    sh:description "顧客の裏側を可視化し判断を揃えるための共通枠組み。" .
+
+<https://books.local/法人営業勝ちパターン大全/ThreeEyesFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThreeEyesFramework ;
+    sh:name "三つの目" ;
+    sh:description "鳥の目（経営整合）、虫の目（現場具体）、魚の目（業界潮流）で検討停滞を伴走する視点。" .
+
+<https://books.local/法人営業勝ちパターン大全/BudgetSugorokuShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BudgetSugoroku ;
+    sh:name "予算すごろく" ;
+    sh:description "経営・事業・部門・個人の4層コミュニケーション階層で予算増額の経路を地図化する枠組み。" .
+
+<https://books.local/法人営業勝ちパターン大全/MEDDICCShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MEDDICC ;
+    sh:name "MEDDICC" ;
+    sh:description "Metrics・Economic Buyer・Decision Criteria・Decision Process・Identify Pain・Champion・Competitionを情報戦の道具として使う。" .
+
+<https://books.local/法人営業勝ちパターン大全/BANTCHShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BANTCH ;
+    sh:name "BANTCH" ;
+    sh:description "従来BANTに競合（Competitor）と人的資源（Human resources）を加えた拡張資格確認。" .
+
+<https://books.local/法人営業勝ちパターン大全/FiveCsContentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FiveCsContent ;
+    sh:name "ファイブシー" ;
+    sh:description "Company・Customer・Customer’s Customer・Competitor・Customer’s Competitorで専門性コンテンツを設計する。" .
+
+<https://books.local/法人営業勝ちパターン大全/WinningPatternConstructionSheetShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WinningPatternConstructionSheet ;
+    sh:name "勝ちパターン構築シート" ;
+    sh:description "個人の勘を超えて成功を再現するためチームが使うExcelの共通言語シート。" ;
+    sh:property [
+        sh:path ex:constructs ;
+        sh:class ex:WinningPattern ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/法人営業勝ちパターン大全/LeadPersonPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LeadPersonPhase ;
+    sh:name "リードパーソンフェーズ" ;
+    sh:description "会社単位ではなく個人単位のInitial・Contact・Needs Grasp・Interested・Opportunityの関係深化段階。" .
+
+<https://books.local/法人営業勝ちパターン大全/InfluenceMapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InfluenceMap ;
+    sh:name "影響マップ" ;
+    sh:description "役職・スタンス・実影響力と6役割を重ね、判断構造を選択肢×判断軸として可視化する。" .
+
+<https://books.local/法人営業勝ちパターン大全/ProposalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Proposal ;
+    sh:name "提案" ;
+    sh:description "見積や提案書。74.4%は見積前に実質決定済みで、応答速度が品質より効くことが多い。" .
+
+<https://books.local/法人営業勝ちパターン大全/ResearchFindingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ResearchFinding ;
+    sh:name "調査知見" ;
+    sh:description "購買経験者を含む約2万4千人調査と10万件超の苦情分析から得た、裏側とプロセス最適化に関する知見。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .

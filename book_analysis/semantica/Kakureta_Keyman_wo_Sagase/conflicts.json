@@ -1,0 +1,53 @@
+[
+  {
+    "conflict_id": "チャレンジャー・セールス・モデル_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "チャレンジャー・セールス・モデル",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "PRODUCT",
+      "PRODUCT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.96,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Kakureta_Keyman_wo_Sagase"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Kakureta_Keyman_wo_Sagase"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Kakureta_Keyman_wo_Sagase"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

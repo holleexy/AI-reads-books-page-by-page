@@ -1,0 +1,170 @@
+[
+  {
+    "conflict_id": "新型コロナウイルス_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "新型コロナウイルス",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "EVENT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "SIers_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "SIers",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "ORG",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.9,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.94,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "SIer_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "SIer",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "ORG",
+      "ORG"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "ソリューション_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "ソリューション",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "PRODUCT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

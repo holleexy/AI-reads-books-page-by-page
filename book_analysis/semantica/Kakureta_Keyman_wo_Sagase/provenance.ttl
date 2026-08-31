@@ -1,0 +1,459 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Kakureta_Keyman_wo_Sagase/> .
+
+book:source a prov:Entity ;
+  foaf:name "Kakureta_Keyman_wo_Sagase" ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" .
+
+book:法人営業 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:購買決定 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:デジタル時代 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:B2B a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:フリーミアムモデル a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:ABM a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンテンツ・マーケティング a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:モビライザー a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:インサイト a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:コマーシャル・インサイト a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:チャレンジャー・セールス・モデル a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:経営幹部 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:ワシントンDC a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:CFO a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:卓越保证的卓越研究中心 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:完璧な判断麻痺 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:ITセキュリティ a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンプライアンス a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:データプライバシー a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス環境 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:コモディティ化 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:パラドックス a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:ソリューション a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:意思決定の停滞 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:1年 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:現代のビジネス環境 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業・マーケティング a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーケッター a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報のオーバーフロー a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織の壁 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:破壊的（ディスラプティブ）な変化 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:content marketing a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:サービス a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:協調的・合議的な意思決定 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:pre-digital sales conventional wisdom a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:商品カスタマイズ a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:製品ベネフィット a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:ナーチャリング a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:契約獲得 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:成約率向上 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:専門家 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:ライバル会社 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:target the top executive a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:トップを落とせ a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:無料トライアル a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:無料セミナー a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:オファー a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:マイクロカンパニー a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:零細企業 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:アカウント・ベースト・マーケティング a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:近年 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:不都合な真実 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:Mobilizer a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:深いインサイト a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:プレミアム・モデル a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:SNS a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:本書 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:半日 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:技術的なイノベーション a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:ニューヨーク a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:シリコンバレー a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:隠れたキーマン a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:购买行为 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:不良议会 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:企业 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:政府 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:立法机关 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:德国 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:kickoff a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:3个月 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:ROI a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:投资收益率 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:2个月 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:卓越研究中心 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:组织变革 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:高管 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:解决方案 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:销售 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:エクセレンス・アシュアランス・センター・オブ・エクセレンス a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロジェクト命名委員会 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:官僚主義 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:官庁病 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:レッドテープ a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:オペレーション a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:人事 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベンダー a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:ステークホルダー a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:フォーチュン500 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:20年前 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:判断麻痺 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:調達 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:環境安全 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:品質管理 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業オペレーション a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業の運営 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:共通行動 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:調査研究データ a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:実践的な教訓 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:先駆的な戦略 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:戦略的優位性 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:断固たる行動 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:変革 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:職種 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:現場の担当者 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:役員クラス a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:販売戦略 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:サプライヤー a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:独自のソリューション a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:矛盾 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:The Challenger Sale a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:CEB a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業実行委員会 a prov:Entity ;
+  book:book_key "Kakureta_Keyman_wo_Sagase" ;
+  prov:wasDerivedFrom book:source .

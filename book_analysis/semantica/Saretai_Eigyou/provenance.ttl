@@ -1,0 +1,691 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Saretai_Eigyou/> .
+
+book:source a prov:Entity ;
+  foaf:name "Saretai_Eigyou" ;
+  book:book_key "Saretai_Eigyou" .
+
+book:営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アプローチ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:knowing a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:されたい営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:シン・セールス理論 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Shin Sales Theory a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:商談 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニケーション a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:プッシュ営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:インサイト a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:潜在ニーズ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:COVID-19 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:コロナ禍 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アフターコロナ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:マクロミル a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:著者 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:オンライン商談 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:in-person meetings a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:2020 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ソリューション a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:心理学者 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:法人営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:BtoB営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:セールス a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーケティング戦略 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:対面での商談 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:customer service a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ホット a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Online Merges with Offline a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業戦略 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:3C分析 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:data analysis a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ウェビナー a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:売り方 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アウトコール a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:mastery a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:第1章 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:自社 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:purchasing behavior a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:購買者 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:the difference between heaven and earth a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:リード a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:summer 2020 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:提供者側 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:したい a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:知っている a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:being able to do a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:できる a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:天地の差 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:communication a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:繰り返しトレーニング a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:血肉となる a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:知るのその先 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:practical application a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:后疫情时代 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:新常态 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:销售技巧 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:客户 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:お客様 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:商业实践 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:note a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:新销售理论 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:疫情 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:作者 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:物理层面的巨变 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:社交趋势 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:结构性转变 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:April 2022 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:べき論 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:prescriptive 'should-do' theories a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:知る→学ぶ→活かすのサイクル a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:戦略 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンテンツ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:新規顧客の開拓 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人向け営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:既存顧客営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ルート営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アイスブレイク a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アジェンダ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ラテン語 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:英語 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:レジュメ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:具体化商談 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:検討段階 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:提案書 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:見積もり書 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:クロージング a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:洞察力 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:本質を見抜く力 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:内勤営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Web会議システム a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:訪問型営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:フィールドセールス a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:インバウンド営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:反響営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンゲージメント a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:OMO a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:カスタマージャーニーマップ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:キードライバー a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:目標達成 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:受注・契約 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:個別評価要因 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:場創りのキードライバー a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:関係構築 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:情熱強化 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロジェクト化 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ケイパビリティ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Key Performance Indicator a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:重要業績評価指標 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ザイオンス効果 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:単純接触効果 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アメリカ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロバート・ザイオンス a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:事業計画 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:フレームワーク a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:市場・顧客 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:競合 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Latent Needs a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:insights a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:顕在ニーズ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ダークソーシャル a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:DMs a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:タッチポイント a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:パーパス a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:reason for existence a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:存在意義 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:社会的存在意義 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:business strategy a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:白書 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:e-Book a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:お役立ち資料 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ラポール a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:フランス語 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:カウンセリング a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:見込み客 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:将来顧客 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロイヤリティ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:製品 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:信頼 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:愛着 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポジティブな感情 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:口コミ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:紹介 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:理想の営業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:電話 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:新型コロナウイルス感染症（COVID-19） a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:キーパーソン a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:買う側の気持ち a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ウィズコロナ a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:最初の年 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ステイホーム期間中 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス環境 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報収集 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:考察 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:健全な疑い a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:データ分析 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:調査 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:感染拡大 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アンケート調査 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:IT関連企業 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:デジタルツール a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:バイアス a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:分析者 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:冒涜 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:対策 a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:face-to-face a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:mostly online a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:about half-and-half a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .
+
+book:actual current state a prov:Entity ;
+  book:book_key "Saretai_Eigyou" ;
+  prov:wasDerivedFrom book:source .

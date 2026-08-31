@@ -1,0 +1,319 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/> .
+
+book:source a prov:Entity ;
+  foaf:name "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" .
+
+book:トップセールス a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:型 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:課題 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:What a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮説 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:キーエンス a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:思考法 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:ニーズ a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:ガイホウ a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:インサイドセールス a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:提案前の仮説構築 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:成長 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:フィールドセールス a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:カスタマーサクセス a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:サポート a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:アイスブレイク a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:アウトバウンド a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:雑談 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:SNS a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:How-to a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:マネジメント a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:人材の育成 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロープレ a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:6年半 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:アライアンス a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:介入価値 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:学歴 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:上級成長 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:SAP a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:オープンテキスト a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:freee a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:Trial & Error a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:考え方 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:外出報告書 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:上司 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:新人時代 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:著者 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:18年間 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:SMB a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:外勤型営業 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:タイミング a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:法人営業 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:分業制 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:クロージング a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:偏差値 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:テスト a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:勉強 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:高学歴 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:知識 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:人当たり a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:社員 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:潜在的なニーズ a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:本書 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:株式会社セレブリックス a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:今井晶也氏 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:お客様が教えてくれた「されたい営業」 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:飛び込み営業 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:PR a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:業界の状況 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:基本的な型 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:センス a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:反復練習 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:メンバー a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:マニュアル化 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:標準化 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:学生時代 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:教科書 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:スキル a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:原理原則 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:抽象化力 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:体系化力 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:言語化力 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:理論的なアプローチ a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:場当たり的な営業 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .
+
+book:管理職 a prov:Entity ;
+  book:book_key "Soshiki_Koudou_no_Kangaekata_Shinpan" ;
+  prov:wasDerivedFrom book:source .

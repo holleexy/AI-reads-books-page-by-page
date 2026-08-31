@@ -1,0 +1,275 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/> .
+
+book:source a prov:Entity ;
+  foaf:name "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" .
+
+book:論理的思考 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロジック a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:商談 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:受注率 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:気持ちのよい合意 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:もらう力 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:現状維持バイアス a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Status Quo Bias a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:正しさ a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ディスカッション資料 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織論 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:提案書 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業資料 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンサルタント業 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:共に創る a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロジカルシンキング a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:問題解決の理論 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:戦略コンサルティング a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:経営学 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロジェクト a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:取締役 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:若手コンサルタント a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:業務改革 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:合意形成 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:アプローチ a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:著者 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:初期営業時代 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:防御的な姿勢 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:双方向のディスカッション a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:勝率 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:コ・クリエーション a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:企画書 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:スライド a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンゲージメント a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:内発的動機付け a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:稟議 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:見積もり a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:一緒につくる（対話型）アプローチ a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:社内コミュニケーション a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ホワイトボード a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:モチベーション3.0 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:paradigm shift a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:work philosophy a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:mutual potential a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Daniel Pink a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Drive/Motivation 3.0 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:co-creative discussion a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Trusted Advisor/Success a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:正論 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:後輩指導 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:チームマネジメント a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:フィールドセールス a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:インサイドセールス a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:カスタマーサクセス a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:費用対効果 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーケティング a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:マネジメント a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:交渉 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:強引な手段 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:人間関係 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:不満 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:反作用 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:競争 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:落とし穴 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .
+
+book:思考停止 a prov:Entity ;
+  book:book_key "Kimochi_yoku_Hito_wo_Ugokasu" ;
+  prov:wasDerivedFrom book:source .

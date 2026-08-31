@@ -1,0 +1,688 @@
+{
+  "uri": "https://books.local/法人営業勝ちパターン大全/",
+  "name": "法人営業勝ちパターン大全Ontology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "CorporateSales",
+      "uri": "https://books.local/法人営業勝ちパターン大全/CorporateSales",
+      "label": "法人営業",
+      "comment": "企業間取引におけるB2B営業。本書の対象領域であり、顧客の裏側を把握することが成果の前提となる。",
+      "parent": null
+    },
+    {
+      "name": "SalesMethodology",
+      "uri": "https://books.local/法人営業勝ちパターン大全/SalesMethodology",
+      "label": "営業方法論",
+      "comment": "失注の悔しさから生まれ、約2万4千人の調査と4万人超の営業支援を通じて体系化した再現可能な勝ちパターンの方法論。",
+      "parent": null
+    },
+    {
+      "name": "Salesperson",
+      "uri": "https://books.local/法人営業勝ちパターン大全/Salesperson",
+      "label": "営業担当者",
+      "comment": "法人営業を担う個人。顧客の見えない世界を照らす松明を使い、チームで勝ちパターンを再現する主体。",
+      "parent": null
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/法人営業勝ちパターン大全/Customer",
+      "label": "顧客",
+      "comment": "購買を行う組織。公式の窓口の背後に複数のキーパーソンと独自の世界観・裏側を持つ。",
+      "parent": null
+    },
+    {
+      "name": "Deal",
+      "uri": "https://books.local/法人営業勝ちパターン大全/Deal",
+      "label": "案件",
+      "comment": "法人営業における商談。神秘的な受注はあっても神秘的な失注はなく、裏側を見れば原因を特定できる。",
+      "parent": null
+    },
+    {
+      "name": "HiddenCustomerWorld",
+      "uri": "https://books.local/法人営業勝ちパターン大全/HiddenCustomerWorld",
+      "label": "顧客の裏側",
+      "comment": "顧客の世界観と内部事情。これを見通せなければ優れた製品や提案も実を結ばない。",
+      "parent": null
+    },
+    {
+      "name": "PurchasingProcess",
+      "uri": "https://books.local/法人営業勝ちパターン大全/PurchasingProcess",
+      "label": "購買プロセス",
+      "comment": "顧客側の5段階の購買過程。営業の4段階プロセスとは全く異なり、実質決定の66.8%は上流で起きる。",
+      "parent": null
+    },
+    {
+      "name": "PurchasingStage",
+      "uri": "https://books.local/法人営業勝ちパターン大全/PurchasingStage",
+      "label": "購買ステージ",
+      "comment": "課題認識・情報収集・要件定義・ベンダー比較・発注決定のいずれか。現在地の特定が松明の第一歩。",
+      "parent": "PurchasingProcess"
+    },
+    {
+      "name": "IssueRecognition",
+      "uri": "https://books.local/法人営業勝ちパターン大全/IssueRecognition",
+      "label": "課題認識",
+      "comment": "事業課題が生じ「何か買う必要があるかも」と感じる段階。エンゲージメント戦略の適用対象。",
+      "parent": "PurchasingStage"
+    },
+    {
+      "name": "InformationGathering",
+      "uri": "https://books.local/法人営業勝ちパターン大全/InformationGathering",
+      "label": "情報収集",
+      "comment": "選択肢を軽く調べる温度の低い段階。相談して安心な相手になるエキスパート戦略の適用対象。",
+      "parent": "PurchasingStage"
+    },
+    {
+      "name": "RequirementsDefinition",
+      "uri": "https://books.local/法人営業勝ちパターン大全/RequirementsDefinition",
+      "label": "要件定義",
+      "comment": "予算・機能・時期・運用が言語化される段階。実質決定が集中し、ディスカッション戦略の適用対象。",
+      "parent": "PurchasingStage"
+    },
+    {
+      "name": "VendorComparison",
+      "uri": "https://books.local/法人営業勝ちパターン大全/VendorComparison",
+      "label": "ベンダー比較",
+      "comment": "正式提案と見積を比較する段階。中身だけでなく検討プロセスで差をつけるガイド戦略の適用対象。",
+      "parent": "PurchasingStage"
+    },
+    {
+      "name": "OrderDecision",
+      "uri": "https://books.local/法人営業勝ちパターン大全/OrderDecision",
+      "label": "発注決定",
+      "comment": "選定と契約の段階で、しばしば儀式的。特別感を生むカスタマイズ戦略の適用対象。",
+      "parent": "PurchasingStage"
+    },
+    {
+      "name": "Stakeholder",
+      "uri": "https://books.local/法人営業勝ちパターン大全/Stakeholder",
+      "label": "ステークホルダー",
+      "comment": "案件に関与する6類型の関係者。一人が複数役割を兼ね、影響力は分散・流動的で見えにくい。",
+      "parent": null
+    },
+    {
+      "name": "FieldUser",
+      "uri": "https://books.local/法人営業勝ちパターン大全/FieldUser",
+      "label": "現場の利用者",
+      "comment": "速く安く日常業務で使え部門負担が少ないことを重視する「使えるか」志向の関係者。",
+      "parent": "Stakeholder"
+    },
+    {
+      "name": "InternalPromoter",
+      "uri": "https://books.local/法人営業勝ちパターン大全/InternalPromoter",
+      "label": "社内推進者",
+      "comment": "課題把握の正確さとプロジェクト成功を求め、「このベンダーは問題を理解しているか」を重視する。",
+      "parent": "Stakeholder"
+    },
+    {
+      "name": "OrderingPersonnel",
+      "uri": "https://books.local/法人営業勝ちパターン大全/OrderingPersonnel",
+      "label": "発注担当者",
+      "comment": "ベンダー調整・見積・契約を担い、バランス志向で判断基準が分散しやすい。",
+      "parent": "Stakeholder"
+    },
+    {
+      "name": "BudgetSupervisor",
+      "uri": "https://books.local/法人営業勝ちパターン大全/BudgetSupervisor",
+      "label": "予算の監督者",
+      "comment": "費用対効果・実績・安心感を重視し、保守的なブレーキとして機能する。",
+      "parent": "Stakeholder"
+    },
+    {
+      "name": "InfluencerToDecisionMaker",
+      "uri": "https://books.local/法人営業勝ちパターン大全/InfluencerToDecisionMaker",
+      "label": "決裁者への影響者",
+      "comment": "自社状況との適合を見られ、可視性は低いが「あの人が何と言うか」で影響が大きい。",
+      "parent": "Stakeholder"
+    },
+    {
+      "name": "FinalDecisionMaker",
+      "uri": "https://books.local/法人営業勝ちパターン大全/FinalDecisionMaker",
+      "label": "最終決裁者",
+      "comment": "最安値ではなく投資価値とROIを見る。実質影響は16.7%に過ぎず、決裁権と実影響力は一致しない。",
+      "parent": "Stakeholder"
+    },
+    {
+      "name": "KeyPerson",
+      "uri": "https://books.local/法人営業勝ちパターン大全/KeyPerson",
+      "label": "キーパーソン",
+      "comment": "正式な決裁者とは限らずステージで移る重要人物。数珠つなぎで接近し、目の前の人を決して飛ばさない。",
+      "parent": "Stakeholder"
+    },
+    {
+      "name": "Maze",
+      "uri": "https://books.local/法人営業勝ちパターン大全/Maze",
+      "label": "迷路",
+      "comment": "誰がいて内部がどうなっているか見えず時間が過ぎる状態。4つの迷路に分類し落とし穴を診断して脱出する。",
+      "parent": null
+    },
+    {
+      "name": "UnableToMeetKeyPersonMaze",
+      "uri": "https://books.local/法人営業勝ちパターン大全/UnableToMeetKeyPersonMaze",
+      "label": "キーパーソンに会えない迷路",
+      "comment": "9つの落とし穴。数珠つなぎ・当日転送可能なメモ・心理的負担軽減でキーパーソンに到達する。",
+      "parent": "Maze"
+    },
+    {
+      "name": "ContactDoesNotConnectMaze",
+      "uri": "https://books.local/法人営業勝ちパターン大全/ContactDoesNotConnectMaze",
+      "label": "コンタクトが取れない迷路",
+      "comment": "既読にならない・情報過多・印象不良など9つの落とし穴。無返信は無関心と同義ではない。",
+      "parent": "Maze"
+    },
+    {
+      "name": "ConsiderationDoesNotProgressMaze",
+      "uri": "https://books.local/法人営業勝ちパターン大全/ConsiderationDoesNotProgressMaze",
+      "label": "検討が進まない迷路",
+      "comment": "個人要因と組織要因の10の落とし穴。催促せず伴走し、鳥の目・虫の目・魚の目で進める。",
+      "parent": "Maze"
+    },
+    {
+      "name": "BudgetDoesNotIncreaseMaze",
+      "uri": "https://books.local/法人営業勝ちパターン大全/BudgetDoesNotIncreaseMaze",
+      "label": "予算が増えない迷路",
+      "comment": "「予算がない」は内部事情の一言要約であることが多い。値引きせず予算すごろくで論理と証拠を共創する。",
+      "parent": "Maze"
+    },
+    {
+      "name": "Torch",
+      "uri": "https://books.local/法人営業勝ちパターン大全/Torch",
+      "label": "松明",
+      "comment": "迷路脱出の光。購買ステージ特定、目の前の人の役割判定、自社発注へ向かう道筋の描出の三点セット。",
+      "parent": null
+    },
+    {
+      "name": "DefensiveStrategy",
+      "uri": "https://books.local/法人営業勝ちパターン大全/DefensiveStrategy",
+      "label": "守りの戦略",
+      "comment": "同じ電話やフォローを繰り返さず、どの迷路のどの落とし穴かを正しく診断して脱出する戦略。",
+      "parent": null
+    },
+    {
+      "name": "OffensiveStrategy",
+      "uri": "https://books.local/法人営業勝ちパターン大全/OffensiveStrategy",
+      "label": "攻めの戦略",
+      "comment": "顧客の現在ステージを特定し対応する勝ちパターンを先手で適用する。上流先行が決定的。",
+      "parent": null
+    },
+    {
+      "name": "WinningPattern",
+      "uri": "https://books.local/法人営業勝ちパターン大全/WinningPattern",
+      "label": "勝ちパターン",
+      "comment": "顧客の裏側理解に基づく再現可能な勝ち筋。個人の勘をシートと共通言語でチームに展開する。",
+      "parent": "OffensiveStrategy"
+    },
+    {
+      "name": "EngagementStrategy",
+      "uri": "https://books.local/法人営業勝ちパターン大全/EngagementStrategy",
+      "label": "エンゲージメント戦略",
+      "comment": "課題認識段階でBANT成立前から関係を育て「今まさに我々向け」と感じさせる先手の関係構築。",
+      "parent": "WinningPattern"
+    },
+    {
+      "name": "ExpertStrategy",
+      "uri": "https://books.local/法人営業勝ちパターン大全/ExpertStrategy",
+      "label": "エキスパート戦略",
+      "comment": "情報収集段階で相談して安心な選択肢になる。悩み・従来策・落とし穴・独自アプローチを知識体系化する。",
+      "parent": "WinningPattern"
+    },
+    {
+      "name": "DiscussionStrategy",
+      "uri": "https://books.local/法人営業勝ちパターン大全/DiscussionStrategy",
+      "label": "ディスカッション戦略",
+      "comment": "要件定義段階で伴走する議論相手になり、つっこまれビリティとIKEA効果で他社には戻れなくする。",
+      "parent": "WinningPattern"
+    },
+    {
+      "name": "GuideStrategy",
+      "uri": "https://books.local/法人営業勝ちパターン大全/GuideStrategy",
+      "label": "ガイド戦略",
+      "comment": "ベンダー比較段階で道先案内人となり、影響マップやMEDDICCで社内検討を滑らかにして差をつける。",
+      "parent": "WinningPattern"
+    },
+    {
+      "name": "CustomizeStrategy",
+      "uri": "https://books.local/法人営業勝ちパターン大全/CustomizeStrategy",
+      "label": "カスタマイズ戦略",
+      "comment": "発注決定段階で特別感を生む。要望対応・原因分析・提案メッセージの三層で最後の一押しをする。",
+      "parent": "WinningPattern"
+    },
+    {
+      "name": "Pitfall",
+      "uri": "https://books.local/法人営業勝ちパターン大全/Pitfall",
+      "label": "落とし穴",
+      "comment": "各迷路に固有の具体的つまずき。個人・組織・手続・文化などの層に分かれ、診断対象となる。",
+      "parent": null
+    },
+    {
+      "name": "Tactic",
+      "uri": "https://books.local/法人営業勝ちパターン大全/Tactic",
+      "label": "戦術",
+      "comment": "数珠つなぎ、付加価値メール、伴走、予算共創など、迷路脱出や勝ちパターン実行の具体手段。",
+      "parent": null
+    },
+    {
+      "name": "BuyerType",
+      "uri": "https://books.local/法人営業勝ちパターン大全/BuyerType",
+      "label": "購買者タイプ",
+      "comment": "論理型27.2%、感情型14.9%、政治型57.9%。過半数は「安全か・他者はどう思うか」の政治型。",
+      "parent": null
+    },
+    {
+      "name": "LogicalBuyer",
+      "uri": "https://books.local/法人営業勝ちパターン大全/LogicalBuyer",
+      "label": "論理型購買者",
+      "comment": "論理で判断する購買者。調査対象の27.2%。",
+      "parent": "BuyerType"
+    },
+    {
+      "name": "EmotionalBuyer",
+      "uri": "https://books.local/法人営業勝ちパターン大全/EmotionalBuyer",
+      "label": "感情型購買者",
+      "comment": "感情で判断する購買者。調査対象の14.9%。",
+      "parent": "BuyerType"
+    },
+    {
+      "name": "PoliticalBuyer",
+      "uri": "https://books.local/法人営業勝ちパターン大全/PoliticalBuyer",
+      "label": "政治型購買者",
+      "comment": "安全か・周囲の目を気にして判断する購買者。過半数の57.9%を占める。",
+      "parent": "BuyerType"
+    },
+    {
+      "name": "Framework",
+      "uri": "https://books.local/法人営業勝ちパターン大全/Framework",
+      "label": "フレームワーク",
+      "comment": "顧客の裏側を可視化し判断を揃えるための共通枠組み。",
+      "parent": null
+    },
+    {
+      "name": "ThreeEyesFramework",
+      "uri": "https://books.local/法人営業勝ちパターン大全/ThreeEyesFramework",
+      "label": "三つの目",
+      "comment": "鳥の目（経営整合）、虫の目（現場具体）、魚の目（業界潮流）で検討停滞を伴走する視点。",
+      "parent": "Framework"
+    },
+    {
+      "name": "BudgetSugoroku",
+      "uri": "https://books.local/法人営業勝ちパターン大全/BudgetSugoroku",
+      "label": "予算すごろく",
+      "comment": "経営・事業・部門・個人の4層コミュニケーション階層で予算増額の経路を地図化する枠組み。",
+      "parent": "Framework"
+    },
+    {
+      "name": "MEDDICC",
+      "uri": "https://books.local/法人営業勝ちパターン大全/MEDDICC",
+      "label": "MEDDICC",
+      "comment": "Metrics・Economic Buyer・Decision Criteria・Decision Process・Identify Pain・Champion・Competitionを情報戦の道具として使う。",
+      "parent": "Framework"
+    },
+    {
+      "name": "BANTCH",
+      "uri": "https://books.local/法人営業勝ちパターン大全/BANTCH",
+      "label": "BANTCH",
+      "comment": "従来BANTに競合（Competitor）と人的資源（Human resources）を加えた拡張資格確認。",
+      "parent": "Framework"
+    },
+    {
+      "name": "FiveCsContent",
+      "uri": "https://books.local/法人営業勝ちパターン大全/FiveCsContent",
+      "label": "ファイブシー",
+      "comment": "Company・Customer・Customer’s Customer・Competitor・Customer’s Competitorで専門性コンテンツを設計する。",
+      "parent": "Framework"
+    },
+    {
+      "name": "WinningPatternConstructionSheet",
+      "uri": "https://books.local/法人営業勝ちパターン大全/WinningPatternConstructionSheet",
+      "label": "勝ちパターン構築シート",
+      "comment": "個人の勘を超えて成功を再現するためチームが使うExcelの共通言語シート。",
+      "parent": null
+    },
+    {
+      "name": "LeadPersonPhase",
+      "uri": "https://books.local/法人営業勝ちパターン大全/LeadPersonPhase",
+      "label": "リードパーソンフェーズ",
+      "comment": "会社単位ではなく個人単位のInitial・Contact・Needs Grasp・Interested・Opportunityの関係深化段階。",
+      "parent": null
+    },
+    {
+      "name": "InfluenceMap",
+      "uri": "https://books.local/法人営業勝ちパターン大全/InfluenceMap",
+      "label": "影響マップ",
+      "comment": "役職・スタンス・実影響力と6役割を重ね、判断構造を選択肢×判断軸として可視化する。",
+      "parent": null
+    },
+    {
+      "name": "Proposal",
+      "uri": "https://books.local/法人営業勝ちパターン大全/Proposal",
+      "label": "提案",
+      "comment": "見積や提案書。74.4%は見積前に実質決定済みで、応答速度が品質より効くことが多い。",
+      "parent": null
+    },
+    {
+      "name": "ResearchFinding",
+      "uri": "https://books.local/法人営業勝ちパターン大全/ResearchFinding",
+      "label": "調査知見",
+      "comment": "購買経験者を含む約2万4千人調査と10万件超の苦情分析から得た、裏側とプロセス最適化に関する知見。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "hasPurchasingStage",
+      "type": "object",
+      "domain": [
+        "Deal",
+        "Customer"
+      ],
+      "range": [
+        "PurchasingStage"
+      ],
+      "label": "購買ステージを持つ",
+      "comment": "案件または顧客が今どの購買ステージにいるかを示す。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/hasPurchasingStage"
+    },
+    {
+      "name": "involvesStakeholder",
+      "type": "object",
+      "domain": [
+        "Deal"
+      ],
+      "range": [
+        "Stakeholder"
+      ],
+      "label": "ステークホルダーを含む",
+      "comment": "案件に関与する複数のキーパーソン・役割を結びつける。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/involvesStakeholder"
+    },
+    {
+      "name": "belongsToCustomer",
+      "type": "object",
+      "domain": [
+        "Stakeholder",
+        "Deal",
+        "HiddenCustomerWorld"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "顧客に属する",
+      "comment": "関係者・案件・裏側がどの顧客組織に属するかを示す。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/belongsToCustomer"
+    },
+    {
+      "name": "handledBy",
+      "type": "object",
+      "domain": [
+        "Deal"
+      ],
+      "range": [
+        "Salesperson"
+      ],
+      "label": "担当する",
+      "comment": "案件を担当する営業担当者。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/handledBy"
+    },
+    {
+      "name": "hasHiddenWorld",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "HiddenCustomerWorld"
+      ],
+      "label": "裏側を持つ",
+      "comment": "顧客の公式窓口の背後にある世界観と内部事情。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/hasHiddenWorld"
+    },
+    {
+      "name": "trappedIn",
+      "type": "object",
+      "domain": [
+        "Deal",
+        "Salesperson"
+      ],
+      "range": [
+        "Maze"
+      ],
+      "label": "迷路に陥る",
+      "comment": "案件や営業がどの迷路にいるかを示す。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/trappedIn"
+    },
+    {
+      "name": "hasPitfall",
+      "type": "object",
+      "domain": [
+        "Maze"
+      ],
+      "range": [
+        "Pitfall"
+      ],
+      "label": "落とし穴を持つ",
+      "comment": "各迷路に固有の具体的つまずき。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/hasPitfall"
+    },
+    {
+      "name": "usesTactic",
+      "type": "object",
+      "domain": [
+        "Maze",
+        "WinningPattern",
+        "DefensiveStrategy",
+        "OffensiveStrategy"
+      ],
+      "range": [
+        "Tactic"
+      ],
+      "label": "戦術を用いる",
+      "comment": "迷路脱出または勝ちパターン実行に使う具体手段。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/usesTactic"
+    },
+    {
+      "name": "appliesToStage",
+      "type": "object",
+      "domain": [
+        "WinningPattern"
+      ],
+      "range": [
+        "PurchasingStage"
+      ],
+      "label": "ステージに適用する",
+      "comment": "勝ちパターンが対応する顧客購買ステージ。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/appliesToStage"
+    },
+    {
+      "name": "mappedToPattern",
+      "type": "object",
+      "domain": [
+        "PurchasingStage"
+      ],
+      "range": [
+        "WinningPattern"
+      ],
+      "label": "勝ちパターンに対応する",
+      "comment": "購買ステージから先手の攻めの戦略への写像。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/mappedToPattern"
+    },
+    {
+      "name": "illuminates",
+      "type": "object",
+      "domain": [
+        "Torch"
+      ],
+      "range": [
+        "HiddenCustomerWorld",
+        "Maze",
+        "PurchasingStage",
+        "Stakeholder"
+      ],
+      "label": "照らす",
+      "comment": "松明が裏側・迷路・ステージ・役割を可視化する。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/illuminates"
+    },
+    {
+      "name": "usesFramework",
+      "type": "object",
+      "domain": [
+        "Salesperson",
+        "WinningPattern",
+        "DefensiveStrategy"
+      ],
+      "range": [
+        "Framework"
+      ],
+      "label": "フレームワークを用いる",
+      "comment": "三つの目、予算すごろく、MEDDICC、BANTCHなどを用いる。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/usesFramework"
+    },
+    {
+      "name": "hasBuyerType",
+      "type": "object",
+      "domain": [
+        "Stakeholder",
+        "Customer"
+      ],
+      "range": [
+        "BuyerType"
+      ],
+      "label": "購買者タイプを持つ",
+      "comment": "論理型・感情型・政治型のいずれかを示す。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/hasBuyerType"
+    },
+    {
+      "name": "influences",
+      "type": "object",
+      "domain": [
+        "Stakeholder",
+        "KeyPerson"
+      ],
+      "range": [
+        "Deal",
+        "FinalDecisionMaker"
+      ],
+      "label": "影響する",
+      "comment": "形式権限ではなく実質的な意思決定への影響力。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/influences"
+    },
+    {
+      "name": "hasKeyPerson",
+      "type": "object",
+      "domain": [
+        "Deal"
+      ],
+      "range": [
+        "KeyPerson"
+      ],
+      "label": "キーパーソンを持つ",
+      "comment": "ステージにより移りうる実質的な重要人物。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/hasKeyPerson"
+    },
+    {
+      "name": "hasInfluenceMap",
+      "type": "object",
+      "domain": [
+        "Deal",
+        "Customer"
+      ],
+      "range": [
+        "InfluenceMap"
+      ],
+      "label": "影響マップを持つ",
+      "comment": "役職・スタンス・実影響力と6役割の可視化。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/hasInfluenceMap"
+    },
+    {
+      "name": "hasLeadPersonPhase",
+      "type": "object",
+      "domain": [
+        "Stakeholder",
+        "Customer"
+      ],
+      "range": [
+        "LeadPersonPhase"
+      ],
+      "label": "リードパーソンフェーズを持つ",
+      "comment": "個人単位の関係深化段階。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/hasLeadPersonPhase"
+    },
+    {
+      "name": "constructs",
+      "type": "object",
+      "domain": [
+        "WinningPatternConstructionSheet",
+        "SalesMethodology"
+      ],
+      "range": [
+        "WinningPattern"
+      ],
+      "label": "構築する",
+      "comment": "シートと共通言語で勝ちパターンを再現可能にする。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/constructs"
+    },
+    {
+      "name": "partOfProcess",
+      "type": "object",
+      "domain": [
+        "PurchasingStage"
+      ],
+      "range": [
+        "PurchasingProcess"
+      ],
+      "label": "プロセスの一部である",
+      "comment": "各購買ステージが5段階購買プロセスに属する。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/partOfProcess"
+    },
+    {
+      "name": "hasProposal",
+      "type": "object",
+      "domain": [
+        "Deal",
+        "Salesperson"
+      ],
+      "range": [
+        "Proposal"
+      ],
+      "label": "提案を持つ",
+      "comment": "案件に紐づく提案や見積。完成度より初速と反復が効く。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/hasProposal"
+    },
+    {
+      "name": "supportedByFinding",
+      "type": "object",
+      "domain": [
+        "SalesMethodology",
+        "WinningPattern",
+        "PurchasingProcess"
+      ],
+      "range": [
+        "ResearchFinding"
+      ],
+      "label": "調査知見に裏付けられる",
+      "comment": "大規模調査と苦情分析による方法論の根拠。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/supportedByFinding"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "SalesMethodology",
+        "WinningPattern",
+        "Maze",
+        "ResearchFinding",
+        "HiddenCustomerWorld"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "概念や知見の補足説明テキスト。",
+      "uri": "https://books.local/法人営業勝ちパターン大全/description"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

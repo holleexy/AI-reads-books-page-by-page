@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/">
+    <rdfs:label>shirikonbaree_Shiki_Chou_raifuhakku__-_deivuOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">デイブ・アスプリー著『ゲームチェンジャー』に基づき、卓越した成功者の実践から導かれた法則をまとめた書籍</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Author">
+    <rdfs:label xml:lang="ja">著者</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍を執筆した人物。本作ではデイブ・アスプリーを指す</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/GameChanger">
+    <rdfs:label xml:lang="ja">ゲームチェンジャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">人類最高峰のパフォーマンスを発揮する卓越した成功者。約450人がインタビュー対象となった</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Pillar">
+    <rdfs:label xml:lang="ja">柱</rdfs:label>
+    <rdfs:comment xml:lang="ja">法則を分類する三つの主要な柱。もっと賢く、もっと速く、もっと幸せに</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Law">
+    <rdfs:label xml:lang="ja">法則</rdfs:label>
+    <rdfs:comment xml:lang="ja">超成果を生み出す四十二の実践的な法則</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Technique">
+    <rdfs:label xml:lang="ja">手法</rdfs:label>
+    <rdfs:comment xml:lang="ja">脳・身体・意識を最適化するためのバイオハックや実践技法</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/MitochondrialEgo">
+    <rdfs:label xml:lang="ja">ミトコンドリアのエゴ</rdfs:label>
+    <rdfs:comment xml:lang="ja">闘争逃走・食欲・生殖など、人間を縛る原始的な生存本能</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/BiologicalState">
+    <rdfs:label xml:lang="ja">生物学的状態</rdfs:label>
+    <rdfs:comment xml:lang="ja">食事・光・睡眠・動きなどのインプットに反応する身体と脳の状態</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Belief">
+    <rdfs:label xml:lang="ja">信念</rdfs:label>
+    <rdfs:comment xml:lang="ja">過去の環境で植え付けられ行動を支配する脳のハードウェア。神経可塑性により書き換え可能</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Chronotype">
+    <rdfs:label xml:lang="ja">クロノタイプ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ライオン・クマ・オオカミ・イルカなど、遺伝子に合わせた睡眠覚醒リズム</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/CompassPrinciple">
+    <rdfs:label xml:lang="ja">羅針盤</rdfs:label>
+    <rdfs:comment xml:lang="ja">真の成功を導く三原則。感謝と赦し、脳の配線の理解、身体を知ること</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Community">
+    <rdfs:label xml:lang="ja">コミュニティ</rdfs:label>
+    <rdfs:comment xml:lang="ja">幸福と成功を左右する周囲の人々。幸福は三次のつながりまで伝染する</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/hasAuthor">
+    <rdfs:label xml:lang="ja">著者を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍とその著者を関連付ける</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Book"/>
+    <rdfs:range rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Author"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/basedOnInterview">
+    <rdfs:label xml:lang="ja">インタビューに基づく</rdfs:label>
+    <rdfs:comment xml:lang="ja">内容がゲームチェンジャーへのインタビューと統計分析から導かれたことを示す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Book"/>
+    <rdfs:range rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/GameChanger"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/hasPillar">
+    <rdfs:label xml:lang="ja">柱を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍が含む主要な柱を示す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Book"/>
+    <rdfs:range rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Pillar"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/belongsToPillar">
+    <rdfs:label xml:lang="ja">柱に属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">法則がどの柱に分類されるかを示す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Law"/>
+    <rdfs:range rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Pillar"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/hasTechnique">
+    <rdfs:label xml:lang="ja">手法を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">法則が推奨する具体的な手法を示す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Law"/>
+    <rdfs:range rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Technique"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/hacksInstinct">
+    <rdfs:label xml:lang="ja">本能をハックする</rdfs:label>
+    <rdfs:comment xml:lang="ja">手法が原始的な生存本能を克服または最適化することを示す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Technique"/>
+    <rdfs:range rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/MitochondrialEgo"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/optimizesState">
+    <rdfs:label xml:lang="ja">状態を最適化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">手法が生物学的状態を改善することを示す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Technique"/>
+    <rdfs:range rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/BiologicalState"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/rewritesBelief">
+    <rdfs:label xml:lang="ja">信念を書き換える</rdfs:label>
+    <rdfs:comment xml:lang="ja">制限的な信念をポジティブな信念へ更新することを示す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Technique"/>
+    <rdfs:range rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Belief"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/followsChronotype">
+    <rdfs:label xml:lang="ja">クロノタイプに従う</rdfs:label>
+    <rdfs:comment xml:lang="ja">睡眠などの手法が個人の自然なリズムに合わせることを示す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Technique"/>
+    <rdfs:range rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Chronotype"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/hasCompass">
+    <rdfs:label xml:lang="ja">羅針盤を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍が提示する真の成功の原則を示す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Book"/>
+    <rdfs:range rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/CompassPrinciple"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/buildsCommunity">
+    <rdfs:label xml:lang="ja">コミュニティを構築する</rdfs:label>
+    <rdfs:comment xml:lang="ja">人間関係の手法が自己実現を支える共同体を作ることを示す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Technique"/>
+    <rdfs:range rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Community"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/description">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">対象についての日本語の説明文</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Book"/>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Pillar"/>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Law"/>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/Technique"/>
+    <rdfs:domain rdf:resource="https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/CompassPrinciple"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

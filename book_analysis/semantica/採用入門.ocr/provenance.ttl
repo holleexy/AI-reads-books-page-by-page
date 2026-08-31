@@ -1,0 +1,387 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/採用入門.ocr/> .
+
+book:source a prov:Entity ;
+  foaf:name "採用入門.ocr" ;
+  book:book_key "採用入門.ocr" .
+
+book:HR a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:人事 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:採用 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:goal management a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:labor affairs a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Results a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:成果 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Business a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:事業 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:P.F. Drucker a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:talent development a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:organizational activation a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:individual career formation a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:増員 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:staff increase a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:補充 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:即戦力 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Adaptation a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:lifetime employment a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:job agreements a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:候補者 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:employment a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:field managers a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:new projects a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:product development a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ツボ 003 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:growth speed a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Japanese society a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:1970s–1980s a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:culture a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:short-term a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:director a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:working individuals a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:management strategy a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:就職氷河期 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Meiji-era a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:GAB a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:坪谷邦生 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:age 25 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:25 years a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:搾取 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ぬるま湯 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:秋山統樹 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:図解採用入門100のツボ a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Q&A a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:founder a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:philosophy a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:理念 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:文化 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:関係性を築く a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:求人媒体 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:現代の経営 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ideas a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:knowledge a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:technologies a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:transfers a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Osawa Takeshi a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Psychological Management a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:社会の雇用創出 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:キャリア形成 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:雇用創出 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本社会 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Arrow Feather Model a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:矢羽モデル a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:募集 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:選考 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:適応 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:オンボーディング a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:図表003 採用の全体構造と構成要素 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:短期 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:long-term a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:長期 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:mission-vision-values a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ミッション・ビジョン・バリュー a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:労務 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:目標管理 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:全体構造 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:構成要素 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:学習 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:zaibatsu a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:職工 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:終身雇用 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:大量一括募集 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:年功序列 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:high economic growth a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:経験者採用 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:21st century a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:year-round recruitment a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:通年採用 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ジョブ型 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:能力主義 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:働き方改革 a prov:Entity ;
+  book:book_key "採用入門.ocr" ;
+  prov:wasDerivedFrom book:source .

@@ -1,0 +1,638 @@
+{
+  "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/",
+  "name": "Bouken_suru_Soshiki_no_TsukurikataOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Organization",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization",
+      "label": "組織",
+      "comment": "人と事業の可能性を広げる有機的な土壌として再定義されるべき集団。戦略を達成するための機械ではない。",
+      "parent": null
+    },
+    {
+      "name": "Worldview",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Worldview",
+      "label": "世界観",
+      "comment": "組織の根本的な思考枠組み（OS）。施策（アプリ）より先にアップデートすべき基盤。",
+      "parent": null
+    },
+    {
+      "name": "MilitaryWorldview",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MilitaryWorldview",
+      "label": "軍事的世界観",
+      "comment": "奪い合い・競争・上下関係を前提とし、目標を行動を縛る指令、人を道具として扱う思考枠組み。官僚化と大企業病を招く。",
+      "parent": "Worldview"
+    },
+    {
+      "name": "AdventureWorldview",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureWorldview",
+      "label": "冒険的世界観",
+      "comment": "開拓・共創・自己実現を前提とし、ビジネスを領地の奪い合いから可能性の開拓へと捉える思考枠組み。",
+      "parent": "Worldview"
+    },
+    {
+      "name": "AdventureLens",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureLens",
+      "label": "冒険的レンズ",
+      "comment": "組織のものの見方を軍事的から冒険的へ転換するための視点。",
+      "parent": null
+    },
+    {
+      "name": "GoalLens",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/GoalLens",
+      "label": "目標のレンズ",
+      "comment": "目標を行動を縛る指令から好奇心をかき立てる問い（Quest）へと捉える視点。",
+      "parent": "AdventureLens"
+    },
+    {
+      "name": "TeamLens",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/TeamLens",
+      "label": "チームのレンズ",
+      "comment": "チームを機能別に編成した小隊から個性を活かし合う精神的な共同体（仲間）へと捉える視点。",
+      "parent": "AdventureLens"
+    },
+    {
+      "name": "MeetingLens",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MeetingLens",
+      "label": "会議のレンズ",
+      "comment": "会議を伝令と意思決定の場から対話と価値創造の場へと捉える視点。",
+      "parent": "AdventureLens"
+    },
+    {
+      "name": "GrowthLens",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/GrowthLens",
+      "label": "成長のレンズ",
+      "comment": "成長を望ましいスキル・行動の習得から新たなアイデンティティの探究へと捉える視点。",
+      "parent": "AdventureLens"
+    },
+    {
+      "name": "OrganizationLens",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationLens",
+      "label": "組織のレンズ",
+      "comment": "組織を事業戦略のための手段から人と事業の可能性を広げる土壌へと捉える視点。アンゾフの「戦略は組織に従う」を重視する。",
+      "parent": "AdventureLens"
+    },
+    {
+      "name": "OrganizationalModel",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalModel",
+      "label": "組織モデル",
+      "comment": "組織の構造と動態を記述する枠組み。",
+      "parent": null
+    },
+    {
+      "name": "CreativeCultivationModel",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/CreativeCultivationModel",
+      "label": "創造的耕作モデル",
+      "comment": "CCM。ナドラー＆タッシュマンの機械的・静的な整合性モデルの限界を克服する、有機的で動的な組織モデル。",
+      "parent": "OrganizationalModel"
+    },
+    {
+      "name": "Inquiry",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Inquiry",
+      "label": "探究",
+      "comment": "CCMの中央に配置される四つの探求。個人・組織・事業・社会の可能性を広げる営み。",
+      "parent": null
+    },
+    {
+      "name": "IndividualSelfRealizationInquiry",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/IndividualSelfRealizationInquiry",
+      "label": "個々の自己実現の探究",
+      "comment": "従業員個人が自己実現を諦めずに追求する探究。",
+      "parent": "Inquiry"
+    },
+    {
+      "name": "OrganizationalIdentityInquiry",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalIdentityInquiry",
+      "label": "組織アイデンティティの探究",
+      "comment": "私たちらしさを問い続ける探究。",
+      "parent": "Inquiry"
+    },
+    {
+      "name": "BusinessCapabilityInquiry",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/BusinessCapabilityInquiry",
+      "label": "事業ケイパビリティの探究",
+      "comment": "組織の得意技を開拓し続ける探究。",
+      "parent": "Inquiry"
+    },
+    {
+      "name": "SocialMissionInquiry",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/SocialMissionInquiry",
+      "label": "社会的ミッションの探究",
+      "comment": "組織の存在意義を追求する探究。",
+      "parent": "Inquiry"
+    },
+    {
+      "name": "Alignment",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Alignment",
+      "label": "整合",
+      "comment": "組織の各要素を調和させ続けること。探究の整合を中核とする。",
+      "parent": null
+    },
+    {
+      "name": "FunctionalAlignment",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/FunctionalAlignment",
+      "label": "機能的整合",
+      "comment": "事業構造・組織構造・業務構造といった構造面のデザイン。",
+      "parent": "Alignment"
+    },
+    {
+      "name": "SpiritualAlignment",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/SpiritualAlignment",
+      "label": "精神的整合",
+      "comment": "ブランド・組織文化・職場風土といった文化面のデザイン。",
+      "parent": "Alignment"
+    },
+    {
+      "name": "Goal",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Goal",
+      "label": "目標",
+      "comment": "組織や個人が追う到達点。冒険的世界観では好奇心をかき立てる問いとして埋め込む。",
+      "parent": null
+    },
+    {
+      "name": "ALIVEGoal",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/ALIVEGoal",
+      "label": "ALIVE目標",
+      "comment": "SMARTに代わり、Adaptive・Learningful・Interesting・Visionary・Experimentalな目標。",
+      "parent": "Goal"
+    },
+    {
+      "name": "Team",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Team",
+      "label": "チーム",
+      "comment": "個性を活かし合う精神的な共同体。独自のバリューやローカルなルーティンを持ちうる。",
+      "parent": null
+    },
+    {
+      "name": "Person",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Person",
+      "label": "人",
+      "comment": "自己実現の探究を行い、組織を構成する個人。道具ではなく可能性の担い手。",
+      "parent": null
+    },
+    {
+      "name": "MiddleManager",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MiddleManager",
+      "label": "ミドルマネージャー",
+      "comment": "組織変革の要。プレイヤーからマネージャーへの転換によるアイデンティティ危機に直面しやすい。",
+      "parent": "Person"
+    },
+    {
+      "name": "Meeting",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Meeting",
+      "label": "会議",
+      "comment": "対話と価値創造の場。ミクロなアジェンダとマクロな開催順序を再設計する対象。",
+      "parent": null
+    },
+    {
+      "name": "ManagementPhilosophy",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/ManagementPhilosophy",
+      "label": "経営理念",
+      "comment": "絶対的な教義ではなく、メンバーの探究のエネルギーを生み出すツール。矛盾を含んだメタファーが解釈の余地を生む。",
+      "parent": null
+    },
+    {
+      "name": "Impulse",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Impulse",
+      "label": "衝動",
+      "comment": "ウズウズするような好奇心。組織変革の出発点となる小さな火種。",
+      "parent": null
+    },
+    {
+      "name": "OrganizationalChange",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalChange",
+      "label": "組織変革",
+      "comment": "世界観と実践を冒険的なものへ転換するプロセス。ポジティブな動機（もったいない）を起点とする。",
+      "parent": null
+    },
+    {
+      "name": "Practice",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Practice",
+      "label": "実践",
+      "comment": "冒険する組織をつくる具体的な営み。深い自己紹介、リフレクション、ファシリテーション、冒険的フィードバックなどを含む。",
+      "parent": null
+    },
+    {
+      "name": "DeepSelfIntroduction",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/DeepSelfIntroduction",
+      "label": "深い自己紹介",
+      "comment": "経歴だけでなく過去の葛藤・価値観・未来への好奇心（推しの精神）を共有し、心理的安全性を高める実践。",
+      "parent": "Practice"
+    },
+    {
+      "name": "Reflection",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Reflection",
+      "label": "リフレクション",
+      "comment": "KPTやKMQTなどで経験を共有し、チームの共通体験化する内省の実践。",
+      "parent": "Practice"
+    },
+    {
+      "name": "Facilitation",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Facilitation",
+      "label": "ファシリテーション",
+      "comment": "各自の芸風を活かし、前提のズレを察知・理解・共創の三ステップで解消する対話の実践。",
+      "parent": "Practice"
+    },
+    {
+      "name": "AdventureFeedback",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureFeedback",
+      "label": "冒険的フィードバック",
+      "comment": "過去のエラー行動の修正ではなく、未来の可能性の提案として目を開かせる言葉を贈る実践。",
+      "parent": "Practice"
+    },
+    {
+      "name": "HareAndKe",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/HareAndKe",
+      "label": "ハレとケ",
+      "comment": "定例会議（ケ）の質向上と全社総会・合宿（ハレ）への資源投下により精神的整合性を高める場づくり。",
+      "parent": "Practice"
+    },
+    {
+      "name": "LearningCulture",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/LearningCulture",
+      "label": "学習文化",
+      "comment": "教材から学ぶ個人スキル習得を超え、経験から生まれチームの関係性が変化することを称賛する文化。",
+      "parent": null
+    },
+    {
+      "name": "KnowledgeManagement",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/KnowledgeManagement",
+      "label": "ナレッジマネジメント",
+      "comment": "失敗談や葛藤を含む暗黙知と形式知の循環（SECIモデル）をデザインする営み。",
+      "parent": "Practice"
+    },
+    {
+      "name": "AdaptiveChallenge",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdaptiveChallenge",
+      "label": "適応課題",
+      "comment": "価値観や関係性の修正が必要な問題。事象をチームが取り組む問いへ落とし込む目線合わせが重要。",
+      "parent": null
+    },
+    {
+      "name": "AlumniNetwork",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AlumniNetwork",
+      "label": "アルムナイネットワーク",
+      "comment": "退職を組織の裏切りではなく探究の卒業として捉え、卒業生と構築するネットワーク。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "hasWorldview",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "Worldview"
+      ],
+      "label": "世界観を持つ",
+      "comment": "組織が基盤とする思考枠組み（OS）を示す。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasWorldview"
+    },
+    {
+      "name": "appliesLens",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "AdventureLens"
+      ],
+      "label": "レンズを適用する",
+      "comment": "組織がものの見方を転換するために用いる冒険的レンズ。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/appliesLens"
+    },
+    {
+      "name": "usesModel",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "OrganizationalModel"
+      ],
+      "label": "モデルを用いる",
+      "comment": "組織が自己を設計・耕作するために用いる組織モデル。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/usesModel"
+    },
+    {
+      "name": "hasCentralInquiry",
+      "type": "object",
+      "domain": [
+        "CreativeCultivationModel"
+      ],
+      "range": [
+        "Inquiry"
+      ],
+      "label": "中核の探究を持つ",
+      "comment": "CCMの中央に配置される四つの探究との関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasCentralInquiry"
+    },
+    {
+      "name": "pursuesInquiry",
+      "type": "object",
+      "domain": [
+        "Person",
+        "Organization",
+        "Team"
+      ],
+      "range": [
+        "Inquiry"
+      ],
+      "label": "探究を追求する",
+      "comment": "個人・チーム・組織が自己実現・アイデンティティ・ケイパビリティ・ミッションを問い続ける関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/pursuesInquiry"
+    },
+    {
+      "name": "hasAlignment",
+      "type": "object",
+      "domain": [
+        "Organization",
+        "CreativeCultivationModel"
+      ],
+      "range": [
+        "Alignment"
+      ],
+      "label": "整合を持つ",
+      "comment": "構造面と文化面の両面をデザインし続ける関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasAlignment"
+    },
+    {
+      "name": "hasGoal",
+      "type": "object",
+      "domain": [
+        "Organization",
+        "Team",
+        "Person"
+      ],
+      "range": [
+        "Goal"
+      ],
+      "label": "目標を持つ",
+      "comment": "問いと意味が埋め込まれた目標との関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasGoal"
+    },
+    {
+      "name": "hasMember",
+      "type": "object",
+      "domain": [
+        "Organization",
+        "Team"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "成員を持つ",
+      "comment": "組織またはチームを構成する人との関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasMember"
+    },
+    {
+      "name": "belongsToTeam",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Team"
+      ],
+      "label": "チームに属する",
+      "comment": "個人が精神的共同体としてのチームに参加する関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/belongsToTeam"
+    },
+    {
+      "name": "manages",
+      "type": "object",
+      "domain": [
+        "MiddleManager"
+      ],
+      "range": [
+        "Team"
+      ],
+      "label": "マネジメントする",
+      "comment": "ミドルがマネジメントを新たな自己実現の探究として捉え直す対象。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/manages"
+    },
+    {
+      "name": "hasPhilosophy",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "ManagementPhilosophy"
+      ],
+      "label": "経営理念を持つ",
+      "comment": "探究のエネルギーを生み出すツールとしての理念との関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasPhilosophy"
+    },
+    {
+      "name": "generatesInquiryEnergy",
+      "type": "object",
+      "domain": [
+        "ManagementPhilosophy"
+      ],
+      "range": [
+        "Inquiry"
+      ],
+      "label": "探究のエネルギーを生む",
+      "comment": "理念がドグマではなく探究を駆動する関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/generatesInquiryEnergy"
+    },
+    {
+      "name": "undergoesChange",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "OrganizationalChange"
+      ],
+      "label": "変革を経る",
+      "comment": "組織が冒険する組織へと生まれ変わるプロセスとの関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/undergoesChange"
+    },
+    {
+      "name": "isTriggeredBy",
+      "type": "object",
+      "domain": [
+        "OrganizationalChange"
+      ],
+      "range": [
+        "Impulse"
+      ],
+      "label": "衝動に引き起こされる",
+      "comment": "変革が個人の好奇心やもったいないという感覚を火種とすること。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/isTriggeredBy"
+    },
+    {
+      "name": "hasImpulse",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Impulse"
+      ],
+      "label": "衝動を持つ",
+      "comment": "個人の心の中にあるウズウズする好奇心。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasImpulse"
+    },
+    {
+      "name": "employsPractice",
+      "type": "object",
+      "domain": [
+        "Organization",
+        "Team"
+      ],
+      "range": [
+        "Practice"
+      ],
+      "label": "実践を用いる",
+      "comment": "冒険する組織をつくる20のカギに含まれる具体的営みとの関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/employsPractice"
+    },
+    {
+      "name": "holdsMeeting",
+      "type": "object",
+      "domain": [
+        "Organization",
+        "Team"
+      ],
+      "range": [
+        "Meeting"
+      ],
+      "label": "会議を開く",
+      "comment": "対話と価値創造のための場を持つ関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/holdsMeeting"
+    },
+    {
+      "name": "hasLearningCulture",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "LearningCulture"
+      ],
+      "label": "学習文化を持つ",
+      "comment": "アイデンティティの変容を称賛する学びの文化との関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasLearningCulture"
+    },
+    {
+      "name": "addressesChallenge",
+      "type": "object",
+      "domain": [
+        "Team"
+      ],
+      "range": [
+        "AdaptiveChallenge"
+      ],
+      "label": "適応課題に取り組む",
+      "comment": "問題を問いへ落とし込み価値観や関係性を修正する関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/addressesChallenge"
+    },
+    {
+      "name": "hasAlumniNetwork",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "AlumniNetwork"
+      ],
+      "label": "アルムナイネットワークを持つ",
+      "comment": "探究の卒業として捉えた退職者とのつながり。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasAlumniNetwork"
+    },
+    {
+      "name": "supportsChange",
+      "type": "object",
+      "domain": [
+        "MiddleManager"
+      ],
+      "range": [
+        "OrganizationalChange"
+      ],
+      "label": "変革を支える",
+      "comment": "ミドルがトップダウンの構造・文化変革と現場発のうねりを統合する関係。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/supportsChange"
+    },
+    {
+      "name": "transformsFrom",
+      "type": "object",
+      "domain": [
+        "Worldview",
+        "Organization"
+      ],
+      "range": [
+        "MilitaryWorldview"
+      ],
+      "label": "から転換する",
+      "comment": "軍事的世界観からの転換元を示す。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/transformsFrom"
+    },
+    {
+      "name": "transformsTo",
+      "type": "object",
+      "domain": [
+        "Worldview",
+        "Organization"
+      ],
+      "range": [
+        "AdventureWorldview"
+      ],
+      "label": "へと転換する",
+      "comment": "冒険的世界観への転換先を示す。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/transformsTo"
+    },
+    {
+      "name": "embedsQuestion",
+      "type": "data",
+      "domain": [
+        "Goal"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "問いを埋め込む",
+      "comment": "この目標を追うことがどんな学びの機会をもたらすかという問いの文言。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/embedsQuestion"
+    },
+    {
+      "name": "hasMetaphor",
+      "type": "data",
+      "domain": [
+        "ManagementPhilosophy"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "メタファーを持つ",
+      "comment": "解釈の余地を生む、矛盾を含んだ理念の比喩表現。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasMetaphor"
+    },
+    {
+      "name": "hasDescription",
+      "type": "data",
+      "domain": [
+        "Organization",
+        "Team",
+        "Inquiry",
+        "Practice",
+        "Impulse"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明を持つ",
+      "comment": "対象の意味や特徴を表す日本語の説明文。",
+      "uri": "https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasDescription"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

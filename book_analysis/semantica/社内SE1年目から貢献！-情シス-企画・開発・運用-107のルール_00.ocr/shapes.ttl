@@ -1,0 +1,274 @@
+@prefix ex: <https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/shapes> a owl:Ontology .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/InHouseSEShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InHouseSE ;
+    sh:name "社内SE" ;
+    sh:description "事業会社に所属し内部システムと外部デジタルサービス双方を支援する情報システム担当。貢献は最高品質のシステムではなくビジネス価値である。" ;
+    sh:property [
+        sh:path ex:belongsToCompany ;
+        sh:class ex:BusinessCompany ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:transactsWith ;
+        sh:class ex:SIer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:possessesSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/FirstYearInHouseSEShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FirstYearInHouseSE ;
+    sh:name "1年目社内SE" ;
+    sh:description "社会人1年目の社内SE。教えられない上司と学習対象の不明確さという構造的課題に直面し、何を誰から学ぶかを自ら考える必要がある。" ;
+    sh:property [
+        sh:path ex:isAssignedAsGateway ;
+        sh:class ex:OperationsMaintenance ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:facesChallenge ;
+        sh:class ex:StructuralChallenge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToCompany ;
+        sh:class ex:BusinessCompany ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:transactsWith ;
+        sh:class ex:SIer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:possessesSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/SIerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SIer ;
+    sh:name "SIer" ;
+    sh:description "システムインテグレーター等のベンダー企業。日本のIT人材の約70%が所属し、社内SEの主な取引先となる。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/BusinessCompanyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessCompany ;
+    sh:name "事業会社" ;
+    sh:description "ユーザー企業。社内SEはIT業界ではなく所属する事業会社の業界に属し、利益と再投資の循環に貢献する。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ITDepartmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ITDepartment ;
+    sh:name "情報システム部門" ;
+    sh:description "情シス。組織図上の位置やCIO・DX推進組織の有無から会社のIT推進姿勢（守りのITか攻めのITか）が読み取れる。" ;
+    sh:property [
+        sh:path ex:indicatesAttitude ;
+        sh:class ex:ITInvestmentStyle ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/SkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Skill ;
+    sh:name "スキル" ;
+    sh:description "成果を出すために必要な知識・能力。単にスキルを上げても行動が成果に結びつかなければ結果は出ない。" ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ConceptualSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConceptualSkill ;
+    sh:name "コンセプチュアルスキル" ;
+    sh:description "本質を捉え課題を克服するスキル。論理思考・批判的思考・多面的視点・俯瞰力など。日常の問題解決に特に有効。" ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/HumanSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HumanSkill ;
+    sh:name "ヒューマンスキル" ;
+    sh:description "関係を構築・維持するスキル。1年目には顧客視点と相手への敬意が最も効果的である。" ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/TechnicalSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TechnicalSkill ;
+    sh:name "テクニカルスキル" ;
+    sh:description "直ちに活用可能なIT業界知識、開発・インフラ・運用・管理スキル、業界・業務知識およびビジネスモデル理解。" ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ManagementSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ManagementSkill ;
+    sh:name "マネジメントスキル" ;
+    sh:description "人・モノ・金・情報を対象とする管理スキル。1年目は限定的な定型業務やプロジェクトを管理する。" ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ProjectShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Project ;
+    sh:name "プロジェクト" ;
+    sh:description "期限付きの資源管理により成功へ導く取り組み。管理は手段であり目的ではない。進捗・資源・予算・課題等を可視化する。" ;
+    sh:property [
+        sh:path ex:hasPhase ;
+        sh:class ex:ProjectPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesWBS ;
+        sh:class ex:WBS ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:definesRolesWith ;
+        sh:class ex:RASCI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/OperationsMaintenanceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OperationsMaintenance ;
+    sh:name "運用保守" ;
+    sh:description "日常IT運用を支える登竜門業務。知識拡大・人脈拡大・問題解決スキル習得の機会となり、サービスデスク等の役割を含む。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/SystemConstructionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SystemConstruction ;
+    sh:name "システム構築" ;
+    sh:description "業務戦略・IT戦略・プロジェクト方針の下で行うシステム開発・導入。改善・スクラッチ・パッケージ・クラウド・RPAなどの手法がある。" ;
+    sh:property [
+        sh:path ex:employsMethodology ;
+        sh:class ex:DevelopmentMethodology ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ProjectPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProjectPhase ;
+    sh:name "プロジェクトフェーズ" ;
+    sh:description "起案・立ち上げ・構築・リリース運用の4段階。1年目は限られた一領域に参加し前後のつながりを理解する必要がある。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ProposalPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProposalPhase ;
+    sh:name "起案フェーズ" ;
+    sh:description "事業会社で極めて重要な企画段階。As-Is/To-Be、ITソリューション検討、超概算、承認（関所）を含む。企画書のオーナーは提案部門。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/LaunchPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LaunchPhase ;
+    sh:name "立ち上げフェーズ" ;
+    sh:description "構築の方向性（ルール・ガバナンス・組織・SIer関与）を定める段階。RFI/RFP、PoC、契約・価格交渉、体制構築を行う。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ITInvestmentStyleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ITInvestmentStyle ;
+    sh:name "IT投資スタイル" ;
+    sh:description "会社のIT推進姿勢。投資額の目安や組織図から読み取れ、従来型と攻めのITに大別される。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/OffensiveITShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OffensiveIT ;
+    sh:name "攻めのIT" ;
+    sh:description "売上・付加価値、スピード第一、フロントエンド、アジャイル/DevOpsを特徴とするIT投資。CIOやDX推進組織がある場合に明確。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/TraditionalITInvestmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TraditionalITInvestment ;
+    sh:name "従来型IT投資" ;
+    sh:description "コスト削減、安全性第一、バックエンド、ウォーターフォールを特徴とする守りのIT投資。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/DevelopmentMethodologyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DevelopmentMethodology ;
+    sh:name "開発手法" ;
+    sh:description "システム構築の進め方。ウォーターフォール、アジャイル、ハイブリッドなどがありプロジェクトの進行に大きく影響する。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/WaterfallShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Waterfall ;
+    sh:name "ウォーターフォール" ;
+    sh:description "管理・品質・計画がしやすい伝統的開発手法。従来型IT投資と親和性が高い。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/AgileShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Agile ;
+    sh:name "アジャイル" ;
+    sh:description "小さな単位で迅速にリリースし成果物を抑える手法。Web向きで物理運用には向きにくい。攻めのITと親和性が高い。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/WBSShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WBS ;
+    sh:name "WBS" ;
+    sh:description "作業分解構造。大中小の階層分解に担当・進捗・日付を付与しMECEで内部タスクも列挙する。現実的計画とエスカレに用いる。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/RASCIShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RASCI ;
+    sh:name "RASCI" ;
+    sh:description "Responsible・Accountable・Support・Consulted・Informedによる役割分担マトリクス。誤解による超過を防ぐためRFPに添付する。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/FourthIndustrialRevolutionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FourthIndustrialRevolution ;
+    sh:name "第4次産業革命" ;
+    sh:description "IoT・ビッグデータ・AIによる最適化。社内SEの役割を内部IT導入支援からデジタルサービス提供支援へと拡大させた背景。" .
+
+<https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/StructuralChallengeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:StructuralChallenge ;
+    sh:name "構造的課題" ;
+    sh:description "個人の失敗ではなく構造に起因する1年目の困難。教えられない上司、学習対象の不明、人材偏在、リモートによる非公式学習の減少など。" .

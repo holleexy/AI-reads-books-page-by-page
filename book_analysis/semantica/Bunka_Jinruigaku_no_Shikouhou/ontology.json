@@ -1,0 +1,285 @@
+{
+  "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/",
+  "name": "Bunka_Jinruigaku_no_ShikouhouOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Book",
+      "label": "書籍",
+      "comment": "読者に文化人類学の思考の道具箱を提供し、答えではなく探索のルートを伝える本書",
+      "parent": null
+    },
+    {
+      "name": "Anthropologist",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Anthropologist",
+      "label": "人類学者",
+      "comment": "日本・アジア・ヨーロッパ・アフリカで科学技術、宗教、芸術、経済、政治、家族、医療などを研究し教える専門家",
+      "parent": null
+    },
+    {
+      "name": "CulturalAnthropology",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/CulturalAnthropology",
+      "label": "文化人類学",
+      "comment": "現場の人々の感じ方を重視し、白黒判断ではなく絡み合った複雑さを描き出す学問",
+      "parent": null
+    },
+    {
+      "name": "Fieldwork",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Fieldwork",
+      "label": "フィールドワーク",
+      "comment": "参与観察の身体経験を通じ、他者理解と自己の前提の発見、既存概念の更新を行う方法",
+      "parent": null
+    },
+    {
+      "name": "AnthropologicalThinking",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalThinking",
+      "label": "文化人類学的思考",
+      "comment": "特定の答えではなく、ルートの探索方法と目のつけどころを提供する思考",
+      "parent": null
+    },
+    {
+      "name": "Closeness",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Closeness",
+      "label": "近さ",
+      "comment": "フィールドワークで対象に肉薄し、五感を働かせ現場の違和感や問いから目をそらさないこと",
+      "parent": "AnthropologicalThinking"
+    },
+    {
+      "name": "Distance",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Distance",
+      "label": "遠さ",
+      "comment": "ヤップ島の石貨や東アフリカの牧畜民など遠い事例との比較により固定観念を打ち砕くこと",
+      "parent": "AnthropologicalThinking"
+    },
+    {
+      "name": "AnthropologicalConcept",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept",
+      "label": "人類学的概念",
+      "comment": "世界のとらえ方、価値と秩序、あらたな共同性を問い直すための分析概念",
+      "parent": null
+    },
+    {
+      "name": "Nature",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Nature",
+      "label": "自然",
+      "comment": "客観的実体ではなく文化的に構築された概念。多自然主義では複数の自然が想定される",
+      "parent": "AnthropologicalConcept"
+    },
+    {
+      "name": "Culture",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Culture",
+      "label": "文化",
+      "comment": "人々の感じ方や考え方であり、他者理解を通じて自己の前提も発見される対象",
+      "parent": "AnthropologicalConcept"
+    },
+    {
+      "name": "Technology",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Technology",
+      "label": "技術",
+      "comment": "ホモ・ファーベルとしての人間が作り、身体・社会・環世界を相互に条件づけ拡張するもの",
+      "parent": "AnthropologicalConcept"
+    },
+    {
+      "name": "Magic",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Magic",
+      "label": "呪術",
+      "comment": "類感・感染の連想、心理的社会的機能、野生の思考やネットワークとして分析される実践",
+      "parent": "AnthropologicalConcept"
+    },
+    {
+      "name": "Science",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Science",
+      "label": "科学",
+      "comment": "社会的実践により構築され、アクターネットワーク論では呪術と本質的に区別されない事実",
+      "parent": "AnthropologicalConcept"
+    },
+    {
+      "name": "Art",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Art",
+      "label": "芸術",
+      "comment": "制度的にいつ芸術になるかという問いと、社会的関係を媒介する指標として再定義される",
+      "parent": "AnthropologicalConcept"
+    },
+    {
+      "name": "Gift",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Gift",
+      "label": "贈与",
+      "comment": "与える・受け取る・お返しする義務を伴い、クラやポトラッチに見られる全体的社会的事実",
+      "parent": "AnthropologicalConcept"
+    },
+    {
+      "name": "Money",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Money",
+      "label": "貨幣",
+      "comment": "商品起源説に対し、石貨やブロックチェーンのように記憶・合意・信用で機能するシステム",
+      "parent": "AnthropologicalConcept"
+    },
+    {
+      "name": "State",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/State",
+      "label": "国家",
+      "comment": "ヌアー社会など国家なき秩序との対比により中央集権的権力を相対化する対象",
+      "parent": "AnthropologicalConcept"
+    },
+    {
+      "name": "NationState",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/NationState",
+      "label": "国民国家",
+      "comment": "教育やメディアを通じて想像された共同体として形成され、グローバル化で揺らぐ枠組み",
+      "parent": "State"
+    },
+    {
+      "name": "War",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/War",
+      "label": "戦争",
+      "comment": "隣接集団との関係や普通の人が加害者となる文脈、自己再生産する暴力の連鎖として分析される",
+      "parent": "AnthropologicalConcept"
+    },
+    {
+      "name": "Family",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Family",
+      "label": "家族",
+      "comment": "血縁だけでなく共に暮らす関係性により構築され、ジェンダーや生殖医療により再編される",
+      "parent": "AnthropologicalConcept"
+    },
+    {
+      "name": "Care",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/Care",
+      "label": "ケア",
+      "comment": "選択の論理に対し必要性に寄り添う共同的・生態系的実践であり、基盤的コミュニズムでもある",
+      "parent": "AnthropologicalConcept"
+    },
+    {
+      "name": "CivilSociety",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/CivilSociety",
+      "label": "市民社会",
+      "comment": "公式手段を持たない人々の逃散や日常的交渉によるしたたかな政治が営まれる場",
+      "parent": "AnthropologicalConcept"
+    }
+  ],
+  "properties": [
+    {
+      "name": "authoredBy",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Anthropologist"
+      ],
+      "label": "執筆者",
+      "comment": "本書を書いた文化人類学の専門家を示す",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/authoredBy"
+    },
+    {
+      "name": "conductsFieldwork",
+      "type": "object",
+      "domain": [
+        "Anthropologist"
+      ],
+      "range": [
+        "Fieldwork"
+      ],
+      "label": "フィールドワークを行う",
+      "comment": "人類学者が参与観察を身体経験として実施する関係",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/conductsFieldwork"
+    },
+    {
+      "name": "usesMethod",
+      "type": "object",
+      "domain": [
+        "CulturalAnthropology"
+      ],
+      "range": [
+        "Fieldwork"
+      ],
+      "label": "方法として用いる",
+      "comment": "文化人類学が現場調査を理解の方法として用いる関係",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/usesMethod"
+    },
+    {
+      "name": "providesThinking",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "AnthropologicalThinking"
+      ],
+      "label": "思考法を提供する",
+      "comment": "本書が近さと遠さを核とする思考の道具箱を提供する関係",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/providesThinking"
+    },
+    {
+      "name": "hasCoreDimension",
+      "type": "object",
+      "domain": [
+        "AnthropologicalThinking"
+      ],
+      "range": [
+        "Closeness",
+        "Distance"
+      ],
+      "label": "核となる次元",
+      "comment": "文化人類学的思考が近さと遠さを核とすることを示す",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/hasCoreDimension"
+    },
+    {
+      "name": "studies",
+      "type": "object",
+      "domain": [
+        "Anthropologist"
+      ],
+      "range": [
+        "AnthropologicalConcept"
+      ],
+      "label": "研究する",
+      "comment": "人類学者が自然、贈与、国家、ケアなどの概念を研究対象とする関係",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/studies"
+    },
+    {
+      "name": "culturallyConstructs",
+      "type": "object",
+      "domain": [
+        "Culture"
+      ],
+      "range": [
+        "Nature"
+      ],
+      "label": "文化的に構築する",
+      "comment": "自然を客観的実体ではなく文化的概念として構築する関係",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/culturallyConstructs"
+    },
+    {
+      "name": "defamiliarizes",
+      "type": "object",
+      "domain": [
+        "Distance"
+      ],
+      "range": [
+        "AnthropologicalConcept"
+      ],
+      "label": "相対化する",
+      "comment": "遠い事例との比較が見慣れた事物や近代的枠組みの固定観念を打ち砕く関係",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/defamiliarizes"
+    },
+    {
+      "name": "hasTitle",
+      "type": "data",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "書名",
+      "comment": "書籍の標題を表す",
+      "uri": "https://books.local/Bunka_Jinruigaku_no_Shikouhou/hasTitle"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

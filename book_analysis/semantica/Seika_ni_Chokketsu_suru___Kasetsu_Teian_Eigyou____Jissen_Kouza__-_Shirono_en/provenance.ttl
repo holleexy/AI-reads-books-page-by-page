@@ -1,0 +1,411 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/> .
+
+book:source a prov:Entity ;
+  foaf:name "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" .
+
+book:BtoB a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:新製品 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮説提案営業 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:オンライン商談 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:新規顧客開拓 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:IT industry a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報通信産業 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:GDP a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:新型コロナウイルス a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:リモートワーク a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:SIers a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネスモデル a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:システムリプレース a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハードウェア a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:待ちの営業 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:攻めの営業 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:ソリューション a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:Wait-and-see Sales a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:Offensive/Proactive Sales a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:Proactive Sales a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:近年 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:同質化 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:クラウド利用 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:business negotiations a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:Japanese SIers a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業組織 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:2020年 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:提案資料 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:active sales a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:リスク a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:既存顧客 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:将来 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:構造的な壁 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:10年以上 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:約10年間 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:著者 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:パートナー企業 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:独立後 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:前月 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:1ヶ月 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:トーク術 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヒアリング術 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:Web会議システム a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:プレゼンテクニック a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:Hypothesis-based proposal selling a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:executives a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:management a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:産業界 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:成長産業 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:モデルケース a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:総務省 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:令和３年版　情報通信白書 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:名目国内生産高 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:歴史的転換点 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:これまで a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:都心 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:働き方改革 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:DX a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:デジタルトランスフォーメーション a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:政府 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:電子帳簿保存法 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:理論と現実のギャップ a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:1990s a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:更新 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:今年 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:A社 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:基幹システムリプレース a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:来年 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:B社 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:再来年 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:C社 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:中長期的な年間売上の予測 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:ソフトウェア a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベンダー a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:メーカー a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:大型受注 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:ここ十数年 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:オンプレミス a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:IaaS a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:ネットワーク製品 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:サーバー a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:定期的なリプレース（更新）案件 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:予算達成 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:パラダイムシフト a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:引き合い a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:カテゴリ a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:製品機能 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:競争環境 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:ホワイトペーパー a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:ウェビナー a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:インターネット a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:対面商談 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:cloud computing a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:案件化 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:the past a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業間取引 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:製造業 a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:remote work models a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:pandemic a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .
+
+book:year after year a prov:Entity ;
+  book:book_key "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en" ;
+  prov:wasDerivedFrom book:source .

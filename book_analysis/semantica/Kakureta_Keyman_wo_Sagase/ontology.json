@@ -1,0 +1,565 @@
+{
+  "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/",
+  "name": "Kakureta_Keyman_wo_SagaseOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "SalesMisconception",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/SalesMisconception",
+      "label": "営業の誤解",
+      "comment": "モダンB2B営業が固執し契約獲得を阻害する誤った常識。全員追跡、優れた提案、過剰カスタマイズ、ベネフィット伝達、コンテンツナーチャリングなどが該当する。",
+      "parent": null
+    },
+    {
+      "name": "OneThirdProblem",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/OneThirdProblem",
+      "label": "3分の1問題",
+      "comment": "サプライヤーが候補に挙がり交渉の席には着けるものの、最終的に価格競争に巻き込まれ受注確率が3分の1に落ちる構造的課題。",
+      "parent": null
+    },
+    {
+      "name": "CommodityTrap",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/CommodityTrap",
+      "label": "コモディティ化の罠",
+      "comment": "製品が優れていても価格競争に陥り、顧客が2番目に安いそこそこの品質で妥協する現象。",
+      "parent": null
+    },
+    {
+      "name": "StatusQuo",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/StatusQuo",
+      "label": "現状維持",
+      "comment": "サプライヤーの最大の競争相手。顧客が変化せず既存のやり方を続けることであり、隠れたコストと痛みを生む。",
+      "parent": null
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Customer",
+      "label": "顧客",
+      "comment": "法人購買を行う企業。購買決定には平均5.4人のステークホルダーが関与する。",
+      "parent": null
+    },
+    {
+      "name": "Supplier",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Supplier",
+      "label": "サプライヤー",
+      "comment": "法人向けに製品やソリューションを提供する売り手企業。",
+      "parent": null
+    },
+    {
+      "name": "Salesperson",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Salesperson",
+      "label": "販売員",
+      "comment": "顧客に接触し提案を行う営業担当者。プレゼンターからファシリテーターへ役割を変える必要がある。",
+      "parent": null
+    },
+    {
+      "name": "ChallengerSalesperson",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/ChallengerSalesperson",
+      "label": "チャレンジャー販売員",
+      "comment": "花形販売員。顧客に建設的な緊張をもたらし、モビライザーと共鳴して変革を推進する論客タイプ。",
+      "parent": "Salesperson"
+    },
+    {
+      "name": "BuyingCommittee",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/BuyingCommittee",
+      "label": "購買委員会",
+      "comment": "平均5.4人のステークホルダーからなる意思決定集団。個別のイエスが集団のノーになる1プラス1プラス1イコール0の現象を起こす。",
+      "parent": null
+    },
+    {
+      "name": "BuyingProcess",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/BuyingProcess",
+      "label": "購買プロセス",
+      "comment": "情報過多とリスク回避と専門部門の発言権増大により不良議会化した法人購買の流れ。37パーセント地点で瓦解しやすく、57パーセント地点で初めて販売員に接触する。",
+      "parent": null
+    },
+    {
+      "name": "Stakeholder",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Stakeholder",
+      "label": "ステークホルダー",
+      "comment": "顧客企業の購買決定に関与する関係者。それぞれ異なるメンタルモデルを持ち、衝突するとリスク回避と経費削減だけが合意される。",
+      "parent": null
+    },
+    {
+      "name": "Mobilizer",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Mobilizer",
+      "label": "モビライザー",
+      "comment": "組織を動かす能力とコンセンサスを形成する能力を持つ動員者。ゴー・ゲッター、ティーチャー、スケプティックの総称であり隠れたキーマンである。",
+      "parent": "Stakeholder"
+    },
+    {
+      "name": "Talker",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Talker",
+      "label": "トーカー",
+      "comment": "話し相手としては優秀だが取引を成立させる力は弱い関係者。ガイド、フレンド、クライマーの総称。",
+      "parent": "Stakeholder"
+    },
+    {
+      "name": "Blocker",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Blocker",
+      "label": "ブロッカー",
+      "comment": "現状維持を好み変化に抵抗する阻害者。質の高い契約の確率を47パーセント低下させる。無視は最大のリスクである。",
+      "parent": "Stakeholder"
+    },
+    {
+      "name": "GoGetter",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/GoGetter",
+      "label": "ゴー・ゲッター",
+      "comment": "実務家で、アイデアを具体的な業務計画に落とし込むのが得意なやり手。モビライザーの一類型。",
+      "parent": "Mobilizer"
+    },
+    {
+      "name": "Teacher",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Teacher",
+      "label": "ティーチャー",
+      "comment": "感情重視で、ビジョンやストーリーを通じて社内を巻き込むのが得意な教育者。モビライザーの一類型。",
+      "parent": "Mobilizer"
+    },
+    {
+      "name": "Skeptic",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Skeptic",
+      "label": "スケプティック",
+      "comment": "データと論理を重視し、徹底的に検証してから支持を表明する懐疑派。モビライザーの一類型。",
+      "parent": "Mobilizer"
+    },
+    {
+      "name": "Guide",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Guide",
+      "label": "ガイド",
+      "comment": "内部情報に通じているが変革推進力は低い案内役。トーカーの一類型。",
+      "parent": "Talker"
+    },
+    {
+      "name": "Friend",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Friend",
+      "label": "フレンド",
+      "comment": "接触しやすく親切だが成約への寄与は低い友だちタイプ。トーカーの一類型。",
+      "parent": "Talker"
+    },
+    {
+      "name": "Climber",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Climber",
+      "label": "クライマー",
+      "comment": "個人的な利益やキャリアのために動く上昇志向の関係者。トーカーの一類型。",
+      "parent": "Talker"
+    },
+    {
+      "name": "MentalModel",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/MentalModel",
+      "label": "メンタルモデル",
+      "comment": "ステークホルダーが持つ世界観と優先事項。多様なモデルの衝突は最低の共通項であるリスク回避と何もしないことだけを残しコモディティ化を招く。",
+      "parent": null
+    },
+    {
+      "name": "CommercialInsight",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/CommercialInsight",
+      "label": "コマーシャル・インサイト",
+      "comment": "顧客が自身のビジネスについてよくわかっているべきなのに気づいていないことを提示する深い洞察。現状維持の隠れた痛みを証明しメンタルモデルを転換する組織的な戦略資産。",
+      "parent": null
+    },
+    {
+      "name": "SICContentProcess",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/SICContentProcess",
+      "label": "SICコンテンツプロセス",
+      "comment": "刺激、導入、直面という道筋でモビライザーのメンタルモデルを変化させるコンテンツ設計。インサイトに収斂しないコンテンツは破棄すべきである。",
+      "parent": null
+    },
+    {
+      "name": "Content",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/Content",
+      "label": "コンテンツ",
+      "comment": "刺激用の予想外データやインフォグラフィック、導入用のホワイトペーパー、直面用のペインチェッカーなど、SICに直結する情報資産。",
+      "parent": null
+    },
+    {
+      "name": "CollectiveLearning",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/CollectiveLearning",
+      "label": "コレクティブラーニング",
+      "comment": "顧客関係者同士を結びつけ共通言語と共通のビジョンを構築する集合的学習。集団の機能不全を3分の1に低下させ高品質な取引の確率を高める。",
+      "parent": null
+    },
+    {
+      "name": "CommercialCoaching",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/CommercialCoaching",
+      "label": "コマーシャル・コーチング",
+      "comment": "販売員がファシリテーターとしてモビライザーに社内での動き方と同僚の説得方法を指導し、購買プロセスを支援する活動。",
+      "parent": null
+    },
+    {
+      "name": "OpportunityPlanning",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/OpportunityPlanning",
+      "label": "オポチュニティ・プランニング",
+      "comment": "誰に会うかではなく、モビライザーにインサイトをリサーチさせ集団を合意させるかというクリティカル・シンキングに基づく取引計画。",
+      "parent": null
+    },
+    {
+      "name": "BuyerSignal",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/BuyerSignal",
+      "label": "バイヤーシグナル",
+      "comment": "顧客が認めた購買行動の進捗結果。従来のセラーリードではなくこれをマイルストーンとして管理する。",
+      "parent": null
+    },
+    {
+      "name": "CaseStudy",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/CaseStudy",
+      "label": "事例",
+      "comment": "デンツプライやゼロックスなど、コマーシャル・インサイトによりメンタルモデルを転換し価格競争を回避した成功事例。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "hasStakeholder",
+      "type": "object",
+      "domain": [
+        "Customer",
+        "BuyingCommittee"
+      ],
+      "range": [
+        "Stakeholder"
+      ],
+      "label": "ステークホルダーを持つ",
+      "comment": "顧客または購買委員会が関与する関係者を示す。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/hasStakeholder"
+    },
+    {
+      "name": "belongsToCustomer",
+      "type": "object",
+      "domain": [
+        "Stakeholder",
+        "BuyingCommittee",
+        "BuyingProcess"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "顧客に属する",
+      "comment": "関係者や購買の仕組みがどの顧客企業に属するかを示す。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/belongsToCustomer"
+    },
+    {
+      "name": "hasMentalModel",
+      "type": "object",
+      "domain": [
+        "Stakeholder"
+      ],
+      "range": [
+        "MentalModel"
+      ],
+      "label": "メンタルモデルを持つ",
+      "comment": "各ステークホルダー固有の世界観と優先事項を示す。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/hasMentalModel"
+    },
+    {
+      "name": "targetsMobilizer",
+      "type": "object",
+      "domain": [
+        "ChallengerSalesperson"
+      ],
+      "range": [
+        "Mobilizer"
+      ],
+      "label": "モビライザーを標的にする",
+      "comment": "花形販売員が接触しやすさや役職ではなく組織を動かす動員者を狙う関係。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/targetsMobilizer"
+    },
+    {
+      "name": "presentsInsight",
+      "type": "object",
+      "domain": [
+        "Salesperson",
+        "Supplier"
+      ],
+      "range": [
+        "CommercialInsight"
+      ],
+      "label": "インサイトを提示する",
+      "comment": "製品利点ではなく顧客の現状認識を破壊するコマーシャル・インサイトを示す。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/presentsInsight"
+    },
+    {
+      "name": "transformsMentalModel",
+      "type": "object",
+      "domain": [
+        "CommercialInsight"
+      ],
+      "range": [
+        "MentalModel"
+      ],
+      "label": "メンタルモデルを転換する",
+      "comment": "型破りな洞察により顧客の誤った認識を壊し新しい因果関係を植え付ける。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/transformsMentalModel"
+    },
+    {
+      "name": "exposesPainOf",
+      "type": "object",
+      "domain": [
+        "CommercialInsight"
+      ],
+      "range": [
+        "StatusQuo"
+      ],
+      "label": "現状維持の痛みを暴露する",
+      "comment": "変わるメリットではなく、変わらないことが生む隠れたコストを証明する関係。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/exposesPainOf"
+    },
+    {
+      "name": "competesWith",
+      "type": "object",
+      "domain": [
+        "Supplier"
+      ],
+      "range": [
+        "StatusQuo"
+      ],
+      "label": "競争する",
+      "comment": "最大の競争相手はライバル企業ではなく顧客の現状維持であるという関係。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/competesWith"
+    },
+    {
+      "name": "causesCommodityTrap",
+      "type": "object",
+      "domain": [
+        "StatusQuo",
+        "MentalModel"
+      ],
+      "range": [
+        "CommodityTrap"
+      ],
+      "label": "コモディティ化を引き起こす",
+      "comment": "現状維持志向と最低共通項への合意が価格競争の罠を生む。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/causesCommodityTrap"
+    },
+    {
+      "name": "resultsInOneThirdProblem",
+      "type": "object",
+      "domain": [
+        "CommodityTrap"
+      ],
+      "range": [
+        "OneThirdProblem"
+      ],
+      "label": "3分の1問題をもたらす",
+      "comment": "コモディティ化が最終局面の価格競争と低い受注確率につながる。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/resultsInOneThirdProblem"
+    },
+    {
+      "name": "employs",
+      "type": "object",
+      "domain": [
+        "Supplier"
+      ],
+      "range": [
+        "Salesperson"
+      ],
+      "label": "雇用する",
+      "comment": "サプライヤーと販売員の所属関係。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/employs"
+    },
+    {
+      "name": "sellsTo",
+      "type": "object",
+      "domain": [
+        "Supplier"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "販売する",
+      "comment": "サプライヤーが顧客企業へソリューションを提供する関係。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/sellsTo"
+    },
+    {
+      "name": "hasBuyingProcess",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "BuyingProcess"
+      ],
+      "label": "購買プロセスを持つ",
+      "comment": "顧客企業における複雑化した購買の流れ。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/hasBuyingProcess"
+    },
+    {
+      "name": "participatesIn",
+      "type": "object",
+      "domain": [
+        "Stakeholder"
+      ],
+      "range": [
+        "BuyingProcess",
+        "CollectiveLearning"
+      ],
+      "label": "参加する",
+      "comment": "ステークホルダーが購買プロセスや集合的学習に関与する。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/participatesIn"
+    },
+    {
+      "name": "coaches",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "Mobilizer"
+      ],
+      "label": "コーチングする",
+      "comment": "販売員がモビライザーに社内説得と買い方を指導する関係。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/coaches"
+    },
+    {
+      "name": "appliesCoaching",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "CommercialCoaching"
+      ],
+      "label": "コーチングを適用する",
+      "comment": "販売員がコマーシャル・コーチングを実践する。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/appliesCoaching"
+    },
+    {
+      "name": "facilitates",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "CollectiveLearning"
+      ],
+      "label": "促進する",
+      "comment": "販売員が関係者間の共通言語と共通ビジョンの構築を主導する。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/facilitates"
+    },
+    {
+      "name": "obstructs",
+      "type": "object",
+      "domain": [
+        "Blocker"
+      ],
+      "range": [
+        "BuyingProcess",
+        "BuyingCommittee"
+      ],
+      "label": "阻害する",
+      "comment": "ブロッカーが変革と高品質契約の成立を妨害する。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/obstructs"
+    },
+    {
+      "name": "neutralizes",
+      "type": "object",
+      "domain": [
+        "CollectiveLearning"
+      ],
+      "range": [
+        "Blocker"
+      ],
+      "label": "無力化する",
+      "comment": "関係者間の社会的圧力によりブロッカーを封じ込める。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/neutralizes"
+    },
+    {
+      "name": "followsProcess",
+      "type": "object",
+      "domain": [
+        "Supplier"
+      ],
+      "range": [
+        "SICContentProcess"
+      ],
+      "label": "プロセスに従う",
+      "comment": "マーケティングが刺激・導入・直面の道筋でコンテンツを設計する。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/followsProcess"
+    },
+    {
+      "name": "produces",
+      "type": "object",
+      "domain": [
+        "SICContentProcess"
+      ],
+      "range": [
+        "Content"
+      ],
+      "label": "生み出す",
+      "comment": "SICプロセスがインサイトに収斂するコンテンツを生成する。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/produces"
+    },
+    {
+      "name": "convergesOn",
+      "type": "object",
+      "domain": [
+        "Content"
+      ],
+      "range": [
+        "CommercialInsight"
+      ],
+      "label": "収斂する",
+      "comment": "すべてのコンテンツが一つのコマーシャル・インサイトに結びつくべきである。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/convergesOn"
+    },
+    {
+      "name": "illustratedBy",
+      "type": "object",
+      "domain": [
+        "CommercialInsight"
+      ],
+      "range": [
+        "CaseStudy"
+      ],
+      "label": "事例で示される",
+      "comment": "インサイト構築がデンツプライやゼロックスなどの事例で具体化される。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/illustratedBy"
+    },
+    {
+      "name": "tracksSignal",
+      "type": "object",
+      "domain": [
+        "OpportunityPlanning"
+      ],
+      "range": [
+        "BuyerSignal"
+      ],
+      "label": "シグナルを追跡する",
+      "comment": "取引計画が営業活動量ではなく顧客の購買進捗をマイルストーンにする。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/tracksSignal"
+    },
+    {
+      "name": "plansFor",
+      "type": "object",
+      "domain": [
+        "OpportunityPlanning"
+      ],
+      "range": [
+        "Mobilizer",
+        "CollectiveLearning"
+      ],
+      "label": "計画対象とする",
+      "comment": "オポチュニティ計画がモビライザーへのインサイト提供と集団合意形成を中心に組まれる。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/plansFor"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "SalesMisconception",
+        "CommercialInsight",
+        "CaseStudy",
+        "Content"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "誤解、インサイト、事例、コンテンツの内容を表す文字列。",
+      "uri": "https://books.local/Kakureta_Keyman_wo_Sagase/description"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

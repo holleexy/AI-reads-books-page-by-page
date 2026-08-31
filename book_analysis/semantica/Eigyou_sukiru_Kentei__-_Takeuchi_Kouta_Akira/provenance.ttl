@@ -1,0 +1,399 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/> .
+
+book:source a prov:Entity ;
+  foaf:name "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" .
+
+book:共感獲得 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:2010年4月 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:リクルート a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:キャリア a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:いい営業像 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:著者 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:読者 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:経営者 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:sales a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:第1章 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:マナーがある状態 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:事業開発営業 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンサルティング営業 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:業界 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:Level 0 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:レベル0の1 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヒアリング a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:スキル a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネスの本質的な価値 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:2年目 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:真因 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:business manners a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:経験談 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:モノグサ株式会社 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:想定顧客像 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:discipline a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:現状把握 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:他者からの共感獲得 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:考え方 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:景況感 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:広告商品 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:安い商品 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:1年目 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:四半期 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:表彰 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:金融危機 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:30歳 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:3年間 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:起業 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:新規事業立ち上げ a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:グローバル展開 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:本書 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:畔柳氏 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:代表取締役CEO a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:高校時代 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:Monoxer a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:ノウハウ a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:自慢話 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:サービス a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:ミッション a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:資金調達 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:採用活動 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:CEO a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:How to a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロセス a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:empathy a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:marketing a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:academic subject a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:psychology a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:experimental economics a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:基準 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:検定受検者 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:職種 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:集合知化 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:混迷する営業論 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:フレームワーク a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客のニーズ a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:KPI a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:重要業績評価指標 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:ニーズ a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:interpersonal skills a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:purchasing behavior a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:text-based communication a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:good manners a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:千差万別 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報の非対称性を埋める a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:顕在的ニーズ a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:受注 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:課題の発見と合意形成 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:商談相手の目標 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:ありたい姿 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:目標と現状のギャップの共有 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮説ベース a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:優先順位付け a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:解決策の提案から受注まで a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:商品 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:キーパーソン a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:決裁者級のキーパーソン a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:数年単位 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:目標の引き上げ a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:合法的な課題創造 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:基本的なスキル a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:スーツ a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:Q&A a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:プレゼンテーション能力 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:窓口担当者 a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロールプレイング a prov:Entity ;
+  book:book_key "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira" ;
+  prov:wasDerivedFrom book:source .

@@ -1,0 +1,5650 @@
+{
+  "entities": [
+    {
+      "id": "BtoB",
+      "name": "BtoB",
+      "text": "BtoB",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "営業組織",
+      "name": "営業組織",
+      "text": "営業組織",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "新製品",
+      "name": "新製品",
+      "text": "新製品",
+      "type": "PRODUCT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "既存顧客",
+      "name": "既存顧客",
+      "text": "既存顧客",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "新規顧客",
+      "name": "新規顧客",
+      "text": "新規顧客",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "将来",
+      "name": "将来",
+      "text": "将来",
+      "type": "DATE",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "構造的な壁",
+      "name": "構造的な壁",
+      "text": "構造的な壁",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "リスク",
+      "name": "リスク",
+      "text": "リスク",
+      "type": "CONCEPT",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "仮説提案営業",
+      "name": "仮説提案営業",
+      "text": "仮説提案営業",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "仮説提案営業",
+      "name": "仮説提案営業",
+      "text": "仮説提案営業",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "10年以上",
+      "name": "10年以上",
+      "text": "10年以上",
+      "type": "DATE",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "仮説提案営業",
+      "name": "仮説提案営業",
+      "text": "仮説提案営業",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "約10年間",
+      "name": "約10年間",
+      "text": "約10年間",
+      "type": "DATE",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "仮説提案営業",
+      "name": "仮説提案営業",
+      "text": "仮説提案営業",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "著者",
+      "name": "著者",
+      "text": "著者",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "新製品",
+      "name": "新製品",
+      "text": "新製品",
+      "type": "PRODUCT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "パートナー企業",
+      "name": "パートナー企業",
+      "text": "パートナー企業",
+      "type": "ORG",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "独立後",
+      "name": "独立後",
+      "text": "独立後",
+      "type": "DATE",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "仮説提案営業メソッド",
+      "name": "仮説提案営業メソッド",
+      "text": "仮説提案営業メソッド",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "前月",
+      "name": "前月",
+      "text": "前月",
+      "type": "DATE",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "1ヶ月",
+      "name": "1ヶ月",
+      "text": "1ヶ月",
+      "type": "DATE",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "BtoB営業",
+      "name": "BtoB営業",
+      "text": "BtoB営業",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "トーク術",
+      "name": "トーク術",
+      "text": "トーク術",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ヒアリング術",
+      "name": "ヒアリング術",
+      "text": "ヒアリング術",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "提案資料",
+      "name": "提案資料",
+      "text": "提案資料",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "BtoB",
+      "name": "BtoB",
+      "text": "BtoB",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Web会議システム",
+      "name": "Web会議システム",
+      "text": "Web会議システム",
+      "type": "PRODUCT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "オンライン商談",
+      "name": "オンライン商談",
+      "text": "オンライン商談",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "新規顧客開拓",
+      "name": "新規顧客開拓",
+      "text": "新規顧客開拓",
+      "type": "CONCEPT",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "プレゼンテクニック",
+      "name": "プレゼンテクニック",
+      "text": "プレゼンテクニック",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Hypothesis-based proposal selling",
+      "name": "Hypothesis-based proposal selling",
+      "text": "Hypothesis-based proposal selling",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "仮説提案営業",
+      "name": "仮説提案営業",
+      "text": "仮説提案営業",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT industry",
+      "name": "IT industry",
+      "text": "IT industry",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT industry",
+      "name": "IT industry",
+      "text": "IT industry",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT solutions",
+      "name": "IT solutions",
+      "text": "IT solutions",
+      "type": "PRODUCT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "B2B",
+      "name": "B2B",
+      "text": "B2B",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "sales professionals",
+      "name": "sales professionals",
+      "text": "sales professionals",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "executives",
+      "name": "executives",
+      "text": "executives",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "management",
+      "name": "management",
+      "text": "management",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "日本",
+      "name": "日本",
+      "text": "日本",
+      "type": "GPE",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "産業界",
+      "name": "産業界",
+      "text": "産業界",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "成長産業",
+      "name": "成長産業",
+      "text": "成長産業",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "BtoB営業",
+      "name": "BtoB営業",
+      "text": "BtoB営業",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "BtoB",
+      "name": "BtoB",
+      "text": "BtoB",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "モデルケース",
+      "name": "モデルケース",
+      "text": "モデルケース",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "総務省",
+      "name": "総務省",
+      "text": "総務省",
+      "type": "ORG",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "令和３年版　情報通信白書",
+      "name": "令和３年版　情報通信白書",
+      "text": "令和３年版　情報通信白書",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "2019年",
+      "name": "2019年",
+      "text": "2019年",
+      "type": "DATE",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "情報通信産業",
+      "name": "情報通信産業",
+      "text": "情報通信産業",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "名目国内生産高",
+      "name": "名目国内生産高",
+      "text": "名目国内生産高",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "GDP",
+      "name": "GDP",
+      "text": "GDP",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "日本",
+      "name": "日本",
+      "text": "日本",
+      "type": "GPE",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "情報通信産業",
+      "name": "情報通信産業",
+      "text": "情報通信産業",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "GDP",
+      "name": "GDP",
+      "text": "GDP",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "BtoB営業",
+      "name": "BtoB営業",
+      "text": "BtoB営業",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "仮説提案",
+      "name": "仮説提案",
+      "text": "仮説提案",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "2020年",
+      "name": "2020年",
+      "text": "2020年",
+      "type": "DATE",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "新型コロナウイルス",
+      "name": "新型コロナウイルス",
+      "text": "新型コロナウイルス",
+      "type": "EVENT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "歴史的転換点",
+      "name": "歴史的転換点",
+      "text": "歴史的転換点",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "新型コロナウイルス",
+      "name": "新型コロナウイルス",
+      "text": "新型コロナウイルス",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "リモートワーク制度",
+      "name": "リモートワーク制度",
+      "text": "リモートワーク制度",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "日本",
+      "name": "日本",
+      "text": "日本",
+      "type": "GPE",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "これまで",
+      "name": "これまで",
+      "text": "これまで",
+      "type": "DATE",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "リモートワーク",
+      "name": "リモートワーク",
+      "text": "リモートワーク",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "都心",
+      "name": "都心",
+      "text": "都心",
+      "type": "GPE",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "リモートワーク",
+      "name": "リモートワーク",
+      "text": "リモートワーク",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "働き方改革",
+      "name": "働き方改革",
+      "text": "働き方改革",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "DX",
+      "name": "DX",
+      "text": "DX",
+      "type": "CONCEPT",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "デジタルトランスフォーメーション",
+      "name": "デジタルトランスフォーメーション",
+      "text": "デジタルトランスフォーメーション",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "政府",
+      "name": "政府",
+      "text": "政府",
+      "type": "ORG",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "2022年1月",
+      "name": "2022年1月",
+      "text": "2022年1月",
+      "type": "DATE",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "電子帳簿保存法",
+      "name": "電子帳簿保存法",
+      "text": "電子帳簿保存法",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "理論と現実のギャップ",
+      "name": "理論と現実のギャップ",
+      "text": "理論と現実のギャップ",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ビジネスチャンス",
+      "name": "ビジネスチャンス",
+      "text": "ビジネスチャンス",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT企業",
+      "name": "IT企業",
+      "text": "IT企業",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "営業現場",
+      "name": "営業現場",
+      "text": "営業現場",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "新規顧客開拓",
+      "name": "新規顧客開拓",
+      "text": "新規顧客開拓",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "新製品拡販",
+      "name": "新製品拡販",
+      "text": "新製品拡販",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT",
+      "name": "IT",
+      "text": "IT",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "system integration",
+      "name": "system integration",
+      "text": "system integration",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "information systems",
+      "name": "information systems",
+      "text": "information systems",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Japan",
+      "name": "Japan",
+      "text": "Japan",
+      "type": "GPE",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "1990s",
+      "name": "1990s",
+      "text": "1990s",
+      "type": "DATE",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT",
+      "name": "IT",
+      "text": "IT",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "SIers",
+      "name": "SIers",
+      "text": "SIers",
+      "type": "ORG",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "System Integrators",
+      "name": "System Integrators",
+      "text": "System Integrators",
+      "type": "ORG",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Japanese SIers",
+      "name": "Japanese SIers",
+      "text": "Japanese SIers",
+      "type": "ORG",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT",
+      "name": "IT",
+      "text": "IT",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Japanese companies",
+      "name": "Japanese companies",
+      "text": "Japanese companies",
+      "type": "ORG",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "SIer",
+      "name": "SIer",
+      "text": "SIer",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "system replacement",
+      "name": "system replacement",
+      "text": "system replacement",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "system replace",
+      "name": "system replace",
+      "text": "system replace",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ビジネスモデル",
+      "name": "ビジネスモデル",
+      "text": "ビジネスモデル",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "システムリプレース",
+      "name": "システムリプレース",
+      "text": "システムリプレース",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "更新",
+      "name": "更新",
+      "text": "更新",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "今年",
+      "name": "今年",
+      "text": "今年",
+      "type": "DATE",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "A社",
+      "name": "A社",
+      "text": "A社",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "基幹システムリプレース",
+      "name": "基幹システムリプレース",
+      "text": "基幹システムリプレース",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "来年",
+      "name": "来年",
+      "text": "来年",
+      "type": "DATE",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "B社",
+      "name": "B社",
+      "text": "B社",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "再来年",
+      "name": "再来年",
+      "text": "再来年",
+      "type": "DATE",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "C社",
+      "name": "C社",
+      "text": "C社",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "営業",
+      "name": "営業",
+      "text": "営業",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "中長期的な年間売上の予測",
+      "name": "中長期的な年間売上の予測",
+      "text": "中長期的な年間売上の予測",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "システムリプレース",
+      "name": "システムリプレース",
+      "text": "システムリプレース",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ソフトウェア",
+      "name": "ソフトウェア",
+      "text": "ソフトウェア",
+      "type": "PRODUCT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ハードウェア",
+      "name": "ハードウェア",
+      "text": "ハードウェア",
+      "type": "PRODUCT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ベンダー",
+      "name": "ベンダー",
+      "text": "ベンダー",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "メーカー",
+      "name": "メーカー",
+      "text": "メーカー",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "大型受注",
+      "name": "大型受注",
+      "text": "大型受注",
+      "type": "CONCEPT",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ここ十数年",
+      "name": "ここ十数年",
+      "text": "ここ十数年",
+      "type": "DATE",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "クラウド利用",
+      "name": "クラウド利用",
+      "text": "クラウド利用",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ビジネスモデル",
+      "name": "ビジネスモデル",
+      "text": "ビジネスモデル",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "オンプレミス",
+      "name": "オンプレミス",
+      "text": "オンプレミス",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "リプレースサイクル",
+      "name": "リプレースサイクル",
+      "text": "リプレースサイクル",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "SaaS",
+      "name": "SaaS",
+      "text": "SaaS",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Software as a Service",
+      "name": "Software as a Service",
+      "text": "Software as a Service",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IaaS",
+      "name": "IaaS",
+      "text": "IaaS",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Infrastructure as a Service",
+      "name": "Infrastructure as a Service",
+      "text": "Infrastructure as a Service",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "クラウド化",
+      "name": "クラウド化",
+      "text": "クラウド化",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ハードウェア",
+      "name": "ハードウェア",
+      "text": "ハードウェア",
+      "type": "PRODUCT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ネットワーク製品",
+      "name": "ネットワーク製品",
+      "text": "ネットワーク製品",
+      "type": "PRODUCT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "サーバー",
+      "name": "サーバー",
+      "text": "サーバー",
+      "type": "PRODUCT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "定期的なリプレース（更新）案件",
+      "name": "定期的なリプレース（更新）案件",
+      "text": "定期的なリプレース（更新）案件",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ビジネスモデル",
+      "name": "ビジネスモデル",
+      "text": "ビジネスモデル",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "予算達成",
+      "name": "予算達成",
+      "text": "予算達成",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "営業スタイル",
+      "name": "営業スタイル",
+      "text": "営業スタイル",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "パラダイムシフト",
+      "name": "パラダイムシフト",
+      "text": "パラダイムシフト",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "待ちの営業",
+      "name": "待ちの営業",
+      "text": "待ちの営業",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "攻めの営業",
+      "name": "攻めの営業",
+      "text": "攻めの営業",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "BtoB",
+      "name": "BtoB",
+      "text": "BtoB",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "待ちの営業",
+      "name": "待ちの営業",
+      "text": "待ちの営業",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "攻めの営業",
+      "name": "攻めの営業",
+      "text": "攻めの営業",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "待ちの営業",
+      "name": "待ちの営業",
+      "text": "待ちの営業",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ソリューション",
+      "name": "ソリューション",
+      "text": "ソリューション",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "引き合い",
+      "name": "引き合い",
+      "text": "引き合い",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "提案依頼",
+      "name": "提案依頼",
+      "text": "提案依頼",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Wait-and-see Sales",
+      "name": "Wait-and-see Sales",
+      "text": "Wait-and-see Sales",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "待ちの営業",
+      "name": "待ちの営業",
+      "text": "待ちの営業",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Offensive/Proactive Sales",
+      "name": "Offensive/Proactive Sales",
+      "text": "Offensive/Proactive Sales",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "攻めの営業",
+      "name": "攻めの営業",
+      "text": "攻めの営業",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Wait-and-see Sales",
+      "name": "Wait-and-see Sales",
+      "text": "Wait-and-see Sales",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Offensive/Proactive Sales",
+      "name": "Offensive/Proactive Sales",
+      "text": "Offensive/Proactive Sales",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Wait-and-see Sales",
+      "name": "Wait-and-see Sales",
+      "text": "Wait-and-see Sales",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Proactive Sales",
+      "name": "Proactive Sales",
+      "text": "Proactive Sales",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "Proactive Sales",
+      "name": "Proactive Sales",
+      "text": "Proactive Sales",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "In the past",
+      "name": "In the past",
+      "text": "In the past",
+      "type": "DATE",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "system integrators",
+      "name": "system integrators",
+      "text": "system integrators",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "SIers",
+      "name": "SIers",
+      "text": "SIers",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "近年",
+      "name": "近年",
+      "text": "近年",
+      "type": "DATE",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "クラウド系製品",
+      "name": "クラウド系製品",
+      "text": "クラウド系製品",
+      "type": "PRODUCT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "同質化",
+      "name": "同質化",
+      "text": "同質化",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "カテゴリ",
+      "name": "カテゴリ",
+      "text": "カテゴリ",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "新規投資",
+      "name": "新規投資",
+      "text": "新規投資",
+      "type": "CONCEPT",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ITソリューション市場",
+      "name": "ITソリューション市場",
+      "text": "ITソリューション市場",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "製品機能",
+      "name": "製品機能",
+      "text": "製品機能",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "同質化",
+      "name": "同質化",
+      "text": "同質化",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "競争環境",
+      "name": "競争環境",
+      "text": "競争環境",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "近年",
+      "name": "近年",
+      "text": "近年",
+      "type": "DATE",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "BtoBマーケティング",
+      "name": "BtoBマーケティング",
+      "text": "BtoBマーケティング",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ホワイトペーパー",
+      "name": "ホワイトペーパー",
+      "text": "ホワイトペーパー",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ウェビナー",
+      "name": "ウェビナー",
+      "text": "ウェビナー",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "インターネット",
+      "name": "インターネット",
+      "text": "インターネット",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "SIer",
+      "name": "SIer",
+      "text": "SIer",
+      "type": "ORG",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "システムインテグレーター",
+      "name": "システムインテグレーター",
+      "text": "システムインテグレーター",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "SIer",
+      "name": "SIer",
+      "text": "SIer",
+      "type": "ORG",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "ソリューション",
+      "name": "ソリューション",
+      "text": "ソリューション",
+      "type": "PRODUCT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "営業テクニック",
+      "name": "営業テクニック",
+      "text": "営業テクニック",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "オンライン環境",
+      "name": "オンライン環境",
+      "text": "オンライン環境",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "対面商談",
+      "name": "対面商談",
+      "text": "対面商談",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "オンライン商談",
+      "name": "オンライン商談",
+      "text": "オンライン商談",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "営業担当者",
+      "name": "営業担当者",
+      "text": "営業担当者",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT industry",
+      "name": "IT industry",
+      "text": "IT industry",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "cloud computing",
+      "name": "cloud computing",
+      "text": "cloud computing",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "passive sales",
+      "name": "passive sales",
+      "text": "passive sales",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "待ちの営業",
+      "name": "待ちの営業",
+      "text": "待ちの営業",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "active sales",
+      "name": "active sales",
+      "text": "active sales",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "攻めの営業",
+      "name": "攻めの営業",
+      "text": "攻めの営業",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "sales representatives",
+      "name": "sales representatives",
+      "text": "sales representatives",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "business negotiations",
+      "name": "business negotiations",
+      "text": "business negotiations",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "projects",
+      "name": "projects",
+      "text": "projects",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "案件化",
+      "name": "案件化",
+      "text": "案件化",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "the past",
+      "name": "the past",
+      "text": "the past",
+      "type": "DATE",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "text": "IT業界",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "近年",
+      "name": "近年",
+      "text": "近年",
+      "type": "DATE",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "BtoB",
+      "name": "BtoB",
+      "text": "BtoB",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "企業間取引",
+      "name": "企業間取引",
+      "text": "企業間取引",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "オンライン商談",
+      "name": "オンライン商談",
+      "text": "オンライン商談",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "BtoB",
+      "name": "BtoB",
+      "text": "BtoB",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "製造業",
+      "name": "製造業",
+      "text": "製造業",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "IT",
+      "name": "IT",
+      "text": "IT",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "remote work models",
+      "name": "remote work models",
+      "text": "remote work models",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "advertising channels",
+      "name": "advertising channels",
+      "text": "advertising channels",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "pandemic",
+      "name": "pandemic",
+      "text": "pandemic",
+      "type": "EVENT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "business strategies",
+      "name": "business strategies",
+      "text": "business strategies",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "B2B sales sector",
+      "name": "B2B sales sector",
+      "text": "B2B sales sector",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "id": "year after year",
+      "name": "year after year",
+      "text": "year after year",
+      "type": "DATE",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    }
+  ],
+  "relations": [
+    {
+      "source": "BtoB",
+      "target": "新製品が売れない",
+      "type": "has_challenge",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoB",
+      "target": "新規開拓が苦手",
+      "type": "has_challenge",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "営業組織",
+      "target": "新製品",
+      "type": "has_goal_to_promote",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "営業組織",
+      "target": "新規顧客",
+      "type": "aims_to_acquire",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "新規顧客",
+      "target": "既存顧客",
+      "type": "acquired_without_relying_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "営業組織",
+      "target": "リスク",
+      "type": "faces",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "リスク",
+      "target": "構造的な壁",
+      "type": "of_hitting",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "構造的な壁",
+      "target": "将来",
+      "type": "faced_towards",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "仮説提案営業",
+      "target": "営業手法",
+      "type": "is_a",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "仮説提案営業",
+      "target": "商談を前進させる",
+      "type": "enables",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "仮説提案営業",
+      "target": "10年以上",
+      "type": "based_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "仮説提案営業",
+      "target": "約10年間",
+      "type": "developed_over",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "仮説提案営業",
+      "target": "著者",
+      "type": "backed_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "著者",
+      "target": "新製品",
+      "type": "achieved_top_orders_for",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "著者",
+      "target": "パートナー企業",
+      "type": "developed",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "著者",
+      "target": "独立後",
+      "type": "maintained_order_rate_after",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "仮説提案営業メソッド",
+      "target": "前月",
+      "type": "leads_to_increase_relative_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "仮説提案営業メソッド",
+      "target": "1ヶ月",
+      "type": "leads_to_increase_within",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT業界",
+      "target": "BtoB営業",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoB営業",
+      "target": "トーク術",
+      "type": "uses",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoB営業",
+      "target": "ヒアリング術",
+      "type": "uses",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoB営業",
+      "target": "提案資料",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoB",
+      "target": "IT業界",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "オンライン商談",
+      "target": "Web会議システム",
+      "type": "uses",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoB",
+      "target": "オンライン商談",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "プレゼンテクニック",
+      "target": "新規顧客開拓",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "プレゼンテクニック",
+      "target": "オンライン商談",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "Hypothesis-based proposal selling",
+      "target": "仮説提案営業",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "Hypothesis-based proposal selling",
+      "target": "IT industry",
+      "type": "penetrating",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "仮説提案営業",
+      "target": "IT industry",
+      "type": "penetrating",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT industry",
+      "target": "IT solutions",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "B2B",
+      "target": "sales professionals",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "executives",
+      "target": "management",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT業界",
+      "target": "成長産業",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT業界",
+      "target": "産業界",
+      "type": "leads",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "産業界",
+      "target": "日本",
+      "type": "located_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoB営業",
+      "target": "IT業界",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT業界",
+      "target": "BtoB",
+      "type": "is_primarily",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT業界",
+      "target": "モデルケース",
+      "type": "serves_as",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "令和３年版　情報通信白書",
+      "target": "総務省",
+      "type": "created_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "令和３年版　情報通信白書",
+      "target": "情報通信産業",
+      "type": "reports_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "情報通信産業",
+      "target": "2019年",
+      "type": "in_year",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "情報通信産業",
+      "target": "名目国内生産高",
+      "type": "measured_as",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "名目国内生産高",
+      "target": "GDP",
+      "type": "equivalent_to",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "情報通信産業",
+      "target": "日本",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "情報通信産業",
+      "target": "GDP",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoB営業",
+      "target": "IT業界",
+      "type": "struggles_even_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "仮説提案",
+      "target": "BtoB営業",
+      "type": "needed_due_to_struggles_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "新型コロナウイルス",
+      "target": "2020年",
+      "type": "started_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "新型コロナウイルス",
+      "target": "IT業界",
+      "type": "accelerated",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "新型コロナウイルス",
+      "target": "歴史的転換点",
+      "type": "represents",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "新型コロナウイルス",
+      "target": "リモートワーク制度",
+      "type": "caused_spread_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "リモートワーク制度",
+      "target": "日本",
+      "type": "spread_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "リモートワーク",
+      "target": "都心",
+      "type": "located_in",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "これまで",
+      "target": "リモートワーク",
+      "type": "related_to",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "リモートワーク",
+      "target": "働き方改革",
+      "type": "supports",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "DX",
+      "target": "デジタルトランスフォーメーション",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "政府",
+      "target": "DX",
+      "type": "supports",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "政府",
+      "target": "電子帳簿保存法",
+      "type": "amended",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "電子帳簿保存法",
+      "target": "2022年1月",
+      "type": "enforced_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "電子帳簿保存法",
+      "target": "DX",
+      "type": "supports",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "DX",
+      "target": "IT業界",
+      "type": "benefits",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT業界",
+      "target": "ビジネスチャンス",
+      "type": "creates",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT企業",
+      "target": "IT業界",
+      "type": "part_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "営業現場",
+      "target": "IT企業",
+      "type": "part_of",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ビジネスチャンス",
+      "target": "IT企業",
+      "type": "should_benefit",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "営業現場",
+      "target": "新規顧客開拓",
+      "type": "struggles_with",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "営業現場",
+      "target": "新製品拡販",
+      "type": "struggles_with",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "理論と現実のギャップ",
+      "target": "営業現場",
+      "type": "describes",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT",
+      "target": "system integration",
+      "type": "handles",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "system integration",
+      "target": "information systems",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT",
+      "target": "Japan",
+      "type": "located_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT",
+      "target": "1990s",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "SIers",
+      "target": "System Integrators",
+      "type": "related_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "SIers",
+      "target": "Japan",
+      "type": "located_in",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "Japanese SIers",
+      "target": "Japanese companies",
+      "type": "support",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "Japanese SIers",
+      "target": "IT",
+      "type": "support_adoption_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "Japanese companies",
+      "target": "IT",
+      "type": "adopt",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "SIer",
+      "target": "system replacement",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "SIer",
+      "target": "system replace",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "system replacement",
+      "target": "system replace",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT業界",
+      "target": "ビジネスモデル",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ビジネスモデル",
+      "target": "システムリプレース",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "システムリプレース",
+      "target": "更新",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "営業",
+      "target": "中長期的な年間売上の予測",
+      "type": "formulates",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "A社",
+      "target": "基幹システムリプレース",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "基幹システムリプレース",
+      "target": "今年",
+      "type": "occurs_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "今年",
+      "target": "A社",
+      "type": "associated_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "来年",
+      "target": "B社",
+      "type": "associated_with",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "再来年",
+      "target": "C社",
+      "type": "associated_with",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "システムリプレース",
+      "target": "ソフトウェア",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "システムリプレース",
+      "target": "ハードウェア",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ベンダー",
+      "target": "メーカー",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ベンダー",
+      "target": "大型受注",
+      "type": "obtains",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "システムリプレース",
+      "target": "大型受注",
+      "type": "enables",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT業界",
+      "target": "ここ十数年",
+      "type": "entered_transformation_during",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "クラウド利用",
+      "target": "ビジネスモデル",
+      "type": "disrupted",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ビジネスモデル",
+      "target": "リプレースサイクル",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "リプレースサイクル",
+      "target": "オンプレミス",
+      "type": "related_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ビジネスモデル",
+      "target": "オンプレミス",
+      "type": "based_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "SaaS",
+      "target": "Software as a Service",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IaaS",
+      "target": "Infrastructure as a Service",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "SaaS",
+      "target": "IaaS",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "SaaS",
+      "target": "クラウド化",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IaaS",
+      "target": "クラウド化",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ネットワーク製品",
+      "target": "ハードウェア",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "サーバー",
+      "target": "ハードウェア",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "クラウド化",
+      "target": "ハードウェア",
+      "type": "causes_decrease_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ハードウェア",
+      "target": "IT業界",
+      "type": "impacts",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ビジネスモデル",
+      "target": "定期的なリプレース（更新）案件",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ビジネスモデル",
+      "target": "予算達成",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "営業スタイル",
+      "target": "パラダイムシフト",
+      "type": "requires",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "待ちの営業",
+      "target": "攻めの営業",
+      "type": "converts_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "パラダイムシフト",
+      "target": "待ちの営業",
+      "type": "involves_shift_from",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "待ちの営業",
+      "target": "BtoB",
+      "type": "is_a_style_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "攻めの営業",
+      "target": "BtoB",
+      "type": "is_a_style_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "待ちの営業",
+      "target": "攻めの営業",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "待ちの営業",
+      "target": "引き合い",
+      "type": "involves_receiving",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "引き合い",
+      "target": "提案依頼",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "待ちの営業",
+      "target": "ソリューション",
+      "type": "proposes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ソリューション",
+      "target": "引き合い",
+      "type": "requested_via",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "Wait-and-see Sales",
+      "target": "待ちの営業",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "Offensive/Proactive Sales",
+      "target": "攻めの営業",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "Wait-and-see Sales",
+      "target": "Offensive/Proactive Sales",
+      "type": "contrasts_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "Offensive/Proactive Sales",
+      "target": "customers",
+      "type": "involves_approaching",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "Offensive/Proactive Sales",
+      "target": "acquiring new customers",
+      "type": "used_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "Offensive/Proactive Sales",
+      "target": "expanding new product sales",
+      "type": "used_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "Wait-and-see Sales",
+      "target": "Proactive Sales",
+      "type": "transitioned_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "SIers",
+      "target": "system integrators",
+      "type": "abbreviation_of",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "クラウド系製品",
+      "target": "IT業界",
+      "type": "part_of",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "近年",
+      "target": "IT業界",
+      "type": "related_to",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "新規投資",
+      "target": "カテゴリ",
+      "type": "concentrated_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "同質化",
+      "target": "新規投資",
+      "type": "result_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "同質化",
+      "target": "カテゴリ",
+      "type": "occurs_in",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "製品機能",
+      "target": "同質化",
+      "type": "undergoes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "同質化",
+      "target": "競争環境",
+      "type": "causes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ITソリューション市場",
+      "target": "競争環境",
+      "type": "exposed_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoBマーケティング",
+      "target": "近年",
+      "type": "activated_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoBマーケティング",
+      "target": "ホワイトペーパー",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoBマーケティング",
+      "target": "ウェビナー",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "ウェビナー",
+      "target": "インターネット",
+      "type": "uses",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "SIer",
+      "target": "システムインテグレーター",
+      "type": "refers_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "SIer",
+      "target": "ソリューション",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "営業テクニック",
+      "target": "オンライン環境",
+      "type": "does_not_always_work_well_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "オンライン商談",
+      "target": "対面商談",
+      "type": "compared_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "営業担当者",
+      "target": "オンライン商談",
+      "type": "struggles_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT industry",
+      "target": "cloud computing",
+      "type": "experiencing_shift_due_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "passive sales",
+      "target": "待ちの営業",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "active sales",
+      "target": "攻めの営業",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "passive sales",
+      "target": "active sales",
+      "type": "being_replaced_by",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "sales representatives",
+      "target": "business negotiations",
+      "type": "involved_in",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "business negotiations",
+      "target": "projects",
+      "type": "converted_into",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "projects",
+      "target": "案件化",
+      "type": "referred_to_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "business negotiations",
+      "target": "the past",
+      "type": "harder_to_convert_compared_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT業界",
+      "target": "近年",
+      "type": "has_issues_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoB",
+      "target": "企業間取引",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT業界",
+      "target": "BtoB",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "オンライン商談",
+      "target": "IT業界",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "オンライン商談",
+      "target": "BtoB",
+      "type": "affects",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "オンライン商談",
+      "target": "近年",
+      "type": "related_to",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "BtoB",
+      "target": "製造業",
+      "type": "applies_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT",
+      "target": "remote work models",
+      "type": "adopts",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "IT",
+      "target": "advertising channels",
+      "type": "utilizes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "remote work models",
+      "target": "business strategies",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "advertising channels",
+      "target": "business strategies",
+      "type": "part_of",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "pandemic",
+      "target": "remote work models",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "pandemic",
+      "target": "business strategies",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    },
+    {
+      "source": "B2B sales sector",
+      "target": "year after year",
+      "type": "becoming_more_difficult",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+      },
+      "book_key": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en"
+    }
+  ],
+  "ontology": {
+    "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/",
+    "name": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_enOntology",
+    "version": "1.0",
+    "classes": [
+      {
+        "name": "Book",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Book",
+        "label": "書籍",
+        "comment": "成果に直結する仮説提案営業の実践講座に関する書籍およびその分析対象。",
+        "parent": null
+      },
+      {
+        "name": "SalesChallenge",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesChallenge",
+        "label": "営業課題",
+        "comment": "新製品が売れない、新規開拓が苦手、引き合い減少、製品同質化、オンライン商談での関係構築難化などBtoB営業の共通課題。",
+        "parent": null
+      },
+      {
+        "name": "SalesApproach",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesApproach",
+        "label": "営業アプローチ",
+        "comment": "顧客への働きかけの仕方を表す営業スタイルや手法の上位概念。",
+        "parent": null
+      },
+      {
+        "name": "WaitingSales",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/WaitingSales",
+        "label": "待ちの営業",
+        "comment": "顧客からの提案依頼を待つ従来型の営業。システムリプレース型の大型案件に依存しやすい。",
+        "parent": "SalesApproach"
+      },
+      {
+        "name": "OffensiveSales",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/OffensiveSales",
+        "label": "攻めの営業",
+        "comment": "クラウド普及による単価低下を踏まえ、顧客に先回りして提案する能動的な営業パラダイム。",
+        "parent": "SalesApproach"
+      },
+      {
+        "name": "HypothesisProposalSales",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisProposalSales",
+        "label": "仮説提案営業",
+        "comment": "明確なニーズがなくても事前調査に基づく仮説と個別提案資料で初回商談から案件を前進させる営業手法。",
+        "parent": "OffensiveSales"
+      },
+      {
+        "name": "ThinkingMethod",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ThinkingMethod",
+        "label": "思考法",
+        "comment": "営業活動で結論を導くための思考の枠組み。",
+        "parent": null
+      },
+      {
+        "name": "ExhaustiveThinking",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ExhaustiveThinking",
+        "label": "網羅思考",
+        "comment": "すべての事象やデータを抽出・分析してから結論を出す手法。現場営業には時間がかかりすぎて不向き。",
+        "parent": "ThinkingMethod"
+      },
+      {
+        "name": "HypothesisThinking",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisThinking",
+        "label": "仮説思考",
+        "comment": "BCGが提唱した、情報が不十分な段階で仮の結論を立て実行・検証・修正を繰り返す手法。",
+        "parent": "ThinkingMethod"
+      },
+      {
+        "name": "Hypothesis",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Hypothesis",
+        "label": "仮説",
+        "comment": "限られた情報から立てる顧客課題または解決策の仮の結論。",
+        "parent": null
+      },
+      {
+        "name": "ProblemHypothesis",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProblemHypothesis",
+        "label": "問題仮説",
+        "comment": "顧客が抱えているであろう課題の仮定。So what?で根本原因とインパクトまで深掘りする。",
+        "parent": "Hypothesis"
+      },
+      {
+        "name": "SolutionHypothesis",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SolutionHypothesis",
+        "label": "解決仮説",
+        "comment": "問題を解決するための具体的な対策や製品導入の仮定。",
+        "parent": "Hypothesis"
+      },
+      {
+        "name": "HypothesisLevel",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisLevel",
+        "label": "仮説レベル",
+        "comment": "エリア特化・企業規模特化・業界特化・企業特化の四段階。レベルが上がるほど案件化率と共感が高まる。",
+        "parent": null
+      },
+      {
+        "name": "InformationSource",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/InformationSource",
+        "label": "情報源",
+        "comment": "SPEEDA、Googleアラート、RSSリーダーなど仮説立案のための調査手段。",
+        "parent": null
+      },
+      {
+        "name": "ProposalMaterial",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProposalMaterial",
+        "label": "提案資料",
+        "comment": "初回商談で導入必要性を伝える資料。情報過多を避け、Whyと起こり得る結果を中心に構成する。",
+        "parent": null
+      },
+      {
+        "name": "CaseStudy",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/CaseStudy",
+        "label": "導入事例",
+        "comment": "同業種・同規模を優先して示す事例。検討中・検証・導入の段階と具体的社数で訴求する。",
+        "parent": null
+      },
+      {
+        "name": "SalesMeeting",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesMeeting",
+        "label": "商談",
+        "comment": "仮説提示、ヒアリング、質疑、クロージングで構成される顧客との商談。",
+        "parent": null
+      },
+      {
+        "name": "MeetingPhase",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/MeetingPhase",
+        "label": "商談フェーズ",
+        "comment": "オープニング、ボディ、クロージングなど商談の時間配分単位。",
+        "parent": null
+      },
+      {
+        "name": "ClosingTechnique",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ClosingTechnique",
+        "label": "クロージング手法",
+        "comment": "松竹梅の選択肢クロージングなど、即決を迫らず次回アクションへ誘導する技法。",
+        "parent": null
+      },
+      {
+        "name": "OnlineMeetingTechnique",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/OnlineMeetingTechnique",
+        "label": "オンライン商談テクニック",
+        "comment": "視覚・聴覚・言語の三つのVを工夫し、警戒心の高いオンライン環境で関係を深める技法。",
+        "parent": null
+      },
+      {
+        "name": "PartnerSales",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PartnerSales",
+        "label": "パートナーセールス",
+        "comment": "SIerや代理店を通じた間接販売。分析、協業提案、交渉、案件創出、継続受注の五ステップで進める。",
+        "parent": "SalesApproach"
+      },
+      {
+        "name": "PsychologicalPrinciple",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PsychologicalPrinciple",
+        "label": "心理原則",
+        "comment": "返報性・一貫性・社会的証明・権威・好意・希少性など、顧客の心を動かすチャルディーニの原則。",
+        "parent": null
+      },
+      {
+        "name": "Salesperson",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Salesperson",
+        "label": "営業パーソン",
+        "comment": "企業ブランドや製品スペックではなく仮説提案によって個人として選ばれることを目指す営業担当者。",
+        "parent": null
+      },
+      {
+        "name": "Customer",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Customer",
+        "label": "顧客",
+        "comment": "仮説の対象となる企業。ニーズが未明確でも課題仮説によって商談を前進させる相手。",
+        "parent": null
+      },
+      {
+        "name": "BusinessPartner",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/BusinessPartner",
+        "label": "販売パートナー",
+        "comment": "メーカー製品を顧客へ販売するSIerや代理店。Win-Win-Winの協業とイノベーター理論による展開対象。",
+        "parent": null
+      }
+    ],
+    "properties": [
+      {
+        "name": "addressesChallenge",
+        "type": "object",
+        "domain": [
+          "SalesApproach"
+        ],
+        "range": [
+          "SalesChallenge"
+        ],
+        "label": "課題に対処する",
+        "comment": "営業アプローチが対象とするBtoB営業上の課題。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/addressesChallenge"
+      },
+      {
+        "name": "usesThinkingMethod",
+        "type": "object",
+        "domain": [
+          "HypothesisProposalSales"
+        ],
+        "range": [
+          "ThinkingMethod"
+        ],
+        "label": "思考法を用いる",
+        "comment": "仮説提案営業が依拠する思考法。主に仮説思考。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/usesThinkingMethod"
+      },
+      {
+        "name": "formulatesHypothesis",
+        "type": "object",
+        "domain": [
+          "Salesperson",
+          "HypothesisProposalSales"
+        ],
+        "range": [
+          "Hypothesis"
+        ],
+        "label": "仮説を立案する",
+        "comment": "事前調査に基づき問題仮説と解決仮説を立てる関係。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/formulatesHypothesis"
+      },
+      {
+        "name": "hasHypothesisLevel",
+        "type": "object",
+        "domain": [
+          "Hypothesis"
+        ],
+        "range": [
+          "HypothesisLevel"
+        ],
+        "label": "仮説レベルを持つ",
+        "comment": "仮説の具体性（エリア・規模・業界・企業特化）を示す。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/hasHypothesisLevel"
+      },
+      {
+        "name": "basedOnSource",
+        "type": "object",
+        "domain": [
+          "Hypothesis"
+        ],
+        "range": [
+          "InformationSource"
+        ],
+        "label": "情報源に基づく",
+        "comment": "仮説立案の根拠となる企業データベースや自動収集手段。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/basedOnSource"
+      },
+      {
+        "name": "solvesProblem",
+        "type": "object",
+        "domain": [
+          "SolutionHypothesis"
+        ],
+        "range": [
+          "ProblemHypothesis"
+        ],
+        "label": "問題仮説を解決する",
+        "comment": "解決仮説が対応する問題仮説。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/solvesProblem"
+      },
+      {
+        "name": "proposedToCustomer",
+        "type": "object",
+        "domain": [
+          "Hypothesis",
+          "ProposalMaterial"
+        ],
+        "range": [
+          "Customer"
+        ],
+        "label": "顧客へ提案する",
+        "comment": "仮説や提案資料の提示先となる顧客。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/proposedToCustomer"
+      },
+      {
+        "name": "preparesMaterial",
+        "type": "object",
+        "domain": [
+          "Salesperson"
+        ],
+        "range": [
+          "ProposalMaterial"
+        ],
+        "label": "提案資料を準備する",
+        "comment": "初回商談に向けて個別資料を作成する関係。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/preparesMaterial"
+      },
+      {
+        "name": "includesCaseStudy",
+        "type": "object",
+        "domain": [
+          "ProposalMaterial"
+        ],
+        "range": [
+          "CaseStudy"
+        ],
+        "label": "導入事例を含む",
+        "comment": "提案資料に掲載する検討中・検証・導入の事例。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/includesCaseStudy"
+      },
+      {
+        "name": "presentedInMeeting",
+        "type": "object",
+        "domain": [
+          "ProposalMaterial",
+          "Hypothesis"
+        ],
+        "range": [
+          "SalesMeeting"
+        ],
+        "label": "商談で提示する",
+        "comment": "資料や仮説が用いられる商談。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/presentedInMeeting"
+      },
+      {
+        "name": "hasMeetingPhase",
+        "type": "object",
+        "domain": [
+          "SalesMeeting"
+        ],
+        "range": [
+          "MeetingPhase"
+        ],
+        "label": "商談フェーズを持つ",
+        "comment": "オープニング・ボディ・クロージングなどの構成。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/hasMeetingPhase"
+      },
+      {
+        "name": "usesClosingTechnique",
+        "type": "object",
+        "domain": [
+          "SalesMeeting"
+        ],
+        "range": [
+          "ClosingTechnique"
+        ],
+        "label": "クロージング手法を用いる",
+        "comment": "次回ステップへ誘導するための選択肢提示など。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/usesClosingTechnique"
+      },
+      {
+        "name": "appliesOnlineTechnique",
+        "type": "object",
+        "domain": [
+          "SalesMeeting"
+        ],
+        "range": [
+          "OnlineMeetingTechnique"
+        ],
+        "label": "オンライン技法を適用する",
+        "comment": "視覚・聴覚・言語面の工夫を商談に適用する。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/appliesOnlineTechnique"
+      },
+      {
+        "name": "conductedBy",
+        "type": "object",
+        "domain": [
+          "SalesMeeting"
+        ],
+        "range": [
+          "Salesperson"
+        ],
+        "label": "実施者",
+        "comment": "商談を進行する営業パーソン。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/conductedBy"
+      },
+      {
+        "name": "conductedWith",
+        "type": "object",
+        "domain": [
+          "SalesMeeting"
+        ],
+        "range": [
+          "Customer"
+        ],
+        "label": "商談相手",
+        "comment": "商談の相手となる顧客。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/conductedWith"
+      },
+      {
+        "name": "practicesApproach",
+        "type": "object",
+        "domain": [
+          "Salesperson"
+        ],
+        "range": [
+          "SalesApproach"
+        ],
+        "label": "営業アプローチを実践する",
+        "comment": "営業パーソンが用いる仮説提案などの手法。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/practicesApproach"
+      },
+      {
+        "name": "appliesPrinciple",
+        "type": "object",
+        "domain": [
+          "SalesApproach",
+          "Salesperson"
+        ],
+        "range": [
+          "PsychologicalPrinciple"
+        ],
+        "label": "心理原則を適用する",
+        "comment": "返報性や社会的証明など顧客の意思決定を促す原則の利用。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/appliesPrinciple"
+      },
+      {
+        "name": "sellsThroughPartner",
+        "type": "object",
+        "domain": [
+          "PartnerSales"
+        ],
+        "range": [
+          "BusinessPartner"
+        ],
+        "label": "パートナー経由で販売する",
+        "comment": "間接販売における代理店・SIerとの協業関係。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/sellsThroughPartner"
+      },
+      {
+        "name": "collaboratesWith",
+        "type": "object",
+        "domain": [
+          "Salesperson"
+        ],
+        "range": [
+          "BusinessPartner"
+        ],
+        "label": "パートナーと協業する",
+        "comment": "勉強会や営業同行を通じた案件創出のための協業。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/collaboratesWith"
+      },
+      {
+        "name": "describedInBook",
+        "type": "object",
+        "domain": [
+          "SalesApproach",
+          "Hypothesis",
+          "PsychologicalPrinciple",
+          "PartnerSales"
+        ],
+        "range": [
+          "Book"
+        ],
+        "label": "書籍で解説される",
+        "comment": "当該概念が本書で扱われていることを示す。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/describedInBook"
+      },
+      {
+        "name": "title",
+        "type": "data",
+        "domain": [
+          "Book",
+          "ProposalMaterial",
+          "CaseStudy"
+        ],
+        "range": [
+          "xsd:string"
+        ],
+        "label": "タイトル",
+        "comment": "書籍・資料・事例の名称。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/title"
+      },
+      {
+        "name": "description",
+        "type": "data",
+        "domain": [
+          "SalesChallenge",
+          "Hypothesis",
+          "MeetingPhase",
+          "PsychologicalPrinciple",
+          "OnlineMeetingTechnique"
+        ],
+        "range": [
+          "xsd:string"
+        ],
+        "label": "説明",
+        "comment": "概念の内容や具体例を表す文字列。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/description"
+      },
+      {
+        "name": "levelName",
+        "type": "data",
+        "domain": [
+          "HypothesisLevel"
+        ],
+        "range": [
+          "xsd:string"
+        ],
+        "label": "レベル名称",
+        "comment": "エリア特化、企業規模特化、業界特化、企業特化などの段階名。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/levelName"
+      },
+      {
+        "name": "durationNote",
+        "type": "data",
+        "domain": [
+          "MeetingPhase",
+          "SalesMeeting"
+        ],
+        "range": [
+          "xsd:string"
+        ],
+        "label": "所要時間の目安",
+        "comment": "六十分配のオープニング五分、ボディ四十五分以内、クロージング十分などの時間配分。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/durationNote"
+      },
+      {
+        "name": "goal",
+        "type": "data",
+        "domain": [
+          "SalesMeeting",
+          "ProposalMaterial",
+          "PartnerSales"
+        ],
+        "range": [
+          "xsd:string"
+        ],
+        "label": "ゴール",
+        "comment": "機能理解ではなく導入必要性の理解、顧客紹介獲得など、設定すべき目的。",
+        "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/goal"
+      }
+    ],
+    "metadata": {
+      "source": "llm",
+      "provider": "xai"
+    }
+  },
+  "covered_end": 80,
+  "used_methods": {
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

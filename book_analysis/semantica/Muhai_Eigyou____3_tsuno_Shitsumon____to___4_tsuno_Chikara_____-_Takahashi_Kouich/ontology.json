@@ -1,0 +1,813 @@
+{
+  "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/",
+  "name": "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_KouichOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Book",
+      "label": "書籍",
+      "comment": "無敗営業の知見をまとめた分析対象の書籍。",
+      "parent": null
+    },
+    {
+      "name": "Author",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Author",
+      "label": "著者",
+      "comment": "上場企業中心に三万人以上を指導し、八年無敗・受注率八割を維持した執筆者。",
+      "parent": null
+    },
+    {
+      "name": "SalesPerson",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson",
+      "label": "営業担当者",
+      "comment": "顧客との情報ギャップを解消し案件を推進する売り手。",
+      "parent": null
+    },
+    {
+      "name": "HighPerformer",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HighPerformer",
+      "label": "ハイパフォーマー",
+      "comment": "商談前後の連絡・資料分割・早期の社内巻き込みを欠かさない高成果営業。",
+      "parent": "SalesPerson"
+    },
+    {
+      "name": "LowPerformer",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/LowPerformer",
+      "label": "ローパフォーマー",
+      "comment": "対面商談だけで勝負し、資料を一気に作成しがちな低成果営業。",
+      "parent": "SalesPerson"
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Customer",
+      "label": "顧客",
+      "comment": "価格そのものではなく費用対効果の納得感で判断し、建前で断りやすい買い手。",
+      "parent": null
+    },
+    {
+      "name": "SalesPhilosophy",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPhilosophy",
+      "label": "営業理念",
+      "comment": "営業は根性ではなくステップ・バイ・ステップの体系化可能なスキルであるという思想。",
+      "parent": null
+    },
+    {
+      "name": "InformationGap",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InformationGap",
+      "label": "情報ギャップ",
+      "comment": "売り手と買い手の間に生じるズレであり、本書が解消すべき本質的課題。",
+      "parent": null
+    },
+    {
+      "name": "SalesPower",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPower",
+      "label": "四つの力",
+      "comment": "四つのズレを構造的に解消するための営業能力の総称。",
+      "parent": null
+    },
+    {
+      "name": "QuestioningPower",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/QuestioningPower",
+      "label": "質問力",
+      "comment": "要件ヒアリング不足という最大の失望要因を解消する力。",
+      "parent": "SalesPower"
+    },
+    {
+      "name": "ValuePropositionPower",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValuePropositionPower",
+      "label": "価値訴求力",
+      "comment": "魅力や価値を感じてもらえないズレを解消し、選ばれる理由をつくる力。",
+      "parent": "SalesPower"
+    },
+    {
+      "name": "ProposalActionPower",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProposalActionPower",
+      "label": "提案行動力",
+      "comment": "レスポンスや動きの悪さを解消し、全ての力を回す実行力。",
+      "parent": "SalesPower"
+    },
+    {
+      "name": "ProposalLogicConstructionPower",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProposalLogicConstructionPower",
+      "label": "提案ロジック構築力",
+      "comment": "顧客の意図に沿わない提案を防ぎ、社内稟議で語れる選ぶ理由を組み立てる力。",
+      "parent": "SalesPower"
+    },
+    {
+      "name": "SalesCase",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesCase",
+      "label": "営業案件",
+      "comment": "難易度に応じてリソース投下先を見極める対象となる商談機会。",
+      "parent": null
+    },
+    {
+      "name": "EasyWinCase",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/EasyWinCase",
+      "label": "楽勝案件",
+      "comment": "誰が担当しても受注できる既存・予算確保済みなどの案件。",
+      "parent": "SalesCase"
+    },
+    {
+      "name": "SureLossCase",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SureLossCase",
+      "label": "惨敗案件",
+      "comment": "競合が深く浸透し当て馬になりやすい、誰が担当しても受注が難しい案件。",
+      "parent": "SalesCase"
+    },
+    {
+      "name": "CloseContestCase",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CloseContestCase",
+      "label": "接戦案件",
+      "comment": "やり方次第で受注にも失注にもなる、最も重要な案件。",
+      "parent": "SalesCase"
+    },
+    {
+      "name": "CloseContestPattern",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CloseContestPattern",
+      "label": "接戦パターン",
+      "comment": "顧客が何と何で迷っているかを把握するための迷いの類型。",
+      "parent": null
+    },
+    {
+      "name": "CompetitorHesitation",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CompetitorHesitation",
+      "label": "他社との迷い",
+      "comment": "コンペや相見積もりで競合他社と比較している接戦。",
+      "parent": "CloseContestPattern"
+    },
+    {
+      "name": "PostponementHesitation",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/PostponementHesitation",
+      "label": "保留との迷い",
+      "comment": "今やるべきか後回しにすべきかを顧客が迷っている接戦。",
+      "parent": "CloseContestPattern"
+    },
+    {
+      "name": "InhouseHesitation",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InhouseHesitation",
+      "label": "内製との迷い",
+      "comment": "外注すべきか自社でやるべきかを顧客が迷っている接戦。",
+      "parent": "CloseContestPattern"
+    },
+    {
+      "name": "WinningQuestion",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/WinningQuestion",
+      "label": "三つの質問",
+      "comment": "情報ギャップを埋め接戦を制するための質問フレームワーク。",
+      "parent": null
+    },
+    {
+      "name": "ContestSituationQuestion",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ContestSituationQuestion",
+      "label": "接戦状況を問う質問",
+      "comment": "案件発生直後に他社状況や暫定順位、BANTCHを確認する質問。",
+      "parent": "WinningQuestion"
+    },
+    {
+      "name": "DecisionSceneQuestion",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/DecisionSceneQuestion",
+      "label": "決定の場面を問う質問",
+      "comment": "決着後に、理由ではなく心が動いた瞬間や場面という事実を聞く質問。",
+      "parent": "WinningQuestion"
+    },
+    {
+      "name": "BackgroundQuestion",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BackgroundQuestion",
+      "label": "裏にある背景を問う質問",
+      "comment": "枕詞を用い、顧客自身も気づいていない潜在課題を引き出す汎用質問。",
+      "parent": "WinningQuestion"
+    },
+    {
+      "name": "HearingPhase",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HearingPhase",
+      "label": "商談フェーズ",
+      "comment": "ヒアリングを土台作りから具体化まで進める四段階。",
+      "parent": null
+    },
+    {
+      "name": "FoundationPhase",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/FoundationPhase",
+      "label": "土台作り",
+      "comment": "信頼感・自己開示・興味関心でつかみとアイスブレイクを行う段階。",
+      "parent": "HearingPhase"
+    },
+    {
+      "name": "BidirectionalHearingPhase",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BidirectionalHearingPhase",
+      "label": "双方向な聞く",
+      "comment": "一方通行を避け、誠実な応答と枕詞でヒアリングへ切り込む段階。",
+      "parent": "HearingPhase"
+    },
+    {
+      "name": "DeepListeningPhase",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/DeepListeningPhase",
+      "label": "深掘りする聴く",
+      "comment": "ピラミッド構造で発言割合を増やし、なぜかを掘り下げる段階。",
+      "parent": "HearingPhase"
+    },
+    {
+      "name": "SpecifyingAskingPhase",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SpecifyingAskingPhase",
+      "label": "具体化する訊く",
+      "comment": "条件付きオープン質問や選択肢付きクローズド質問でピンポイント情報を得る段階。",
+      "parent": "HearingPhase"
+    },
+    {
+      "name": "ProblemSolvingQuestion",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProblemSolvingQuestion",
+      "label": "課題解決質問",
+      "comment": "現状把握・深掘り・気づかせ・つなぎからなるSPIN応用の質問群。",
+      "parent": null
+    },
+    {
+      "name": "ValueQuadrant",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValueQuadrant",
+      "label": "価値の四象限",
+      "comment": "機能価値と情緒価値の二軸で顧客価値を四ゾーンに分類する枠組み。",
+      "parent": null
+    },
+    {
+      "name": "LaborProvision",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/LaborProvision",
+      "label": "労務提供",
+      "comment": "事務作業や手間を代行する、経験の浅い営業でも実行しやすい価値。",
+      "parent": "ValueQuadrant"
+    },
+    {
+      "name": "AffinityEmpathy",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AffinityEmpathy",
+      "label": "好感・共感",
+      "comment": "マナーや人柄を通じパートナーとしての安心感を与える情緒価値。",
+      "parent": "ValueQuadrant"
+    },
+    {
+      "name": "InformationProvision",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InformationProvision",
+      "label": "情報提供・人の紹介",
+      "comment": "業界知識や有益な人脈を提供する機能的価値。",
+      "parent": "ValueQuadrant"
+    },
+    {
+      "name": "PlusAlphaProposal",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/PlusAlphaProposal",
+      "label": "プラスアルファ・提言",
+      "comment": "優先課題に寄り添う斬新なアイデアと付加価値の高い提案。",
+      "parent": "ValueQuadrant"
+    },
+    {
+      "name": "SalesModel",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesModel",
+      "label": "営業モデル",
+      "comment": "リスト数とリードタイムに応じて勝ちパターンと力の重心が変わる営業様式。",
+      "parent": null
+    },
+    {
+      "name": "RouteSales",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/RouteSales",
+      "label": "ルート型営業",
+      "comment": "数百件の短期リストを行動量で回し、質問力・価値訴求力・提案行動力を重心とする型。",
+      "parent": "SalesModel"
+    },
+    {
+      "name": "AccountSales",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AccountSales",
+      "label": "アカウント型営業",
+      "comment": "少数大口を論理で深掘りし、質問力・価値訴求力・提案ロジック構築力を重心とする型。",
+      "parent": "SalesModel"
+    },
+    {
+      "name": "AnalysisFramework",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AnalysisFramework",
+      "label": "分析フレームワーク",
+      "comment": "案件把握や関係構築、逆転論理に用いる思考枠組みの総称。",
+      "parent": null
+    },
+    {
+      "name": "BANTCH",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BANTCH",
+      "label": "バンチ",
+      "comment": "予算・決裁・ニーズ・時期・競合・人数で案件の真の状況を見極める確認枠。",
+      "parent": "AnalysisFramework"
+    },
+    {
+      "name": "FiveCs",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/FiveCs",
+      "label": "五つのシー",
+      "comment": "顧客、顧客の顧客、競合、自社、顧客の競合から刺さる情報を分析する枠。",
+      "parent": "AnalysisFramework"
+    },
+    {
+      "name": "JohariWindow",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/JohariWindow",
+      "label": "ジョハリの窓",
+      "comment": "自己開示とフィードバックで開放の窓を広げ、パートナーシップを築く枠。",
+      "parent": "AnalysisFramework"
+    },
+    {
+      "name": "RequirementOrganization",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/RequirementOrganization",
+      "label": "要件整理",
+      "comment": "キーワード化・具体化と網羅・優先順位確認で提案前のズレを防ぐ上流プロセス。",
+      "parent": "AnalysisFramework"
+    },
+    {
+      "name": "OppositionLogic",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/OppositionLogic",
+      "label": "対立ロジック",
+      "comment": "自社と競合・保留・内製の対立を明示し、当社を選ぶ理由で不協和を解消する下流プロセス。",
+      "parent": "AnalysisFramework"
+    },
+    {
+      "name": "CognitiveDissonance",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CognitiveDissonance",
+      "label": "認知的不協和",
+      "comment": "迷いによる不快感を、断りやすい理由の正当化で解消しようとする顧客心理。",
+      "parent": null
+    },
+    {
+      "name": "SalesAction",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesAction",
+      "label": "営業行動",
+      "comment": "商談前後の連絡、分割作成、電話商談、クロージングなどの実行行為。",
+      "parent": null
+    },
+    {
+      "name": "TenMinuteSales",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/TenMinuteSales",
+      "label": "テンミニッツ営業",
+      "comment": "訪問しない時間に十分程度の電話商談を行い直後にお役立ちメールを送る行動。",
+      "parent": "SalesAction"
+    },
+    {
+      "name": "Closing",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Closing",
+      "label": "クロージング",
+      "comment": "コンペ型では費用対効果と安心感、稟議型では担当者支援と期限・宿題で決裁を進める行為。",
+      "parent": "SalesAction"
+    },
+    {
+      "name": "HelpfulEmail",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HelpfulEmail",
+      "label": "お役立ちメール",
+      "comment": "電話直後に議事録と課題へのレスポンスを分単位で送るフォローメール。",
+      "parent": "SalesAction"
+    },
+    {
+      "name": "PillowPhrase",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/PillowPhrase",
+      "label": "枕詞",
+      "comment": "もし仮に、個人的な意見、ビジョン実現のため、などで心理的ハードルを下げる前置き。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "writtenBy",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Author"
+      ],
+      "label": "の著者である",
+      "comment": "書籍とその執筆者を結びつける。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/writtenBy"
+    },
+    {
+      "name": "hasPhilosophy",
+      "type": "object",
+      "domain": [
+        "Book",
+        "Author"
+      ],
+      "range": [
+        "SalesPhilosophy"
+      ],
+      "label": "の理念を持つ",
+      "comment": "書籍または著者が掲げる営業の基本思想。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/hasPhilosophy"
+    },
+    {
+      "name": "trains",
+      "type": "object",
+      "domain": [
+        "Author"
+      ],
+      "range": [
+        "SalesPerson"
+      ],
+      "label": "を指導する",
+      "comment": "著者がコンサルティングや研修で営業担当者を育成する関係。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/trains"
+    },
+    {
+      "name": "sellsTo",
+      "type": "object",
+      "domain": [
+        "SalesPerson"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "に営業する",
+      "comment": "営業担当者が顧客へ提案・交渉する関係。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/sellsTo"
+    },
+    {
+      "name": "arisesBetweenSeller",
+      "type": "object",
+      "domain": [
+        "InformationGap"
+      ],
+      "range": [
+        "SalesPerson"
+      ],
+      "label": "売り手側に生じる",
+      "comment": "情報ギャップの売り手側当事者。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/arisesBetweenSeller"
+    },
+    {
+      "name": "arisesBetweenBuyer",
+      "type": "object",
+      "domain": [
+        "InformationGap"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "買い手側に生じる",
+      "comment": "情報ギャップの買い手側当事者。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/arisesBetweenBuyer"
+    },
+    {
+      "name": "resolvedByPower",
+      "type": "object",
+      "domain": [
+        "InformationGap"
+      ],
+      "range": [
+        "SalesPower"
+      ],
+      "label": "により解消される",
+      "comment": "四つのズレの各々に対応する力でギャップを埋める。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/resolvedByPower"
+    },
+    {
+      "name": "hasPower",
+      "type": "object",
+      "domain": [
+        "SalesPerson"
+      ],
+      "range": [
+        "SalesPower"
+      ],
+      "label": "の力を持つ",
+      "comment": "営業担当者が行使する四つの力。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/hasPower"
+    },
+    {
+      "name": "handlesCase",
+      "type": "object",
+      "domain": [
+        "SalesPerson"
+      ],
+      "range": [
+        "SalesCase"
+      ],
+      "label": "を担当する",
+      "comment": "営業担当者と担当案件の関係。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/handlesCase"
+    },
+    {
+      "name": "belongsToCustomer",
+      "type": "object",
+      "domain": [
+        "SalesCase"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "の顧客案件である",
+      "comment": "案件が属する顧客。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/belongsToCustomer"
+    },
+    {
+      "name": "hasContestPattern",
+      "type": "object",
+      "domain": [
+        "CloseContestCase"
+      ],
+      "range": [
+        "CloseContestPattern"
+      ],
+      "label": "の迷いの型を持つ",
+      "comment": "接戦案件における他社・保留・内製のいずれかの迷い。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/hasContestPattern"
+    },
+    {
+      "name": "asksQuestion",
+      "type": "object",
+      "domain": [
+        "SalesPerson"
+      ],
+      "range": [
+        "WinningQuestion",
+        "ProblemSolvingQuestion"
+      ],
+      "label": "を問う",
+      "comment": "営業担当者が接戦質問や課題解決質問を用いる関係。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/asksQuestion"
+    },
+    {
+      "name": "fillsGap",
+      "type": "object",
+      "domain": [
+        "WinningQuestion"
+      ],
+      "range": [
+        "InformationGap"
+      ],
+      "label": "のギャップを埋める",
+      "comment": "三つの質問が情報ギャップ解消に寄与する関係。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/fillsGap"
+    },
+    {
+      "name": "usesBantch",
+      "type": "object",
+      "domain": [
+        "ContestSituationQuestion"
+      ],
+      "range": [
+        "BANTCH"
+      ],
+      "label": "バンチを用いる",
+      "comment": "接戦状況確認にBANTCHを活用する。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/usesBantch"
+    },
+    {
+      "name": "usesPillowPhrase",
+      "type": "object",
+      "domain": [
+        "BackgroundQuestion",
+        "BidirectionalHearingPhase"
+      ],
+      "range": [
+        "PillowPhrase"
+      ],
+      "label": "枕詞を用いる",
+      "comment": "背景質問や双方向ヒアリングで心理的ハードルを下げる。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/usesPillowPhrase"
+    },
+    {
+      "name": "hasHearingPhase",
+      "type": "object",
+      "domain": [
+        "SalesCase"
+      ],
+      "range": [
+        "HearingPhase"
+      ],
+      "label": "の商談段階を持つ",
+      "comment": "案件進行におけるヒアリング四段階。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/hasHearingPhase"
+    },
+    {
+      "name": "requiresQuestioningPower",
+      "type": "object",
+      "domain": [
+        "HearingPhase",
+        "ProblemSolvingQuestion",
+        "WinningQuestion"
+      ],
+      "range": [
+        "QuestioningPower"
+      ],
+      "label": "質問力を要する",
+      "comment": "商談フェーズや質問群が質問力に依存する関係。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/requiresQuestioningPower"
+    },
+    {
+      "name": "deliversValueIn",
+      "type": "object",
+      "domain": [
+        "ValuePropositionPower"
+      ],
+      "range": [
+        "ValueQuadrant"
+      ],
+      "label": "の象限で価値を出す",
+      "comment": "価値訴求力が四象限のいずれかに価値を配置する関係。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/deliversValueIn"
+    },
+    {
+      "name": "followsModel",
+      "type": "object",
+      "domain": [
+        "SalesPerson"
+      ],
+      "range": [
+        "SalesModel"
+      ],
+      "label": "の営業モデルに従う",
+      "comment": "担当者がルート型またはアカウント型を採る関係。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/followsModel"
+    },
+    {
+      "name": "emphasizesPower",
+      "type": "object",
+      "domain": [
+        "SalesModel"
+      ],
+      "range": [
+        "SalesPower"
+      ],
+      "label": "の力を重心とする",
+      "comment": "営業モデルごとに四つの力の重心が異なる。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/emphasizesPower"
+    },
+    {
+      "name": "usesFramework",
+      "type": "object",
+      "domain": [
+        "SalesPerson",
+        "ProposalLogicConstructionPower",
+        "ValuePropositionPower"
+      ],
+      "range": [
+        "AnalysisFramework"
+      ],
+      "label": "の枠組みを用いる",
+      "comment": "分析・関係構築・逆転にフレームワークを適用する。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/usesFramework"
+    },
+    {
+      "name": "organizes",
+      "type": "object",
+      "domain": [
+        "RequirementOrganization"
+      ],
+      "range": [
+        "SalesCase"
+      ],
+      "label": "の要件を整理する",
+      "comment": "上流プロセスで案件課題を構造化する。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/organizes"
+    },
+    {
+      "name": "reverses",
+      "type": "object",
+      "domain": [
+        "OppositionLogic"
+      ],
+      "range": [
+        "CloseContestCase"
+      ],
+      "label": "の接戦を逆転する",
+      "comment": "対立ロジックでビハインドの接戦を覆す。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/reverses"
+    },
+    {
+      "name": "experiencesDissonance",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "CognitiveDissonance"
+      ],
+      "label": "の不協和を感じる",
+      "comment": "迷いを抱えた顧客が認知的不協和を経験する。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/experiencesDissonance"
+    },
+    {
+      "name": "resolvesDissonance",
+      "type": "object",
+      "domain": [
+        "OppositionLogic"
+      ],
+      "range": [
+        "CognitiveDissonance"
+      ],
+      "label": "の不協和を解消する",
+      "comment": "当社を選ぶ理由で顧客の心理的不快を解消する。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/resolvesDissonance"
+    },
+    {
+      "name": "performsAction",
+      "type": "object",
+      "domain": [
+        "SalesPerson"
+      ],
+      "range": [
+        "SalesAction"
+      ],
+      "label": "の行動を行う",
+      "comment": "営業担当者の具体的な実行行為。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/performsAction"
+    },
+    {
+      "name": "drivenByActionPower",
+      "type": "object",
+      "domain": [
+        "SalesAction"
+      ],
+      "range": [
+        "ProposalActionPower"
+      ],
+      "label": "提案行動力に駆動される",
+      "comment": "電話・メール・クロージングは提案行動力の発現である。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/drivenByActionPower"
+    },
+    {
+      "name": "followedByEmail",
+      "type": "object",
+      "domain": [
+        "TenMinuteSales"
+      ],
+      "range": [
+        "HelpfulEmail"
+      ],
+      "label": "の後にお役立ちメールを送る",
+      "comment": "十分間の電話商談直後に議事録付きメールを送る。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/followedByEmail"
+    },
+    {
+      "name": "describedAs",
+      "type": "data",
+      "domain": [
+        "Book",
+        "Author",
+        "SalesPhilosophy",
+        "InformationGap",
+        "SalesPower",
+        "SalesCase",
+        "WinningQuestion",
+        "HearingPhase",
+        "ValueQuadrant",
+        "SalesModel",
+        "AnalysisFramework",
+        "SalesAction",
+        "PillowPhrase"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明文",
+      "comment": "概念の日本語による説明。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/describedAs"
+    },
+    {
+      "name": "statisticValue",
+      "type": "data",
+      "domain": [
+        "InformationGap",
+        "Author",
+        "SalesPerson",
+        "Customer"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "統計値",
+      "comment": "失望割合、受注率、指導人数、六人に一人などの数値表現。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/statisticValue"
+    },
+    {
+      "name": "timingNote",
+      "type": "data",
+      "domain": [
+        "WinningQuestion",
+        "SalesAction",
+        "HearingPhase"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "実施タイミング",
+      "comment": "質問や行動を行う時機の説明。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/timingNote"
+    },
+    {
+      "name": "examplePhrase",
+      "type": "data",
+      "domain": [
+        "PillowPhrase",
+        "WinningQuestion",
+        "ProblemSolvingQuestion",
+        "Closing"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "例示台詞",
+      "comment": "枕詞、質問例、稟議支援の台詞などの具体例。",
+      "uri": "https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/examplePhrase"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

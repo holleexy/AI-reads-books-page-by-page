@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/">
+    <rdfs:label>Gaishikei_Consul_Shigoto_no_SusumekataOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntellectualLabor">
+    <rdfs:label xml:lang="ja">知的労働</rdfs:label>
+    <rdfs:comment xml:lang="ja">タスクの本質を理解し、人と生成AIを含むチーム全体で成果を最大化する労働形態。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Team">
+    <rdfs:label xml:lang="ja">チーム</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人スキルではなく協働の情報処理プロセスにより成果を最大化する単位。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Person">
+    <rdfs:label xml:lang="ja">人</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロジェクトや議論、調査に関与する個人。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Consultant">
+    <rdfs:label xml:lang="ja">コンサルタント</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説検証と中間成果物を通じて問題解決を進める実務者。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Person"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Manager">
+    <rdfs:label xml:lang="ja">マネージャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">トップダウンでリスクを洗い出し、タッチポイントと合意形成を設計する上位者。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Person"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Client">
+    <rdfs:label xml:lang="ja">クライアント</rdfs:label>
+    <rdfs:comment xml:lang="ja">意思決定の完了基準を持ち、論理的なツッコミに耐えうる説明を求める相手。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Person"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project">
+    <rdfs:label xml:lang="ja">プロジェクト</rdfs:label>
+    <rdfs:comment xml:lang="ja">独自のプロダクトや所産を創造する有期的業務。コンサルティングでは完了基準が意思決定で期限は1〜3ヶ月と厳格。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProjectPhase">
+    <rdfs:label xml:lang="ja">プロジェクトフェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">初期流動と平常運転など、進め方の段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/InitialFluidPhase">
+    <rdfs:label xml:lang="ja">初期流動</rdfs:label>
+    <rdfs:comment xml:lang="ja">期間の前半3分の1程度でスピード重視により全体像の解像度を上げる段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProjectPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/SteadyOperationPhase">
+    <rdfs:label xml:lang="ja">平常運転</rdfs:label>
+    <rdfs:comment xml:lang="ja">詳細詰めと合意形成を進める段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProjectPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProblemSolvingProcess">
+    <rdfs:label xml:lang="ja">問題解決プロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題の定義、メカニズム解明、課題特定、打ち手策定からなる基本プロセス。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Problem">
+    <rdfs:label xml:lang="ja">問題</rdfs:label>
+    <rdfs:comment xml:lang="ja">価値基準と現状・予測のギャップとして定義される望ましくない事象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Mechanism">
+    <rdfs:label xml:lang="ja">メカニズム</rdfs:label>
+    <rdfs:comment xml:lang="ja">単一・複合・循環など、問題の発生原因の整理。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Issue">
+    <rdfs:label xml:lang="ja">課題</rdfs:label>
+    <rdfs:comment xml:lang="ja">最も投資対効果の高い介入ポイント。ボウリングのセンターピンに例えられる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Solution">
+    <rdfs:label xml:lang="ja">打ち手</rdfs:label>
+    <rdfs:comment xml:lang="ja">コスト・即効性・効果のトレードオフを考慮して選ぶ具体的解決策。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/BadSolutionPattern">
+    <rdfs:label xml:lang="ja">ダメな打ち手の典型</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題の言い換え、表面的対処、副作用を生む対処など、避けるべき打ち手の型。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Hypothesis">
+    <rdfs:label xml:lang="ja">仮説</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題・課題・打ち手を早期に構築し、検証と更新を繰り返す暫定的な見解。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/HypothesisVerificationCycle">
+    <rdfs:label xml:lang="ja">仮説検証サイクル</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説をプロジェクト期間を通じて検証し更新する反復的なサイクル。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ArgumentPoint">
+    <rdfs:label xml:lang="ja">論点</rdfs:label>
+    <rdfs:comment xml:lang="ja">見解の統一されていない点（疑問）を単純化した意思疎通の単位。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/WorkModule">
+    <rdfs:label xml:lang="ja">作業モジュール</rdfs:label>
+    <rdfs:comment xml:lang="ja">作業種類ではなく意味の塊で分担し、サイロ化を防ぎ主体的問題解決を促す単位。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntermediateDeliverable">
+    <rdfs:label xml:lang="ja">中間成果物</rdfs:label>
+    <rdfs:comment xml:lang="ja">チームの情報処理を効率化するサマリ・ストーリー・ワークプラン。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Summary">
+    <rdfs:label xml:lang="ja">サマリ</rdfs:label>
+    <rdfs:comment xml:lang="ja">問い、答え（主張）、論理展開を要約した中間成果物。結論ファーストで書く。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntermediateDeliverable"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Story">
+    <rdfs:label xml:lang="ja">ストーリー</rdfs:label>
+    <rdfs:comment xml:lang="ja">サマリに論拠と根拠を肉づけし、検証が必要な命題を特定する中間成果物。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntermediateDeliverable"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/WorkPlan">
+    <rdfs:label xml:lang="ja">ワークプラン</rdfs:label>
+    <rdfs:comment xml:lang="ja">ストーリーの検証作業計画。所要時間、担当、情報源、リスクを含む。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntermediateDeliverable"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/LogicalFramework">
+    <rdfs:label xml:lang="ja">論理フレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">問い設定と論理確認のための型。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/SCQAFramework">
+    <rdfs:label xml:lang="ja">SCQAフレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">Situation、Complication、Question、Answerの順で問いを設定する枠組み。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/LogicalFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/PyramidStructure">
+    <rdfs:label xml:lang="ja">ピラミッドストラクチャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">Why So? と So What? の双方向から論理を確認する構造。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/LogicalFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Discussion">
+    <rdfs:label xml:lang="ja">議論</rdfs:label>
+    <rdfs:comment xml:lang="ja">伝える、見解を昇華させる、次の論点とアクションを明確にする情報処理により良い意思決定を行うこと。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Slide">
+    <rdfs:label xml:lang="ja">スライド</rdfs:label>
+    <rdfs:comment xml:lang="ja">1スライド1メッセージを原則とし、ナビゲーター・タイトル・メッセージ・ボディ・フットノートで構成する資料。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Chart">
+    <rdfs:label xml:lang="ja">チャート</rdfs:label>
+    <rdfs:comment xml:lang="ja">定性11種・定量9種から選ぶ図示。合成やスケール操作による印象操作は禁じる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/LiteratureResearch">
+    <rdfs:label xml:lang="ja">文献調査</rdfs:label>
+    <rdfs:comment xml:lang="ja">全体像設計から検証事項抽出、成果物逆算、実行分析、仮説進化までの定性調査。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/QuantitativeAnalysis">
+    <rdfs:label xml:lang="ja">定量分析</rdfs:label>
+    <rdfs:comment xml:lang="ja">アウトプットから逆算し、仮説具体化・チャート設計・手順設計・実行・仮説進化を反復する分析。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Interview">
+    <rdfs:label xml:lang="ja">インタビュー</rdfs:label>
+    <rdfs:comment xml:lang="ja">表層に出ない知に触れ、真因や意図を引き出すための6ステップの対話調査。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntervieweePortfolio">
+    <rdfs:label xml:lang="ja">インタビュイーポートフォリオ</rdfs:label>
+    <rdfs:comment xml:lang="ja">多様な立場や成功・失敗経験を持つ対象者の構成。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/TouchPoint">
+    <rdfs:label xml:lang="ja">タッチポイント</rdfs:label>
+    <rdfs:comment xml:lang="ja">不確実性とリスクに応じて上位者への報告・相談を前倒しで設定する機会。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Feedback">
+    <rdfs:label xml:lang="ja">フィードバック</rdfs:label>
+    <rdfs:comment xml:lang="ja">頭で受け止め心までは落とさず、感情ではなく論理的にアクションへ反映する指摘。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/GenerativeAI">
+    <rdfs:label xml:lang="ja">生成AI</rdfs:label>
+    <rdfs:comment xml:lang="ja">リサーチの壁打ち相手として使うが、真贋判定と文脈解釈は人間が担う支援技術。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasMember">
+    <rdfs:label xml:lang="ja">メンバーを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">チームが構成員を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Team"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/worksOn">
+    <rdfs:label xml:lang="ja">従事する</rdfs:label>
+    <rdfs:comment xml:lang="ja">人またはチームがプロジェクトに従事する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Person"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Team"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/serves">
+    <rdfs:label xml:lang="ja">支援する</rdfs:label>
+    <rdfs:comment xml:lang="ja">チームやプロジェクトがクライアントの意思決定を支援する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Team"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Client"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/reportsTo">
+    <rdfs:label xml:lang="ja">報告する</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンサルタントがマネージャーへ報告・相談する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Consultant"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Manager"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasPhase">
+    <rdfs:label xml:lang="ja">フェーズを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロジェクトが初期流動や平常運転などの段階を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProjectPhase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/usesProcess">
+    <rdfs:label xml:lang="ja">プロセスを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロジェクトが問題解決の基本プロセスに従う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProblemSolvingProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/definesProblem">
+    <rdfs:label xml:lang="ja">問題を定義する</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロセスが望ましくない事象としての問題を定義する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProblemSolvingProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Problem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasMechanism">
+    <rdfs:label xml:lang="ja">メカニズムを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題がその発生原因メカニズムを持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Problem"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Mechanism"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/identifiesIssue">
+    <rdfs:label xml:lang="ja">課題を特定する</rdfs:label>
+    <rdfs:comment xml:lang="ja">投資対効果の高い介入ポイントを課題として特定する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProblemSolvingProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Issue"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/proposesSolution">
+    <rdfs:label xml:lang="ja">打ち手を策定する</rdfs:label>
+    <rdfs:comment xml:lang="ja">トレードオフを考慮して解決策を選ぶ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProblemSolvingProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Solution"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/exhibitsPattern">
+    <rdfs:label xml:lang="ja">悪い型を示す</rdfs:label>
+    <rdfs:comment xml:lang="ja">打ち手が避けるべき典型パターンに該当する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Solution"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/BadSolutionPattern"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasHypothesis">
+    <rdfs:label xml:lang="ja">仮説を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロジェクトや議論が検証対象の仮説を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProblemSolvingProcess"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Discussion"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Hypothesis"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/verifiedBy">
+    <rdfs:label xml:lang="ja">検証される</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説がサイクルを通じて検証・更新される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Hypothesis"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/HypothesisVerificationCycle"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/evolvesInto">
+    <rdfs:label xml:lang="ja">進化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">前提の切り口変更、より適切なオプション発見、具体化により仮説が進化する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Hypothesis"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Hypothesis"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasArgumentPoint">
+    <rdfs:label xml:lang="ja">論点を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">見解が揃っていない疑問点を論点として持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Discussion"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ArgumentPoint"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/dividedInto">
+    <rdfs:label xml:lang="ja">モジュール化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">意味の塊を単位として作業を分担する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Team"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/WorkModule"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/assignedTo">
+    <rdfs:label xml:lang="ja">担当する</rdfs:label>
+    <rdfs:comment xml:lang="ja">得意なことを担当しつつ余力で苦手にも挑戦する分担関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/WorkModule"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/produces">
+    <rdfs:label xml:lang="ja">成果物を作る</rdfs:label>
+    <rdfs:comment xml:lang="ja">チームが中間成果物を作成する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Team"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Person"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntermediateDeliverable"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/usesFramework">
+    <rdfs:label xml:lang="ja">フレームワークを使う</rdfs:label>
+    <rdfs:comment xml:lang="ja">サマリや議論がSCQAやピラミッドストラクチャーを用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Summary"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Discussion"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/LogicalFramework"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/fleshedOutAs">
+    <rdfs:label xml:lang="ja">ストーリー化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">サマリに論拠と根拠を肉づけしてストーリーにする関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Summary"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Story"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/plannedAs">
+    <rdfs:label xml:lang="ja">計画化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">ストーリーの検証作業をワークプランとして計画する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Story"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/WorkPlan"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasTouchPoint">
+    <rdfs:label xml:lang="ja">タッチポイントを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">リスクに応じて報告・相談機会を前倒し設定する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/WorkPlan"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/TouchPoint"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/holdsDiscussion">
+    <rdfs:label xml:lang="ja">議論を行う</rdfs:label>
+    <rdfs:comment xml:lang="ja">チームが意思決定のための議論を行う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Team"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Discussion"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/createsSlide">
+    <rdfs:label xml:lang="ja">資料を作成する</rdfs:label>
+    <rdfs:comment xml:lang="ja">意思決定に必要十分な情報と明瞭な主張を持つスライドを作る関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Person"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Slide"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/derivedFromStory">
+    <rdfs:label xml:lang="ja">ストーリーに基づく</rdfs:label>
+    <rdfs:comment xml:lang="ja">スライドのメッセージをストーリーから持ってくる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Slide"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Story"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasChart">
+    <rdfs:label xml:lang="ja">チャートを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">スライドのボディが適切な定性・定量チャートを持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Slide"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Chart"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/performsResearch">
+    <rdfs:label xml:lang="ja">文献調査を行う</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンサルタントが文脈解釈と真贋判定を伴う調査を行う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Consultant"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/LiteratureResearch"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/performsAnalysis">
+    <rdfs:label xml:lang="ja">定量分析を行う</rdfs:label>
+    <rdfs:comment xml:lang="ja">列単位の均一処理とクロスチェックを徹底して分析する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Consultant"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/QuantitativeAnalysis"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/conductsInterview">
+    <rdfs:label xml:lang="ja">インタビューを行う</rdfs:label>
+    <rdfs:comment xml:lang="ja">オープンからクローズドへ深掘りし言質を取る関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Consultant"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Interview"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasIntervieweePortfolio">
+    <rdfs:label xml:lang="ja">対象者構成を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">インタビューが多様な対象者ポートフォリオを持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Interview"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntervieweePortfolio"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/givesFeedback">
+    <rdfs:label xml:lang="ja">フィードバックを与える</rdfs:label>
+    <rdfs:comment xml:lang="ja">上位者やクライアントが論理的な指摘を与える関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Manager"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Client"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Feedback"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/receivesFeedback">
+    <rdfs:label xml:lang="ja">フィードバックを受ける</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンサルタントが厳しい指摘を論理的アクションへ反映する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Consultant"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Feedback"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/usesAI">
+    <rdfs:label xml:lang="ja">生成AIを使う</rdfs:label>
+    <rdfs:comment xml:lang="ja">知的労働や調査のスタート地点として生成AIを壁打ちに使う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntellectualLabor"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/LiteratureResearch"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/GenerativeAI"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/maximizesPerformanceOf">
+    <rdfs:label xml:lang="ja">成果を最大化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">形式知化した情報処理プロセスによりチーム成果を最大化する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntellectualLabor"/>
+    <rdfs:range rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Team"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/definition">
+    <rdfs:label xml:lang="ja">定義</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念の定義を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Problem"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Discussion"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ArgumentPoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/duration">
+    <rdfs:label xml:lang="ja">期間</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロジェクトやフェーズの期限・期間を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProjectPhase"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/completionCriterion">
+    <rdfs:label xml:lang="ja">完了基準</rdfs:label>
+    <rdfs:comment xml:lang="ja">意思決定など、プロジェクト完了の判定基準。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/principle">
+    <rdfs:label xml:lang="ja">原則</rdfs:label>
+    <rdfs:comment xml:lang="ja">モジュール化や1スライド1メッセージなど、進め方の基本原則。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Team"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/WorkModule"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Slide"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntellectualLabor"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/message">
+    <rdfs:label xml:lang="ja">メッセージ</rdfs:label>
+    <rdfs:comment xml:lang="ja">結論ファーストで示す主張の文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Summary"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Slide"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Discussion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/purpose">
+    <rdfs:label xml:lang="ja">目的</rdfs:label>
+    <rdfs:comment xml:lang="ja">調査・分析・相談機会の目的を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Interview"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/TouchPoint"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/LiteratureResearch"/>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/QuantitativeAnalysis"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/valueCriterion">
+    <rdfs:label xml:lang="ja">価値基準</rdfs:label>
+    <rdfs:comment xml:lang="ja">何を良しとするかという問題定義の価値基準。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Problem"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

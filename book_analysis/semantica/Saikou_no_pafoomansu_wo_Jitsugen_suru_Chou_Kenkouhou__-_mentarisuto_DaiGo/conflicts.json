@@ -1,0 +1,41 @@
+[
+  {
+    "conflict_id": "リンゴ_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "リンゴ",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "PRODUCT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

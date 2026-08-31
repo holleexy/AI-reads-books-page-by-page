@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/">
+    <rdfs:label>Kakureta_Keyman_wo_SagaseOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/SalesMisconception">
+    <rdfs:label xml:lang="ja">営業の誤解</rdfs:label>
+    <rdfs:comment xml:lang="ja">モダンB2B営業が固執し契約獲得を阻害する誤った常識。全員追跡、優れた提案、過剰カスタマイズ、ベネフィット伝達、コンテンツナーチャリングなどが該当する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/OneThirdProblem">
+    <rdfs:label xml:lang="ja">3分の1問題</rdfs:label>
+    <rdfs:comment xml:lang="ja">サプライヤーが候補に挙がり交渉の席には着けるものの、最終的に価格競争に巻き込まれ受注確率が3分の1に落ちる構造的課題。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/CommodityTrap">
+    <rdfs:label xml:lang="ja">コモディティ化の罠</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品が優れていても価格競争に陥り、顧客が2番目に安いそこそこの品質で妥協する現象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/StatusQuo">
+    <rdfs:label xml:lang="ja">現状維持</rdfs:label>
+    <rdfs:comment xml:lang="ja">サプライヤーの最大の競争相手。顧客が変化せず既存のやり方を続けることであり、隠れたコストと痛みを生む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Customer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">法人購買を行う企業。購買決定には平均5.4人のステークホルダーが関与する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Supplier">
+    <rdfs:label xml:lang="ja">サプライヤー</rdfs:label>
+    <rdfs:comment xml:lang="ja">法人向けに製品やソリューションを提供する売り手企業。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Salesperson">
+    <rdfs:label xml:lang="ja">販売員</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客に接触し提案を行う営業担当者。プレゼンターからファシリテーターへ役割を変える必要がある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/ChallengerSalesperson">
+    <rdfs:label xml:lang="ja">チャレンジャー販売員</rdfs:label>
+    <rdfs:comment xml:lang="ja">花形販売員。顧客に建設的な緊張をもたらし、モビライザーと共鳴して変革を推進する論客タイプ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Salesperson"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/BuyingCommittee">
+    <rdfs:label xml:lang="ja">購買委員会</rdfs:label>
+    <rdfs:comment xml:lang="ja">平均5.4人のステークホルダーからなる意思決定集団。個別のイエスが集団のノーになる1プラス1プラス1イコール0の現象を起こす。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/BuyingProcess">
+    <rdfs:label xml:lang="ja">購買プロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報過多とリスク回避と専門部門の発言権増大により不良議会化した法人購買の流れ。37パーセント地点で瓦解しやすく、57パーセント地点で初めて販売員に接触する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Stakeholder">
+    <rdfs:label xml:lang="ja">ステークホルダー</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客企業の購買決定に関与する関係者。それぞれ異なるメンタルモデルを持ち、衝突するとリスク回避と経費削減だけが合意される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Mobilizer">
+    <rdfs:label xml:lang="ja">モビライザー</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織を動かす能力とコンセンサスを形成する能力を持つ動員者。ゴー・ゲッター、ティーチャー、スケプティックの総称であり隠れたキーマンである。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Stakeholder"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Talker">
+    <rdfs:label xml:lang="ja">トーカー</rdfs:label>
+    <rdfs:comment xml:lang="ja">話し相手としては優秀だが取引を成立させる力は弱い関係者。ガイド、フレンド、クライマーの総称。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Stakeholder"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Blocker">
+    <rdfs:label xml:lang="ja">ブロッカー</rdfs:label>
+    <rdfs:comment xml:lang="ja">現状維持を好み変化に抵抗する阻害者。質の高い契約の確率を47パーセント低下させる。無視は最大のリスクである。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Stakeholder"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/GoGetter">
+    <rdfs:label xml:lang="ja">ゴー・ゲッター</rdfs:label>
+    <rdfs:comment xml:lang="ja">実務家で、アイデアを具体的な業務計画に落とし込むのが得意なやり手。モビライザーの一類型。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Mobilizer"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Teacher">
+    <rdfs:label xml:lang="ja">ティーチャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">感情重視で、ビジョンやストーリーを通じて社内を巻き込むのが得意な教育者。モビライザーの一類型。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Mobilizer"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Skeptic">
+    <rdfs:label xml:lang="ja">スケプティック</rdfs:label>
+    <rdfs:comment xml:lang="ja">データと論理を重視し、徹底的に検証してから支持を表明する懐疑派。モビライザーの一類型。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Mobilizer"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Guide">
+    <rdfs:label xml:lang="ja">ガイド</rdfs:label>
+    <rdfs:comment xml:lang="ja">内部情報に通じているが変革推進力は低い案内役。トーカーの一類型。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Talker"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Friend">
+    <rdfs:label xml:lang="ja">フレンド</rdfs:label>
+    <rdfs:comment xml:lang="ja">接触しやすく親切だが成約への寄与は低い友だちタイプ。トーカーの一類型。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Talker"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Climber">
+    <rdfs:label xml:lang="ja">クライマー</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人的な利益やキャリアのために動く上昇志向の関係者。トーカーの一類型。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Talker"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/MentalModel">
+    <rdfs:label xml:lang="ja">メンタルモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">ステークホルダーが持つ世界観と優先事項。多様なモデルの衝突は最低の共通項であるリスク回避と何もしないことだけを残しコモディティ化を招く。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/CommercialInsight">
+    <rdfs:label xml:lang="ja">コマーシャル・インサイト</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が自身のビジネスについてよくわかっているべきなのに気づいていないことを提示する深い洞察。現状維持の隠れた痛みを証明しメンタルモデルを転換する組織的な戦略資産。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/SICContentProcess">
+    <rdfs:label xml:lang="ja">SICコンテンツプロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">刺激、導入、直面という道筋でモビライザーのメンタルモデルを変化させるコンテンツ設計。インサイトに収斂しないコンテンツは破棄すべきである。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/Content">
+    <rdfs:label xml:lang="ja">コンテンツ</rdfs:label>
+    <rdfs:comment xml:lang="ja">刺激用の予想外データやインフォグラフィック、導入用のホワイトペーパー、直面用のペインチェッカーなど、SICに直結する情報資産。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/CollectiveLearning">
+    <rdfs:label xml:lang="ja">コレクティブラーニング</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客関係者同士を結びつけ共通言語と共通のビジョンを構築する集合的学習。集団の機能不全を3分の1に低下させ高品質な取引の確率を高める。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/CommercialCoaching">
+    <rdfs:label xml:lang="ja">コマーシャル・コーチング</rdfs:label>
+    <rdfs:comment xml:lang="ja">販売員がファシリテーターとしてモビライザーに社内での動き方と同僚の説得方法を指導し、購買プロセスを支援する活動。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/OpportunityPlanning">
+    <rdfs:label xml:lang="ja">オポチュニティ・プランニング</rdfs:label>
+    <rdfs:comment xml:lang="ja">誰に会うかではなく、モビライザーにインサイトをリサーチさせ集団を合意させるかというクリティカル・シンキングに基づく取引計画。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/BuyerSignal">
+    <rdfs:label xml:lang="ja">バイヤーシグナル</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が認めた購買行動の進捗結果。従来のセラーリードではなくこれをマイルストーンとして管理する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/CaseStudy">
+    <rdfs:label xml:lang="ja">事例</rdfs:label>
+    <rdfs:comment xml:lang="ja">デンツプライやゼロックスなど、コマーシャル・インサイトによりメンタルモデルを転換し価格競争を回避した成功事例。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/hasStakeholder">
+    <rdfs:label xml:lang="ja">ステークホルダーを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客または購買委員会が関与する関係者を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Customer"/>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/BuyingCommittee"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Stakeholder"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/belongsToCustomer">
+    <rdfs:label xml:lang="ja">顧客に属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">関係者や購買の仕組みがどの顧客企業に属するかを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Stakeholder"/>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/BuyingCommittee"/>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/BuyingProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/hasMentalModel">
+    <rdfs:label xml:lang="ja">メンタルモデルを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">各ステークホルダー固有の世界観と優先事項を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Stakeholder"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/MentalModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/targetsMobilizer">
+    <rdfs:label xml:lang="ja">モビライザーを標的にする</rdfs:label>
+    <rdfs:comment xml:lang="ja">花形販売員が接触しやすさや役職ではなく組織を動かす動員者を狙う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/ChallengerSalesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Mobilizer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/presentsInsight">
+    <rdfs:label xml:lang="ja">インサイトを提示する</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品利点ではなく顧客の現状認識を破壊するコマーシャル・インサイトを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Salesperson"/>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Supplier"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CommercialInsight"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/transformsMentalModel">
+    <rdfs:label xml:lang="ja">メンタルモデルを転換する</rdfs:label>
+    <rdfs:comment xml:lang="ja">型破りな洞察により顧客の誤った認識を壊し新しい因果関係を植え付ける。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CommercialInsight"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/MentalModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/exposesPainOf">
+    <rdfs:label xml:lang="ja">現状維持の痛みを暴露する</rdfs:label>
+    <rdfs:comment xml:lang="ja">変わるメリットではなく、変わらないことが生む隠れたコストを証明する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CommercialInsight"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/StatusQuo"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/competesWith">
+    <rdfs:label xml:lang="ja">競争する</rdfs:label>
+    <rdfs:comment xml:lang="ja">最大の競争相手はライバル企業ではなく顧客の現状維持であるという関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Supplier"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/StatusQuo"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/causesCommodityTrap">
+    <rdfs:label xml:lang="ja">コモディティ化を引き起こす</rdfs:label>
+    <rdfs:comment xml:lang="ja">現状維持志向と最低共通項への合意が価格競争の罠を生む。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/StatusQuo"/>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/MentalModel"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CommodityTrap"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/resultsInOneThirdProblem">
+    <rdfs:label xml:lang="ja">3分の1問題をもたらす</rdfs:label>
+    <rdfs:comment xml:lang="ja">コモディティ化が最終局面の価格競争と低い受注確率につながる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CommodityTrap"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/OneThirdProblem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/employs">
+    <rdfs:label xml:lang="ja">雇用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">サプライヤーと販売員の所属関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Supplier"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Salesperson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/sellsTo">
+    <rdfs:label xml:lang="ja">販売する</rdfs:label>
+    <rdfs:comment xml:lang="ja">サプライヤーが顧客企業へソリューションを提供する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Supplier"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/hasBuyingProcess">
+    <rdfs:label xml:lang="ja">購買プロセスを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客企業における複雑化した購買の流れ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/BuyingProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/participatesIn">
+    <rdfs:label xml:lang="ja">参加する</rdfs:label>
+    <rdfs:comment xml:lang="ja">ステークホルダーが購買プロセスや集合的学習に関与する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Stakeholder"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/BuyingProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CollectiveLearning"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/coaches">
+    <rdfs:label xml:lang="ja">コーチングする</rdfs:label>
+    <rdfs:comment xml:lang="ja">販売員がモビライザーに社内説得と買い方を指導する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Mobilizer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/appliesCoaching">
+    <rdfs:label xml:lang="ja">コーチングを適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">販売員がコマーシャル・コーチングを実践する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CommercialCoaching"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/facilitates">
+    <rdfs:label xml:lang="ja">促進する</rdfs:label>
+    <rdfs:comment xml:lang="ja">販売員が関係者間の共通言語と共通ビジョンの構築を主導する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CollectiveLearning"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/obstructs">
+    <rdfs:label xml:lang="ja">阻害する</rdfs:label>
+    <rdfs:comment xml:lang="ja">ブロッカーが変革と高品質契約の成立を妨害する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Blocker"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/BuyingProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/BuyingCommittee"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/neutralizes">
+    <rdfs:label xml:lang="ja">無力化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">関係者間の社会的圧力によりブロッカーを封じ込める。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CollectiveLearning"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Blocker"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/followsProcess">
+    <rdfs:label xml:lang="ja">プロセスに従う</rdfs:label>
+    <rdfs:comment xml:lang="ja">マーケティングが刺激・導入・直面の道筋でコンテンツを設計する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Supplier"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/SICContentProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/produces">
+    <rdfs:label xml:lang="ja">生み出す</rdfs:label>
+    <rdfs:comment xml:lang="ja">SICプロセスがインサイトに収斂するコンテンツを生成する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/SICContentProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Content"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/convergesOn">
+    <rdfs:label xml:lang="ja">収斂する</rdfs:label>
+    <rdfs:comment xml:lang="ja">すべてのコンテンツが一つのコマーシャル・インサイトに結びつくべきである。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Content"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CommercialInsight"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/illustratedBy">
+    <rdfs:label xml:lang="ja">事例で示される</rdfs:label>
+    <rdfs:comment xml:lang="ja">インサイト構築がデンツプライやゼロックスなどの事例で具体化される。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CommercialInsight"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CaseStudy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/tracksSignal">
+    <rdfs:label xml:lang="ja">シグナルを追跡する</rdfs:label>
+    <rdfs:comment xml:lang="ja">取引計画が営業活動量ではなく顧客の購買進捗をマイルストーンにする。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/OpportunityPlanning"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/BuyerSignal"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/plansFor">
+    <rdfs:label xml:lang="ja">計画対象とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">オポチュニティ計画がモビライザーへのインサイト提供と集団合意形成を中心に組まれる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/OpportunityPlanning"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Mobilizer"/>
+    <rdfs:range rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CollectiveLearning"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Kakureta_Keyman_wo_Sagase/description">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">誤解、インサイト、事例、コンテンツの内容を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/SalesMisconception"/>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CommercialInsight"/>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/CaseStudy"/>
+    <rdfs:domain rdf:resource="https://books.local/Kakureta_Keyman_wo_Sagase/Content"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

@@ -1,0 +1,299 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Gutai_to_Chuushou/> .
+
+book:source a prov:Entity ;
+  foaf:name "Gutai_to_Chuushou" ;
+  book:book_key "Gutai_to_Chuushou" .
+
+book:抽象的な概念 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:知的能力 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:具体性 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:思考力 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:概念 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:concrete a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:abstract a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:N：1 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:言葉 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:数 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:知識 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:道具 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:お金 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:科学技術 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:魚 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:三角形 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:森羅万象 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニケーションのギャップ a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:わかりやすい a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:人間の知性 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:理論家 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:往復運動 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:認識のレベル a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織の民主化 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:創業初期 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:設計者 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:民主化 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:不可逆性 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:万人へのわかりやすさ a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:多数派 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:選挙 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:衰退期 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:成熟期 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:連続的な変化 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:破壊的な変化 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:来るべき衰退期 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:世代交代 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:不連続な変化 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:発想力 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:理解力 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:学校教育 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:考え方の仕組み a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:モデル a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:共通の物差し a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:表現力 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:対応関係 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:一般化された知見 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:学者 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:市民権を取り戻す a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:実体 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:個別事象 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:法則 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロセス a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:解釈の違い a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:実務家 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:学習のプロセス a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:発達した知能 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:科学的な体系的理論 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:能力 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:動物 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:紙 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:技術 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:記号 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:経済活動 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:昨日 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:今日 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:3 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:鮪 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:鮭 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:鰹 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:鰺 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:認知能力 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ピラミッド型 a prov:Entity ;
+  book:book_key "Gutai_to_Chuushou" ;
+  prov:wasDerivedFrom book:source .

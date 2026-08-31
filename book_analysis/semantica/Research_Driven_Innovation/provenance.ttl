@@ -1,0 +1,475 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Research_Driven_Innovation/> .
+
+book:source a prov:Entity ;
+  foaf:name "Research_Driven_Innovation" ;
+  book:book_key "Research_Driven_Innovation" .
+
+book:リサーチ a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:デザイン思考 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:アート思考 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:意味のイノベーション a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:イノベーション a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:東京大学 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:研究者 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:先行研究 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:巨人の肩の上に立つ a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:アウトサイド・イン a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:インサイド・アウト a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:外から内（アウトサイド・イン）アプローチ a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:ユーザー a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:Design Thinking a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:共感 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:内から外（インサイド・アウト） a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:「外から内」アプローチ a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジョン主導 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:Outside-In a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:Inside-Out a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:meaning-driven innovation a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:新結合 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織にとっての新結合 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:チーム a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:変化 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:成功の罠 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:Practitioner a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:アイデア発想 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:第1のレイヤー a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:innovation a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:データ a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:Mimicry Design Inc. a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:批判厳禁 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:技術革新 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:Researcher a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:未踏の領域 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:市場 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:conflicting perspectives a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:European Commission a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:経済学者 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:新しい機能 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:特任助教 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:人間中心 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:新規事業開発担当者 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーケティング担当者 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:問い a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:思考法 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:安斎勇樹 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:学習 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:ワークショップデザイン a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:ファシリテーション a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:小田裕和 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:博士論文 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:テーマ a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:実践者 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:学術研究 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:院生 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮説 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:学問の世界 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:独自の研究視点 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:アンケート a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:インタビュー a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:観察ノート a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:one year a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:several years a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:academic research a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:literature a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:workplace a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:the field a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:bottom-up innovation a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:organizational development a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:business development a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:existing research a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロダクト a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:サービス a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:ニーズ a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:ミラノ工科大学 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロベルト・ベルガンティ a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:教授 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:「意味のイノベーション」 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:革新的なアイデア a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:ものづくり a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:近年 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:no criticism a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:Art Thinking a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:Vision-driven a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:sparring a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:スパーリング a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:二項対立 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:ambidextrous a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:両利き a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:internal and external a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:内と外の絶えざる往復による探究 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:レビュー a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:自分らしい問い a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヨーゼフ・シュンペーター a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:社会にとっての新結合 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:新奇な価値 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:人類の進化 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:探究そのもの a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:フレームワーク a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:ノウハウ a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業組織 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:創造性 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:専門性 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:固定観念 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:キース・ソーヤー a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:心理学者 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:凡才の集団は孤高の天才に勝る a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:コラボレーション a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:阻害要因 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:多様性 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:虫の目 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:鳥の目 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:人材育成 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .
+
+book:知識 a prov:Entity ;
+  book:book_key "Research_Driven_Innovation" ;
+  prov:wasDerivedFrom book:source .

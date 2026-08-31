@@ -1,0 +1,363 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/> .
+
+book:source a prov:Entity ;
+  foaf:name "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" .
+
+book:トップセールス a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業組織 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:目標達成率 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:セールス・イネーブルメント a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:トレーニング a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:OJT a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:一過性 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:属人性 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:有効性 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:enablement a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:中間層 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:イネーブルメント a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:CSO Insights a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:能力開発 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:Results a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:Skills/Knowledge a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:パンデミック a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:デジタル技術 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:新型コロナウイルス a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:2016 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:コロナ a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:メンバー a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:sales organizations a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:Actions/Behaviors a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:売上目標 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:人材 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:成果 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:行動 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:organizational sales target achievement rate a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:担当顧客の適性による変更 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:upselling/cross-selling to existing customers a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客のジャーニー a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:true success a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:internal composition a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:breakdown a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:health of the team a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:elite salespeople a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:Pattern 1 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:マネジメント業務 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:環境変化 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:配置転換 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:継続的な学習 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:研修アプローチ a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:学習コンテンツ a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:会社 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:知識 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:パフォーマンス a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:現状維持 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:業績 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:6割の営業 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:グラフ a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:R-Square & Company a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:代表 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:キャリアパス a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:リーダー a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:即戦力化 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:早期戦力化 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:テクノロジー a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:disciplines a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンテンツ整備 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:ゴール a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:仕組み a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:スキル/知識 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:ターゲティング a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:アカウントプランニング a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:新規顧客の獲得 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:既存顧客の営業 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:SFA a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:eラーニング a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:一気通貫 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:販売準備 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:数値目標 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:人事部門 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:HubSpot社 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:欧米 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:10年ほど前 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:米国 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:コーポレート・エグゼクティブ・ボード a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:CEB a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:The Digital Evolution In B2B Marketing a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:BtoB a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:グリーゼ a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:購買プロセス a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:翔泳社 a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:new customer acquisition a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:recruiting and training sales staff a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .
+
+book:COVID-19 pandemic a prov:Entity ;
+  book:book_key "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_" ;
+  prov:wasDerivedFrom book:source .

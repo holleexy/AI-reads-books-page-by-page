@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/">
+    <rdfs:label>Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_JOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織づくりの基礎を体系的に示す入門書。人事の器（制度・仕組み）に血（活力・文化・人のつながり）を通すことに焦点を当て、学術偏重でも個別事例偏重でもない組織開発の全体像を提供する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Author">
+    <rdfs:label xml:lang="ja">著者</rdfs:label>
+    <rdfs:comment xml:lang="ja">ITエンジニアから人事へ転身し、有害な職場環境の改善を志した実務家。人事マネジャー、リクルートの人事コンサルタント、アカツキの人事企画責任者を経て、人材マネジメント会社こすてんとんを主宰する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization">
+    <rdfs:label xml:lang="ja">組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">単なる集団ではなく、共通目的と協働によって定義される集合体。シャインは分業と階層による合理的協働、バーナードは意識的に調整された人的活動のシステムと定義する。真の有効性は組織の共通目的と成員の個人目的の両立である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Group">
+    <rdfs:label xml:lang="ja">集団</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織とは区別される単なる人の集まり。共通目的・貢献意欲・円滑なコミュニケーションという組織成立の要件を満たさない。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/SharedPurpose">
+    <rdfs:label xml:lang="ja">共通目的</rdfs:label>
+    <rdfs:comment xml:lang="ja">バーナードの組織成立三条件の第一。組織が協働するための共有された目的であり、成員の個人目的との両立が組織の有効性を規定する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalDevelopment">
+    <rdfs:label xml:lang="ja">組織開発</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織の健全性・有効性・自己革新能力を高める計画的かつ協働的なプロセス。開発とは外部からの創造ではなく成長や成熟を意味し、真の主体は組織成員、外部コンサルタントは支援者にすぎない。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationMember">
+    <rdfs:label xml:lang="ja">組織成員</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織開発の真の主人公。貢献意欲を持ち協働する人々であり、制度という器に魂を通すソフト面の担い手である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ChangeAgent">
+    <rdfs:label xml:lang="ja">変革エージェント</rdfs:label>
+    <rdfs:comment xml:lang="ja">人間尊重、民主主義、クライアント中心、環境・社会志向の四価値に基づき組織開発を実践する者。主要な道具は人事制度ではなく実践者自身の価値観（ユース・オブ・セルフ）である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/CoreValue">
+    <rdfs:label xml:lang="ja">中核的価値</rdfs:label>
+    <rdfs:comment xml:lang="ja">NTLハンドブックに示される変革エージェントの四価値。人間尊重（Y理論）、参加型意思決定、クライアントが変革の主体であること、社会と共存する有機的システム志向。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Intervention">
+    <rdfs:label xml:lang="ja">介入</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織の健康と有効性を高める計画的な働きかけ。カミングスとウォーリーは人間プロセス、テクノ構造、人的資源管理、戦略的変革の四類型を示す。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/HumanProcessIntervention">
+    <rdfs:label xml:lang="ja">人間プロセス介入</rdfs:label>
+    <rdfs:comment xml:lang="ja">対人関係に直接働きかける最も重要な介入。日本企業の組織図では担当部門が欠落しがちで、部門レベルの戦略と並ぶ機能的ギャップとなっている。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Intervention"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/TechnoStructuralIntervention">
+    <rdfs:label xml:lang="ja">テクノ構造介入</rdfs:label>
+    <rdfs:comment xml:lang="ja">仕事の設計や組織構造に関する介入。器（ハード）を整えるが、それだけでは活力は生まれない。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Intervention"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/HumanResourceManagementIntervention">
+    <rdfs:label xml:lang="ja">人的資源管理介入</rdfs:label>
+    <rdfs:comment xml:lang="ja">人事制度や人材開発に関する介入。著者の前著が扱った器（フォーム）に相当する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Intervention"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/StrategicChangeIntervention">
+    <rdfs:label xml:lang="ja">戦略的変革介入</rdfs:label>
+    <rdfs:comment xml:lang="ja">ビジョン、戦略、合併などに関する介入。部門レベルの戦略機能の欠落は日本企業の組織開発ギャップの一端である。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Intervention"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/PhilosophicalRoot">
+    <rdfs:label xml:lang="ja">哲学的源流</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織開発の思想的基盤。デューイのプラグマティズム（経験の省察による学習）、フッサールの現象学（今ここと主観的意識）、フロイトの精神分析（対話による無意識の顕在化）。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ODMethod">
+    <rdfs:label xml:lang="ja">組織開発手法</rdfs:label>
+    <rdfs:comment xml:lang="ja">Tグループ、サーベイフィードバック、対話型組織開発、ホールシステムアプローチなど、組織の健康と自己革新を促す実践方法の総称。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/SurveyFeedback">
+    <rdfs:label xml:lang="ja">サーベイフィードバック</rdfs:label>
+    <rdfs:comment xml:lang="ja">リッカートに始まる診断型手法。データの収集・フィードバック・対話により行動を触媒する。収集効果、フィードバック効果、外在化効果がある。データ取得だけでは何も変わらない。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ODMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/FeedbackMeeting">
+    <rdfs:label xml:lang="ja">フィードバックミーティング</rdfs:label>
+    <rdfs:comment xml:lang="ja">調査結果を現場に提示し解釈と行動計画を行う場。チームの最終責任者であるオーナーの本気の関与が不可欠で、グッドアンドモアによる心理的安全性の確保が推奨される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Dialogue">
+    <rdfs:label xml:lang="ja">対話</rdfs:label>
+    <rdfs:comment xml:lang="ja">前提と文脈を共有しながら共通善としてのなぜを共創する探究的営み。社会構成主義では言葉が世界を作るとされ、多様化とリモートワークで失われた無意識の前提を意図的に再構築するために不可欠である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Discussion">
+    <rdfs:label xml:lang="ja">議論</rdfs:label>
+    <rdfs:comment xml:lang="ja">あらかじめ決まったなぜに対してどのようにを決める分析的営み。意見の戦いとしての性格を持ち、対話とは区別される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/WholeSystemApproach">
+    <rdfs:label xml:lang="ja">ホールシステムアプローチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">多様なステークホルダー全体を巻き込む対話型手法群。アプリシエイティブ・インクワイアリー、フューチャーサーチ、オープン・スペース・テクノロジー、ワールドカフェなどを含む。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ODMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/AppreciativeInquiry">
+    <rdfs:label xml:lang="ja">アプリシエイティブ・インクワイアリー</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題ではなく強み（ポジティブコア）に焦点を当てる対話型組織開発。ディスカバリー、ドリーム、デザイン、デスティニーの4Dサイクルで構成される。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/WholeSystemApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/LearningOrganization">
+    <rdfs:label xml:lang="ja">学習する組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">学習障害を克服し継続的に学習・適応する組織。センゲの五つのディシプリン、すなわち自己マスタリー、メンタルモデル、共有ビジョン、チーム学習、システム思考に基づく。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/TealOrganization">
+    <rdfs:label xml:lang="ja">ティール組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">自己管理、全体性、進化する目的を特徴とする進化型組織。移行の前提はCEOと取締役会がティール意識を持つことである。ラルーが提示し、ホラクラシー等の実践と結びつく。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/VisionaryCompany">
+    <rdfs:label xml:lang="ja">ビジョナリーカンパニー</rdfs:label>
+    <rdfs:comment xml:lang="ja">時を告げるのではなく時計を作る持続的組織。コアイデオロギーの維持と進歩の刺激を両立し、フライホイール、レベル5リーダーシップ、ハリネズミの概念などで特徴づけられる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/WiseCompany">
+    <rdfs:label xml:lang="ja">ワイズカンパニー</rdfs:label>
+    <rdfs:comment xml:lang="ja">暗黙知と形式知の変換（SECI）とフロネシス（実践知）により、真・善・美を統合して戦略を心から生み出す知識創造企業。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Knowledge">
+    <rdfs:label xml:lang="ja">知識</rdfs:label>
+    <rdfs:comment xml:lang="ja">目的と文脈を持ち行為と信念を要する。情報とは異なり、暗黙知と形式知の動的変換を通じて創造される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/SECIModel">
+    <rdfs:label xml:lang="ja">SECIモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">野中郁次郎の知識創造プロセス。共同化（暗黙知同士）、表出化（暗黙知から形式知）、連結化（形式知同士）、内面化（形式知から暗黙知）の循環。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Phronesis">
+    <rdfs:label xml:lang="ja">フロネシス</rdfs:label>
+    <rdfs:comment xml:lang="ja">アリストテレスの実践知。物事の本質を見極め、今ここにおいて倫理的に行為する能力。善の判断、本質の把握、場の創造、修辞による伝達、政治力の行使、実践知の育成からなる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Leader">
+    <rdfs:label xml:lang="ja">リーダー</rdfs:label>
+    <rdfs:comment xml:lang="ja">肩書ではなく影響力として定義される。学習する組織では設計者・スチュワード・教師であり、時計を作る存在である。レベル5リーダーシップは個人の謙虚さと職業的意志を兼ね備える。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/PsychologicalSafety">
+    <rdfs:label xml:lang="ja">心理的安全性</rdfs:label>
+    <rdfs:comment xml:lang="ja">単に仲が良いことではなく、発言し建設的に反対しリスクを取れる、高い学習とイノベーションの環境。エドモンドソンが提示し、関係の質から結果の質へ至る成功循環の基盤となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalCulture">
+    <rdfs:label xml:lang="ja">組織文化</rdfs:label>
+    <rdfs:comment xml:lang="ja">制度という器に通す血としてのソフト面。仏作って魂入れずは形だけより悪い。日本の長寿企業では個人由来のカルチャーより従業員層が積み重ねる風土として価値観が形成される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ProcessConsultation">
+    <rdfs:label xml:lang="ja">プロセス・コンサルテーション</rdfs:label>
+    <rdfs:comment xml:lang="ja">シャインの援助の哲学。専門家モデル、医師・患者モデル、プロセス・コンサルテーションモデルを状況に応じて柔軟に切り替える。強制的な感情刺激よりケアと意味づくりを優先する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/IntegralTheory">
+    <rdfs:label xml:lang="ja">インテグラル理論</rdfs:label>
+    <rdfs:comment xml:lang="ja">ウィルバーの万物の理論。内面／外面と個人／集合の四象限で真・善・美を統合する。組織開発は本質的にわれわれ（内面・集合／善）の領域に位置する。超えつつ含むが原則である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/hasAuthor">
+    <rdfs:label xml:lang="ja">著者を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍とその著者を結びつける。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Book"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Author"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/treatsTopic">
+    <rdfs:label xml:lang="ja">主題とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍が体系的に扱う中心主題を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Book"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalDevelopment"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/distinguishedFrom">
+    <rdfs:label xml:lang="ja">区別される</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織が単なる集団ではないことを示す対比関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Group"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/hasMember">
+    <rdfs:label xml:lang="ja">成員を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織とその成員の所属関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationMember"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/hasSharedPurpose">
+    <rdfs:label xml:lang="ja">共通目的を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">バーナードの第一条件である共通の組織目的を表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/SharedPurpose"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/hasCulture">
+    <rdfs:label xml:lang="ja">文化を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">制度という器に通す活力・文化・人のつながりのソフト面を表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalCulture"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/undergoesDevelopment">
+    <rdfs:label xml:lang="ja">組織開発を行う</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織が計画的な開発プロセスを経る関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalDevelopment"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/hasIntervention">
+    <rdfs:label xml:lang="ja">介入を含む</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織開発が用いる四類型の介入との関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Intervention"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/usesMethod">
+    <rdfs:label xml:lang="ja">手法を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織開発または変革エージェントが具体的手法を用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalDevelopment"/>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ChangeAgent"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ODMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/basedOnPhilosophy">
+    <rdfs:label xml:lang="ja">哲学的源流に基づく</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織開発がプラグマティズム・現象学・精神分析に根ざすことを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/PhilosophicalRoot"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/supportedByAgent">
+    <rdfs:label xml:lang="ja">変革エージェントに支援される</rdfs:label>
+    <rdfs:comment xml:lang="ja">外部実践者は主体ではなく支援者であるという関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ChangeAgent"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/holdsValue">
+    <rdfs:label xml:lang="ja">中核的価値を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">変革エージェントがNTLの四価値を実践の基盤とすることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ChangeAgent"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/CoreValue"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/employsConsultation">
+    <rdfs:label xml:lang="ja">プロセス・コンサルテーションを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">援助の三モデルを柔軟に切り替える実践関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ChangeAgent"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ProcessConsultation"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/facilitatesDialogue">
+    <rdfs:label xml:lang="ja">対話を促進する</rdfs:label>
+    <rdfs:comment xml:lang="ja">実践者やリーダーが対話を意図的に設計・促進する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ChangeAgent"/>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Leader"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Dialogue"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/leadsOrganization">
+    <rdfs:label xml:lang="ja">組織を率いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">影響力としてのリーダーシップが組織に及ぶ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Leader"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/requiresSafety">
+    <rdfs:label xml:lang="ja">心理的安全性を必要とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">対話・学習・フィードバックが成立するための環境条件。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Dialogue"/>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalDevelopment"/>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/FeedbackMeeting"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/PsychologicalSafety"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/contrastsWith">
+    <rdfs:label xml:lang="ja">対比される</rdfs:label>
+    <rdfs:comment xml:lang="ja">対話（なぜの共創）と議論（どのようにの決定）の対比。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Dialogue"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Discussion"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/visualizesStateOf">
+    <rdfs:label xml:lang="ja">組織状態を可視化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">調査データにより組織の現状を可視化し対話を触媒する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/SurveyFeedback"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/hasOwner">
+    <rdfs:label xml:lang="ja">オーナーを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">フィードバックミーティングの最終責任者（経営者やマネジャー）との関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/FeedbackMeeting"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Leader"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/createsKnowledgeVia">
+    <rdfs:label xml:lang="ja">SECIモデルで知識を創造する</rdfs:label>
+    <rdfs:comment xml:lang="ja">ワイズカンパニーが暗黙知と形式知の変換循環で知識を生む関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/WiseCompany"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/SECIModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/practicesWisdom">
+    <rdfs:label xml:lang="ja">実践知を行使する</rdfs:label>
+    <rdfs:comment xml:lang="ja">賢明なリーダーや組織が今ここでの倫理的判断と行為を行う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Leader"/>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/WiseCompany"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Phronesis"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/locatedInQuadrant">
+    <rdfs:label xml:lang="ja">四象限で位置づけられる</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織開発がインテグラル理論のわれわれ（内面・集合）領域に位置することを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/IntegralTheory"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/possessesKnowledge">
+    <rdfs:label xml:lang="ja">知識を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人または組織が暗黙知・形式知を保持し変換する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationMember"/>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Knowledge"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/hasDefinition">
+    <rdfs:label xml:lang="ja">定義</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念の定義文。バーナードやウォーリック、センゲ、ラルー等の定義を文字列として保持する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalDevelopment"/>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ODMethod"/>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Knowledge"/>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Dialogue"/>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Phronesis"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/hasCareerPath">
+    <rdfs:label xml:lang="ja">経歴</rdfs:label>
+    <rdfs:comment xml:lang="ja">著者のキャリア経路を表す文字列。人事マネジャー、コンサルタント、人事企画責任者、独立など。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/Author"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

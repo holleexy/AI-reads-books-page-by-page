@@ -1,0 +1,547 @@
+@prefix ex: <https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/shapes> a owl:Ontology .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "組織づくりの基礎を体系的に示す入門書。人事の器（制度・仕組み）に血（活力・文化・人のつながり）を通すことに焦点を当て、学術偏重でも個別事例偏重でもない組織開発の全体像を提供する。" ;
+    sh:property [
+        sh:path ex:hasAuthor ;
+        sh:class ex:Author ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:treatsTopic ;
+        sh:class ex:OrganizationalDevelopment ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/AuthorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Author ;
+    sh:name "著者" ;
+    sh:description "ITエンジニアから人事へ転身し、有害な職場環境の改善を志した実務家。人事マネジャー、リクルートの人事コンサルタント、アカツキの人事企画責任者を経て、人材マネジメント会社こすてんとんを主宰する。" ;
+    sh:property [
+        sh:path ex:hasCareerPath ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "単なる集団ではなく、共通目的と協働によって定義される集合体。シャインは分業と階層による合理的協働、バーナードは意識的に調整された人的活動のシステムと定義する。真の有効性は組織の共通目的と成員の個人目的の両立である。" ;
+    sh:property [
+        sh:path ex:distinguishedFrom ;
+        sh:class ex:Group ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMember ;
+        sh:class ex:OrganizationMember ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasSharedPurpose ;
+        sh:class ex:SharedPurpose ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCulture ;
+        sh:class ex:OrganizationalCulture ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:undergoesDevelopment ;
+        sh:class ex:OrganizationalDevelopment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:possessesKnowledge ;
+        sh:class ex:Knowledge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/GroupShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Group ;
+    sh:name "集団" ;
+    sh:description "組織とは区別される単なる人の集まり。共通目的・貢献意欲・円滑なコミュニケーションという組織成立の要件を満たさない。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/SharedPurposeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SharedPurpose ;
+    sh:name "共通目的" ;
+    sh:description "バーナードの組織成立三条件の第一。組織が協働するための共有された目的であり、成員の個人目的との両立が組織の有効性を規定する。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalDevelopmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationalDevelopment ;
+    sh:name "組織開発" ;
+    sh:description "組織の健全性・有効性・自己革新能力を高める計画的かつ協働的なプロセス。開発とは外部からの創造ではなく成長や成熟を意味し、真の主体は組織成員、外部コンサルタントは支援者にすぎない。" ;
+    sh:property [
+        sh:path ex:hasIntervention ;
+        sh:class ex:Intervention ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesMethod ;
+        sh:class ex:ODMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnPhilosophy ;
+        sh:class ex:PhilosophicalRoot ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedByAgent ;
+        sh:class ex:ChangeAgent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresSafety ;
+        sh:class ex:PsychologicalSafety ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:locatedInQuadrant ;
+        sh:class ex:IntegralTheory ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationMemberShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationMember ;
+    sh:name "組織成員" ;
+    sh:description "組織開発の真の主人公。貢献意欲を持ち協働する人々であり、制度という器に魂を通すソフト面の担い手である。" ;
+    sh:property [
+        sh:path ex:possessesKnowledge ;
+        sh:class ex:Knowledge ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ChangeAgentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ChangeAgent ;
+    sh:name "変革エージェント" ;
+    sh:description "人間尊重、民主主義、クライアント中心、環境・社会志向の四価値に基づき組織開発を実践する者。主要な道具は人事制度ではなく実践者自身の価値観（ユース・オブ・セルフ）である。" ;
+    sh:property [
+        sh:path ex:usesMethod ;
+        sh:class ex:ODMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:holdsValue ;
+        sh:class ex:CoreValue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:employsConsultation ;
+        sh:class ex:ProcessConsultation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:facilitatesDialogue ;
+        sh:class ex:Dialogue ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/CoreValueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CoreValue ;
+    sh:name "中核的価値" ;
+    sh:description "NTLハンドブックに示される変革エージェントの四価値。人間尊重（Y理論）、参加型意思決定、クライアントが変革の主体であること、社会と共存する有機的システム志向。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/InterventionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Intervention ;
+    sh:name "介入" ;
+    sh:description "組織の健康と有効性を高める計画的な働きかけ。カミングスとウォーリーは人間プロセス、テクノ構造、人的資源管理、戦略的変革の四類型を示す。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/HumanProcessInterventionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HumanProcessIntervention ;
+    sh:name "人間プロセス介入" ;
+    sh:description "対人関係に直接働きかける最も重要な介入。日本企業の組織図では担当部門が欠落しがちで、部門レベルの戦略と並ぶ機能的ギャップとなっている。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/TechnoStructuralInterventionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TechnoStructuralIntervention ;
+    sh:name "テクノ構造介入" ;
+    sh:description "仕事の設計や組織構造に関する介入。器（ハード）を整えるが、それだけでは活力は生まれない。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/HumanResourceManagementInterventionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HumanResourceManagementIntervention ;
+    sh:name "人的資源管理介入" ;
+    sh:description "人事制度や人材開発に関する介入。著者の前著が扱った器（フォーム）に相当する。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/StrategicChangeInterventionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:StrategicChangeIntervention ;
+    sh:name "戦略的変革介入" ;
+    sh:description "ビジョン、戦略、合併などに関する介入。部門レベルの戦略機能の欠落は日本企業の組織開発ギャップの一端である。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/PhilosophicalRootShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PhilosophicalRoot ;
+    sh:name "哲学的源流" ;
+    sh:description "組織開発の思想的基盤。デューイのプラグマティズム（経験の省察による学習）、フッサールの現象学（今ここと主観的意識）、フロイトの精神分析（対話による無意識の顕在化）。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ODMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ODMethod ;
+    sh:name "組織開発手法" ;
+    sh:description "Tグループ、サーベイフィードバック、対話型組織開発、ホールシステムアプローチなど、組織の健康と自己革新を促す実践方法の総称。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/SurveyFeedbackShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SurveyFeedback ;
+    sh:name "サーベイフィードバック" ;
+    sh:description "リッカートに始まる診断型手法。データの収集・フィードバック・対話により行動を触媒する。収集効果、フィードバック効果、外在化効果がある。データ取得だけでは何も変わらない。" ;
+    sh:property [
+        sh:path ex:visualizesStateOf ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/FeedbackMeetingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FeedbackMeeting ;
+    sh:name "フィードバックミーティング" ;
+    sh:description "調査結果を現場に提示し解釈と行動計画を行う場。チームの最終責任者であるオーナーの本気の関与が不可欠で、グッドアンドモアによる心理的安全性の確保が推奨される。" ;
+    sh:property [
+        sh:path ex:requiresSafety ;
+        sh:class ex:PsychologicalSafety ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasOwner ;
+        sh:class ex:Leader ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/DialogueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Dialogue ;
+    sh:name "対話" ;
+    sh:description "前提と文脈を共有しながら共通善としてのなぜを共創する探究的営み。社会構成主義では言葉が世界を作るとされ、多様化とリモートワークで失われた無意識の前提を意図的に再構築するために不可欠である。" ;
+    sh:property [
+        sh:path ex:requiresSafety ;
+        sh:class ex:PsychologicalSafety ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:contrastsWith ;
+        sh:class ex:Discussion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/DiscussionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Discussion ;
+    sh:name "議論" ;
+    sh:description "あらかじめ決まったなぜに対してどのようにを決める分析的営み。意見の戦いとしての性格を持ち、対話とは区別される。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/WholeSystemApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WholeSystemApproach ;
+    sh:name "ホールシステムアプローチ" ;
+    sh:description "多様なステークホルダー全体を巻き込む対話型手法群。アプリシエイティブ・インクワイアリー、フューチャーサーチ、オープン・スペース・テクノロジー、ワールドカフェなどを含む。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/AppreciativeInquiryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AppreciativeInquiry ;
+    sh:name "アプリシエイティブ・インクワイアリー" ;
+    sh:description "問題ではなく強み（ポジティブコア）に焦点を当てる対話型組織開発。ディスカバリー、ドリーム、デザイン、デスティニーの4Dサイクルで構成される。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/LearningOrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LearningOrganization ;
+    sh:name "学習する組織" ;
+    sh:description "学習障害を克服し継続的に学習・適応する組織。センゲの五つのディシプリン、すなわち自己マスタリー、メンタルモデル、共有ビジョン、チーム学習、システム思考に基づく。" ;
+    sh:property [
+        sh:path ex:distinguishedFrom ;
+        sh:class ex:Group ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMember ;
+        sh:class ex:OrganizationMember ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasSharedPurpose ;
+        sh:class ex:SharedPurpose ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCulture ;
+        sh:class ex:OrganizationalCulture ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:undergoesDevelopment ;
+        sh:class ex:OrganizationalDevelopment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:possessesKnowledge ;
+        sh:class ex:Knowledge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/TealOrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TealOrganization ;
+    sh:name "ティール組織" ;
+    sh:description "自己管理、全体性、進化する目的を特徴とする進化型組織。移行の前提はCEOと取締役会がティール意識を持つことである。ラルーが提示し、ホラクラシー等の実践と結びつく。" ;
+    sh:property [
+        sh:path ex:distinguishedFrom ;
+        sh:class ex:Group ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMember ;
+        sh:class ex:OrganizationMember ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasSharedPurpose ;
+        sh:class ex:SharedPurpose ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCulture ;
+        sh:class ex:OrganizationalCulture ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:undergoesDevelopment ;
+        sh:class ex:OrganizationalDevelopment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:possessesKnowledge ;
+        sh:class ex:Knowledge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/VisionaryCompanyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:VisionaryCompany ;
+    sh:name "ビジョナリーカンパニー" ;
+    sh:description "時を告げるのではなく時計を作る持続的組織。コアイデオロギーの維持と進歩の刺激を両立し、フライホイール、レベル5リーダーシップ、ハリネズミの概念などで特徴づけられる。" ;
+    sh:property [
+        sh:path ex:distinguishedFrom ;
+        sh:class ex:Group ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMember ;
+        sh:class ex:OrganizationMember ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasSharedPurpose ;
+        sh:class ex:SharedPurpose ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCulture ;
+        sh:class ex:OrganizationalCulture ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:undergoesDevelopment ;
+        sh:class ex:OrganizationalDevelopment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:possessesKnowledge ;
+        sh:class ex:Knowledge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/WiseCompanyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WiseCompany ;
+    sh:name "ワイズカンパニー" ;
+    sh:description "暗黙知と形式知の変換（SECI）とフロネシス（実践知）により、真・善・美を統合して戦略を心から生み出す知識創造企業。" ;
+    sh:property [
+        sh:path ex:createsKnowledgeVia ;
+        sh:class ex:SECIModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practicesWisdom ;
+        sh:class ex:Phronesis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:distinguishedFrom ;
+        sh:class ex:Group ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMember ;
+        sh:class ex:OrganizationMember ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasSharedPurpose ;
+        sh:class ex:SharedPurpose ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCulture ;
+        sh:class ex:OrganizationalCulture ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:undergoesDevelopment ;
+        sh:class ex:OrganizationalDevelopment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:possessesKnowledge ;
+        sh:class ex:Knowledge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/KnowledgeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Knowledge ;
+    sh:name "知識" ;
+    sh:description "目的と文脈を持ち行為と信念を要する。情報とは異なり、暗黙知と形式知の動的変換を通じて創造される。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/SECIModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SECIModel ;
+    sh:name "SECIモデル" ;
+    sh:description "野中郁次郎の知識創造プロセス。共同化（暗黙知同士）、表出化（暗黙知から形式知）、連結化（形式知同士）、内面化（形式知から暗黙知）の循環。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/PhronesisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Phronesis ;
+    sh:name "フロネシス" ;
+    sh:description "アリストテレスの実践知。物事の本質を見極め、今ここにおいて倫理的に行為する能力。善の判断、本質の把握、場の創造、修辞による伝達、政治力の行使、実践知の育成からなる。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/LeaderShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Leader ;
+    sh:name "リーダー" ;
+    sh:description "肩書ではなく影響力として定義される。学習する組織では設計者・スチュワード・教師であり、時計を作る存在である。レベル5リーダーシップは個人の謙虚さと職業的意志を兼ね備える。" ;
+    sh:property [
+        sh:path ex:facilitatesDialogue ;
+        sh:class ex:Dialogue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:leadsOrganization ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practicesWisdom ;
+        sh:class ex:Phronesis ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/PsychologicalSafetyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PsychologicalSafety ;
+    sh:name "心理的安全性" ;
+    sh:description "単に仲が良いことではなく、発言し建設的に反対しリスクを取れる、高い学習とイノベーションの環境。エドモンドソンが提示し、関係の質から結果の質へ至る成功循環の基盤となる。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/OrganizationalCultureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationalCulture ;
+    sh:name "組織文化" ;
+    sh:description "制度という器に通す血としてのソフト面。仏作って魂入れずは形だけより悪い。日本の長寿企業では個人由来のカルチャーより従業員層が積み重ねる風土として価値観が形成される。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/ProcessConsultationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProcessConsultation ;
+    sh:name "プロセス・コンサルテーション" ;
+    sh:description "シャインの援助の哲学。専門家モデル、医師・患者モデル、プロセス・コンサルテーションモデルを状況に応じて柔軟に切り替える。強制的な感情刺激よりケアと意味づくりを優先する。" .
+
+<https://books.local/Zukai__Soshiki_Kaihatsu_Nyuumon__Soshiki_zukurino_Kiso_wo_ichi_ubo____Riron_to_J/IntegralTheoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IntegralTheory ;
+    sh:name "インテグラル理論" ;
+    sh:description "ウィルバーの万物の理論。内面／外面と個人／集合の四象限で真・善・美を統合する。組織開発は本質的にわれわれ（内面・集合／善）の領域に位置する。超えつつ含むが原則である。" .

@@ -1,0 +1,317 @@
+@prefix ex: <https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/shapes> a owl:Ontology .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/IntelligenceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Intelligence ;
+    sh:name "知性" ;
+    sh:description "特定の才能の占有物ではなく、学校・職場・日常で考え判断し学び表現するすべての活動に関与する基盤。" ;
+    sh:property [
+        sh:path ex:hasRepresentation ;
+        sh:class ex:Representation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:interactsWith ;
+        sh:class ex:Environment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/AnimalIntelligenceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnimalIntelligence ;
+    sh:name "動物の知性" ;
+    sh:description "チンパンジーの記憶力やゴキブリの高速逃避行動など、人間以外の生物に見られる高度な知性。" ;
+    sh:property [
+        sh:path ex:hasRepresentation ;
+        sh:class ex:Representation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:interactsWith ;
+        sh:class ex:Environment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ArtificialIntelligenceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ArtificialIntelligence ;
+    sh:name "人工知能" ;
+    sh:description "将棋や囲碁でプロを破るシステムや、ウィットに富んだ応答を返す対話システムとして現れる知性。" ;
+    sh:property [
+        sh:path ex:hasRepresentation ;
+        sh:class ex:Representation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:interactsWith ;
+        sh:class ex:Environment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CollectiveIntelligenceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CollectiveIntelligence ;
+    sh:name "集合的知性" ;
+    sh:description "既存技術の組み合わせによる組織的成功や、群衆が衝突せず円滑に移動する協調として現れる知性。" ;
+    sh:property [
+        sh:path ex:hasRepresentation ;
+        sh:class ex:Representation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:interactsWith ;
+        sh:class ex:Environment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitiveScienceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CognitiveScience ;
+    sh:name "認知科学" ;
+    sh:description "心理学・言語学・哲学・神経科学・動物行動学・人工知能研究が協力し、知的システムの構造・機能・発生を探る学際領域。" ;
+    sh:property [
+        sh:path ex:studies ;
+        sh:class ex:Intelligence ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/RepresentationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Representation ;
+    sh:name "表象" ;
+    sh:description "外界の対象を脳内で代理する情報であり、認知プロセスの基盤となる。" .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ComputationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Computation ;
+    sh:name "計算" ;
+    sh:description "入力情報に対して様々な処理を行い、表象を作り出すプロセス。" ;
+    sh:property [
+        sh:path ex:producesRepresentation ;
+        sh:class ex:Representation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/KnowledgeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Knowledge ;
+    sh:name "知識" ;
+    sh:description "経験・概念・技能として貯蔵され、記号的または分散的に表現される情報の総体。" ;
+    sh:property [
+        sh:path ex:hasRepresentation ;
+        sh:class ex:Representation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/EpisodicMemoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EpisodicMemory ;
+    sh:name "エピソード記憶" ;
+    sh:description "いつどこでという時間的文脈を伴う、個人的な経験の記憶。" ;
+    sh:property [
+        sh:path ex:hasRepresentation ;
+        sh:class ex:Representation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/SemanticMemoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SemanticMemory ;
+    sh:name "意味記憶" ;
+    sh:description "概念やカテゴリー、言葉の意味に関する一般的な知識。" ;
+    sh:property [
+        sh:path ex:hasRepresentation ;
+        sh:class ex:Representation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ProceduralMemoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProceduralMemory ;
+    sh:name "手続き記憶" ;
+    sh:description "自転車の乗り方など体で覚える技能であり、言語化が困難な運動表象。" ;
+    sh:property [
+        sh:path ex:hasRepresentation ;
+        sh:class ex:Representation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/MemoryProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MemoryProcess ;
+    sh:name "記憶過程" ;
+    sh:description "符号化・貯蔵・検索の三段階からなる記憶の情報処理。" ;
+    sh:property [
+        sh:path ex:encodes ;
+        sh:class ex:Knowledge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:dependsOnContext ;
+        sh:class ex:Context ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/WorkingMemoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WorkingMemory ;
+    sh:name "ワーキングメモリ" ;
+    sh:description "約七プラスマイナス二チャンクの容量制限を持ち、保持と処理が同一資源を競合する短期記憶。" ;
+    sh:property [
+        sh:path ex:encodes ;
+        sh:class ex:Knowledge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:dependsOnContext ;
+        sh:class ex:Context ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/PerceptionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Perception ;
+    sh:name "知覚" ;
+    sh:description "感覚情報を解釈する過程。中心窩以外は低解像度であり、視覚表象はおおざっぱで脆弱である。" ;
+    sh:property [
+        sh:path ex:dependsOnContext ;
+        sh:class ex:Context ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Thinking ;
+    sh:name "思考" ;
+    sh:description "演繹・帰納・仮説推論、問題解決、意思決定を含む高次の認知過程。" ;
+    sh:property [
+        sh:path ex:usesHeuristic ;
+        sh:class ex:Heuristic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:dependsOnContext ;
+        sh:class ex:Context ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/HeuristicShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Heuristic ;
+    sh:name "ヒューリスティクス" ;
+    sh:description "認知的労力を節約するための経験則。利用可能性や代表性などに基づく。" ;
+    sh:property [
+        sh:path ex:causesBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitiveBiasShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CognitiveBias ;
+    sh:name "認知バイアス" ;
+    sh:description "確証バイアスや連言錯誤など、系統的に判断を歪める傾向。" .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/KnowledgeRepresentationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KnowledgeRepresentation ;
+    sh:name "知識表現" ;
+    sh:description "スキーマ、プロダクションシステム、ニューラルネットワークなど、知識をモデル化する枠組み。" ;
+    sh:property [
+        sh:path ex:modelsKnowledge ;
+        sh:class ex:Knowledge ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitivePhenomenonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CognitivePhenomenon ;
+    sh:name "認知現象" ;
+    sh:description "盲視、変化盲、虚偽の記憶、プライミングなど、認知の性質や限界を示す現象。" ;
+    sh:property [
+        sh:path ex:isExhibitedBy ;
+        sh:class ex:Perception ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ContextShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Context ;
+    sh:name "文脈" ;
+    sh:description "課題の解釈や正答率を大きく左右する状況的枠組み。社会契約の文脈は論理課題の成績を向上させる。" .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/EnvironmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Environment ;
+    sh:name "環境" ;
+    sh:description "知性が適応し、能動的に探索し、相互作用する外界。" .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/EmbodiedCognitionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EmbodiedCognition ;
+    sh:name "身体化された認知" ;
+    sh:description "カテゴリー認識が言語記号ではなく、視覚・聴覚・情動などの感覚モダリティのシミュレーションとして働くという立場。" ;
+    sh:property [
+        sh:path ex:interactsWith ;
+        sh:class ex:Environment ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ExtendedMindShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExtendedMind ;
+    sh:name "拡張された心" ;
+    sh:description "認知は頭蓋内で完結せず、身体・道具・環境と相互作用しながら境界を越えて拡張される。" ;
+    sh:property [
+        sh:path ex:interactsWith ;
+        sh:class ex:Environment ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ProspectTheoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProspectTheory ;
+    sh:name "プロスペクト理論" ;
+    sh:description "フレーミング効果、損失回避性、確率の過大・過小評価によって選好の逆転を説明する意思決定理論。" ;
+    sh:property [
+        sh:path ex:explainsDecision ;
+        sh:class ex:Thinking ;
+        sh:severity sh:Violation
+    ] .

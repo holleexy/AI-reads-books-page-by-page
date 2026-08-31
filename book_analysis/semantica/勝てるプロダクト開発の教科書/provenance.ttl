@@ -1,0 +1,359 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/勝てるプロダクト開発の教科書/> .
+
+book:source a prov:Entity ;
+  foaf:name "勝てるプロダクト開発の教科書" ;
+  book:book_key "勝てるプロダクト開発の教科書" .
+
+book:responsibility a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:engineers a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:designers a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:marketers a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:sales a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:PR a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロダクト責任者 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:OS a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロジカルシンキング a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:論理的思考力 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:具体と抽象を行き来する力 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:概念化能力 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:意思決定リテラシー a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:判断の軸 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:technical debt a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:目的 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:制約条件 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:成功指標 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:代替案 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:リスク a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:questioning skills a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:organization theory a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:business success a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:judgment axis a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:Roots a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:frameworks a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:任せる a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:learning resources a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:CPO a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:KPI a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:user psychology a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:taking it on a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:innovation a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:work becoming person-dependent a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:Agile a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:責任 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:引き受ける a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:Trunk a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:Vision and Business Development a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:Management Planning and Budget Management a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:HR Strategy and People Management a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:GTM Strategy and Marketing a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:unifying question a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:final responsibility a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:学びのリソース a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:蜂須賀大貴 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:Hachisuka Daiki a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:Author a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:姿勢 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:VPoP a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:腹を括る a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:序章 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:application a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:foundation of thinking a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:3つの基礎体力 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:new-value creation a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:feature B a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:対症療法 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:feedback/recognition a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:doctor-oriented platforms a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:Re-concretize a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:loop a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:non-expert decision-maker a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:fatal damage a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:violations a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:licenses a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:boundary of authority a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:P/L a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:B/S a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:balance sheet a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:C/F a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:gross profit a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:丸投げ a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:依頼のスキル a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:質問のスキル a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:背景 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:期待値 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:期限 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:ブラックボックス化 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:black-boxing a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:属人化 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:図表0-2 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:anti-pattern a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:guiding principle a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:目指す指針 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:平常心 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:Diagram 0-2 a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .
+
+book:Success metrics a prov:Entity ;
+  book:book_key "勝てるプロダクト開発の教科書" ;
+  prov:wasDerivedFrom book:source .

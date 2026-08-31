@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Kenkyo_na_Consulting/">
+    <rdfs:label>Kenkyo_na_ConsultingOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">エドガー・H・シャインによる謙虚なコンサルティングの原著および関連する著作。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Person">
+    <rdfs:label xml:lang="ja">人物</rdfs:label>
+    <rdfs:comment xml:lang="ja">提唱者、コンサルタント、クライアント、リーダーなど、本書に登場する人物。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Consultant">
+    <rdfs:label xml:lang="ja">コンサルタント</rdfs:label>
+    <rdfs:comment xml:lang="ja">クライアントに支援を提供する専門家。処方箋を押し付けるのではなく、クライアント自身の気づきと行動を後押しする。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/Person"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Client">
+    <rdfs:label xml:lang="ja">クライアント</rdfs:label>
+    <rdfs:comment xml:lang="ja">支援を受ける側。主語は常にクライアントであり、自ら気づき行動できることが支援の目的である。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/Person"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Leader">
+    <rdfs:label xml:lang="ja">リーダー</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織内の指導者。すべてを知るヒーローである必要はなく、わからないことを認め対話から適応的な動きを見出す。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/Person"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Manager">
+    <rdfs:label xml:lang="ja">マネージャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織内の管理者。謙虚なコンサルティングは外部専門家だけでなくすべてのマネージャーが身につけるべきスキルである。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/Person"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/HumbleConsulting">
+    <rdfs:label xml:lang="ja">謙虚なコンサルティング</rdfs:label>
+    <rdfs:comment xml:lang="ja">エドガー・H・シャインが提唱した、本当の支援を速やかに行う新しいアプローチ。原題は Humble Consulting: How to Provide Real Help Faster。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/TraditionalConsulting">
+    <rdfs:label xml:lang="ja">従来型コンサルティング</rdfs:label>
+    <rdfs:comment xml:lang="ja">診断して助言するモデルに基づき、専門家としての解決策を押し付ける従来のアプローチ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/DiagnosticAdvisoryModel">
+    <rdfs:label xml:lang="ja">診断して助言するモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">若手コンサルタントや伝統的専門家が陥りやすい、すぐに「これが答えです」と処方箋を出す失敗モデル。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/TraditionalConsulting"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/OneUpDynamics">
+    <rdfs:label xml:lang="ja">ワン・アップのダイナミクス</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンサルタントが上から目線で指示を出し、クライアントの自己責任感と所有感を損ない提案が実行されない力学。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/ContentTemptation">
+    <rdfs:label xml:lang="ja">内容の誘惑</rdfs:label>
+    <rdfs:comment xml:lang="ja">クライアントが提示する表面的な問題に飛びつき、自分の専門知識で解決しようとする誘惑。支援者はプロセスへの気づきを優先すべきである。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/RealHelp">
+    <rdfs:label xml:lang="ja">本当の支援</rdfs:label>
+    <rdfs:comment xml:lang="ja">クライアントが問題の複雑さと厄介さを理解し、その場しのぎをやめ、本当の現実に対処する行動をとれるよう後押しすること。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Problem">
+    <rdfs:label xml:lang="ja">課題</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織やクライアントが直面する問題。ロナルド・ハイフェッツにより技術的な課題と適応を要する課題に分類される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/TechnicalProblem">
+    <rdfs:label xml:lang="ja">技術的な課題</rdfs:label>
+    <rdfs:comment xml:lang="ja">過去の知見や専門知識で解決策が明らかな問題。専門家に委ねれば解決する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/Problem"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/AdaptiveProblem">
+    <rdfs:label xml:lang="ja">適応を要する課題</rdfs:label>
+    <rdfs:comment xml:lang="ja">解決策が自明ではなく、関係者自身が継続的な学習と視点の転換を通じて適応していく必要がある複雑な問題。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/Problem"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/ComplexityFactor">
+    <rdfs:label xml:lang="ja">複雑化の要因</rdfs:label>
+    <rdfs:comment xml:lang="ja">専門分野の深化、多様性の増大、共通理解の難化、時間の不足など、適応課題を増やす現代的要因。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Relationship">
+    <rdfs:label xml:lang="ja">人間関係</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンサルタントとクライアントの間に築かれる関係。支援の成否は関係性の深さに依存する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/RelationshipLevel">
+    <rdfs:label xml:lang="ja">関係性のレベル</rdfs:label>
+    <rdfs:comment xml:lang="ja">シャインが分類した人間関係の四段階。謙虚なコンサルティングではレベル2が不可欠である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/LevelMinus1">
+    <rdfs:label xml:lang="ja">レベルマイナス1</rdfs:label>
+    <rdfs:comment xml:lang="ja">敵対・搾取の関係。相手を人間として扱わない関係で、ブラック企業などに見られる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/RelationshipLevel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Level1">
+    <rdfs:label xml:lang="ja">レベル1</rdfs:label>
+    <rdfs:comment xml:lang="ja">取引・専門的な関係。役割に基づきほどほどの距離を保つ従来の距離であり、本音が語られにくく真の問題が見過ごされる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/RelationshipLevel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Level2">
+    <rdfs:label xml:lang="ja">レベル2</rdfs:label>
+    <rdfs:comment xml:lang="ja">信頼と率直さに基づく関係。相手を一人の人間として認知する、謙虚なコンサルティングに不可欠な関係性。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/RelationshipLevel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Level3">
+    <rdfs:label xml:lang="ja">レベル3</rdfs:label>
+    <rdfs:comment xml:lang="ja">親密・感情に基づく関係。職業的支援ではえこひいきや腐敗の原因となるため避けるべきである。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/RelationshipLevel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Personalization">
+    <rdfs:label xml:lang="ja">パーソナライゼーション</rdfs:label>
+    <rdfs:comment xml:lang="ja">レベル1を脱し、個人的背景や感情に適度に踏み込んでレベル2を築く過程。プライバシーを侵害しレベル3に侵入しないバランスが必要である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/ListeningStyle">
+    <rdfs:label xml:lang="ja">聴き方</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンサルタントがクライアントの話を聴く際の姿勢の選択肢。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/SelfCenteredListening">
+    <rdfs:label xml:lang="ja">自己中心的な聴き方</rdfs:label>
+    <rdfs:comment xml:lang="ja">自分の知識をどう活かせかに集中する聴き方。謙虚なコンサルティングでは不適切である。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/ListeningStyle"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/ContentEmpathicListening">
+    <rdfs:label xml:lang="ja">内容に共感して聴く</rdfs:label>
+    <rdfs:comment xml:lang="ja">提示された状況や事実の機能的な側面にフォーカスする聴き方。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/ListeningStyle"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/PersonEmpathicListening">
+    <rdfs:label xml:lang="ja">人に共感して聴く</rdfs:label>
+    <rdfs:comment xml:lang="ja">クライアント個人の感情、不安、懸念に焦点を当てる聴き方。レベル2の関係構築に最も有効である。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/ListeningStyle"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/QuestioningApproach">
+    <rdfs:label xml:lang="ja">問いかけ</rdfs:label>
+    <rdfs:comment xml:lang="ja">クライアントの気づきを促すための質問アプローチ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/HumbleInquiry">
+    <rdfs:label xml:lang="ja">謙虚な問いかけ</rdfs:label>
+    <rdfs:comment xml:lang="ja">答えを予期せず、純粋な好奇心から状況や本心を引き出すオープンな質問。初期段階で極めて有効である。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/QuestioningApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/DiagnosticInquiry">
+    <rdfs:label xml:lang="ja">診断的な問いかけ</rdfs:label>
+    <rdfs:comment xml:lang="ja">会話の方向を変え問題の焦点を絞る質問。なぜそうなったのか、どう感じたかなど。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/QuestioningApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/CircularInquiry">
+    <rdfs:label xml:lang="ja">循環的な問いかけ</rdfs:label>
+    <rdfs:comment xml:lang="ja">第三者の視点を想像させ、クライアントに状況を客観視させる手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/QuestioningApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/SuggestiveInquiry">
+    <rdfs:label xml:lang="ja">示唆的な問いかけ</rdfs:label>
+    <rdfs:comment xml:lang="ja">新しい視点や避けるべき情報を提供する質問。信頼関係がないと反発を招くリスクがある。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/QuestioningApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/ProcessOrientedInquiry">
+    <rdfs:label xml:lang="ja">プロセス指向の問いかけ</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題の説明の仕方や進め方、今この場でのやり取りそのものに焦点を当てる問いかけ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/QuestioningApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/AdaptiveMove">
+    <rdfs:label xml:lang="ja">アダプティブ・ムーブ</rdfs:label>
+    <rdfs:comment xml:lang="ja">万能の解決策ではなく、状況を少し改善し次の行動につながる情報を引き出す小さく俊敏な介入。対話から即興的に生まれる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/ConsultantQuality">
+    <rdfs:label xml:lang="ja">コンサルタントの資質</rdfs:label>
+    <rdfs:comment xml:lang="ja">謙虚なコンサルティングで求められる三つのC、すなわち積極的な気持ち、思いやり、好奇心。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Commitment">
+    <rdfs:label xml:lang="ja">積極的な気持ち</rdfs:label>
+    <rdfs:comment xml:lang="ja">なんとかしてクライアントの力になりたいという真摯な動機。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/ConsultantQuality"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Caring">
+    <rdfs:label xml:lang="ja">思いやり</rdfs:label>
+    <rdfs:comment xml:lang="ja">クライアントの立場や感情に寄り添う共感的な態度。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/ConsultantQuality"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Curiosity">
+    <rdfs:label xml:lang="ja">好奇心</rdfs:label>
+    <rdfs:comment xml:lang="ja">相手の状況や抱える問題に対する最大限の関心と探究心。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/ConsultantQuality"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/CaseStudy">
+    <rdfs:label xml:lang="ja">ケーススタディ</rdfs:label>
+    <rdfs:comment xml:lang="ja">DEC、GE、MACコンサルタント、銀行IT導入など、本書で示される成功と失敗の実践事例。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Organization">
+    <rdfs:label xml:lang="ja">組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンサルティングや組織開発の対象となる企業や集団。学び方を学び自律的に適応し続けることが究極の目標である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/HighReliabilityOrganization">
+    <rdfs:label xml:lang="ja">高信頼性組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">原子力発電所や消防などの高危険性環境で、ルール徹底だけでなくグループ・センスメイキングが不可欠な組織。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/Organization"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/OrganizationDevelopment">
+    <rdfs:label xml:lang="ja">組織開発</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織の学習と適応を促す実践。複雑な問題は所定の診断ツールでは解決できないという認識に基づく。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/DialogicOrganizationDevelopment">
+    <rdfs:label xml:lang="ja">対話型組織開発</rdfs:label>
+    <rdfs:comment xml:lang="ja">ブッシュとマーシャクが提唱し、ハイフェッツらが主張する対話を中心とした組織開発アプローチ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kenkyo_na_Consulting/OrganizationDevelopment"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/SafetyCulture">
+    <rdfs:label xml:lang="ja">安全文化</rdfs:label>
+    <rdfs:comment xml:lang="ja">安全を規定する厳格な官僚的・法的基準が、現場の率直な報告というレベル2の関係を阻害しうる文化。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kenkyo_na_Consulting/Sensemaking">
+    <rdfs:label xml:lang="ja">センスメイキング</rdfs:label>
+    <rdfs:comment xml:lang="ja">カール・ワイックの研究に基づく、現場メンバーが互いに状況を報告し合うグループによる意味形成。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/proposedBy">
+    <rdfs:label xml:lang="ja">提唱者</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念やアプローチを提唱した人物との関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/HumbleConsulting"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/OrganizationDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/authoredBy">
+    <rdfs:label xml:lang="ja">著者</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍とその著者を結ぶ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Book"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/helps">
+    <rdfs:label xml:lang="ja">支援する</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンサルタントがクライアントに本当の支援を提供する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Consultant"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/Client"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/facesProblem">
+    <rdfs:label xml:lang="ja">直面する</rdfs:label>
+    <rdfs:comment xml:lang="ja">クライアントや組織が直面する課題。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Client"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/Problem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/hasRelationship">
+    <rdfs:label xml:lang="ja">関係を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンサルタントとクライアントが築く人間関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Consultant"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Client"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/Relationship"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/hasLevel">
+    <rdfs:label xml:lang="ja">関係レベル</rdfs:label>
+    <rdfs:comment xml:lang="ja">人間関係が属する四つのレベルのいずれか。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Relationship"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/RelationshipLevel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/requiresQuality">
+    <rdfs:label xml:lang="ja">求められる資質</rdfs:label>
+    <rdfs:comment xml:lang="ja">謙虚なコンサルティングの実践に必要な三つのC。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/HumbleConsulting"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Consultant"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/ConsultantQuality"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/usesListeningStyle">
+    <rdfs:label xml:lang="ja">聴き方を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンサルタントが対話で用いる聴き方。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Consultant"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/ListeningStyle"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/usesQuestioning">
+    <rdfs:label xml:lang="ja">問いかけを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">クライアントの気づきを促すために用いる問いかけ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Consultant"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/QuestioningApproach"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/performs">
+    <rdfs:label xml:lang="ja">実行する</rdfs:label>
+    <rdfs:comment xml:lang="ja">対話の中から即興的に生み出す小さく俊敏な介入を行う。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Consultant"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Leader"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Manager"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/AdaptiveMove"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/illustratedBy">
+    <rdfs:label xml:lang="ja">事例で示される</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念がケーススタディによって例示される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/HumbleConsulting"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/TraditionalConsulting"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/CaseStudy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/involvesOrganization">
+    <rdfs:label xml:lang="ja">対象組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">ケーススタディが扱う組織。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/CaseStudy"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/Organization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/avoids">
+    <rdfs:label xml:lang="ja">回避する</rdfs:label>
+    <rdfs:comment xml:lang="ja">謙虚なコンサルティングが避けるべき従来の罠や過剰な親密さ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/HumbleConsulting"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Consultant"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/ContentTemptation"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/OneUpDynamics"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/DiagnosticAdvisoryModel"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/Level3"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/enables">
+    <rdfs:label xml:lang="ja">可能にする</rdfs:label>
+    <rdfs:comment xml:lang="ja">パーソナライゼーションによって信頼と率直さに基づくレベル2の関係を築く。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Personalization"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/Level2"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/causedBy">
+    <rdfs:label xml:lang="ja">要因</rdfs:label>
+    <rdfs:comment xml:lang="ja">適応を要する課題を複雑化させる要因。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/AdaptiveProblem"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/ComplexityFactor"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/practices">
+    <rdfs:label xml:lang="ja">実践する</rdfs:label>
+    <rdfs:comment xml:lang="ja">リーダー、マネージャー、コンサルタントが謙虚なコンサルティングを実践する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Consultant"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Leader"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Manager"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/HumbleConsulting"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/appliedTo">
+    <rdfs:label xml:lang="ja">応用される</rdfs:label>
+    <rdfs:comment xml:lang="ja">謙虚なコンサルティングが組織開発や安全文化へ応用される。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/HumbleConsulting"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/OrganizationDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/SafetyCulture"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/requiresSensemaking">
+    <rdfs:label xml:lang="ja">センスメイキングを必要とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">高信頼性組織がグループ・センスメイキングを必要とする関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/HighReliabilityOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/Sensemaking"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/aimsAt">
+    <rdfs:label xml:lang="ja">目的とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">謙虚なコンサルティングの目的は本当の支援を速やかに行うことである。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/HumbleConsulting"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/RealHelp"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kenkyo_na_Consulting/dependsOn">
+    <rdfs:label xml:lang="ja">依拠する</rdfs:label>
+    <rdfs:comment xml:lang="ja">謙虚なコンサルティングはレベル2の信頼と率直さに依拠する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/HumbleConsulting"/>
+    <rdfs:range rdf:resource="https://books.local/Kenkyo_na_Consulting/Level2"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Kenkyo_na_Consulting/hasDescription">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">対象についての説明文。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Book"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/CaseStudy"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Problem"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/AdaptiveMove"/>
+    <rdfs:domain rdf:resource="https://books.local/Kenkyo_na_Consulting/Organization"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

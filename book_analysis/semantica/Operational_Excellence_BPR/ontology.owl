@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Operational_Excellence_BPR/">
+    <rdfs:label>Operational_Excellence_BPROntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/OperationalExcellence">
+    <rdfs:label xml:lang="ja">オペレーショナルエクセレンス</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務の卓越性。優れた製品や顧客があっても非効率な業務では利益は生まれず、洗練された強い業務運営によって利益を生む価値基準および到達目標。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/BusinessReform">
+    <rdfs:label xml:lang="ja">業務改革</rdfs:label>
+    <rdfs:comment xml:lang="ja">仕事の進め方を変えることであり、企業のすべての営みを対象とする。単発の流行よりも経営革新において決定的な重要性を持つ。BPRとして検討・分析・設計・実施・評価のプロセスで進める。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ValueCriterion">
+    <rdfs:label xml:lang="ja">価値基準</rdfs:label>
+    <rdfs:comment xml:lang="ja">マイケル・トレーシーとフレッド・ウィアセマが『ナンバーワン企業の法則』で提唱した、企業を支える三つの価値基準の上位概念。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/CustomerIntimacy">
+    <rdfs:label xml:lang="ja">カスタマーインティマシー</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客との親密性。よい顧客をつかむことを目指す価値基準。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/ValueCriterion"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ProductInnovation">
+    <rdfs:label xml:lang="ja">プロダクトイノベーション</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品の革新性。よい製品を生むことを目指す価値基準。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/ValueCriterion"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ExcellencePillar">
+    <rdfs:label xml:lang="ja">卓越性の柱</rdfs:label>
+    <rdfs:comment xml:lang="ja">優れた業務品質を生み出すための三つの柱（指標・仕組み・適材適所）の上位概念。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/Metrics">
+    <rdfs:label xml:lang="ja">指標</rdfs:label>
+    <rdfs:comment xml:lang="ja">財務指標と運営指標を明確に結びつけ、一つの指標は一つの意味しか持たない状態を実現する柱。部門間の解釈違いや在庫の押し込みを防ぐ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/ExcellencePillar"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/Mechanism">
+    <rdfs:label xml:lang="ja">仕組み</rdfs:label>
+    <rdfs:comment xml:lang="ja">役割と権限、指標、情報システム、業務体系で構成される経営メカニズム。一流の仕組みがあれば一流でない能力でも一流の成果を出せ、属人化を排除する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/ExcellencePillar"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/TalentPlacement">
+    <rdfs:label xml:lang="ja">適材適所配置</rdfs:label>
+    <rdfs:comment xml:lang="ja">職務定義書に基づき適材を適所に配し、スキルの見える化と育成を行う柱。単純作業は仕組み化し、高度な手技は職人技として伝承する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/ExcellencePillar"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/FinancialIndex">
+    <rdfs:label xml:lang="ja">財務指標</rdfs:label>
+    <rdfs:comment xml:lang="ja">FI。経営の財務的成果を示す指標であり、運営指標と結合して現場改善の経営貢献を可視化する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/OperationalIndex">
+    <rdfs:label xml:lang="ja">運営指標</rdfs:label>
+    <rdfs:comment xml:lang="ja">OI。現場の運営成果を示す指標であり、財務指標と結合して用いられる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ROICTree">
+    <rdfs:label xml:lang="ja">ROICツリー</rdfs:label>
+    <rdfs:comment xml:lang="ja">経営のトップ目標を現場の具体的なアクション（KPI）までブレイクダウンし、改善活動の経営貢献を可視化する指標体系。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/KPI">
+    <rdfs:label xml:lang="ja">重要業績評価指標</rdfs:label>
+    <rdfs:comment xml:lang="ja">現場の具体的なアクションを示す指標。ROICツリーにより経営目標から展開される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/JobDescription">
+    <rdfs:label xml:lang="ja">職務定義書</rdfs:label>
+    <rdfs:comment xml:lang="ja">人事部の書式埋めではなく、組織全体の業務フローの中でそのポジションの役割を定義するもの。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/BusinessProcess">
+    <rdfs:label xml:lang="ja">業務プロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業の業務の流れ。四つのレイヤーで表現され、リポジトリに型として蓄積・管理される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ProcessLayer">
+    <rdfs:label xml:lang="ja">業務プロセスレイヤー</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務フローを表現する四階層の上位概念。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/FunctionGroupLayer">
+    <rdfs:label xml:lang="ja">機能群レイヤー</rdfs:label>
+    <rdfs:comment xml:lang="ja">Layer1。企業全体の機能群の流れであり、モノづくり企業で共通する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/ProcessLayer"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/BusinessModelLayer">
+    <rdfs:label xml:lang="ja">事業モデルレイヤー</rdfs:label>
+    <rdfs:comment xml:lang="ja">Layer2。在庫販売型や受注設計型など、事業特性による業務の違いを表現する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/ProcessLayer"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/BusinessFlowLayer">
+    <rdfs:label xml:lang="ja">業務フローレイヤー</rdfs:label>
+    <rdfs:comment xml:lang="ja">Layer3。担当者レベルの具体的なタスクの流れ。開始・終了条件や分岐を可視化し、業務改革の主役となる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/ProcessLayer"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/BusinessManualLayer">
+    <rdfs:label xml:lang="ja">業務マニュアルレイヤー</rdfs:label>
+    <rdfs:comment xml:lang="ja">Layer4。単一タスクの手順書。誰が読んでも一意の解釈で同一行動が取れることが条件。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/ProcessLayer"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/Repository">
+    <rdfs:label xml:lang="ja">リポジトリ</rdfs:label>
+    <rdfs:comment xml:lang="ja">オペレーションの型を蓄積・管理する格納庫。新規事業や新工場では九割を既存の型から流用し一割を追加する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/Task">
+    <rdfs:label xml:lang="ja">タスク</rdfs:label>
+    <rdfs:comment xml:lang="ja">担当者レベルの具体的な作業。名称は成果物名ではなく目的や行為とし、正常系だけでなく例外系も記述する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ExceptionProcess">
+    <rdfs:label xml:lang="ja">例外処理</rdfs:label>
+    <rdfs:comment xml:lang="ja">イレギュラーな業務処理。例外こそが問題の宝の山である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/BPRMethodology">
+    <rdfs:label xml:lang="ja">業務改革実行手法</rdfs:label>
+    <rdfs:comment xml:lang="ja">検討から評価までのプロセスと、四つの可視化と一つの整流化のフレームワークからなる実行手法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/Visualization">
+    <rdfs:label xml:lang="ja">可視化</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務・問題・暗黙知・結果を見える化する活動の上位概念。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/BusinessVisualization">
+    <rdfs:label xml:lang="ja">業務の可視化</rdfs:label>
+    <rdfs:comment xml:lang="ja">流れ・情報・組織・人・スキルの四つの切り口で、主にLayer3の粒度でフローチャートを作成する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/Visualization"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ProblemVisualization">
+    <rdfs:label xml:lang="ja">問題の可視化</rdfs:label>
+    <rdfs:comment xml:lang="ja">現状バイアスを排除し、QCDを棄損する事象を問題と定義して可視化する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/Visualization"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/TacitKnowledgeVisualization">
+    <rdfs:label xml:lang="ja">暗黙知の可視化</rdfs:label>
+    <rdfs:comment xml:lang="ja">ベテランの無意識の判断である職人技を言語化・体系化する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/Visualization"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ResultVisualization">
+    <rdfs:label xml:lang="ja">結果の可視化</rdfs:label>
+    <rdfs:comment xml:lang="ja">現場の定性的実感と、財務指標と運営指標を結ぶ定量データの両面で効果を測定する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/Visualization"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/Streamlining">
+    <rdfs:label xml:lang="ja">整流化</rdfs:label>
+    <rdfs:comment xml:lang="ja">ECRSの原則に基づき業務を整流化し、ソリューションをデザインする活動。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ECRSPrinciple">
+    <rdfs:label xml:lang="ja">ECRSの原則</rdfs:label>
+    <rdfs:comment xml:lang="ja">排除・結合・入替代替・簡素化の優先順位。簡素化が最も重要で安定した効果を発揮する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ProblemDiscoveryApproach">
+    <rdfs:label xml:lang="ja">問題発見アプローチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">何を問題とするかを定め、QCD棄損事象を発見するためのアプローチの上位概念。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/VisualizationDiscoveryApproach">
+    <rdfs:label xml:lang="ja">可視化発見型</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務フローを観察し、歪みや偏りを発見するアプローチ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/ProblemDiscoveryApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/HypothesisVerificationApproach">
+    <rdfs:label xml:lang="ja">仮説検証型</rdfs:label>
+    <rdfs:comment xml:lang="ja">現場の違和感から仮説を立て、可視化された情報で検証するアプローチ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/ProblemDiscoveryApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/OriginReturnApproach">
+    <rdfs:label xml:lang="ja">原点立ち返り型</rdfs:label>
+    <rdfs:comment xml:lang="ja">最も強力なアプローチ。そもそもの目的は何かからゼロベースで業務を見直す。タフネスが必要。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/ProblemDiscoveryApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ProcessOwner">
+    <rdfs:label xml:lang="ja">プロセスオーナー</rdfs:label>
+    <rdfs:comment xml:lang="ja">As-Isの可視化、改善点抽出、変革立案、効果検証を行う強い権限を持つ役割。名目的な内部統制役職ではない。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/BPMOrganization">
+    <rdfs:label xml:lang="ja">BPM組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務改革を部門へ丸投げせず、縦軸（事業）に位置づけられた専任組織。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/SixBubblesFramework">
+    <rdfs:label xml:lang="ja">六つのバブルフレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">戦略、業務、情報システム、組織、人材・スキル、風土の順で企業変革を進める枠組み。システムは業務に先行しない。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/Strategy">
+    <rdfs:label xml:lang="ja">戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業変革の起点。VUCA時代には頻繁に更新され、巧拙より実行スピードが重要となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/InformationSystem">
+    <rdfs:label xml:lang="ja">情報システム</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務に先行せず手段として位置づけられるシステムおよびITツール。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/Organization">
+    <rdfs:label xml:lang="ja">組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">役割と責任が定義され、部門間インターフェースを持つ企業内の編成。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/Skill">
+    <rdfs:label xml:lang="ja">スキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">部門特有の実務的能力。見える化し、ロールモデルの思考法から学ぶプログラムで育成する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/CorporateCulture">
+    <rdfs:label xml:lang="ja">企業風土</rdfs:label>
+    <rdfs:comment xml:lang="ja">現場からボトムアップで改善が湧き上がる改革の自働化としての最終的な到達点。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/Transformer">
+    <rdfs:label xml:lang="ja">トランスフォーマー</rdfs:label>
+    <rdfs:comment xml:lang="ja">仕組み自体をゼロから構築する改革人材。日常業務の延長では育たず、意図的な選抜と長期育成が必要。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/OperationTalent">
+    <rdfs:label xml:lang="ja">オペレーション人材</rdfs:label>
+    <rdfs:comment xml:lang="ja">定められた仕組みの中で成果を出す人材。改革人材とは役割が異なる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/TransformationCapability">
+    <rdfs:label xml:lang="ja">変革のチカラ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ジョン・コッターの変革プロセスに基づく、改革人材に求められる能力の上位概念。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ConceptualizationCapability">
+    <rdfs:label xml:lang="ja">変革構想力</rdfs:label>
+    <rdfs:comment xml:lang="ja">現状（As-Is）を可視化し、理想（To-Be）を描く力。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/TransformationCapability"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ExecutionCapability">
+    <rdfs:label xml:lang="ja">変革実行力</rdfs:label>
+    <rdfs:comment xml:lang="ja">関係者を巻き込み、長期プロジェクトを息切れさせずに推進する力。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/TransformationCapability"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/AnchoringCapability">
+    <rdfs:label xml:lang="ja">変革定着力</rdfs:label>
+    <rdfs:comment xml:lang="ja">変革を企業文化として定着させ、次世代のトランスフォーマーを育てる力。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Operational_Excellence_BPR/TransformationCapability"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/ManufacturingCompany">
+    <rdfs:label xml:lang="ja">モノづくり企業</rdfs:label>
+    <rdfs:comment xml:lang="ja">自社の技術力に誇りはあるが十分な利益が上がっていないと感じる、本書の主な対象企業。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/CaseStudy">
+    <rdfs:label xml:lang="ja">実践事例</rdfs:label>
+    <rdfs:comment xml:lang="ja">ZARA、キーエンス、大塚商会、アシックスなどに見られるオペレーショナルエクセレンスの実践例。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/InterdepartmentalInterface">
+    <rdfs:label xml:lang="ja">組織間インターフェース</rdfs:label>
+    <rdfs:comment xml:lang="ja">部門間の受け渡しや連携が生じる部分。業務改革の余地は常にここに存在し、複雑な企業活動ではさらに拡大する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/QCD">
+    <rdfs:label>QCD</rdfs:label>
+    <rdfs:comment xml:lang="ja">品質・コスト・納期。これを棄損する事象を客観的に問題と定義する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/VUCAEnvironment">
+    <rdfs:label xml:lang="ja">VUCA環境</rdfs:label>
+    <rdfs:comment xml:lang="ja">変動性・不確実性・複雑性・曖昧性の時代。完璧な長期戦略より現場オペレーションの実行スピードが競争優位となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/Craftsmanship">
+    <rdfs:label xml:lang="ja">職人技</rdfs:label>
+    <rdfs:comment xml:lang="ja">アナログで高度な手技や勘所。属人化（仕組み化の欠如）とは峻別し、尊重して伝承する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Operational_Excellence_BPR/MissionVisionValue">
+    <rdfs:label xml:lang="ja">ミッションビジョンバリュー</rdfs:label>
+    <rdfs:comment xml:lang="ja">改革を人ではなく仕組みに依存させて定着させるための構成要素の一つ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/aimsAt">
+    <rdfs:label xml:lang="ja">目指す</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務改革がオペレーショナルエクセレンスの達成を目標とすることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessReform"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/OperationalExcellence"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/targets">
+    <rdfs:label xml:lang="ja">対象とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務改革がモノづくり企業のマネジメント層および企業活動全体を対象とすることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessReform"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/ManufacturingCompany"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/hasOpportunityAt">
+    <rdfs:label xml:lang="ja">改革余地がある</rdfs:label>
+    <rdfs:comment xml:lang="ja">部門間の受け渡しや連携に業務改革の余地が常に存在することを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessReform"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/InterdepartmentalInterface"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/hasValueCriterion">
+    <rdfs:label xml:lang="ja">価値基準を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業が顧客親密性・製品革新性・運営卓越性のいずれかの価値基準を持つことを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/ManufacturingCompany"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/ValueCriterion"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/hasPillar">
+    <rdfs:label xml:lang="ja">柱を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">オペレーショナルエクセレンスが指標・仕組み・適材適所の三柱で実現されることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/OperationalExcellence"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/ExcellencePillar"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/bindsTo">
+    <rdfs:label xml:lang="ja">結合する</rdfs:label>
+    <rdfs:comment xml:lang="ja">財務指標と運営指標を明確に結びつけることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/FinancialIndex"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/OperationalIndex"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/decomposesInto">
+    <rdfs:label xml:lang="ja">ブレイクダウンする</rdfs:label>
+    <rdfs:comment xml:lang="ja">ROICなどのトップ目標を現場KPIまで展開することを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/ROICTree"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/KPI"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/usesJobDescription">
+    <rdfs:label xml:lang="ja">職務定義書を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">適材適所配置が業務フロー上の役割定義に基づくことを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/TalentPlacement"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/JobDescription"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/hasLayer">
+    <rdfs:label xml:lang="ja">レイヤーを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務プロセスが四つのレイヤーで表現されることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/ProcessLayer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/isStoredIn">
+    <rdfs:label xml:lang="ja">格納される</rdfs:label>
+    <rdfs:comment xml:lang="ja">オペレーションの型がリポジトリに蓄積・管理されることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/Repository"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/belongsToLayer">
+    <rdfs:label xml:lang="ja">レイヤーに属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">担当者レベルのタスクが業務フローレイヤーに属することを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Task"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessFlowLayer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/hasException">
+    <rdfs:label xml:lang="ja">例外を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">タスクが例外系処理を含むことを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Task"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/ExceptionProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/usesMethodology">
+    <rdfs:label xml:lang="ja">手法を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務改革がBPRの実行手法に従って進められることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessReform"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/BPRMethodology"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/visualizes">
+    <rdfs:label xml:lang="ja">可視化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">可視化活動が業務プロセスや関連要素を見える化することを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Visualization"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/streamlines">
+    <rdfs:label xml:lang="ja">整流化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">整流化が業務プロセスの無駄をなくし流れを整えることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Streamlining"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/appliesPrinciple">
+    <rdfs:label xml:lang="ja">原則を適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">整流化がECRSの原則に従ってソリューションを設計することを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Streamlining"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/ECRSPrinciple"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/hasApproach">
+    <rdfs:label xml:lang="ja">アプローチを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題の可視化が三種の発見アプローチを用いることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/ProblemVisualization"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/ProblemDiscoveryApproach"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/impairs">
+    <rdfs:label xml:lang="ja">棄損する対象</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題が品質・コスト・納期を棄損する事象として定義されることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/ProblemVisualization"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/QCD"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/isLedBy">
+    <rdfs:label xml:lang="ja">主導される</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務改革がプロセスオーナーによって主導されることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessReform"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/ProcessOwner"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/isManagedBy">
+    <rdfs:label xml:lang="ja">所管される</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務改革が縦軸の専任BPM組織に所管されることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessReform"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/BPMOrganization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/followsFramework">
+    <rdfs:label xml:lang="ja">フレームワークに従う</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業変革が六つのバブルの順序に従って進むことを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessReform"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/SixBubblesFramework"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/precedes">
+    <rdfs:label xml:lang="ja">先行する</rdfs:label>
+    <rdfs:comment xml:lang="ja">戦略が業務に、業務が情報システムに、組織が人材スキルに、スキルが風土に先行することを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Strategy"/>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessProcess"/>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Skill"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/InformationSystem"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/Skill"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/CorporateCulture"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/isMeansFor">
+    <rdfs:label xml:lang="ja">手段である</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報システムは目的ではなく業務のための手段であることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/InformationSystem"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/cultivates">
+    <rdfs:label xml:lang="ja">醸成する</rdfs:label>
+    <rdfs:comment xml:lang="ja">改革の定着が改革の自働化としての企業風土を醸成することを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessReform"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/CorporateCulture"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/hasCapability">
+    <rdfs:label xml:lang="ja">能力を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">トランスフォーマーが構想力・実行力・定着力を持つことを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Transformer"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/TransformationCapability"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/contrastedWith">
+    <rdfs:label xml:lang="ja">対比される</rdfs:label>
+    <rdfs:comment xml:lang="ja">仕組みを構築する改革人材と、仕組みの中で成果を出すオペレーション人材の違いを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Transformer"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/OperationTalent"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/develops">
+    <rdfs:label xml:lang="ja">育成する</rdfs:label>
+    <rdfs:comment xml:lang="ja">適材適所配置が実務スキルの見える化と育成を行うことを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/TalentPlacement"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/Skill"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/respects">
+    <rdfs:label xml:lang="ja">尊重する</rdfs:label>
+    <rdfs:comment xml:lang="ja">デジタル化できない高度な手技を職人技として尊重し伝承することを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/TalentPlacement"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/Craftsmanship"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/hasCaseStudy">
+    <rdfs:label xml:lang="ja">実践事例を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">オペレーショナルエクセレンスが具体的な企業事例によって示されることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/OperationalExcellence"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/CaseStudy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/operatesUnder">
+    <rdfs:label xml:lang="ja">環境下で運営する</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業がVUCA環境のもとで柔軟なオペレーションモデルを必要とすることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/ManufacturingCompany"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/VUCAEnvironment"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/hasInterface">
+    <rdfs:label xml:lang="ja">インターフェースを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織が部門間の受け渡しや連携の接点を持つことを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/InterdepartmentalInterface"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/dependsOnMechanism">
+    <rdfs:label xml:lang="ja">仕組みに依存する</rdfs:label>
+    <rdfs:comment xml:lang="ja">改革の定着は人ではなく仕組みに依存させる必要があることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessReform"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/Mechanism"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/includesValue">
+    <rdfs:label xml:lang="ja">価値観を含む</rdfs:label>
+    <rdfs:comment xml:lang="ja">定着のための仕組みがミッション・ビジョン・バリューを構成要素として含むことを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Mechanism"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/MissionVisionValue"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Operational_Excellence_BPR/usesTool">
+    <rdfs:label xml:lang="ja">ツールを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">仕組みが情報システムを構成要素として用いることを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/Mechanism"/>
+    <rdfs:range rdf:resource="https://books.local/Operational_Excellence_BPR/InformationSystem"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Operational_Excellence_BPR/hasDefinition">
+    <rdfs:label xml:lang="ja">定義</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念の定義を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/OperationalExcellence"/>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessReform"/>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/ValueCriterion"/>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/ExcellencePillar"/>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BusinessProcess"/>
+    <rdfs:domain rdf:resource="https://books.local/Operational_Excellence_BPR/BPRMethodology"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

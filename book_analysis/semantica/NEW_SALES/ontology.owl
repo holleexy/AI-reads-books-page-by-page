@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/NEW_SALES/">
+    <rdfs:label>NEW_SALESOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SalesParadigm">
+    <rdfs:label xml:lang="ja">営業パラダイム</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業の役割・方法・目的を規定する時代ごとの枠組み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/OldSales">
+    <rdfs:label>OLD SALES</rdfs:label>
+    <rdfs:comment xml:lang="ja">商品の売り込みを中心とする従来型の営業手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/SalesParadigm"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/NewSales">
+    <rdfs:label>NEW SALES</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の購買プロセスに寄り添い専門性の高い提案を行う新しい営業手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/SalesParadigm"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/HistoricalStage">
+    <rdfs:label xml:lang="ja">歴史的進化段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業の役割・方法・目的が変化してきた歴史上の段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/RoleChange">
+    <rdfs:label xml:lang="ja">役割の変化</rdfs:label>
+    <rdfs:comment xml:lang="ja">1900年頃に登場したハンター・ファーマー・モデルによる新規と既存の役割分離。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/HistoricalStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/MethodChange">
+    <rdfs:label xml:lang="ja">方法の変化</rdfs:label>
+    <rdfs:comment xml:lang="ja">1925年以降、経験や勘からオブジェクションハンドリング等のテクニックへ移行した段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/HistoricalStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/PurposeChange">
+    <rdfs:label xml:lang="ja">目的の変化</rdfs:label>
+    <rdfs:comment xml:lang="ja">1970年頃、商品紹介から顧客の課題解決（ソリューション営業）へ目的が移った段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/HistoricalStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SalesMethod">
+    <rdfs:label xml:lang="ja">営業メソッド</rdfs:label>
+    <rdfs:comment xml:lang="ja">現場の営業担当者が実践するNEW SALESの具体的アプローチ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/StorySales">
+    <rdfs:label xml:lang="ja">ストーリー営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロダクト営業やソリューション営業を進化させ、顧客と共に物語を紡ぐ手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/SalesMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SurpriseSales">
+    <rdfs:label xml:lang="ja">サプライズ営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">驚きと気付きを提供し、顧客の方から会いたいと思わせる手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/SalesMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/ScenarioSales">
+    <rdfs:label xml:lang="ja">シナリオ営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">自社視点の行動から顧客視点の購買プロセスに沿って支援する手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/SalesMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SympathySales">
+    <rdfs:label xml:lang="ja">シンパシー営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">相手のキャラクターに合わせて共感を生み出す手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/SalesMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/BuyingProcessStep">
+    <rdfs:label xml:lang="ja">購買プロセス段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の購買心理が進む理想・課題・価値・方法の基本構造。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/IdealState">
+    <rdfs:label xml:lang="ja">理想</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が実現したい状態を思い描く段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/BuyingProcessStep"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/CustomerIssue">
+    <rdfs:label xml:lang="ja">課題</rdfs:label>
+    <rdfs:comment xml:lang="ja">現状と理想のギャップを認識する段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/BuyingProcessStep"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/PerceivedValue">
+    <rdfs:label xml:lang="ja">価値</rdfs:label>
+    <rdfs:comment xml:lang="ja">課題解決に必要な効果を理解する段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/BuyingProcessStep"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/PurchaseMethod">
+    <rdfs:label xml:lang="ja">方法</rdfs:label>
+    <rdfs:comment xml:lang="ja">価値を実現する手段として購入を決断する段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/BuyingProcessStep"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/AwarenessPattern">
+    <rdfs:label xml:lang="ja">気付きパターン</rdfs:label>
+    <rdfs:comment xml:lang="ja">サプライズ営業で顧客に気付きを与える情報提供の類型。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/DataInformation">
+    <rdfs:label xml:lang="ja">データ情報</rdfs:label>
+    <rdfs:comment xml:lang="ja">業界課題や理想を裏付ける具体的な数値情報。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/AwarenessPattern"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/TrendInformation">
+    <rdfs:label xml:lang="ja">トレンド情報</rdfs:label>
+    <rdfs:comment xml:lang="ja">過去から未来への変遷を示し向かうべき方向を提示する情報。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/AwarenessPattern"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SegmentInformation">
+    <rdfs:label xml:lang="ja">セグメント情報</rdfs:label>
+    <rdfs:comment xml:lang="ja">業界や地域・性別など属性に特化した情報。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/AwarenessPattern"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/ScenarioStage">
+    <rdfs:label xml:lang="ja">シナリオ段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の購買プロセスに対応する情報提供から決定支援までの段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/InformationProvision">
+    <rdfs:label xml:lang="ja">情報提供</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報収集に対応し不信を解消する段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/ScenarioStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/IssueAppeal">
+    <rdfs:label xml:lang="ja">課題訴求</rdfs:label>
+    <rdfs:comment xml:lang="ja">課題設定に対応し不要感を解消する段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/ScenarioStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/ComparisonAppeal">
+    <rdfs:label xml:lang="ja">比較訴求</rdfs:label>
+    <rdfs:comment xml:lang="ja">比較検討に対応し不適を解消する段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/ScenarioStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/DecisionSupport">
+    <rdfs:label xml:lang="ja">決定支援</rdfs:label>
+    <rdfs:comment xml:lang="ja">最終決定に対応し不急を解消する段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/ScenarioStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/DecisionBarrier">
+    <rdfs:label xml:lang="ja">購買決定の壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">購買決定前に乗り越えるべき金額・工程・期日・決裁の障壁。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/PriceBarrier">
+    <rdfs:label xml:lang="ja">金額の壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">値引きではなくROIを提示して乗り越える障壁。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/DecisionBarrier"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/ProcessBarrier">
+    <rdfs:label xml:lang="ja">工程の壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">発注前後のステップとスケジュール明示で乗り越える障壁。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/DecisionBarrier"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/DeadlineBarrier">
+    <rdfs:label xml:lang="ja">期日の壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">時間的・空間的必然性を伝えて乗り越える障壁。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/DecisionBarrier"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/ApprovalBarrier">
+    <rdfs:label xml:lang="ja">決裁の壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">稟議支援や決裁者向けFAQで乗り越える障壁。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/DecisionBarrier"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/CustomerRole">
+    <rdfs:label xml:lang="ja">顧客役割</rdfs:label>
+    <rdfs:comment xml:lang="ja">運用者・利用者・管理者・決裁者など顧客側の立場。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/Operator">
+    <rdfs:label xml:lang="ja">運用者</rdfs:label>
+    <rdfs:comment xml:lang="ja">導入・運用負担の軽減や他部署評価を重視する役割。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/CustomerRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/EndUser">
+    <rdfs:label xml:lang="ja">利用者</rdfs:label>
+    <rdfs:comment xml:lang="ja">日常業務の効率化や成果向上を重視する役割。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/CustomerRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/Administrator">
+    <rdfs:label xml:lang="ja">管理者</rdfs:label>
+    <rdfs:comment xml:lang="ja">導入リスクとその対策を重視する役割。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/CustomerRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/DecisionMaker">
+    <rdfs:label xml:lang="ja">決裁者</rdfs:label>
+    <rdfs:comment xml:lang="ja">全社方針との整合性やROIなどマクロな価値を重視する役割。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/CustomerRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/PersonalityType">
+    <rdfs:label xml:lang="ja">志向タイプ</rdfs:label>
+    <rdfs:comment xml:lang="ja">DiSC理論等に基づく相手の深層心理の類型。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/AttackType">
+    <rdfs:label xml:lang="ja">アタックタイプ</rdfs:label>
+    <rdfs:comment xml:lang="ja">支配型。進行を相手に委ねつつ要望を細かく確認する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/PersonalityType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/ReceiveType">
+    <rdfs:label xml:lang="ja">レシーブタイプ</rdfs:label>
+    <rdfs:comment xml:lang="ja">受容型。進め方や結論をこちらから明確に提示する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/PersonalityType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/ThinkingType">
+    <rdfs:label xml:lang="ja">シンキングタイプ</rdfs:label>
+    <rdfs:comment xml:lang="ja">論理型。機能・性能・実績などの客観データを細かく提供する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/PersonalityType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/FeelingType">
+    <rdfs:label xml:lang="ja">フィーリングタイプ</rdfs:label>
+    <rdfs:comment xml:lang="ja">感覚型。印象的な言葉や映像で心に訴えかける。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/PersonalityType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/OrganizationalApproach">
+    <rdfs:label xml:lang="ja">組織的アプローチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">属人的営業から再現性のある科学的営業組織へ変革する手法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/ShareSales">
+    <rdfs:label xml:lang="ja">シェア営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">ナレッジを共有し誰もが一定成果を出せる仕組みづくり。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/OrganizationalApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/ScoreSales">
+    <rdfs:label xml:lang="ja">スコア営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">CRM/SFA/MAを活用したデータドリブンなマネジメント。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/OrganizationalApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SignificanceSales">
+    <rdfs:label xml:lang="ja">意義営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">金銭報酬だけでなく仕事のやりがいを共有するマネジメント。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/OrganizationalApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SalesKnowledge">
+    <rdfs:label xml:lang="ja">営業ナレッジ</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業コンテンツと営業ノウハウからなる共有すべき知識。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SalesContent">
+    <rdfs:label xml:lang="ja">営業コンテンツ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ヒアリングシートや競合比較表、ROI資料など顧客向け資料。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/SalesKnowledge"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SalesKnowHow">
+    <rdfs:label xml:lang="ja">営業ノウハウ</rdfs:label>
+    <rdfs:comment xml:lang="ja">トークスクリプトや模擬商談動画など社内向け知識。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/SalesKnowledge"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/AnalysisAxis">
+    <rdfs:label xml:lang="ja">分析軸</rdfs:label>
+    <rdfs:comment xml:lang="ja">誰に・どのように・何をというスコア営業の三つの分析観点。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SignificancePerspective">
+    <rdfs:label xml:lang="ja">意義の切り口</rdfs:label>
+    <rdfs:comment xml:lang="ja">社会・顧客・キャリアへの貢献として仕事の意味を捉える観点。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SalesEnablement">
+    <rdfs:label xml:lang="ja">セールス・イネーブルメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">再現性と実効性を両立させ営業の生産性と成果を高める全社的支援。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/EnablementDomain">
+    <rdfs:label xml:lang="ja">イネーブルメント実践領域</rdfs:label>
+    <rdfs:comment xml:lang="ja">ナレッジ・ワーク・ラーニング・ピープルの四領域。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/KnowledgeDomain">
+    <rdfs:label xml:lang="ja">ナレッジ領域</rdfs:label>
+    <rdfs:comment xml:lang="ja">商材・資料・ノウハウの展開によりCANを最大化する領域。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/EnablementDomain"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/WorkDomain">
+    <rdfs:label xml:lang="ja">ワーク領域</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業プロセス設計によりMUSTを明確化する領域。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/EnablementDomain"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/LearningDomain">
+    <rdfs:label xml:lang="ja">ラーニング領域</rdfs:label>
+    <rdfs:comment xml:lang="ja">スキル獲得のための学習プログラム提供によりCANを最大化する領域。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/EnablementDomain"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/PeopleDomain">
+    <rdfs:label xml:lang="ja">ピープル領域</rdfs:label>
+    <rdfs:comment xml:lang="ja">求められるスキル定義と人材配置によりMUSTを明確化する領域。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/EnablementDomain"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/Customer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">購買プロセスを進める企業または個人。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/Salesperson">
+    <rdfs:label xml:lang="ja">営業担当者</rdfs:label>
+    <rdfs:comment xml:lang="ja">NEW SALESのメソッドを現場で実践する個人。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/ProfessionalSalesperson">
+    <rdfs:label xml:lang="ja">仕事のプロフェッショナル</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織依存ではなく高度な専門職としての営業人材。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/NEW_SALES/Salesperson"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SalesOrganization">
+    <rdfs:label xml:lang="ja">営業組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">再現性のある科学的営業を目指すチームまたは部門。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/Deal">
+    <rdfs:label xml:lang="ja">商談</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客との案件化から受注までの取引機会。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/Champion">
+    <rdfs:label xml:lang="ja">チャンピオン</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客社内の推進役となる擁護者。MEDDICの応用対象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/SalesProcess">
+    <rdfs:label xml:lang="ja">営業プロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報収集から最終決定までの営業活動の流れ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/ForecastManagement">
+    <rdfs:label xml:lang="ja">ヨミ管理</rdfs:label>
+    <rdfs:comment xml:lang="ja">確度別に案件を分類しヨミ換算金額で業績を予測する管理。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/LearningCourse">
+    <rdfs:label xml:lang="ja">ラーニングコース</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロダクトリテラシーやセールススキルを体系化した学習プログラム。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/NEW_SALES/InternalRelationshipMap">
+    <rdfs:label xml:lang="ja">社内関係図</rdfs:label>
+    <rdfs:comment xml:lang="ja">エンタープライズセールスで複雑な社内関係を把握するための図。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/evolvesFrom">
+    <rdfs:label xml:lang="ja">から進化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">NEW SALESがOLD SALESから転換した関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/NewSales"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/OldSales"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/hasHistoricalStage">
+    <rdfs:label xml:lang="ja">歴史的段階を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業パラダイムが経てきた進化段階。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SalesParadigm"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/HistoricalStage"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/hasFieldMethod">
+    <rdfs:label xml:lang="ja">現場メソッドを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">NEW SALESを構成する四つの現場メソッド。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/NewSales"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/SalesMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/hasOrganizationalApproach">
+    <rdfs:label xml:lang="ja">組織的アプローチを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">チーム変革のための三つのS。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/NewSales"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SalesOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/OrganizationalApproach"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/followsBuyingStep">
+    <rdfs:label xml:lang="ja">購買段階に沿う</rdfs:label>
+    <rdfs:comment xml:lang="ja">理想から方法までの購買心理に沿う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/StorySales"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SalesProcess"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/BuyingProcessStep"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/providesAwareness">
+    <rdfs:label xml:lang="ja">気付きを提供する</rdfs:label>
+    <rdfs:comment xml:lang="ja">データ・トレンド・セグメント情報による気付き提供。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SurpriseSales"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/AwarenessPattern"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/usesScenarioStage">
+    <rdfs:label xml:lang="ja">シナリオ段階を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客視点の四段階アプローチ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/ScenarioSales"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/ScenarioStage"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/correspondsToBuyingStep">
+    <rdfs:label xml:lang="ja">購買段階に対応する</rdfs:label>
+    <rdfs:comment xml:lang="ja">シナリオ段階と顧客購買プロセスの対応。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/ScenarioStage"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/BuyingProcessStep"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/overcomesBarrier">
+    <rdfs:label xml:lang="ja">壁を乗り越える</rdfs:label>
+    <rdfs:comment xml:lang="ja">金額・工程・期日・決裁の壁への支援。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/DecisionSupport"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/ScenarioSales"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/DecisionBarrier"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/adaptsToRole">
+    <rdfs:label xml:lang="ja">役割に合わせる</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の立場に応じた訴求の調整。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SympathySales"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/CustomerRole"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/adaptsToPersonality">
+    <rdfs:label xml:lang="ja">志向に合わせる</rdfs:label>
+    <rdfs:comment xml:lang="ja">DiSC等の志向タイプに応じた対応。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SympathySales"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/PersonalityType"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/sharesKnowledge">
+    <rdfs:label xml:lang="ja">ナレッジを共有する</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンテンツとノウハウの組織的共有。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/ShareSales"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SalesOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/SalesKnowledge"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/analyzesBy">
+    <rdfs:label xml:lang="ja">分析軸で分析する</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客・プロセス・コンテンツの三軸分析。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/ScoreSales"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/AnalysisAxis"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/emphasizesPerspective">
+    <rdfs:label xml:lang="ja">意義を強調する</rdfs:label>
+    <rdfs:comment xml:lang="ja">社会・顧客・キャリアの意義の共有。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SignificanceSales"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/SignificancePerspective"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/hasEnablementDomain">
+    <rdfs:label xml:lang="ja">実践領域を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">イネーブルメントの四つの実践領域。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/EnablementDomain"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/enables">
+    <rdfs:label xml:lang="ja">遂行を支援する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業組織と担当者のNEW SALES実現を支援する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/SalesOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/NewSales"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/targetsCustomer">
+    <rdfs:label xml:lang="ja">顧客を対象とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業活動や商談が向かう顧客。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Salesperson"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Deal"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SalesMethod"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/belongsToOrganization">
+    <rdfs:label xml:lang="ja">組織に所属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者と営業組織の所属関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/SalesOrganization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/assignedTo">
+    <rdfs:label xml:lang="ja">担当する</rdfs:label>
+    <rdfs:comment xml:lang="ja">商談を担当する営業担当者。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Deal"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/Salesperson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/hasChampion">
+    <rdfs:label xml:lang="ja">チャンピオンを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客社内の擁護者との関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Customer"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Deal"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/Champion"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/hasInternalMap">
+    <rdfs:label xml:lang="ja">社内関係図を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">複雑な意思決定構造の可視化。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Customer"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Deal"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/InternalRelationshipMap"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/partOfProcess">
+    <rdfs:label xml:lang="ja">プロセスの一部である</rdfs:label>
+    <rdfs:comment xml:lang="ja">商談や段階が営業プロセスに属する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Deal"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/ScenarioStage"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/SalesProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/forecasts">
+    <rdfs:label xml:lang="ja">予測する</rdfs:label>
+    <rdfs:comment xml:lang="ja">確度別ヨミによる案件の業績予測。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/ForecastManagement"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/ScoreSales"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/Deal"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/usesContent">
+    <rdfs:label xml:lang="ja">コンテンツを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客事例や比較表などの営業コンテンツ利用。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Salesperson"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Deal"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/StorySales"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/SalesContent"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/offersCourse">
+    <rdfs:label xml:lang="ja">学習コースを提供する</rdfs:label>
+    <rdfs:comment xml:lang="ja">OJTに頼らない体系的学習の提供。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/ShareSales"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/LearningDomain"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SalesOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/LearningCourse"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/playsRole">
+    <rdfs:label xml:lang="ja">役割を担う</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客側関係者が担う運用・利用・管理・決裁の役割。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/CustomerRole"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/hasPersonalityType">
+    <rdfs:label xml:lang="ja">志向タイプを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客個人のDiSC等に基づく志向。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/PersonalityType"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/NEW_SALES/practicesMethod">
+    <rdfs:label xml:lang="ja">メソッドを実践する</rdfs:label>
+    <rdfs:comment xml:lang="ja">担当者が現場の四つのSを実践する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/NEW_SALES/SalesMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/NEW_SALES/description">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念や案件の日本語による説明文。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SalesParadigm"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SalesMethod"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/OrganizationalApproach"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/SalesEnablement"/>
+    <rdfs:domain rdf:resource="https://books.local/NEW_SALES/Deal"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

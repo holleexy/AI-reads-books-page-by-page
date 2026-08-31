@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/">
+    <rdfs:label>Jissen_Jinzai_KaihatsuOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/HumanAsset">
+    <rdfs:label xml:lang="ja">人財</rdfs:label>
+    <rdfs:comment xml:lang="ja">本書が意図的に用いる表記。材料としての「人材」ではなく、組織の貴重な財産（資本）としての人を指す。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/TalentDevelopment">
+    <rdfs:label xml:lang="ja">人財開発</rdfs:label>
+    <rdfs:comment xml:lang="ja">単なる研修を超え、採用・発掘、育成、配置、評価、定着、組織開発、キャリア開発などを統合し、組織目標を達成する戦略的取り組み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/InHouseDevelopment">
+    <rdfs:label xml:lang="ja">内製化</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務を社内の人材で行うこと。100％内製化は専門性低下と最新情報の遮断を招き、0％は理念浸透を阻害するため、本書は51％の内製化を推奨する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/TalentManagement">
+    <rdfs:label xml:lang="ja">タレントマネジメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">人財の発掘から保持までを一体で設計し、組織成果につなげる経営的な人財マネジメント。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/DiamondModel">
+    <rdfs:label xml:lang="ja">ひし形モデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">ATD日本支部（ATD-IMNJ）が提唱する整理枠。職場風土創り、組織一体感の醸成、人材の維持・開発、人材の補強・強化の4視点と8戦略から成り、向かい合う戦略の同時実施が相乗効果を生む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/Organization">
+    <rdfs:label xml:lang="ja">組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">人財開発の主体。ATDなどの専門団体や、戦略を実行する企業を含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/Approach">
+    <rdfs:label xml:lang="ja">アプローチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">人財開発実務を構成する視点。個別的アプローチと組織的アプローチの二つがある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentMeasure">
+    <rdfs:label xml:lang="ja">人財開発施策</rdfs:label>
+    <rdfs:comment xml:lang="ja">人財開発を推進する具体的施策の総称。教育、採用発掘、成果管理、キャリア開発、配置登用、定着管理、後継者計画、組織開発の8つから成る。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/Training">
+    <rdfs:label xml:lang="ja">人材教育</rdfs:label>
+    <rdfs:comment xml:lang="ja">知識やスキルを習得させ成果につなげる施策。集合研修、OJT、メンタリング、コーチング、マニュアル整備、学習環境としてのeラーニングなどで、プロセスごとに内製・外注を判断する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/RecruitmentDiscovery">
+    <rdfs:label xml:lang="ja">採用発掘</rdfs:label>
+    <rdfs:comment xml:lang="ja">経営戦略に基づき質と量を計画する採用と、アセスメント等で組織内の潜在人材を見出す発掘の施策。人材ポートフォリオで将来の理想構成を設計する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/PerformanceManagement">
+    <rdfs:label xml:lang="ja">成果管理</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人と組織の成果を連動させる仕組み。HPIで現状とあるべき姿のギャップを分析する。ノーレイティングのように順位付けせず対話を重視する潮流や、AI・ビッグデータの活用も含む。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/CareerDevelopment">
+    <rdfs:label xml:lang="ja">キャリア開発</rdfs:label>
+    <rdfs:comment xml:lang="ja">WILL（やりたいこと）、MUST（責任）、CAN（能力）を軸に従業員の成長と人生設計を支援する。CDPはチェックリスト、進捗管理、ジョブローテーション機能を提供する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/PlacementPromotion">
+    <rdfs:label xml:lang="ja">配置登用</rdfs:label>
+    <rdfs:comment xml:lang="ja">人中心の適材適所と組織中心の適所適材を使い分ける配置。CUBIC、DiSC、SPI、MBTI、エニアグラム、エゴグラム、EQ診断、タレントマネジメント・システムなどを活用する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/RetentionManagement">
+    <rdfs:label xml:lang="ja">定着管理</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織と個人の繋がりを強化し、必要な人財を長期確保する施策。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/SuccessionPlanning">
+    <rdfs:label xml:lang="ja">後継者計画</rdfs:label>
+    <rdfs:comment xml:lang="ja">管理者交代を見据えた戦略。候補発掘（段階的に3名確保）、専門教育、計画配置（ストレッチ課題）、情報管理（カルテやTMシステム）の4プロセスから成る。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/OrganizationDevelopment">
+    <rdfs:label xml:lang="ja">組織開発</rdfs:label>
+    <rdfs:comment xml:lang="ja">より良い組織文化を創る取り組み。AI（アプリシエイティブ・インクワイアリー）、ワールドカフェ、オープンスペース・テクノロジー、フューチャーサーチなどのホールシステム・アプローチを用いる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentStrategy">
+    <rdfs:label xml:lang="ja">人財開発戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">現状分析、目標設定、ギャップ分析、優先順位設定、戦術決定の5ステップで構築し実行する。施策はいつか壊すために作る前提で軌道修正を繰り返す。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/StrategyStep">
+    <rdfs:label xml:lang="ja">戦略構築ステップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">現状の強みと課題の整理、1〜3年後のあるべき姿の設定、実現性・関連性・重要性によるギャップ評価、実行順序の決定、フェーズ分けした戦術立案のいずれか。同時並行は非効率とされる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/Practitioner">
+    <rdfs:label xml:lang="ja">人財開発担当者</rdfs:label>
+    <rdfs:comment xml:lang="ja">人財開発を推進する専門職。経験、専門家、資格、社会動向の4つの学び方と、検索力・整理力・選択力・結合力が求められる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/Competency">
+    <rdfs:label xml:lang="ja">コンピテンシー</rdfs:label>
+    <rdfs:comment xml:lang="ja">ATDコンピテンシーモデルに基づく要件。基盤はビジネススキル、グロース・マインドセット、関連業界知識、対人関係、パーソナルスキル、テクノロジーリテラシー。専門領域はパフォーマンス改善、教育設計、デリバリー、ラーニングテクノロジー、学習効果測定、学習施策管理、統合的タレントマネジメント、コーチング、ナレッジマネジメント、チェンジマネジメント。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/FutureSkill">
+    <rdfs:label xml:lang="ja">未来スキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">VUCAへの対応に必要な15スキル。俯瞰力・ストレス管理力・集中力、チーミング力・バーチャルコラボレーション力・分野横断的知識、内省力・心理的安全力・批判的思考力、多様性受容力・相互関係構築力・社会的知性、情報結合力・ICT活用力・エクスポネンシャル思考。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/CompanyCase">
+    <rdfs:label xml:lang="ja">企業事例</rdfs:label>
+    <rdfs:comment xml:lang="ja">戦略変遷の実例。日本マクドナルドの振り子の法則、ル・スミエルの7年かけた内製化、リンガーハットの理念共有型リーダー育成、ニラクの創新塾など。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/AssessmentTool">
+    <rdfs:label xml:lang="ja">アセスメントツール</rdfs:label>
+    <rdfs:comment xml:lang="ja">才能評価や配置を支援する診断・システム。CUBIC、DiSC、SPI、MBTI、エニアグラム、エゴグラム、EQ診断、タレントマネジメント・システムなど。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/Engagement">
+    <rdfs:label xml:lang="ja">エンゲージメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">満足度ではなく組織との絆や自分ごと化の度合い。貢献感、適合感、仲間意識の3要素で構成される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/PsychologicalSafety">
+    <rdfs:label xml:lang="ja">心理的安全性</rdfs:label>
+    <rdfs:comment xml:lang="ja">VUCA時代に不可欠な状態。リーダーはラベリングをやめ、多様性を理解し共通点に着目する必要がある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/LearningCulture">
+    <rdfs:label xml:lang="ja">ラーニングカルチャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">予測困難な環境で組織が備えすべき学習文化。アジャイル性と並び、継続的な学びと軌道修正を支える。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/DiversityManagement">
+    <rdfs:label xml:lang="ja">ダイバーシティマネジメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">世代、ジェンダー、国籍、個人の個性を活かすパーソナライズ化を含む多様性の活用。バーチャルクラスルーム、VR/AR/MR、HRテックも教育の未来標準となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/LearningMethod">
+    <rdfs:label xml:lang="ja">学び方</rdfs:label>
+    <rdfs:comment xml:lang="ja">担当者の学びの型。経験から学ぶ、専門家から学ぶ（手法に固執しない）、資格取得を実務で活かす、世の中への興味から情報を結合する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/develops">
+    <rdfs:label xml:lang="ja">開発する</rdfs:label>
+    <rdfs:comment xml:lang="ja">人財開発が組織の人財を育成・強化する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/TalentDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/HumanAsset"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/hasMeasure">
+    <rdfs:label xml:lang="ja">施策を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">人財開発が8つの施策を統合的に用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/TalentDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentMeasure"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/recommends">
+    <rdfs:label xml:lang="ja">推奨する</rdfs:label>
+    <rdfs:comment xml:lang="ja">人財開発が内製化（特に51％）を方針として推奨する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/TalentDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/InHouseDevelopment"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/basedOn">
+    <rdfs:label xml:lang="ja">基づく</rdfs:label>
+    <rdfs:comment xml:lang="ja">タレントマネジメントがひし形モデルの4視点と8戦略に基づいて整理される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/TalentManagement"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DiamondModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/usesApproach">
+    <rdfs:label xml:lang="ja">アプローチを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">人財開発実務が個別的または組織的アプローチから構成される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/TalentDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/Approach"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/belongsTo">
+    <rdfs:label xml:lang="ja">所属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">人財または担当者が組織に属する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/HumanAsset"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/Practitioner"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/Organization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/hasStrategy">
+    <rdfs:label xml:lang="ja">戦略を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織が人財開発戦略を構築し実行する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentStrategy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/hasStep">
+    <rdfs:label xml:lang="ja">ステップを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">戦略が5つの構築ステップから成る関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentStrategy"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/StrategyStep"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/usesTool">
+    <rdfs:label xml:lang="ja">ツールを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">配置・発掘・後継者計画がアセスメントやTMシステムを活用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/PlacementPromotion"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/RecruitmentDiscovery"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/SuccessionPlanning"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/AssessmentTool"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/requiresCompetency">
+    <rdfs:label xml:lang="ja">コンピテンシーを要する</rdfs:label>
+    <rdfs:comment xml:lang="ja">担当者にATDの基盤コンピテンシーと専門領域が求められる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/Practitioner"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/Competency"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/requiresSkill">
+    <rdfs:label xml:lang="ja">スキルを要する</rdfs:label>
+    <rdfs:comment xml:lang="ja">未来の組織と人財が変化対応スキルを必要とする関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/Practitioner"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/HumanAsset"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/FutureSkill"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/learnsBy">
+    <rdfs:label xml:lang="ja">学び方を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">担当者が経験・専門家・資格・社会動向から学ぶ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/Practitioner"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/LearningMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/illustratedBy">
+    <rdfs:label xml:lang="ja">事例で示される</rdfs:label>
+    <rdfs:comment xml:lang="ja">戦略や内製化の方針が企業事例によって示される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentStrategy"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/InHouseDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/CompanyCase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/hasEngagement">
+    <rdfs:label xml:lang="ja">エンゲージメントを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">人財が組織との絆や自分ごと化の度合いを持つ関係。定着管理の中核概念。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/HumanAsset"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/Engagement"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/builds">
+    <rdfs:label xml:lang="ja">構築する</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織や組織開発が学習文化、心理的安全性、ダイバーシティマネジメントを築く関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/OrganizationDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/LearningCulture"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/PsychologicalSafety"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DiversityManagement"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/manages">
+    <rdfs:label xml:lang="ja">マネジメントする</rdfs:label>
+    <rdfs:comment xml:lang="ja">タレントマネジメントが人財の維持・開発・補強を行う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/TalentManagement"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/HumanAsset"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Jissen_Jinzai_Kaihatsu/description">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">各概念の定義や補足を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/HumanAsset"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/TalentDevelopment"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentMeasure"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentStrategy"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/Competency"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/FutureSkill"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_Jinzai_Kaihatsu/CompanyCase"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

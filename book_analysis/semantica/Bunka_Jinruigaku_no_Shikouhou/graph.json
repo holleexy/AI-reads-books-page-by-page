@@ -1,0 +1,5703 @@
+{
+  "entities": [
+    {
+      "id": "文化人類学",
+      "name": "文化人類学",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "文化人類学",
+              "name": "文化人類学",
+              "source": null
+            },
+            {
+              "id": "文化人類学",
+              "name": "文化人類学",
+              "source": null
+            },
+            {
+              "id": "文化人類学者",
+              "name": "文化人類学者",
+              "source": null
+            },
+            {
+              "id": "文化人類学者",
+              "name": "文化人類学者",
+              "source": null
+            },
+            {
+              "id": "文化人類学的思考",
+              "name": "文化人類学的思考",
+              "source": null
+            },
+            {
+              "id": "文化人類学的思考",
+              "name": "文化人類学的思考",
+              "source": null
+            },
+            {
+              "id": "文化人類学的な想像力",
+              "name": "文化人類学的な想像力",
+              "source": null
+            },
+            {
+              "id": "文化",
+              "name": "文化",
+              "source": null
+            },
+            {
+              "id": "文化の多様性",
+              "name": "文化の多様性",
+              "source": null
+            }
+          ],
+          "merge_count": 9
+        }
+      },
+      "merged_from": [
+        "文化人類学",
+        "文化人類学",
+        "文化人類学者",
+        "文化人類学者",
+        "文化人類学的思考",
+        "文化人類学的思考",
+        "文化人類学的な想像力",
+        "文化",
+        "文化の多様性"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "芸術",
+      "name": "芸術",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "芸術",
+              "name": "芸術",
+              "source": null
+            },
+            {
+              "id": "芸術",
+              "name": "芸術",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "芸術",
+        "芸術"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "経済",
+      "name": "経済",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "経済",
+              "name": "経済",
+              "source": null
+            },
+            {
+              "id": "経済",
+              "name": "経済",
+              "source": null
+            },
+            {
+              "id": "経済的交換",
+              "name": "経済的交換",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "経済",
+        "経済",
+        "経済的交換"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "政治",
+      "name": "政治",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "政治",
+              "name": "政治",
+              "source": null
+            },
+            {
+              "id": "政治",
+              "name": "政治",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "政治",
+        "政治"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "フィールドワーク",
+      "name": "フィールドワーク",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "フィールドワーク",
+              "name": "フィールドワーク",
+              "source": null
+            },
+            {
+              "id": "フィールドワーク",
+              "name": "フィールドワーク",
+              "source": null
+            },
+            {
+              "id": "フィールド",
+              "name": "フィールド",
+              "source": null
+            },
+            {
+              "id": "フィールド",
+              "name": "フィールド",
+              "source": null
+            },
+            {
+              "id": "フローイ・ワグナー",
+              "name": "フローイ・ワグナー",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "フィールドワーク",
+        "フィールドワーク",
+        "フィールド",
+        "フィールド",
+        "フローイ・ワグナー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "思考法",
+      "name": "思考法",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "思考法",
+              "name": "思考法",
+              "source": null
+            },
+            {
+              "id": "思考法",
+              "name": "思考法",
+              "source": null
+            },
+            {
+              "id": "思考の道具箱",
+              "name": "思考の道具箱",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "思考法",
+        "思考法",
+        "思考の道具箱"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "cultural anthropology",
+      "name": "cultural anthropology",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "cultural anthropology",
+              "name": "cultural anthropology",
+              "source": null
+            },
+            {
+              "id": "Cultural anthropology",
+              "name": "Cultural anthropology",
+              "source": null
+            },
+            {
+              "id": "cultural differences",
+              "name": "cultural differences",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "cultural anthropology",
+        "Cultural anthropology",
+        "cultural differences"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "近さ",
+      "name": "近さ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "近さ",
+              "name": "近さ",
+              "source": null
+            },
+            {
+              "id": "近さ",
+              "name": "近さ",
+              "source": null
+            },
+            {
+              "id": "近代",
+              "name": "近代",
+              "source": null
+            },
+            {
+              "id": "近代知",
+              "name": "近代知",
+              "source": null
+            },
+            {
+              "id": "近代社会",
+              "name": "近代社会",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "近さ",
+        "近さ",
+        "近代",
+        "近代知",
+        "近代社会"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "遠さ",
+      "name": "遠さ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "遠さ",
+              "name": "遠さ",
+              "source": null
+            },
+            {
+              "id": "遠さ",
+              "name": "遠さ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "遠さ",
+        "遠さ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "美",
+      "name": "美",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "美",
+              "name": "美",
+              "source": null
+            },
+            {
+              "id": "美",
+              "name": "美",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "美",
+        "美"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "科学",
+      "name": "科学",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "科学",
+              "name": "科学",
+              "source": null
+            },
+            {
+              "id": "科学",
+              "name": "科学",
+              "source": null
+            },
+            {
+              "id": "科学技術",
+              "name": "科学技術",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "科学",
+        "科学",
+        "科学技術"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "distance",
+      "name": "distance",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "distance",
+              "name": "distance",
+              "source": null
+            },
+            {
+              "id": "distance",
+              "name": "distance",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "distance",
+        "distance"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "差異",
+      "name": "差異",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "差異",
+              "name": "差異",
+              "source": null
+            },
+            {
+              "id": "差異",
+              "name": "差異",
+              "source": null
+            },
+            {
+              "id": "差異の構築性",
+              "name": "差異の構築性",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "差異",
+        "差異",
+        "差異の構築性"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "比較",
+      "name": "比較",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "比較",
+              "name": "比較",
+              "source": null
+            },
+            {
+              "id": "比較",
+              "name": "比較",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "比較",
+        "比較"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "ポトラッチ",
+      "name": "ポトラッチ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ポトラッチ",
+              "name": "ポトラッチ",
+              "source": null
+            },
+            {
+              "id": "ポトラッチ",
+              "name": "ポトラッチ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ポトラッチ",
+        "ポトラッチ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "ニューギニア",
+      "name": "ニューギニア",
+      "type": "GPE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ニューギニア",
+              "name": "ニューギニア",
+              "source": null
+            },
+            {
+              "id": "ニューギニア",
+              "name": "ニューギニア",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ニューギニア",
+        "ニューギニア"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "Globalization",
+      "name": "Globalization",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Globalization",
+              "name": "Globalization",
+              "source": null
+            },
+            {
+              "id": "globalization",
+              "name": "globalization",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Globalization",
+        "globalization"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "第Ⅰ部",
+      "name": "第Ⅰ部",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "第Ⅰ部",
+              "name": "第Ⅰ部",
+              "source": null
+            },
+            {
+              "id": "第Ⅰ部",
+              "name": "第Ⅰ部",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "第Ⅰ部",
+        "第Ⅰ部"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "Anthropological theory",
+      "name": "Anthropological theory",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Anthropological theory",
+              "name": "Anthropological theory",
+              "source": null
+            },
+            {
+              "id": "anthropological theories",
+              "name": "anthropological theories",
+              "source": null
+            },
+            {
+              "id": "anthropological thought",
+              "name": "anthropological thought",
+              "source": null
+            },
+            {
+              "id": "Anthropological fieldwork",
+              "name": "Anthropological fieldwork",
+              "source": null
+            },
+            {
+              "id": "anthropological concepts",
+              "name": "anthropological concepts",
+              "source": null
+            },
+            {
+              "id": "anthropological concepts",
+              "name": "anthropological concepts",
+              "source": null
+            },
+            {
+              "id": "Anthropologists",
+              "name": "Anthropologists",
+              "source": null
+            },
+            {
+              "id": "anthropology",
+              "name": "anthropology",
+              "source": null
+            },
+            {
+              "id": "anthropological imagination",
+              "name": "anthropological imagination",
+              "source": null
+            }
+          ],
+          "merge_count": 9
+        }
+      },
+      "merged_from": [
+        "Anthropological theory",
+        "anthropological theories",
+        "anthropological thought",
+        "Anthropological fieldwork",
+        "anthropological concepts",
+        "anthropological concepts",
+        "Anthropologists",
+        "anthropology",
+        "anthropological imagination"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "自己",
+      "name": "自己",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "自己",
+              "name": "自己",
+              "source": null
+            },
+            {
+              "id": "自己像",
+              "name": "自己像",
+              "source": null
+            },
+            {
+              "id": "自己理解",
+              "name": "自己理解",
+              "source": null
+            },
+            {
+              "id": "自己イメージ",
+              "name": "自己イメージ",
+              "source": null
+            },
+            {
+              "id": "自然",
+              "name": "自然",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "自己",
+        "自己像",
+        "自己理解",
+        "自己イメージ",
+        "自然"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "他者理解",
+      "name": "他者理解",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "他者理解",
+              "name": "他者理解",
+              "source": null
+            },
+            {
+              "id": "他者",
+              "name": "他者",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "他者理解",
+        "他者"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "magical thinking",
+      "name": "magical thinking",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "magical thinking",
+              "name": "magical thinking",
+              "source": null
+            },
+            {
+              "id": "magic",
+              "name": "magic",
+              "source": null
+            },
+            {
+              "id": "modern technology",
+              "name": "modern technology",
+              "source": null
+            },
+            {
+              "id": "modest tools",
+              "name": "modest tools",
+              "source": null
+            },
+            {
+              "id": "market economies",
+              "name": "market economies",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "magical thinking",
+        "magic",
+        "modern technology",
+        "modest tools",
+        "market economies"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "「近さ」",
+      "name": "「近さ」",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "「近さ」",
+              "name": "「近さ」",
+              "source": null
+            },
+            {
+              "id": "「遠さ」",
+              "name": "「遠さ」",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "「近さ」",
+        "「遠さ」"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "scientists",
+      "name": "scientists",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "scientists",
+              "name": "scientists",
+              "source": null
+            },
+            {
+              "id": "science",
+              "name": "science",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "scientists",
+        "science"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "社会学",
+      "name": "社会学",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "社会学",
+              "name": "社会学",
+              "source": null
+            },
+            {
+              "id": "社会的",
+              "name": "社会的",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "社会学",
+        "社会的"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "世界の成り立ち",
+      "name": "世界の成り立ち",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "世界の成り立ち",
+              "name": "世界の成り立ち",
+              "source": null
+            },
+            {
+              "id": "世界",
+              "name": "世界",
+              "source": null
+            },
+            {
+              "id": "世界のとらえ方",
+              "name": "世界のとらえ方",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "世界の成り立ち",
+        "世界",
+        "世界のとらえ方"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "西太平洋の遠洋航海者",
+      "name": "西太平洋の遠洋航海者",
+      "type": "PRODUCT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "西太平洋の遠洋航海者",
+              "name": "西太平洋の遠洋航海者",
+              "source": null
+            },
+            {
+              "id": "西太平洋",
+              "name": "西太平洋",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "西太平洋の遠洋航海者",
+        "西太平洋"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "家庭生活",
+      "name": "家庭生活",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "家庭生活",
+              "name": "家庭生活",
+              "source": null
+            },
+            {
+              "id": "家庭的",
+              "name": "家庭的",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "家庭生活",
+        "家庭的"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "調査計画",
+      "name": "調査計画",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "調査計画",
+              "name": "調査計画",
+              "source": null
+            },
+            {
+              "id": "調査地",
+              "name": "調査地",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "調査計画",
+        "調査地"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "politics",
+      "name": "politics",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "politics",
+              "name": "politics",
+              "source": null
+            },
+            {
+              "id": "Paleolithic",
+              "name": "Paleolithic",
+              "source": null
+            },
+            {
+              "id": "proximity",
+              "name": "proximity",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "politics",
+        "Paleolithic",
+        "proximity"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "healing",
+      "name": "healing",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "healing",
+              "name": "healing",
+              "source": null
+            },
+            {
+              "id": "here and now",
+              "name": "here and now",
+              "source": null
+            },
+            {
+              "id": "Homo sapiens",
+              "name": "Homo sapiens",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "healing",
+        "here and now",
+        "Homo sapiens"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "技法",
+      "name": "技法",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "技法",
+              "name": "技法",
+              "source": null
+            },
+            {
+              "id": "技術",
+              "name": "技術",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "技法",
+        "技術"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "technology",
+      "name": "technology",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "technology",
+              "name": "technology",
+              "source": null
+            },
+            {
+              "id": "thinking tools",
+              "name": "thinking tools",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "technology",
+        "thinking tools"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "temporal distance",
+      "name": "temporal distance",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "temporal distance",
+              "name": "temporal distance",
+              "source": null
+            },
+            {
+              "id": "traveling cultures",
+              "name": "traveling cultures",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "temporal distance",
+        "traveling cultures"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "Evolutionary paradigms",
+      "name": "Evolutionary paradigms",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Evolutionary paradigms",
+              "name": "Evolutionary paradigms",
+              "source": null
+            },
+            {
+              "id": "everyday reality",
+              "name": "everyday reality",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Evolutionary paradigms",
+        "everyday reality"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "human evolution",
+      "name": "human evolution",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "human evolution",
+              "name": "human evolution",
+              "source": null
+            },
+            {
+              "id": "hunting tools",
+              "name": "hunting tools",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "human evolution",
+        "hunting tools"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "日本",
+      "name": "日本",
+      "text": "日本",
+      "type": "GPE",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "アジア",
+      "name": "アジア",
+      "text": "アジア",
+      "type": "GPE",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "ヨーロッパ",
+      "name": "ヨーロッパ",
+      "text": "ヨーロッパ",
+      "type": "GPE",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "アフリカ",
+      "name": "アフリカ",
+      "text": "アフリカ",
+      "type": "GPE",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "宗教",
+      "name": "宗教",
+      "text": "宗教",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "家族",
+      "name": "家族",
+      "text": "家族",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "医療",
+      "name": "医療",
+      "text": "医療",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "エスノグラフィー",
+      "name": "エスノグラフィー",
+      "text": "エスノグラフィー",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "民族誌",
+      "name": "民族誌",
+      "text": "民族誌",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "複雑さに満ちた世界そのもの",
+      "name": "複雑さに満ちた世界そのもの",
+      "text": "複雑さに満ちた世界そのもの",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "プロセス",
+      "name": "プロセス",
+      "text": "プロセス",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "常識",
+      "name": "常識",
+      "text": "常識",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "4年",
+      "name": "4年",
+      "text": "4年",
+      "type": "DATE",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "family life",
+      "name": "family life",
+      "text": "family life",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "目のつけどころ",
+      "name": "目のつけどころ",
+      "text": "目のつけどころ",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "アプローチの方法",
+      "name": "アプローチの方法",
+      "text": "アプローチの方法",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "エッセンス",
+      "name": "エッセンス",
+      "text": "エッセンス",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "遠近法",
+      "name": "遠近法",
+      "text": "遠近法",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "五感",
+      "name": "五感",
+      "text": "五感",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "客観性",
+      "name": "客観性",
+      "text": "客観性",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "違和感",
+      "name": "違和感",
+      "text": "違和感",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "貨幣",
+      "name": "貨幣",
+      "text": "貨幣",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "仮想通貨",
+      "name": "仮想通貨",
+      "text": "仮想通貨",
+      "type": "PRODUCT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "ミクロネシア連邦",
+      "name": "ミクロネシア連邦",
+      "text": "ミクロネシア連邦",
+      "type": "GPE",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "ヤップ島",
+      "name": "ヤップ島",
+      "text": "ヤップ島",
+      "type": "GPE",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "石貨",
+      "name": "石貨",
+      "text": "石貨",
+      "type": "PRODUCT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "東アフリカ",
+      "name": "東アフリカ",
+      "text": "東アフリカ",
+      "type": "GPE",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "牧畜民社会",
+      "name": "牧畜民社会",
+      "text": "牧畜民社会",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "距離感",
+      "name": "距離感",
+      "text": "距離感",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "固定観念",
+      "name": "固定観念",
+      "text": "固定観念",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "視野",
+      "name": "視野",
+      "text": "視野",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "旧石器時代",
+      "name": "旧石器時代",
+      "text": "旧石器時代",
+      "type": "DATE",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "カラハリ砂漠",
+      "name": "カラハリ砂漠",
+      "text": "カラハリ砂漠",
+      "type": "GPE",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "狩猟採集民",
+      "name": "狩猟採集民",
+      "text": "狩猟採集民",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "健康",
+      "name": "健康",
+      "text": "健康",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "呪術",
+      "name": "呪術",
+      "text": "呪術",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "現代",
+      "name": "現代",
+      "text": "現代",
+      "type": "DATE",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "著者",
+      "name": "著者",
+      "text": "著者",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "geography",
+      "name": "geography",
+      "text": "geography",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "theory of magic",
+      "name": "theory of magic",
+      "text": "theory of magic",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "South American",
+      "name": "South American",
+      "text": "South American",
+      "type": "GPE",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "Western modernity",
+      "name": "Western modernity",
+      "text": "Western modernity",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "physical experience",
+      "name": "physical experience",
+      "text": "physical experience",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "local languages",
+      "name": "local languages",
+      "text": "local languages",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "linguistic understandings",
+      "name": "linguistic understandings",
+      "text": "linguistic understandings",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "わかる",
+      "name": "わかる",
+      "text": "わかる",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "女性",
+      "name": "女性",
+      "text": "女性",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "男性",
+      "name": "男性",
+      "text": "男性",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "私的",
+      "name": "私的",
+      "text": "私的",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "公的",
+      "name": "公的",
+      "text": "公的",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "名づけ／位置づけ",
+      "name": "名づけ／位置づけ",
+      "text": "名づけ／位置づけ",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "カルチャーショック",
+      "name": "カルチャーショック",
+      "text": "カルチャーショック",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "机上の空論",
+      "name": "机上の空論",
+      "text": "机上の空論",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "価値観",
+      "name": "価値観",
+      "text": "価値観",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "解釈",
+      "name": "解釈",
+      "text": "解釈",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "ブロニスワフ・マリノフスキー",
+      "name": "ブロニスワフ・マリノフスキー",
+      "text": "ブロニスワフ・マリノフスキー",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "メラネシア",
+      "name": "メラネシア",
+      "text": "メラネシア",
+      "type": "GPE",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "トロブリアンド諸島",
+      "name": "トロブリアンド諸島",
+      "text": "トロブリアンド諸島",
+      "type": "GPE",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "長期参与観察",
+      "name": "長期参与観察",
+      "text": "長期参与観察",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "マリノフスキー",
+      "name": "マリノフスキー",
+      "text": "マリノフスキー",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "1922年",
+      "name": "1922年",
+      "text": "1922年",
+      "type": "DATE",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "ロイ・ワグナー",
+      "name": "ロイ・ワグナー",
+      "text": "ロイ・ワグナー",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "自文化",
+      "name": "自文化",
+      "text": "自文化",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "異文化",
+      "name": "異文化",
+      "text": "異文化",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "アイデンティティ",
+      "name": "アイデンティティ",
+      "text": "アイデンティティ",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "彼らと私たち",
+      "name": "彼らと私たち",
+      "text": "彼らと私たち",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "学問",
+      "name": "学問",
+      "text": "学問",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "日常生活",
+      "name": "日常生活",
+      "text": "日常生活",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "共通性",
+      "name": "共通性",
+      "text": "共通性",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "普遍性",
+      "name": "普遍性",
+      "text": "普遍性",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "負債",
+      "name": "負債",
+      "text": "負債",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "人類学",
+      "name": "人類学",
+      "text": "人類学",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "マルセル・モース",
+      "name": "マルセル・モース",
+      "text": "マルセル・モース",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "贈与交換",
+      "name": "贈与交換",
+      "text": "贈与交換",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "北米先住民",
+      "name": "北米先住民",
+      "text": "北米先住民",
+      "type": "PERSON",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "クラ",
+      "name": "クラ",
+      "text": "クラ",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "フランス",
+      "name": "フランス",
+      "text": "フランス",
+      "type": "GPE",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "実用性",
+      "name": "実用性",
+      "text": "実用性",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "暗黙の前提",
+      "name": "暗黙の前提",
+      "text": "暗黙の前提",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "非西洋社会",
+      "name": "非西洋社会",
+      "text": "非西洋社会",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "二つの迂回",
+      "name": "二つの迂回",
+      "text": "二つの迂回",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "理論",
+      "name": "理論",
+      "text": "理論",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "グローバル化",
+      "name": "グローバル化",
+      "text": "グローバル化",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "均質化",
+      "name": "均質化",
+      "text": "均質化",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "多様性",
+      "name": "多様性",
+      "text": "多様性",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "パラドックス",
+      "name": "パラドックス",
+      "text": "パラドックス",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "アーパドゥライ",
+      "name": "アーパドゥライ",
+      "text": "アーパドゥライ",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "James Clifford",
+      "name": "James Clifford",
+      "text": "James Clifford",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "旅する文化",
+      "name": "旅する文化",
+      "text": "旅する文化",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "people",
+      "name": "people",
+      "text": "people",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "media",
+      "name": "media",
+      "text": "media",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "capital",
+      "name": "capital",
+      "text": "capital",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "ideologies",
+      "name": "ideologies",
+      "text": "ideologies",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "Arjun Appadurai",
+      "name": "Arjun Appadurai",
+      "text": "Arjun Appadurai",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "care workers",
+      "name": "care workers",
+      "text": "care workers",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "aging society",
+      "name": "aging society",
+      "text": "aging society",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "emerging lifestyles",
+      "name": "emerging lifestyles",
+      "text": "emerging lifestyles",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "gift economies",
+      "name": "gift economies",
+      "text": "gift economies",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "virtual currency trading",
+      "name": "virtual currency trading",
+      "text": "virtual currency trading",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "Stateless societies",
+      "name": "Stateless societies",
+      "text": "Stateless societies",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "closeness",
+      "name": "closeness",
+      "text": "closeness",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "economic anthropology",
+      "name": "economic anthropology",
+      "text": "economic anthropology",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "religious anthropology",
+      "name": "religious anthropology",
+      "text": "religious anthropology",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "fieldwork",
+      "name": "fieldwork",
+      "text": "fieldwork",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "classical theories",
+      "name": "classical theories",
+      "text": "classical theories",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "new theories",
+      "name": "new theories",
+      "text": "new theories",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "academic disciplines",
+      "name": "academic disciplines",
+      "text": "academic disciplines",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "迷信",
+      "name": "迷信",
+      "text": "迷信",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "id": "人間の身体",
+      "name": "人間の身体",
+      "text": "人間の身体",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "文化人類学",
+      "target": "思考の道具箱",
+      "type": "nurtured",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "執筆者",
+      "target": "文化人類学",
+      "type": "studies",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "執筆者",
+      "target": "文化人類学",
+      "type": "teaches",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "フィールドワーク",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "フィールドワーク",
+      "target": "エスノグラフィー",
+      "type": "produces",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "エスノグラフィー",
+      "target": "民族誌",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "エスノグラフィー",
+      "type": "produces",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学者",
+      "target": "文化人類学",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学者",
+      "target": "フィールド",
+      "type": "interacts_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "フィールド",
+      "type": "uses",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "複雑さに満ちた世界そのもの",
+      "type": "depicts",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "経済",
+      "target": "複雑さに満ちた世界そのもの",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "政治",
+      "target": "複雑さに満ちた世界そのもの",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "家庭生活",
+      "target": "複雑さに満ちた世界そのもの",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "経済",
+      "type": "includes",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "政治",
+      "type": "includes",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "家庭生活",
+      "type": "includes",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "思考法",
+      "target": "文化人類学",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "プロセス",
+      "target": "文化人類学",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "思考法",
+      "target": "常識",
+      "type": "contrasts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "プロセス",
+      "target": "フィールド",
+      "type": "involves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "4年",
+      "type": "related_to",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "cultural anthropology",
+      "target": "politics",
+      "type": "describes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "cultural anthropology",
+      "target": "healing",
+      "type": "describes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "cultural anthropology",
+      "target": "family life",
+      "type": "describes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "cultural anthropology",
+      "target": "politics",
+      "type": "portrays",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "cultural anthropology",
+      "target": "healing",
+      "type": "portrays",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "cultural anthropology",
+      "target": "family life",
+      "type": "portrays",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "目のつけどころ",
+      "target": "アプローチの方法",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "思考法",
+      "target": "文化人類学",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "エッセンス",
+      "target": "思考法",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "遠近法",
+      "target": "思考法",
+      "type": "is_essence_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "近さ",
+      "target": "遠近法",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "遠さ",
+      "target": "遠近法",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "近さ",
+      "target": "文化人類学",
+      "type": "defined_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "近さ",
+      "target": "フィールドワーク",
+      "type": "achieved_through",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "近さ",
+      "target": "五感",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学的思考",
+      "target": "客観性",
+      "type": "depends_on",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学的思考",
+      "target": "違和感",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "フィールドワーク",
+      "target": "五感",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "遠さ",
+      "target": "文化人類学",
+      "type": "defined_in",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "社会学",
+      "type": "differs_from",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "遠さ",
+      "target": "文化人類学",
+      "type": "distinguishes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "ヤップ島",
+      "target": "ミクロネシア連邦",
+      "type": "located_in",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "石貨",
+      "target": "ヤップ島",
+      "type": "associated_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "貨幣",
+      "target": "石貨",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "仮想通貨",
+      "target": "石貨",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "牧畜民社会",
+      "target": "東アフリカ",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "近さ",
+      "target": "遠さ",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "「近さ」",
+      "target": "距離感",
+      "type": "part_of",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "「遠さ」",
+      "target": "距離感",
+      "type": "part_of",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "距離感",
+      "target": "文化人類学的な想像力",
+      "type": "enriches",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "距離感",
+      "target": "固定観念",
+      "type": "shatters",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "距離感",
+      "target": "視野",
+      "type": "expands",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "距離感",
+      "target": "世界の成り立ち",
+      "type": "reveals",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "狩猟採集民",
+      "target": "カラハリ砂漠",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "狩猟採集民",
+      "target": "旧石器時代",
+      "type": "existed_during",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "狩猟採集民",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "健康",
+      "target": "美",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "呪術",
+      "target": "科学",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "著者",
+      "target": "文化人類学",
+      "type": "主張している",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "現代",
+      "type": "羅針盤となり",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "Cultural anthropology",
+      "target": "proximity",
+      "type": "manipulates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "Cultural anthropology",
+      "target": "distance",
+      "type": "manipulates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "distance",
+      "target": "anthropological imagination",
+      "type": "broadens",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "cultural anthropology",
+      "target": "geography",
+      "type": "not_limited_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "cultural anthropology",
+      "target": "temporal distance",
+      "type": "involves",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "Anthropologists",
+      "target": "human evolution",
+      "type": "study_in_context_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "Anthropologists",
+      "target": "Homo sapiens",
+      "type": "study_history_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "human evolution",
+      "target": "Homo sapiens",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "hunting tools",
+      "target": "Paleolithic",
+      "type": "associated_with",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "hunting tools",
+      "target": "modern technology",
+      "type": "used_to_question",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "anthropological theories",
+      "target": "theory of magic",
+      "type": "includes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "theory of magic",
+      "target": "magical thinking",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "South American",
+      "target": "Western modernity",
+      "type": "contrasted_with",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "Anthropological fieldwork",
+      "target": "physical experience",
+      "type": "involves",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "Anthropological fieldwork",
+      "target": "local languages",
+      "type": "requires",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "physical experience",
+      "target": "linguistic understandings",
+      "type": "leads_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "Anthropological fieldwork",
+      "target": "linguistic understandings",
+      "type": "leads_to",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学的思考",
+      "target": "文化人類学",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "わかる",
+      "type": "questions",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "わかる",
+      "target": "名づけ／位置づけ",
+      "type": "includes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "名づけ／位置づけ",
+      "target": "女性",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "名づけ／位置づけ",
+      "target": "男性",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "名づけ／位置づけ",
+      "target": "私的",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "名づけ／位置づけ",
+      "target": "公的",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "名づけ／位置づけ",
+      "target": "家庭的",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "名づけ／位置づけ",
+      "target": "社会的",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "女性",
+      "target": "男性",
+      "type": "contrasts_with",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "私的",
+      "target": "公的",
+      "type": "contrasts_with",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "家庭的",
+      "target": "社会的",
+      "type": "contrasts_with",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "フィールドワーク",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "フィールドワーク",
+      "target": "カルチャーショック",
+      "type": "requires",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "調査計画",
+      "target": "机上の空論",
+      "type": "was",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "フィールドワーク",
+      "target": "調査計画",
+      "type": "modifies",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "フィールドワーク",
+      "target": "価値観",
+      "type": "relativizes",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "フィールドワーク",
+      "target": "解釈",
+      "type": "relativizes",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "フィールドワーク",
+      "target": "文化人類学",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "フィールドワーク",
+      "target": "文化人類学",
+      "type": "used_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "トロブリアンド諸島",
+      "target": "メラネシア",
+      "type": "located_in",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "ブロニスワフ・マリノフスキー",
+      "target": "トロブリアンド諸島",
+      "type": "conducted_research_in",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "長期参与観察",
+      "target": "ブロニスワフ・マリノフスキー",
+      "type": "created_by",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "長期参与観察",
+      "target": "文化人類学",
+      "type": "part_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "西太平洋の遠洋航海者",
+      "target": "マリノフスキー",
+      "type": "created_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "西太平洋の遠洋航海者",
+      "target": "1922年",
+      "type": "published_in",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "西太平洋の遠洋航海者",
+      "target": "西太平洋",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学者",
+      "target": "フィールドワーク",
+      "type": "conducts",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "ロイ・ワグナー",
+      "target": "文化人類学者",
+      "type": "pointed_out",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学者",
+      "target": "異文化",
+      "type": "creates",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学者",
+      "target": "自文化",
+      "type": "creates",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "自文化",
+      "type": "discovers",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "異文化",
+      "type": "discovers",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "自文化",
+      "type": "invents",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "異文化",
+      "type": "invents",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学者",
+      "target": "文化人類学",
+      "type": "related_to",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "フィールドワーク",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "他者理解",
+      "target": "フィールドワーク",
+      "type": "has_similar_structure_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "自己理解",
+      "target": "フィールドワーク",
+      "type": "has_similar_structure_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "他者理解",
+      "target": "自己理解",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "自己",
+      "type": "examines",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "他者",
+      "type": "examines",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "自己",
+      "target": "他者",
+      "type": "contrasted_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "自己",
+      "target": "自己イメージ",
+      "type": "maintains",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "フローイ・ワグナー",
+      "target": "アイデンティティ",
+      "type": "points_out",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "彼らと私たち",
+      "type": "thinks_deeply_about",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "思考法",
+      "target": "文化人類学",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "思考法",
+      "target": "学問",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "思考法",
+      "target": "技法",
+      "type": "is_a",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "技法",
+      "target": "差異",
+      "type": "used_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "差異",
+      "target": "日常生活",
+      "type": "located_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "思考法",
+      "target": "日常生活",
+      "type": "used_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "比較",
+      "target": "自己像",
+      "type": "protects",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "比較",
+      "target": "差異",
+      "type": "highlights",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "比較",
+      "target": "共通性",
+      "type": "overlooks",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "比較",
+      "target": "普遍性",
+      "type": "overlooks",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "フィールドワーク",
+      "type": "uses",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "ポトラッチ",
+      "type": "conceptualizes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "負債",
+      "type": "conceptualizes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "ポトラッチ",
+      "target": "フィールドワーク",
+      "type": "derived_from",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "負債",
+      "target": "フィールドワーク",
+      "type": "derived_from",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "比較",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "贈与交換",
+      "target": "マルセル・モース",
+      "type": "created_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "ポトラッチ",
+      "target": "北米先住民",
+      "type": "practiced_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "クラ",
+      "target": "ニューギニア",
+      "type": "located_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "贈与交換",
+      "target": "経済的交換",
+      "type": "different_from",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "贈与交換",
+      "target": "ポトラッチ",
+      "type": "exemplified_by",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "贈与交換",
+      "target": "クラ",
+      "type": "exemplified_by",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "過去の理論や概念",
+      "type": "uses_as_tool",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "他の事例",
+      "type": "compares_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "新たなことばや概念",
+      "type": "acquires",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "芸術",
+      "target": "実用性",
+      "type": "separated_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "近代",
+      "target": "芸術",
+      "type": "has_assumption_about",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "フランス",
+      "target": "芸術",
+      "type": "associated_with",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "ニューギニア",
+      "target": "実用性",
+      "type": "associated_with",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "近代知",
+      "target": "暗黙の前提",
+      "type": "captured_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "暗黙の前提",
+      "type": "relativizes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "近代知",
+      "type": "helps_review",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "非西洋社会",
+      "type": "studies",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学",
+      "target": "近代社会",
+      "type": "questions_presuppositions_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "芸術",
+      "target": "美",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "二つの迂回",
+      "target": "文化人類学",
+      "type": "used_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "二つの迂回",
+      "target": "フィールド",
+      "type": "consists_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "二つの迂回",
+      "target": "理論",
+      "type": "consists_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "フィールド",
+      "target": "調査地",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "グローバル化",
+      "target": "均質化",
+      "type": "causes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "グローバル化",
+      "target": "パラドックス",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "均質化",
+      "target": "パラドックス",
+      "type": "part_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "多様性",
+      "target": "パラドックス",
+      "type": "part_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "グローバル化",
+      "target": "文化の多様性",
+      "type": "does_not_eliminate",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化の多様性",
+      "target": "多様性",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "アーパドゥライ",
+      "target": "パラドックス",
+      "type": "discussed",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "traveling cultures",
+      "target": "James Clifford",
+      "type": "created_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "traveling cultures",
+      "target": "旅する文化",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "people",
+      "target": "cultural differences",
+      "type": "generates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "media",
+      "target": "cultural differences",
+      "type": "generates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "technology",
+      "target": "cultural differences",
+      "type": "generates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "capital",
+      "target": "cultural differences",
+      "type": "generates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "ideologies",
+      "target": "cultural differences",
+      "type": "generates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "people",
+      "target": "media",
+      "type": "interacts_with",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "people",
+      "target": "technology",
+      "type": "interacts_with",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "people",
+      "target": "capital",
+      "type": "interacts_with",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "people",
+      "target": "ideologies",
+      "type": "interacts_with",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "cultural differences",
+      "target": "Arjun Appadurai",
+      "type": "theorized_by",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "anthropological thought",
+      "target": "globalization",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "anthropological thought",
+      "target": "scientists",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "anthropological thought",
+      "target": "care workers",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "care workers",
+      "target": "aging society",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "anthropological concepts",
+      "target": "emerging lifestyles",
+      "type": "applied_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "magic",
+      "target": "science",
+      "type": "evolves_into",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "gift economies",
+      "target": "market economies",
+      "type": "evolves_into",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "Evolutionary paradigms",
+      "target": "anthropological concepts",
+      "type": "challenged_by",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "anthropological concepts",
+      "target": "virtual currency trading",
+      "type": "applied_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "anthropological concepts",
+      "target": "Evolutionary paradigms",
+      "type": "dismantles",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "modest tools",
+      "target": "thinking tools",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "modest tools",
+      "target": "here and now",
+      "type": "used_to_reexamine",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "thinking tools",
+      "target": "here and now",
+      "type": "used_to_reexamine",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "cultural anthropology",
+      "target": "closeness",
+      "type": "involves_alternation_between",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "cultural anthropology",
+      "target": "distance",
+      "type": "involves_alternation_between",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "closeness",
+      "target": "distance",
+      "type": "alternates_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "economic anthropology",
+      "target": "religious anthropology",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "fieldwork",
+      "target": "everyday reality",
+      "type": "bridged_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "classical theories",
+      "target": "new theories",
+      "type": "connected_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "anthropology",
+      "target": "academic disciplines",
+      "type": "linked_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "文化人類学者",
+      "target": "フィールドワーク",
+      "type": "conducts",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "第Ⅰ部",
+      "target": "世界のとらえ方",
+      "type": "has_title",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "第Ⅰ部",
+      "target": "文化人類学",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "自然",
+      "target": "文化",
+      "type": "considered_separate_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "科学",
+      "target": "迷信",
+      "type": "considered_separate_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "技術",
+      "target": "人間の身体",
+      "type": "considered_separate_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    },
+    {
+      "source": "第Ⅰ部",
+      "target": "世界",
+      "type": "reveals_ambiguous_boundaries_in_perceiving",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+      },
+      "book_key": "Bunka_Jinruigaku_no_Shikouhou"
+    }
+  ],
+  "metadata": {
+    "num_entities": 145,
+    "num_relationships": 210,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-31T10:32:03.849665",
+    "entity_resolution_applied": true,
+    "book_key": "Bunka_Jinruigaku_no_Shikouhou",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

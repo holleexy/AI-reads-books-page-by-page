@@ -1,0 +1,41 @@
+[
+  {
+    "conflict_id": "salespeople_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "salespeople",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "PERSON"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.81,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

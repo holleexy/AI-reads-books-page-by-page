@@ -1,0 +1,4372 @@
+{
+  "entities": [
+    {
+      "id": "個人スキル",
+      "name": "個人スキル",
+      "text": "個人スキル",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "資料作成",
+      "name": "資料作成",
+      "text": "資料作成",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "データ分析",
+      "name": "データ分析",
+      "text": "データ分析",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "ビジネスマナー",
+      "name": "ビジネスマナー",
+      "text": "ビジネスマナー",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "チーム",
+      "name": "チーム",
+      "text": "チーム",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "ビジネス書",
+      "name": "ビジネス書",
+      "text": "ビジネス書",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "スキル向上",
+      "name": "スキル向上",
+      "text": "スキル向上",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "成果最大化",
+      "name": "成果最大化",
+      "text": "成果最大化",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Excel",
+      "name": "Excel",
+      "text": "Excel",
+      "type": "PRODUCT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "生きた現場",
+      "name": "生きた現場",
+      "text": "生きた現場",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "不条理さ",
+      "name": "不条理さ",
+      "text": "不条理さ",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "アクセンチュア",
+      "name": "アクセンチュア",
+      "text": "アクセンチュア",
+      "type": "ORG",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "生成AI",
+      "name": "生成AI",
+      "text": "生成AI",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "コンサルタント",
+      "name": "コンサルタント",
+      "text": "コンサルタント",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "知的労働",
+      "name": "知的労働",
+      "text": "知的労働",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "生成AI",
+      "name": "生成AI",
+      "text": "生成AI",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "PowerPoint",
+      "name": "PowerPoint",
+      "text": "PowerPoint",
+      "type": "PRODUCT",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "generative AI",
+      "name": "generative AI",
+      "text": "generative AI",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "university students",
+      "name": "university students",
+      "text": "university students",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "young professionals",
+      "name": "young professionals",
+      "text": "young professionals",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "consulting industry",
+      "name": "consulting industry",
+      "text": "consulting industry",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "career changers",
+      "name": "career changers",
+      "text": "career changers",
+      "type": "CONCEPT",
+      "confidence": 0.83,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "consulting",
+      "name": "consulting",
+      "text": "consulting",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "managers",
+      "name": "managers",
+      "text": "managers",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "team productivity",
+      "name": "team productivity",
+      "text": "team productivity",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Management consulting",
+      "name": "Management consulting",
+      "text": "Management consulting",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "competitive strategies",
+      "name": "competitive strategies",
+      "text": "competitive strategies",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "organizational restructuring",
+      "name": "organizational restructuring",
+      "text": "organizational restructuring",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "business reform",
+      "name": "business reform",
+      "text": "business reform",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "methodology for problem-solving as a team",
+      "name": "methodology for problem-solving as a team",
+      "text": "methodology for problem-solving as a team",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "skills to practice",
+      "name": "skills to practice",
+      "text": "skills to practice",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "problem-solving capability",
+      "name": "problem-solving capability",
+      "text": "problem-solving capability",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "explicit knowledge",
+      "name": "explicit knowledge",
+      "text": "explicit knowledge",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "形式知化",
+      "name": "形式知化",
+      "text": "形式知化",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Accenture",
+      "name": "Accenture",
+      "text": "Accenture",
+      "type": "ORG",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Part II",
+      "name": "Part II",
+      "text": "Part II",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Discussion",
+      "name": "Discussion",
+      "text": "Discussion",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Chapter 3",
+      "name": "Chapter 3",
+      "text": "Chapter 3",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Materials/Documents",
+      "name": "Materials/Documents",
+      "text": "Materials/Documents",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Chapter 4",
+      "name": "Chapter 4",
+      "text": "Chapter 4",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "research",
+      "name": "research",
+      "text": "research",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "analysis",
+      "name": "analysis",
+      "text": "analysis",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "discussion",
+      "name": "discussion",
+      "text": "discussion",
+      "type": "CONCEPT",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "議論",
+      "name": "議論",
+      "text": "議論",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "giroron",
+      "name": "giroron",
+      "text": "giroron",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "brainstorming",
+      "name": "brainstorming",
+      "text": "brainstorming",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "debate",
+      "name": "debate",
+      "text": "debate",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "negotiation",
+      "name": "negotiation",
+      "text": "negotiation",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "reporting",
+      "name": "reporting",
+      "text": "reporting",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "dialogue",
+      "name": "dialogue",
+      "text": "dialogue",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "作法",
+      "name": "作法",
+      "text": "作法",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "saho",
+      "name": "saho",
+      "text": "saho",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "team intellectual labor",
+      "name": "team intellectual labor",
+      "text": "team intellectual labor",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "discussion",
+      "name": "discussion",
+      "text": "discussion",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "team-based information processing",
+      "name": "team-based information processing",
+      "text": "team-based information processing",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "経営コンサルティング",
+      "name": "経営コンサルティング",
+      "text": "経営コンサルティング",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "ビジネス",
+      "name": "ビジネス",
+      "text": "ビジネス",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "文献調査",
+      "name": "文献調査",
+      "text": "文献調査",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "定性分析",
+      "name": "定性分析",
+      "text": "定性分析",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "定量分析",
+      "name": "定量分析",
+      "text": "定量分析",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "インタビュー",
+      "name": "インタビュー",
+      "text": "インタビュー",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "生成AI",
+      "name": "生成AI",
+      "text": "生成AI",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "経営コンサルティング",
+      "name": "経営コンサルティング",
+      "text": "経営コンサルティング",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "情報処理",
+      "name": "情報処理",
+      "text": "情報処理",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "サマリ",
+      "name": "サマリ",
+      "text": "サマリ",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "ストーリー",
+      "name": "ストーリー",
+      "text": "ストーリー",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "ワークプラン",
+      "name": "ワークプラン",
+      "text": "ワークプラン",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "サマリ",
+      "name": "サマリ",
+      "text": "サマリ",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "ストーリー",
+      "name": "ストーリー",
+      "text": "ストーリー",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "ワークプラン",
+      "name": "ワークプラン",
+      "text": "ワークプラン",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "仮説検証",
+      "name": "仮説検証",
+      "text": "仮説検証",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "資料作成",
+      "name": "資料作成",
+      "text": "資料作成",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "1週間",
+      "name": "1週間",
+      "text": "1週間",
+      "type": "DATE",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "S→C→Q",
+      "name": "S→C→Q",
+      "text": "S→C→Q",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "A",
+      "name": "A",
+      "text": "A",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "ロジックツリー",
+      "name": "ロジックツリー",
+      "text": "ロジックツリー",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "結論ファースト型",
+      "name": "結論ファースト型",
+      "text": "結論ファースト型",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "積み上げ型",
+      "name": "積み上げ型",
+      "text": "積み上げ型",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "会議参加の基本姿勢",
+      "name": "会議参加の基本姿勢",
+      "text": "会議参加の基本姿勢",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "成長サイクル",
+      "name": "成長サイクル",
+      "text": "成長サイクル",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "資料作成の6ステップ",
+      "name": "資料作成の6ステップ",
+      "text": "資料作成の6ステップ",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "モノノロ",
+      "name": "モノノロ",
+      "text": "モノノロ",
+      "type": "PRODUCT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "定性チャート",
+      "name": "定性チャート",
+      "text": "定性チャート",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "定量チャート",
+      "name": "定量チャート",
+      "text": "定量チャート",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "ハイライト",
+      "name": "ハイライト",
+      "text": "ハイライト",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "類型化",
+      "name": "類型化",
+      "text": "類型化",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "重要度",
+      "name": "重要度",
+      "text": "重要度",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "習熟の順序",
+      "name": "習熟の順序",
+      "text": "習熟の順序",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Column",
+      "name": "Column",
+      "text": "Column",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "スライド作成",
+      "name": "スライド作成",
+      "text": "スライド作成",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "ボディ",
+      "name": "ボディ",
+      "text": "ボディ",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "1枚",
+      "name": "1枚",
+      "text": "1枚",
+      "type": "CONCEPT",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "1セクション",
+      "name": "1セクション",
+      "text": "1セクション",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "1デック",
+      "name": "1デック",
+      "text": "1デック",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "タッチポイント設定",
+      "name": "タッチポイント設定",
+      "text": "タッチポイント設定",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Column",
+      "name": "Column",
+      "text": "Column",
+      "type": "CONCEPT",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "検討の不確実性",
+      "name": "検討の不確実性",
+      "text": "検討の不確実性",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "上位者",
+      "name": "上位者",
+      "text": "上位者",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "時間的制約",
+      "name": "時間的制約",
+      "text": "時間的制約",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "プロジェクト",
+      "name": "プロジェクト",
+      "text": "プロジェクト",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "問題解決",
+      "name": "問題解決",
+      "text": "問題解決",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "問題",
+      "name": "問題",
+      "text": "問題",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "解決",
+      "name": "解決",
+      "text": "解決",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Project Management Institute",
+      "name": "Project Management Institute",
+      "text": "Project Management Institute",
+      "type": "ORG",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "PMI",
+      "name": "PMI",
+      "text": "PMI",
+      "type": "ORG",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "project management",
+      "name": "project management",
+      "text": "project management",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "PMI",
+      "name": "PMI",
+      "text": "PMI",
+      "type": "ORG",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "project",
+      "name": "project",
+      "text": "project",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "management consulting",
+      "name": "management consulting",
+      "text": "management consulting",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Market A",
+      "name": "Market A",
+      "text": "Market A",
+      "type": "GPE",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Business B",
+      "name": "Business B",
+      "text": "Business B",
+      "type": "ORG",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "temporary endeavor",
+      "name": "temporary endeavor",
+      "text": "temporary endeavor",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "Management consulting",
+      "name": "Management consulting",
+      "text": "Management consulting",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "management consulting",
+      "name": "management consulting",
+      "text": "management consulting",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "1 to 3 months",
+      "name": "1 to 3 months",
+      "text": "1 to 3 months",
+      "type": "DATE",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "management consulting",
+      "name": "management consulting",
+      "text": "management consulting",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "project-based nature",
+      "name": "project-based nature",
+      "text": "project-based nature",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "経営コンサルティング",
+      "name": "経営コンサルティング",
+      "text": "経営コンサルティング",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "戦略部門",
+      "name": "戦略部門",
+      "text": "戦略部門",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "コンサルタント",
+      "name": "コンサルタント",
+      "text": "コンサルタント",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "普遍的な方法論",
+      "name": "普遍的な方法論",
+      "text": "普遍的な方法論",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "入社後の数カ月から数年",
+      "name": "入社後の数カ月から数年",
+      "text": "入社後の数カ月から数年",
+      "type": "DATE",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "経営コンサルティング",
+      "name": "経営コンサルティング",
+      "text": "経営コンサルティング",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "PMBOK",
+      "name": "PMBOK",
+      "text": "PMBOK",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "プロジェクトマネジメント協会",
+      "name": "プロジェクトマネジメント協会",
+      "text": "プロジェクトマネジメント協会",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "経営コンサルティング",
+      "name": "経営コンサルティング",
+      "text": "経営コンサルティング",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "プロジェクト",
+      "name": "プロジェクト",
+      "text": "プロジェクト",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "戦略策定",
+      "name": "戦略策定",
+      "text": "戦略策定",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "実行支援",
+      "name": "実行支援",
+      "text": "実行支援",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "コンサルティング",
+      "name": "コンサルティング",
+      "text": "コンサルティング",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "プロジェクトベース",
+      "name": "プロジェクトベース",
+      "text": "プロジェクトベース",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "方法論",
+      "name": "方法論",
+      "text": "方法論",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "形式知化",
+      "name": "形式知化",
+      "text": "形式知化",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "プロジェクト",
+      "name": "プロジェクト",
+      "text": "プロジェクト",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "問題解決",
+      "name": "問題解決",
+      "text": "問題解決",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "問題解決",
+      "name": "問題解決",
+      "text": "問題解決",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "論点設定・仮説構築",
+      "name": "論点設定・仮説構築",
+      "text": "論点設定・仮説構築",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "仮説検証",
+      "name": "仮説検証",
+      "text": "仮説検証",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "問題",
+      "name": "問題",
+      "text": "問題",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "id": "望ましくない事象",
+      "name": "望ましくない事象",
+      "text": "望ましくない事象",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    }
+  ],
+  "relations": [
+    {
+      "source": "資料作成",
+      "target": "個人スキル",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "データ分析",
+      "target": "個人スキル",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ビジネスマナー",
+      "target": "個人スキル",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ビジネス書",
+      "target": "個人スキル",
+      "type": "focuses_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "チーム",
+      "target": "スキル向上",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "チーム",
+      "target": "成果最大化",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "生きた現場",
+      "target": "不条理さ",
+      "type": "requires_facing",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "本書",
+      "target": "アクセンチュア",
+      "type": "systematizes_techniques_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "コンサルタント",
+      "target": "知的労働",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "生成AI",
+      "target": "知的労働",
+      "type": "impacts",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "生成AI",
+      "target": "コンサルタント",
+      "type": "impacts",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "生成AI",
+      "target": "PowerPoint",
+      "type": "generates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "young professionals",
+      "target": "consulting industry",
+      "type": "work_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "career changers",
+      "target": "consulting",
+      "type": "entering",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "managers",
+      "target": "team productivity",
+      "type": "seeking_to_improve",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Management consulting",
+      "target": "competitive strategies",
+      "type": "formulates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Management consulting",
+      "target": "organizational restructuring",
+      "type": "executes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Management consulting",
+      "target": "business reform",
+      "type": "executes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "skills to practice",
+      "target": "methodology for problem-solving as a team",
+      "type": "used_to_practice",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "problem-solving capability",
+      "target": "explicit knowledge",
+      "type": "improved_through",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "explicit knowledge",
+      "target": "形式知化",
+      "type": "equivalent_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "problem-solving capability",
+      "target": "形式知化",
+      "type": "improved_through",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "strategy division",
+      "target": "Accenture",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "book",
+      "target": "Accenture",
+      "type": "represents_operations_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "book content",
+      "target": "Accenture",
+      "type": "taught_upon_joining",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Part II",
+      "target": "Discussion",
+      "type": "covers",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Part II",
+      "target": "Materials/Documents",
+      "type": "covers",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Chapter 3",
+      "target": "Discussion",
+      "type": "titled",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Chapter 4",
+      "target": "Materials/Documents",
+      "type": "titled",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Chapter 3",
+      "target": "Part II",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Chapter 4",
+      "target": "Part II",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "research",
+      "target": "Discussion",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "analysis",
+      "target": "Discussion",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "discussion",
+      "target": "議論",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "議論",
+      "target": "giroron",
+      "type": "romanized_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "discussion",
+      "target": "giroron",
+      "type": "equivalent_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "discussion",
+      "target": "brainstorming",
+      "type": "encompasses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "discussion",
+      "target": "debate",
+      "type": "encompasses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "discussion",
+      "target": "negotiation",
+      "type": "encompasses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "discussion",
+      "target": "reporting",
+      "type": "encompasses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "discussion",
+      "target": "dialogue",
+      "type": "encompasses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "作法",
+      "target": "saho",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "discussion",
+      "target": "team-based information processing",
+      "type": "defined_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "discussion",
+      "target": "team intellectual labor",
+      "type": "required_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "team-based information processing",
+      "target": "team intellectual labor",
+      "type": "part_of",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "経営コンサルティング",
+      "target": "ビジネス",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "経営コンサルティング",
+      "target": "文献調査",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "経営コンサルティング",
+      "target": "定性分析",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "経営コンサルティング",
+      "target": "定量分析",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "経営コンサルティング",
+      "target": "インタビュー",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ビジネス",
+      "target": "文献調査",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ビジネス",
+      "target": "定性分析",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ビジネス",
+      "target": "定量分析",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ビジネス",
+      "target": "インタビュー",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "生成AI",
+      "target": "経営コンサルティング",
+      "type": "causes_change_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "生成AI",
+      "target": "情報処理",
+      "type": "does_not_completely_replace",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "サマリ",
+      "target": "ストーリー",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "サマリ",
+      "target": "ワークプラン",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ストーリー",
+      "target": "ワークプラン",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "サマリ",
+      "target": "仮説検証",
+      "type": "used_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ストーリー",
+      "target": "仮説検証",
+      "type": "used_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ワークプラン",
+      "target": "仮説検証",
+      "type": "used_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "サマリ",
+      "target": "資料作成",
+      "type": "used_for",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ストーリー",
+      "target": "資料作成",
+      "type": "used_for",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ワークプラン",
+      "target": "資料作成",
+      "type": "used_for",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ワークプラン",
+      "target": "1週間",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ロジックツリー",
+      "target": "A",
+      "type": "supports",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "S→C→Q",
+      "target": "A",
+      "type": "leads_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "結論ファースト型",
+      "target": "積み上げ型",
+      "type": "contrasted_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "会議参加の基本姿勢",
+      "target": "成長サイクル",
+      "type": "accelerates",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "資料作成の6ステップ",
+      "target": "モノノロ",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "定性チャート",
+      "target": "定量チャート",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ハイライト",
+      "target": "類型化",
+      "type": "has_purpose",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ハイライト",
+      "target": "重要度",
+      "type": "has_purpose",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "習熟の順序",
+      "target": "Column",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "習熟の順序",
+      "target": "スライド作成",
+      "type": "describes_mastery_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ボディ",
+      "target": "習熟の順序",
+      "type": "part_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "1枚",
+      "target": "習熟の順序",
+      "type": "part_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "1セクション",
+      "target": "習熟の順序",
+      "type": "part_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "1デック",
+      "target": "習熟の順序",
+      "type": "part_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "ボディ",
+      "target": "1枚",
+      "type": "precedes",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "1枚",
+      "target": "1セクション",
+      "type": "precedes",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "1セクション",
+      "target": "1デック",
+      "type": "precedes",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "スライド作成",
+      "target": "習熟の順序",
+      "type": "has_learning_stages",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "タッチポイント設定",
+      "target": "Column",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "タッチポイント設定",
+      "target": "検討の不確実性",
+      "type": "considers_balance_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "タッチポイント設定",
+      "target": "時間的制約",
+      "type": "considers_balance_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "上位者",
+      "target": "時間的制約",
+      "type": "has",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "検討の不確実性",
+      "target": "時間的制約",
+      "type": "balanced_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "プロジェクト",
+      "target": "問題解決",
+      "type": "本質的な意味は",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "問題解決",
+      "target": "問題",
+      "type": "depends_on_definition_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "問題解決",
+      "target": "解決",
+      "type": "depends_on_definition_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "問題",
+      "target": "解決",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Project Management Institute",
+      "target": "PMI",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Project Management Institute",
+      "target": "project management",
+      "type": "establishes_standards_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Project Management Institute",
+      "target": "project management",
+      "type": "provides_certifications_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "PMI",
+      "target": "project management",
+      "type": "establishes_standards_for",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "PMI",
+      "target": "project",
+      "type": "defines",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "management consulting",
+      "target": "Market A",
+      "type": "involves_decisions_about",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "management consulting",
+      "target": "Business B",
+      "type": "involves_decisions_about",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "Management consulting",
+      "target": "temporary endeavor",
+      "type": "characterized_by",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "management consulting",
+      "target": "1 to 3 months",
+      "type": "typically_lasts",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "management consulting",
+      "target": "project-based nature",
+      "type": "characterized_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "戦略部門",
+      "target": "経営コンサルティング",
+      "type": "part_of",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "戦略部門",
+      "target": "普遍的な方法論",
+      "type": "refines",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "コンサルタント",
+      "target": "普遍的な方法論",
+      "type": "must_master",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "コンサルタント",
+      "target": "入社後の数カ月から数年",
+      "type": "acquires_skills_during",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "PMBOK",
+      "target": "プロジェクトマネジメント協会",
+      "type": "compiled_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "PMBOK",
+      "target": "プロジェクトマネジメント協会",
+      "type": "provided_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "経営コンサルティング",
+      "target": "PMBOK",
+      "type": "differs_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "プロジェクト",
+      "target": "経営コンサルティング",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "プロジェクト",
+      "target": "戦略策定",
+      "type": "characterized_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "プロジェクト",
+      "target": "実行支援",
+      "type": "characterized_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "コンサルティング",
+      "target": "プロジェクトベース",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "プロジェクトベース",
+      "target": "方法論",
+      "type": "is_a",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "方法論",
+      "target": "形式知化",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "プロジェクト",
+      "target": "問題解決",
+      "type": "is",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "問題解決",
+      "target": "論点設定・仮説構築",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "問題解決",
+      "target": "仮説検証",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "論点設定・仮説構築",
+      "target": "仮説検証",
+      "type": "interacts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    },
+    {
+      "source": "問題",
+      "target": "望ましくない事象",
+      "type": "refers_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+      },
+      "book_key": "Gaishikei_Consul_Shigoto_no_Susumekata"
+    }
+  ],
+  "ontology": {
+    "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/",
+    "name": "Gaishikei_Consul_Shigoto_no_SusumekataOntology",
+    "version": "1.0",
+    "classes": [
+      {
+        "name": "IntellectualLabor",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntellectualLabor",
+        "label": "知的労働",
+        "comment": "タスクの本質を理解し、人と生成AIを含むチーム全体で成果を最大化する労働形態。",
+        "parent": null
+      },
+      {
+        "name": "Team",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Team",
+        "label": "チーム",
+        "comment": "個人スキルではなく協働の情報処理プロセスにより成果を最大化する単位。",
+        "parent": null
+      },
+      {
+        "name": "Person",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Person",
+        "label": "人",
+        "comment": "プロジェクトや議論、調査に関与する個人。",
+        "parent": null
+      },
+      {
+        "name": "Consultant",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Consultant",
+        "label": "コンサルタント",
+        "comment": "仮説検証と中間成果物を通じて問題解決を進める実務者。",
+        "parent": "Person"
+      },
+      {
+        "name": "Manager",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Manager",
+        "label": "マネージャー",
+        "comment": "トップダウンでリスクを洗い出し、タッチポイントと合意形成を設計する上位者。",
+        "parent": "Person"
+      },
+      {
+        "name": "Client",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Client",
+        "label": "クライアント",
+        "comment": "意思決定の完了基準を持ち、論理的なツッコミに耐えうる説明を求める相手。",
+        "parent": "Person"
+      },
+      {
+        "name": "Project",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Project",
+        "label": "プロジェクト",
+        "comment": "独自のプロダクトや所産を創造する有期的業務。コンサルティングでは完了基準が意思決定で期限は1〜3ヶ月と厳格。",
+        "parent": null
+      },
+      {
+        "name": "ProjectPhase",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProjectPhase",
+        "label": "プロジェクトフェーズ",
+        "comment": "初期流動と平常運転など、進め方の段階。",
+        "parent": null
+      },
+      {
+        "name": "InitialFluidPhase",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/InitialFluidPhase",
+        "label": "初期流動",
+        "comment": "期間の前半3分の1程度でスピード重視により全体像の解像度を上げる段階。",
+        "parent": "ProjectPhase"
+      },
+      {
+        "name": "SteadyOperationPhase",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/SteadyOperationPhase",
+        "label": "平常運転",
+        "comment": "詳細詰めと合意形成を進める段階。",
+        "parent": "ProjectPhase"
+      },
+      {
+        "name": "ProblemSolvingProcess",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ProblemSolvingProcess",
+        "label": "問題解決プロセス",
+        "comment": "問題の定義、メカニズム解明、課題特定、打ち手策定からなる基本プロセス。",
+        "parent": null
+      },
+      {
+        "name": "Problem",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Problem",
+        "label": "問題",
+        "comment": "価値基準と現状・予測のギャップとして定義される望ましくない事象。",
+        "parent": null
+      },
+      {
+        "name": "Mechanism",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Mechanism",
+        "label": "メカニズム",
+        "comment": "単一・複合・循環など、問題の発生原因の整理。",
+        "parent": null
+      },
+      {
+        "name": "Issue",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Issue",
+        "label": "課題",
+        "comment": "最も投資対効果の高い介入ポイント。ボウリングのセンターピンに例えられる。",
+        "parent": null
+      },
+      {
+        "name": "Solution",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Solution",
+        "label": "打ち手",
+        "comment": "コスト・即効性・効果のトレードオフを考慮して選ぶ具体的解決策。",
+        "parent": null
+      },
+      {
+        "name": "BadSolutionPattern",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/BadSolutionPattern",
+        "label": "ダメな打ち手の典型",
+        "comment": "問題の言い換え、表面的対処、副作用を生む対処など、避けるべき打ち手の型。",
+        "parent": null
+      },
+      {
+        "name": "Hypothesis",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Hypothesis",
+        "label": "仮説",
+        "comment": "問題・課題・打ち手を早期に構築し、検証と更新を繰り返す暫定的な見解。",
+        "parent": null
+      },
+      {
+        "name": "HypothesisVerificationCycle",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/HypothesisVerificationCycle",
+        "label": "仮説検証サイクル",
+        "comment": "仮説をプロジェクト期間を通じて検証し更新する反復的なサイクル。",
+        "parent": null
+      },
+      {
+        "name": "ArgumentPoint",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/ArgumentPoint",
+        "label": "論点",
+        "comment": "見解の統一されていない点（疑問）を単純化した意思疎通の単位。",
+        "parent": null
+      },
+      {
+        "name": "WorkModule",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/WorkModule",
+        "label": "作業モジュール",
+        "comment": "作業種類ではなく意味の塊で分担し、サイロ化を防ぎ主体的問題解決を促す単位。",
+        "parent": null
+      },
+      {
+        "name": "IntermediateDeliverable",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntermediateDeliverable",
+        "label": "中間成果物",
+        "comment": "チームの情報処理を効率化するサマリ・ストーリー・ワークプラン。",
+        "parent": null
+      },
+      {
+        "name": "Summary",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Summary",
+        "label": "サマリ",
+        "comment": "問い、答え（主張）、論理展開を要約した中間成果物。結論ファーストで書く。",
+        "parent": "IntermediateDeliverable"
+      },
+      {
+        "name": "Story",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Story",
+        "label": "ストーリー",
+        "comment": "サマリに論拠と根拠を肉づけし、検証が必要な命題を特定する中間成果物。",
+        "parent": "IntermediateDeliverable"
+      },
+      {
+        "name": "WorkPlan",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/WorkPlan",
+        "label": "ワークプラン",
+        "comment": "ストーリーの検証作業計画。所要時間、担当、情報源、リスクを含む。",
+        "parent": "IntermediateDeliverable"
+      },
+      {
+        "name": "LogicalFramework",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/LogicalFramework",
+        "label": "論理フレームワーク",
+        "comment": "問い設定と論理確認のための型。",
+        "parent": null
+      },
+      {
+        "name": "SCQAFramework",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/SCQAFramework",
+        "label": "SCQAフレームワーク",
+        "comment": "Situation、Complication、Question、Answerの順で問いを設定する枠組み。",
+        "parent": "LogicalFramework"
+      },
+      {
+        "name": "PyramidStructure",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/PyramidStructure",
+        "label": "ピラミッドストラクチャー",
+        "comment": "Why So? と So What? の双方向から論理を確認する構造。",
+        "parent": "LogicalFramework"
+      },
+      {
+        "name": "Discussion",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Discussion",
+        "label": "議論",
+        "comment": "伝える、見解を昇華させる、次の論点とアクションを明確にする情報処理により良い意思決定を行うこと。",
+        "parent": null
+      },
+      {
+        "name": "Slide",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Slide",
+        "label": "スライド",
+        "comment": "1スライド1メッセージを原則とし、ナビゲーター・タイトル・メッセージ・ボディ・フットノートで構成する資料。",
+        "parent": null
+      },
+      {
+        "name": "Chart",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Chart",
+        "label": "チャート",
+        "comment": "定性11種・定量9種から選ぶ図示。合成やスケール操作による印象操作は禁じる。",
+        "parent": null
+      },
+      {
+        "name": "LiteratureResearch",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/LiteratureResearch",
+        "label": "文献調査",
+        "comment": "全体像設計から検証事項抽出、成果物逆算、実行分析、仮説進化までの定性調査。",
+        "parent": null
+      },
+      {
+        "name": "QuantitativeAnalysis",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/QuantitativeAnalysis",
+        "label": "定量分析",
+        "comment": "アウトプットから逆算し、仮説具体化・チャート設計・手順設計・実行・仮説進化を反復する分析。",
+        "parent": null
+      },
+      {
+        "name": "Interview",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Interview",
+        "label": "インタビュー",
+        "comment": "表層に出ない知に触れ、真因や意図を引き出すための6ステップの対話調査。",
+        "parent": null
+      },
+      {
+        "name": "IntervieweePortfolio",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/IntervieweePortfolio",
+        "label": "インタビュイーポートフォリオ",
+        "comment": "多様な立場や成功・失敗経験を持つ対象者の構成。",
+        "parent": null
+      },
+      {
+        "name": "TouchPoint",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/TouchPoint",
+        "label": "タッチポイント",
+        "comment": "不確実性とリスクに応じて上位者への報告・相談を前倒しで設定する機会。",
+        "parent": null
+      },
+      {
+        "name": "Feedback",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/Feedback",
+        "label": "フィードバック",
+        "comment": "頭で受け止め心までは落とさず、感情ではなく論理的にアクションへ反映する指摘。",
+        "parent": null
+      },
+      {
+        "name": "GenerativeAI",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/GenerativeAI",
+        "label": "生成AI",
+        "comment": "リサーチの壁打ち相手として使うが、真贋判定と文脈解釈は人間が担う支援技術。",
+        "parent": null
+      }
+    ],
+    "properties": [
+      {
+        "name": "hasMember",
+        "type": "object",
+        "domain": [
+          "Team"
+        ],
+        "range": [
+          "Person"
+        ],
+        "label": "メンバーを持つ",
+        "comment": "チームが構成員を持つ関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasMember"
+      },
+      {
+        "name": "worksOn",
+        "type": "object",
+        "domain": [
+          "Person",
+          "Team"
+        ],
+        "range": [
+          "Project"
+        ],
+        "label": "従事する",
+        "comment": "人またはチームがプロジェクトに従事する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/worksOn"
+      },
+      {
+        "name": "serves",
+        "type": "object",
+        "domain": [
+          "Team",
+          "Project"
+        ],
+        "range": [
+          "Client"
+        ],
+        "label": "支援する",
+        "comment": "チームやプロジェクトがクライアントの意思決定を支援する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/serves"
+      },
+      {
+        "name": "reportsTo",
+        "type": "object",
+        "domain": [
+          "Consultant"
+        ],
+        "range": [
+          "Manager"
+        ],
+        "label": "報告する",
+        "comment": "コンサルタントがマネージャーへ報告・相談する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/reportsTo"
+      },
+      {
+        "name": "hasPhase",
+        "type": "object",
+        "domain": [
+          "Project"
+        ],
+        "range": [
+          "ProjectPhase"
+        ],
+        "label": "フェーズを持つ",
+        "comment": "プロジェクトが初期流動や平常運転などの段階を持つ関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasPhase"
+      },
+      {
+        "name": "usesProcess",
+        "type": "object",
+        "domain": [
+          "Project"
+        ],
+        "range": [
+          "ProblemSolvingProcess"
+        ],
+        "label": "プロセスを用いる",
+        "comment": "プロジェクトが問題解決の基本プロセスに従う関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/usesProcess"
+      },
+      {
+        "name": "definesProblem",
+        "type": "object",
+        "domain": [
+          "ProblemSolvingProcess"
+        ],
+        "range": [
+          "Problem"
+        ],
+        "label": "問題を定義する",
+        "comment": "プロセスが望ましくない事象としての問題を定義する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/definesProblem"
+      },
+      {
+        "name": "hasMechanism",
+        "type": "object",
+        "domain": [
+          "Problem"
+        ],
+        "range": [
+          "Mechanism"
+        ],
+        "label": "メカニズムを持つ",
+        "comment": "問題がその発生原因メカニズムを持つ関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasMechanism"
+      },
+      {
+        "name": "identifiesIssue",
+        "type": "object",
+        "domain": [
+          "ProblemSolvingProcess"
+        ],
+        "range": [
+          "Issue"
+        ],
+        "label": "課題を特定する",
+        "comment": "投資対効果の高い介入ポイントを課題として特定する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/identifiesIssue"
+      },
+      {
+        "name": "proposesSolution",
+        "type": "object",
+        "domain": [
+          "ProblemSolvingProcess"
+        ],
+        "range": [
+          "Solution"
+        ],
+        "label": "打ち手を策定する",
+        "comment": "トレードオフを考慮して解決策を選ぶ関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/proposesSolution"
+      },
+      {
+        "name": "exhibitsPattern",
+        "type": "object",
+        "domain": [
+          "Solution"
+        ],
+        "range": [
+          "BadSolutionPattern"
+        ],
+        "label": "悪い型を示す",
+        "comment": "打ち手が避けるべき典型パターンに該当する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/exhibitsPattern"
+      },
+      {
+        "name": "hasHypothesis",
+        "type": "object",
+        "domain": [
+          "Project",
+          "ProblemSolvingProcess",
+          "Discussion"
+        ],
+        "range": [
+          "Hypothesis"
+        ],
+        "label": "仮説を持つ",
+        "comment": "プロジェクトや議論が検証対象の仮説を持つ関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasHypothesis"
+      },
+      {
+        "name": "verifiedBy",
+        "type": "object",
+        "domain": [
+          "Hypothesis"
+        ],
+        "range": [
+          "HypothesisVerificationCycle"
+        ],
+        "label": "検証される",
+        "comment": "仮説がサイクルを通じて検証・更新される関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/verifiedBy"
+      },
+      {
+        "name": "evolvesInto",
+        "type": "object",
+        "domain": [
+          "Hypothesis"
+        ],
+        "range": [
+          "Hypothesis"
+        ],
+        "label": "進化する",
+        "comment": "前提の切り口変更、より適切なオプション発見、具体化により仮説が進化する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/evolvesInto"
+      },
+      {
+        "name": "hasArgumentPoint",
+        "type": "object",
+        "domain": [
+          "Project",
+          "Discussion"
+        ],
+        "range": [
+          "ArgumentPoint"
+        ],
+        "label": "論点を持つ",
+        "comment": "見解が揃っていない疑問点を論点として持つ関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasArgumentPoint"
+      },
+      {
+        "name": "dividedInto",
+        "type": "object",
+        "domain": [
+          "Project",
+          "Team"
+        ],
+        "range": [
+          "WorkModule"
+        ],
+        "label": "モジュール化する",
+        "comment": "意味の塊を単位として作業を分担する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/dividedInto"
+      },
+      {
+        "name": "assignedTo",
+        "type": "object",
+        "domain": [
+          "WorkModule"
+        ],
+        "range": [
+          "Person"
+        ],
+        "label": "担当する",
+        "comment": "得意なことを担当しつつ余力で苦手にも挑戦する分担関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/assignedTo"
+      },
+      {
+        "name": "produces",
+        "type": "object",
+        "domain": [
+          "Team",
+          "Person"
+        ],
+        "range": [
+          "IntermediateDeliverable"
+        ],
+        "label": "成果物を作る",
+        "comment": "チームが中間成果物を作成する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/produces"
+      },
+      {
+        "name": "usesFramework",
+        "type": "object",
+        "domain": [
+          "Summary",
+          "Discussion"
+        ],
+        "range": [
+          "LogicalFramework"
+        ],
+        "label": "フレームワークを使う",
+        "comment": "サマリや議論がSCQAやピラミッドストラクチャーを用いる関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/usesFramework"
+      },
+      {
+        "name": "fleshedOutAs",
+        "type": "object",
+        "domain": [
+          "Summary"
+        ],
+        "range": [
+          "Story"
+        ],
+        "label": "ストーリー化する",
+        "comment": "サマリに論拠と根拠を肉づけしてストーリーにする関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/fleshedOutAs"
+      },
+      {
+        "name": "plannedAs",
+        "type": "object",
+        "domain": [
+          "Story"
+        ],
+        "range": [
+          "WorkPlan"
+        ],
+        "label": "計画化する",
+        "comment": "ストーリーの検証作業をワークプランとして計画する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/plannedAs"
+      },
+      {
+        "name": "hasTouchPoint",
+        "type": "object",
+        "domain": [
+          "WorkPlan",
+          "Project"
+        ],
+        "range": [
+          "TouchPoint"
+        ],
+        "label": "タッチポイントを持つ",
+        "comment": "リスクに応じて報告・相談機会を前倒し設定する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasTouchPoint"
+      },
+      {
+        "name": "holdsDiscussion",
+        "type": "object",
+        "domain": [
+          "Team"
+        ],
+        "range": [
+          "Discussion"
+        ],
+        "label": "議論を行う",
+        "comment": "チームが意思決定のための議論を行う関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/holdsDiscussion"
+      },
+      {
+        "name": "createsSlide",
+        "type": "object",
+        "domain": [
+          "Person"
+        ],
+        "range": [
+          "Slide"
+        ],
+        "label": "資料を作成する",
+        "comment": "意思決定に必要十分な情報と明瞭な主張を持つスライドを作る関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/createsSlide"
+      },
+      {
+        "name": "derivedFromStory",
+        "type": "object",
+        "domain": [
+          "Slide"
+        ],
+        "range": [
+          "Story"
+        ],
+        "label": "ストーリーに基づく",
+        "comment": "スライドのメッセージをストーリーから持ってくる関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/derivedFromStory"
+      },
+      {
+        "name": "hasChart",
+        "type": "object",
+        "domain": [
+          "Slide"
+        ],
+        "range": [
+          "Chart"
+        ],
+        "label": "チャートを持つ",
+        "comment": "スライドのボディが適切な定性・定量チャートを持つ関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasChart"
+      },
+      {
+        "name": "performsResearch",
+        "type": "object",
+        "domain": [
+          "Consultant"
+        ],
+        "range": [
+          "LiteratureResearch"
+        ],
+        "label": "文献調査を行う",
+        "comment": "コンサルタントが文脈解釈と真贋判定を伴う調査を行う関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/performsResearch"
+      },
+      {
+        "name": "performsAnalysis",
+        "type": "object",
+        "domain": [
+          "Consultant"
+        ],
+        "range": [
+          "QuantitativeAnalysis"
+        ],
+        "label": "定量分析を行う",
+        "comment": "列単位の均一処理とクロスチェックを徹底して分析する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/performsAnalysis"
+      },
+      {
+        "name": "conductsInterview",
+        "type": "object",
+        "domain": [
+          "Consultant"
+        ],
+        "range": [
+          "Interview"
+        ],
+        "label": "インタビューを行う",
+        "comment": "オープンからクローズドへ深掘りし言質を取る関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/conductsInterview"
+      },
+      {
+        "name": "hasIntervieweePortfolio",
+        "type": "object",
+        "domain": [
+          "Interview"
+        ],
+        "range": [
+          "IntervieweePortfolio"
+        ],
+        "label": "対象者構成を持つ",
+        "comment": "インタビューが多様な対象者ポートフォリオを持つ関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/hasIntervieweePortfolio"
+      },
+      {
+        "name": "givesFeedback",
+        "type": "object",
+        "domain": [
+          "Manager",
+          "Client"
+        ],
+        "range": [
+          "Feedback"
+        ],
+        "label": "フィードバックを与える",
+        "comment": "上位者やクライアントが論理的な指摘を与える関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/givesFeedback"
+      },
+      {
+        "name": "receivesFeedback",
+        "type": "object",
+        "domain": [
+          "Consultant"
+        ],
+        "range": [
+          "Feedback"
+        ],
+        "label": "フィードバックを受ける",
+        "comment": "コンサルタントが厳しい指摘を論理的アクションへ反映する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/receivesFeedback"
+      },
+      {
+        "name": "usesAI",
+        "type": "object",
+        "domain": [
+          "IntellectualLabor",
+          "LiteratureResearch"
+        ],
+        "range": [
+          "GenerativeAI"
+        ],
+        "label": "生成AIを使う",
+        "comment": "知的労働や調査のスタート地点として生成AIを壁打ちに使う関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/usesAI"
+      },
+      {
+        "name": "maximizesPerformanceOf",
+        "type": "object",
+        "domain": [
+          "IntellectualLabor"
+        ],
+        "range": [
+          "Team"
+        ],
+        "label": "成果を最大化する",
+        "comment": "形式知化した情報処理プロセスによりチーム成果を最大化する関係。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/maximizesPerformanceOf"
+      },
+      {
+        "name": "definition",
+        "type": "data",
+        "domain": [
+          "Problem",
+          "Project",
+          "Discussion",
+          "ArgumentPoint"
+        ],
+        "range": [
+          "xsd:string"
+        ],
+        "label": "定義",
+        "comment": "概念の定義を表す文字列。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/definition"
+      },
+      {
+        "name": "duration",
+        "type": "data",
+        "domain": [
+          "Project",
+          "ProjectPhase"
+        ],
+        "range": [
+          "xsd:string"
+        ],
+        "label": "期間",
+        "comment": "プロジェクトやフェーズの期限・期間を表す文字列。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/duration"
+      },
+      {
+        "name": "completionCriterion",
+        "type": "data",
+        "domain": [
+          "Project"
+        ],
+        "range": [
+          "xsd:string"
+        ],
+        "label": "完了基準",
+        "comment": "意思決定など、プロジェクト完了の判定基準。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/completionCriterion"
+      },
+      {
+        "name": "principle",
+        "type": "data",
+        "domain": [
+          "Team",
+          "WorkModule",
+          "Slide",
+          "IntellectualLabor"
+        ],
+        "range": [
+          "xsd:string"
+        ],
+        "label": "原則",
+        "comment": "モジュール化や1スライド1メッセージなど、進め方の基本原則。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/principle"
+      },
+      {
+        "name": "message",
+        "type": "data",
+        "domain": [
+          "Summary",
+          "Slide",
+          "Discussion"
+        ],
+        "range": [
+          "xsd:string"
+        ],
+        "label": "メッセージ",
+        "comment": "結論ファーストで示す主張の文字列。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/message"
+      },
+      {
+        "name": "purpose",
+        "type": "data",
+        "domain": [
+          "Interview",
+          "TouchPoint",
+          "LiteratureResearch",
+          "QuantitativeAnalysis"
+        ],
+        "range": [
+          "xsd:string"
+        ],
+        "label": "目的",
+        "comment": "調査・分析・相談機会の目的を表す文字列。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/purpose"
+      },
+      {
+        "name": "valueCriterion",
+        "type": "data",
+        "domain": [
+          "Problem"
+        ],
+        "range": [
+          "xsd:string"
+        ],
+        "label": "価値基準",
+        "comment": "何を良しとするかという問題定義の価値基準。",
+        "uri": "https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/valueCriterion"
+      }
+    ],
+    "metadata": {
+      "source": "llm",
+      "provider": "xai"
+    }
+  },
+  "covered_end": 80,
+  "used_methods": {
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/SHIFT_Kaibou/">
+    <rdfs:label>SHIFT_KaibouOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/Company">
+    <rdfs:label xml:lang="ja">会社</rdfs:label>
+    <rdfs:comment xml:lang="ja">ソフトウェアのテスト・品質保証などを行う企業組織</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/Person">
+    <rdfs:label xml:lang="ja">人物</rdfs:label>
+    <rdfs:comment xml:lang="ja">経営者・社員など組織に関わる個人</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/Executive">
+    <rdfs:label xml:lang="ja">経営陣</rdfs:label>
+    <rdfs:comment xml:lang="ja">創業者社長・CHRO・会長など経営を担う人物</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/SHIFT_Kaibou/Person"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/Employee">
+    <rdfs:label xml:lang="ja">社員</rdfs:label>
+    <rdfs:comment xml:lang="ja">多様なバックグラウンドを持つ従業員。IT未経験者も含む</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/SHIFT_Kaibou/Person"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/Location">
+    <rdfs:label xml:lang="ja">所在地</rdfs:label>
+    <rdfs:comment xml:lang="ja">本社オフィスなどの地理的拠点</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/Business">
+    <rdfs:label xml:lang="ja">事業</rdfs:label>
+    <rdfs:comment xml:lang="ja">ソフトウェアテスト、コンサルティング、システム開発などの事業領域</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/ManagementPhilosophy">
+    <rdfs:label xml:lang="ja">経営理念</rdfs:label>
+    <rdfs:comment xml:lang="ja">コアな価値の探求、エリート主義の否定、99パーセントの底上げなどの思想</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/HumanCapitalManagement">
+    <rdfs:label xml:lang="ja">人的資本経営</rdfs:label>
+    <rdfs:comment xml:lang="ja">学歴・職歴・年齢を問わず多様な人材の能力を極限まで引き出す経営</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/ProcessTechnology">
+    <rdfs:label xml:lang="ja">プロセス・テクノロジー</rdfs:label>
+    <rdfs:comment xml:lang="ja">暗黙知や非効率な業務を分解・可視化・標準化する手法</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/Aptitude">
+    <rdfs:label xml:lang="ja">素養</rdfs:label>
+    <rdfs:comment xml:lang="ja">属性ではなくパターン認識などテスト業務に必要な基礎的能力</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/RecruitmentStrategy">
+    <rdfs:label xml:lang="ja">採用戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">属性を排除し素養を見抜く桜木花道型の採用アプローチ</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/CATTest">
+    <rdfs:label xml:lang="ja">CAT検定</rdfs:label>
+    <rdfs:comment xml:lang="ja">専門知識を問わず素養を判定するオンライン適性テスト</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/AISystem">
+    <rdfs:label xml:lang="ja">AIシステム</rdfs:label>
+    <rdfs:comment xml:lang="ja">レジュミル、AI面接官、めん太など人事・採用に用いる人工知能</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/EvaluationMeeting">
+    <rdfs:label xml:lang="ja">評価会議</rdfs:label>
+    <rdfs:comment xml:lang="ja">役員が全社員の年収を一人ずつ実額で決める会議</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/CompensationSystem">
+    <rdfs:label xml:lang="ja">報酬制度</rdfs:label>
+    <rdfs:comment xml:lang="ja">市場価値絶対主義と先行投資としての給与に基づく実力主義報酬</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/TopGunSystem">
+    <rdfs:label xml:lang="ja">TopGun制度</rdfs:label>
+    <rdfs:comment xml:lang="ja">スキル分解と検定合格を年収に直結させる任意の能力開発制度</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/HitoLog">
+    <rdfs:label xml:lang="ja">ヒトログ</rdfs:label>
+    <rdfs:comment xml:lang="ja">450項目超の社員データを管理し退職リスクを予測する人材システム</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/LifetimeValue">
+    <rdfs:label xml:lang="ja">生涯価値</rdfs:label>
+    <rdfs:comment xml:lang="ja">人数・在籍期間・価値総出力で人事施策効果を定量化する指標</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/OrganizationalCulture">
+    <rdfs:label xml:lang="ja">組織文化</rdfs:label>
+    <rdfs:comment xml:lang="ja">イベント・部活・オフィスを教会と捉えるウェットな関係性</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/InternalEvent">
+    <rdfs:label xml:lang="ja">社内イベント</rdfs:label>
+    <rdfs:comment xml:lang="ja">エンゲージメント向上のための行事・部活動・社内ラジオ・表彰</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/Office">
+    <rdfs:label xml:lang="ja">オフィス</rdfs:label>
+    <rdfs:comment xml:lang="ja">アイデンティティ確認の場として定義される職場空間</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/SalesStrategy">
+    <rdfs:label xml:lang="ja">営業戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織的営業と多重下請け構造打破を目指す営業改革</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/HRBusinessPartner">
+    <rdfs:label xml:lang="ja">人事ビジネスパートナー</rdfs:label>
+    <rdfs:comment xml:lang="ja">事業目標から採用ペルソナを逆算し事業と人事を同期させる役割</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/SHIFT_Kaibou/LastMileRole">
+    <rdfs:label xml:lang="ja">ラストワンマイル</rdfs:label>
+    <rdfs:comment xml:lang="ja">自動化後に人間が担う繊細な仕上げやAI統括の役割</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/hasLocation">
+    <rdfs:label xml:lang="ja">所在地を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">会社が拠点を持つ関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/Location"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/hasExecutive">
+    <rdfs:label xml:lang="ja">経営陣を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">会社と経営者の所属関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/Executive"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/employs">
+    <rdfs:label xml:lang="ja">雇用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">会社が社員を雇用する関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/Employee"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/hasBusiness">
+    <rdfs:label xml:lang="ja">事業を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">会社が展開する事業領域</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/Business"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/hasPhilosophy">
+    <rdfs:label xml:lang="ja">理念を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">会社または経営者が掲げる思想</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Executive"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/ManagementPhilosophy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/practices">
+    <rdfs:label xml:lang="ja">実践する</rdfs:label>
+    <rdfs:comment xml:lang="ja">人的資本経営を実践する関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/HumanCapitalManagement"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/appliesProcessTechnology">
+    <rdfs:label xml:lang="ja">プロセス・テクノロジーを適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">分解・可視化・標準化の手法を業務へ適用する</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/HumanCapitalManagement"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/ProcessTechnology"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/seeksAptitude">
+    <rdfs:label xml:lang="ja">素養を見抜く</rdfs:label>
+    <rdfs:comment xml:lang="ja">属性ではなく基礎的能力を評価する</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/RecruitmentStrategy"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/CATTest"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/Aptitude"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/hasRecruitmentStrategy">
+    <rdfs:label xml:lang="ja">採用戦略を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">会社独自の採用方針</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/RecruitmentStrategy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/usesCATTest">
+    <rdfs:label xml:lang="ja">CAT検定を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">採用で素養判定テストを使う</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/RecruitmentStrategy"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/CATTest"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/usesAISystem">
+    <rdfs:label xml:lang="ja">AIシステムを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">採用解析・面接・退職予測などにAIを使う</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/RecruitmentStrategy"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/HitoLog"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/AISystem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/holdsEvaluationMeeting">
+    <rdfs:label xml:lang="ja">評価会議を開催する</rdfs:label>
+    <rdfs:comment xml:lang="ja">年収決定のための役員会議を行う</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/EvaluationMeeting"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/evaluates">
+    <rdfs:label xml:lang="ja">評価する</rdfs:label>
+    <rdfs:comment xml:lang="ja">社員の市場価値・KPI・プロセスを評価する</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/EvaluationMeeting"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/CompensationSystem"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/Employee"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/hasCompensationSystem">
+    <rdfs:label xml:lang="ja">報酬制度を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">市場価値とテイクレートに基づく報酬体系</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/CompensationSystem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/hasTopGunSystem">
+    <rdfs:label xml:lang="ja">TopGun制度を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">能力開発と年収連動の検定制度</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/TopGunSystem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/certifies">
+    <rdfs:label xml:lang="ja">認定する</rdfs:label>
+    <rdfs:comment xml:lang="ja">検定合格により社員の役割や単価を認める</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/TopGunSystem"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/CATTest"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/Employee"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/usesHitoLog">
+    <rdfs:label xml:lang="ja">ヒトログを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">人材データを一元管理する</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/HitoLog"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/predictsTurnoverOf">
+    <rdfs:label xml:lang="ja">退職を予測する</rdfs:label>
+    <rdfs:comment xml:lang="ja">データから社員の退職確率を推定する</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/HitoLog"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/AISystem"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/Employee"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/measuresWith">
+    <rdfs:label xml:lang="ja">生涯価値で測る</rdfs:label>
+    <rdfs:comment xml:lang="ja">人事投資の効果をLTVで定量化する</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/HumanCapitalManagement"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/LifetimeValue"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/hasCulture">
+    <rdfs:label xml:lang="ja">組織文化を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">会社が醸成する関係性と価値観</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/OrganizationalCulture"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/holdsEvent">
+    <rdfs:label xml:lang="ja">イベントを開催する</rdfs:label>
+    <rdfs:comment xml:lang="ja">社内行事や表彰を通じて関係性を築く</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/OrganizationalCulture"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/InternalEvent"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/hasOffice">
+    <rdfs:label xml:lang="ja">オフィスを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">教会としての職場空間を持つ</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/Office"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/locatedIn">
+    <rdfs:label xml:lang="ja">に所在する</rdfs:label>
+    <rdfs:comment xml:lang="ja">オフィスの地理的位置</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Office"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/Location"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/hasSalesStrategy">
+    <rdfs:label xml:lang="ja">営業戦略を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織的営業と業界構造変革の方針</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/SalesStrategy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/assignsHRBP">
+    <rdfs:label xml:lang="ja">HRBPを配置する</rdfs:label>
+    <rdfs:comment xml:lang="ja">事業部に人事ビジネスパートナーを置く</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/HRBusinessPartner"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/assignsLastMileTo">
+    <rdfs:label xml:lang="ja">ラストワンマイルを割り当てる</rdfs:label>
+    <rdfs:comment xml:lang="ja">自動化後に人間へ残す役割を定義する</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/LastMileRole"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/SHIFT_Kaibou/performedBy">
+    <rdfs:label xml:lang="ja">が担う</rdfs:label>
+    <rdfs:comment xml:lang="ja">人間にしかできない仕上げや統括を人が行う</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/LastMileRole"/>
+    <rdfs:range rdf:resource="https://books.local/SHIFT_Kaibou/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/SHIFT_Kaibou/name">
+    <rdfs:label xml:lang="ja">名称</rdfs:label>
+    <rdfs:comment xml:lang="ja">対象の名前や固有名称</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Person"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Location"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Business"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/AISystem"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/SHIFT_Kaibou/description">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">理念や手法の日本語による説明</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/ManagementPhilosophy"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/ProcessTechnology"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/RecruitmentStrategy"/>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/OrganizationalCulture"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/SHIFT_Kaibou/salesRevenue">
+    <rdfs:label xml:lang="ja">売上高</rdfs:label>
+    <rdfs:comment xml:lang="ja">期間ごとの売上規模の記述</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/SHIFT_Kaibou/operatingProfit">
+    <rdfs:label xml:lang="ja">営業利益</rdfs:label>
+    <rdfs:comment xml:lang="ja">期間ごとの営業利益の記述</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/Company"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/SHIFT_Kaibou/takeRate">
+    <rdfs:label xml:lang="ja">テイクレート</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客単価のうち年収に反映する割合</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/CompensationSystem"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/SHIFT_Kaibou/passRate">
+    <rdfs:label xml:lang="ja">合格率</rdfs:label>
+    <rdfs:comment xml:lang="ja">検定の合格割合</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/CATTest"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/SHIFT_Kaibou/formula">
+    <rdfs:label xml:lang="ja">数式</rdfs:label>
+    <rdfs:comment xml:lang="ja">LTVを構成する人数・在籍期間・価値総出力の関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/SHIFT_Kaibou/LifetimeValue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

@@ -1,0 +1,595 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/> .
+
+book:source a prov:Entity ;
+  foaf:name "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" .
+
+book:ONE PIECE a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:Quest a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:チームのレンズ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:戦士だけのパーティ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:会議のレンズ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:軍略会議 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:雑談 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:討論 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:議論 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:イノベーション a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:クエストのレンズ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:成長のレンズ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織のレンズ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:パラダイムシフト a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:対話 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:アイデンティティ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:自分らしさ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:戦略 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:KEY 9 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:世界観 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロジスティクス a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:VUCA a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:孫子の兵法 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:軍事的世界観 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:会社中心のキャリア観 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:人生中心のキャリア観 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:キャリア観 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:天動説 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:地動説 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:adventurous dialogue a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス組織論 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:facilitation skills a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:新時代の組織モデル a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:多様性の価値 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:2つの探究 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ファシリテーション力 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:catalytic questions a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:トップダウン a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:冒険的成長 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:company-wide assemblies a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:冒険する組織の考え方 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:OS a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:心理的安全性 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:1 on 1ミーティング a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:軍隊型組織 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:官僚化 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:大企業病 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:3つの道 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベンチャー精神 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:麦わらの一味 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:5つの冒険的レンズ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:目標のレンズ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:野生の思考 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:かし合う仲間 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ドライな組織 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:創造の場 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:やらされ感 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:好奇心・探究心 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:理論的枠組み a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:レンズ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:選択と集中 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:分散と修繕 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:機能別に編成した小隊 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:仲間 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:RPG a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハイフェッツ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:適応課題 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:伝令と意思決定の場 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:モチベーション a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニケーション a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:察知 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:気づき a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:理解 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:深掘り a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:共創 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:④成長のレンズ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:やりたいこと a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:環境 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:文化 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:土壌 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:事業戦略 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:人と事業の可能性を広げる土壌 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:チャンドラー a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:Structure follows Strategy a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:アンゾフ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:哲学 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:自己実現 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:つじつま合わせ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:整合性 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベルトコンベア型の組織 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人の欲望 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:社会の課題 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:バラバラな思惑 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:Chapter 6 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:today's era a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:4つの芸風 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:famous MC a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:Misalignment-Free Facilitation a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ズレないファシリテーション a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:daily routine meetings a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:日々の定例ミーティング a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:organizational culture a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:Two Flows a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:全社総会のデザイン a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:日常しかない会社 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:dedicated members a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:熱心な乗組員 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:leaders a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:起爆剤となる問い a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:KMQT a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:Public Events a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ちぐはぐ感 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:バーンアウト a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:燃え尽き症候群 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:役 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:氷山 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:転職 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:独立 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:違和感 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:work self a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:job performance a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:promotions a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:burnout a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:vague dissatisfaction a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:モヤモヤ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:human resources a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:corporate structures a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:iceberg a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ミスマッチ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:言葉 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:言い回し a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:口癖 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:兵站 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:アジャイル a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:OODAループ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:米軍 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:クラウゼヴィッツ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ラッール a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:フィードバックループ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヴーカ a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ランチェスターの法則 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:平和主義者 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:現代の会社組織 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:無意識 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業戦士 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:若い世代 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .
+
+book:上からの命令観 a prov:Entity ;
+  book:book_key "Bouken_suru_Soshiki_no_Tsukurikata" ;
+  prov:wasDerivedFrom book:source .

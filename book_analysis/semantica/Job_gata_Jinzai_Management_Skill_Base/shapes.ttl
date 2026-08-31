@@ -1,0 +1,421 @@
+@prefix ex: <https://books.local/Job_gata_Jinzai_Management_Skill_Base/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/shapes> a owl:Ontology .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedOrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SkillBasedOrganization ;
+    sh:name "スキルベース組織" ;
+    sh:description "ジョブをモジュール化し、タスクという需要と個人のスキルという供給を細粒度で組み合わせて人材リソースを最大化する組織形態。" ;
+    sh:property [
+        sh:path ex:incorporatesAntifragility ;
+        sh:class ex:Antifragility ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedTalentManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SkillBasedTalentManagement ;
+    sh:name "スキルベース人材マネジメント" ;
+    sh:description "スキルの管理・可視化、評価、キャリア開発・育成、タレントマーケットプレイス展開からなる実践プロセス。" ;
+    sh:property [
+        sh:path ex:hasSkillTaxonomy ;
+        sh:class ex:SkillTaxonomy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesSkillTech ;
+        sh:class ex:SkillTech ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/JobTypeLimitationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:JobTypeLimitation ;
+    sh:name "ジョブ型の限界" ;
+    sh:description "ジョブディスクリプションによる職務の見える化が進む一方、人材獲得困難や名ばかり制度化が顕在化する課題。" .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Skill ;
+    sh:name "スキル" ;
+    sh:description "個人が有する能力であり、タスク遂行のための供給側の要素。動的に変化するため継続的更新が必要。" ;
+    sh:property [
+        sh:path ex:classifiedIn ;
+        sh:class ex:SkillTaxonomy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assessedBy ;
+        sh:class ex:Assessment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/SoftSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SoftSkill ;
+    sh:name "ソフトスキル" ;
+    sh:description "ヒューマンスキルやコンセプチュアルスキルなどの対人・思考に関する能力。" ;
+    sh:property [
+        sh:path ex:classifiedIn ;
+        sh:class ex:SkillTaxonomy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assessedBy ;
+        sh:class ex:Assessment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/HardSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HardSkill ;
+    sh:name "ハードスキル" ;
+    sh:description "テクニカルスキルなどの専門的・技術的能力。" ;
+    sh:property [
+        sh:path ex:classifiedIn ;
+        sh:class ex:SkillTaxonomy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assessedBy ;
+        sh:class ex:Assessment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/FluencyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Fluency ;
+    sh:name "フルーエンシー" ;
+    sh:description "知識を自在に使いこなすだけでなく、陳腐化時に新たな知識を素早く学習・吸収するリスキル適性。" ;
+    sh:property [
+        sh:path ex:classifiedIn ;
+        sh:class ex:SkillTaxonomy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assessedBy ;
+        sh:class ex:Assessment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/JobShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Job ;
+    sh:name "ジョブ" ;
+    sh:description "組織における役割や職務の枠組み。スキルベースではモジュール化され再構成されうる。" ;
+    sh:property [
+        sh:path ex:requiresSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:consistsOfTask ;
+        sh:class ex:Task ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedBy ;
+        sh:class ex:JobDescription ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/TaskShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Task ;
+    sh:name "タスク" ;
+    sh:description "ジョブを要素分解した業務単位であり、スキル需要の細粒度の対象。" ;
+    sh:property [
+        sh:path ex:requiresSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/JobDescriptionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:JobDescription ;
+    sh:name "ジョブディスクリプション" ;
+    sh:description "職務の内容と要件を文書化した定義。ジョブ型の基盤だがスキルベースでは細分化の出発点となる。" .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/EmployeeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Employee ;
+    sh:name "従業員" ;
+    sh:description "スキルを保有しタスクを遂行する個人。自己申告・アセスメント・AI解析によりスキルが可視化される。" ;
+    sh:property [
+        sh:path ex:possessesSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exhibitsSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:employedBy ;
+        sh:class ex:Company ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:memberOfPool ;
+        sh:class ex:TalentPool ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assessedBy ;
+        sh:class ex:Assessment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:developsThrough ;
+        sh:class ex:CareerDevelopment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:compensatedBy ;
+        sh:class ex:SkillBasedCompensation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesInGig ;
+        sh:class ex:InternalGig ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/CompanyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Company ;
+    sh:name "企業" ;
+    sh:description "スキルベース人材マネジメントを導入し、採用・配置・育成・報酬を再設計する組織。" ;
+    sh:property [
+        sh:path ex:hasSkillTaxonomy ;
+        sh:class ex:SkillTaxonomy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasTalentMarketplace ;
+        sh:class ex:TalentMarketplace ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:implementsManagement ;
+        sh:class ex:SkillBasedTalentManagement ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesSkillTech ;
+        sh:class ex:SkillTech ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hiresThrough ;
+        sh:class ex:SkillBasedHiring ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:managesChange ;
+        sh:class ex:ChangeManagement ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillTaxonomyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SkillTaxonomy ;
+    sh:name "スキルタクソノミー" ;
+    sh:description "体系化されたスキル一覧。自己申告の前提であり、中央管理と現場更新、外部データセット活用が求められる。" ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillLibraryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SkillLibrary ;
+    sh:name "スキルライブラリ" ;
+    sh:description "採用・配置・育成など全人事プロセスを貫く単一のスキル基盤。" .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentPoolShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TalentPool ;
+    sh:name "タレントプール" ;
+    sh:description "企業全体の人材群。スキル需給ギャップを俯瞰し中長期の育成・採用方針を決める単位。" ;
+    sh:property [
+        sh:path ex:hasSkillGap ;
+        sh:class ex:SkillGap ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillGapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SkillGap ;
+    sh:name "スキルギャップ" ;
+    sh:description "ジョブサイドのスキル需要とタレントサイドのスキル供給の差。" ;
+    sh:property [
+        sh:path ex:concernsSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentMarketplaceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TalentMarketplace ;
+    sh:name "タレントマーケットプレイス" ;
+    sh:description "社内の人材流動市場。社内副業やギグを通じリスキリング成果の発揮の場となる。" ;
+    sh:property [
+        sh:path ex:matchesTo ;
+        sh:class ex:Employee ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:offersGig ;
+        sh:class ex:InternalGig ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresPsychologicalSafety ;
+        sh:class ex:PsychologicalSafety ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/InternalGigShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InternalGig ;
+    sh:name "社内ギグ" ;
+    sh:description "社内副業や跨部門プロジェクトなど、スキルと興味に基づきマッチングされる短期的な機会。" .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedHiringShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SkillBasedHiring ;
+    sh:name "スキルベース採用" ;
+    sh:description "学歴や職歴ではなく特定のスキル・能力に基づき候補者を評価・選択する手法。" ;
+    sh:property [
+        sh:path ex:requiresSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/CareerDevelopmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CareerDevelopment ;
+    sh:name "キャリア開発" ;
+    sh:description "均一的育成から転換し、個人の志向とスキルギャップに基づきパーソナライズする育成。" .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/ReskillingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Reskilling ;
+    sh:name "リスキリング" ;
+    sh:description "新たなスキルを学習・獲得する取り組み。学びっぱなしを防ぐため発揮の場と一体で設計される。" .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/MatchingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Matching ;
+    sh:name "マッチング" ;
+    sh:description "必要スキル保有者の把握、部門ニーズと個人希望の判断、配置後オンボーディングからなる配置プロセス。" ;
+    sh:property [
+        sh:path ex:matchesTo ;
+        sh:class ex:Employee ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresPsychologicalSafety ;
+        sh:class ex:PsychologicalSafety ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedCompensationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SkillBasedCompensation ;
+    sh:name "スキルベース報酬" ;
+    sh:description "保有スキルの幅と水準に応じて報酬を決める仕組み。保有か発揮か、職種間調整、降給の是非が論点。" .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/AssessmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Assessment ;
+    sh:name "アセスメント" ;
+    sh:description "自己申告、上司・客観基準評価、非構造化データからのAI推論などによるスキル可視化手法。" .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/ChangeManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ChangeManagement ;
+    sh:name "チェンジマネジメント" ;
+    sh:description "ビジョン、適応型リーダーシップ、心理的安全性、技術活用、規律ある自由、協力を駆動力とする組織変革。" ;
+    sh:property [
+        sh:path ex:requiresPsychologicalSafety ;
+        sh:class ex:PsychologicalSafety ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/PsychologicalSafetyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PsychologicalSafety ;
+    sh:name "心理的安全性" ;
+    sh:description "自己開示や挑戦を恐れない環境。FA制度や社内公募、変革成功の前提となる。" .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/AntifragilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Antifragility ;
+    sh:name "反脆弱性" ;
+    sh:description "効率化の極致であるスキルベース管理に遊びを持たせ、予期せぬストレスから強くなる性質。" .
+
+<https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillTechShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SkillTech ;
+    sh:name "スキルテック" ;
+    sh:description "AIによるスキル抽出・推定・マッチング・学習推奨・リテンション検知などを行う技術やプラットフォーム。" ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .

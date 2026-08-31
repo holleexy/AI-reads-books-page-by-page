@@ -1,0 +1,247 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/法人営業勝ちパターン大全/> .
+
+book:source a prov:Entity ;
+  foaf:name "法人営業勝ちパターン大全" ;
+  book:book_key "法人営業勝ちパターン大全" .
+
+book:quantitative survey a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:法人営業 a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:new-employee training a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:B2B a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:Excel a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:field department heads a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:RFP a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:salesperson a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:decision-maker a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:4 mazes a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:4つの迷路 a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:winning pattern a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:HR departments a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:primary contact person a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:Part 1 a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:administrative/operations team a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:customer's world a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:kessaisha a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:large-scale research a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:vendor-comparison a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:content-focused proposal a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:IT vendor a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:training budget a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:request for proposal a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:the author a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:evidence-based curriculum design a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:business-unit director a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:mental model a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:失注の悔しさ a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:age 25 a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:Over 20 years ago a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:お客様の裏側 a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:ディスカッションパートナー a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:talent development a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:窓口担当者 a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:Judgment criteria a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:費用対効果 a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:worldview a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:世界観 a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:line managers a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:turnover-reduction logic a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:operational-support structure a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:scoring criteria a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:risk-mitigation measures a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:減点しようのない a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:勝ちパターン構築シート a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:golden rule a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:accounting a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:Nikkei BP a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:gap a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:zure a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:Eigyo no Kagaku a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:Kanki Publishing a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:organizational buying behavior a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:offensive strategy a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:power dynamics a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:team-shareable winning patterns a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:関係者 a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:5-stage purchasing process a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .
+
+book:6 types of decision-making stakeholders a prov:Entity ;
+  book:book_key "法人営業勝ちパターン大全" ;
+  prov:wasDerivedFrom book:source .

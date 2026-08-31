@@ -1,0 +1,871 @@
+{
+  "uri": "https://books.local/Operational_Excellence_BPR/",
+  "name": "Operational_Excellence_BPROntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "OperationalExcellence",
+      "uri": "https://books.local/Operational_Excellence_BPR/OperationalExcellence",
+      "label": "オペレーショナルエクセレンス",
+      "comment": "業務の卓越性。優れた製品や顧客があっても非効率な業務では利益は生まれず、洗練された強い業務運営によって利益を生む価値基準および到達目標。",
+      "parent": null
+    },
+    {
+      "name": "BusinessReform",
+      "uri": "https://books.local/Operational_Excellence_BPR/BusinessReform",
+      "label": "業務改革",
+      "comment": "仕事の進め方を変えることであり、企業のすべての営みを対象とする。単発の流行よりも経営革新において決定的な重要性を持つ。BPRとして検討・分析・設計・実施・評価のプロセスで進める。",
+      "parent": null
+    },
+    {
+      "name": "ValueCriterion",
+      "uri": "https://books.local/Operational_Excellence_BPR/ValueCriterion",
+      "label": "価値基準",
+      "comment": "マイケル・トレーシーとフレッド・ウィアセマが『ナンバーワン企業の法則』で提唱した、企業を支える三つの価値基準の上位概念。",
+      "parent": null
+    },
+    {
+      "name": "CustomerIntimacy",
+      "uri": "https://books.local/Operational_Excellence_BPR/CustomerIntimacy",
+      "label": "カスタマーインティマシー",
+      "comment": "顧客との親密性。よい顧客をつかむことを目指す価値基準。",
+      "parent": "ValueCriterion"
+    },
+    {
+      "name": "ProductInnovation",
+      "uri": "https://books.local/Operational_Excellence_BPR/ProductInnovation",
+      "label": "プロダクトイノベーション",
+      "comment": "製品の革新性。よい製品を生むことを目指す価値基準。",
+      "parent": "ValueCriterion"
+    },
+    {
+      "name": "ExcellencePillar",
+      "uri": "https://books.local/Operational_Excellence_BPR/ExcellencePillar",
+      "label": "卓越性の柱",
+      "comment": "優れた業務品質を生み出すための三つの柱（指標・仕組み・適材適所）の上位概念。",
+      "parent": null
+    },
+    {
+      "name": "Metrics",
+      "uri": "https://books.local/Operational_Excellence_BPR/Metrics",
+      "label": "指標",
+      "comment": "財務指標と運営指標を明確に結びつけ、一つの指標は一つの意味しか持たない状態を実現する柱。部門間の解釈違いや在庫の押し込みを防ぐ。",
+      "parent": "ExcellencePillar"
+    },
+    {
+      "name": "Mechanism",
+      "uri": "https://books.local/Operational_Excellence_BPR/Mechanism",
+      "label": "仕組み",
+      "comment": "役割と権限、指標、情報システム、業務体系で構成される経営メカニズム。一流の仕組みがあれば一流でない能力でも一流の成果を出せ、属人化を排除する。",
+      "parent": "ExcellencePillar"
+    },
+    {
+      "name": "TalentPlacement",
+      "uri": "https://books.local/Operational_Excellence_BPR/TalentPlacement",
+      "label": "適材適所配置",
+      "comment": "職務定義書に基づき適材を適所に配し、スキルの見える化と育成を行う柱。単純作業は仕組み化し、高度な手技は職人技として伝承する。",
+      "parent": "ExcellencePillar"
+    },
+    {
+      "name": "FinancialIndex",
+      "uri": "https://books.local/Operational_Excellence_BPR/FinancialIndex",
+      "label": "財務指標",
+      "comment": "FI。経営の財務的成果を示す指標であり、運営指標と結合して現場改善の経営貢献を可視化する。",
+      "parent": null
+    },
+    {
+      "name": "OperationalIndex",
+      "uri": "https://books.local/Operational_Excellence_BPR/OperationalIndex",
+      "label": "運営指標",
+      "comment": "OI。現場の運営成果を示す指標であり、財務指標と結合して用いられる。",
+      "parent": null
+    },
+    {
+      "name": "ROICTree",
+      "uri": "https://books.local/Operational_Excellence_BPR/ROICTree",
+      "label": "ROICツリー",
+      "comment": "経営のトップ目標を現場の具体的なアクション（KPI）までブレイクダウンし、改善活動の経営貢献を可視化する指標体系。",
+      "parent": null
+    },
+    {
+      "name": "KPI",
+      "uri": "https://books.local/Operational_Excellence_BPR/KPI",
+      "label": "重要業績評価指標",
+      "comment": "現場の具体的なアクションを示す指標。ROICツリーにより経営目標から展開される。",
+      "parent": null
+    },
+    {
+      "name": "JobDescription",
+      "uri": "https://books.local/Operational_Excellence_BPR/JobDescription",
+      "label": "職務定義書",
+      "comment": "人事部の書式埋めではなく、組織全体の業務フローの中でそのポジションの役割を定義するもの。",
+      "parent": null
+    },
+    {
+      "name": "BusinessProcess",
+      "uri": "https://books.local/Operational_Excellence_BPR/BusinessProcess",
+      "label": "業務プロセス",
+      "comment": "企業の業務の流れ。四つのレイヤーで表現され、リポジトリに型として蓄積・管理される。",
+      "parent": null
+    },
+    {
+      "name": "ProcessLayer",
+      "uri": "https://books.local/Operational_Excellence_BPR/ProcessLayer",
+      "label": "業務プロセスレイヤー",
+      "comment": "業務フローを表現する四階層の上位概念。",
+      "parent": null
+    },
+    {
+      "name": "FunctionGroupLayer",
+      "uri": "https://books.local/Operational_Excellence_BPR/FunctionGroupLayer",
+      "label": "機能群レイヤー",
+      "comment": "Layer1。企業全体の機能群の流れであり、モノづくり企業で共通する。",
+      "parent": "ProcessLayer"
+    },
+    {
+      "name": "BusinessModelLayer",
+      "uri": "https://books.local/Operational_Excellence_BPR/BusinessModelLayer",
+      "label": "事業モデルレイヤー",
+      "comment": "Layer2。在庫販売型や受注設計型など、事業特性による業務の違いを表現する。",
+      "parent": "ProcessLayer"
+    },
+    {
+      "name": "BusinessFlowLayer",
+      "uri": "https://books.local/Operational_Excellence_BPR/BusinessFlowLayer",
+      "label": "業務フローレイヤー",
+      "comment": "Layer3。担当者レベルの具体的なタスクの流れ。開始・終了条件や分岐を可視化し、業務改革の主役となる。",
+      "parent": "ProcessLayer"
+    },
+    {
+      "name": "BusinessManualLayer",
+      "uri": "https://books.local/Operational_Excellence_BPR/BusinessManualLayer",
+      "label": "業務マニュアルレイヤー",
+      "comment": "Layer4。単一タスクの手順書。誰が読んでも一意の解釈で同一行動が取れることが条件。",
+      "parent": "ProcessLayer"
+    },
+    {
+      "name": "Repository",
+      "uri": "https://books.local/Operational_Excellence_BPR/Repository",
+      "label": "リポジトリ",
+      "comment": "オペレーションの型を蓄積・管理する格納庫。新規事業や新工場では九割を既存の型から流用し一割を追加する。",
+      "parent": null
+    },
+    {
+      "name": "Task",
+      "uri": "https://books.local/Operational_Excellence_BPR/Task",
+      "label": "タスク",
+      "comment": "担当者レベルの具体的な作業。名称は成果物名ではなく目的や行為とし、正常系だけでなく例外系も記述する。",
+      "parent": null
+    },
+    {
+      "name": "ExceptionProcess",
+      "uri": "https://books.local/Operational_Excellence_BPR/ExceptionProcess",
+      "label": "例外処理",
+      "comment": "イレギュラーな業務処理。例外こそが問題の宝の山である。",
+      "parent": null
+    },
+    {
+      "name": "BPRMethodology",
+      "uri": "https://books.local/Operational_Excellence_BPR/BPRMethodology",
+      "label": "業務改革実行手法",
+      "comment": "検討から評価までのプロセスと、四つの可視化と一つの整流化のフレームワークからなる実行手法。",
+      "parent": null
+    },
+    {
+      "name": "Visualization",
+      "uri": "https://books.local/Operational_Excellence_BPR/Visualization",
+      "label": "可視化",
+      "comment": "業務・問題・暗黙知・結果を見える化する活動の上位概念。",
+      "parent": null
+    },
+    {
+      "name": "BusinessVisualization",
+      "uri": "https://books.local/Operational_Excellence_BPR/BusinessVisualization",
+      "label": "業務の可視化",
+      "comment": "流れ・情報・組織・人・スキルの四つの切り口で、主にLayer3の粒度でフローチャートを作成する。",
+      "parent": "Visualization"
+    },
+    {
+      "name": "ProblemVisualization",
+      "uri": "https://books.local/Operational_Excellence_BPR/ProblemVisualization",
+      "label": "問題の可視化",
+      "comment": "現状バイアスを排除し、QCDを棄損する事象を問題と定義して可視化する。",
+      "parent": "Visualization"
+    },
+    {
+      "name": "TacitKnowledgeVisualization",
+      "uri": "https://books.local/Operational_Excellence_BPR/TacitKnowledgeVisualization",
+      "label": "暗黙知の可視化",
+      "comment": "ベテランの無意識の判断である職人技を言語化・体系化する。",
+      "parent": "Visualization"
+    },
+    {
+      "name": "ResultVisualization",
+      "uri": "https://books.local/Operational_Excellence_BPR/ResultVisualization",
+      "label": "結果の可視化",
+      "comment": "現場の定性的実感と、財務指標と運営指標を結ぶ定量データの両面で効果を測定する。",
+      "parent": "Visualization"
+    },
+    {
+      "name": "Streamlining",
+      "uri": "https://books.local/Operational_Excellence_BPR/Streamlining",
+      "label": "整流化",
+      "comment": "ECRSの原則に基づき業務を整流化し、ソリューションをデザインする活動。",
+      "parent": null
+    },
+    {
+      "name": "ECRSPrinciple",
+      "uri": "https://books.local/Operational_Excellence_BPR/ECRSPrinciple",
+      "label": "ECRSの原則",
+      "comment": "排除・結合・入替代替・簡素化の優先順位。簡素化が最も重要で安定した効果を発揮する。",
+      "parent": null
+    },
+    {
+      "name": "ProblemDiscoveryApproach",
+      "uri": "https://books.local/Operational_Excellence_BPR/ProblemDiscoveryApproach",
+      "label": "問題発見アプローチ",
+      "comment": "何を問題とするかを定め、QCD棄損事象を発見するためのアプローチの上位概念。",
+      "parent": null
+    },
+    {
+      "name": "VisualizationDiscoveryApproach",
+      "uri": "https://books.local/Operational_Excellence_BPR/VisualizationDiscoveryApproach",
+      "label": "可視化発見型",
+      "comment": "業務フローを観察し、歪みや偏りを発見するアプローチ。",
+      "parent": "ProblemDiscoveryApproach"
+    },
+    {
+      "name": "HypothesisVerificationApproach",
+      "uri": "https://books.local/Operational_Excellence_BPR/HypothesisVerificationApproach",
+      "label": "仮説検証型",
+      "comment": "現場の違和感から仮説を立て、可視化された情報で検証するアプローチ。",
+      "parent": "ProblemDiscoveryApproach"
+    },
+    {
+      "name": "OriginReturnApproach",
+      "uri": "https://books.local/Operational_Excellence_BPR/OriginReturnApproach",
+      "label": "原点立ち返り型",
+      "comment": "最も強力なアプローチ。そもそもの目的は何かからゼロベースで業務を見直す。タフネスが必要。",
+      "parent": "ProblemDiscoveryApproach"
+    },
+    {
+      "name": "ProcessOwner",
+      "uri": "https://books.local/Operational_Excellence_BPR/ProcessOwner",
+      "label": "プロセスオーナー",
+      "comment": "As-Isの可視化、改善点抽出、変革立案、効果検証を行う強い権限を持つ役割。名目的な内部統制役職ではない。",
+      "parent": null
+    },
+    {
+      "name": "BPMOrganization",
+      "uri": "https://books.local/Operational_Excellence_BPR/BPMOrganization",
+      "label": "BPM組織",
+      "comment": "業務改革を部門へ丸投げせず、縦軸（事業）に位置づけられた専任組織。",
+      "parent": null
+    },
+    {
+      "name": "SixBubblesFramework",
+      "uri": "https://books.local/Operational_Excellence_BPR/SixBubblesFramework",
+      "label": "六つのバブルフレームワーク",
+      "comment": "戦略、業務、情報システム、組織、人材・スキル、風土の順で企業変革を進める枠組み。システムは業務に先行しない。",
+      "parent": null
+    },
+    {
+      "name": "Strategy",
+      "uri": "https://books.local/Operational_Excellence_BPR/Strategy",
+      "label": "戦略",
+      "comment": "企業変革の起点。VUCA時代には頻繁に更新され、巧拙より実行スピードが重要となる。",
+      "parent": null
+    },
+    {
+      "name": "InformationSystem",
+      "uri": "https://books.local/Operational_Excellence_BPR/InformationSystem",
+      "label": "情報システム",
+      "comment": "業務に先行せず手段として位置づけられるシステムおよびITツール。",
+      "parent": null
+    },
+    {
+      "name": "Organization",
+      "uri": "https://books.local/Operational_Excellence_BPR/Organization",
+      "label": "組織",
+      "comment": "役割と責任が定義され、部門間インターフェースを持つ企業内の編成。",
+      "parent": null
+    },
+    {
+      "name": "Skill",
+      "uri": "https://books.local/Operational_Excellence_BPR/Skill",
+      "label": "スキル",
+      "comment": "部門特有の実務的能力。見える化し、ロールモデルの思考法から学ぶプログラムで育成する。",
+      "parent": null
+    },
+    {
+      "name": "CorporateCulture",
+      "uri": "https://books.local/Operational_Excellence_BPR/CorporateCulture",
+      "label": "企業風土",
+      "comment": "現場からボトムアップで改善が湧き上がる改革の自働化としての最終的な到達点。",
+      "parent": null
+    },
+    {
+      "name": "Transformer",
+      "uri": "https://books.local/Operational_Excellence_BPR/Transformer",
+      "label": "トランスフォーマー",
+      "comment": "仕組み自体をゼロから構築する改革人材。日常業務の延長では育たず、意図的な選抜と長期育成が必要。",
+      "parent": null
+    },
+    {
+      "name": "OperationTalent",
+      "uri": "https://books.local/Operational_Excellence_BPR/OperationTalent",
+      "label": "オペレーション人材",
+      "comment": "定められた仕組みの中で成果を出す人材。改革人材とは役割が異なる。",
+      "parent": null
+    },
+    {
+      "name": "TransformationCapability",
+      "uri": "https://books.local/Operational_Excellence_BPR/TransformationCapability",
+      "label": "変革のチカラ",
+      "comment": "ジョン・コッターの変革プロセスに基づく、改革人材に求められる能力の上位概念。",
+      "parent": null
+    },
+    {
+      "name": "ConceptualizationCapability",
+      "uri": "https://books.local/Operational_Excellence_BPR/ConceptualizationCapability",
+      "label": "変革構想力",
+      "comment": "現状（As-Is）を可視化し、理想（To-Be）を描く力。",
+      "parent": "TransformationCapability"
+    },
+    {
+      "name": "ExecutionCapability",
+      "uri": "https://books.local/Operational_Excellence_BPR/ExecutionCapability",
+      "label": "変革実行力",
+      "comment": "関係者を巻き込み、長期プロジェクトを息切れさせずに推進する力。",
+      "parent": "TransformationCapability"
+    },
+    {
+      "name": "AnchoringCapability",
+      "uri": "https://books.local/Operational_Excellence_BPR/AnchoringCapability",
+      "label": "変革定着力",
+      "comment": "変革を企業文化として定着させ、次世代のトランスフォーマーを育てる力。",
+      "parent": "TransformationCapability"
+    },
+    {
+      "name": "ManufacturingCompany",
+      "uri": "https://books.local/Operational_Excellence_BPR/ManufacturingCompany",
+      "label": "モノづくり企業",
+      "comment": "自社の技術力に誇りはあるが十分な利益が上がっていないと感じる、本書の主な対象企業。",
+      "parent": null
+    },
+    {
+      "name": "CaseStudy",
+      "uri": "https://books.local/Operational_Excellence_BPR/CaseStudy",
+      "label": "実践事例",
+      "comment": "ZARA、キーエンス、大塚商会、アシックスなどに見られるオペレーショナルエクセレンスの実践例。",
+      "parent": null
+    },
+    {
+      "name": "InterdepartmentalInterface",
+      "uri": "https://books.local/Operational_Excellence_BPR/InterdepartmentalInterface",
+      "label": "組織間インターフェース",
+      "comment": "部門間の受け渡しや連携が生じる部分。業務改革の余地は常にここに存在し、複雑な企業活動ではさらに拡大する。",
+      "parent": null
+    },
+    {
+      "name": "QCD",
+      "uri": "https://books.local/Operational_Excellence_BPR/QCD",
+      "label": "QCD",
+      "comment": "品質・コスト・納期。これを棄損する事象を客観的に問題と定義する。",
+      "parent": null
+    },
+    {
+      "name": "VUCAEnvironment",
+      "uri": "https://books.local/Operational_Excellence_BPR/VUCAEnvironment",
+      "label": "VUCA環境",
+      "comment": "変動性・不確実性・複雑性・曖昧性の時代。完璧な長期戦略より現場オペレーションの実行スピードが競争優位となる。",
+      "parent": null
+    },
+    {
+      "name": "Craftsmanship",
+      "uri": "https://books.local/Operational_Excellence_BPR/Craftsmanship",
+      "label": "職人技",
+      "comment": "アナログで高度な手技や勘所。属人化（仕組み化の欠如）とは峻別し、尊重して伝承する。",
+      "parent": null
+    },
+    {
+      "name": "MissionVisionValue",
+      "uri": "https://books.local/Operational_Excellence_BPR/MissionVisionValue",
+      "label": "ミッションビジョンバリュー",
+      "comment": "改革を人ではなく仕組みに依存させて定着させるための構成要素の一つ。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "aimsAt",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "OperationalExcellence"
+      ],
+      "label": "目指す",
+      "comment": "業務改革がオペレーショナルエクセレンスの達成を目標とすることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/aimsAt"
+    },
+    {
+      "name": "targets",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "ManufacturingCompany"
+      ],
+      "label": "対象とする",
+      "comment": "業務改革がモノづくり企業のマネジメント層および企業活動全体を対象とすることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/targets"
+    },
+    {
+      "name": "hasOpportunityAt",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "InterdepartmentalInterface"
+      ],
+      "label": "改革余地がある",
+      "comment": "部門間の受け渡しや連携に業務改革の余地が常に存在することを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/hasOpportunityAt"
+    },
+    {
+      "name": "hasValueCriterion",
+      "type": "object",
+      "domain": [
+        "ManufacturingCompany"
+      ],
+      "range": [
+        "ValueCriterion"
+      ],
+      "label": "価値基準を持つ",
+      "comment": "企業が顧客親密性・製品革新性・運営卓越性のいずれかの価値基準を持つことを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/hasValueCriterion"
+    },
+    {
+      "name": "hasPillar",
+      "type": "object",
+      "domain": [
+        "OperationalExcellence"
+      ],
+      "range": [
+        "ExcellencePillar"
+      ],
+      "label": "柱を持つ",
+      "comment": "オペレーショナルエクセレンスが指標・仕組み・適材適所の三柱で実現されることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/hasPillar"
+    },
+    {
+      "name": "bindsTo",
+      "type": "object",
+      "domain": [
+        "FinancialIndex"
+      ],
+      "range": [
+        "OperationalIndex"
+      ],
+      "label": "結合する",
+      "comment": "財務指標と運営指標を明確に結びつけることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/bindsTo"
+    },
+    {
+      "name": "decomposesInto",
+      "type": "object",
+      "domain": [
+        "ROICTree"
+      ],
+      "range": [
+        "KPI"
+      ],
+      "label": "ブレイクダウンする",
+      "comment": "ROICなどのトップ目標を現場KPIまで展開することを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/decomposesInto"
+    },
+    {
+      "name": "usesJobDescription",
+      "type": "object",
+      "domain": [
+        "TalentPlacement"
+      ],
+      "range": [
+        "JobDescription"
+      ],
+      "label": "職務定義書を用いる",
+      "comment": "適材適所配置が業務フロー上の役割定義に基づくことを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/usesJobDescription"
+    },
+    {
+      "name": "hasLayer",
+      "type": "object",
+      "domain": [
+        "BusinessProcess"
+      ],
+      "range": [
+        "ProcessLayer"
+      ],
+      "label": "レイヤーを持つ",
+      "comment": "業務プロセスが四つのレイヤーで表現されることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/hasLayer"
+    },
+    {
+      "name": "isStoredIn",
+      "type": "object",
+      "domain": [
+        "BusinessProcess"
+      ],
+      "range": [
+        "Repository"
+      ],
+      "label": "格納される",
+      "comment": "オペレーションの型がリポジトリに蓄積・管理されることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/isStoredIn"
+    },
+    {
+      "name": "belongsToLayer",
+      "type": "object",
+      "domain": [
+        "Task"
+      ],
+      "range": [
+        "BusinessFlowLayer"
+      ],
+      "label": "レイヤーに属する",
+      "comment": "担当者レベルのタスクが業務フローレイヤーに属することを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/belongsToLayer"
+    },
+    {
+      "name": "hasException",
+      "type": "object",
+      "domain": [
+        "Task"
+      ],
+      "range": [
+        "ExceptionProcess"
+      ],
+      "label": "例外を持つ",
+      "comment": "タスクが例外系処理を含むことを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/hasException"
+    },
+    {
+      "name": "usesMethodology",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "BPRMethodology"
+      ],
+      "label": "手法を用いる",
+      "comment": "業務改革がBPRの実行手法に従って進められることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/usesMethodology"
+    },
+    {
+      "name": "visualizes",
+      "type": "object",
+      "domain": [
+        "Visualization"
+      ],
+      "range": [
+        "BusinessProcess"
+      ],
+      "label": "可視化する",
+      "comment": "可視化活動が業務プロセスや関連要素を見える化することを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/visualizes"
+    },
+    {
+      "name": "streamlines",
+      "type": "object",
+      "domain": [
+        "Streamlining"
+      ],
+      "range": [
+        "BusinessProcess"
+      ],
+      "label": "整流化する",
+      "comment": "整流化が業務プロセスの無駄をなくし流れを整えることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/streamlines"
+    },
+    {
+      "name": "appliesPrinciple",
+      "type": "object",
+      "domain": [
+        "Streamlining"
+      ],
+      "range": [
+        "ECRSPrinciple"
+      ],
+      "label": "原則を適用する",
+      "comment": "整流化がECRSの原則に従ってソリューションを設計することを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/appliesPrinciple"
+    },
+    {
+      "name": "hasApproach",
+      "type": "object",
+      "domain": [
+        "ProblemVisualization"
+      ],
+      "range": [
+        "ProblemDiscoveryApproach"
+      ],
+      "label": "アプローチを持つ",
+      "comment": "問題の可視化が三種の発見アプローチを用いることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/hasApproach"
+    },
+    {
+      "name": "impairs",
+      "type": "object",
+      "domain": [
+        "ProblemVisualization"
+      ],
+      "range": [
+        "QCD"
+      ],
+      "label": "棄損する対象",
+      "comment": "問題が品質・コスト・納期を棄損する事象として定義されることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/impairs"
+    },
+    {
+      "name": "isLedBy",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "ProcessOwner"
+      ],
+      "label": "主導される",
+      "comment": "業務改革がプロセスオーナーによって主導されることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/isLedBy"
+    },
+    {
+      "name": "isManagedBy",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "BPMOrganization"
+      ],
+      "label": "所管される",
+      "comment": "業務改革が縦軸の専任BPM組織に所管されることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/isManagedBy"
+    },
+    {
+      "name": "followsFramework",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "SixBubblesFramework"
+      ],
+      "label": "フレームワークに従う",
+      "comment": "企業変革が六つのバブルの順序に従って進むことを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/followsFramework"
+    },
+    {
+      "name": "precedes",
+      "type": "object",
+      "domain": [
+        "Strategy",
+        "BusinessProcess",
+        "Organization",
+        "Skill"
+      ],
+      "range": [
+        "BusinessProcess",
+        "InformationSystem",
+        "Skill",
+        "CorporateCulture"
+      ],
+      "label": "先行する",
+      "comment": "戦略が業務に、業務が情報システムに、組織が人材スキルに、スキルが風土に先行することを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/precedes"
+    },
+    {
+      "name": "isMeansFor",
+      "type": "object",
+      "domain": [
+        "InformationSystem"
+      ],
+      "range": [
+        "BusinessProcess"
+      ],
+      "label": "手段である",
+      "comment": "情報システムは目的ではなく業務のための手段であることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/isMeansFor"
+    },
+    {
+      "name": "cultivates",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "CorporateCulture"
+      ],
+      "label": "醸成する",
+      "comment": "改革の定着が改革の自働化としての企業風土を醸成することを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/cultivates"
+    },
+    {
+      "name": "hasCapability",
+      "type": "object",
+      "domain": [
+        "Transformer"
+      ],
+      "range": [
+        "TransformationCapability"
+      ],
+      "label": "能力を持つ",
+      "comment": "トランスフォーマーが構想力・実行力・定着力を持つことを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/hasCapability"
+    },
+    {
+      "name": "contrastedWith",
+      "type": "object",
+      "domain": [
+        "Transformer"
+      ],
+      "range": [
+        "OperationTalent"
+      ],
+      "label": "対比される",
+      "comment": "仕組みを構築する改革人材と、仕組みの中で成果を出すオペレーション人材の違いを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/contrastedWith"
+    },
+    {
+      "name": "develops",
+      "type": "object",
+      "domain": [
+        "TalentPlacement"
+      ],
+      "range": [
+        "Skill"
+      ],
+      "label": "育成する",
+      "comment": "適材適所配置が実務スキルの見える化と育成を行うことを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/develops"
+    },
+    {
+      "name": "respects",
+      "type": "object",
+      "domain": [
+        "TalentPlacement"
+      ],
+      "range": [
+        "Craftsmanship"
+      ],
+      "label": "尊重する",
+      "comment": "デジタル化できない高度な手技を職人技として尊重し伝承することを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/respects"
+    },
+    {
+      "name": "hasCaseStudy",
+      "type": "object",
+      "domain": [
+        "OperationalExcellence"
+      ],
+      "range": [
+        "CaseStudy"
+      ],
+      "label": "実践事例を持つ",
+      "comment": "オペレーショナルエクセレンスが具体的な企業事例によって示されることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/hasCaseStudy"
+    },
+    {
+      "name": "operatesUnder",
+      "type": "object",
+      "domain": [
+        "ManufacturingCompany"
+      ],
+      "range": [
+        "VUCAEnvironment"
+      ],
+      "label": "環境下で運営する",
+      "comment": "企業がVUCA環境のもとで柔軟なオペレーションモデルを必要とすることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/operatesUnder"
+    },
+    {
+      "name": "hasInterface",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "InterdepartmentalInterface"
+      ],
+      "label": "インターフェースを持つ",
+      "comment": "組織が部門間の受け渡しや連携の接点を持つことを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/hasInterface"
+    },
+    {
+      "name": "dependsOnMechanism",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "Mechanism"
+      ],
+      "label": "仕組みに依存する",
+      "comment": "改革の定着は人ではなく仕組みに依存させる必要があることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/dependsOnMechanism"
+    },
+    {
+      "name": "includesValue",
+      "type": "object",
+      "domain": [
+        "Mechanism"
+      ],
+      "range": [
+        "MissionVisionValue"
+      ],
+      "label": "価値観を含む",
+      "comment": "定着のための仕組みがミッション・ビジョン・バリューを構成要素として含むことを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/includesValue"
+    },
+    {
+      "name": "usesTool",
+      "type": "object",
+      "domain": [
+        "Mechanism"
+      ],
+      "range": [
+        "InformationSystem"
+      ],
+      "label": "ツールを用いる",
+      "comment": "仕組みが情報システムを構成要素として用いることを表す。",
+      "uri": "https://books.local/Operational_Excellence_BPR/usesTool"
+    },
+    {
+      "name": "hasDefinition",
+      "type": "data",
+      "domain": [
+        "OperationalExcellence",
+        "BusinessReform",
+        "ValueCriterion",
+        "ExcellencePillar",
+        "BusinessProcess",
+        "BPRMethodology"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "定義",
+      "comment": "概念の定義を表す文字列。",
+      "uri": "https://books.local/Operational_Excellence_BPR/hasDefinition"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

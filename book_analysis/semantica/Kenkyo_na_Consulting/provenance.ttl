@@ -1,0 +1,471 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Kenkyo_na_Consulting/> .
+
+book:source a prov:Entity ;
+  foaf:name "Kenkyo_na_Consulting" ;
+  book:book_key "Kenkyo_na_Consulting" .
+
+book:エドガー・H・シャイン a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:Edgar H. Schein a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織開発 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:シャイン a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロセス・コンサルティング a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:キャリア・アンカー a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンサルティング a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:クライアント a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:Schein a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:Process Consultation a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:Humble Consulting a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:謙虚なコンサルティング a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:本当の支援 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:適応を要する課題 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:Adaptive Challenge a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:consultants a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:managers a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:leaders a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:American a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:オットー・シャーマー a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:U理論 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:アーヴィング・ゴッフマン a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:レジリエンス a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:探究心 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:信頼関係の構築 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:相互作用モデル a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:支援 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:2009年 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:1967年 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:人間関係 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:Technical Problems a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:External consultants a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:Diagnostic Organizational Development a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:organizational psychology a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:行動原理の確立 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:internal clients a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:教授 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:リーン生産方式 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:神戸大学大学院経営学研究科 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:金井壽宏 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:質問する技術 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:MIT a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:Massachusetts Institute of Technology a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:Career Anchors a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:traditional consulting a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:one-up dynamic a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:junior consultants a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:senior executives a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:先生 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハーバード・ケネディスクール a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロナルド・A・ハイフェッツ教授 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:Ronald Heifetz a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:Harvard a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:技術的な課題 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:気づき a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:genuine support a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:50年以上 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:研究 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:人を助けるとはどういうことか a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:文化的規範 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:型通りのアプローチ a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:部下 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:心理的な不安 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:business culture a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:talking a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:giving directives a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:safety and quality issues a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:work processes a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:即効性のある行動の創出 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:厄介な問題 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:然るべき行動 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:アージリス a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:エリック・エリクソン a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:受容 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:複雑性 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:多様性 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:不安定性 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:モデル a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:レベル a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:カール・ワイック a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:高信頼性組織 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ルース・カップリング a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:センスメーキング a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:間違いを受け容れる a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ワイック＆サトクリフ a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:状況適合性 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ゴッフマン a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ピーター・センゲ a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:家族療法 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:マダネス a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ランガー a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:マインドフルネス a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:デミング a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ジュラン a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:トヨタ生産方式 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:プルセック a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:適応的行動（アダプティブ・ムーブ） a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ブッシュ a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーシャク a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:対話型組織開発 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:診断型組織開発 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハイフェッツ a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:全米教育訓練研究所 a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:NTL a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:感受性訓練グループ a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベニス a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビル・アイザックス a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:ダイアログ a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:バレット a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:混沌にイエスと言う a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:自己呈示（スメーキング） a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:jazz band a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:uncertainty a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:Level 2 relationship a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:パーソナライゼーション a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .
+
+book:アダプティブ・ムーヴ a prov:Entity ;
+  book:book_key "Kenkyo_na_Consulting" ;
+  prov:wasDerivedFrom book:source .

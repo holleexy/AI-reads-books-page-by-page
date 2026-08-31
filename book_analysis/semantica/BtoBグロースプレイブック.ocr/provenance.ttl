@@ -1,0 +1,259 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/BtoBグロースプレイブック.ocr/> .
+
+book:source a prov:Entity ;
+  foaf:name "BtoBグロースプレイブック.ocr" ;
+  book:book_key "BtoBグロースプレイブック.ocr" .
+
+book:Japanese a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:B2B a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ARR a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Rakus a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:10 billion yen a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:playbooks a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Shu a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Executives a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:PMF a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Money Forward a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:IT a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:cloud a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:freee a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:HubSpot a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:The Model a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本市場 a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:past 20 years a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:North America a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:2010s a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Ha a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:enterprise a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:management-support practice a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:defense a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:universal theory a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:living playbook a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:LayerX a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Generative AI a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:勝ち筋 a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:T2D3 a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Q2T3 a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:守 a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:five systematic steps/trials a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:幻のPMF a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:拡大の谷 a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Valley of Expansion a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:キャズムの壁 a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:マルチプロダクトの沼 a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Multi-product swamp a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:30-billion-yen wall a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Takafumi Kurahashi a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Representative Director President a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Ryuhei Sadoshima a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:field practical knowledge a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:company growth a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:technological evolution a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:growth walls a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:成長の壁 a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:always-on internet a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:mid-to-late 2010s a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Zendesk a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:NRR a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Zoom a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:COVID-19 pandemic a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:remote work a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:楽楽精算 a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:accounting a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:KPI a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:市場規模の違い a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:アメリカ a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:AAO/domestic SaaS a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:One Capital a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ringisho a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:稟議書 a prov:Entity ;
+  book:book_key "BtoBグロースプレイブック.ocr" ;
+  prov:wasDerivedFrom book:source .

@@ -1,0 +1,436 @@
+@prefix ex: <https://books.local/Anthro_Vision/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Anthro_Vision/shapes> a owl:Ontology .
+
+<https://books.local/Anthro_Vision/AnthroVisionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnthroVision ;
+    sh:name "アンソロ・ビジョン" ;
+    sh:description "文化や文脈を理解する人類学的アプローチ。VUCAの時代に経済学やデータサイエンスだけでは足りない視点を補う。" ;
+    sh:property [
+        sh:path ex:usesMethod ;
+        sh:class ex:Ethnography ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:groundedIn ;
+        sh:class ex:CulturalRelativism ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedTo ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/AnthropologicalIntelligenceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnthropologicalIntelligence ;
+    sh:name "人類学的知性" ;
+    sh:description "人工知能とは別のもう一つのAI。文化・儀礼・象徴・文脈を深く理解し、不確実な未来のリスクを回避する知性。" ;
+    sh:property [
+        sh:path ex:embodies ;
+        sh:class ex:AnthroVision ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedTo ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/LateralVisionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LateralVision ;
+    sh:name "ラテラル・ビジョン" ;
+    sh:description "データやアルゴリズム依存を超え、人間の文化と文脈を捉える広い視野。" .
+
+<https://books.local/Anthro_Vision/AnthropologyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Anthropology ;
+    sh:name "人類学" ;
+    sh:description "人間の文化や社会を研究する学問。核心的手法は参与観察である。" ;
+    sh:property [
+        sh:path ex:usesMethod ;
+        sh:class ex:Ethnography ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:studies ;
+        sh:class ex:Culture ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:groundedIn ;
+        sh:class ex:CulturalRelativism ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/ResearchMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ResearchMethod ;
+    sh:name "研究方法" ;
+    sh:description "文化や社会を読み解くための調査・分析の手法。" .
+
+<https://books.local/Anthro_Vision/EthnographyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Ethnography ;
+    sh:name "エスノグラフィー" ;
+    sh:description "参与観察。研究者が現地に浸かり、インサイダー兼アウトサイダーとして文化的パターンを読み解く。" .
+
+<https://books.local/Anthro_Vision/FieldworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Fieldwork ;
+    sh:name "フィールドワーク" ;
+    sh:description "ミクロな虫の目で人々の生活を観察し、マクロな鳥の目では見えない真実を明らかにする現地調査。" .
+
+<https://books.local/Anthro_Vision/CultureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Culture ;
+    sh:name "文化" ;
+    sh:description "人々の価値観・慣習・意味づけの体系。技術の使い方や消費の意味も文化によって異なる。" ;
+    sh:property [
+        sh:path ex:hasMeaningWeb ;
+        sh:class ex:MeaningWeb ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasRitual ;
+        sh:class ex:Ritual ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesDifferently ;
+        sh:class ex:Technology ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exampleCase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/CulturalRelativismShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CulturalRelativism ;
+    sh:name "文化的相対性" ;
+    sh:description "すべての文化は独自の価値を持つという思想。帝国主義的進化主義からの転回としてフランツ・ボアズらが確立した。" .
+
+<https://books.local/Anthro_Vision/HabitusShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Habitus ;
+    sh:name "ハビトゥス" ;
+    sh:description "ピエール・ブルデューの概念。状況に応じて異なる価値観を使い分ける身体化された性向。" .
+
+<https://books.local/Anthro_Vision/MeaningWebShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MeaningWeb ;
+    sh:name "意味の網の目" ;
+    sh:description "クリフォード・ギアーツの概念。人々が自覚していない文化的パターンと意味のネットワーク。" .
+
+<https://books.local/Anthro_Vision/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人" ;
+    sh:description "文化的文脈の中で儀礼・消費・技術利用を行う人間。" ;
+    sh:property [
+        sh:path ex:hasHabitus ;
+        sh:class ex:Habitus ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:memberOf ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exhibits ;
+        sh:class ex:Tribalism ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesDifferently ;
+        sh:class ex:Technology ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practices ;
+        sh:class ex:Practice ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/AnthropologistShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Anthropologist ;
+    sh:name "人類学者" ;
+    sh:description "参与観察により文化を解明し、企業・医療・危機対応などに介入する専門家。" ;
+    sh:property [
+        sh:path ex:usesMethod ;
+        sh:class ex:Ethnography ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:studies ;
+        sh:class ex:Culture ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practices ;
+        sh:class ex:Practice ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHabitus ;
+        sh:class ex:Habitus ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:memberOf ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exhibits ;
+        sh:class ex:Tribalism ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesDifferently ;
+        sh:class ex:Technology ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "企業や集団。内部に異なる文化やサイロが共存しうる。" ;
+    sh:property [
+        sh:path ex:employs ;
+        sh:class ex:Anthropologist ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exhibits ;
+        sh:class ex:Tribalism ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practices ;
+        sh:class ex:Practice ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exampleCase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/CommunityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Community ;
+    sh:name "コミュニティ" ;
+    sh:description "共有された儀礼や価値観を持つ人々の集団。パンデミック対策では共生的アプローチの主体となる。" ;
+    sh:property [
+        sh:path ex:hasHabitus ;
+        sh:class ex:Habitus ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasRitual ;
+        sh:class ex:Ritual ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/RitualShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Ritual ;
+    sh:name "儀礼" ;
+    sh:description "結婚儀礼や葬儀など、文化的意味を持つ慣習的行為。医療的介入と衝突することがある。" ;
+    sh:property [
+        sh:path ex:exampleCase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/TechnologyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Technology ;
+    sh:name "テクノロジー" ;
+    sh:description "製品やデジタルサービス。文化によって使われ方と意味が全く異なる。" ;
+    sh:property [
+        sh:path ex:exampleCase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/TribalismShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Tribalism ;
+    sh:name "部族主義" ;
+    sh:description "組織内のサイロ化。同じ社内でも会議の意味が「意思決定」と「情報共有」のように食い違う病理。" .
+
+<https://books.local/Anthro_Vision/EgocentrismShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Egocentrism ;
+    sh:name "エゴセントリズム" ;
+    sh:description "世界中の誰もが同じようにテクノロジーを使うと思い込む自己中心主義。技術者に生じやすい。" .
+
+<https://books.local/Anthro_Vision/CreationMythShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CreationMyth ;
+    sh:name "創世神話" ;
+    sh:description "金融イノベーションなどを正当化するために信じ込まれる物語。複雑な商品のリスクを見えなくする。" .
+
+<https://books.local/Anthro_Vision/CrisisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Crisis ;
+    sh:name "危機" ;
+    sh:description "金融崩壊や感染症など、文化的誤読や神話が悪化させうる社会的危機。" ;
+    sh:property [
+        sh:path ex:requires ;
+        sh:class ex:AnthroVision ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exampleCase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/FinancialCrisisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FinancialCrisis ;
+    sh:name "金融危機" ;
+    sh:description "2008年のように、合理的経済モデルでは測れない人間行動と創世神話が引き起こす危機。" ;
+    sh:property [
+        sh:path ex:causedBy ;
+        sh:class ex:CreationMyth ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requires ;
+        sh:class ex:AnthroVision ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exampleCase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/PandemicShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Pandemic ;
+    sh:name "パンデミック" ;
+    sh:description "エボラや新型コロナウイルスなど、西洋的トップダウン医療が現地儀礼と衝突しうる感染症危機。" ;
+    sh:property [
+        sh:path ex:conflictsWith ;
+        sh:class ex:Ritual ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requires ;
+        sh:class ex:AnthroVision ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exampleCase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/DigitalEconomyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DigitalEconomy ;
+    sh:name "デジタル経済" ;
+    sh:description "無料サービスとユーザーデータの交換で成り立つ経済。GDPでは無形資産の価値を測りにくい。" ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:BarterExchange ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/BarterExchangeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BarterExchange ;
+    sh:name "バーター" ;
+    sh:description "物々交換。シリコンバレーが「無料」と引き換えにデータを収集する取引形態。" .
+
+<https://books.local/Anthro_Vision/ConsumerBehaviorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConsumerBehavior ;
+    sh:name "消費者行動" ;
+    sh:description "ペットを家族として扱うなど、複雑で矛盾的な消費の実践。" ;
+    sh:property [
+        sh:path ex:limitedBy ;
+        sh:class ex:WEIRDModel ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/WEIRDModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WEIRDModel ;
+    sh:name "WEIRDモデル" ;
+    sh:description "西洋的・教育的・産業化・富裕・民主的な心理パッケージ。個人主義的・分析的だが実際の行動を説明しきれない。" .
+
+<https://books.local/Anthro_Vision/BigDataShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BigData ;
+    sh:name "ビッグデータ" ;
+    sh:description "何が起きているかを示す定量的な大規模データ。" .
+
+<https://books.local/Anthro_Vision/ThickDataShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThickData ;
+    sh:name "シックデータ" ;
+    sh:description "厚いデータ。なぜ起きているかを明らかにする定性調査のデータ。ビッグデータを補完する。" ;
+    sh:property [
+        sh:path ex:complements ;
+        sh:class ex:BigData ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/ShareholderCapitalismShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ShareholderCapitalism ;
+    sh:name "株主資本主義" ;
+    sh:description "フリードマン流の、株主利益を最優先する資本主義。" .
+
+<https://books.local/Anthro_Vision/StakeholderCapitalismShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:StakeholderCapitalism ;
+    sh:name "ステークホルダー資本主義" ;
+    sh:description "すべての利害関係者を考慮する資本主義。外部不経済を無視できない時代への転換先。" ;
+    sh:property [
+        sh:path ex:succeeds ;
+        sh:class ex:ShareholderCapitalism ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/SustainabilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Sustainability ;
+    sh:name "サステナビリティ" ;
+    sh:description "気候変動や格差などの外部不経済に向き合う持続可能性（ESGを含む）。レジリエンス強化に結びつく。" ;
+    sh:property [
+        sh:path ex:requires ;
+        sh:class ex:AnthroVision ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Anthro_Vision/PracticeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Practice ;
+    sh:name "実践" ;
+    sh:description "他者理解、多様性の受容、異質なものへの没入、自己相対化、社会的沈黙への聴取など、アンソロ・ビジョンを身につける方法。" ;
+    sh:property [
+        sh:path ex:exampleCase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .

@@ -1,0 +1,478 @@
+@prefix ex: <https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/shapes> a owl:Ontology .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "成果に直結する仮説提案営業の実践講座に関する書籍およびその分析対象。" ;
+    sh:property [
+        sh:path ex:title ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesChallengeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesChallenge ;
+    sh:name "営業課題" ;
+    sh:description "新製品が売れない、新規開拓が苦手、引き合い減少、製品同質化、オンライン商談での関係構築難化などBtoB営業の共通課題。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesApproach ;
+    sh:name "営業アプローチ" ;
+    sh:description "顧客への働きかけの仕方を表す営業スタイルや手法の上位概念。" ;
+    sh:property [
+        sh:path ex:addressesChallenge ;
+        sh:class ex:SalesChallenge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesPrinciple ;
+        sh:class ex:PsychologicalPrinciple ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/WaitingSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WaitingSales ;
+    sh:name "待ちの営業" ;
+    sh:description "顧客からの提案依頼を待つ従来型の営業。システムリプレース型の大型案件に依存しやすい。" ;
+    sh:property [
+        sh:path ex:addressesChallenge ;
+        sh:class ex:SalesChallenge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesPrinciple ;
+        sh:class ex:PsychologicalPrinciple ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/OffensiveSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OffensiveSales ;
+    sh:name "攻めの営業" ;
+    sh:description "クラウド普及による単価低下を踏まえ、顧客に先回りして提案する能動的な営業パラダイム。" ;
+    sh:property [
+        sh:path ex:addressesChallenge ;
+        sh:class ex:SalesChallenge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesPrinciple ;
+        sh:class ex:PsychologicalPrinciple ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisProposalSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HypothesisProposalSales ;
+    sh:name "仮説提案営業" ;
+    sh:description "明確なニーズがなくても事前調査に基づく仮説と個別提案資料で初回商談から案件を前進させる営業手法。" ;
+    sh:property [
+        sh:path ex:usesThinkingMethod ;
+        sh:class ex:ThinkingMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:formulatesHypothesis ;
+        sh:class ex:Hypothesis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:addressesChallenge ;
+        sh:class ex:SalesChallenge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesPrinciple ;
+        sh:class ex:PsychologicalPrinciple ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ThinkingMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThinkingMethod ;
+    sh:name "思考法" ;
+    sh:description "営業活動で結論を導くための思考の枠組み。" .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ExhaustiveThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExhaustiveThinking ;
+    sh:name "網羅思考" ;
+    sh:description "すべての事象やデータを抽出・分析してから結論を出す手法。現場営業には時間がかかりすぎて不向き。" .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HypothesisThinking ;
+    sh:name "仮説思考" ;
+    sh:description "BCGが提唱した、情報が不十分な段階で仮の結論を立て実行・検証・修正を繰り返す手法。" .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Hypothesis ;
+    sh:name "仮説" ;
+    sh:description "限られた情報から立てる顧客課題または解決策の仮の結論。" ;
+    sh:property [
+        sh:path ex:hasHypothesisLevel ;
+        sh:class ex:HypothesisLevel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnSource ;
+        sh:class ex:InformationSource ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:proposedToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:presentedInMeeting ;
+        sh:class ex:SalesMeeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProblemHypothesisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProblemHypothesis ;
+    sh:name "問題仮説" ;
+    sh:description "顧客が抱えているであろう課題の仮定。So what?で根本原因とインパクトまで深掘りする。" ;
+    sh:property [
+        sh:path ex:hasHypothesisLevel ;
+        sh:class ex:HypothesisLevel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnSource ;
+        sh:class ex:InformationSource ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:proposedToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:presentedInMeeting ;
+        sh:class ex:SalesMeeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SolutionHypothesisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SolutionHypothesis ;
+    sh:name "解決仮説" ;
+    sh:description "問題を解決するための具体的な対策や製品導入の仮定。" ;
+    sh:property [
+        sh:path ex:solvesProblem ;
+        sh:class ex:ProblemHypothesis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHypothesisLevel ;
+        sh:class ex:HypothesisLevel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnSource ;
+        sh:class ex:InformationSource ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:proposedToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:presentedInMeeting ;
+        sh:class ex:SalesMeeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisLevelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HypothesisLevel ;
+    sh:name "仮説レベル" ;
+    sh:description "エリア特化・企業規模特化・業界特化・企業特化の四段階。レベルが上がるほど案件化率と共感が高まる。" ;
+    sh:property [
+        sh:path ex:levelName ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/InformationSourceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InformationSource ;
+    sh:name "情報源" ;
+    sh:description "SPEEDA、Googleアラート、RSSリーダーなど仮説立案のための調査手段。" .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProposalMaterialShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProposalMaterial ;
+    sh:name "提案資料" ;
+    sh:description "初回商談で導入必要性を伝える資料。情報過多を避け、Whyと起こり得る結果を中心に構成する。" ;
+    sh:property [
+        sh:path ex:proposedToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:includesCaseStudy ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:presentedInMeeting ;
+        sh:class ex:SalesMeeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:title ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:goal ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/CaseStudyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CaseStudy ;
+    sh:name "導入事例" ;
+    sh:description "同業種・同規模を優先して示す事例。検討中・検証・導入の段階と具体的社数で訴求する。" ;
+    sh:property [
+        sh:path ex:title ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesMeetingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesMeeting ;
+    sh:name "商談" ;
+    sh:description "仮説提示、ヒアリング、質疑、クロージングで構成される顧客との商談。" ;
+    sh:property [
+        sh:path ex:hasMeetingPhase ;
+        sh:class ex:MeetingPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesClosingTechnique ;
+        sh:class ex:ClosingTechnique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesOnlineTechnique ;
+        sh:class ex:OnlineMeetingTechnique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:conductedBy ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:conductedWith ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:durationNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:goal ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/MeetingPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MeetingPhase ;
+    sh:name "商談フェーズ" ;
+    sh:description "オープニング、ボディ、クロージングなど商談の時間配分単位。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:durationNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ClosingTechniqueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ClosingTechnique ;
+    sh:name "クロージング手法" ;
+    sh:description "松竹梅の選択肢クロージングなど、即決を迫らず次回アクションへ誘導する技法。" .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/OnlineMeetingTechniqueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OnlineMeetingTechnique ;
+    sh:name "オンライン商談テクニック" ;
+    sh:description "視覚・聴覚・言語の三つのVを工夫し、警戒心の高いオンライン環境で関係を深める技法。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PartnerSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PartnerSales ;
+    sh:name "パートナーセールス" ;
+    sh:description "SIerや代理店を通じた間接販売。分析、協業提案、交渉、案件創出、継続受注の五ステップで進める。" ;
+    sh:property [
+        sh:path ex:sellsThroughPartner ;
+        sh:class ex:BusinessPartner ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:goal ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:addressesChallenge ;
+        sh:class ex:SalesChallenge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesPrinciple ;
+        sh:class ex:PsychologicalPrinciple ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PsychologicalPrincipleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PsychologicalPrinciple ;
+    sh:name "心理原則" ;
+    sh:description "返報性・一貫性・社会的証明・権威・好意・希少性など、顧客の心を動かすチャルディーニの原則。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalespersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Salesperson ;
+    sh:name "営業パーソン" ;
+    sh:description "企業ブランドや製品スペックではなく仮説提案によって個人として選ばれることを目指す営業担当者。" ;
+    sh:property [
+        sh:path ex:formulatesHypothesis ;
+        sh:class ex:Hypothesis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:preparesMaterial ;
+        sh:class ex:ProposalMaterial ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practicesApproach ;
+        sh:class ex:SalesApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesPrinciple ;
+        sh:class ex:PsychologicalPrinciple ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:collaboratesWith ;
+        sh:class ex:BusinessPartner ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "仮説の対象となる企業。ニーズが未明確でも課題仮説によって商談を前進させる相手。" .
+
+<https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/BusinessPartnerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessPartner ;
+    sh:name "販売パートナー" ;
+    sh:description "メーカー製品を顧客へ販売するSIerや代理店。Win-Win-Winの協業とイノベーター理論による展開対象。" .

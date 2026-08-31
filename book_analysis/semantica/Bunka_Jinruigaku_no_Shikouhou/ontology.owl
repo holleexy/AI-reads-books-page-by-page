@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/">
+    <rdfs:label>Bunka_Jinruigaku_no_ShikouhouOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">読者に文化人類学の思考の道具箱を提供し、答えではなく探索のルートを伝える本書</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Anthropologist">
+    <rdfs:label xml:lang="ja">人類学者</rdfs:label>
+    <rdfs:comment xml:lang="ja">日本・アジア・ヨーロッパ・アフリカで科学技術、宗教、芸術、経済、政治、家族、医療などを研究し教える専門家</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/CulturalAnthropology">
+    <rdfs:label xml:lang="ja">文化人類学</rdfs:label>
+    <rdfs:comment xml:lang="ja">現場の人々の感じ方を重視し、白黒判断ではなく絡み合った複雑さを描き出す学問</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Fieldwork">
+    <rdfs:label xml:lang="ja">フィールドワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">参与観察の身体経験を通じ、他者理解と自己の前提の発見、既存概念の更新を行う方法</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalThinking">
+    <rdfs:label xml:lang="ja">文化人類学的思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">特定の答えではなく、ルートの探索方法と目のつけどころを提供する思考</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Closeness">
+    <rdfs:label xml:lang="ja">近さ</rdfs:label>
+    <rdfs:comment xml:lang="ja">フィールドワークで対象に肉薄し、五感を働かせ現場の違和感や問いから目をそらさないこと</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalThinking"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Distance">
+    <rdfs:label xml:lang="ja">遠さ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ヤップ島の石貨や東アフリカの牧畜民など遠い事例との比較により固定観念を打ち砕くこと</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalThinking"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept">
+    <rdfs:label xml:lang="ja">人類学的概念</rdfs:label>
+    <rdfs:comment xml:lang="ja">世界のとらえ方、価値と秩序、あらたな共同性を問い直すための分析概念</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Nature">
+    <rdfs:label xml:lang="ja">自然</rdfs:label>
+    <rdfs:comment xml:lang="ja">客観的実体ではなく文化的に構築された概念。多自然主義では複数の自然が想定される</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Culture">
+    <rdfs:label xml:lang="ja">文化</rdfs:label>
+    <rdfs:comment xml:lang="ja">人々の感じ方や考え方であり、他者理解を通じて自己の前提も発見される対象</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Technology">
+    <rdfs:label xml:lang="ja">技術</rdfs:label>
+    <rdfs:comment xml:lang="ja">ホモ・ファーベルとしての人間が作り、身体・社会・環世界を相互に条件づけ拡張するもの</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Magic">
+    <rdfs:label xml:lang="ja">呪術</rdfs:label>
+    <rdfs:comment xml:lang="ja">類感・感染の連想、心理的社会的機能、野生の思考やネットワークとして分析される実践</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Science">
+    <rdfs:label xml:lang="ja">科学</rdfs:label>
+    <rdfs:comment xml:lang="ja">社会的実践により構築され、アクターネットワーク論では呪術と本質的に区別されない事実</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Art">
+    <rdfs:label xml:lang="ja">芸術</rdfs:label>
+    <rdfs:comment xml:lang="ja">制度的にいつ芸術になるかという問いと、社会的関係を媒介する指標として再定義される</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Gift">
+    <rdfs:label xml:lang="ja">贈与</rdfs:label>
+    <rdfs:comment xml:lang="ja">与える・受け取る・お返しする義務を伴い、クラやポトラッチに見られる全体的社会的事実</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Money">
+    <rdfs:label xml:lang="ja">貨幣</rdfs:label>
+    <rdfs:comment xml:lang="ja">商品起源説に対し、石貨やブロックチェーンのように記憶・合意・信用で機能するシステム</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/State">
+    <rdfs:label xml:lang="ja">国家</rdfs:label>
+    <rdfs:comment xml:lang="ja">ヌアー社会など国家なき秩序との対比により中央集権的権力を相対化する対象</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/NationState">
+    <rdfs:label xml:lang="ja">国民国家</rdfs:label>
+    <rdfs:comment xml:lang="ja">教育やメディアを通じて想像された共同体として形成され、グローバル化で揺らぐ枠組み</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/State"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/War">
+    <rdfs:label xml:lang="ja">戦争</rdfs:label>
+    <rdfs:comment xml:lang="ja">隣接集団との関係や普通の人が加害者となる文脈、自己再生産する暴力の連鎖として分析される</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Family">
+    <rdfs:label xml:lang="ja">家族</rdfs:label>
+    <rdfs:comment xml:lang="ja">血縁だけでなく共に暮らす関係性により構築され、ジェンダーや生殖医療により再編される</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Care">
+    <rdfs:label xml:lang="ja">ケア</rdfs:label>
+    <rdfs:comment xml:lang="ja">選択の論理に対し必要性に寄り添う共同的・生態系的実践であり、基盤的コミュニズムでもある</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/CivilSociety">
+    <rdfs:label xml:lang="ja">市民社会</rdfs:label>
+    <rdfs:comment xml:lang="ja">公式手段を持たない人々の逃散や日常的交渉によるしたたかな政治が営まれる場</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/authoredBy">
+    <rdfs:label xml:lang="ja">執筆者</rdfs:label>
+    <rdfs:comment xml:lang="ja">本書を書いた文化人類学の専門家を示す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Book"/>
+    <rdfs:range rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Anthropologist"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/conductsFieldwork">
+    <rdfs:label xml:lang="ja">フィールドワークを行う</rdfs:label>
+    <rdfs:comment xml:lang="ja">人類学者が参与観察を身体経験として実施する関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Anthropologist"/>
+    <rdfs:range rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Fieldwork"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/usesMethod">
+    <rdfs:label xml:lang="ja">方法として用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">文化人類学が現場調査を理解の方法として用いる関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/CulturalAnthropology"/>
+    <rdfs:range rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Fieldwork"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/providesThinking">
+    <rdfs:label xml:lang="ja">思考法を提供する</rdfs:label>
+    <rdfs:comment xml:lang="ja">本書が近さと遠さを核とする思考の道具箱を提供する関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Book"/>
+    <rdfs:range rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalThinking"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/hasCoreDimension">
+    <rdfs:label xml:lang="ja">核となる次元</rdfs:label>
+    <rdfs:comment xml:lang="ja">文化人類学的思考が近さと遠さを核とすることを示す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalThinking"/>
+    <rdfs:range rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Closeness"/>
+    <rdfs:range rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Distance"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/studies">
+    <rdfs:label xml:lang="ja">研究する</rdfs:label>
+    <rdfs:comment xml:lang="ja">人類学者が自然、贈与、国家、ケアなどの概念を研究対象とする関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Anthropologist"/>
+    <rdfs:range rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/culturallyConstructs">
+    <rdfs:label xml:lang="ja">文化的に構築する</rdfs:label>
+    <rdfs:comment xml:lang="ja">自然を客観的実体ではなく文化的概念として構築する関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Culture"/>
+    <rdfs:range rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Nature"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/defamiliarizes">
+    <rdfs:label xml:lang="ja">相対化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">遠い事例との比較が見慣れた事物や近代的枠組みの固定観念を打ち砕く関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Distance"/>
+    <rdfs:range rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConcept"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Bunka_Jinruigaku_no_Shikouhou/hasTitle">
+    <rdfs:label xml:lang="ja">書名</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍の標題を表す</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bunka_Jinruigaku_no_Shikouhou/Book"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

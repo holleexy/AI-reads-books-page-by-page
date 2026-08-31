@@ -1,0 +1,664 @@
+{
+  "uri": "https://books.local/Research_Driven_Innovation/",
+  "name": "Research_Driven_InnovationOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "ResearchDrivenInnovation",
+      "uri": "https://books.local/Research_Driven_Innovation/ResearchDrivenInnovation",
+      "label": "リサーチ・ドリブン・イノベーション",
+      "comment": "リサーチという反復的な探索活動を中核に据え、内と外の絶えざる往復による探究を本質とするイノベーションの実践手法。",
+      "parent": null
+    },
+    {
+      "name": "Innovation",
+      "uri": "https://books.local/Research_Driven_Innovation/Innovation",
+      "label": "イノベーション",
+      "comment": "シュンペーターの新結合に基づき、一見関係のない既存の知識同士を結びつけ新たな価値を生み出すこと。",
+      "parent": null
+    },
+    {
+      "name": "Organization",
+      "uri": "https://books.local/Research_Driven_Innovation/Organization",
+      "label": "組織",
+      "comment": "イノベーションを実施する集団。探究的衝動の抑圧、創造的自信の喪失、成功の罠が生じうる。",
+      "parent": null
+    },
+    {
+      "name": "Individual",
+      "uri": "https://books.local/Research_Driven_Innovation/Individual",
+      "label": "個人",
+      "comment": "探究的衝動と創造的自信を持つ主体。文脈的アプローチでは日常業務内で知の深化と探索のバランスを取る。",
+      "parent": null
+    },
+    {
+      "name": "Team",
+      "uri": "https://books.local/Research_Driven_Innovation/Team",
+      "label": "チーム",
+      "comment": "問いとデータを足場に創造的対話を行い、前提の合意形成まで進める実践単位。",
+      "parent": null
+    },
+    {
+      "name": "ExploratoryImpulse",
+      "uri": "https://books.local/Research_Driven_Innovation/ExploratoryImpulse",
+      "label": "探究的衝動",
+      "comment": "デューイの経験学習における内なる衝動。イノベーションの起点となり、問いによって刺激される。",
+      "parent": null
+    },
+    {
+      "name": "CreativeConfidence",
+      "uri": "https://books.local/Research_Driven_Innovation/CreativeConfidence",
+      "label": "創造的自信",
+      "comment": "個人が創造的に思考し行為できるという自信。組織内で抑圧され喪失されうる。",
+      "parent": null
+    },
+    {
+      "name": "SuccessTrap",
+      "uri": "https://books.local/Research_Driven_Innovation/SuccessTrap",
+      "label": "成功の罠",
+      "comment": "一度成功した手法に固執し、中長期的な知の探索を怠ってしまう現象。",
+      "parent": null
+    },
+    {
+      "name": "ChangeRigidity",
+      "uri": "https://books.local/Research_Driven_Innovation/ChangeRigidity",
+      "label": "変化の硬直化",
+      "comment": "個人・チーム・組織の各レイヤーでイノベーションを阻害する変化への抵抗。",
+      "parent": null
+    },
+    {
+      "name": "KnowledgeDeepening",
+      "uri": "https://books.local/Research_Driven_Innovation/KnowledgeDeepening",
+      "label": "知の深化",
+      "comment": "既存事業を改善する活動。両利きの経営の一方の極。",
+      "parent": null
+    },
+    {
+      "name": "KnowledgeExploration",
+      "uri": "https://books.local/Research_Driven_Innovation/KnowledgeExploration",
+      "label": "知の探索",
+      "comment": "新たな可能性を探る活動。両利きの経営の他方の極。",
+      "parent": null
+    },
+    {
+      "name": "AmbidextrousManagement",
+      "uri": "https://books.local/Research_Driven_Innovation/AmbidextrousManagement",
+      "label": "両利きの経営",
+      "comment": "知の深化と知の探索を両立させイノベーションを持続させる経営。連続的・構造的・文脈的アプローチがある。",
+      "parent": null
+    },
+    {
+      "name": "ContextualApproach",
+      "uri": "https://books.local/Research_Driven_Innovation/ContextualApproach",
+      "label": "文脈的アプローチ",
+      "comment": "各個人が日常業務内で深化と探索のバランスを取る両利きの方法。最も重要視される。",
+      "parent": "AmbidextrousManagement"
+    },
+    {
+      "name": "OrganizationalLearning",
+      "uri": "https://books.local/Research_Driven_Innovation/OrganizationalLearning",
+      "label": "組織学習",
+      "comment": "イノベーションの延長線上にある学習。衝動から観察・結合・判断を経て目的へ昇華する。",
+      "parent": null
+    },
+    {
+      "name": "CreativeSoil",
+      "uri": "https://books.local/Research_Driven_Innovation/CreativeSoil",
+      "label": "創造の土壌",
+      "comment": "氷山モデルにおけるプロセス層。個人の衝動や関係性の質を耕すことで創造性が育まれる。",
+      "parent": null
+    },
+    {
+      "name": "InnovationApproach",
+      "uri": "https://books.local/Research_Driven_Innovation/InnovationApproach",
+      "label": "イノベーション・アプローチ",
+      "comment": "イノベーションの方向性を見出すためのアプローチの総称。",
+      "parent": null
+    },
+    {
+      "name": "OutsideInApproach",
+      "uri": "https://books.local/Research_Driven_Innovation/OutsideInApproach",
+      "label": "アウトサイド・イン",
+      "comment": "ユーザー観察・共感・プロトタイピングによる外から内へのアプローチ。アブダクションで多様な見方を立ち上げる。",
+      "parent": "InnovationApproach"
+    },
+    {
+      "name": "InsideOutApproach",
+      "uri": "https://books.local/Research_Driven_Innovation/InsideOutApproach",
+      "label": "インサイド・アウト",
+      "comment": "つくり手の熟考・ビジョン・批判的対話・プロービングによる内から外へのアプローチ。驚きや愛を呼ぶ意味を提案する。",
+      "parent": "InnovationApproach"
+    },
+    {
+      "name": "DesignThinking",
+      "uri": "https://books.local/Research_Driven_Innovation/DesignThinking",
+      "label": "デザイン思考",
+      "comment": "エスノグラフィ、共感、批判厳禁の発想、プロトタイピングを用いるアウトサイド・インの手法。",
+      "parent": null
+    },
+    {
+      "name": "MeaningInnovation",
+      "uri": "https://books.local/Research_Driven_Innovation/MeaningInnovation",
+      "label": "意味のイノベーション",
+      "comment": "生活者が求めるものを探るのではなく、つくり手が意味を提案するインサイド・アウトの手法。",
+      "parent": null
+    },
+    {
+      "name": "InquiryDrivenDoubleDiamond",
+      "uri": "https://books.local/Research_Driven_Innovation/InquiryDrivenDoubleDiamond",
+      "label": "探究的ダブルダイヤモンドモデル",
+      "comment": "方向性を探索し定義していくリサーチ・ドリブン・イノベーションの実践プロセスモデル。",
+      "parent": null
+    },
+    {
+      "name": "ProcessStep",
+      "uri": "https://books.local/Research_Driven_Innovation/ProcessStep",
+      "label": "プロセス段階",
+      "comment": "探究的ダブルダイヤモンドを構成する実践ステップの総称。",
+      "parent": null
+    },
+    {
+      "name": "QuestionFormulation",
+      "uri": "https://books.local/Research_Driven_Innovation/QuestionFormulation",
+      "label": "問いを立てる",
+      "comment": "価値探究型のリサーチクエスチョンを立て、探究的衝動と創造的対話を誘発する第一段階。",
+      "parent": "ProcessStep"
+    },
+    {
+      "name": "DataCollection",
+      "uri": "https://books.local/Research_Driven_Innovation/DataCollection",
+      "label": "データを集める",
+      "comment": "正解ではなく足場としてデータを集める第二段階。わかるためのデータとつくるためのデータがある。",
+      "parent": "ProcessStep"
+    },
+    {
+      "name": "DataInterpretation",
+      "uri": "https://books.local/Research_Driven_Innovation/DataInterpretation",
+      "label": "データを解釈する",
+      "comment": "社会構成主義に立ち、関係性の解釈の重ね合わせと対話により意味を生成する第三段階。",
+      "parent": "ProcessStep"
+    },
+    {
+      "name": "ConsensusFormation",
+      "uri": "https://books.local/Research_Driven_Innovation/ConsensusFormation",
+      "label": "合意を形成する",
+      "comment": "答えではなく前提で一致し、HMW形式で次フェーズへ進む第四段階。違和感を尊重する。",
+      "parent": "ProcessStep"
+    },
+    {
+      "name": "IdeaGeneration",
+      "uri": "https://books.local/Research_Driven_Innovation/IdeaGeneration",
+      "label": "アイデアの生成",
+      "comment": "機能解析法と形態チャート法により多様な組み合わせのアイデアを生み出す段階。",
+      "parent": "ProcessStep"
+    },
+    {
+      "name": "IdeaVerification",
+      "uri": "https://books.local/Research_Driven_Innovation/IdeaVerification",
+      "label": "アイデアの検証",
+      "comment": "リーン・スタートアップとプロトタイピングにより、進みたい方向性に沿っているかを確かめる段階。",
+      "parent": "ProcessStep"
+    },
+    {
+      "name": "ResearchQuestion",
+      "uri": "https://books.local/Research_Driven_Innovation/ResearchQuestion",
+      "label": "リサーチクエスチョン",
+      "comment": "目標ありきではなく人間や社会の本質への関心から立つ問い。実用的関心と概念的関心、内と外のマトリクスで探索する。",
+      "parent": null
+    },
+    {
+      "name": "Data",
+      "uri": "https://books.local/Research_Driven_Innovation/Data",
+      "label": "データ",
+      "comment": "正解を導くものではなく、不確実な海で高く跳ぶための足場（錨）。客観的・大量・即答である必要はない。",
+      "parent": null
+    },
+    {
+      "name": "DataForUnderstanding",
+      "uri": "https://books.local/Research_Driven_Innovation/DataForUnderstanding",
+      "label": "わかるためのデータ",
+      "comment": "チームの共通理解（立脚点）をつくるデータ。既知の未知へのアプローチ。",
+      "parent": "Data"
+    },
+    {
+      "name": "DataForCreating",
+      "uri": "https://books.local/Research_Driven_Innovation/DataForCreating",
+      "label": "つくるためのデータ",
+      "comment": "多様な解釈を生み出し新たな気づきを促すデータ。未知の未知へのアプローチ。",
+      "parent": "Data"
+    },
+    {
+      "name": "Dialogue",
+      "uri": "https://books.local/Research_Driven_Innovation/Dialogue",
+      "label": "対話",
+      "comment": "結論を急ぐ議論とは異なり、判断を留保し価値観の共有と新たな意味の生成を目的とする営み。",
+      "parent": null
+    },
+    {
+      "name": "Premise",
+      "uri": "https://books.local/Research_Driven_Innovation/Premise",
+      "label": "前提",
+      "comment": "答えで固定化せず個人の思考の余地を残すために一致させる合意対象。",
+      "parent": null
+    },
+    {
+      "name": "HowMightWe",
+      "uri": "https://books.local/Research_Driven_Innovation/HowMightWe",
+      "label": "ハウ・マイト・ウィ",
+      "comment": "私たちはどのようにすればできるだろうか、という形式で前提を表現する問い。行為・感情・場・関係性に着目する。",
+      "parent": null
+    },
+    {
+      "name": "Idea",
+      "uri": "https://books.local/Research_Driven_Innovation/Idea",
+      "label": "アイデア",
+      "comment": "方向性合意後の生成フェーズで生み出される構想。良し悪しより進みたい方向性との整合が問われる。",
+      "parent": null
+    },
+    {
+      "name": "FunctionAnalysisMethod",
+      "uri": "https://books.local/Research_Driven_Innovation/FunctionAnalysisMethod",
+      "label": "機能解析法",
+      "comment": "入力・処理（ブラックボックス）・出力で機能を分解しアイデア生成の基礎をつくる方法。",
+      "parent": null
+    },
+    {
+      "name": "MorphologicalChartMethod",
+      "uri": "https://books.local/Research_Driven_Innovation/MorphologicalChartMethod",
+      "label": "形態チャート法",
+      "comment": "分解した各要素の実現手段を掛け合わせ、多様なアイデアの組み合わせを生成する方法。",
+      "parent": null
+    },
+    {
+      "name": "LeanStartup",
+      "uri": "https://books.local/Research_Driven_Innovation/LeanStartup",
+      "label": "リーン・スタートアップ",
+      "comment": "低コストの実用最小限の製品を早期に作成し学習する検証手法。",
+      "parent": null
+    },
+    {
+      "name": "Prototype",
+      "uri": "https://books.local/Research_Driven_Innovation/Prototype",
+      "label": "プロトタイプ",
+      "comment": "試行錯誤を通じて学習するための試作。アイデア自体の評価より方向性の確認に用いる。",
+      "parent": null
+    },
+    {
+      "name": "Researcher",
+      "uri": "https://books.local/Research_Driven_Innovation/Researcher",
+      "label": "リサーチャー",
+      "comment": "単なるデータ収集・分析者ではなく、問いを立て対話をファシリテートし思考を跳躍させる哲学者かつクリエイター。",
+      "parent": null
+    },
+    {
+      "name": "NegativeCapability",
+      "uri": "https://books.local/Research_Driven_Innovation/NegativeCapability",
+      "label": "ネガティブ・ケイパビリティ",
+      "comment": "不確実性や曖昧さを耐え抜き享受する能力。イノベーションに不可欠。",
+      "parent": null
+    },
+    {
+      "name": "CaseStudy",
+      "uri": "https://books.local/Research_Driven_Innovation/CaseStudy",
+      "label": "ケーススタディ",
+      "comment": "トイレ空間、シチズンのブランディング、さとり世代向け保険、コンビニ高頻度ユーザーなどプロセス検証事例。",
+      "parent": null
+    },
+    {
+      "name": "Workshop",
+      "uri": "https://books.local/Research_Driven_Innovation/Workshop",
+      "label": "ワークショップ",
+      "comment": "入力・プロセス・成果物を設計し、わからなかったことから共有して解釈を深める場。",
+      "parent": null
+    },
+    {
+      "name": "Stakeholder",
+      "uri": "https://books.local/Research_Driven_Innovation/Stakeholder",
+      "label": "ステークホルダー",
+      "comment": "問いの点検やイノベーションの価値に関わる利害関係者。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "suppresses",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "ExploratoryImpulse",
+        "CreativeConfidence"
+      ],
+      "label": "抑圧する",
+      "comment": "組織が個人の探究的衝動や創造的自信を抑圧する関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/suppresses"
+    },
+    {
+      "name": "fallsInto",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "SuccessTrap",
+        "ChangeRigidity"
+      ],
+      "label": "陥る",
+      "comment": "組織が成功の罠や変化の硬直化に陥る関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/fallsInto"
+    },
+    {
+      "name": "balances",
+      "type": "object",
+      "domain": [
+        "AmbidextrousManagement",
+        "ContextualApproach",
+        "Individual"
+      ],
+      "range": [
+        "KnowledgeDeepening",
+        "KnowledgeExploration"
+      ],
+      "label": "両立させる",
+      "comment": "知の深化と知の探索を両立させる関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/balances"
+    },
+    {
+      "name": "memberOf",
+      "type": "object",
+      "domain": [
+        "Individual",
+        "Researcher"
+      ],
+      "range": [
+        "Team",
+        "Organization"
+      ],
+      "label": "所属する",
+      "comment": "個人やリサーチャーがチームまたは組織に所属する関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/memberOf"
+    },
+    {
+      "name": "cultivates",
+      "type": "object",
+      "domain": [
+        "Organization",
+        "Team"
+      ],
+      "range": [
+        "CreativeSoil",
+        "ExploratoryImpulse"
+      ],
+      "label": "耕す",
+      "comment": "組織やチームが創造の土壌や探究的衝動を育てる関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/cultivates"
+    },
+    {
+      "name": "integrates",
+      "type": "object",
+      "domain": [
+        "ResearchDrivenInnovation"
+      ],
+      "range": [
+        "OutsideInApproach",
+        "InsideOutApproach"
+      ],
+      "label": "往復統合する",
+      "comment": "内と外のアプローチを二者択一せず絶えず往復して探究する関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/integrates"
+    },
+    {
+      "name": "basedOn",
+      "type": "object",
+      "domain": [
+        "OutsideInApproach",
+        "InsideOutApproach",
+        "Innovation"
+      ],
+      "range": [
+        "DesignThinking",
+        "MeaningInnovation",
+        "OrganizationalLearning"
+      ],
+      "label": "基づく",
+      "comment": "アプローチやイノベーションが特定の手法・理論に基づく関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/basedOn"
+    },
+    {
+      "name": "follows",
+      "type": "object",
+      "domain": [
+        "ResearchDrivenInnovation"
+      ],
+      "range": [
+        "InquiryDrivenDoubleDiamond"
+      ],
+      "label": "従う",
+      "comment": "本手法が探究的ダブルダイヤモンドモデルに沿って進む関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/follows"
+    },
+    {
+      "name": "hasStep",
+      "type": "object",
+      "domain": [
+        "InquiryDrivenDoubleDiamond"
+      ],
+      "range": [
+        "ProcessStep"
+      ],
+      "label": "段階を持つ",
+      "comment": "モデルが問い・データ収集・解釈・合意・生成・検証などの段階を持つ関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/hasStep"
+    },
+    {
+      "name": "stimulates",
+      "type": "object",
+      "domain": [
+        "ResearchQuestion"
+      ],
+      "range": [
+        "ExploratoryImpulse",
+        "Dialogue"
+      ],
+      "label": "刺激する",
+      "comment": "問いが探究的衝動を刺激し創造的対話を誘発する関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/stimulates"
+    },
+    {
+      "name": "involves",
+      "type": "object",
+      "domain": [
+        "ResearchQuestion",
+        "Innovation"
+      ],
+      "range": [
+        "Stakeholder"
+      ],
+      "label": "関与させる",
+      "comment": "問いやイノベーションがステークホルダーの視点を含む関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/involves"
+    },
+    {
+      "name": "usesAsScaffold",
+      "type": "object",
+      "domain": [
+        "Team",
+        "DataCollection"
+      ],
+      "range": [
+        "Data"
+      ],
+      "label": "足場として用いる",
+      "comment": "チームがデータを思考跳躍のための足場として用いる関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/usesAsScaffold"
+    },
+    {
+      "name": "interprets",
+      "type": "object",
+      "domain": [
+        "Team",
+        "Workshop",
+        "DataInterpretation"
+      ],
+      "range": [
+        "Data"
+      ],
+      "label": "解釈する",
+      "comment": "対話を通じてデータの関係性・矛盾・量・頻度・推移を解釈する関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/interprets"
+    },
+    {
+      "name": "conductedVia",
+      "type": "object",
+      "domain": [
+        "DataInterpretation",
+        "Workshop"
+      ],
+      "range": [
+        "Dialogue"
+      ],
+      "label": "対話によって行う",
+      "comment": "解釈やワークショップが対話によって進められる関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/conductedVia"
+    },
+    {
+      "name": "agreesOn",
+      "type": "object",
+      "domain": [
+        "Team",
+        "ConsensusFormation"
+      ],
+      "range": [
+        "Premise"
+      ],
+      "label": "合意する",
+      "comment": "チームが答えではなく前提で合意する関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/agreesOn"
+    },
+    {
+      "name": "expressedAs",
+      "type": "object",
+      "domain": [
+        "Premise"
+      ],
+      "range": [
+        "HowMightWe"
+      ],
+      "label": "表現される",
+      "comment": "前提がハウ・マイト・ウィの形式で表現される関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/expressedAs"
+    },
+    {
+      "name": "generates",
+      "type": "object",
+      "domain": [
+        "IdeaGeneration",
+        "FunctionAnalysisMethod",
+        "MorphologicalChartMethod"
+      ],
+      "range": [
+        "Idea"
+      ],
+      "label": "生成する",
+      "comment": "生成段階や手法がアイデアを生み出す関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/generates"
+    },
+    {
+      "name": "usesMethod",
+      "type": "object",
+      "domain": [
+        "IdeaGeneration"
+      ],
+      "range": [
+        "FunctionAnalysisMethod",
+        "MorphologicalChartMethod"
+      ],
+      "label": "手法を用いる",
+      "comment": "アイデア生成が機能解析法や形態チャート法を用いる関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/usesMethod"
+    },
+    {
+      "name": "verifiesWith",
+      "type": "object",
+      "domain": [
+        "IdeaVerification",
+        "Idea"
+      ],
+      "range": [
+        "Prototype",
+        "LeanStartup"
+      ],
+      "label": "検証する",
+      "comment": "アイデアをプロトタイプやリーン・スタートアップで検証する関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/verifiesWith"
+    },
+    {
+      "name": "facilitates",
+      "type": "object",
+      "domain": [
+        "Researcher"
+      ],
+      "range": [
+        "Dialogue",
+        "Workshop",
+        "ResearchQuestion"
+      ],
+      "label": "促進する",
+      "comment": "リサーチャーが対話・ワークショップ・問い立てをファシリテートする関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/facilitates"
+    },
+    {
+      "name": "possesses",
+      "type": "object",
+      "domain": [
+        "Researcher",
+        "Individual"
+      ],
+      "range": [
+        "NegativeCapability",
+        "ExploratoryImpulse",
+        "CreativeConfidence"
+      ],
+      "label": "備える",
+      "comment": "リサーチャーや個人がネガティブ・ケイパビリティや衝動・自信を備える関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/possesses"
+    },
+    {
+      "name": "illustratedBy",
+      "type": "object",
+      "domain": [
+        "ResearchDrivenInnovation"
+      ],
+      "range": [
+        "CaseStudy"
+      ],
+      "label": "例示される",
+      "comment": "本手法の有効性がケーススタディによって示される関係。",
+      "uri": "https://books.local/Research_Driven_Innovation/illustratedBy"
+    },
+    {
+      "name": "hasDescription",
+      "type": "data",
+      "domain": [
+        "ResearchDrivenInnovation",
+        "Innovation",
+        "ResearchQuestion",
+        "Data",
+        "CaseStudy",
+        "Idea",
+        "Premise"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "概念や事例の自由記述による説明。",
+      "uri": "https://books.local/Research_Driven_Innovation/hasDescription"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

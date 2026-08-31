@@ -1,0 +1,321 @@
+@prefix ex: <https://books.local/Saretai_Eigyou/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Saretai_Eigyou/shapes> a owl:Ontology .
+
+<https://books.local/Saretai_Eigyou/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "コロナ禍以降の不確実な環境で、約1000名の購買経験者データに基づきされたい営業の理論と実践を示したセールス指南書。" ;
+    sh:property [
+        sh:path ex:advocates ;
+        sh:class ex:SalesApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/SalesApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesApproach ;
+    sh:name "営業アプローチ" ;
+    sh:description "売り手が提供したい進め方と、買い手が受けたい進め方を含む営業の基本的な向き合い方。" ;
+    sh:property [
+        sh:path ex:intendedFor ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practicedBy ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/ShitaiEigyouShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ShitaiEigyou ;
+    sh:name "したい営業" ;
+    sh:description "営業担当者が提供したい売り手都合のアプローチ。顧客がされたいアプローチとは一致しない。" ;
+    sh:property [
+        sh:path ex:intendedFor ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practicedBy ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/SaretaiEigyouShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SaretaiEigyou ;
+    sh:name "されたい営業" ;
+    sh:description "顧客が真に望む受けたい営業。べき論ではなく購買者の事実データに基づく本質的な戦略とスキル。" ;
+    sh:property [
+        sh:path ex:intendedFor ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practicedBy ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "購買経験を持つ買い手。知識ではなく顧客の事実を起点にアプローチすべき対象。" ;
+    sh:property [
+        sh:path ex:experiencesJourney ;
+        sh:class ex:CustomerJourney ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/SalespersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Salesperson ;
+    sh:name "営業担当者" ;
+    sh:description "したい営業を脱却し、知っているとできるの差を反復練習で埋め、されたい営業を実践する売り手。" ;
+    sh:property [
+        sh:path ex:hasProcess ;
+        sh:class ex:SalesProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTechnology ;
+        sh:class ex:SalesTechnology ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:employsBlendSales ;
+        sh:class ex:BlendSales ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/SalesProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesProcess ;
+    sh:name "営業プロセス" ;
+    sh:description "旧来の電話から提案までの一方通行ではなく、まず先に役に立つGIVEから始める新しい営業の順序。" ;
+    sh:property [
+        sh:path ex:usesMeeting ;
+        sh:class ex:Meeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/CustomerJourneyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerJourney ;
+    sh:name "カスタマージャーニー" ;
+    sh:description "認知から興味、課題認識、比較検討、導入、拡散までの心理段階に合わせてコンテンツとアプローチを変える設計図。" ;
+    sh:property [
+        sh:path ex:consistsOfStage ;
+        sh:class ex:JourneyStage ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/JourneyStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:JourneyStage ;
+    sh:name "心理段階" ;
+    sh:description "カスタマージャーニーを構成する認知、興味、課題認識、比較検討、導入、拡散などの段階。" .
+
+<https://books.local/Saretai_Eigyou/MeetingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Meeting ;
+    sh:name "商談" ;
+    sh:description "営業担当者と顧客が行う商談。データ上は約61.6パーセントが対面メインだが、約48.7パーセントはオンラインでもよいと回答する。" ;
+    sh:property [
+        sh:path ex:usesSalesContent ;
+        sh:class ex:SalesContent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/OnlineMeetingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OnlineMeeting ;
+    sh:name "オンライン商談" ;
+    sh:description "約67.4パーセントがマルチタスクをし、81.3パーセントが対面の方が集中できると回答する、心離れが起きやすい非対面商談。" ;
+    sh:property [
+        sh:path ex:hasDriver ;
+        sh:class ex:KeyDriver ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:causesHeartDetachment ;
+        sh:class ex:HeartDetachment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesSalesContent ;
+        sh:class ex:SalesContent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/FaceToFaceMeetingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FaceToFaceMeeting ;
+    sh:name "対面商談" ;
+    sh:description "顧客が集中しやすく、商談の過半が依然としてメインとする対面の商談形態。" ;
+    sh:property [
+        sh:path ex:usesSalesContent ;
+        sh:class ex:SalesContent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/KeyDriverShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KeyDriver ;
+    sh:name "キードライバー" ;
+    sh:description "オンライン商談の心離れを防ぎ集中させる場創りの主要変数。コンテンツ、関係構築、情熱強化、プロジェクト化の四つ。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/ContentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Content ;
+    sh:name "コンテンツ" ;
+    sh:description "オンラインでは人柄より主役となる資料と演出。動的な共同作業、アジェンダ可視化、視線を誘導する参加型ツールを含む。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/RelationshipBuildingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RelationshipBuilding ;
+    sh:name "関係構築" ;
+    sh:description "第0印象、公開情報に基づく事前準備、短時間多頻度接触によるザイオンス効果、SNSの緩い繋がりで非対面の信頼を築く。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/PassionEnhancementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PassionEnhancement ;
+    sh:name "情熱強化" ;
+    sh:description "タグワードと、なぜやるのかという動機やパーパスのストーリーで、画面越しに伝わりにくい熱意を感情へ届ける技術。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/ProjectificationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Projectification ;
+    sh:name "プロジェクト化" ;
+    sh:description "評価者と被評価者の対立をやめ、共通目標を持つプロジェクトメンバーとして顧客を巻き込み共創する意識改革。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/SalesContentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesContent ;
+    sh:name "セールスコンテンツ" ;
+    sh:description "汎用資料ではなく商談で即座にカスタマイズするコンテンツ。3C分析や数字の物語り、断られた理由から作る反論対策を含む。" ;
+    sh:property [
+        sh:path ex:includesCase ;
+        sh:class ex:CustomerCase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/CustomerCaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerCase ;
+    sh:name "顧客事例" ;
+    sh:description "感情と事実、具体と抽象の軸で整理し、需要喚起、課題顕在化、評価検討の段階別に使い、防衛心を下げて自己開示を促す事例。" .
+
+<https://books.local/Saretai_Eigyou/OpportunityLossShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OpportunityLoss ;
+    sh:name "機会損失" ;
+    sh:description "つながらない、会えない、買ってもらえないという三つのロス。オンラインスキルの放棄も機会損失につながる。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/HeartDetachmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HeartDetachment ;
+    sh:name "心離れ" ;
+    sh:description "オンライン商談中に顧客の関心と集中が離れる現象。場創りのキードライバーで防ぐべき中核課題。" ;
+    sh:property [
+        sh:path ex:leadsToOpportunityLoss ;
+        sh:class ex:OpportunityLoss ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saretai_Eigyou/SalesTechnologyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesTechnology ;
+    sh:name "セールステック" ;
+    sh:description "CRMや資料トラッキングなどの営業支援技術。究極の目的は自社効率化ではなく顧客の購買体験向上である。" .
+
+<https://books.local/Saretai_Eigyou/BlendSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BlendSales ;
+    sh:name "ブレンド営業" ;
+    sh:description "リアルとオンラインを融合するOMO営業。初回オンライン後に対面で厚くフォローする型と、初回対面後にオンラインで進める型がある。" .

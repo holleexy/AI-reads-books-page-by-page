@@ -1,0 +1,447 @@
+{
+  "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/",
+  "name": "sutokkuseerusu__-_erikku_piitaason____teimuOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/Book",
+      "label": "書籍",
+      "comment": "既存顧客向け四つのメッセージモデルを行動経済学と心理学で解説したビジネス書。",
+      "parent": null
+    },
+    {
+      "name": "MessageModel",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/MessageModel",
+      "label": "メッセージモデル",
+      "comment": "既存顧客との関係を強化し収益を最大化するための科学的な伝達枠組み。",
+      "parent": null
+    },
+    {
+      "name": "RetentionMessageModel",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/RetentionMessageModel",
+      "label": "現状維持メッセージモデル",
+      "comment": "契約更新時に革新性より安心感を与え継続を促す五段階のリテンション手法。",
+      "parent": "MessageModel"
+    },
+    {
+      "name": "PriceIncreaseMessageModel",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/PriceIncreaseMessageModel",
+      "label": "値上げ納得メッセージモデル",
+      "comment": "現状維持モデルとアンカリング効果を組み合わせ値上げを受け入れさせる手法。",
+      "parent": "MessageModel"
+    },
+    {
+      "name": "UpsellMessageModel",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/UpsellMessageModel",
+      "label": "発展促進メッセージモデル",
+      "comment": "関係性を強調し感情に訴えて高額ソリューションへの移行を勧めるハイブリッド型手法。",
+      "parent": "MessageModel"
+    },
+    {
+      "name": "ApologyMessageModel",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/ApologyMessageModel",
+      "label": "許しを請うメッセージモデル",
+      "comment": "不具合時に対処・責任・再発防止・説明・おわびの順で謝罪しロイヤルティを高める手法。",
+      "parent": "MessageModel"
+    },
+    {
+      "name": "CognitiveBias",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/CognitiveBias",
+      "label": "認知バイアス",
+      "comment": "顧客の意思決定を歪める心理的傾向の総称。",
+      "parent": null
+    },
+    {
+      "name": "StatusQuoBias",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/StatusQuoBias",
+      "label": "現状維持バイアス",
+      "comment": "安定の優先、変化コスト、選択の難しさ、後悔への恐れから現状を維持しようとする傾向。",
+      "parent": "CognitiveBias"
+    },
+    {
+      "name": "ContextEffect",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/ContextEffect",
+      "label": "文脈効果",
+      "comment": "同じメッセージでも新規か既存かという立場で反応が大きく異なる現象。",
+      "parent": "CognitiveBias"
+    },
+    {
+      "name": "FramingEffect",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/FramingEffect",
+      "label": "フレーミング効果",
+      "comment": "利益を強調するか損失を強調するかでリスク許容度と決断が逆転する現象。",
+      "parent": "CognitiveBias"
+    },
+    {
+      "name": "AnchoringEffect",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/AnchoringEffect",
+      "label": "アンカリング効果",
+      "comment": "最初に提示した高い基準値に判断が引きずられる認知バイアス。",
+      "parent": "CognitiveBias"
+    },
+    {
+      "name": "ProspectTheory",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/ProspectTheory",
+      "label": "プロスペクト理論",
+      "comment": "人は利益獲得より損失回避のために二倍から三倍行動しやすいとする理論。",
+      "parent": null
+    },
+    {
+      "name": "IncumbentAdvantage",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/IncumbentAdvantage",
+      "label": "現職の強み",
+      "comment": "既存顧客が投じた時間・費用・労力というサンクコストを無駄にしたくない障壁。",
+      "parent": null
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/Customer",
+      "label": "顧客",
+      "comment": "メッセージの受け手となる取引相手。",
+      "parent": null
+    },
+    {
+      "name": "ExistingCustomer",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/ExistingCustomer",
+      "label": "既存顧客",
+      "comment": "現状維持バイアスを擁護・強化し継続の安心感を与えるべき顧客。",
+      "parent": "Customer"
+    },
+    {
+      "name": "ProspectCustomer",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/ProspectCustomer",
+      "label": "見込み顧客",
+      "comment": "現状維持バイアスを打ち砕き変化を促す必要がある新規対象。",
+      "parent": "Customer"
+    },
+    {
+      "name": "CriticalMoment",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/CriticalMoment",
+      "label": "クリティカルモーメント",
+      "comment": "サブスクリプションにおいて既存顧客との絶対に失敗できない局面。",
+      "parent": null
+    },
+    {
+      "name": "MessageStep",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/MessageStep",
+      "label": "メッセージステップ",
+      "comment": "各メッセージモデルを構成する順序付きの伝達手順。",
+      "parent": null
+    },
+    {
+      "name": "ServiceRecoveryParadox",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/ServiceRecoveryParadox",
+      "label": "サービスリカバリーパラドックス",
+      "comment": "適切なリカバリーにより顧客満足度とロイヤルティが却って高まる現象。",
+      "parent": null
+    },
+    {
+      "name": "CommunicationSkill",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/CommunicationSkill",
+      "label": "伝達スキル",
+      "comment": "三段階指標、ナンバープレイ、画像優位性、手描きイラスト、主語を御社にする伝え方。",
+      "parent": null
+    },
+    {
+      "name": "SituationReadingSkill",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/SituationReadingSkill",
+      "label": "状況を読む力",
+      "comment": "定着、アップセル時機、無関心圏の区別により適用モデルを見極める技能。",
+      "parent": null
+    },
+    {
+      "name": "StockSales",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/StockSales",
+      "label": "ストックセールス",
+      "comment": "カスタマーシェア向上を目指す実験に基づく顧客管理型アプローチ。",
+      "parent": null
+    },
+    {
+      "name": "CustomerShare",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/CustomerShare",
+      "label": "カスタマーシェア",
+      "comment": "成熟市場で既存顧客の生涯価値最大化を示す収益の鍵となる指標。",
+      "parent": null
+    },
+    {
+      "name": "MarketShare",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/MarketShare",
+      "label": "マーケットシェア",
+      "comment": "成長市場で重視される新規獲得による市場占有率。",
+      "parent": null
+    },
+    {
+      "name": "CustomerZone",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/CustomerZone",
+      "label": "顧客ゾーン",
+      "comment": "満足度とポテンシャルの二軸でアタック、チャレンジ、ディフェンス、リカバリーに分ける区分。",
+      "parent": null
+    },
+    {
+      "name": "EngagementPractice",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/EngagementPractice",
+      "label": "エンゲージメント実践",
+      "comment": "キックオフと四半期ビジネスレビューを変革しメッセージの空白期間を埋める組織的リズム。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "appliesToCustomer",
+      "type": "object",
+      "domain": [
+        "MessageModel"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "適用対象顧客",
+      "comment": "当該メッセージモデルが向けられる顧客種別を示す。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/appliesToCustomer"
+    },
+    {
+      "name": "basedOnBias",
+      "type": "object",
+      "domain": [
+        "MessageModel"
+      ],
+      "range": [
+        "CognitiveBias"
+      ],
+      "label": "根拠バイアス",
+      "comment": "メッセージ設計の根拠となる認知バイアスを示す。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/basedOnBias"
+    },
+    {
+      "name": "basedOnTheory",
+      "type": "object",
+      "domain": [
+        "MessageModel",
+        "FramingEffect"
+      ],
+      "range": [
+        "ProspectTheory"
+      ],
+      "label": "根拠理論",
+      "comment": "損失回避性などプロスペクト理論に根ざすことを示す。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/basedOnTheory"
+    },
+    {
+      "name": "hasStep",
+      "type": "object",
+      "domain": [
+        "MessageModel"
+      ],
+      "range": [
+        "MessageStep"
+      ],
+      "label": "ステップを持つ",
+      "comment": "モデルを構成する順序付き伝達手順を持つ。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/hasStep"
+    },
+    {
+      "name": "usedAtMoment",
+      "type": "object",
+      "domain": [
+        "MessageModel"
+      ],
+      "range": [
+        "CriticalMoment"
+      ],
+      "label": "使用局面",
+      "comment": "更新、値上げ、アップセル、謝罪など失敗できない局面を示す。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/usedAtMoment"
+    },
+    {
+      "name": "assignedToZone",
+      "type": "object",
+      "domain": [
+        "MessageModel"
+      ],
+      "range": [
+        "CustomerZone"
+      ],
+      "label": "適用ゾーン",
+      "comment": "アタック、チャレンジ、ディフェンス、リカバリーのどのゾーンで使うかを示す。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/assignedToZone"
+    },
+    {
+      "name": "classifiedInto",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "CustomerZone"
+      ],
+      "label": "ゾーン分類",
+      "comment": "CS指数とOP指数により顧客をゾーンへ分類する。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/classifiedInto"
+    },
+    {
+      "name": "exhibitsBias",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "CognitiveBias"
+      ],
+      "label": "示すバイアス",
+      "comment": "顧客が示す現状維持や文脈効果などの心理傾向。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/exhibitsBias"
+    },
+    {
+      "name": "hasIncumbentAdvantage",
+      "type": "object",
+      "domain": [
+        "ExistingCustomer"
+      ],
+      "range": [
+        "IncumbentAdvantage"
+      ],
+      "label": "現職の強みを持つ",
+      "comment": "既存顧客がサンクコストにより乗り換えにくい状態を持つ。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/hasIncumbentAdvantage"
+    },
+    {
+      "name": "recoversThrough",
+      "type": "object",
+      "domain": [
+        "ApologyMessageModel"
+      ],
+      "range": [
+        "ServiceRecoveryParadox"
+      ],
+      "label": "リカバリーを通じて",
+      "comment": "適切な謝罪順序により満足度が却って高まる現象を利用する。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/recoversThrough"
+    },
+    {
+      "name": "usesSkill",
+      "type": "object",
+      "domain": [
+        "MessageModel"
+      ],
+      "range": [
+        "CommunicationSkill",
+        "SituationReadingSkill"
+      ],
+      "label": "技能を用いる",
+      "comment": "状況判断と伝達・視覚化の技能で効果を最大化する。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/usesSkill"
+    },
+    {
+      "name": "implementsModel",
+      "type": "object",
+      "domain": [
+        "StockSales"
+      ],
+      "range": [
+        "MessageModel"
+      ],
+      "label": "モデルを実装する",
+      "comment": "ストックセールスが四つのメッセージモデルを組織的に適用する。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/implementsModel"
+    },
+    {
+      "name": "maximizes",
+      "type": "object",
+      "domain": [
+        "StockSales"
+      ],
+      "range": [
+        "CustomerShare"
+      ],
+      "label": "最大化する",
+      "comment": "新規のマーケットシェアではなく既存顧客のカスタマーシェアを最大化する。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/maximizes"
+    },
+    {
+      "name": "contrastedWith",
+      "type": "object",
+      "domain": [
+        "CustomerShare"
+      ],
+      "range": [
+        "MarketShare"
+      ],
+      "label": "対比される",
+      "comment": "成熟市場のカスタマーシェアが成長市場のマーケットシェアと対比される。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/contrastedWith"
+    },
+    {
+      "name": "employsPractice",
+      "type": "object",
+      "domain": [
+        "StockSales"
+      ],
+      "range": [
+        "EngagementPractice"
+      ],
+      "label": "実践を用いる",
+      "comment": "キックオフとQBRの変革により契約期間中の空白を埋める。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/employsPractice"
+    },
+    {
+      "name": "describedIn",
+      "type": "object",
+      "domain": [
+        "MessageModel",
+        "StockSales",
+        "CognitiveBias"
+      ],
+      "range": [
+        "Book"
+      ],
+      "label": "解説される書籍",
+      "comment": "当該概念が解説されている書籍を示す。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/describedIn"
+    },
+    {
+      "name": "stepOrderNote",
+      "type": "data",
+      "domain": [
+        "MessageStep"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "手順の説明",
+      "comment": "実績報告、リスク喚起、アンカリング提示などステップ内容の説明。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/stepOrderNote"
+    },
+    {
+      "name": "zoneTypeName",
+      "type": "data",
+      "domain": [
+        "CustomerZone"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "ゾーン種別名",
+      "comment": "アタック、チャレンジ、ディフェンス、リカバリーのいずれかを表す。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/zoneTypeName"
+    },
+    {
+      "name": "timingGuideline",
+      "type": "data",
+      "domain": [
+        "SituationReadingSkill",
+        "CriticalMoment"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "時機の指針",
+      "comment": "定着期は現状維持、関係安定時にアップセル、契約七十五パーセント超過で更新へ切替などの指針。",
+      "uri": "https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/timingGuideline"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

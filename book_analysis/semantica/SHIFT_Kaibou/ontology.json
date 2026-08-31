@@ -1,0 +1,640 @@
+{
+  "uri": "https://books.local/SHIFT_Kaibou/",
+  "name": "SHIFT_KaibouOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Company",
+      "uri": "https://books.local/SHIFT_Kaibou/Company",
+      "label": "会社",
+      "comment": "ソフトウェアのテスト・品質保証などを行う企業組織",
+      "parent": null
+    },
+    {
+      "name": "Person",
+      "uri": "https://books.local/SHIFT_Kaibou/Person",
+      "label": "人物",
+      "comment": "経営者・社員など組織に関わる個人",
+      "parent": null
+    },
+    {
+      "name": "Executive",
+      "uri": "https://books.local/SHIFT_Kaibou/Executive",
+      "label": "経営陣",
+      "comment": "創業者社長・CHRO・会長など経営を担う人物",
+      "parent": "Person"
+    },
+    {
+      "name": "Employee",
+      "uri": "https://books.local/SHIFT_Kaibou/Employee",
+      "label": "社員",
+      "comment": "多様なバックグラウンドを持つ従業員。IT未経験者も含む",
+      "parent": "Person"
+    },
+    {
+      "name": "Location",
+      "uri": "https://books.local/SHIFT_Kaibou/Location",
+      "label": "所在地",
+      "comment": "本社オフィスなどの地理的拠点",
+      "parent": null
+    },
+    {
+      "name": "Business",
+      "uri": "https://books.local/SHIFT_Kaibou/Business",
+      "label": "事業",
+      "comment": "ソフトウェアテスト、コンサルティング、システム開発などの事業領域",
+      "parent": null
+    },
+    {
+      "name": "ManagementPhilosophy",
+      "uri": "https://books.local/SHIFT_Kaibou/ManagementPhilosophy",
+      "label": "経営理念",
+      "comment": "コアな価値の探求、エリート主義の否定、99パーセントの底上げなどの思想",
+      "parent": null
+    },
+    {
+      "name": "HumanCapitalManagement",
+      "uri": "https://books.local/SHIFT_Kaibou/HumanCapitalManagement",
+      "label": "人的資本経営",
+      "comment": "学歴・職歴・年齢を問わず多様な人材の能力を極限まで引き出す経営",
+      "parent": null
+    },
+    {
+      "name": "ProcessTechnology",
+      "uri": "https://books.local/SHIFT_Kaibou/ProcessTechnology",
+      "label": "プロセス・テクノロジー",
+      "comment": "暗黙知や非効率な業務を分解・可視化・標準化する手法",
+      "parent": null
+    },
+    {
+      "name": "Aptitude",
+      "uri": "https://books.local/SHIFT_Kaibou/Aptitude",
+      "label": "素養",
+      "comment": "属性ではなくパターン認識などテスト業務に必要な基礎的能力",
+      "parent": null
+    },
+    {
+      "name": "RecruitmentStrategy",
+      "uri": "https://books.local/SHIFT_Kaibou/RecruitmentStrategy",
+      "label": "採用戦略",
+      "comment": "属性を排除し素養を見抜く桜木花道型の採用アプローチ",
+      "parent": null
+    },
+    {
+      "name": "CATTest",
+      "uri": "https://books.local/SHIFT_Kaibou/CATTest",
+      "label": "CAT検定",
+      "comment": "専門知識を問わず素養を判定するオンライン適性テスト",
+      "parent": null
+    },
+    {
+      "name": "AISystem",
+      "uri": "https://books.local/SHIFT_Kaibou/AISystem",
+      "label": "AIシステム",
+      "comment": "レジュミル、AI面接官、めん太など人事・採用に用いる人工知能",
+      "parent": null
+    },
+    {
+      "name": "EvaluationMeeting",
+      "uri": "https://books.local/SHIFT_Kaibou/EvaluationMeeting",
+      "label": "評価会議",
+      "comment": "役員が全社員の年収を一人ずつ実額で決める会議",
+      "parent": null
+    },
+    {
+      "name": "CompensationSystem",
+      "uri": "https://books.local/SHIFT_Kaibou/CompensationSystem",
+      "label": "報酬制度",
+      "comment": "市場価値絶対主義と先行投資としての給与に基づく実力主義報酬",
+      "parent": null
+    },
+    {
+      "name": "TopGunSystem",
+      "uri": "https://books.local/SHIFT_Kaibou/TopGunSystem",
+      "label": "TopGun制度",
+      "comment": "スキル分解と検定合格を年収に直結させる任意の能力開発制度",
+      "parent": null
+    },
+    {
+      "name": "HitoLog",
+      "uri": "https://books.local/SHIFT_Kaibou/HitoLog",
+      "label": "ヒトログ",
+      "comment": "450項目超の社員データを管理し退職リスクを予測する人材システム",
+      "parent": null
+    },
+    {
+      "name": "LifetimeValue",
+      "uri": "https://books.local/SHIFT_Kaibou/LifetimeValue",
+      "label": "生涯価値",
+      "comment": "人数・在籍期間・価値総出力で人事施策効果を定量化する指標",
+      "parent": null
+    },
+    {
+      "name": "OrganizationalCulture",
+      "uri": "https://books.local/SHIFT_Kaibou/OrganizationalCulture",
+      "label": "組織文化",
+      "comment": "イベント・部活・オフィスを教会と捉えるウェットな関係性",
+      "parent": null
+    },
+    {
+      "name": "InternalEvent",
+      "uri": "https://books.local/SHIFT_Kaibou/InternalEvent",
+      "label": "社内イベント",
+      "comment": "エンゲージメント向上のための行事・部活動・社内ラジオ・表彰",
+      "parent": null
+    },
+    {
+      "name": "Office",
+      "uri": "https://books.local/SHIFT_Kaibou/Office",
+      "label": "オフィス",
+      "comment": "アイデンティティ確認の場として定義される職場空間",
+      "parent": null
+    },
+    {
+      "name": "SalesStrategy",
+      "uri": "https://books.local/SHIFT_Kaibou/SalesStrategy",
+      "label": "営業戦略",
+      "comment": "組織的営業と多重下請け構造打破を目指す営業改革",
+      "parent": null
+    },
+    {
+      "name": "HRBusinessPartner",
+      "uri": "https://books.local/SHIFT_Kaibou/HRBusinessPartner",
+      "label": "人事ビジネスパートナー",
+      "comment": "事業目標から採用ペルソナを逆算し事業と人事を同期させる役割",
+      "parent": null
+    },
+    {
+      "name": "LastMileRole",
+      "uri": "https://books.local/SHIFT_Kaibou/LastMileRole",
+      "label": "ラストワンマイル",
+      "comment": "自動化後に人間が担う繊細な仕上げやAI統括の役割",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "hasLocation",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "Location"
+      ],
+      "label": "所在地を持つ",
+      "comment": "会社が拠点を持つ関係",
+      "uri": "https://books.local/SHIFT_Kaibou/hasLocation"
+    },
+    {
+      "name": "hasExecutive",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "Executive"
+      ],
+      "label": "経営陣を持つ",
+      "comment": "会社と経営者の所属関係",
+      "uri": "https://books.local/SHIFT_Kaibou/hasExecutive"
+    },
+    {
+      "name": "employs",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "Employee"
+      ],
+      "label": "雇用する",
+      "comment": "会社が社員を雇用する関係",
+      "uri": "https://books.local/SHIFT_Kaibou/employs"
+    },
+    {
+      "name": "hasBusiness",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "Business"
+      ],
+      "label": "事業を持つ",
+      "comment": "会社が展開する事業領域",
+      "uri": "https://books.local/SHIFT_Kaibou/hasBusiness"
+    },
+    {
+      "name": "hasPhilosophy",
+      "type": "object",
+      "domain": [
+        "Company",
+        "Executive"
+      ],
+      "range": [
+        "ManagementPhilosophy"
+      ],
+      "label": "理念を持つ",
+      "comment": "会社または経営者が掲げる思想",
+      "uri": "https://books.local/SHIFT_Kaibou/hasPhilosophy"
+    },
+    {
+      "name": "practices",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "HumanCapitalManagement"
+      ],
+      "label": "実践する",
+      "comment": "人的資本経営を実践する関係",
+      "uri": "https://books.local/SHIFT_Kaibou/practices"
+    },
+    {
+      "name": "appliesProcessTechnology",
+      "type": "object",
+      "domain": [
+        "Company",
+        "HumanCapitalManagement"
+      ],
+      "range": [
+        "ProcessTechnology"
+      ],
+      "label": "プロセス・テクノロジーを適用する",
+      "comment": "分解・可視化・標準化の手法を業務へ適用する",
+      "uri": "https://books.local/SHIFT_Kaibou/appliesProcessTechnology"
+    },
+    {
+      "name": "seeksAptitude",
+      "type": "object",
+      "domain": [
+        "RecruitmentStrategy",
+        "CATTest"
+      ],
+      "range": [
+        "Aptitude"
+      ],
+      "label": "素養を見抜く",
+      "comment": "属性ではなく基礎的能力を評価する",
+      "uri": "https://books.local/SHIFT_Kaibou/seeksAptitude"
+    },
+    {
+      "name": "hasRecruitmentStrategy",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "RecruitmentStrategy"
+      ],
+      "label": "採用戦略を持つ",
+      "comment": "会社独自の採用方針",
+      "uri": "https://books.local/SHIFT_Kaibou/hasRecruitmentStrategy"
+    },
+    {
+      "name": "usesCATTest",
+      "type": "object",
+      "domain": [
+        "RecruitmentStrategy"
+      ],
+      "range": [
+        "CATTest"
+      ],
+      "label": "CAT検定を用いる",
+      "comment": "採用で素養判定テストを使う",
+      "uri": "https://books.local/SHIFT_Kaibou/usesCATTest"
+    },
+    {
+      "name": "usesAISystem",
+      "type": "object",
+      "domain": [
+        "Company",
+        "RecruitmentStrategy",
+        "HitoLog"
+      ],
+      "range": [
+        "AISystem"
+      ],
+      "label": "AIシステムを用いる",
+      "comment": "採用解析・面接・退職予測などにAIを使う",
+      "uri": "https://books.local/SHIFT_Kaibou/usesAISystem"
+    },
+    {
+      "name": "holdsEvaluationMeeting",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "EvaluationMeeting"
+      ],
+      "label": "評価会議を開催する",
+      "comment": "年収決定のための役員会議を行う",
+      "uri": "https://books.local/SHIFT_Kaibou/holdsEvaluationMeeting"
+    },
+    {
+      "name": "evaluates",
+      "type": "object",
+      "domain": [
+        "EvaluationMeeting",
+        "CompensationSystem"
+      ],
+      "range": [
+        "Employee"
+      ],
+      "label": "評価する",
+      "comment": "社員の市場価値・KPI・プロセスを評価する",
+      "uri": "https://books.local/SHIFT_Kaibou/evaluates"
+    },
+    {
+      "name": "hasCompensationSystem",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "CompensationSystem"
+      ],
+      "label": "報酬制度を持つ",
+      "comment": "市場価値とテイクレートに基づく報酬体系",
+      "uri": "https://books.local/SHIFT_Kaibou/hasCompensationSystem"
+    },
+    {
+      "name": "hasTopGunSystem",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "TopGunSystem"
+      ],
+      "label": "TopGun制度を持つ",
+      "comment": "能力開発と年収連動の検定制度",
+      "uri": "https://books.local/SHIFT_Kaibou/hasTopGunSystem"
+    },
+    {
+      "name": "certifies",
+      "type": "object",
+      "domain": [
+        "TopGunSystem",
+        "CATTest"
+      ],
+      "range": [
+        "Employee"
+      ],
+      "label": "認定する",
+      "comment": "検定合格により社員の役割や単価を認める",
+      "uri": "https://books.local/SHIFT_Kaibou/certifies"
+    },
+    {
+      "name": "usesHitoLog",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "HitoLog"
+      ],
+      "label": "ヒトログを用いる",
+      "comment": "人材データを一元管理する",
+      "uri": "https://books.local/SHIFT_Kaibou/usesHitoLog"
+    },
+    {
+      "name": "predictsTurnoverOf",
+      "type": "object",
+      "domain": [
+        "HitoLog",
+        "AISystem"
+      ],
+      "range": [
+        "Employee"
+      ],
+      "label": "退職を予測する",
+      "comment": "データから社員の退職確率を推定する",
+      "uri": "https://books.local/SHIFT_Kaibou/predictsTurnoverOf"
+    },
+    {
+      "name": "measuresWith",
+      "type": "object",
+      "domain": [
+        "Company",
+        "HumanCapitalManagement"
+      ],
+      "range": [
+        "LifetimeValue"
+      ],
+      "label": "生涯価値で測る",
+      "comment": "人事投資の効果をLTVで定量化する",
+      "uri": "https://books.local/SHIFT_Kaibou/measuresWith"
+    },
+    {
+      "name": "hasCulture",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "OrganizationalCulture"
+      ],
+      "label": "組織文化を持つ",
+      "comment": "会社が醸成する関係性と価値観",
+      "uri": "https://books.local/SHIFT_Kaibou/hasCulture"
+    },
+    {
+      "name": "holdsEvent",
+      "type": "object",
+      "domain": [
+        "Company",
+        "OrganizationalCulture"
+      ],
+      "range": [
+        "InternalEvent"
+      ],
+      "label": "イベントを開催する",
+      "comment": "社内行事や表彰を通じて関係性を築く",
+      "uri": "https://books.local/SHIFT_Kaibou/holdsEvent"
+    },
+    {
+      "name": "hasOffice",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "Office"
+      ],
+      "label": "オフィスを持つ",
+      "comment": "教会としての職場空間を持つ",
+      "uri": "https://books.local/SHIFT_Kaibou/hasOffice"
+    },
+    {
+      "name": "locatedIn",
+      "type": "object",
+      "domain": [
+        "Office"
+      ],
+      "range": [
+        "Location"
+      ],
+      "label": "に所在する",
+      "comment": "オフィスの地理的位置",
+      "uri": "https://books.local/SHIFT_Kaibou/locatedIn"
+    },
+    {
+      "name": "hasSalesStrategy",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "SalesStrategy"
+      ],
+      "label": "営業戦略を持つ",
+      "comment": "組織的営業と業界構造変革の方針",
+      "uri": "https://books.local/SHIFT_Kaibou/hasSalesStrategy"
+    },
+    {
+      "name": "assignsHRBP",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "HRBusinessPartner"
+      ],
+      "label": "HRBPを配置する",
+      "comment": "事業部に人事ビジネスパートナーを置く",
+      "uri": "https://books.local/SHIFT_Kaibou/assignsHRBP"
+    },
+    {
+      "name": "assignsLastMileTo",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "LastMileRole"
+      ],
+      "label": "ラストワンマイルを割り当てる",
+      "comment": "自動化後に人間へ残す役割を定義する",
+      "uri": "https://books.local/SHIFT_Kaibou/assignsLastMileTo"
+    },
+    {
+      "name": "performedBy",
+      "type": "object",
+      "domain": [
+        "LastMileRole"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "が担う",
+      "comment": "人間にしかできない仕上げや統括を人が行う",
+      "uri": "https://books.local/SHIFT_Kaibou/performedBy"
+    },
+    {
+      "name": "name",
+      "type": "data",
+      "domain": [
+        "Company",
+        "Person",
+        "Location",
+        "Business",
+        "AISystem"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "名称",
+      "comment": "対象の名前や固有名称",
+      "uri": "https://books.local/SHIFT_Kaibou/name"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "ManagementPhilosophy",
+        "ProcessTechnology",
+        "RecruitmentStrategy",
+        "OrganizationalCulture"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "理念や手法の日本語による説明",
+      "uri": "https://books.local/SHIFT_Kaibou/description"
+    },
+    {
+      "name": "salesRevenue",
+      "type": "data",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "売上高",
+      "comment": "期間ごとの売上規模の記述",
+      "uri": "https://books.local/SHIFT_Kaibou/salesRevenue"
+    },
+    {
+      "name": "operatingProfit",
+      "type": "data",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "営業利益",
+      "comment": "期間ごとの営業利益の記述",
+      "uri": "https://books.local/SHIFT_Kaibou/operatingProfit"
+    },
+    {
+      "name": "takeRate",
+      "type": "data",
+      "domain": [
+        "CompensationSystem"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "テイクレート",
+      "comment": "顧客単価のうち年収に反映する割合",
+      "uri": "https://books.local/SHIFT_Kaibou/takeRate"
+    },
+    {
+      "name": "passRate",
+      "type": "data",
+      "domain": [
+        "CATTest"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "合格率",
+      "comment": "検定の合格割合",
+      "uri": "https://books.local/SHIFT_Kaibou/passRate"
+    },
+    {
+      "name": "formula",
+      "type": "data",
+      "domain": [
+        "LifetimeValue"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "数式",
+      "comment": "LTVを構成する人数・在籍期間・価値総出力の関係",
+      "uri": "https://books.local/SHIFT_Kaibou/formula"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

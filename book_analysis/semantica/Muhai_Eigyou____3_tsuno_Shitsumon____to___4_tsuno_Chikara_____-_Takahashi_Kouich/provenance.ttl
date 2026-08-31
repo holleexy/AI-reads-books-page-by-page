@@ -1,0 +1,279 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/> .
+
+book:source a prov:Entity ;
+  foaf:name "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" .
+
+book:ポスター a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業戦略 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:成果主義 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:棒グラフ a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:テレアポ a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:クロージング a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:フリーランス a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人事業主 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:Aさん a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:A-san a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:salesperson a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:moving industry a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:ターゲット設定 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:アポ獲得件数 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:competitive sales proposals a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:モチベーション管理 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:アルバイト代 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:ズレ a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:完全成果報酬型のアルバイト a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客中心の発想 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:price a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:8-year a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:winning streak a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:interpersonal phobia a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:childhood a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:the day after training a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:year-over-year a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:7 years a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:飛び込み営業 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:皮算用 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネスチャンス a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:提供価値の創造 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:店内の美化 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:パラダイムシフト a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:受注率 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:アプローチ a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:業績 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:可視化 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:マジック a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:心理的アプローチ a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:自信 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:経済的な報酬 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:ゲーミフィケーション a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:電話営業 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:成功者を観察・模倣する手法 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:著者 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:トップ営業担当者 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:テクニック a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:月曜日 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:火曜日 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:技術 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:スキル a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:8年間 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンペ a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:オーラ a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:トーク力 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:従来型のアプローチ a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:見積もり a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:10分以内 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:差別化の重要性 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:効果的な質問技法 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:一括見積もりサイト a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:価値提案 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:価格競争 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:雑談 a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:race to the bottom a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:Value-based Selling a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .
+
+book:bulk estimation sites a prov:Entity ;
+  book:book_key "Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich" ;
+  prov:wasDerivedFrom book:source .

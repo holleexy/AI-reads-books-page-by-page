@@ -1,0 +1,665 @@
+{
+  "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/",
+  "name": "Kimochi_yoku_Hito_wo_UgokasuOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Book",
+      "label": "書籍",
+      "comment": "人を動かすコミュニケーション術を扱う対象書籍。正論だけでは人は動かないという出発点を持つ。",
+      "parent": null
+    },
+    {
+      "name": "CommunicationApproach",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CommunicationApproach",
+      "label": "コミュニケーションアプローチ",
+      "comment": "合意形成に用いる対話の進め方の総称。競争的議論と共創的議論を含む。",
+      "parent": null
+    },
+    {
+      "name": "CompetitiveDiscussion",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CompetitiveDiscussion",
+      "label": "競い争うディスカッション",
+      "comment": "相手を説得・論破する競争的な議論。正しさの押し付けにより抵抗や思考停止を招く。",
+      "parent": "CommunicationApproach"
+    },
+    {
+      "name": "CoCreativeDiscussion",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoCreativeDiscussion",
+      "label": "共に創るディスカッション",
+      "comment": "相手の意見を引き出し、一緒により良い結論を生み出すコ・クリエーション型の議論。",
+      "parent": "CommunicationApproach"
+    },
+    {
+      "name": "Bias",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Bias",
+      "label": "バイアス",
+      "comment": "判断や行動を歪める認知上の偏り。現状維持や経験則に基づく思い込みを含む。",
+      "parent": null
+    },
+    {
+      "name": "StatusQuoBias",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/StatusQuoBias",
+      "label": "現状維持バイアス",
+      "comment": "変化を嫌い現状を維持しようとする心理。正論の押し付けが抵抗を生む原因となる。",
+      "parent": "Bias"
+    },
+    {
+      "name": "Heuristic",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Heuristic",
+      "label": "ヒューリスティック",
+      "comment": "経験則に基づく速い判断。代表性、利用可能性、固着性、シミュレーションの四種がある。",
+      "parent": "Bias"
+    },
+    {
+      "name": "CoreSkill",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill",
+      "label": "コアスキル",
+      "comment": "共に創るディスカッションを実践し四つの壁を越えるための七つの中核技能。",
+      "parent": null
+    },
+    {
+      "name": "AnticipationSkill",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AnticipationSkill",
+      "label": "想定する力",
+      "comment": "ベストケースとワーストケースを想定し、ゴール・壁・対応策を事前に書き出す技能。",
+      "parent": "CoreSkill"
+    },
+    {
+      "name": "SequencingSkill",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SequencingSkill",
+      "label": "段取りする力",
+      "comment": "相手の発言を引き出し双方向の流れを設計する技能。W字型進行と枕詞を用いる。",
+      "parent": "CoreSkill"
+    },
+    {
+      "name": "DeepUnderstandingSkill",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DeepUnderstandingSkill",
+      "label": "理解を深める力",
+      "comment": "関係性の壁を越える技能。アクティブリスニングと無知の知により信頼を築く。",
+      "parent": "CoreSkill"
+    },
+    {
+      "name": "VisualizationSkill",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/VisualizationSkill",
+      "label": "見える化する力",
+      "comment": "情報整理の壁を越える技能。ピラミッド構造や図解で結論と根拠を階層化する。",
+      "parent": "CoreSkill"
+    },
+    {
+      "name": "UnframingSkill",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/UnframingSkill",
+      "label": "思い込みを外す力",
+      "comment": "思い込みの壁を越える技能。ヒューリスティックを特定し認知的不協和を解消する。",
+      "parent": "CoreSkill"
+    },
+    {
+      "name": "AxisShiftingSkill",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AxisShiftingSkill",
+      "label": "軸を動かす力",
+      "comment": "損得勘定の壁を越える技能。SCAMPERで選択肢を増やし判断基準を動かす。",
+      "parent": "CoreSkill"
+    },
+    {
+      "name": "InvolvementSkill",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/InvolvementSkill",
+      "label": "巻き込む力",
+      "comment": "合意から実行へ移す技能。見せかけの合意を排除し合言葉とアクションプランで自分ごと化させる。",
+      "parent": "CoreSkill"
+    },
+    {
+      "name": "PsychologicalWall",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PsychologicalWall",
+      "label": "心理的障壁",
+      "comment": "合意に至るまでに乗り越えるべき四つの壁の総称。",
+      "parent": null
+    },
+    {
+      "name": "RelationshipWall",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/RelationshipWall",
+      "label": "関係性の壁",
+      "comment": "信頼関係不足から生じる抵抗。理解を深める力で乗り越える。",
+      "parent": "PsychologicalWall"
+    },
+    {
+      "name": "InformationOrganizationWall",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/InformationOrganizationWall",
+      "label": "情報整理の壁",
+      "comment": "状況が不明瞭で保留が生じる状態。見える化する力で乗り越える。",
+      "parent": "PsychologicalWall"
+    },
+    {
+      "name": "AssumptionWall",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AssumptionWall",
+      "label": "思い込みの壁",
+      "comment": "過去経験や先入観による固定思考。思い込みを外す力で乗り越える。",
+      "parent": "PsychologicalWall"
+    },
+    {
+      "name": "CostBenefitWall",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CostBenefitWall",
+      "label": "損得勘定の壁",
+      "comment": "割に合わないと感じ慎重検討する状態。軸を動かす力で乗り越える。",
+      "parent": "PsychologicalWall"
+    },
+    {
+      "name": "Framework",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Framework",
+      "label": "フレームワーク",
+      "comment": "議論の設計や情報整理に用いる型。T字型、W字型、ピラミッド、SCAMPERなどを含む。",
+      "parent": null
+    },
+    {
+      "name": "TShapedFramework",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/TShapedFramework",
+      "label": "T字型フレームワーク",
+      "comment": "ゴール、壁、対応策を事前に一対一で書き出す想定の枠組み。",
+      "parent": "Framework"
+    },
+    {
+      "name": "WShapedProgress",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/WShapedProgress",
+      "label": "W字型の進行",
+      "comment": "会議を前半の深掘りと後半の収束に分け、中間で一旦まとめる進行設計。",
+      "parent": "Framework"
+    },
+    {
+      "name": "PyramidStructure",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PyramidStructure",
+      "label": "ピラミッド構造",
+      "comment": "情報をグルーピングし結論と根拠をMECEに階層化する整理法。",
+      "parent": "Framework"
+    },
+    {
+      "name": "SCAMPERMethod",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SCAMPERMethod",
+      "label": "SCAMPER",
+      "comment": "代用・組み合わせ・修正・削減などで新しい選択肢を創出する発想法。",
+      "parent": "Framework"
+    },
+    {
+      "name": "FiveWTwoH",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/FiveWTwoH",
+      "label": "5W2H",
+      "comment": "わかったつもりを捨て相手の言葉を深掘りするための質問枠組み。",
+      "parent": "Framework"
+    },
+    {
+      "name": "Goal",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Goal",
+      "label": "ゴール",
+      "comment": "誰からどのような台詞や確約がもらえたら成功かを具体化した目標。",
+      "parent": null
+    },
+    {
+      "name": "Obstacle",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Obstacle",
+      "label": "障害",
+      "comment": "想定される相手の疑問、反論、懸念。T字型フレームワークの壁に相当する。",
+      "parent": null
+    },
+    {
+      "name": "Countermeasure",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Countermeasure",
+      "label": "対応策",
+      "comment": "各障害を乗り越えるために一対一で考えておく具体的な対策。",
+      "parent": null
+    },
+    {
+      "name": "PillowPhrase",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PillowPhrase",
+      "label": "枕詞",
+      "comment": "唐突さを避け相手が発言しやすくする前置き。仮の話や個人的意見などの表現。",
+      "parent": null
+    },
+    {
+      "name": "ActiveListening",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ActiveListening",
+      "label": "アクティブリスニング",
+      "comment": "自己一致・無条件の肯定的関心・共感的理解によりわかってもらえたと感じさせる傾聴。",
+      "parent": null
+    },
+    {
+      "name": "InformationLayer",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/InformationLayer",
+      "label": "情報の階層",
+      "comment": "今話していること、想定していること、想定外のこと、無意識の発見という四層。",
+      "parent": null
+    },
+    {
+      "name": "ThinkingSystem",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ThinkingSystem",
+      "label": "思考システム",
+      "comment": "速い思考と遅い思考の二系統。思い込みと損得勘定にそれぞれ対応する。",
+      "parent": null
+    },
+    {
+      "name": "FastThinking",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/FastThinking",
+      "label": "システム1",
+      "comment": "過去経験や先入観に基づく速い思考。思い込みの壁の背景となる。",
+      "parent": "ThinkingSystem"
+    },
+    {
+      "name": "SlowThinking",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SlowThinking",
+      "label": "システム2",
+      "comment": "論理的に慎重検討する遅い思考。損得勘定の壁の背景となる。",
+      "parent": "ThinkingSystem"
+    },
+    {
+      "name": "CognitiveDissonance",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CognitiveDissonance",
+      "label": "認知的不協和",
+      "comment": "矛盾を避けるため現状維持を正当化する心理。新情報追加か枠組み変更で解消する。",
+      "parent": null
+    },
+    {
+      "name": "KeyQuestion",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/KeyQuestion",
+      "label": "キークエスチョン",
+      "comment": "網羅性・具体化・優先順位の観点から判断軸を明確にし気づきを与える問い。",
+      "parent": null
+    },
+    {
+      "name": "SharedCatchphrase",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SharedCatchphrase",
+      "label": "合言葉",
+      "comment": "相手の発言を拾って作る共通言語。見せかけの合意を排し自分ごと化を促す。",
+      "parent": null
+    },
+    {
+      "name": "ActionPlan",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ActionPlan",
+      "label": "アクションプラン",
+      "comment": "目的、想定成果物、誰が、いつ、何をするかを明確にした実行計画。",
+      "parent": null
+    },
+    {
+      "name": "BusinessSituation",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BusinessSituation",
+      "label": "ビジネス場面",
+      "comment": "合意にかかる時間とフォーマル度で分類される五つの応用場面。",
+      "parent": null
+    },
+    {
+      "name": "CustomerProposal",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CustomerProposal",
+      "label": "お客様への提案",
+      "comment": "フォーマル度が高く時間がかかる場面。対話で潜在課題を引き出す。",
+      "parent": "BusinessSituation"
+    },
+    {
+      "name": "Negotiation",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Negotiation",
+      "label": "社内外との交渉",
+      "comment": "損得の落としどころを探る場面。SCAMPERで選択肢を拡大する。",
+      "parent": "BusinessSituation"
+    },
+    {
+      "name": "CooperationRequest",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CooperationRequest",
+      "label": "協力依頼",
+      "comment": "関係性の壁を越え相手の背景を5W2Hで深く理解する場面。",
+      "parent": "BusinessSituation"
+    },
+    {
+      "name": "MemberGuidance",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/MemberGuidance",
+      "label": "メンバーへの指導",
+      "comment": "一方的な説教を避け、前半で深掘りし後半でアクションを絞り込む場面。",
+      "parent": "BusinessSituation"
+    },
+    {
+      "name": "SupervisorApproval",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SupervisorApproval",
+      "label": "上司への承認依頼",
+      "comment": "結論を押し付けず上司と同じ方向を向いて企画を共創する場面。",
+      "parent": "BusinessSituation"
+    },
+    {
+      "name": "AdultDevelopmentTheory",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AdultDevelopmentTheory",
+      "label": "成人発達理論",
+      "comment": "ロバート・キーガンによる成長段階論。自己中心から自己変容までの四段階。",
+      "parent": null
+    },
+    {
+      "name": "DevelopmentStage",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevelopmentStage",
+      "label": "発達段階",
+      "comment": "成人の成長段階。議論の質と他者との関わり方を規定する。",
+      "parent": null
+    },
+    {
+      "name": "SelfCenteredStage",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SelfCenteredStage",
+      "label": "自己中心段階",
+      "comment": "約一割が該当し、競い争うディスカッションに陥りやすい段階。",
+      "parent": "DevelopmentStage"
+    },
+    {
+      "name": "OtherDependentStage",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/OtherDependentStage",
+      "label": "他者依存段階",
+      "comment": "約七割が該当し、周囲の基準で行動し働きかけを諦めやすい段階。",
+      "parent": "DevelopmentStage"
+    },
+    {
+      "name": "SelfAuthoringStage",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SelfAuthoringStage",
+      "label": "自己主導段階",
+      "comment": "約二割が該当し、自分の価値観を持ち共に創るディスカッションの入り口に立つ段階。",
+      "parent": "DevelopmentStage"
+    },
+    {
+      "name": "SelfTransformingStage",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SelfTransformingStage",
+      "label": "自己変容段階",
+      "comment": "一パーセント未満。多様な価値観を取り込み的確に意思決定する段階。",
+      "parent": "DevelopmentStage"
+    },
+    {
+      "name": "DevilsAdvocate",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevilsAdvocate",
+      "label": "悪魔の代弁者",
+      "comment": "疑問や反論を結論の敵ではなく進化のための貴重な材料と捉える役割。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "overcomesWall",
+      "type": "object",
+      "domain": [
+        "CoreSkill"
+      ],
+      "range": [
+        "PsychologicalWall"
+      ],
+      "label": "壁を乗り越える",
+      "comment": "コアスキルが対象とする心理的障壁を示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/overcomesWall"
+    },
+    {
+      "name": "usesFramework",
+      "type": "object",
+      "domain": [
+        "CoreSkill"
+      ],
+      "range": [
+        "Framework"
+      ],
+      "label": "フレームワークを用いる",
+      "comment": "技能の実践で用いる思考や進行の型を示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/usesFramework"
+    },
+    {
+      "name": "appliedToSituation",
+      "type": "object",
+      "domain": [
+        "CoreSkill",
+        "CommunicationApproach"
+      ],
+      "range": [
+        "BusinessSituation"
+      ],
+      "label": "場面に適用される",
+      "comment": "技能やアプローチが活用されるビジネス場面を示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/appliedToSituation"
+    },
+    {
+      "name": "supportsApproach",
+      "type": "object",
+      "domain": [
+        "CoreSkill"
+      ],
+      "range": [
+        "CoCreativeDiscussion"
+      ],
+      "label": "アプローチを支える",
+      "comment": "コアスキルが共に創るディスカッションを実現することを示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/supportsApproach"
+    },
+    {
+      "name": "hasGoal",
+      "type": "object",
+      "domain": [
+        "TShapedFramework",
+        "ActionPlan"
+      ],
+      "range": [
+        "Goal"
+      ],
+      "label": "ゴールを持つ",
+      "comment": "成功条件として設定された具体的な目標を持つ。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/hasGoal"
+    },
+    {
+      "name": "hasObstacle",
+      "type": "object",
+      "domain": [
+        "TShapedFramework"
+      ],
+      "range": [
+        "Obstacle"
+      ],
+      "label": "障害を持つ",
+      "comment": "事前に洗い出した疑問・反論・懸念を持つ。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/hasObstacle"
+    },
+    {
+      "name": "hasCountermeasure",
+      "type": "object",
+      "domain": [
+        "TShapedFramework",
+        "Obstacle"
+      ],
+      "range": [
+        "Countermeasure"
+      ],
+      "label": "対応策を持つ",
+      "comment": "障害に対して一対一で用意された対策を持つ。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/hasCountermeasure"
+    },
+    {
+      "name": "usesPillowPhrase",
+      "type": "object",
+      "domain": [
+        "SequencingSkill"
+      ],
+      "range": [
+        "PillowPhrase"
+      ],
+      "label": "枕詞を使う",
+      "comment": "段取りする力が発言を促す前置きを用いることを示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/usesPillowPhrase"
+    },
+    {
+      "name": "usesActiveListening",
+      "type": "object",
+      "domain": [
+        "DeepUnderstandingSkill"
+      ],
+      "range": [
+        "ActiveListening"
+      ],
+      "label": "傾聴を用いる",
+      "comment": "理解を深める力がアクティブリスニングを用いることを示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/usesActiveListening"
+    },
+    {
+      "name": "accessesLayer",
+      "type": "object",
+      "domain": [
+        "DeepUnderstandingSkill"
+      ],
+      "range": [
+        "InformationLayer"
+      ],
+      "label": "情報階層にアクセスする",
+      "comment": "深掘りにより想定外や無意識の発見の層へ至ることを示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/accessesLayer"
+    },
+    {
+      "name": "causedByThinking",
+      "type": "object",
+      "domain": [
+        "PsychologicalWall"
+      ],
+      "range": [
+        "ThinkingSystem"
+      ],
+      "label": "思考に起因する",
+      "comment": "壁が速い思考または遅い思考に由来することを示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/causedByThinking"
+    },
+    {
+      "name": "resolvesDissonance",
+      "type": "object",
+      "domain": [
+        "UnframingSkill"
+      ],
+      "range": [
+        "CognitiveDissonance"
+      ],
+      "label": "不協和を解消する",
+      "comment": "新情報の追加や枠組み変更により認知的不協和を打破する。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/resolvesDissonance"
+    },
+    {
+      "name": "asksKeyQuestion",
+      "type": "object",
+      "domain": [
+        "AxisShiftingSkill"
+      ],
+      "range": [
+        "KeyQuestion"
+      ],
+      "label": "キークエスチョンを投げる",
+      "comment": "判断基準を動かすために本質的な問いを投げかける。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/asksKeyQuestion"
+    },
+    {
+      "name": "createsCatchphrase",
+      "type": "object",
+      "domain": [
+        "InvolvementSkill"
+      ],
+      "range": [
+        "SharedCatchphrase"
+      ],
+      "label": "合言葉を作る",
+      "comment": "巻き込む力が共通言語を作り自分ごと化を促すことを示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/createsCatchphrase"
+    },
+    {
+      "name": "producesActionPlan",
+      "type": "object",
+      "domain": [
+        "InvolvementSkill"
+      ],
+      "range": [
+        "ActionPlan"
+      ],
+      "label": "実行計画を作る",
+      "comment": "合意後の実行に必要なアクションプランを作成する。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/producesActionPlan"
+    },
+    {
+      "name": "treatsAsMaterial",
+      "type": "object",
+      "domain": [
+        "CoCreativeDiscussion",
+        "DevilsAdvocate"
+      ],
+      "range": [
+        "Obstacle"
+      ],
+      "label": "材料として扱う",
+      "comment": "疑問や反論を結論を進化させる貴重な材料として扱う。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/treatsAsMaterial"
+    },
+    {
+      "name": "describedInBook",
+      "type": "object",
+      "domain": [
+        "CoreSkill",
+        "PsychologicalWall",
+        "CommunicationApproach",
+        "Framework",
+        "BusinessSituation",
+        "DevelopmentStage"
+      ],
+      "range": [
+        "Book"
+      ],
+      "label": "書籍で述べられる",
+      "comment": "当該概念が本書で説明されていることを示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/describedInBook"
+    },
+    {
+      "name": "hasDevelopmentStage",
+      "type": "object",
+      "domain": [
+        "AdultDevelopmentTheory"
+      ],
+      "range": [
+        "DevelopmentStage"
+      ],
+      "label": "発達段階を持つ",
+      "comment": "成人発達理論が含む成長段階を示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/hasDevelopmentStage"
+    },
+    {
+      "name": "tendsToward",
+      "type": "object",
+      "domain": [
+        "DevelopmentStage"
+      ],
+      "range": [
+        "CommunicationApproach"
+      ],
+      "label": "議論様式に傾く",
+      "comment": "発達段階が特定のディスカッション様式に結びつきやすいことを示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/tendsToward"
+    },
+    {
+      "name": "triggeredByBias",
+      "type": "object",
+      "domain": [
+        "PsychologicalWall",
+        "CompetitiveDiscussion"
+      ],
+      "range": [
+        "Bias"
+      ],
+      "label": "バイアスに誘発される",
+      "comment": "現状維持バイアスなどが抵抗や競争的議論を誘発することを示す。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/triggeredByBias"
+    },
+    {
+      "name": "labelText",
+      "type": "data",
+      "domain": [
+        "Book",
+        "CoreSkill",
+        "PsychologicalWall",
+        "Framework",
+        "BusinessSituation",
+        "DevelopmentStage"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "名称文字列",
+      "comment": "概念の日本語名称や短い別名を保持する。",
+      "uri": "https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/labelText"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

@@ -1,0 +1,571 @@
+{
+  "uri": "https://books.local/エンジニアのための自己管理入門/",
+  "name": "エンジニアのための自己管理入門Ontology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "SelfManagement",
+      "uri": "https://books.local/エンジニアのための自己管理入門/SelfManagement",
+      "label": "セルフマネジメント",
+      "comment": "自分自身を管理の対象として扱い、自らのハンドルを握る実践。状態の変動を観察し調整し、意図した方向へ戻すことで、変化の中でも自らの意志で進む基盤をつくる。",
+      "parent": null
+    },
+    {
+      "name": "Person",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Person",
+      "label": "人",
+      "comment": "自己管理の主体。エンジニアとマネージャーの役割は重なることが多く、自己管理する個人はチームへ良い影響を与える。",
+      "parent": null
+    },
+    {
+      "name": "Engineer",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Engineer",
+      "label": "エンジニア",
+      "comment": "実装や技術的課題に向き合う役割。創造的で一点ものの仕事が多く、モチベーションと余白が成果と成長を左右する。",
+      "parent": "Person"
+    },
+    {
+      "name": "Manager",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Manager",
+      "label": "マネージャー",
+      "comment": "人と優先順位に向き合う役割。思考ブロックの確保、委譲、心理的安全性の土壌づくりが自己管理の一部となる。",
+      "parent": "Person"
+    },
+    {
+      "name": "Agency",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Agency",
+      "label": "主体性",
+      "comment": "自ら選び、なぜ働くかを見失わず、義務ではなく欲求に駆動される感覚。その喪失が忙しさそのものよりも疲弊の真因となる。",
+      "parent": null
+    },
+    {
+      "name": "JohariWindow",
+      "uri": "https://books.local/エンジニアのための自己管理入門/JohariWindow",
+      "label": "ジョハリの窓",
+      "comment": "自己情報を自己と他者の既知・未知の二軸で四象限に分ける自己理解の枠組み。盲点と未知を小さくすることが自己統制につながる。",
+      "parent": null
+    },
+    {
+      "name": "WindowQuadrant",
+      "uri": "https://books.local/エンジニアのための自己管理入門/WindowQuadrant",
+      "label": "窓の象限",
+      "comment": "ジョハリの窓を構成する四つの領域。開放・盲点・隠れ・未知のいずれかとして自己情報を位置づける。",
+      "parent": null
+    },
+    {
+      "name": "OpenWindow",
+      "uri": "https://books.local/エンジニアのための自己管理入門/OpenWindow",
+      "label": "開放の窓",
+      "comment": "自己にも他者にも知られている領域。技術スタックや働き方、価値観の共有が含まれ、広いほど協力と自己管理が容易になる。",
+      "parent": "WindowQuadrant"
+    },
+    {
+      "name": "BlindSpotWindow",
+      "uri": "https://books.local/エンジニアのための自己管理入門/BlindSpotWindow",
+      "label": "盲点の窓",
+      "comment": "他者には見えるが本人は気づいていない領域。繰り返されるレビュー指摘や無自覚な割り込みなどが該当し、自己統制を妨げる。",
+      "parent": "WindowQuadrant"
+    },
+    {
+      "name": "HiddenWindow",
+      "uri": "https://books.local/エンジニアのための自己管理入門/HiddenWindow",
+      "label": "隠れた窓",
+      "comment": "本人は知っているが他者には見せていない領域。未挑戦のスキルやキャリア関心、困難などが含まれ、ある程度大きくてもよい。",
+      "parent": "WindowQuadrant"
+    },
+    {
+      "name": "UnknownWindow",
+      "uri": "https://books.local/エンジニアのための自己管理入門/UnknownWindow",
+      "label": "未知の窓",
+      "comment": "自己にも他者にも未知の領域。新しい役割で現れる強みや、圧力下の予測不能な反応などが含まれ、最小化が望ましい。",
+      "parent": "WindowQuadrant"
+    },
+    {
+      "name": "Motivation",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Motivation",
+      "label": "モチベーション",
+      "comment": "特定の目標に向かって行動を起こし維持させるエネルギー。ワクワクする状況づくりが最大の加速要因であり、創造的な開発仕事に不可欠。",
+      "parent": null
+    },
+    {
+      "name": "GrowthLoop",
+      "uri": "https://books.local/エンジニアのための自己管理入門/GrowthLoop",
+      "label": "成長ループ",
+      "comment": "高いモチベーションが主体的行動と複数のアプローチを生み、新たなケイパビリティを通じてさらに成長が加速する循環。",
+      "parent": null
+    },
+    {
+      "name": "MotivationTheory",
+      "uri": "https://books.local/エンジニアのための自己管理入門/MotivationTheory",
+      "label": "動機づけ理論",
+      "comment": "何が動機づけるか（内容理論）と、どのように動機が生じるか（過程理論）を説明する理論群。",
+      "parent": null
+    },
+    {
+      "name": "ERGTheory",
+      "uri": "https://books.local/エンジニアのための自己管理入門/ERGTheory",
+      "label": "ERG理論",
+      "comment": "生存・関係・成長の三カテゴリで欲求を整理し、同時並行と欲求不満回帰を認める理論。エンジニアの賃金・信頼・挑戦の説明に適する。",
+      "parent": "MotivationTheory"
+    },
+    {
+      "name": "ExpectancyTheory",
+      "uri": "https://books.local/エンジニアのための自己管理入門/ExpectancyTheory",
+      "label": "期待理論",
+      "comment": "動機づけを期待×道具性×誘意性の積として捉えるブルーームの理論。最も弱い要因から強化する。",
+      "parent": "MotivationTheory"
+    },
+    {
+      "name": "DesiredState",
+      "uri": "https://books.local/エンジニアのための自己管理入門/DesiredState",
+      "label": "あるべき姿",
+      "comment": "TOBE。近い将来に望む状態。スキルアップや行動を逆算する起点となり、周囲の変化の中でも焦点を保つ。",
+      "parent": null
+    },
+    {
+      "name": "CurrentState",
+      "uri": "https://books.local/エンジニアのための自己管理入門/CurrentState",
+      "label": "現状",
+      "comment": "ASIS。現在の自分の状態。あるべき姿とのギャップを認識し、埋める行動を設計する起点。",
+      "parent": null
+    },
+    {
+      "name": "Goal",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Goal",
+      "label": "目標",
+      "comment": "行動の方向を定めるもの。SMARTでややストレッチに設定し、明確さ・難易度・フィードバック・コミットメントを点検する。",
+      "parent": null
+    },
+    {
+      "name": "Task",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Task",
+      "label": "タスク",
+      "comment": "行うべき仕事。何をすべきかを整理し、一日で完了できる大きさまで分解し、完了条件を明確にする対象。",
+      "parent": null
+    },
+    {
+      "name": "Slack",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Slack",
+      "label": "余白",
+      "comment": "意図的に残す時間的・認知的余裕。100パーセント稼働を避け、変化・学習・検査・適応と創造性、燃え尽き防止を支える。",
+      "parent": null
+    },
+    {
+      "name": "TimeThief",
+      "uri": "https://books.local/エンジニアのための自己管理入門/TimeThief",
+      "label": "時間どろぼう",
+      "comment": "集中と余白を奪う内外の要因。散在会議や通知などの外部要因と、未完了タスクや無限スクロールなどの内部要因がある。",
+      "parent": null
+    },
+    {
+      "name": "Stress",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Stress",
+      "label": "ストレス",
+      "comment": "刺激に対する心身の反応。期限や技術的負債、要求の衝突などが典型因となり、中長期の状態調整の対象となる。",
+      "parent": null
+    },
+    {
+      "name": "Anger",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Anger",
+      "label": "怒り",
+      "comment": "蓄積したストレスから生じる二次感情。大切にしている価値観が侵害されたときのセンサーであり、一拍おいて建設的に扱う。",
+      "parent": null
+    },
+    {
+      "name": "Resilience",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Resilience",
+      "label": "レジリエンス",
+      "comment": "竹のようにしなやかな心の回復力。適切に落ち込み、回復し、教訓を抽出して前に進む力であり、決して揺れないことではない。",
+      "parent": null
+    },
+    {
+      "name": "Coping",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Coping",
+      "label": "コーピング",
+      "comment": "ストレスに対処する認知的・行動的努力。問題焦点型と情動焦点型があり、動揺時はまず情動焦点で落ち着いてから再解釈する。",
+      "parent": null
+    },
+    {
+      "name": "Burnout",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Burnout",
+      "label": "バーンアウト",
+      "comment": "管理されない慢性ストレスによる疲弊・冷笑・効力感低下。早期兆候に気づき、休息と自己ケアで防ぐ。",
+      "parent": null
+    },
+    {
+      "name": "Team",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Team",
+      "label": "チーム",
+      "comment": "協働する集団。共有された世界観と心理的安全性が持続的モチベーションを支え、自己管理する個人が良い影響を及ぼす。",
+      "parent": null
+    },
+    {
+      "name": "PsychologicalSafety",
+      "uri": "https://books.local/エンジニアのための自己管理入門/PsychologicalSafety",
+      "label": "心理的安全性",
+      "comment": "誰もが恐れずに発言できる土壌。ポジティブ感情が思考と行動のレパートリーを広げるための戦略的投資。",
+      "parent": null
+    },
+    {
+      "name": "PersonalValue",
+      "uri": "https://books.local/エンジニアのための自己管理入門/PersonalValue",
+      "label": "価値観",
+      "comment": "無意識に抱く優先事項。どんな状況で何をなぜ優先するかを言語化することが深い自己理解の鍵となる。",
+      "parent": null
+    },
+    {
+      "name": "Technique",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Technique",
+      "label": "技法",
+      "comment": "自己管理に用いる具体的手法。GTD、ポモドーロ、タイムボクシング、アイゼンハワーマトリクス、ABC理論、Moving Motivatorsなど。",
+      "parent": null
+    },
+    {
+      "name": "Skill",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Skill",
+      "label": "スキル",
+      "comment": "あるべき姿から逆算して伸ばす能力。継続学習が前提の業界において、ギャップを埋める行動の対象。",
+      "parent": null
+    },
+    {
+      "name": "Career",
+      "uri": "https://books.local/エンジニアのための自己管理入門/Career",
+      "label": "キャリア",
+      "comment": "自らの条件で切り拓く職業的軌跡。日々の自己管理が仕事の質を高め、自律的な進路選択を可能にする。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "practices",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "SelfManagement"
+      ],
+      "label": "実践する",
+      "comment": "人がセルフマネジメントを日常的に実践し、観察・調整・方向復帰を行う関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/practices"
+    },
+    {
+      "name": "hasAgency",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Agency"
+      ],
+      "label": "主体性を持つ",
+      "comment": "人が選択の感覚と望ましい自己像を保持している関係。喪失は疲弊の主因となる。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/hasAgency"
+    },
+    {
+      "name": "hasMotivation",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Motivation"
+      ],
+      "label": "モチベーションを持つ",
+      "comment": "人が目標に向かうエネルギーを持つ関係。生存・関係・成長の充足と期待理論の要因に左右される。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/hasMotivation"
+    },
+    {
+      "name": "generates",
+      "type": "object",
+      "domain": [
+        "Motivation"
+      ],
+      "range": [
+        "GrowthLoop"
+      ],
+      "label": "生成する",
+      "comment": "高いモチベーションが成長ループを生み、ケイパビリティの複利的な向上につながる関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/generates"
+    },
+    {
+      "name": "explainedBy",
+      "type": "object",
+      "domain": [
+        "Motivation"
+      ],
+      "range": [
+        "MotivationTheory"
+      ],
+      "label": "説明される",
+      "comment": "モチベーションの生じ方や内容が動機づけ理論によって説明される関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/explainedBy"
+    },
+    {
+      "name": "hasDesiredState",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "DesiredState"
+      ],
+      "label": "あるべき姿を持つ",
+      "comment": "人が近い将来の望ましい状態を意識し、行動の逆算起点とする関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/hasDesiredState"
+    },
+    {
+      "name": "hasCurrentState",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "CurrentState"
+      ],
+      "label": "現状を持つ",
+      "comment": "人が現在の状態を観察し、あるべき姿とのギャップを把握する関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/hasCurrentState"
+    },
+    {
+      "name": "closesGapToward",
+      "type": "object",
+      "domain": [
+        "CurrentState"
+      ],
+      "range": [
+        "DesiredState"
+      ],
+      "label": "ギャップを埋める",
+      "comment": "現状からあるべき姿へ近づくために行動を設計する関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/closesGapToward"
+    },
+    {
+      "name": "hasGoal",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Goal"
+      ],
+      "label": "目標を持つ",
+      "comment": "人がややストレッチな目標を設定し、動機づけと行動を方向づける関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/hasGoal"
+    },
+    {
+      "name": "managesTask",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Task"
+      ],
+      "label": "タスクを管理する",
+      "comment": "人が何をすべきかを整理し、分解・委譲・完了条件の明確化を行う関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/managesTask"
+    },
+    {
+      "name": "requiresSlack",
+      "type": "object",
+      "domain": [
+        "SelfManagement"
+      ],
+      "range": [
+        "Slack"
+      ],
+      "label": "余白を必要とする",
+      "comment": "セルフマネジメントが変化対応と創造性のために意図的な余白を必要とする関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/requiresSlack"
+    },
+    {
+      "name": "stealsFrom",
+      "type": "object",
+      "domain": [
+        "TimeThief"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "奪う",
+      "comment": "時間どろぼうが人の集中・余白・認知資源を侵食する関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/stealsFrom"
+    },
+    {
+      "name": "hasQuadrant",
+      "type": "object",
+      "domain": [
+        "JohariWindow"
+      ],
+      "range": [
+        "WindowQuadrant"
+      ],
+      "label": "象限を持つ",
+      "comment": "ジョハリの窓が開放・盲点・隠れ・未知の各象限を構成要素として持つ関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/hasQuadrant"
+    },
+    {
+      "name": "hasValue",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "PersonalValue"
+      ],
+      "label": "価値観を持つ",
+      "comment": "人が優先事項としての価値観を持ち、怒りや動機のセンサーとして働く関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/hasValue"
+    },
+    {
+      "name": "belongsToTeam",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Team"
+      ],
+      "label": "チームに属する",
+      "comment": "人がチームの一員として協働し、相互の動機づけと安全な発言環境に影響する関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/belongsToTeam"
+    },
+    {
+      "name": "hasPsychologicalSafety",
+      "type": "object",
+      "domain": [
+        "Team"
+      ],
+      "range": [
+        "PsychologicalSafety"
+      ],
+      "label": "心理的安全性を持つ",
+      "comment": "チームが恐れずに発言できる土壌を持ち、創造性と回復力を支える関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/hasPsychologicalSafety"
+    },
+    {
+      "name": "experiences",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Stress"
+      ],
+      "label": "経験する",
+      "comment": "人が刺激に対するストレス反応を経験する関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/experiences"
+    },
+    {
+      "name": "triggers",
+      "type": "object",
+      "domain": [
+        "Stress"
+      ],
+      "range": [
+        "Anger"
+      ],
+      "label": "引き起こす",
+      "comment": "蓄積したストレスが怒りの爆発を引き起こす関係。怒りは価値観侵害の信号でもある。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/triggers"
+    },
+    {
+      "name": "isAddressedBy",
+      "type": "object",
+      "domain": [
+        "Stress"
+      ],
+      "range": [
+        "Coping"
+      ],
+      "label": "対処される",
+      "comment": "ストレスが問題焦点型または情動焦点型のコーピングによって対処される関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/isAddressedBy"
+    },
+    {
+      "name": "hasResilience",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Resilience"
+      ],
+      "label": "レジリエンスを持つ",
+      "comment": "人が圧力を吸収し回復して教訓を前に進める力を持つ関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/hasResilience"
+    },
+    {
+      "name": "canLeadTo",
+      "type": "object",
+      "domain": [
+        "Stress"
+      ],
+      "range": [
+        "Burnout"
+      ],
+      "label": "至りうる",
+      "comment": "管理されない慢性ストレスがバーンアウトに至りうる関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/canLeadTo"
+    },
+    {
+      "name": "usesTechnique",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Technique"
+      ],
+      "label": "技法を用いる",
+      "comment": "人が自己管理のために具体的な技法やフレームワークを用いる関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/usesTechnique"
+    },
+    {
+      "name": "developsSkill",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Skill"
+      ],
+      "label": "スキルを伸ばす",
+      "comment": "人があるべき姿から逆算してスキルを意図的に伸ばす関係。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/developsSkill"
+    },
+    {
+      "name": "managesCareer",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Career"
+      ],
+      "label": "キャリアを管理する",
+      "comment": "人が自らの条件でキャリアを切り拓く関係。日々の自己管理が基盤となる。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/managesCareer"
+    },
+    {
+      "name": "verbalization",
+      "type": "data",
+      "domain": [
+        "PersonalValue",
+        "Goal",
+        "Motivation"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "言語化",
+      "comment": "価値観・目的・動機を言葉にしたもの。パーソナルユーザーストーリーや振り返りで用いる。",
+      "uri": "https://books.local/エンジニアのための自己管理入門/verbalization"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

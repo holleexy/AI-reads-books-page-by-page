@@ -1,0 +1,361 @@
+@prefix ex: <https://books.local/Jissen_Jinzai_Kaihatsu/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/shapes> a owl:Ontology .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/HumanAssetShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HumanAsset ;
+    sh:name "人財" ;
+    sh:description "本書が意図的に用いる表記。材料としての「人材」ではなく、組織の貴重な財産（資本）としての人を指す。" ;
+    sh:property [
+        sh:path ex:belongsTo ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresSkill ;
+        sh:class ex:FutureSkill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasEngagement ;
+        sh:class ex:Engagement ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/TalentDevelopmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TalentDevelopment ;
+    sh:name "人財開発" ;
+    sh:description "単なる研修を超え、採用・発掘、育成、配置、評価、定着、組織開発、キャリア開発などを統合し、組織目標を達成する戦略的取り組み。" ;
+    sh:property [
+        sh:path ex:develops ;
+        sh:class ex:HumanAsset ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMeasure ;
+        sh:class ex:DevelopmentMeasure ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:recommends ;
+        sh:class ex:InHouseDevelopment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesApproach ;
+        sh:class ex:Approach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/InHouseDevelopmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InHouseDevelopment ;
+    sh:name "内製化" ;
+    sh:description "業務を社内の人材で行うこと。100％内製化は専門性低下と最新情報の遮断を招き、0％は理念浸透を阻害するため、本書は51％の内製化を推奨する。" ;
+    sh:property [
+        sh:path ex:illustratedBy ;
+        sh:class ex:CompanyCase ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/TalentManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TalentManagement ;
+    sh:name "タレントマネジメント" ;
+    sh:description "人財の発掘から保持までを一体で設計し、組織成果につなげる経営的な人財マネジメント。" ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:DiamondModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:manages ;
+        sh:class ex:HumanAsset ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/DiamondModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DiamondModel ;
+    sh:name "ひし形モデル" ;
+    sh:description "ATD日本支部（ATD-IMNJ）が提唱する整理枠。職場風土創り、組織一体感の醸成、人材の維持・開発、人材の補強・強化の4視点と8戦略から成り、向かい合う戦略の同時実施が相乗効果を生む。" .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "人財開発の主体。ATDなどの専門団体や、戦略を実行する企業を含む。" ;
+    sh:property [
+        sh:path ex:hasStrategy ;
+        sh:class ex:DevelopmentStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:builds ;
+        sh:class ex:LearningCulture ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/ApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Approach ;
+    sh:name "アプローチ" ;
+    sh:description "人財開発実務を構成する視点。個別的アプローチと組織的アプローチの二つがある。" .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentMeasureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DevelopmentMeasure ;
+    sh:name "人財開発施策" ;
+    sh:description "人財開発を推進する具体的施策の総称。教育、採用発掘、成果管理、キャリア開発、配置登用、定着管理、後継者計画、組織開発の8つから成る。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/TrainingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Training ;
+    sh:name "人材教育" ;
+    sh:description "知識やスキルを習得させ成果につなげる施策。集合研修、OJT、メンタリング、コーチング、マニュアル整備、学習環境としてのeラーニングなどで、プロセスごとに内製・外注を判断する。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/RecruitmentDiscoveryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RecruitmentDiscovery ;
+    sh:name "採用発掘" ;
+    sh:description "経営戦略に基づき質と量を計画する採用と、アセスメント等で組織内の潜在人材を見出す発掘の施策。人材ポートフォリオで将来の理想構成を設計する。" ;
+    sh:property [
+        sh:path ex:usesTool ;
+        sh:class ex:AssessmentTool ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/PerformanceManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PerformanceManagement ;
+    sh:name "成果管理" ;
+    sh:description "個人と組織の成果を連動させる仕組み。HPIで現状とあるべき姿のギャップを分析する。ノーレイティングのように順位付けせず対話を重視する潮流や、AI・ビッグデータの活用も含む。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/CareerDevelopmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CareerDevelopment ;
+    sh:name "キャリア開発" ;
+    sh:description "WILL（やりたいこと）、MUST（責任）、CAN（能力）を軸に従業員の成長と人生設計を支援する。CDPはチェックリスト、進捗管理、ジョブローテーション機能を提供する。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/PlacementPromotionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PlacementPromotion ;
+    sh:name "配置登用" ;
+    sh:description "人中心の適材適所と組織中心の適所適材を使い分ける配置。CUBIC、DiSC、SPI、MBTI、エニアグラム、エゴグラム、EQ診断、タレントマネジメント・システムなどを活用する。" ;
+    sh:property [
+        sh:path ex:usesTool ;
+        sh:class ex:AssessmentTool ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/RetentionManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RetentionManagement ;
+    sh:name "定着管理" ;
+    sh:description "組織と個人の繋がりを強化し、必要な人財を長期確保する施策。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/SuccessionPlanningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SuccessionPlanning ;
+    sh:name "後継者計画" ;
+    sh:description "管理者交代を見据えた戦略。候補発掘（段階的に3名確保）、専門教育、計画配置（ストレッチ課題）、情報管理（カルテやTMシステム）の4プロセスから成る。" ;
+    sh:property [
+        sh:path ex:usesTool ;
+        sh:class ex:AssessmentTool ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/OrganizationDevelopmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationDevelopment ;
+    sh:name "組織開発" ;
+    sh:description "より良い組織文化を創る取り組み。AI（アプリシエイティブ・インクワイアリー）、ワールドカフェ、オープンスペース・テクノロジー、フューチャーサーチなどのホールシステム・アプローチを用いる。" ;
+    sh:property [
+        sh:path ex:builds ;
+        sh:class ex:LearningCulture ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/DevelopmentStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DevelopmentStrategy ;
+    sh:name "人財開発戦略" ;
+    sh:description "現状分析、目標設定、ギャップ分析、優先順位設定、戦術決定の5ステップで構築し実行する。施策はいつか壊すために作る前提で軌道修正を繰り返す。" ;
+    sh:property [
+        sh:path ex:hasStep ;
+        sh:class ex:StrategyStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:illustratedBy ;
+        sh:class ex:CompanyCase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/StrategyStepShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:StrategyStep ;
+    sh:name "戦略構築ステップ" ;
+    sh:description "現状の強みと課題の整理、1〜3年後のあるべき姿の設定、実現性・関連性・重要性によるギャップ評価、実行順序の決定、フェーズ分けした戦術立案のいずれか。同時並行は非効率とされる。" .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/PractitionerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Practitioner ;
+    sh:name "人財開発担当者" ;
+    sh:description "人財開発を推進する専門職。経験、専門家、資格、社会動向の4つの学び方と、検索力・整理力・選択力・結合力が求められる。" ;
+    sh:property [
+        sh:path ex:belongsTo ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresCompetency ;
+        sh:class ex:Competency ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresSkill ;
+        sh:class ex:FutureSkill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:learnsBy ;
+        sh:class ex:LearningMethod ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/CompetencyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Competency ;
+    sh:name "コンピテンシー" ;
+    sh:description "ATDコンピテンシーモデルに基づく要件。基盤はビジネススキル、グロース・マインドセット、関連業界知識、対人関係、パーソナルスキル、テクノロジーリテラシー。専門領域はパフォーマンス改善、教育設計、デリバリー、ラーニングテクノロジー、学習効果測定、学習施策管理、統合的タレントマネジメント、コーチング、ナレッジマネジメント、チェンジマネジメント。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/FutureSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FutureSkill ;
+    sh:name "未来スキル" ;
+    sh:description "VUCAへの対応に必要な15スキル。俯瞰力・ストレス管理力・集中力、チーミング力・バーチャルコラボレーション力・分野横断的知識、内省力・心理的安全力・批判的思考力、多様性受容力・相互関係構築力・社会的知性、情報結合力・ICT活用力・エクスポネンシャル思考。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/CompanyCaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CompanyCase ;
+    sh:name "企業事例" ;
+    sh:description "戦略変遷の実例。日本マクドナルドの振り子の法則、ル・スミエルの7年かけた内製化、リンガーハットの理念共有型リーダー育成、ニラクの創新塾など。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/AssessmentToolShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AssessmentTool ;
+    sh:name "アセスメントツール" ;
+    sh:description "才能評価や配置を支援する診断・システム。CUBIC、DiSC、SPI、MBTI、エニアグラム、エゴグラム、EQ診断、タレントマネジメント・システムなど。" .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/EngagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Engagement ;
+    sh:name "エンゲージメント" ;
+    sh:description "満足度ではなく組織との絆や自分ごと化の度合い。貢献感、適合感、仲間意識の3要素で構成される。" .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/PsychologicalSafetyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PsychologicalSafety ;
+    sh:name "心理的安全性" ;
+    sh:description "VUCA時代に不可欠な状態。リーダーはラベリングをやめ、多様性を理解し共通点に着目する必要がある。" .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/LearningCultureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LearningCulture ;
+    sh:name "ラーニングカルチャー" ;
+    sh:description "予測困難な環境で組織が備えすべき学習文化。アジャイル性と並び、継続的な学びと軌道修正を支える。" .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/DiversityManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DiversityManagement ;
+    sh:name "ダイバーシティマネジメント" ;
+    sh:description "世代、ジェンダー、国籍、個人の個性を活かすパーソナライズ化を含む多様性の活用。バーチャルクラスルーム、VR/AR/MR、HRテックも教育の未来標準となる。" .
+
+<https://books.local/Jissen_Jinzai_Kaihatsu/LearningMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LearningMethod ;
+    sh:name "学び方" ;
+    sh:description "担当者の学びの型。経験から学ぶ、専門家から学ぶ（手法に固執しない）、資格取得を実務で活かす、世の中への興味から情報を結合する。" .

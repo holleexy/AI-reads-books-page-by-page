@@ -1,0 +1,465 @@
+@prefix ex: <https://books.local/採用入門.ocr/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/採用入門.ocr/shapes> a owl:Ontology .
+
+<https://books.local/採用入門.ocr/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "『図解採用入門100のツボ』など、採用の考え方を体系的に示す入門書。100の独立したツボで構成され順不同で読める。" ;
+    sh:property [
+        sh:path ex:writtenBy ;
+        sh:class ex:Author ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:consistsOfTsubo ;
+        sh:class ex:Tsubo ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/AuthorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Author ;
+    sh:name "著者" ;
+    sh:description "書籍の執筆者。実務家の坪谷邦生と採用市場研究所の秋山統樹など。" .
+
+<https://books.local/採用入門.ocr/TsuboShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Tsubo ;
+    sh:name "ツボ" ;
+    sh:description "書籍を構成する100の独立した要点。見開き2ページで自己完結し、Q&A・解説・図解・実践ヒントからなる。" ;
+    sh:property [
+        sh:path ex:definition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/HumanResourcesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HumanResources ;
+    sh:name "人事" ;
+    sh:description "人を生かして事をなすこと。人の能力発揮と組織成果の同時実現。搾取でもぬるま湯でもない。機能はホロン構造をなす。" ;
+    sh:property [
+        sh:path ex:definition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/ResultShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Result ;
+    sh:name "成果" ;
+    sh:description "組織が顧客と社会に提供する価値。内部努力ではなく外部から見える価値であり、ドラッカーによれば成果は組織の外に存在する。" ;
+    sh:property [
+        sh:path ex:definition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/BusinessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Business ;
+    sh:name "事業" ;
+    sh:description "価値を継続的に提供する活動。製品・サービスを生み出し収益を得て、企業が成長するための仕組み全体。" ;
+    sh:property [
+        sh:path ex:producesResult ;
+        sh:class ex:Result ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresOrganization ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "共通目的に向かい人が結びつき役割を分担して協働する仕組み。織り合わせるという意味を持ち、円滑な機能に人事が不可欠。" ;
+    sh:property [
+        sh:path ex:producesResult ;
+        sh:class ex:Result ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresRecruitment ;
+        sh:class ex:Recruitment ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/RecruitmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Recruitment ;
+    sh:name "採用" ;
+    sh:description "組織と人が出会いともに未来を形づくる営み。人を選ぶから関係性を築くへの転換。人事の最初で特に重要な中核機能。" ;
+    sh:property [
+        sh:path ex:hasTeam ;
+        sh:class ex:RecruitmentTeam ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasProcess ;
+        sh:class ex:RecruitmentProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCandidateExperience ;
+        sh:class ex:CandidateExperience ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStrategy ;
+        sh:class ex:RecruitmentStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMarketing ;
+        sh:class ex:RecruitmentMarketing ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsCandidate ;
+        sh:class ex:Candidate ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasImpact ;
+        sh:class ex:RecruitmentImpact ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasFailure ;
+        sh:class ex:HiringFailure ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsModel ;
+        sh:class ex:HiringModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:definition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/NewGraduateRecruitmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:NewGraduateRecruitment ;
+    sh:name "新卒採用" ;
+    sh:description "日本特有の一括採用。潜在能力と将来の成長を重視し、長期育成・ジョブローテーション・同期文化を前提とする。" ;
+    sh:property [
+        sh:path ex:hasTeam ;
+        sh:class ex:RecruitmentTeam ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasProcess ;
+        sh:class ex:RecruitmentProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCandidateExperience ;
+        sh:class ex:CandidateExperience ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStrategy ;
+        sh:class ex:RecruitmentStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMarketing ;
+        sh:class ex:RecruitmentMarketing ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsCandidate ;
+        sh:class ex:Candidate ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasImpact ;
+        sh:class ex:RecruitmentImpact ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasFailure ;
+        sh:class ex:HiringFailure ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsModel ;
+        sh:class ex:HiringModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:definition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/ExperiencedHireRecruitmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExperiencedHireRecruitment ;
+    sh:name "経験者採用" ;
+    sh:description "実務経験と専門スキルを評価し任せる採用。即戦力と入社後成果が最重要。需要は流動的で現場主導が多い。" ;
+    sh:property [
+        sh:path ex:hasTeam ;
+        sh:class ex:RecruitmentTeam ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasProcess ;
+        sh:class ex:RecruitmentProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCandidateExperience ;
+        sh:class ex:CandidateExperience ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStrategy ;
+        sh:class ex:RecruitmentStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMarketing ;
+        sh:class ex:RecruitmentMarketing ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsCandidate ;
+        sh:class ex:Candidate ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasImpact ;
+        sh:class ex:RecruitmentImpact ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasFailure ;
+        sh:class ex:HiringFailure ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsModel ;
+        sh:class ex:HiringModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:definition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/RecruitmentTeamShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RecruitmentTeam ;
+    sh:name "採用チーム" ;
+    sh:description "人事・現場マネージャー・現場メンバー・経営者・外部パートナーが協働する体制。多様な視点・速度と質の両立・学習資産化が利点。" ;
+    sh:property [
+        sh:path ex:hasMember ;
+        sh:class ex:Executive ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:collaboratesWith ;
+        sh:class ex:ExternalPartner ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStructure ;
+        sh:class ex:TeamStructure ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/TeamStructureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TeamStructure ;
+    sh:name "チーム構造" ;
+    sh:description "分散型・専任集中型・ハイブリッド型・プロジェクト型・RPO外部委託型の五類型。人員規模に応じて見直しが必要。" .
+
+<https://books.local/採用入門.ocr/RecruitmentProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RecruitmentProcess ;
+    sh:name "採用プロセス" ;
+    sh:description "矢羽モデルと呼ばれる短期プロセス。採用要件から募集、選考、適応（オンボーディング）へと進む。" ;
+    sh:property [
+        sh:path ex:hasStageRequirement ;
+        sh:class ex:RecruitmentRequirement ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStageSourcing ;
+        sh:class ex:Sourcing ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStageSelection ;
+        sh:class ex:Selection ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStageOnboarding ;
+        sh:class ex:Onboarding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/RecruitmentRequirementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RecruitmentRequirement ;
+    sh:name "採用要件" ;
+    sh:description "事業と組織が成果を出すために必要な人材条件。曖昧だとスキル不一致や早期離職を招く。" .
+
+<https://books.local/採用入門.ocr/SourcingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Sourcing ;
+    sh:name "募集" ;
+    sh:description "候補者を集め接点を作る活動。媒体・紹介・スカウト・リファラルなどを含む。" ;
+    sh:property [
+        sh:path ex:targetsCandidate ;
+        sh:class ex:Candidate ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/SelectionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Selection ;
+    sh:name "選考" ;
+    sh:description "候補者を評価し採否を決める活動。属人的直感への偏りは失敗要因となる。" ;
+    sh:property [
+        sh:path ex:targetsCandidate ;
+        sh:class ex:Candidate ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/OnboardingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Onboarding ;
+    sh:name "適応" ;
+    sh:description "入社後の定着・貢献・成果創出を促すオンボーディング。適応できなければ採用は失敗である。" .
+
+<https://books.local/採用入門.ocr/CandidateExperienceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CandidateExperience ;
+    sh:name "採用CX" ;
+    sh:description "応募から入社までの全接点における候補者体験。迅速な連絡・丁寧な対応・文化を感じる瞬間が入社承諾と適応に影響する。" ;
+    sh:property [
+        sh:path ex:targetsCandidate ;
+        sh:class ex:Candidate ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/RecruitmentMarketingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RecruitmentMarketing ;
+    sh:name "採用マーケティング" ;
+    sh:description "候補者と企業の関係性を育成する活動。採用CXを支える層。" .
+
+<https://books.local/採用入門.ocr/RecruitmentStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RecruitmentStrategy ;
+    sh:name "採用戦略" ;
+    sh:description "経営・事業戦略と候補者ニーズを整合させる方針。いつ、どんな人を、何人、どのように採用するかを定める。" .
+
+<https://books.local/採用入門.ocr/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人" ;
+    sh:description "採用に関わる個人。能力を生かして事をなす主体。" .
+
+<https://books.local/採用入門.ocr/ExecutiveShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Executive ;
+    sh:name "経営者" ;
+    sh:description "方向提示・顔出し・迅速な意思決定・文化語りを担う。採用へのコミットで活動は半ば成功する。" .
+
+<https://books.local/採用入門.ocr/FieldManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FieldManager ;
+    sh:name "現場マネージャー" ;
+    sh:description "職場適合を保証する役割。要件の具体化、スキルとスタンス評価、CX演出、適応支援、結果検証を行う。" .
+
+<https://books.local/採用入門.ocr/RecruiterShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Recruiter ;
+    sh:name "採用担当者" ;
+    sh:description "経営・現場・外部をつなぐハブ。戦略立案、プロセス設計、情報調整、CX設計、組織学習促進を担う。" .
+
+<https://books.local/採用入門.ocr/CandidateShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Candidate ;
+    sh:name "候補者" ;
+    sh:description "組織と出会い関係性を築く人材。キャリア形成の機会として採用を捉える主体。" .
+
+<https://books.local/採用入門.ocr/ExternalPartnerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExternalPartner ;
+    sh:name "外部パートナー" ;
+    sh:description "効率を高める協力者。求人媒体、人材紹介、スカウト、RPOなどの類型がある。信頼関係が成功の鍵。" .
+
+<https://books.local/採用入門.ocr/HiringFailureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HiringFailure ;
+    sh:name "採用失敗" ;
+    sh:description "要件曖昧、属人的選考、広報と実態の乖離、戦略欠如の四類型。戦術成功への執着が中長期の大きな失敗を招く。" ;
+    sh:property [
+        sh:path ex:definition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/RecruitmentImpactShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RecruitmentImpact ;
+    sh:name "採用の影響" ;
+    sh:description "組織成長（増員と補充）、組織活性化、個人のキャリア形成、社会の雇用創出という四層の影響。" .
+
+<https://books.local/採用入門.ocr/HiringModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HiringModel ;
+    sh:name "採用モデル" ;
+    sh:description "文化と雇用システムに根ざす採用の型。国によるタイミング・基準・雇用形態の違いを説明する。" ;
+    sh:property [
+        sh:path ex:shapedInPeriod ;
+        sh:class ex:HistoricalPeriod ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/JapaneseHiringModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:JapaneseHiringModel ;
+    sh:name "日本型採用" ;
+    sh:description "新卒一括採用・潜在能力・長期雇用・ジョブローテーションによるメンバーシップ型。組織力と忠誠心が強み。" ;
+    sh:property [
+        sh:path ex:shapedInPeriod ;
+        sh:class ex:HistoricalPeriod ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/AmericanHiringModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AmericanHiringModel ;
+    sh:name "米国型採用" ;
+    sh:description "通年採用・スキルと成果・ジョブ型雇用。適材適所と専門深化、市場流動性が強み。" ;
+    sh:property [
+        sh:path ex:shapedInPeriod ;
+        sh:class ex:HistoricalPeriod ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/採用入門.ocr/HistoricalPeriodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HistoricalPeriod ;
+    sh:name "歴史的時期" ;
+    sh:description "明治の学歴エリート採用から、終身雇用の定着、バブル崩壊後の多様化、21世紀の通年・ジョブ型・遠隔採用までの区分。" .

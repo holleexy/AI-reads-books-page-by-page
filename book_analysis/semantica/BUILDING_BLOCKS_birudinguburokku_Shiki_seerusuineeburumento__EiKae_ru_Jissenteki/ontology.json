@@ -1,0 +1,516 @@
+{
+  "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/",
+  "name": "BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_JissentekiOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "SalesEnablement",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement",
+      "label": "セールスイネーブルメント",
+      "comment": "営業担当者が適切なタイミングで適切なリソースを活用できるようにする部門横断的かつ戦略的なアプローチ。目的は営業組織の生産性最大化、売上向上、コスト削減である。",
+      "parent": null
+    },
+    {
+      "name": "SystemsThinking",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SystemsThinking",
+      "label": "システム思考",
+      "comment": "相互に依存し全体として機能する部分の集合として営業組織を生態系として捉える思考法。セールスイネーブルメント構築の基盤となる。",
+      "parent": null
+    },
+    {
+      "name": "BuildingBlock",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock",
+      "label": "ビルディングブロック",
+      "comment": "組織の営業力を最大化するための構成要素。単発の研修やツール導入ではなく相互依存する要素群として設計される。",
+      "parent": null
+    },
+    {
+      "name": "CustomerUnderstanding",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/CustomerUnderstanding",
+      "label": "顧客理解",
+      "comment": "ペルソナ設定とCOIN-OPフレームワークにより顧客の購買プロセスの完了条件を特定しマッピングするビルディングブロック。",
+      "parent": "BuildingBlock"
+    },
+    {
+      "name": "BuyerEngagementContent",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuyerEngagementContent",
+      "label": "バイヤーエンゲージメントコンテンツ",
+      "comment": "顧客の購買プロセスの完了条件を満たすためのマーケティング、案件発掘、商談管理用コンテンツ。",
+      "parent": "BuildingBlock"
+    },
+    {
+      "name": "SalesSupportContent",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesSupportContent",
+      "label": "営業サポートコンテンツ",
+      "comment": "プレイブック、ジョブエイド、ワークフロー・パフォーマンスサポートツールなど、目の前のタスクを容易にするための支援コンテンツ。",
+      "parent": "BuildingBlock"
+    },
+    {
+      "name": "SalesHiring",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesHiring",
+      "label": "営業の採用",
+      "comment": "ノーマティブ方式の心理測定テスト、STARフレームワークによる行動面接、ロールプレイによるスキル検証を用いる採用の構成要素。",
+      "parent": "BuildingBlock"
+    },
+    {
+      "name": "SalesTraining",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesTraining",
+      "label": "営業トレーニング",
+      "comment": "知識の習得からスキルの定着までを導く営業熟達と行動変容の五段階プロセスに基づくトレーニング。",
+      "parent": "BuildingBlock"
+    },
+    {
+      "name": "SalesCoaching",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesCoaching",
+      "label": "営業コーチング",
+      "comment": "ROAMモデルによるパフォーマンス診断と、診断・計画・実行・確認のサイクルによる継続的コーチング文化の構築。",
+      "parent": "BuildingBlock"
+    },
+    {
+      "name": "SalesProcess",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesProcess",
+      "label": "営業プロセス",
+      "comment": "商談の進行段階と完了条件を定義する構成要素。",
+      "parent": "BuildingBlock"
+    },
+    {
+      "name": "SalesMethod",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesMethod",
+      "label": "営業メソッド",
+      "comment": "営業プロセスの各段階で求められる具体的なスキルや行動を定義する構成要素。",
+      "parent": "BuildingBlock"
+    },
+    {
+      "name": "SalesTechAndTools",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesTechAndTools",
+      "label": "セールステックとツール",
+      "comment": "CRMやセールスエンゲージメントプラットフォームなど。導入前にプロセスとワークフローの最適化が前提となる。",
+      "parent": "BuildingBlock"
+    },
+    {
+      "name": "SalesCompensationAndEvaluation",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesCompensationAndEvaluation",
+      "label": "営業報酬と評価",
+      "comment": "ハーズバーグの二要因理論を踏まえ、衛生要因としての報酬と動機付け要因としての目的・自主性・熟達のバランスを設計する。",
+      "parent": "BuildingBlock"
+    },
+    {
+      "name": "SalesManagerEnablement",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesManagerEnablement",
+      "label": "営業マネージャーイネーブルメント",
+      "comment": "前線の営業マネージャーが価値の低い事務作業を排除し、コーチングや現場トレーニングに集中できる環境を構築する。",
+      "parent": "BuildingBlock"
+    },
+    {
+      "name": "EnablementSystem",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/EnablementSystem",
+      "label": "イネーブルメントシステム",
+      "comment": "ビルディングブロックを機能させる相互依存する基盤。採用、レディネス、トレーニング、マネジメントの四系統からなる。",
+      "parent": null
+    },
+    {
+      "name": "HiringSystem",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/HiringSystem",
+      "label": "採用システム",
+      "comment": "適材適所を実現し組織の基盤を作るシステム。",
+      "parent": "EnablementSystem"
+    },
+    {
+      "name": "SalesReadinessSystem",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesReadinessSystem",
+      "label": "セールスレディネスシステム",
+      "comment": "顧客理解、コンテンツ、ビジネス知識を統合し、営業担当者を常に準備完了状態にするシステム。",
+      "parent": "EnablementSystem"
+    },
+    {
+      "name": "SalesTrainingSystem",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesTrainingSystem",
+      "label": "営業トレーニングシステム",
+      "comment": "チェンジマネジメントとして機能し、学習内容を現場の行動変容に繋げるシステム。",
+      "parent": "EnablementSystem"
+    },
+    {
+      "name": "SalesManagementSystem",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesManagementSystem",
+      "label": "営業マネジメントシステム",
+      "comment": "チームミーティング、ワンオンワン、パイプラインレビューなどマネージャーの定常業務を体系化するシステム。",
+      "parent": "EnablementSystem"
+    },
+    {
+      "name": "SalesOrganization",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesOrganization",
+      "label": "営業組織",
+      "comment": "相互依存する部分の集合として機能する営業の生態系。属人化や非効率を克服し営業を科学する対象。",
+      "parent": null
+    },
+    {
+      "name": "SalesRepresentative",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesRepresentative",
+      "label": "営業担当者",
+      "comment": "顧客との商談においてツール、コンテンツ、知識、トレーニングを活用する前線の営業人材。",
+      "parent": null
+    },
+    {
+      "name": "FrontLineSalesManager",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/FrontLineSalesManager",
+      "label": "前線営業マネージャー",
+      "comment": "コーチングと現場トレーニングに集中すべき前線の営業管理者。イネーブルメントによる事務作業削減の対象。",
+      "parent": null
+    },
+    {
+      "name": "Buyer",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Buyer",
+      "label": "顧客",
+      "comment": "購買プロセスと完了条件を持つバイヤー。ペルソナとCOIN-OPにより理解される対象。",
+      "parent": null
+    },
+    {
+      "name": "Framework",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Framework",
+      "label": "フレームワーク",
+      "comment": "COIN-OP、STAR、ROAM、営業熟達と行動変容の五段階、二要因理論など、実践を導く枠組み。地図は現地ではないという前提で現場に適応させる。",
+      "parent": null
+    },
+    {
+      "name": "Charter",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Charter",
+      "label": "憲章",
+      "comment": "目的、目標、関係者、アウトプット、先行指標と遅行指標を明確にした戦略的計画。",
+      "parent": null
+    },
+    {
+      "name": "Onboarding",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Onboarding",
+      "label": "営業オンボーディング",
+      "comment": "パフォーマンスマイルストーン、チャンク・シーケンス・レイヤー、反転学習、間隔反復、ロールプレイ、レディネス検証、七十・二十・十の法則により新入社員を早期戦力化する取組。",
+      "parent": null
+    },
+    {
+      "name": "SupportService",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SupportService",
+      "label": "営業サポートサービス",
+      "comment": "領域専門家、提案依頼書支援、ディールデスク、外部コーチングなど、コミュニケーション一元化とナレッジマネジメントを支えるサービス。",
+      "parent": null
+    },
+    {
+      "name": "PerformanceConsulting",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/PerformanceConsulting",
+      "label": "パフォーマンスコンサルティング",
+      "comment": "トレーニングでは解決できない組織的要因や個人的要因の根本原因を分析し継続的改善を行う、セールスイネーブルメントの最終形。",
+      "parent": null
+    },
+    {
+      "name": "Metric",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Metric",
+      "label": "指標",
+      "comment": "憲章で定義される先行指標と遅行指標。現状診断のギャップ分析や影響分析にも用いる。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "basedOnSystemsThinking",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "SystemsThinking"
+      ],
+      "label": "システム思考に基づく",
+      "comment": "セールスイネーブルメントがシステム思考に基づいて構築される関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/basedOnSystemsThinking"
+    },
+    {
+      "name": "hasBuildingBlock",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "BuildingBlock"
+      ],
+      "label": "ビルディングブロックを持つ",
+      "comment": "セールスイネーブルメントが営業力最大化の構成要素を持つ関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasBuildingBlock"
+    },
+    {
+      "name": "hasSystem",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "EnablementSystem"
+      ],
+      "label": "システムを持つ",
+      "comment": "セールスイネーブルメントが相互依存する四つの基盤システムを持つ関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasSystem"
+    },
+    {
+      "name": "targetsOrganization",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "SalesOrganization"
+      ],
+      "label": "対象組織",
+      "comment": "セールスイネーブルメントが生産性を最大化しようとする営業組織。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/targetsOrganization"
+    },
+    {
+      "name": "enablesRepresentative",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "SalesRepresentative"
+      ],
+      "label": "営業担当者をイネーブルする",
+      "comment": "適切なリソースを適切なタイミングで活用できるよう営業担当者を支援する関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/enablesRepresentative"
+    },
+    {
+      "name": "usesFramework",
+      "type": "object",
+      "domain": [
+        "BuildingBlock",
+        "SalesEnablement"
+      ],
+      "range": [
+        "Framework"
+      ],
+      "label": "フレームワークを用いる",
+      "comment": "ビルディングブロックやイネーブルメントが実践枠組みを用いる関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/usesFramework"
+    },
+    {
+      "name": "hasCharter",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "Charter"
+      ],
+      "label": "憲章を持つ",
+      "comment": "導入時に目的・目標・関係者・指標を定めた憲章を策定する関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasCharter"
+    },
+    {
+      "name": "hasOnboarding",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "Onboarding"
+      ],
+      "label": "オンボーディングを持つ",
+      "comment": "新入社員の早期戦力化プログラムを持つ関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasOnboarding"
+    },
+    {
+      "name": "providesSupportService",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "SupportService"
+      ],
+      "label": "サポートサービスを提供する",
+      "comment": "領域専門家やディールデスク等の営業支援サービスを提供する関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/providesSupportService"
+    },
+    {
+      "name": "evolvesInto",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "PerformanceConsulting"
+      ],
+      "label": "進化する",
+      "comment": "単なるツールや研修提供からパフォーマンスコンサルティングへ進化する関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/evolvesInto"
+    },
+    {
+      "name": "hasMetric",
+      "type": "object",
+      "domain": [
+        "Charter",
+        "SalesEnablement"
+      ],
+      "range": [
+        "Metric"
+      ],
+      "label": "指標を持つ",
+      "comment": "憲章や取組が先行指標と遅行指標を持つ関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasMetric"
+    },
+    {
+      "name": "engagesBuyer",
+      "type": "object",
+      "domain": [
+        "SalesRepresentative",
+        "BuyerEngagementContent"
+      ],
+      "range": [
+        "Buyer"
+      ],
+      "label": "顧客とエンゲージする",
+      "comment": "営業担当者またはコンテンツが顧客の購買プロセスに関与する関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/engagesBuyer"
+    },
+    {
+      "name": "coaches",
+      "type": "object",
+      "domain": [
+        "FrontLineSalesManager",
+        "SalesCoaching"
+      ],
+      "range": [
+        "SalesRepresentative"
+      ],
+      "label": "コーチングする",
+      "comment": "マネージャーまたはコーチング機能が営業担当者の行動変容を支援する関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/coaches"
+    },
+    {
+      "name": "managesTeam",
+      "type": "object",
+      "domain": [
+        "FrontLineSalesManager"
+      ],
+      "range": [
+        "SalesRepresentative"
+      ],
+      "label": "チームを管理する",
+      "comment": "前線営業マネージャーが営業担当者を管理する関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/managesTeam"
+    },
+    {
+      "name": "supportsManager",
+      "type": "object",
+      "domain": [
+        "SalesManagerEnablement"
+      ],
+      "range": [
+        "FrontLineSalesManager"
+      ],
+      "label": "マネージャーを支援する",
+      "comment": "マネージャーイネーブルメントが前線営業マネージャーを支援する関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/supportsManager"
+    },
+    {
+      "name": "definesCompletionCriteria",
+      "type": "object",
+      "domain": [
+        "SalesProcess",
+        "CustomerUnderstanding"
+      ],
+      "range": [
+        "Buyer"
+      ],
+      "label": "完了条件を定義する",
+      "comment": "営業プロセスまたは顧客理解が購買・商談の完了条件を定義する関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/definesCompletionCriteria"
+    },
+    {
+      "name": "usesMethodInProcess",
+      "type": "object",
+      "domain": [
+        "SalesProcess"
+      ],
+      "range": [
+        "SalesMethod"
+      ],
+      "label": "プロセスでメソッドを用いる",
+      "comment": "各進行段階で具体的スキルや行動を定義するメソッドを用いる関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/usesMethodInProcess"
+    },
+    {
+      "name": "usesTool",
+      "type": "object",
+      "domain": [
+        "SalesRepresentative",
+        "SalesOrganization"
+      ],
+      "range": [
+        "SalesTechAndTools"
+      ],
+      "label": "ツールを用いる",
+      "comment": "営業担当者や組織がCRM等のセールステックを用いる関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/usesTool"
+    },
+    {
+      "name": "belongsToOrganization",
+      "type": "object",
+      "domain": [
+        "SalesRepresentative",
+        "FrontLineSalesManager"
+      ],
+      "range": [
+        "SalesOrganization"
+      ],
+      "label": "組織に属する",
+      "comment": "営業人材が営業組織に所属する関係。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/belongsToOrganization"
+    },
+    {
+      "name": "hasPurpose",
+      "type": "data",
+      "domain": [
+        "SalesEnablement",
+        "Charter",
+        "BuildingBlock"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "目的",
+      "comment": "取組や憲章、構成要素の目的を表す文字列。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasPurpose"
+    },
+    {
+      "name": "hasDefinition",
+      "type": "data",
+      "domain": [
+        "SalesEnablement",
+        "BuildingBlock",
+        "EnablementSystem",
+        "Framework"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "定義",
+      "comment": "概念の定義を表す文字列。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasDefinition"
+    },
+    {
+      "name": "hasObjective",
+      "type": "data",
+      "domain": [
+        "Charter",
+        "Onboarding",
+        "Metric"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "目標",
+      "comment": "憲章、オンボーディング、指標における目標を表す文字列。",
+      "uri": "https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasObjective"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

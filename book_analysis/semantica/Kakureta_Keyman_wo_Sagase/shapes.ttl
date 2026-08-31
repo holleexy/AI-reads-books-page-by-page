@@ -1,0 +1,507 @@
+@prefix ex: <https://books.local/Kakureta_Keyman_wo_Sagase/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/shapes> a owl:Ontology .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/SalesMisconceptionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesMisconception ;
+    sh:name "営業の誤解" ;
+    sh:description "モダンB2B営業が固執し契約獲得を阻害する誤った常識。全員追跡、優れた提案、過剰カスタマイズ、ベネフィット伝達、コンテンツナーチャリングなどが該当する。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/OneThirdProblemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OneThirdProblem ;
+    sh:name "3分の1問題" ;
+    sh:description "サプライヤーが候補に挙がり交渉の席には着けるものの、最終的に価格競争に巻き込まれ受注確率が3分の1に落ちる構造的課題。" .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/CommodityTrapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CommodityTrap ;
+    sh:name "コモディティ化の罠" ;
+    sh:description "製品が優れていても価格競争に陥り、顧客が2番目に安いそこそこの品質で妥協する現象。" ;
+    sh:property [
+        sh:path ex:resultsInOneThirdProblem ;
+        sh:class ex:OneThirdProblem ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/StatusQuoShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:StatusQuo ;
+    sh:name "現状維持" ;
+    sh:description "サプライヤーの最大の競争相手。顧客が変化せず既存のやり方を続けることであり、隠れたコストと痛みを生む。" ;
+    sh:property [
+        sh:path ex:causesCommodityTrap ;
+        sh:class ex:CommodityTrap ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "法人購買を行う企業。購買決定には平均5.4人のステークホルダーが関与する。" ;
+    sh:property [
+        sh:path ex:hasStakeholder ;
+        sh:class ex:Stakeholder ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBuyingProcess ;
+        sh:class ex:BuyingProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/SupplierShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Supplier ;
+    sh:name "サプライヤー" ;
+    sh:description "法人向けに製品やソリューションを提供する売り手企業。" ;
+    sh:property [
+        sh:path ex:presentsInsight ;
+        sh:class ex:CommercialInsight ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:competesWith ;
+        sh:class ex:StatusQuo ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:employs ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:sellsTo ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsProcess ;
+        sh:class ex:SICContentProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/SalespersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Salesperson ;
+    sh:name "販売員" ;
+    sh:description "顧客に接触し提案を行う営業担当者。プレゼンターからファシリテーターへ役割を変える必要がある。" ;
+    sh:property [
+        sh:path ex:presentsInsight ;
+        sh:class ex:CommercialInsight ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:coaches ;
+        sh:class ex:Mobilizer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesCoaching ;
+        sh:class ex:CommercialCoaching ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:facilitates ;
+        sh:class ex:CollectiveLearning ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/ChallengerSalespersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ChallengerSalesperson ;
+    sh:name "チャレンジャー販売員" ;
+    sh:description "花形販売員。顧客に建設的な緊張をもたらし、モビライザーと共鳴して変革を推進する論客タイプ。" ;
+    sh:property [
+        sh:path ex:targetsMobilizer ;
+        sh:class ex:Mobilizer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:presentsInsight ;
+        sh:class ex:CommercialInsight ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:coaches ;
+        sh:class ex:Mobilizer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesCoaching ;
+        sh:class ex:CommercialCoaching ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:facilitates ;
+        sh:class ex:CollectiveLearning ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/BuyingCommitteeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BuyingCommittee ;
+    sh:name "購買委員会" ;
+    sh:description "平均5.4人のステークホルダーからなる意思決定集団。個別のイエスが集団のノーになる1プラス1プラス1イコール0の現象を起こす。" ;
+    sh:property [
+        sh:path ex:hasStakeholder ;
+        sh:class ex:Stakeholder ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/BuyingProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BuyingProcess ;
+    sh:name "購買プロセス" ;
+    sh:description "情報過多とリスク回避と専門部門の発言権増大により不良議会化した法人購買の流れ。37パーセント地点で瓦解しやすく、57パーセント地点で初めて販売員に接触する。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/StakeholderShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Stakeholder ;
+    sh:name "ステークホルダー" ;
+    sh:description "顧客企業の購買決定に関与する関係者。それぞれ異なるメンタルモデルを持ち、衝突するとリスク回避と経費削減だけが合意される。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMentalModel ;
+        sh:class ex:MentalModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:BuyingProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/MobilizerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Mobilizer ;
+    sh:name "モビライザー" ;
+    sh:description "組織を動かす能力とコンセンサスを形成する能力を持つ動員者。ゴー・ゲッター、ティーチャー、スケプティックの総称であり隠れたキーマンである。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMentalModel ;
+        sh:class ex:MentalModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:BuyingProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/TalkerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Talker ;
+    sh:name "トーカー" ;
+    sh:description "話し相手としては優秀だが取引を成立させる力は弱い関係者。ガイド、フレンド、クライマーの総称。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMentalModel ;
+        sh:class ex:MentalModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:BuyingProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/BlockerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Blocker ;
+    sh:name "ブロッカー" ;
+    sh:description "現状維持を好み変化に抵抗する阻害者。質の高い契約の確率を47パーセント低下させる。無視は最大のリスクである。" ;
+    sh:property [
+        sh:path ex:obstructs ;
+        sh:class ex:BuyingProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMentalModel ;
+        sh:class ex:MentalModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:BuyingProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/GoGetterShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GoGetter ;
+    sh:name "ゴー・ゲッター" ;
+    sh:description "実務家で、アイデアを具体的な業務計画に落とし込むのが得意なやり手。モビライザーの一類型。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMentalModel ;
+        sh:class ex:MentalModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:BuyingProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/TeacherShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Teacher ;
+    sh:name "ティーチャー" ;
+    sh:description "感情重視で、ビジョンやストーリーを通じて社内を巻き込むのが得意な教育者。モビライザーの一類型。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMentalModel ;
+        sh:class ex:MentalModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:BuyingProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/SkepticShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Skeptic ;
+    sh:name "スケプティック" ;
+    sh:description "データと論理を重視し、徹底的に検証してから支持を表明する懐疑派。モビライザーの一類型。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMentalModel ;
+        sh:class ex:MentalModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:BuyingProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/GuideShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Guide ;
+    sh:name "ガイド" ;
+    sh:description "内部情報に通じているが変革推進力は低い案内役。トーカーの一類型。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMentalModel ;
+        sh:class ex:MentalModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:BuyingProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/FriendShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Friend ;
+    sh:name "フレンド" ;
+    sh:description "接触しやすく親切だが成約への寄与は低い友だちタイプ。トーカーの一類型。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMentalModel ;
+        sh:class ex:MentalModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:BuyingProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/ClimberShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Climber ;
+    sh:name "クライマー" ;
+    sh:description "個人的な利益やキャリアのために動く上昇志向の関係者。トーカーの一類型。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMentalModel ;
+        sh:class ex:MentalModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:BuyingProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/MentalModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MentalModel ;
+    sh:name "メンタルモデル" ;
+    sh:description "ステークホルダーが持つ世界観と優先事項。多様なモデルの衝突は最低の共通項であるリスク回避と何もしないことだけを残しコモディティ化を招く。" ;
+    sh:property [
+        sh:path ex:causesCommodityTrap ;
+        sh:class ex:CommodityTrap ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/CommercialInsightShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CommercialInsight ;
+    sh:name "コマーシャル・インサイト" ;
+    sh:description "顧客が自身のビジネスについてよくわかっているべきなのに気づいていないことを提示する深い洞察。現状維持の隠れた痛みを証明しメンタルモデルを転換する組織的な戦略資産。" ;
+    sh:property [
+        sh:path ex:transformsMentalModel ;
+        sh:class ex:MentalModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exposesPainOf ;
+        sh:class ex:StatusQuo ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:illustratedBy ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/SICContentProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SICContentProcess ;
+    sh:name "SICコンテンツプロセス" ;
+    sh:description "刺激、導入、直面という道筋でモビライザーのメンタルモデルを変化させるコンテンツ設計。インサイトに収斂しないコンテンツは破棄すべきである。" ;
+    sh:property [
+        sh:path ex:produces ;
+        sh:class ex:Content ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/ContentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Content ;
+    sh:name "コンテンツ" ;
+    sh:description "刺激用の予想外データやインフォグラフィック、導入用のホワイトペーパー、直面用のペインチェッカーなど、SICに直結する情報資産。" ;
+    sh:property [
+        sh:path ex:convergesOn ;
+        sh:class ex:CommercialInsight ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/CollectiveLearningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CollectiveLearning ;
+    sh:name "コレクティブラーニング" ;
+    sh:description "顧客関係者同士を結びつけ共通言語と共通のビジョンを構築する集合的学習。集団の機能不全を3分の1に低下させ高品質な取引の確率を高める。" ;
+    sh:property [
+        sh:path ex:neutralizes ;
+        sh:class ex:Blocker ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/CommercialCoachingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CommercialCoaching ;
+    sh:name "コマーシャル・コーチング" ;
+    sh:description "販売員がファシリテーターとしてモビライザーに社内での動き方と同僚の説得方法を指導し、購買プロセスを支援する活動。" .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/OpportunityPlanningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OpportunityPlanning ;
+    sh:name "オポチュニティ・プランニング" ;
+    sh:description "誰に会うかではなく、モビライザーにインサイトをリサーチさせ集団を合意させるかというクリティカル・シンキングに基づく取引計画。" ;
+    sh:property [
+        sh:path ex:tracksSignal ;
+        sh:class ex:BuyerSignal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:plansFor ;
+        sh:class ex:Mobilizer ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/BuyerSignalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BuyerSignal ;
+    sh:name "バイヤーシグナル" ;
+    sh:description "顧客が認めた購買行動の進捗結果。従来のセラーリードではなくこれをマイルストーンとして管理する。" .
+
+<https://books.local/Kakureta_Keyman_wo_Sagase/CaseStudyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CaseStudy ;
+    sh:name "事例" ;
+    sh:description "デンツプライやゼロックスなど、コマーシャル・インサイトによりメンタルモデルを転換し価格競争を回避した成功事例。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .

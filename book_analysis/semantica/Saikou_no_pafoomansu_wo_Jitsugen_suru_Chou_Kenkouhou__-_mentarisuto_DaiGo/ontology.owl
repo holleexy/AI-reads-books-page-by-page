@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/">
+    <rdfs:label>Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGoOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/BodyClock">
+    <rdfs:label xml:lang="ja">体内時計</rdfs:label>
+    <rdfs:comment xml:lang="ja">約24.5時間周期の生体リズム。視交叉上核と末端細胞の時計を毎日リセットする必要がある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Chrononutrition">
+    <rdfs:label xml:lang="ja">時間栄養学</rdfs:label>
+    <rdfs:comment xml:lang="ja">食事の時間と量で時計遺伝子を制御し、運動能力・肥満・メンタルを最適化する考え方。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/CircadianReset">
+    <rdfs:label xml:lang="ja">体内時計リセット</rdfs:label>
+    <rdfs:comment xml:lang="ja">朝日による視交叉上核のリセットと、炭水化物・タンパク質摂取による末端細胞時計のリセット。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Sunlight">
+    <rdfs:label xml:lang="ja">太陽光</rdfs:label>
+    <rdfs:comment xml:lang="ja">朝日は体内時計をリセットし代謝を最適化する。朝8時から12時に20〜30分浴びるとBMI低下が報告される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Meal">
+    <rdfs:label xml:lang="ja">食事</rdfs:label>
+    <rdfs:comment xml:lang="ja">摂取する食べ物のまとまり。1日3食習慣に科学的根拠はなく、石器時代には朝食の常備は不可能だった。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Breakfast">
+    <rdfs:label xml:lang="ja">朝食</rdfs:label>
+    <rdfs:comment xml:lang="ja">朝は交感神経が優位で脂肪蓄積しやすいため生理学的には不要。RCTでは朝食抜き群が最も体重減少した。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Meal"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Food">
+    <rdfs:label xml:lang="ja">食品</rdfs:label>
+    <rdfs:comment xml:lang="ja">健康効果や落とし穴を持つ飲食物。生の果物は適量、ジュースやドライフルーツは糖質濃縮のため避ける。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Oil">
+    <rdfs:label xml:lang="ja">油</rdfs:label>
+    <rdfs:comment xml:lang="ja">ビタミン吸収に必須。エキストラバージンオリーブオイルが推奨され、マーガリンやトランス脂肪酸は避ける。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Food"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Nutrient">
+    <rdfs:label xml:lang="ja">栄養素</rdfs:label>
+    <rdfs:comment xml:lang="ja">人体の代謝・食欲・脳機能・腸内環境を左右する成分。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Carbohydrate">
+    <rdfs:label xml:lang="ja">炭水化物</rdfs:label>
+    <rdfs:comment xml:lang="ja">摂取割合約50%が最も寿命が長い。極端な制限は寿命短縮と代謝柔軟性の破壊につながる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Nutrient"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Protein">
+    <rdfs:label xml:lang="ja">タンパク質</rdfs:label>
+    <rdfs:comment xml:lang="ja">総カロリーの15%以上で食欲が自然に抑制される。ホエイは大豆より体脂肪減少効果が高い。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Nutrient"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Fat">
+    <rdfs:label xml:lang="ja">脂質</rdfs:label>
+    <rdfs:comment xml:lang="ja">炭水化物より食欲を刺激する。高脂肪食は日中の眠気を78%高め、レプチンとオレキシンに悪影響を与える。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Nutrient"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/DietaryFiber">
+    <rdfs:label xml:lang="ja">食物繊維</rdfs:label>
+    <rdfs:comment xml:lang="ja">腸内で酢酸などの短鎖脂肪酸に変わり食欲を抑える。不足すると腸内細菌が腸壁を食べ始める。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Nutrient"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Omega3FattyAcid">
+    <rdfs:label xml:lang="ja">オメガ3脂肪酸</rdfs:label>
+    <rdfs:comment xml:lang="ja">DHA・EPA。海馬を大きくし認知機能を向上させ、1日1.5gを60日で慢性頭痛を75%減少させる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Nutrient"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Phytochemical">
+    <rdfs:label xml:lang="ja">ファイトケミカル</rdfs:label>
+    <rdfs:comment xml:lang="ja">ポリフェノールやカルテノイドなど。活性酸素を無毒化し老化や疾患を防ぐ植物由来物質。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ArtificialSweetener">
+    <rdfs:label xml:lang="ja">人工甘味料</rdfs:label>
+    <rdfs:comment xml:lang="ja">FDA認可でも大腸菌を刺激して毒素を出させ、肥満や高血糖の人ではグルコース不耐症のリスクがある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Sleep">
+    <rdfs:label xml:lang="ja">睡眠</rdfs:label>
+    <rdfs:comment xml:lang="ja">高脂肪食・夜のブルーライト・ホルモンバランスの影響を受ける休息機能。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Stress">
+    <rdfs:label xml:lang="ja">ストレス</rdfs:label>
+    <rdfs:comment xml:lang="ja">午前中に負荷の高い仕事を終わらせると食欲増進ホルモンが抑えられ肥満リスクが下がる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Appetite">
+    <rdfs:label xml:lang="ja">食欲</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロテインレバレッジ、脂質、ストレス、どうにでもなれ効果、早歩きやテトリス等で増減する欲求。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/SkinCare">
+    <rdfs:label xml:lang="ja">スキンケア</rdfs:label>
+    <rdfs:comment xml:lang="ja">必要なのは保湿と日焼け止めのみ。ワセリン等の油分膜とSPF30以上の広域スペクトラムを2時間おきに塗る。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Brain">
+    <rdfs:label xml:lang="ja">脳</rdfs:label>
+    <rdfs:comment xml:lang="ja">青魚・クルミ・大豆などで最適化できる。オメガ3は海馬を大きくし認知機能を高める。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/GutMicrobiome">
+    <rdfs:label xml:lang="ja">腸内環境</rdfs:label>
+    <rdfs:comment xml:lang="ja">第2の脳。免疫とホルモンを支配し、食物繊維（MAC）不足や人工甘味料で乱れる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Hormone">
+    <rdfs:label xml:lang="ja">ホルモン</rdfs:label>
+    <rdfs:comment xml:lang="ja">レプチン、オレキシン、コルチゾール、アドレナリン、ドーパミン、HSLなど生理調節物質。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/MetabolicFlexibility">
+    <rdfs:label xml:lang="ja">代謝柔軟性</rdfs:label>
+    <rdfs:comment xml:lang="ja">糖質と脂質を切り替えてエネルギーにする能力。極端な糖質制限で壊れ太りやすい体質になる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/DietMethod">
+    <rdfs:label xml:lang="ja">ダイエット手法</rdfs:label>
+    <rdfs:comment xml:lang="ja">総カロリーが同じなら糖質制限もバランス食も減量効果は同等。カロリーの質とタイミングが重要。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/IntermittentFasting">
+    <rdfs:label xml:lang="ja">間欠的断食</rdfs:label>
+    <rdfs:comment xml:lang="ja">HSLを活性化し内臓脂肪を分解する。中性脂肪・LDL減少、睡眠改善、抗炎症などの効果がある。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/DietMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/LeanGains">
+    <rdfs:label xml:lang="ja">リーンゲインズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">8時間食事・16時間断食。12週間で運動なしに約350kcal削減と体重3%減少が確認された。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/IntermittentFasting"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/AlternateDayFasting">
+    <rdfs:label xml:lang="ja">日替わり断食</rdfs:label>
+    <rdfs:comment xml:lang="ja">週3日カロリー半減。6週間で体脂肪15.1%減、筋肉減少は2.91%に抑えられる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/IntermittentFasting"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Exercise">
+    <rdfs:label xml:lang="ja">運動</rdfs:label>
+    <rdfs:comment xml:lang="ja">下半身の大きな筋肉を鍛えるのが効率的。45分超の有酸素はコルチゾールで筋肉分解と食欲増進を招く。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/HIIT">
+    <rdfs:label xml:lang="ja">高強度インターバルトレーニング</rdfs:label>
+    <rdfs:comment xml:lang="ja">20秒全力・10秒休みの短時間高強度運動。アンチエイジングと脂肪燃焼に適する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Exercise"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/NEAT">
+    <rdfs:label xml:lang="ja">非運動性活動熱産生</rdfs:label>
+    <rdfs:comment xml:lang="ja">階段使用など日常生活の活動量。ジム通いより消費カロリーが高くなる場合がある。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Exercise"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/BlueLight">
+    <rdfs:label xml:lang="ja">ブルーライト</rdfs:label>
+    <rdfs:comment xml:lang="ja">夜の画面は睡眠ホルモンを阻害する。1日1.5時間以上のスマホ使用で肥満リスクが2倍になる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ResearchFinding">
+    <rdfs:label xml:lang="ja">科学的知見</rdfs:label>
+    <rdfs:comment xml:lang="ja">RCT、メタ分析、追跡調査などに基づく健康・栄養・運動に関する発見。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/resets">
+    <rdfs:label xml:lang="ja">リセットする</rdfs:label>
+    <rdfs:comment xml:lang="ja">太陽光や炭水化物・タンパク質の食事により体内時計をリセットする。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/CircadianReset"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Sunlight"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Meal"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/BodyClock"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/contains">
+    <rdfs:label xml:lang="ja">含む</rdfs:label>
+    <rdfs:comment xml:lang="ja">食品や食事が栄養素やファイトケミカルを含む。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Food"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Oil"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Meal"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Nutrient"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Phytochemical"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Omega3FattyAcid"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/affects">
+    <rdfs:label xml:lang="ja">影響する</rdfs:label>
+    <rdfs:comment xml:lang="ja">食事・光・ストレス・運動などが睡眠・脳・腸・ホルモン・食欲に影響する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Food"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Meal"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Fat"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Stress"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/BlueLight"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Exercise"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ArtificialSweetener"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Sleep"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Brain"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/GutMicrobiome"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Hormone"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Appetite"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/SkinCare"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/MetabolicFlexibility"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/improves">
+    <rdfs:label xml:lang="ja">改善する</rdfs:label>
+    <rdfs:comment xml:lang="ja">栄養素・運動・断食・太陽光が脳機能・睡眠・腸内環境などを改善する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Omega3FattyAcid"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Phytochemical"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/DietaryFiber"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Exercise"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/IntermittentFasting"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Sunlight"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Brain"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Sleep"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/GutMicrobiome"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/SkinCare"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/MetabolicFlexibility"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/impairs">
+    <rdfs:label xml:lang="ja">損なう</rdfs:label>
+    <rdfs:comment xml:lang="ja">人工甘味料・高脂肪・極端な糖質制限・夜間ブルーライトが機能を損なう。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ArtificialSweetener"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Fat"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Carbohydrate"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/BlueLight"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/GutMicrobiome"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/MetabolicFlexibility"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Sleep"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Appetite"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/suppresses">
+    <rdfs:label xml:lang="ja">抑制する</rdfs:label>
+    <rdfs:comment xml:lang="ja">タンパク質15%以上、食物繊維、空腹時の早歩きなどが食欲を抑制する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Protein"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/DietaryFiber"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Exercise"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/IntermittentFasting"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Appetite"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/stimulates">
+    <rdfs:label xml:lang="ja">刺激する</rdfs:label>
+    <rdfs:comment xml:lang="ja">脂質やストレスは食欲を刺激し過食を招きやすい。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Fat"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Stress"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Appetite"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/nourishes">
+    <rdfs:label xml:lang="ja">養う</rdfs:label>
+    <rdfs:comment xml:lang="ja">食物繊維（MAC）は腸内細菌のエサとなり腸壁破壊を防ぐ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/DietaryFiber"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/GutMicrobiome"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/activates">
+    <rdfs:label xml:lang="ja">活性化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">断食はHSLやアドレナリンを活性化し、太陽光は体内時計リセットを活性化する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/IntermittentFasting"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Sunlight"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Hormone"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/CircadianReset"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/regulates">
+    <rdfs:label xml:lang="ja">調節する</rdfs:label>
+    <rdfs:comment xml:lang="ja">腸内環境・時間栄養学・ホルモンが免疫・食欲・体内時計を調節する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/GutMicrobiome"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Chrononutrition"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Hormone"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Hormone"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Brain"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Appetite"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/BodyClock"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/basedOn">
+    <rdfs:label xml:lang="ja">根拠とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">実践法がRCTやメタ分析などの科学的知見に基づく。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Chrononutrition"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/DietMethod"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Exercise"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/SkinCare"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Meal"/>
+    <rdfs:range rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ResearchFinding"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/recommendedAmount">
+    <rdfs:label xml:lang="ja">推奨量</rdfs:label>
+    <rdfs:comment xml:lang="ja">適量や摂取割合の目安。例：タンパク質は総カロリーの15%以上、果物は手のひら1個。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Food"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Nutrient"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Protein"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Omega3FattyAcid"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/SkinCare"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/practiceMethod">
+    <rdfs:label xml:lang="ja">実践方法</rdfs:label>
+    <rdfs:comment xml:lang="ja">リセット、断食時間、HIITの間隔、日焼け止めの塗り直しなど具体的なやり方。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/CircadianReset"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/IntermittentFasting"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Exercise"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/SkinCare"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/HIIT"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/healthEffect">
+    <rdfs:label xml:lang="ja">健康効果</rdfs:label>
+    <rdfs:comment xml:lang="ja">体重変化、頭痛減少、BMI低下、体脂肪減少など報告された効果の記述。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Food"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Nutrient"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/DietMethod"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Exercise"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/IntermittentFasting"/>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Phytochemical"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/evidenceSummary">
+    <rdfs:label xml:lang="ja">知見要約</rdfs:label>
+    <rdfs:comment xml:lang="ja">研究デザインと主な結論の短い要約。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ResearchFinding"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

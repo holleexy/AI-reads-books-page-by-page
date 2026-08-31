@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/">
+    <rdfs:label>バックオフィス業務のすべてがわかる本.ocrOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice">
+    <rdfs:label xml:lang="ja">バックオフィス</rdfs:label>
+    <rdfs:comment xml:lang="ja">経理、人事、法務、総務を総称する管理部門・間接部門・コーポレート部門。一つの機能として捉え、経営者の会社経営コントロールの一部を引き受ける。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/FrontOffice">
+    <rdfs:label xml:lang="ja">フロントオフィス</rdfs:label>
+    <rdfs:comment xml:lang="ja">販売、アフターサービス、企画・開発、製造、物流、マーケティング、サービスなど直接的な事業活動を担う部門。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Company">
+    <rdfs:label xml:lang="ja">企業</rdfs:label>
+    <rdfs:comment xml:lang="ja">バックオフィスを持つ組織。大企業、中小企業、スタートアップなど類型や成長段階により組織設計が異なる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction">
+    <rdfs:label xml:lang="ja">バックオフィス機能</rdfs:label>
+    <rdfs:comment xml:lang="ja">バックオフィスを構成する職能領域。ヒト・モノ・カネの観点から経営意思決定を支える。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/AccountingFinance">
+    <rdfs:label xml:lang="ja">経理財務</rdfs:label>
+    <rdfs:comment xml:lang="ja">カネに対応する機能。帳簿、財務諸表、資金繰り、資金調達、決算、税務、予算・業績分析を扱う。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/HumanResourcesLabor">
+    <rdfs:label xml:lang="ja">人事労務</rdfs:label>
+    <rdfs:comment xml:lang="ja">ヒトに対応する機能。採用、育成、人事制度、労働法遵守、社会保険手続きを扱う。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/LegalAffairs">
+    <rdfs:label xml:lang="ja">法務</rdfs:label>
+    <rdfs:comment xml:lang="ja">法的リスクの認識と統制。事業法務（契約）と会社法務（株主総会、取締役会、登記）、ハラスメントとガバナンスを扱う。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/GeneralAffairs">
+    <rdfs:label xml:lang="ja">総務</rdfs:label>
+    <rdfs:comment xml:lang="ja">社内環境と行事を担う縁の下の力持ち。社内イベント、贈答、オフィス移転、OA機器などを扱う。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/ManagementPlanning">
+    <rdfs:label xml:lang="ja">経営企画</rdfs:label>
+    <rdfs:comment xml:lang="ja">経営の手足。中期計画、予算、M&amp;A、特別プロジェクトを扱い、定型業務は相対的に少ない。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Resource">
+    <rdfs:label xml:lang="ja">経営資源</rdfs:label>
+    <rdfs:comment xml:lang="ja">バックオフィスが経営意思決定を支えるヒト・モノ・カネ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/PeopleResource">
+    <rdfs:label xml:lang="ja">ヒト</rdfs:label>
+    <rdfs:comment xml:lang="ja">人事労務が主に担う人的資源。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Resource"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/GoodsResource">
+    <rdfs:label xml:lang="ja">モノ</rdfs:label>
+    <rdfs:comment xml:lang="ja">物品・設備など物的資源。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Resource"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/MoneyResource">
+    <rdfs:label xml:lang="ja">カネ</rdfs:label>
+    <rdfs:comment xml:lang="ja">経理財務が主に担う資金・財務資源。お金の動きはビジネスが進む過程の結果に過ぎない。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Resource"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/ExecutiveRole">
+    <rdfs:label xml:lang="ja">経営層役職</rdfs:label>
+    <rdfs:comment xml:lang="ja">バックオフィスと経営をつなぐCXO級の役割。CFO、CHROに加えCLOやCAOも重要性を増す。差は経営への関与にある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/ChiefFinancialOfficer">
+    <rdfs:label xml:lang="ja">最高財務責任者</rdfs:label>
+    <rdfs:comment xml:lang="ja">全社の財務資源配分をM&amp;Aを含めて最適化する使命を持つ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/ExecutiveRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/ChiefHumanResourcesOfficer">
+    <rdfs:label xml:lang="ja">最高人事責任者</rdfs:label>
+    <rdfs:comment xml:lang="ja">制度設計、採用、文化を通じて最強の成果を生む組織を構築する使命を持つ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/ExecutiveRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/WorkType">
+    <rdfs:label xml:lang="ja">業務類型</rdfs:label>
+    <rdfs:comment xml:lang="ja">バックオフィス業務の性質。定型業務の割合が高いこと、専門知識を要すること、全社の経営管理を規律することの三特性がある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/RoutineWork">
+    <rdfs:label xml:lang="ja">定型業務</rdfs:label>
+    <rdfs:comment xml:lang="ja">日次・週次・月次・年次のサイクルで行われる標準化された業務。可視化とマニュアル化が効率を左右する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/WorkType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/SpecializedKnowledgeWork">
+    <rdfs:label xml:lang="ja">専門知識業務</rdfs:label>
+    <rdfs:comment xml:lang="ja">法令や会計基準など専門知識を要する業務。法令はほぼ毎年改正される。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/WorkType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/ManagementControlWork">
+    <rdfs:label xml:lang="ja">経営管理業務</rdfs:label>
+    <rdfs:comment xml:lang="ja">全社の経営管理を規律する業務。経営者の意図を理解し同じ視点でオペレーションを回すことが本質である。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/WorkType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/OrganizationDesign">
+    <rdfs:label xml:lang="ja">組織設計</rdfs:label>
+    <rdfs:comment xml:lang="ja">事業モデル、成長計画、文化、企業類型、ステークホルダー要求に応じた編成。一人バックオフィスから機能別部門まで段階的に変わる。組織設計は文化形成そのものである。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficePolicy">
+    <rdfs:label xml:lang="ja">バックオフィス・ポリシー</rdfs:label>
+    <rdfs:comment xml:lang="ja">機能を統一する羅針盤。全社戦略との連動、情熱と論理の結合、独自性の簡潔な表現が設計原則。コストセンターである機能の成長と存在感を支える。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/PeriodicTask">
+    <rdfs:label xml:lang="ja">定期業務</rdfs:label>
+    <rdfs:comment xml:lang="ja">年間・月次または随時のスケジュール、提出先、書類で管理される業務。法定期限を持つものが多く、繁閑は予測可能である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/FinancialClosing">
+    <rdfs:label xml:lang="ja">決算業務</rdfs:label>
+    <rdfs:comment xml:lang="ja">最も重要な定期業務の一つ。定型に見えて基準や事業展開により毎年変化し、完了時の達成感が大きい。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/PeriodicTask"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/AccountingPrinciple">
+    <rdfs:label xml:lang="ja">会計原則</rdfs:label>
+    <rdfs:comment xml:lang="ja">発生主義、費用収益対応の原則、継続企業の前提、収益の実現主義など、記帳と期間計算を支える原則。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/DoubleEntryBookkeeping">
+    <rdfs:label xml:lang="ja">複式簿記</rdfs:label>
+    <rdfs:comment xml:lang="ja">資産・負債・純資産・収益・費用の五分類で中長期視点を加える記帳法。会計の言語であり、借方と貸方で取引を捉える。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/FinancialStatement">
+    <rdfs:label xml:lang="ja">財務諸表</rdfs:label>
+    <rdfs:comment xml:lang="ja">会社法、金融商品取引法、税法、経営それぞれに奉仕する報告。貸借対照表と損益計算書を含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/ConsumptionTax">
+    <rdfs:label xml:lang="ja">消費税</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮受消費税から仮払消費税を差し引いて納税する付加価値税。免税事業者、簡易課税、税込経理と税抜経理が関連する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/InvoiceSystem">
+    <rdfs:label xml:lang="ja">インボイス制度</rdfs:label>
+    <rdfs:comment xml:lang="ja">2023年10月開始。適格請求書がなければ仕入税額控除できない制度。課税区分・税率・適格可否・控除方法の四軸で誤りやすい。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Depreciation">
+    <rdfs:label xml:lang="ja">減価償却</rdfs:label>
+    <rdfs:comment xml:lang="ja">長期使用資産を耐用年数にわたって費用配分する処理。定額法と定率法があり、事業供用日から開始する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/DigitalTransformation">
+    <rdfs:label xml:lang="ja">デジタルトランスフォーメーション</rdfs:label>
+    <rdfs:comment xml:lang="ja">2010年代以降不可避の変革。待ったなしで事務・取引処理をシステムに置き換え、残る役割を専門業務・管理・業務設計へ移す。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/RoboticProcessAutomation">
+    <rdfs:label xml:lang="ja">ロボティックプロセスオートメーション</rdfs:label>
+    <rdfs:comment xml:lang="ja">データの検索、ダウンロード、入力、分析を自動化する技術。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/DigitalTransformation"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/CloudSystem">
+    <rdfs:label xml:lang="ja">クラウドシステム</rdfs:label>
+    <rdfs:comment xml:lang="ja">UI/UXとAPI連携を重視する現代の業務システム。入力・所定ルールによる内部処理・出力の構造を理解することが運用の要点。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BusinessProcessOutsourcing">
+    <rdfs:label xml:lang="ja">業務プロセスアウトソーシング</rdfs:label>
+    <rdfs:comment xml:lang="ja">内部知識不足の補完や必要な時だけの資源利用。丸投げは危険であり、内部人材が指導・仲介者となる必要がある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/LicensedSpecialist">
+    <rdfs:label xml:lang="ja">士業専門家</rdfs:label>
+    <rdfs:comment xml:lang="ja">弁護士、弁理士、税理士、公認会計士、社会保険労務士など法令領域の専門家。内部知識の不足を補う。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Law">
+    <rdfs:label xml:lang="ja">法令</rdfs:label>
+    <rdfs:comment xml:lang="ja">会社法、独占禁止法、下請法、労働基準法、税法、会計基準、特許法、金融商品取引法、労働者派遣法など。ほぼ毎年改正される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Stakeholder">
+    <rdfs:label xml:lang="ja">ステークホルダー</rdfs:label>
+    <rdfs:comment xml:lang="ja">税務当局、株主、債権者、銀行、取引先、労働基準監督署など、方針や報告先を形づくる関係者。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/hasFunction">
+    <rdfs:label xml:lang="ja">機能を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">バックオフィスが経理財務、人事労務、法務、総務、経営企画などの職能を構成要素として持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/contrastedWith">
+    <rdfs:label xml:lang="ja">対比される</rdfs:label>
+    <rdfs:comment xml:lang="ja">バックオフィスが販売・製造などのフロントオフィスと対比される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/FrontOffice"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/belongsToCompany">
+    <rdfs:label xml:lang="ja">所属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">バックオフィスが特定の企業に属する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Company"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/mappedToResource">
+    <rdfs:label xml:lang="ja">経営資源に対応する</rdfs:label>
+    <rdfs:comment xml:lang="ja">職能がヒト・モノ・カネのいずれかに対応して設計される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Resource"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/ledBy">
+    <rdfs:label xml:lang="ja">統括される</rdfs:label>
+    <rdfs:comment xml:lang="ja">バックオフィスまたは個別機能がCFOやCHROなどの経営層役職に統括される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/ExecutiveRole"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/hasPolicy">
+    <rdfs:label xml:lang="ja">方針を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">バックオフィスが機能を統一するポリシーを持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficePolicy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/hasOrganizationDesign">
+    <rdfs:label xml:lang="ja">組織設計を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業またはバックオフィスが成長段階や事業モデルに応じた編成を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/OrganizationDesign"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/hasWorkType">
+    <rdfs:label xml:lang="ja">業務類型を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">定型、専門知識、経営管理といった業務特性を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/WorkType"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/hasPeriodicTask">
+    <rdfs:label xml:lang="ja">定期業務を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">職能が年間・月次などの周期で実施する業務を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/PeriodicTask"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/governedByLaw">
+    <rdfs:label xml:lang="ja">法令に規律される</rdfs:label>
+    <rdfs:comment xml:lang="ja">職能や定期業務が会社法、税法、労働基準法などの法令に規律される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/PeriodicTask"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Law"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/consultsSpecialist">
+    <rdfs:label xml:lang="ja">専門家に相談する</rdfs:label>
+    <rdfs:comment xml:lang="ja">法令改正の影響評価や不足知識の補完のため士業専門家と連携する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/LicensedSpecialist"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/outsourcesTo">
+    <rdfs:label xml:lang="ja">外部委託する</rdfs:label>
+    <rdfs:comment xml:lang="ja">経理や人事労務など比較的委託しやすい領域をBPOや士業に任せる関係。完全な丸投げは想定しない。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Company"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BusinessProcessOutsourcing"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/LicensedSpecialist"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/usesDigitalTransformation">
+    <rdfs:label xml:lang="ja">デジタル化を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">定型の事務処理をRPA、OCR、クラウドシステムなどで置き換える関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/DigitalTransformation"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/CloudSystem"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/RoboticProcessAutomation"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/involvesStakeholder">
+    <rdfs:label xml:lang="ja">関係者を伴う</rdfs:label>
+    <rdfs:comment xml:lang="ja">提出先や報告先として税務当局、株主、銀行などの関係者を伴う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/PeriodicTask"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/AccountingFinance"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/FinancialStatement"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Stakeholder"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/appliesPrinciple">
+    <rdfs:label xml:lang="ja">原則を適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">経理財務や複式簿記が発生主義などの会計原則を適用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/AccountingFinance"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/DoubleEntryBookkeeping"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/AccountingPrinciple"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/producesStatement">
+    <rdfs:label xml:lang="ja">財務諸表を作成する</rdfs:label>
+    <rdfs:comment xml:lang="ja">経理財務や決算業務が財務諸表を作成する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/AccountingFinance"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/FinancialClosing"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/FinancialStatement"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/usesBookkeeping">
+    <rdfs:label xml:lang="ja">簿記を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">経理財務が複式簿記を記帳の基盤として用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/AccountingFinance"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/DoubleEntryBookkeeping"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/appliesDepreciation">
+    <rdfs:label xml:lang="ja">減価償却を適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">長期使用資産の取得原価を耐用年数にわたって配分する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/AccountingFinance"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/Depreciation"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/handlesConsumptionTax">
+    <rdfs:label xml:lang="ja">消費税を扱う</rdfs:label>
+    <rdfs:comment xml:lang="ja">経理財務が消費税計算とインボイス制度への対応を扱う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/AccountingFinance"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/ConsumptionTax"/>
+    <rdfs:range rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/InvoiceSystem"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/mission">
+    <rdfs:label xml:lang="ja">使命</rdfs:label>
+    <rdfs:comment xml:lang="ja">経営層役職やバックオフィス機能が果たすべき使命の記述。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/ExecutiveRole"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/workCycle">
+    <rdfs:label xml:lang="ja">業務周期</rdfs:label>
+    <rdfs:comment xml:lang="ja">日次、週次、月次、年次など業務が繰り返される周期。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/PeriodicTask"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/RoutineWork"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/policyValue">
+    <rdfs:label xml:lang="ja">方針の価値観</rdfs:label>
+    <rdfs:comment xml:lang="ja">攻めて守る、バーサタイル、ゼロベース思考、プロフェッショナリズムなどポリシーが掲げる価値観。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficePolicy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/バックオフィス業務のすべてがわかる本.ocr/characteristic">
+    <rdfs:label xml:lang="ja">特性</rdfs:label>
+    <rdfs:comment xml:lang="ja">定型性、専門性、経営管理性など対象の性質を表す記述。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/WorkType"/>
+    <rdfs:domain rdf:resource="https://books.local/バックオフィス業務のすべてがわかる本.ocr/OrganizationDesign"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

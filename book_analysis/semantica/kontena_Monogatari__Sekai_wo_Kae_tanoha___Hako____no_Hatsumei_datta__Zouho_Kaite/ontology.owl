@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/">
+    <rdfs:label>kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_KaiteOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンテナ物語のように、発明や経済史を扱う著作。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Person">
+    <rdfs:label xml:lang="ja">人物</rdfs:label>
+    <rdfs:comment xml:lang="ja">マルコム・マクリーンなど、コンテナ史に関わる人物。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Company">
+    <rdfs:label xml:lang="ja">企業</rdfs:label>
+    <rdfs:comment xml:lang="ja">シー・ランドや海運会社など、輸送や買収に関わる企業。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Container">
+    <rdfs:label xml:lang="ja">コンテナ</rdfs:label>
+    <rdfs:comment xml:lang="ja">貨物を運ぶ標準化された金属の箱。世界経済を変えた単純な発明。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Innovation">
+    <rdfs:label xml:lang="ja">イノベーション</rdfs:label>
+    <rdfs:comment xml:lang="ja">長年の経験と体系的アプローチ、予期せぬ結果の積み重ねによる革新。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Containerization">
+    <rdfs:label xml:lang="ja">コンテナリゼーション</rdfs:label>
+    <rdfs:comment xml:lang="ja">標準コンテナによる貨物輸送方式。輸送コストを下げグローバリゼーションを推進した。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Innovation"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/DisruptiveTechnology">
+    <rdfs:label xml:lang="ja">破壊的技術</rdfs:label>
+    <rdfs:comment xml:lang="ja">予想外の形で経済地図や規制を塗り替える技術。コンテナがその典型。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Innovation"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Ship">
+    <rdfs:label xml:lang="ja">船舶</rdfs:label>
+    <rdfs:comment xml:lang="ja">アイデアルX号やSL-7、巨大コンテナ船などの船。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Port">
+    <rdfs:label xml:lang="ja">港湾</rdfs:label>
+    <rdfs:comment xml:lang="ja">ニューアーク、ポート・エリザベス、ロッテルダム、シンガポール、釜山などの港。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/City">
+    <rdfs:label xml:lang="ja">都市</rdfs:label>
+    <rdfs:comment xml:lang="ja">ニューヨーク、ロンドン、リバプールなど盛衰した港湾都市。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LaborUnion">
+    <rdfs:label xml:lang="ja">労働組合</rdfs:label>
+    <rdfs:comment xml:lang="ja">国際港湾労働者協会や国際港湾倉庫労働者組合など港湾労働の組合。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LaborAgreement">
+    <rdfs:label xml:lang="ja">労働協約</rdfs:label>
+    <rdfs:comment xml:lang="ja">機械化・近代化協定や年間所得保障など、コンテナ化を受け入れる労使協定。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Standard">
+    <rdfs:label xml:lang="ja">規格</rdfs:label>
+    <rdfs:comment xml:lang="ja">ISOによるサイズ・金具の国際標準。TEUやツイストロックを含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/HistoricalEvent">
+    <rdfs:label xml:lang="ja">歴史的出来事</rdfs:label>
+    <rdfs:comment xml:lang="ja">1956年の最初の航海、ベトナム戦争の兵站危機、オイルショックなどの出来事。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/SupplyChain">
+    <rdfs:label xml:lang="ja">サプライチェーン</rdfs:label>
+    <rdfs:comment xml:lang="ja">低コスト輸送により構築されたグローバルな供給網と中間財貿易。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/IntermodalTransport">
+    <rdfs:label xml:lang="ja">インターモーダル輸送</rdfs:label>
+    <rdfs:comment xml:lang="ja">トラック、鉄道、船舶を連携させる一貫輸送。ピギーバック方式を含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Consortium">
+    <rdfs:label xml:lang="ja">コンソーシアム</rdfs:label>
+    <rdfs:comment xml:lang="ja">価格競争を生き抜くために海運会社が形成した企業連合や同盟。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LogisticsCluster">
+    <rdfs:label xml:lang="ja">ロジスティクスクラスター</rdfs:label>
+    <rdfs:comment xml:lang="ja">通過地点ではなく加工や再梱包を行う高度物流集積地。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/pioneeredBy">
+    <rdfs:label xml:lang="ja">先駆者</rdfs:label>
+    <rdfs:comment xml:lang="ja">発明やコンテナ輸送の先駆者となる人物を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Innovation"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Containerization"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Container"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/founded">
+    <rdfs:label xml:lang="ja">設立した</rdfs:label>
+    <rdfs:comment xml:lang="ja">人物が設立または主導した企業を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Person"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Company"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/operatedBy">
+    <rdfs:label xml:lang="ja">運航者</rdfs:label>
+    <rdfs:comment xml:lang="ja">船舶を運航する海運会社を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Ship"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Company"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/locatedIn">
+    <rdfs:label xml:lang="ja">所在する</rdfs:label>
+    <rdfs:comment xml:lang="ja">港湾や物流拠点が属する都市を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Port"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LogisticsCluster"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/City"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/departedFrom">
+    <rdfs:label xml:lang="ja">出航した港</rdfs:label>
+    <rdfs:comment xml:lang="ja">最初の航海などが出発した港を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Ship"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/HistoricalEvent"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Port"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/opposedBy">
+    <rdfs:label xml:lang="ja">反対した組合</rdfs:label>
+    <rdfs:comment xml:lang="ja">機械化と職喪失を恐れてコンテナ化に抵抗した労働組合を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Containerization"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LaborUnion"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/agreedIn">
+    <rdfs:label xml:lang="ja">締結した協約</rdfs:label>
+    <rdfs:comment xml:lang="ja">組合や企業が結んだ機械化・所得保障などの労働協約を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LaborUnion"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Company"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LaborAgreement"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/usesStandard">
+    <rdfs:label xml:lang="ja">採用規格</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンテナが従うサイズや隅金具などの国際規格を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Container"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Standard"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/carriedBy">
+    <rdfs:label xml:lang="ja">輸送される</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンテナを運ぶ船舶または複合輸送体制を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Container"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Ship"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/IntermodalTransport"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/enabled">
+    <rdfs:label xml:lang="ja">可能にした</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンテナ化がグローバル・サプライチェーンや一貫輸送を可能にした関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Containerization"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Container"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/SupplyChain"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/IntermodalTransport"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/causedDeclineOf">
+    <rdfs:label xml:lang="ja">衰退させた</rdfs:label>
+    <rdfs:comment xml:lang="ja">伝統的港湾都市の雇用と地位を低下させた関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Containerization"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Port"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/City"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/causedRiseOf">
+    <rdfs:label xml:lang="ja">台頭させた</rdfs:label>
+    <rdfs:comment xml:lang="ja">新しいコンテナ港湾や物流集積地の成長を促した関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Containerization"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Port"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/City"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LogisticsCluster"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/acquired">
+    <rdfs:label xml:lang="ja">買収した</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業が他社を買収した関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Company"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Company"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/memberOf">
+    <rdfs:label xml:lang="ja">所属する連合</rdfs:label>
+    <rdfs:comment xml:lang="ja">海運会社が属するコンソーシアムやアライアンスを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Company"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Consortium"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/involvedIn">
+    <rdfs:label xml:lang="ja">関与した出来事</rdfs:label>
+    <rdfs:comment xml:lang="ja">人物・企業・船舶・港湾が関与した歴史的出来事を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Person"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Ship"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Port"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/HistoricalEvent"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/describedIn">
+    <rdfs:label xml:lang="ja">記述された書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">対象が扱われる書籍を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Person"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Container"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Innovation"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/HistoricalEvent"/>
+    <rdfs:range rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Book"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/hasName">
+    <rdfs:label xml:lang="ja">名称</rdfs:label>
+    <rdfs:comment xml:lang="ja">対象の固有名や通称。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Person"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Container"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Ship"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Port"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/City"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Standard"/>
+    <rdfs:domain rdf:resource="https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Book"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

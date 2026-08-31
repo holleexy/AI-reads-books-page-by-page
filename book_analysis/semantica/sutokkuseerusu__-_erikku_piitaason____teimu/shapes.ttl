@@ -1,0 +1,479 @@
+@prefix ex: <https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/shapes> a owl:Ontology .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "既存顧客向け四つのメッセージモデルを行動経済学と心理学で解説したビジネス書。" .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/MessageModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MessageModel ;
+    sh:name "メッセージモデル" ;
+    sh:description "既存顧客との関係を強化し収益を最大化するための科学的な伝達枠組み。" ;
+    sh:property [
+        sh:path ex:appliesToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnTheory ;
+        sh:class ex:ProspectTheory ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStep ;
+        sh:class ex:MessageStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usedAtMoment ;
+        sh:class ex:CriticalMoment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignedToZone ;
+        sh:class ex:CustomerZone ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesSkill ;
+        sh:class ex:CommunicationSkill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/RetentionMessageModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RetentionMessageModel ;
+    sh:name "現状維持メッセージモデル" ;
+    sh:description "契約更新時に革新性より安心感を与え継続を促す五段階のリテンション手法。" ;
+    sh:property [
+        sh:path ex:appliesToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnTheory ;
+        sh:class ex:ProspectTheory ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStep ;
+        sh:class ex:MessageStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usedAtMoment ;
+        sh:class ex:CriticalMoment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignedToZone ;
+        sh:class ex:CustomerZone ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesSkill ;
+        sh:class ex:CommunicationSkill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/PriceIncreaseMessageModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PriceIncreaseMessageModel ;
+    sh:name "値上げ納得メッセージモデル" ;
+    sh:description "現状維持モデルとアンカリング効果を組み合わせ値上げを受け入れさせる手法。" ;
+    sh:property [
+        sh:path ex:appliesToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnTheory ;
+        sh:class ex:ProspectTheory ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStep ;
+        sh:class ex:MessageStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usedAtMoment ;
+        sh:class ex:CriticalMoment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignedToZone ;
+        sh:class ex:CustomerZone ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesSkill ;
+        sh:class ex:CommunicationSkill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/UpsellMessageModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:UpsellMessageModel ;
+    sh:name "発展促進メッセージモデル" ;
+    sh:description "関係性を強調し感情に訴えて高額ソリューションへの移行を勧めるハイブリッド型手法。" ;
+    sh:property [
+        sh:path ex:appliesToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnTheory ;
+        sh:class ex:ProspectTheory ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStep ;
+        sh:class ex:MessageStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usedAtMoment ;
+        sh:class ex:CriticalMoment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignedToZone ;
+        sh:class ex:CustomerZone ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesSkill ;
+        sh:class ex:CommunicationSkill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/ApologyMessageModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ApologyMessageModel ;
+    sh:name "許しを請うメッセージモデル" ;
+    sh:description "不具合時に対処・責任・再発防止・説明・おわびの順で謝罪しロイヤルティを高める手法。" ;
+    sh:property [
+        sh:path ex:recoversThrough ;
+        sh:class ex:ServiceRecoveryParadox ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnTheory ;
+        sh:class ex:ProspectTheory ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStep ;
+        sh:class ex:MessageStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usedAtMoment ;
+        sh:class ex:CriticalMoment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignedToZone ;
+        sh:class ex:CustomerZone ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesSkill ;
+        sh:class ex:CommunicationSkill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/CognitiveBiasShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CognitiveBias ;
+    sh:name "認知バイアス" ;
+    sh:description "顧客の意思決定を歪める心理的傾向の総称。" ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/StatusQuoBiasShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:StatusQuoBias ;
+    sh:name "現状維持バイアス" ;
+    sh:description "安定の優先、変化コスト、選択の難しさ、後悔への恐れから現状を維持しようとする傾向。" ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/ContextEffectShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ContextEffect ;
+    sh:name "文脈効果" ;
+    sh:description "同じメッセージでも新規か既存かという立場で反応が大きく異なる現象。" ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/FramingEffectShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FramingEffect ;
+    sh:name "フレーミング効果" ;
+    sh:description "利益を強調するか損失を強調するかでリスク許容度と決断が逆転する現象。" ;
+    sh:property [
+        sh:path ex:basedOnTheory ;
+        sh:class ex:ProspectTheory ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/AnchoringEffectShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnchoringEffect ;
+    sh:name "アンカリング効果" ;
+    sh:description "最初に提示した高い基準値に判断が引きずられる認知バイアス。" ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/ProspectTheoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProspectTheory ;
+    sh:name "プロスペクト理論" ;
+    sh:description "人は利益獲得より損失回避のために二倍から三倍行動しやすいとする理論。" .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/IncumbentAdvantageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IncumbentAdvantage ;
+    sh:name "現職の強み" ;
+    sh:description "既存顧客が投じた時間・費用・労力というサンクコストを無駄にしたくない障壁。" .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "メッセージの受け手となる取引相手。" ;
+    sh:property [
+        sh:path ex:classifiedInto ;
+        sh:class ex:CustomerZone ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exhibitsBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/ExistingCustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExistingCustomer ;
+    sh:name "既存顧客" ;
+    sh:description "現状維持バイアスを擁護・強化し継続の安心感を与えるべき顧客。" ;
+    sh:property [
+        sh:path ex:hasIncumbentAdvantage ;
+        sh:class ex:IncumbentAdvantage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:classifiedInto ;
+        sh:class ex:CustomerZone ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exhibitsBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/ProspectCustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProspectCustomer ;
+    sh:name "見込み顧客" ;
+    sh:description "現状維持バイアスを打ち砕き変化を促す必要がある新規対象。" ;
+    sh:property [
+        sh:path ex:classifiedInto ;
+        sh:class ex:CustomerZone ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exhibitsBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/CriticalMomentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CriticalMoment ;
+    sh:name "クリティカルモーメント" ;
+    sh:description "サブスクリプションにおいて既存顧客との絶対に失敗できない局面。" ;
+    sh:property [
+        sh:path ex:timingGuideline ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/MessageStepShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MessageStep ;
+    sh:name "メッセージステップ" ;
+    sh:description "各メッセージモデルを構成する順序付きの伝達手順。" ;
+    sh:property [
+        sh:path ex:stepOrderNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/ServiceRecoveryParadoxShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ServiceRecoveryParadox ;
+    sh:name "サービスリカバリーパラドックス" ;
+    sh:description "適切なリカバリーにより顧客満足度とロイヤルティが却って高まる現象。" .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/CommunicationSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CommunicationSkill ;
+    sh:name "伝達スキル" ;
+    sh:description "三段階指標、ナンバープレイ、画像優位性、手描きイラスト、主語を御社にする伝え方。" .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/SituationReadingSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SituationReadingSkill ;
+    sh:name "状況を読む力" ;
+    sh:description "定着、アップセル時機、無関心圏の区別により適用モデルを見極める技能。" ;
+    sh:property [
+        sh:path ex:timingGuideline ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/StockSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:StockSales ;
+    sh:name "ストックセールス" ;
+    sh:description "カスタマーシェア向上を目指す実験に基づく顧客管理型アプローチ。" ;
+    sh:property [
+        sh:path ex:implementsModel ;
+        sh:class ex:MessageModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:maximizes ;
+        sh:class ex:CustomerShare ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:employsPractice ;
+        sh:class ex:EngagementPractice ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/CustomerShareShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerShare ;
+    sh:name "カスタマーシェア" ;
+    sh:description "成熟市場で既存顧客の生涯価値最大化を示す収益の鍵となる指標。" ;
+    sh:property [
+        sh:path ex:contrastedWith ;
+        sh:class ex:MarketShare ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/MarketShareShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MarketShare ;
+    sh:name "マーケットシェア" ;
+    sh:description "成長市場で重視される新規獲得による市場占有率。" .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/CustomerZoneShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerZone ;
+    sh:name "顧客ゾーン" ;
+    sh:description "満足度とポテンシャルの二軸でアタック、チャレンジ、ディフェンス、リカバリーに分ける区分。" ;
+    sh:property [
+        sh:path ex:zoneTypeName ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/sutokkuseerusu__-_erikku_piitaason____teimu/EngagementPracticeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EngagementPractice ;
+    sh:name "エンゲージメント実践" ;
+    sh:description "キックオフと四半期ビジネスレビューを変革しメッセージの空白期間を埋める組織的リズム。" .

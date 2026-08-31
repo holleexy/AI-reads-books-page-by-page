@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/">
+    <rdfs:label>Gyoumu_Sekkei_no_KyoukashoOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務設計とDX推進の重要性および実践手法を解説する対象書籍。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign">
+    <rdfs:label xml:lang="ja">業務設計</rdfs:label>
+    <rdfs:comment xml:lang="ja">システムに任せる定型業務と人間が行う判断業務を切り分け、最適な組み合わせを見つける活動。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DigitalTransformation">
+    <rdfs:label xml:lang="ja">デジタルトランスフォーメーション</rdfs:label>
+    <rdfs:comment xml:lang="ja">デジタルテクノロジーが人間の生活のあらゆる側面に引き起こす変革。ビジネスモデル自体の変革を含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Digitization">
+    <rdfs:label xml:lang="ja">デジタイゼーション</rdfs:label>
+    <rdfs:comment xml:lang="ja">アナログからデジタルへの単なる置き換え。真のDXとは区別される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Digitalization">
+    <rdfs:label xml:lang="ja">デジタライゼーション</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務プロセスの再構築。デジタイゼーションとDXの中間段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessProcess">
+    <rdfs:label xml:lang="ja">業務プロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">目的・開始条件・入力・処理・出力を持つ一連の仕事の流れ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/WorkingFramework">
+    <rdfs:label xml:lang="ja">WORKINGフレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">完璧に把握してから進むのではなく、大まかに捉えて動かしながら足りない部分を埋めるアジャイルな業務設計の枠組み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessCategory">
+    <rdfs:label xml:lang="ja">業務分類</rdfs:label>
+    <rdfs:comment xml:lang="ja">属人化リスクを把握するために業務を感覚系・仕組系・作業系に分ける分類。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/SensoryWork">
+    <rdfs:label xml:lang="ja">感覚系業務</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人の経験や勘に依存する業務。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessCategory"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/SystematicWork">
+    <rdfs:label xml:lang="ja">仕組系業務</rdfs:label>
+    <rdfs:comment xml:lang="ja">ルール化・マニュアル化されている業務。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessCategory"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ManualWork">
+    <rdfs:label xml:lang="ja">作業系業務</rdfs:label>
+    <rdfs:comment xml:lang="ja">単純な定型手作業の業務。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessCategory"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Viewpoint">
+    <rdfs:label xml:lang="ja">視点</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務の現状を正確に把握するための観察の視点。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BirdsEyeView">
+    <rdfs:label xml:lang="ja">鳥の目</rdfs:label>
+    <rdfs:comment xml:lang="ja">全体像を俯瞰し、ムダやボトルネックを見つける視点。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Viewpoint"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/InsectsEyeView">
+    <rdfs:label xml:lang="ja">虫の目</rdfs:label>
+    <rdfs:comment xml:lang="ja">現場の詳細な手順や暗黙知を観察する視点。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Viewpoint"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/FishsEyeView">
+    <rdfs:label xml:lang="ja">魚の目</rdfs:label>
+    <rdfs:comment xml:lang="ja">全体の流れや変化を捉える視点。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Viewpoint"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DesignArtifact">
+    <rdfs:label xml:lang="ja">設計成果物</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務の見える化のために作成するシートや地図などの成果物。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDefinitionSheet">
+    <rdfs:label xml:lang="ja">業務定義シート</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務の目的・トリガー・入力・処理・出力を整理し関係者の共通認識を作る文書。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DesignArtifact"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessMap">
+    <rdfs:label xml:lang="ja">業務の地図</rdfs:label>
+    <rdfs:comment xml:lang="ja">誰がどの順番で何をしているかという人の動きの全体像をラフに描いた図。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DesignArtifact"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/InformationMap">
+    <rdfs:label xml:lang="ja">情報の地図</rdfs:label>
+    <rdfs:comment xml:lang="ja">データがどこから生まれどこで加工されどこへ行くかを可視化し、転記や滞留を発見する図。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DesignArtifact"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Knowledge">
+    <rdfs:label xml:lang="ja">知識</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人や組織が持つノウハウおよび情報。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/TacitKnowledge">
+    <rdfs:label xml:lang="ja">暗黙知</rdfs:label>
+    <rdfs:comment xml:lang="ja">ベテランの頭の中にある言語化されていないノウハウ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Knowledge"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ExplicitKnowledge">
+    <rdfs:label xml:lang="ja">形式知</rdfs:label>
+    <rdfs:comment xml:lang="ja">マニュアルやチェックリストとして明文化された知識。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Knowledge"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/SECIModel">
+    <rdfs:label xml:lang="ja">SECIモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">共同化・表出化・連結化・内面化のサイクルを通じて組織の知識を更新するモデル。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ECRSPrinciple">
+    <rdfs:label xml:lang="ja">ECRSの原則</rdfs:label>
+    <rdfs:comment xml:lang="ja">排除・結合・入れ替え・簡素化によりシステム化の前に業務をスリム化する原則。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PullTypeDesign">
+    <rdfs:label xml:lang="ja">PULL型設計</rdfs:label>
+    <rdfs:comment xml:lang="ja">後工程の要求から逆算して各工程の入力と出力を定義する全体最適の設計。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PushTypeDesign">
+    <rdfs:label xml:lang="ja">PUSH型設計</rdfs:label>
+    <rdfs:comment xml:lang="ja">前工程が処理を押し付ける設計。全体最適を阻害しやすい。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PolanyisParadox">
+    <rdfs:label xml:lang="ja">ポランニーのパラドックス</rdfs:label>
+    <rdfs:comment xml:lang="ja">知っていることは言葉で表現できるよりもはるかに多いという概念。AI活用には暗黙知の構造化が必要。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/OperationalExcellence">
+    <rdfs:label xml:lang="ja">オペレーショナル・エクセレンス</rdfs:label>
+    <rdfs:comment xml:lang="ja">誰が担当しても一定の成果を出せる再現性のある仕組み。模倣困難な組織能力となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DecisionMatrix">
+    <rdfs:label xml:lang="ja">意思決定マトリクス</rdfs:label>
+    <rdfs:comment xml:lang="ja">コスト・スピード・実行可能性・効果・影響範囲などの評価軸で優先順位を決める手法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ImprovementCycle">
+    <rdfs:label xml:lang="ja">改善サイクル</rdfs:label>
+    <rdfs:comment xml:lang="ja">PDCAやCAPDoなど、現場主体で継続的に業務を見直す循環。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Organization">
+    <rdfs:label xml:lang="ja">組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務設計とDXの対象となる企業や部門。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Person">
+    <rdfs:label xml:lang="ja">人物</rdfs:label>
+    <rdfs:comment xml:lang="ja">現場従業員・マネジメント・推進リーダーなど業務設計に関わる個人。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/InformationSystem">
+    <rdfs:label xml:lang="ja">情報システム</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務を支援するソフトウェアやクラウドサービス。導入ありきは失敗の原因になりうる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ArtificialIntelligence">
+    <rdfs:label xml:lang="ja">人工知能</rdfs:label>
+    <rdfs:comment xml:lang="ja">定型業務やデータ処理で人間を凌駕するが、微妙な判断や例外処理には人間の介入が不可欠な技術。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/CaseStudy">
+    <rdfs:label xml:lang="ja">実践事例</rdfs:label>
+    <rdfs:comment xml:lang="ja">高山技研のように失敗と小さな成功を経て全社的な業務設計へ展開する物語。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/explains">
+    <rdfs:label xml:lang="ja">解説する</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍が業務設計の重要性と実践手法を解説する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Book"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/promotes">
+    <rdfs:label xml:lang="ja">推進する</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務設計が真のDX推進の前提となる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DigitalTransformation"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/requiresStage">
+    <rdfs:label xml:lang="ja">段階を必要とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">DXはデジタライゼーションを経てビジネスモデル変革に至る。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DigitalTransformation"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Digitalization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/warnsAgainst">
+    <rdfs:label xml:lang="ja">戒める</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロセス見直しなきデジタル化は運用を硬直化させるという警告。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Digitization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/usesFramework">
+    <rdfs:label xml:lang="ja">フレームワークを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務設計をWORKINGのアジャイルな枠組みで進める関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/WorkingFramework"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/classifiesAs">
+    <rdfs:label xml:lang="ja">分類される</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務プロセスを感覚系・仕組系・作業系のいずれかに分類する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessCategory"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/observesWith">
+    <rdfs:label xml:lang="ja">視点で観察する</rdfs:label>
+    <rdfs:comment xml:lang="ja">鳥の目・虫の目・魚の目で現状を把握する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Viewpoint"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/produces">
+    <rdfs:label xml:lang="ja">作成する</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務設計が定義シートや地図などの成果物を生み出す関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DesignArtifact"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/definedBy">
+    <rdfs:label xml:lang="ja">定義される</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務プロセスが業務定義シートで整理される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDefinitionSheet"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/visualizedByPeopleFlow">
+    <rdfs:label xml:lang="ja">人の動きで可視化される</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務の地図が人の動きの全体像を示す関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessMap"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/visualizedByDataFlow">
+    <rdfs:label xml:lang="ja">データの流れで可視化される</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報の地図がデータの発生・加工・移動を示す関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/InformationMap"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/externalizesTo">
+    <rdfs:label xml:lang="ja">形式知化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">タクミの暗黙知をマニュアル等の形式知へ転換する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/TacitKnowledge"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ExplicitKnowledge"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/appliesSECI">
+    <rdfs:label xml:lang="ja">SECIを適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織がSECIサイクルで知識を更新する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/SECIModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/appliesECRS">
+    <rdfs:label xml:lang="ja">ECRSを適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">自動化の前に排除・結合・入れ替え・簡素化でスリム化する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ECRSPrinciple"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/prefersDesign">
+    <rdfs:label xml:lang="ja">設計を採用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">後工程からの逆算によるPULL型を全体最適として採用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PullTypeDesign"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/avoidsDesign">
+    <rdfs:label xml:lang="ja">設計を避ける</rdfs:label>
+    <rdfs:comment xml:lang="ja">前工程が押し付けるPUSH型を避ける関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PushTypeDesign"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/aimsAt">
+    <rdfs:label xml:lang="ja">目指す</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務設計の最終目標が再現性のある仕組みである関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/OperationalExcellence"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/evaluatedBy">
+    <rdfs:label xml:lang="ja">評価される</rdfs:label>
+    <rdfs:comment xml:lang="ja">システム選定を意思決定マトリクスで客観的に行う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/InformationSystem"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DecisionMatrix"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/constrainedBy">
+    <rdfs:label xml:lang="ja">制約される</rdfs:label>
+    <rdfs:comment xml:lang="ja">AI活用が暗黙知の言語化限界に制約される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ArtificialIntelligence"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PolanyisParadox"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/hasProcess">
+    <rdfs:label xml:lang="ja">業務を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織が業務プロセスを保有する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/assignedTo">
+    <rdfs:label xml:lang="ja">担当する</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務プロセスが人物に割り当てられる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/supportedBy">
+    <rdfs:label xml:lang="ja">支援される</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務が情報システムによって支援される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/InformationSystem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/assistedBy">
+    <rdfs:label xml:lang="ja">補助される</rdfs:label>
+    <rdfs:comment xml:lang="ja">定型処理が人工知能によって補助される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ArtificialIntelligence"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/employs">
+    <rdfs:label xml:lang="ja">雇用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織が現場と経営層を含む人物を雇用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/improvesWith">
+    <rdfs:label xml:lang="ja">改善する</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織が継続的改善サイクルを定着させる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ImprovementCycle"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/illustratedBy">
+    <rdfs:label xml:lang="ja">例示される</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務設計の実践が事例物語で示される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/CaseStudy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/aboutOrganization">
+    <rdfs:label xml:lang="ja">対象組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">実践事例が特定の組織の改善ストーリーである関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/CaseStudy"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Organization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ledBy">
+    <rdfs:label xml:lang="ja">主導される</rdfs:label>
+    <rdfs:comment xml:lang="ja">事例プロジェクトが特定の人物に主導される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/CaseStudy"/>
+    <rdfs:range rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/hasPurpose">
+    <rdfs:label xml:lang="ja">目的</rdfs:label>
+    <rdfs:comment xml:lang="ja">業務または業務定義シートが持つ本来の目的。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessProcess"/>
+    <rdfs:domain rdf:resource="https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDefinitionSheet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

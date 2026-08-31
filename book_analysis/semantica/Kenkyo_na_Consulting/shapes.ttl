@@ -1,0 +1,483 @@
+@prefix ex: <https://books.local/Kenkyo_na_Consulting/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Kenkyo_na_Consulting/shapes> a owl:Ontology .
+
+<https://books.local/Kenkyo_na_Consulting/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "エドガー・H・シャインによる謙虚なコンサルティングの原著および関連する著作。" ;
+    sh:property [
+        sh:path ex:authoredBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人物" ;
+    sh:description "提唱者、コンサルタント、クライアント、リーダーなど、本書に登場する人物。" .
+
+<https://books.local/Kenkyo_na_Consulting/ConsultantShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Consultant ;
+    sh:name "コンサルタント" ;
+    sh:description "クライアントに支援を提供する専門家。処方箋を押し付けるのではなく、クライアント自身の気づきと行動を後押しする。" ;
+    sh:property [
+        sh:path ex:helps ;
+        sh:class ex:Client ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasRelationship ;
+        sh:class ex:Relationship ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresQuality ;
+        sh:class ex:ConsultantQuality ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesListeningStyle ;
+        sh:class ex:ListeningStyle ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesQuestioning ;
+        sh:class ex:QuestioningApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:performs ;
+        sh:class ex:AdaptiveMove ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:avoids ;
+        sh:class ex:ContentTemptation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practices ;
+        sh:class ex:HumbleConsulting ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/ClientShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Client ;
+    sh:name "クライアント" ;
+    sh:description "支援を受ける側。主語は常にクライアントであり、自ら気づき行動できることが支援の目的である。" ;
+    sh:property [
+        sh:path ex:facesProblem ;
+        sh:class ex:Problem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasRelationship ;
+        sh:class ex:Relationship ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/LeaderShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Leader ;
+    sh:name "リーダー" ;
+    sh:description "組織内の指導者。すべてを知るヒーローである必要はなく、わからないことを認め対話から適応的な動きを見出す。" ;
+    sh:property [
+        sh:path ex:performs ;
+        sh:class ex:AdaptiveMove ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practices ;
+        sh:class ex:HumbleConsulting ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/ManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Manager ;
+    sh:name "マネージャー" ;
+    sh:description "組織内の管理者。謙虚なコンサルティングは外部専門家だけでなくすべてのマネージャーが身につけるべきスキルである。" ;
+    sh:property [
+        sh:path ex:performs ;
+        sh:class ex:AdaptiveMove ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practices ;
+        sh:class ex:HumbleConsulting ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/HumbleConsultingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HumbleConsulting ;
+    sh:name "謙虚なコンサルティング" ;
+    sh:description "エドガー・H・シャインが提唱した、本当の支援を速やかに行う新しいアプローチ。原題は Humble Consulting: How to Provide Real Help Faster。" ;
+    sh:property [
+        sh:path ex:proposedBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresQuality ;
+        sh:class ex:ConsultantQuality ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:illustratedBy ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:avoids ;
+        sh:class ex:ContentTemptation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedTo ;
+        sh:class ex:OrganizationDevelopment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:aimsAt ;
+        sh:class ex:RealHelp ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:dependsOn ;
+        sh:class ex:Level2 ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/TraditionalConsultingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TraditionalConsulting ;
+    sh:name "従来型コンサルティング" ;
+    sh:description "診断して助言するモデルに基づき、専門家としての解決策を押し付ける従来のアプローチ。" ;
+    sh:property [
+        sh:path ex:illustratedBy ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/DiagnosticAdvisoryModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DiagnosticAdvisoryModel ;
+    sh:name "診断して助言するモデル" ;
+    sh:description "若手コンサルタントや伝統的専門家が陥りやすい、すぐに「これが答えです」と処方箋を出す失敗モデル。" ;
+    sh:property [
+        sh:path ex:illustratedBy ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/OneUpDynamicsShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OneUpDynamics ;
+    sh:name "ワン・アップのダイナミクス" ;
+    sh:description "コンサルタントが上から目線で指示を出し、クライアントの自己責任感と所有感を損ない提案が実行されない力学。" .
+
+<https://books.local/Kenkyo_na_Consulting/ContentTemptationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ContentTemptation ;
+    sh:name "内容の誘惑" ;
+    sh:description "クライアントが提示する表面的な問題に飛びつき、自分の専門知識で解決しようとする誘惑。支援者はプロセスへの気づきを優先すべきである。" .
+
+<https://books.local/Kenkyo_na_Consulting/RealHelpShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RealHelp ;
+    sh:name "本当の支援" ;
+    sh:description "クライアントが問題の複雑さと厄介さを理解し、その場しのぎをやめ、本当の現実に対処する行動をとれるよう後押しすること。" .
+
+<https://books.local/Kenkyo_na_Consulting/ProblemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Problem ;
+    sh:name "課題" ;
+    sh:description "組織やクライアントが直面する問題。ロナルド・ハイフェッツにより技術的な課題と適応を要する課題に分類される。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/TechnicalProblemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TechnicalProblem ;
+    sh:name "技術的な課題" ;
+    sh:description "過去の知見や専門知識で解決策が明らかな問題。専門家に委ねれば解決する。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/AdaptiveProblemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AdaptiveProblem ;
+    sh:name "適応を要する課題" ;
+    sh:description "解決策が自明ではなく、関係者自身が継続的な学習と視点の転換を通じて適応していく必要がある複雑な問題。" ;
+    sh:property [
+        sh:path ex:causedBy ;
+        sh:class ex:ComplexityFactor ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/ComplexityFactorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ComplexityFactor ;
+    sh:name "複雑化の要因" ;
+    sh:description "専門分野の深化、多様性の増大、共通理解の難化、時間の不足など、適応課題を増やす現代的要因。" .
+
+<https://books.local/Kenkyo_na_Consulting/RelationshipShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Relationship ;
+    sh:name "人間関係" ;
+    sh:description "コンサルタントとクライアントの間に築かれる関係。支援の成否は関係性の深さに依存する。" ;
+    sh:property [
+        sh:path ex:hasLevel ;
+        sh:class ex:RelationshipLevel ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/RelationshipLevelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RelationshipLevel ;
+    sh:name "関係性のレベル" ;
+    sh:description "シャインが分類した人間関係の四段階。謙虚なコンサルティングではレベル2が不可欠である。" .
+
+<https://books.local/Kenkyo_na_Consulting/LevelMinus1Shape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LevelMinus1 ;
+    sh:name "レベルマイナス1" ;
+    sh:description "敵対・搾取の関係。相手を人間として扱わない関係で、ブラック企業などに見られる。" .
+
+<https://books.local/Kenkyo_na_Consulting/Level1Shape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Level1 ;
+    sh:name "レベル1" ;
+    sh:description "取引・専門的な関係。役割に基づきほどほどの距離を保つ従来の距離であり、本音が語られにくく真の問題が見過ごされる。" .
+
+<https://books.local/Kenkyo_na_Consulting/Level2Shape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Level2 ;
+    sh:name "レベル2" ;
+    sh:description "信頼と率直さに基づく関係。相手を一人の人間として認知する、謙虚なコンサルティングに不可欠な関係性。" .
+
+<https://books.local/Kenkyo_na_Consulting/Level3Shape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Level3 ;
+    sh:name "レベル3" ;
+    sh:description "親密・感情に基づく関係。職業的支援ではえこひいきや腐敗の原因となるため避けるべきである。" .
+
+<https://books.local/Kenkyo_na_Consulting/PersonalizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Personalization ;
+    sh:name "パーソナライゼーション" ;
+    sh:description "レベル1を脱し、個人的背景や感情に適度に踏み込んでレベル2を築く過程。プライバシーを侵害しレベル3に侵入しないバランスが必要である。" ;
+    sh:property [
+        sh:path ex:enables ;
+        sh:class ex:Level2 ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/ListeningStyleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ListeningStyle ;
+    sh:name "聴き方" ;
+    sh:description "コンサルタントがクライアントの話を聴く際の姿勢の選択肢。" .
+
+<https://books.local/Kenkyo_na_Consulting/SelfCenteredListeningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SelfCenteredListening ;
+    sh:name "自己中心的な聴き方" ;
+    sh:description "自分の知識をどう活かせかに集中する聴き方。謙虚なコンサルティングでは不適切である。" .
+
+<https://books.local/Kenkyo_na_Consulting/ContentEmpathicListeningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ContentEmpathicListening ;
+    sh:name "内容に共感して聴く" ;
+    sh:description "提示された状況や事実の機能的な側面にフォーカスする聴き方。" .
+
+<https://books.local/Kenkyo_na_Consulting/PersonEmpathicListeningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PersonEmpathicListening ;
+    sh:name "人に共感して聴く" ;
+    sh:description "クライアント個人の感情、不安、懸念に焦点を当てる聴き方。レベル2の関係構築に最も有効である。" .
+
+<https://books.local/Kenkyo_na_Consulting/QuestioningApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:QuestioningApproach ;
+    sh:name "問いかけ" ;
+    sh:description "クライアントの気づきを促すための質問アプローチ。" .
+
+<https://books.local/Kenkyo_na_Consulting/HumbleInquiryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HumbleInquiry ;
+    sh:name "謙虚な問いかけ" ;
+    sh:description "答えを予期せず、純粋な好奇心から状況や本心を引き出すオープンな質問。初期段階で極めて有効である。" .
+
+<https://books.local/Kenkyo_na_Consulting/DiagnosticInquiryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DiagnosticInquiry ;
+    sh:name "診断的な問いかけ" ;
+    sh:description "会話の方向を変え問題の焦点を絞る質問。なぜそうなったのか、どう感じたかなど。" .
+
+<https://books.local/Kenkyo_na_Consulting/CircularInquiryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CircularInquiry ;
+    sh:name "循環的な問いかけ" ;
+    sh:description "第三者の視点を想像させ、クライアントに状況を客観視させる手法。" .
+
+<https://books.local/Kenkyo_na_Consulting/SuggestiveInquiryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SuggestiveInquiry ;
+    sh:name "示唆的な問いかけ" ;
+    sh:description "新しい視点や避けるべき情報を提供する質問。信頼関係がないと反発を招くリスクがある。" .
+
+<https://books.local/Kenkyo_na_Consulting/ProcessOrientedInquiryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProcessOrientedInquiry ;
+    sh:name "プロセス指向の問いかけ" ;
+    sh:description "問題の説明の仕方や進め方、今この場でのやり取りそのものに焦点を当てる問いかけ。" .
+
+<https://books.local/Kenkyo_na_Consulting/AdaptiveMoveShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AdaptiveMove ;
+    sh:name "アダプティブ・ムーブ" ;
+    sh:description "万能の解決策ではなく、状況を少し改善し次の行動につながる情報を引き出す小さく俊敏な介入。対話から即興的に生まれる。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/ConsultantQualityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConsultantQuality ;
+    sh:name "コンサルタントの資質" ;
+    sh:description "謙虚なコンサルティングで求められる三つのC、すなわち積極的な気持ち、思いやり、好奇心。" .
+
+<https://books.local/Kenkyo_na_Consulting/CommitmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Commitment ;
+    sh:name "積極的な気持ち" ;
+    sh:description "なんとかしてクライアントの力になりたいという真摯な動機。" .
+
+<https://books.local/Kenkyo_na_Consulting/CaringShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Caring ;
+    sh:name "思いやり" ;
+    sh:description "クライアントの立場や感情に寄り添う共感的な態度。" .
+
+<https://books.local/Kenkyo_na_Consulting/CuriosityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Curiosity ;
+    sh:name "好奇心" ;
+    sh:description "相手の状況や抱える問題に対する最大限の関心と探究心。" .
+
+<https://books.local/Kenkyo_na_Consulting/CaseStudyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CaseStudy ;
+    sh:name "ケーススタディ" ;
+    sh:description "DEC、GE、MACコンサルタント、銀行IT導入など、本書で示される成功と失敗の実践事例。" ;
+    sh:property [
+        sh:path ex:involvesOrganization ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "コンサルティングや組織開発の対象となる企業や集団。学び方を学び自律的に適応し続けることが究極の目標である。" ;
+    sh:property [
+        sh:path ex:facesProblem ;
+        sh:class ex:Problem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/HighReliabilityOrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HighReliabilityOrganization ;
+    sh:name "高信頼性組織" ;
+    sh:description "原子力発電所や消防などの高危険性環境で、ルール徹底だけでなくグループ・センスメイキングが不可欠な組織。" ;
+    sh:property [
+        sh:path ex:requiresSensemaking ;
+        sh:class ex:Sensemaking ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:facesProblem ;
+        sh:class ex:Problem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/OrganizationDevelopmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationDevelopment ;
+    sh:name "組織開発" ;
+    sh:description "組織の学習と適応を促す実践。複雑な問題は所定の診断ツールでは解決できないという認識に基づく。" ;
+    sh:property [
+        sh:path ex:proposedBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/DialogicOrganizationDevelopmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DialogicOrganizationDevelopment ;
+    sh:name "対話型組織開発" ;
+    sh:description "ブッシュとマーシャクが提唱し、ハイフェッツらが主張する対話を中心とした組織開発アプローチ。" ;
+    sh:property [
+        sh:path ex:proposedBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kenkyo_na_Consulting/SafetyCultureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SafetyCulture ;
+    sh:name "安全文化" ;
+    sh:description "安全を規定する厳格な官僚的・法的基準が、現場の率直な報告というレベル2の関係を阻害しうる文化。" .
+
+<https://books.local/Kenkyo_na_Consulting/SensemakingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Sensemaking ;
+    sh:name "センスメイキング" ;
+    sh:description "カール・ワイックの研究に基づく、現場メンバーが互いに状況を報告し合うグループによる意味形成。" .

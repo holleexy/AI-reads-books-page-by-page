@@ -1,0 +1,363 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/The_Intelligent_Sales/> .
+
+book:source a prov:Entity ;
+  foaf:name "The_Intelligent_Sales" ;
+  book:book_key "The_Intelligent_Sales" .
+
+book:セレブリックス営業総合研究所 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:生成AI a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:法人営業 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:今井 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:社長 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:ChatGPT a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:AI a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業パーソン a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロンプト a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:検索エンジン a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:スマートフォン a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:2023年 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:B2B a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:Generative AI a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:GUGA a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:セールスプロセス a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:新規営業 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報遮断 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:デジタル活用 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:new business sales a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:Sales Enablement a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:知財 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:一般社団法人 生成AI活用普及協会 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:属人化 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:Human performance a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:26年間 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:株式会社ACES a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:購買の推進担当者 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:田村浩一郎 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:TANREN株式会社 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:佐藤勝彦 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:YouTube a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:指示文 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:検索リテラシー a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:ITリテラシー a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:質問力 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:事前情報の知識量 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:ノウハウ a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:技術 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:executive a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:November 2023 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:Celebrix Sales Research Institute a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:Vice Company President a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:普及協会 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニケーション職 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハルシネーション a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:機械 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:自動販売機 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:基本原則 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:大型取引 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:上席 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:社内稟議 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:感情 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:気持ち a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:商談 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:保証された未来 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:人間的なエネルギー a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:安心感 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:チャットボット a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:稟議書 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロボット a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:ムラ a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:inconsistency a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:variation a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:fatigue a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:workload a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:asynchronization a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:parallel processing a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:efficiency a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:アルゴリズム a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:テキスト生成 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:動画 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:画像 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:インテリジェント（知性的）でスマートな営業活動 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:３K営業 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:研究者 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:発明家 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人向けの営業活動 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:3K sales a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:勘 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:経験 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:根性 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:government a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:職人芸の民主化 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロジックツリー a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:セキュリティ a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンプライアンス a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:ガイドライン a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .
+
+book:先行者利益 a prov:Entity ;
+  book:book_key "The_Intelligent_Sales" ;
+  prov:wasDerivedFrom book:source .

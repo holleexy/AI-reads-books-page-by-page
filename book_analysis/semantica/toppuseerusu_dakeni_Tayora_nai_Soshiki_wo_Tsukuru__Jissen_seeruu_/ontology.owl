@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/">
+    <rdfs:label>toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_Ontology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesEnablement">
+    <rdfs:label xml:lang="ja">セールス・イネーブルメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者が成果を出せるよう支援する部門横断的な戦略的規律。人の成長を通じて持続的な営業成果を創出する仕組み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOrganization">
+    <rdfs:label xml:lang="ja">営業組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業目標の達成を担う組織。目標達成率が高くても一部のトップセールスに依存すると運営が脆弱になる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Salesperson">
+    <rdfs:label xml:lang="ja">営業担当者</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業活動を行い成果創出を担う個人。能力開発と仕組みによって持続的に成果を出せるよう支援される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/TopSalesperson">
+    <rdfs:label xml:lang="ja">トップセールス</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業組織の上位約20%を占めるハイパフォーマー。勝ちパターンの源泉だが、組織成果がこの層に偏ると退職や異動で崩壊しやすい。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Salesperson"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/MiddleLayerSalesperson">
+    <rdfs:label xml:lang="ja">中間層営業担当者</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織の約6割を占める一般営業。セールス・イネーブルメントによるパフォーマンス底上げの主対象。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Salesperson"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Enabler">
+    <rdfs:label xml:lang="ja">イネーブラー</rdfs:label>
+    <rdfs:comment xml:lang="ja">イネーブルメント担当者。人の成長と営業成果をつなぐ探究心を最重視し、体系化力・コンテンツ作成力・事業知識が求められる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/OutcomeBehaviorSkillFramework">
+    <rdfs:label xml:lang="ja">成果行動スキル連結</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果・行動・スキルまたは知識の3要素を一気通貫でつなぐイネーブルメントの骨格。営業企画と人事に分断されがちだった管理を統合する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOutcome">
+    <rdfs:label xml:lang="ja">営業成果</rdfs:label>
+    <rdfs:comment xml:lang="ja">売上やパイプラインなど最終的に創出すべき営業上のゴール。育成成果との相関分析により施策の有効性を検証する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesAction">
+    <rdfs:label xml:lang="ja">営業行動</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果創出のために営業担当者が行う行動。スキルマップ上ではフェーズごとの重要行動として定義される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillOrKnowledge">
+    <rdfs:label xml:lang="ja">スキル知識</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業行動を実行するために必要な能力および知識。アセスメントで現状レベルを定量把握する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/PDSCycle">
+    <rdfs:label xml:lang="ja">PDSサイクル</rdfs:label>
+    <rdfs:comment xml:lang="ja">計画・実行・検証からなる持続的マネジメントサイクル。施策と営業成果の相関を次の計画へ反映する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillMap">
+    <rdfs:label xml:lang="ja">スキルマップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ハイパフォーマーへのヒアリングで勝ちパターンを体系化したもの。営業フェーズ、重要行動、スキル知識の三層構造を持つ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesPhase">
+    <rdfs:label xml:lang="ja">営業フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">自社視点の活動量ではなく、顧客の意思決定プロセスに沿って定義する商談進捗の段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/KeyAction">
+    <rdfs:label xml:lang="ja">重要行動</rdfs:label>
+    <rdfs:comment xml:lang="ja">各営業フェーズで成果に直結する行動。スキルマップの中核であり、スキルコーチングの問いかけ軸となる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesAction"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/CustomerDecisionProcess">
+    <rdfs:label xml:lang="ja">顧客意思決定プロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客視点の購買・意思決定の流れ。営業フェーズ定義の基準となり、商談コーチングでも主語を顧客に置く。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure">
+    <rdfs:label xml:lang="ja">イネーブルメント施策</rdfs:label>
+    <rdfs:comment xml:lang="ja">育成テーマに基づき企画・開発・提供される支援施策。育成成果と営業成果の両面で評価する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Assessment">
+    <rdfs:label xml:lang="ja">アセスメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">スキルレベルを段階評価などで定量把握し、自己評価と上司評価のギャップから育成テーマを特定する評価。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Training">
+    <rdfs:label xml:lang="ja">トレーニング</rdfs:label>
+    <rdfs:comment xml:lang="ja">フレームワーク、実例サンプル、演習の3要素を組み込み、翌日から実践できる内容にする能力開発施策。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Coaching">
+    <rdfs:label xml:lang="ja">コーチング</rdfs:label>
+    <rdfs:comment xml:lang="ja">ティーチングや進捗確認ではなく、部下が次のアクションを自ら決められるよう促す支援。商談コーチングとスキルコーチングがある。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/KnowledgeManagement">
+    <rdfs:label xml:lang="ja">ナレッジマネジメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">成功事例の収集と流通サイクルを回し、営業がすぐ使える最新の武器を提供する取り組み。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/ProductEnablement">
+    <rdfs:label xml:lang="ja">プロダクト・イネーブルメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品ごとに売り方をパッケージ化したセールス・プレイを提供し、拡大した製品知識の習得負荷を下げる取り組み。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/ManagerEnablement">
+    <rdfs:label xml:lang="ja">マネジャー・イネーブルメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業マネジャー向けの定着支援。現場への施策浸透と実践形式トレーニングの効果を加速する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/OnboardingProgram">
+    <rdfs:label xml:lang="ja">オンボーディングプログラム</rdfs:label>
+    <rdfs:comment xml:lang="ja">中途社員などを早期戦力化するための導入育成。事業成長のための育成として位置づける。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/RevenueEnablement">
+    <rdfs:label xml:lang="ja">レベニュー・イネーブルメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業部門に留まらず収益部門全体を支援するよう進化したイネーブルメント。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesEnablement"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementTeam">
+    <rdfs:label xml:lang="ja">イネーブルメントチーム</rdfs:label>
+    <rdfs:comment xml:lang="ja">型の提供と浸透、側面支援コーチ、ナレッジ流通ハブの3役割を担う専門チーム。縦横の配置で全社または事業部に置く。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMissionSheet">
+    <rdfs:label xml:lang="ja">イネーブルメントミッションシート</rdfs:label>
+    <rdfs:comment xml:lang="ja">チームの配置と役割を明示し、社内の理解と認知を獲得するための文書。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/OperationFlow">
+    <rdfs:label xml:lang="ja">業務オペレーションフロー</rdfs:label>
+    <rdfs:comment xml:lang="ja">改善すべき営業KPIの設定から次回施策検討までを回す、成果起点の10ステップ循環。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Company">
+    <rdfs:label xml:lang="ja">企業</rdfs:label>
+    <rdfs:comment xml:lang="ja">セールス・イネーブルメントを導入し、トップセールス依存の解消と中間層底上げを目指す組織主体。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/CaseStudy">
+    <rdfs:label xml:lang="ja">導入事例</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業における実践と成果を示すケース。分業化、オンボーディング、需要創造型への転換などが含まれる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesKPI">
+    <rdfs:label xml:lang="ja">営業KPI</rdfs:label>
+    <rdfs:comment xml:lang="ja">目標達成の柱に沿って設定される注力営業指標。イネーブルメント施策の改善起点となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesGoal">
+    <rdfs:label xml:lang="ja">営業目標</rdfs:label>
+    <rdfs:comment xml:lang="ja">達成すべき売上などの定量的ゴール。計画段階で戦略および注力指標と合わせて明確化する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesStrategy">
+    <rdfs:label xml:lang="ja">営業戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">注力顧客・チャネル・製品など目標達成の柱を含む戦略。イネーブルメント施策はこれに沿って統合実行する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesPlay">
+    <rdfs:label xml:lang="ja">セールス・プレイ</rdfs:label>
+    <rdfs:comment xml:lang="ja">現場スペシャリストのナレッジを集約し、製品ごとの売り方をパッケージ化した実践的営業コンテンツ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/supportsSalesperson">
+    <rdfs:label xml:lang="ja">営業担当者を支援する</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果を出せるよう能力開発と仕組みで営業担当者を支援する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesEnablement"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementTeam"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Enabler"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Salesperson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/dependsOnTopSales">
+    <rdfs:label xml:lang="ja">トップセールスに依存する</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織全体の目標達成が一部ハイパフォーマーの突出成績に頼っている脆弱な状態。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/TopSalesperson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/liftsPerformanceOf">
+    <rdfs:label xml:lang="ja">中間層を底上げする</rdfs:label>
+    <rdfs:comment xml:lang="ja">一般営業のパフォーマンスを引き上げ、トップセールス依存を解消する目的関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/MiddleLayerSalesperson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasFramework">
+    <rdfs:label xml:lang="ja">骨格フレームワークを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果・行動・スキル知識を連結する概念をイネーブルメントの骨格として持つ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/OutcomeBehaviorSkillFramework"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/producesOutcome">
+    <rdfs:label xml:lang="ja">成果を創出する</rdfs:label>
+    <rdfs:comment xml:lang="ja">定義された営業行動が最終的な営業成果につながる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesAction"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/KeyAction"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOutcome"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/requiresSkillOrKnowledge">
+    <rdfs:label xml:lang="ja">スキル知識を必要とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">重要行動の実行に必要なスキルまたは知識との対応。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesAction"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/KeyAction"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillOrKnowledge"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasManagementCycle">
+    <rdfs:label xml:lang="ja">マネジメントサイクルを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">持続的な仕組みとして計画・実行・検証のサイクルを運用する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/PDSCycle"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasSkillMap">
+    <rdfs:label xml:lang="ja">スキルマップを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">勝ちパターンを営業フェーズ・重要行動・スキル知識として体系化したマップを持つ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesEnablement"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/PDSCycle"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillMap"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/basedOnHearingOf">
+    <rdfs:label xml:lang="ja">ヒアリングに基づく</rdfs:label>
+    <rdfs:comment xml:lang="ja">スキルマップがハイパフォーマーへのヒアリングから作られる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillMap"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/TopSalesperson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasPhase">
+    <rdfs:label xml:lang="ja">営業フェーズを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">スキルマップが顧客視点の営業フェーズで構成される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillMap"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesPhase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/alignedWithCustomerProcess">
+    <rdfs:label xml:lang="ja">顧客プロセスに沿う</rdfs:label>
+    <rdfs:comment xml:lang="ja">フェーズ定義や商談コーチングが顧客の意思決定プロセスを主語にして進む関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesPhase"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Coaching"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/CustomerDecisionProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasKeyAction">
+    <rdfs:label xml:lang="ja">重要行動を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">各営業フェーズに成果直結の重要行動が紐づく関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesPhase"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillMap"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/KeyAction"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/assesses">
+    <rdfs:label xml:lang="ja">評価する</rdfs:label>
+    <rdfs:comment xml:lang="ja">現状スキルを定量評価し育成テーマを特定する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Assessment"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillOrKnowledge"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/belongsToOrganization">
+    <rdfs:label xml:lang="ja">組織に所属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者またはイネーブルメントチームが営業組織に属する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Salesperson"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementTeam"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOrganization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasTeam">
+    <rdfs:label xml:lang="ja">チームを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織がイネーブルメントチームを配置する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOrganization"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Company"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementTeam"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasEnabler">
+    <rdfs:label xml:lang="ja">イネーブラーを擁する</rdfs:label>
+    <rdfs:comment xml:lang="ja">チームが担当者としてイネーブラーを置く関係。トップセールスのローテーションも多い。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementTeam"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Enabler"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/providesMeasure">
+    <rdfs:label xml:lang="ja">施策を提供する</rdfs:label>
+    <rdfs:comment xml:lang="ja">トレーニング、コーチング、ナレッジ等の施策を企画・開発・提供する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementTeam"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Enabler"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/followsStrategy">
+    <rdfs:label xml:lang="ja">営業戦略に沿う</rdfs:label>
+    <rdfs:comment xml:lang="ja">イネーブルメントが営業戦略に沿った施策を統合実行する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesEnablement"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesStrategy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasGoal">
+    <rdfs:label xml:lang="ja">営業目標を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織または戦略が達成すべき売上等のゴールを持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOrganization"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesStrategy"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesGoal"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/measuredByKPI">
+    <rdfs:label xml:lang="ja">KPIで測定される</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果や改善対象が注力営業指標で測られる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOrganization"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOutcome"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/OperationFlow"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesKPI"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/verifiesCorrelation">
+    <rdfs:label xml:lang="ja">相関を検証する</rdfs:label>
+    <rdfs:comment xml:lang="ja">育成成果と営業成果を掛け合わせ、無相関なら設計誤りや環境変化を分析して次計画へ返す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/PDSCycle"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOutcome"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/usesOperationFlow">
+    <rdfs:label xml:lang="ja">業務フローを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果起点の10ステップで施策を回す関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementTeam"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/OperationFlow"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasMissionSheet">
+    <rdfs:label xml:lang="ja">ミッションシートを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">社内認知獲得のため役割と配置を文書化する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementTeam"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMissionSheet"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/implementsEnablement">
+    <rdfs:label xml:lang="ja">イネーブルメントを導入する</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業がセールス・イネーブルメントを導入・運用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Company"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesEnablement"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasCaseStudy">
+    <rdfs:label xml:lang="ja">導入事例を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業の実践内容と成功の鍵を事例として示す関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Company"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/CaseStudy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/providesSalesPlay">
+    <rdfs:label xml:lang="ja">セールスプレイを提供する</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品ごとの売り方パッケージを営業へ提供する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/ProductEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesPlay"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasDescription">
+    <rdfs:label xml:lang="ja">記述</rdfs:label>
+    <rdfs:comment xml:lang="ja">定義、目的、役割、成功の鍵などの説明文。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesEnablement"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Enabler"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillMap"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/CaseStudy"/>
+    <rdfs:domain rdf:resource="https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMissionSheet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

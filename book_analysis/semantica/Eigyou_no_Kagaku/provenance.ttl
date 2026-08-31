@@ -1,0 +1,395 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Eigyou_no_Kagaku/> .
+
+book:source a prov:Entity ;
+  foaf:name "Eigyou_no_Kagaku" ;
+  book:book_key "Eigyou_no_Kagaku" .
+
+book:急所 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:武器 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:受注 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:創業メンバー a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:著者 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:マネジメント a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:リーダー a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:大規模調査 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:購買者の仮面 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:ガンバリズムの罠 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:はぐらかしの仮面 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:枕詞 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:高速ラリー a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮提案 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:関係構築の呪縛 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:指導 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:お客様１万人 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:努力 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:2019年 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:本音 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:思考回路 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:アポイントメント a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:具体的なアクション a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:2段階のアプローチ a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:起業初期 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:みんなが売れる営業組織 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:スキル a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:基本 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:信念 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:現場 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:価格 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:見込み顧客 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:リスト a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:言い訳 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織的な営業力向上 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:課題 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:実績 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:ノウハウ a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:数年 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:大企業 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:導入実績 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:ターゲットリスト a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:提案書のひな形 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:バイアス a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:役員 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:プライド a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:意地 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:根性論 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:コーチング a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヒアリング a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:アクション a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:逆説的な構造 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:優秀な層 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:超人 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:当たり前の基本 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:後から入社したメンバー a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:試行錯誤 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:自己工夫 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:成功体験 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:教育的なジレンマ a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:成長の機会 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:正解の行動 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:無敗営業 「３つの質問」と「４つの力 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:落とし穴 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮説 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:外資系の戦略コンサルティング会社 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:新卒時代 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:調査の設計や分析 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:法人営業 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハイパフォーマー a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:ローパフォーマー a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:素顔 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:建前 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:心理的な防衛機制 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:確率論的アプローチ a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:フレームワーク a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:勝手に寸止め a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:５つのC a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:カスタマイズ感 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:メール a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:忙しさの仮面 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンペ a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:いきなりの仮面 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:迅速なやりとりの往復 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:レスポンス a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:合格ライン a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:返信１日、解決２日 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:時間感覚 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:初回商談 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:5営業日以内 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:体制構築 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:10分電話商談 a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:ラリー a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:電話はNG a prov:Entity ;
+  book:book_key "Eigyou_no_Kagaku" ;
+  prov:wasDerivedFrom book:source .

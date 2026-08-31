@@ -1,0 +1,113 @@
+[
+  {
+    "conflict_id": "Creative Confidence_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "Creative Confidence",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "PRODUCT",
+      "PRODUCT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "PRODUCT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Creative_Mindset"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Creative_Mindset"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Creative_Mindset"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.96,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Creative_Mindset"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Creative_Mindset"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.98,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Creative_Mindset"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Creative_Mindset"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.96,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Creative_Mindset"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

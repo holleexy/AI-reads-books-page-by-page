@@ -1,0 +1,332 @@
+{
+  "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/",
+  "name": "Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__YuusaiOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/Book",
+      "label": "書籍",
+      "comment": "『頭のいい人が話す前に考えていること』のように、話す前の思考法と習慣を扱う書籍を表す。",
+      "parent": null
+    },
+    {
+      "name": "Person",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/Person",
+      "label": "人物",
+      "comment": "著者、理論の提唱者、経営者、聞き手など、コミュニケーションに関わる人物。",
+      "parent": null
+    },
+    {
+      "name": "Author",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/Author",
+      "label": "著者",
+      "comment": "コンサルタント経験に基づき社会的知性の実践法をまとめた書籍の執筆者。",
+      "parent": "Person"
+    },
+    {
+      "name": "GoldenRule",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/GoldenRule",
+      "label": "黄金法則",
+      "comment": "知性を感じさせ信頼を得るためのマインドの基盤。感情制御、他者評価、承認欲求の扱いなどを含む。",
+      "parent": null
+    },
+    {
+      "name": "ThinkingForm",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/ThinkingForm",
+      "label": "思考の型",
+      "comment": "思考を深め適切に伝えるためのフォーム。客観視、整理、傾聴、言語化の四類型がある。",
+      "parent": null
+    },
+    {
+      "name": "ObjectiveThinking",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/ObjectiveThinking",
+      "label": "客観視の思考法",
+      "comment": "根拠の薄い情報や認知バイアスを避け、言葉の定義を共有して話を浅くしない思考法。",
+      "parent": "ThinkingForm"
+    },
+    {
+      "name": "OrganizingThinking",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/OrganizingThinking",
+      "label": "整理の思考法",
+      "comment": "重要な情報と雑多な情報、事実と意見を峻別し、結論からわかりやすく話す思考法。",
+      "parent": "ThinkingForm"
+    },
+    {
+      "name": "ListeningThinking",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/ListeningThinking",
+      "label": "傾聴の思考法",
+      "comment": "相手の真意を探り、アドバイスより整理を行い、構造化面接や仮説質問で深く聞く思考法。",
+      "parent": "ThinkingForm"
+    },
+    {
+      "name": "VerbalizationThinking",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/VerbalizationThinking",
+      "label": "言語化の思考法",
+      "comment": "言語化コストを自ら負担し、再定義・ネーミング・語彙・読書ノートでアウトプットの質を高める思考法。",
+      "parent": "ThinkingForm"
+    },
+    {
+      "name": "Concept",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/Concept",
+      "label": "概念",
+      "comment": "社会的知性、知的謙虚さ、結果は話す前に決まる、など本書の中核的な考え方。",
+      "parent": null
+    },
+    {
+      "name": "SocialIntelligence",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/SocialIntelligence",
+      "label": "社会的知性",
+      "comment": "頭のよさは生まれつきではなく後天的に身につけられるSQであり、他者の思考を読み信頼を得て動かす能力。",
+      "parent": "Concept"
+    },
+    {
+      "name": "CognitiveBias",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/CognitiveBias",
+      "label": "認知バイアス",
+      "comment": "確証バイアスや後知恵バイアスなど、客観視と論理的な遅い思考を妨げる認知の歪み。",
+      "parent": "Concept"
+    },
+    {
+      "name": "Technique",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/Technique",
+      "label": "実践技法",
+      "comment": "アンガーマネジメント、並列評価、構造化面接、再定義、ノウハウメモなど具体的な手法。",
+      "parent": null
+    },
+    {
+      "name": "Communication",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/Communication",
+      "label": "コミュニケーション",
+      "comment": "プレゼンや商談、大切な人との対話など、話す前のプロセスが結果を左右する対人伝達。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "writtenBy",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Author"
+      ],
+      "label": "著者である",
+      "comment": "書籍とその執筆者を結びつける。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/writtenBy"
+    },
+    {
+      "name": "hasGoldenRule",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "GoldenRule"
+      ],
+      "label": "黄金法則を持つ",
+      "comment": "書籍が提示するマインドの黄金法則を示す。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/hasGoldenRule"
+    },
+    {
+      "name": "hasThinkingForm",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "ThinkingForm"
+      ],
+      "label": "思考の型を持つ",
+      "comment": "書籍が提示する思考のフォームを示す。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/hasThinkingForm"
+    },
+    {
+      "name": "definesConcept",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Concept"
+      ],
+      "label": "概念を定義する",
+      "comment": "書籍が社会的知性など中核概念を定義していることを表す。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/definesConcept"
+    },
+    {
+      "name": "usesTechnique",
+      "type": "object",
+      "domain": [
+        "GoldenRule",
+        "ThinkingForm"
+      ],
+      "range": [
+        "Technique"
+      ],
+      "label": "技法を用いる",
+      "comment": "黄金法則や思考の型が具体的な実践技法を用いる関係。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/usesTechnique"
+    },
+    {
+      "name": "belongsToForm",
+      "type": "object",
+      "domain": [
+        "Technique"
+      ],
+      "range": [
+        "ThinkingForm"
+      ],
+      "label": "思考の型に属する",
+      "comment": "実践技法がどの思考の型の一部であるかを示す。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/belongsToForm"
+    },
+    {
+      "name": "supportsRule",
+      "type": "object",
+      "domain": [
+        "Technique"
+      ],
+      "range": [
+        "GoldenRule"
+      ],
+      "label": "黄金法則を支える",
+      "comment": "実践技法が特定の黄金法則の実行を支える関係。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/supportsRule"
+    },
+    {
+      "name": "proposedBy",
+      "type": "object",
+      "domain": [
+        "Concept",
+        "Technique"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "提唱者である",
+      "comment": "社会的知性や並列評価など、概念・技法とその提唱者を結びつける。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/proposedBy"
+    },
+    {
+      "name": "targetsBias",
+      "type": "object",
+      "domain": [
+        "ObjectiveThinking",
+        "Technique"
+      ],
+      "range": [
+        "CognitiveBias"
+      ],
+      "label": "バイアスを対象とする",
+      "comment": "客観視の思考法や技法が是正対象とする認知バイアス。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/targetsBias"
+    },
+    {
+      "name": "appliesTo",
+      "type": "object",
+      "domain": [
+        "GoldenRule",
+        "ThinkingForm",
+        "Technique"
+      ],
+      "range": [
+        "Communication"
+      ],
+      "label": "適用される",
+      "comment": "法則・思考の型・技法が適用されるコミュニケーション場面。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/appliesTo"
+    },
+    {
+      "name": "involvesParticipant",
+      "type": "object",
+      "domain": [
+        "Communication"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "参加者がいる",
+      "comment": "コミュニケーションに話し手・受け手が関与することを表す。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/involvesParticipant"
+    },
+    {
+      "name": "cultivates",
+      "type": "object",
+      "domain": [
+        "GoldenRule",
+        "ThinkingForm",
+        "Technique"
+      ],
+      "range": [
+        "SocialIntelligence"
+      ],
+      "label": "知性を育てる",
+      "comment": "マインドや思考の型、技法が社会的知性の獲得に寄与する関係。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/cultivates"
+    },
+    {
+      "name": "title",
+      "type": "data",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "書名",
+      "comment": "書籍の日本語タイトル。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/title"
+    },
+    {
+      "name": "coreConclusion",
+      "type": "data",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "核心的結論",
+      "comment": "例えば「結果は、話す前に決まっている」といった書籍の中心命題。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/coreConclusion"
+    },
+    {
+      "name": "ruleStatement",
+      "type": "data",
+      "domain": [
+        "GoldenRule"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "法則の内容",
+      "comment": "黄金法則を一言で表した文言。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/ruleStatement"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "Concept",
+        "Technique",
+        "ThinkingForm",
+        "GoldenRule",
+        "CognitiveBias",
+        "SocialIntelligence",
+        "Communication"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "概念や技法、思考の型などの日本語による説明文。",
+      "uri": "https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/description"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

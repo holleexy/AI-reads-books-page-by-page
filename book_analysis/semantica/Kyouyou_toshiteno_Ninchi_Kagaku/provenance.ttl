@@ -1,0 +1,447 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/> .
+
+book:source a prov:Entity ;
+  foaf:name "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" .
+
+book:知性 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:社会 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:Language a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:Artificial Intelligence a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:将棋 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:プログラム a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:たまごっち a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:Apple a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:知的システム a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:渋谷 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:スクランブル交差点 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:Cognitive Science a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:philosophy a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:anthropology a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:neuroscience a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:20th century a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:biological shift a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:生物学的シフト a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:認識 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:recognition a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:system a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:システム a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:構造 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:自動車 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:intellectual system a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:human intellect a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:ethology a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:robotics a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:Japanese chess a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:学校 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:science a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:発達 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:defamation a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:経験 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:technology a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:literature a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:感情的反応 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:novels a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:fluctuations a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:日常 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:poetry a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:Siri a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:普遍性 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:才能 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:職場 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:イメージ a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニケーション a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:教育 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:司法 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:20世紀後半以降 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:justice a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:global warming a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:slander a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:memory capabilities a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:evasive behaviors a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:微分演算 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:人工知能 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:近年 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:携帯電話 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:囲碁 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:ボードゲーム a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:探索空間 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:擬人化 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:悲しみ a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:群衆 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:学際的アプローチ a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:動物行動学者 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:iPod a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:organizational intelligence a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:Group-level behavior a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:Shibuya Scramble Crossing a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:University of Tokyo a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:user interface research a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:knowledge a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:生成性 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:進化のプログラム a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:変化 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:成長 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:技能 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:ゆらぎを持つ複数のリソース a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:協調と競合 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:暫定的な調和 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:新しい認知科学 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:定義 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:研究者 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:蛸壺化（タコツボ化） a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:心理学 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:Ninchi Kagaku a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:画像認識 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:voice recognition a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:音声認識 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:Differential Psychology a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:能力測定 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:循環論法 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:統計的な処理 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:機能 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:地球 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:しくみ a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:宇宙人 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:ボンネット a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンジン a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:シャフト a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:タイヤ a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:なりたち a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:共通の祖先 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:加齢 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .
+
+book:由来 a prov:Entity ;
+  book:book_key "Kyouyou_toshiteno_Ninchi_Kagaku" ;
+  prov:wasDerivedFrom book:source .

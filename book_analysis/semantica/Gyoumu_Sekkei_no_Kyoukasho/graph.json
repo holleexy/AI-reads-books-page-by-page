@@ -1,0 +1,3803 @@
+{
+  "entities": [
+    {
+      "id": "業務設計",
+      "name": "業務設計",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "業務設計",
+              "name": "業務設計",
+              "source": null
+            },
+            {
+              "id": "業務設計",
+              "name": "業務設計",
+              "source": null
+            },
+            {
+              "id": "業務改善",
+              "name": "業務改善",
+              "source": null
+            },
+            {
+              "id": "業務改善",
+              "name": "業務改善",
+              "source": null
+            },
+            {
+              "id": "業務効率",
+              "name": "業務効率",
+              "source": null
+            },
+            {
+              "id": "業務効率化",
+              "name": "業務効率化",
+              "source": null
+            },
+            {
+              "id": "業務要件",
+              "name": "業務要件",
+              "source": null
+            },
+            {
+              "id": "業務の構造",
+              "name": "業務の構造",
+              "source": null
+            },
+            {
+              "id": "業務の流れ",
+              "name": "業務の流れ",
+              "source": null
+            },
+            {
+              "id": "業務の全体像",
+              "name": "業務の全体像",
+              "source": null
+            },
+            {
+              "id": "業務プロセス",
+              "name": "業務プロセス",
+              "source": null
+            },
+            {
+              "id": "業務プロセス",
+              "name": "業務プロセス",
+              "source": null
+            },
+            {
+              "id": "業務フロー図",
+              "name": "業務フロー図",
+              "source": null
+            },
+            {
+              "id": "業務フロー図",
+              "name": "業務フロー図",
+              "source": null
+            },
+            {
+              "id": "業務部門",
+              "name": "業務部門",
+              "source": null
+            },
+            {
+              "id": "業務部門",
+              "name": "業務部門",
+              "source": null
+            }
+          ],
+          "merge_count": 16
+        }
+      },
+      "merged_from": [
+        "業務設計",
+        "業務設計",
+        "業務改善",
+        "業務改善",
+        "業務効率",
+        "業務効率化",
+        "業務要件",
+        "業務の構造",
+        "業務の流れ",
+        "業務の全体像",
+        "業務プロセス",
+        "業務プロセス",
+        "業務フロー図",
+        "業務フロー図",
+        "業務部門",
+        "業務部門"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "役割",
+      "name": "役割",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "役割",
+              "name": "役割",
+              "source": null
+            },
+            {
+              "id": "役割",
+              "name": "役割",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "役割",
+        "役割"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "システム",
+      "name": "システム",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "システム",
+              "name": "システム",
+              "source": null
+            },
+            {
+              "id": "システム",
+              "name": "システム",
+              "source": null
+            },
+            {
+              "id": "システム導入",
+              "name": "システム導入",
+              "source": null
+            },
+            {
+              "id": "システム導入",
+              "name": "システム導入",
+              "source": null
+            },
+            {
+              "id": "システムの導入",
+              "name": "システムの導入",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "システム",
+        "システム",
+        "システム導入",
+        "システム導入",
+        "システムの導入"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "WORKING",
+      "name": "WORKING",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "WORKING",
+              "name": "WORKING",
+              "source": null
+            },
+            {
+              "id": "WORKING",
+              "name": "WORKING",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "WORKING",
+        "WORKING"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "DX",
+      "name": "DX",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "DX",
+              "name": "DX",
+              "source": null
+            },
+            {
+              "id": "DX",
+              "name": "DX",
+              "source": null
+            },
+            {
+              "id": "DXプロジェクト",
+              "name": "DXプロジェクト",
+              "source": null
+            },
+            {
+              "id": "DXプロジェクト",
+              "name": "DXプロジェクト",
+              "source": null
+            },
+            {
+              "id": "DX推進プロジェクト",
+              "name": "DX推進プロジェクト",
+              "source": null
+            },
+            {
+              "id": "DX推進",
+              "name": "DX推進",
+              "source": null
+            },
+            {
+              "id": "DX・AI導入の罠",
+              "name": "DX・AI導入の罠",
+              "source": null
+            },
+            {
+              "id": "DX project",
+              "name": "DX project",
+              "source": null
+            }
+          ],
+          "merge_count": 8
+        }
+      },
+      "merged_from": [
+        "DX",
+        "DX",
+        "DXプロジェクト",
+        "DXプロジェクト",
+        "DX推進プロジェクト",
+        "DX推進",
+        "DX・AI導入の罠",
+        "DX project"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "デジタル化",
+      "name": "デジタル化",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "デジタル化",
+              "name": "デジタル化",
+              "source": null
+            },
+            {
+              "id": "デジタル化",
+              "name": "デジタル化",
+              "source": null
+            },
+            {
+              "id": "デジタルツール",
+              "name": "デジタルツール",
+              "source": null
+            },
+            {
+              "id": "デジタルトランスフォーメーション",
+              "name": "デジタルトランスフォーメーション",
+              "source": null
+            },
+            {
+              "id": "デジタルトランスフォーメーション",
+              "name": "デジタルトランスフォーメーション",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "デジタル化",
+        "デジタル化",
+        "デジタルツール",
+        "デジタルトランスフォーメーション",
+        "デジタルトランスフォーメーション"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "AI",
+      "name": "AI",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "AI",
+              "name": "AI",
+              "source": null
+            },
+            {
+              "id": "AI",
+              "name": "AI",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "AI",
+        "AI"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "RPA",
+      "name": "RPA",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "RPA",
+              "name": "RPA",
+              "source": null
+            },
+            {
+              "id": "RPA",
+              "name": "RPA",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "RPA",
+        "RPA"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "ロボティック・プロセス・オートメーション",
+      "name": "ロボティック・プロセス・オートメーション",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ロボティック・プロセス・オートメーション",
+              "name": "ロボティック・プロセス・オートメーション",
+              "source": null
+            },
+            {
+              "id": "ロボティック・プロセス・オートメーション",
+              "name": "ロボティック・プロセス・オートメーション",
+              "source": null
+            },
+            {
+              "id": "ロボット化",
+              "name": "ロボット化",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "ロボティック・プロセス・オートメーション",
+        "ロボティック・プロセス・オートメーション",
+        "ロボット化"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "プロジェクト",
+      "name": "プロジェクト",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "プロジェクト",
+              "name": "プロジェクト",
+              "source": null
+            },
+            {
+              "id": "プロジェクト",
+              "name": "プロジェクト",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "プロジェクト",
+        "プロジェクト"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "1970年代",
+      "name": "1970年代",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "1970年代",
+              "name": "1970年代",
+              "source": null
+            },
+            {
+              "id": "1970年代",
+              "name": "1970年代",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "1970年代",
+        "1970年代"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "自動化",
+      "name": "自動化",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "自動化",
+              "name": "自動化",
+              "source": null
+            },
+            {
+              "id": "自動化",
+              "name": "自動化",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "自動化",
+        "自動化"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "製造業",
+      "name": "製造業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "製造業",
+              "name": "製造業",
+              "source": null
+            },
+            {
+              "id": "製造業",
+              "name": "製造業",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "製造業",
+        "製造業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "ホワイトカラー",
+      "name": "ホワイトカラー",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ホワイトカラー",
+              "name": "ホワイトカラー",
+              "source": null
+            },
+            {
+              "id": "ホワイトカラー",
+              "name": "ホワイトカラー",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ホワイトカラー",
+        "ホワイトカラー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "情報システム部門",
+      "name": "情報システム部門",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "情報システム部門",
+              "name": "情報システム部門",
+              "source": null
+            },
+            {
+              "id": "情報システム部門",
+              "name": "情報システム部門",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "情報システム部門",
+        "情報システム部門"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "ビジネス・プロセス・リエンジニアリング",
+      "name": "ビジネス・プロセス・リエンジニアリング",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ビジネス・プロセス・リエンジニアリング",
+              "name": "ビジネス・プロセス・リエンジニアリング",
+              "source": null
+            },
+            {
+              "id": "ビジネスプロセス・リエンジニアリング",
+              "name": "ビジネスプロセス・リエンジニアリング",
+              "source": null
+            },
+            {
+              "id": "ビジネスプロセス・マネジメント",
+              "name": "ビジネスプロセス・マネジメント",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "ビジネス・プロセス・リエンジニアリング",
+        "ビジネスプロセス・リエンジニアリング",
+        "ビジネスプロセス・マネジメント"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "business process design",
+      "name": "business process design",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "business process design",
+              "name": "business process design",
+              "source": null
+            },
+            {
+              "id": "business processes",
+              "name": "business processes",
+              "source": null
+            },
+            {
+              "id": "Business process improvement",
+              "name": "Business process improvement",
+              "source": null
+            },
+            {
+              "id": "Business Process Management",
+              "name": "Business Process Management",
+              "source": null
+            },
+            {
+              "id": "Business Process Reengineering",
+              "name": "Business Process Reengineering",
+              "source": null
+            },
+            {
+              "id": "business models",
+              "name": "business models",
+              "source": null
+            },
+            {
+              "id": "BPR",
+              "name": "BPR",
+              "source": null
+            },
+            {
+              "id": "BPR",
+              "name": "BPR",
+              "source": null
+            },
+            {
+              "id": "BPM",
+              "name": "BPM",
+              "source": null
+            },
+            {
+              "id": "BPM",
+              "name": "BPM",
+              "source": null
+            },
+            {
+              "id": "bottom-up",
+              "name": "bottom-up",
+              "source": null
+            }
+          ],
+          "merge_count": 11
+        }
+      },
+      "merged_from": [
+        "business process design",
+        "business processes",
+        "Business process improvement",
+        "Business Process Management",
+        "Business Process Reengineering",
+        "business models",
+        "BPR",
+        "BPR",
+        "BPM",
+        "BPM",
+        "bottom-up"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "現場主義",
+      "name": "現場主義",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "現場主義",
+              "name": "現場主義",
+              "source": null
+            },
+            {
+              "id": "現場",
+              "name": "現場",
+              "source": null
+            },
+            {
+              "id": "現代",
+              "name": "現代",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "現場主義",
+        "現場",
+        "現代"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "Digital Transformation",
+      "name": "Digital Transformation",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Digital Transformation",
+              "name": "Digital Transformation",
+              "source": null
+            },
+            {
+              "id": "digital technology",
+              "name": "digital technology",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Digital Transformation",
+        "digital technology"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "WHY",
+      "name": "WHY",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "WHY",
+              "name": "WHY",
+              "source": null
+            },
+            {
+              "id": "WHAT",
+              "name": "WHAT",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "WHY",
+        "WHAT"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "関係者間の連携",
+      "name": "関係者間の連携",
+      "text": "関係者間の連携",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "情報の流れ",
+      "name": "情報の流れ",
+      "text": "情報の流れ",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "チームマネジメント",
+      "name": "チームマネジメント",
+      "text": "チームマネジメント",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "HOW",
+      "name": "HOW",
+      "text": "HOW",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "organizational culture",
+      "name": "organizational culture",
+      "text": "organizational culture",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "top-down",
+      "name": "top-down",
+      "text": "top-down",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "作業手順",
+      "name": "作業手順",
+      "text": "作業手順",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "意思決定の仕組み",
+      "name": "意思決定の仕組み",
+      "text": "意思決定の仕組み",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "ソフトウェア開発",
+      "name": "ソフトウェア開発",
+      "text": "ソフトウェア開発",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "エクセル",
+      "name": "エクセル",
+      "text": "エクセル",
+      "type": "PRODUCT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "2004",
+      "name": "2004",
+      "text": "2004",
+      "type": "DATE",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "Professor",
+      "name": "Professor",
+      "text": "Professor",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "Erik Stolterman",
+      "name": "Erik Stolterman",
+      "text": "Erik Stolterman",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "Umeå University",
+      "name": "Umeå University",
+      "text": "Umeå University",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "Transformation",
+      "name": "Transformation",
+      "text": "Transformation",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "Robotic Process Automation",
+      "name": "Robotic Process Automation",
+      "text": "Robotic Process Automation",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "machine learning",
+      "name": "machine learning",
+      "text": "machine learning",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "ハンマーしか持っていなければ、すべてが釘に見える",
+      "name": "ハンマーしか持っていなければ、すべてが釘に見える",
+      "text": "ハンマーしか持っていなければ、すべてが釘に見える",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "If all you have is a hammer, everything looks like a nail",
+      "name": "If all you have is a hammer, everything looks like a nail",
+      "text": "If all you have is a hammer, everything looks like a nail",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "URL",
+      "name": "URL",
+      "text": "URL",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "Excel",
+      "name": "Excel",
+      "text": "Excel",
+      "type": "PRODUCT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "メール",
+      "name": "メール",
+      "text": "メール",
+      "type": "PRODUCT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "アナログな業務",
+      "name": "アナログな業務",
+      "text": "アナログな業務",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "紙での回覧",
+      "name": "紙での回覧",
+      "text": "紙での回覧",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "品質",
+      "name": "品質",
+      "text": "品質",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "手段の目的化",
+      "name": "手段の目的化",
+      "text": "手段の目的化",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "経営陣",
+      "name": "経営陣",
+      "text": "経営陣",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "ChatGPT",
+      "name": "ChatGPT",
+      "text": "ChatGPT",
+      "type": "PRODUCT",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "生成AI",
+      "name": "生成AI",
+      "text": "生成AI",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "トヨタ生産方式",
+      "name": "トヨタ生産方式",
+      "text": "トヨタ生産方式",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "大野耐一",
+      "name": "大野耐一",
+      "text": "大野耐一",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "スキル",
+      "name": "スキル",
+      "text": "スキル",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "裁量",
+      "name": "裁量",
+      "text": "裁量",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "数年単位",
+      "name": "数年単位",
+      "text": "数年単位",
+      "type": "DATE",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "PDCAサイクル",
+      "name": "PDCAサイクル",
+      "text": "PDCAサイクル",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "プロセスマップ",
+      "name": "プロセスマップ",
+      "text": "プロセスマップ",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "実践的なアプローチ",
+      "name": "実践的なアプローチ",
+      "text": "実践的なアプローチ",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "受注",
+      "name": "受注",
+      "text": "受注",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "出荷",
+      "name": "出荷",
+      "text": "出荷",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "担当者",
+      "name": "担当者",
+      "text": "担当者",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "短期間",
+      "name": "短期間",
+      "text": "短期間",
+      "type": "DATE",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "CRMシステム",
+      "name": "CRMシステム",
+      "text": "CRMシステム",
+      "type": "PRODUCT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "マネジメント層",
+      "name": "マネジメント層",
+      "text": "マネジメント層",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "個別最適化",
+      "name": "個別最適化",
+      "text": "個別最適化",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "水掛け論",
+      "name": "水掛け論",
+      "text": "水掛け論",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "平行線の議論",
+      "name": "平行線の議論",
+      "text": "平行線の議論",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "コミュニケーションの課題",
+      "name": "コミュニケーションの課題",
+      "text": "コミュニケーションの課題",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "処理手順",
+      "name": "処理手順",
+      "text": "処理手順",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "使えないシステム",
+      "name": "使えないシステム",
+      "text": "使えないシステム",
+      "type": "PRODUCT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "構造的な問題",
+      "name": "構造的な問題",
+      "text": "構造的な問題",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "専門用語",
+      "name": "専門用語",
+      "text": "専門用語",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "認識のズレ",
+      "name": "認識のズレ",
+      "text": "認識のズレ",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "対立構造",
+      "name": "対立構造",
+      "text": "対立構造",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "予算執行",
+      "name": "予算執行",
+      "text": "予算執行",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "id": "導入実績",
+      "name": "導入実績",
+      "text": "導入実績",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "業務設計",
+      "target": "業務の構造",
+      "type": "requires",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務設計",
+      "target": "役割",
+      "type": "requires",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務設計",
+      "target": "関係者間の連携",
+      "type": "requires",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務設計",
+      "target": "情報の流れ",
+      "type": "requires",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務設計",
+      "target": "システム",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務設計",
+      "target": "DX推進プロジェクト",
+      "type": "applied_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務設計",
+      "target": "業務改善",
+      "type": "applicable_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務設計",
+      "target": "チームマネジメント",
+      "type": "applicable_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "WHAT",
+      "target": "WORKING",
+      "type": "learned_through",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "HOW",
+      "target": "WORKING",
+      "type": "learned_through",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "WHY",
+      "target": "WHAT",
+      "type": "connected_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "WHY",
+      "target": "HOW",
+      "type": "connected_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "WHY",
+      "target": "WORKING",
+      "type": "emphasized_alongside",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "WORKING",
+      "target": "各ステップ",
+      "type": "corresponds_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "WORKING",
+      "target": "業務に関わるメンバー全員",
+      "type": "undertaken_by",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "WORKING",
+      "target": "1人",
+      "type": "can_be_implemented_by",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "business process design",
+      "target": "organizational culture",
+      "type": "requires",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "organizational culture",
+      "target": "top-down",
+      "type": "embraces",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "organizational culture",
+      "target": "bottom-up",
+      "type": "embraces",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "デジタル化",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "システム導入",
+      "target": "業務の流れ",
+      "type": "depends_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "システム導入",
+      "target": "役割",
+      "type": "depends_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務の流れ",
+      "target": "役割",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務の流れ",
+      "target": "作業手順",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "役割",
+      "target": "作業手順",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務の流れ",
+      "target": "意思決定の仕組み",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "役割",
+      "target": "意思決定の仕組み",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "システム導入",
+      "target": "DX・AI導入の罠",
+      "type": "becomes_purpose_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "ソフトウェア開発",
+      "target": "DX・AI導入の罠",
+      "type": "becomes_purpose_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "DX・AI導入の罠",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "AI",
+      "target": "DX・AI導入の罠",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "デジタル化",
+      "target": "DX・AI導入の罠",
+      "type": "becomes_goal_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "RPA",
+      "target": "ロボティック・プロセス・オートメーション",
+      "type": "stands_for",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "デジタル化",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "業務設計",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "デジタル化",
+      "target": "業務設計",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "Digital Transformation",
+      "type": "stands_for",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "2004",
+      "type": "proposed_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "Erik Stolterman",
+      "type": "proposed_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "Erik Stolterman",
+      "target": "Professor",
+      "type": "is_a",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "Erik Stolterman",
+      "target": "Umeå University",
+      "type": "affiliated_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "Transformation",
+      "type": "derived_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "digital technology",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "business processes",
+      "type": "transforms",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "business models",
+      "type": "transforms",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "DX project",
+      "type": "misused_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "RPA",
+      "target": "Robotic Process Automation",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "RPA",
+      "target": "DX",
+      "type": "often_mischaracterized_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "RPA",
+      "target": "AI",
+      "type": "evolved_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "RPA",
+      "target": "machine learning",
+      "type": "evolved_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "RPA",
+      "target": "AI",
+      "type": "uses",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "RPA",
+      "target": "machine learning",
+      "type": "uses",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "RPA",
+      "target": "DX",
+      "type": "part_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "RPA",
+      "target": "ロボティック・プロセス・オートメーション",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "RPA",
+      "target": "RPA",
+      "type": "failure_not_due_to_insufficient_functionality_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "ハンマーしか持っていなければ、すべてが釘に見える",
+      "target": "If all you have is a hammer, everything looks like a nail",
+      "type": "translated_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "RPA",
+      "target": "URL",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "システム導入",
+      "target": "RPA",
+      "type": "includes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "システム導入",
+      "target": "デジタル化",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "紙での回覧",
+      "target": "アナログな業務",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "Excel",
+      "target": "デジタルツール",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "メール",
+      "target": "デジタルツール",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "デジタルツール",
+      "target": "アナログな業務",
+      "type": "replaces",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "デジタルツール",
+      "target": "業務効率",
+      "type": "does_not_improve",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "デジタルツール",
+      "target": "品質",
+      "type": "does_not_improve",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務効率",
+      "target": "品質",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "BPR",
+      "target": "ビジネス・プロセス・リエンジニアリング",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "RPA",
+      "target": "ロボティック・プロセス・オートメーション",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "手段の目的化",
+      "target": "RPA",
+      "type": "not_limited_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "デジタル化",
+      "target": "AI",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "プロジェクト",
+      "target": "デジタル化",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "プロジェクト",
+      "target": "AI",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "AI",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "経営陣",
+      "target": "AI",
+      "type": "interacts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "生成AI",
+      "type": "is_example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "トヨタ生産方式",
+      "target": "大野耐一",
+      "type": "created_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "トヨタ生産方式",
+      "target": "1970年代",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "自動化",
+      "target": "1970年代",
+      "type": "occurred_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "ロボット化",
+      "target": "1970年代",
+      "type": "occurred_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "自動化",
+      "target": "製造業",
+      "type": "centered_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "ロボット化",
+      "target": "製造業",
+      "type": "centered_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "デジタル化",
+      "target": "現代",
+      "type": "occurred_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "デジタル化",
+      "target": "ホワイトカラー",
+      "type": "applied_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "製造業",
+      "target": "ホワイトカラー",
+      "type": "differs_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "ホワイトカラー",
+      "target": "スキル",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "ホワイトカラー",
+      "target": "裁量",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務要件",
+      "target": "自動化",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "自動化",
+      "target": "製造業",
+      "type": "requires_more_coordination_than",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "システム",
+      "target": "業務プロセス",
+      "type": "is_means_for_improving",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "BPR",
+      "target": "ビジネスプロセス・リエンジニアリング",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "BPM",
+      "target": "ビジネスプロセス・マネジメント",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "BPR",
+      "target": "BPM",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "BPR",
+      "target": "Business Process Reengineering",
+      "type": "is_abbreviation_of",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "BPM",
+      "target": "Business Process Management",
+      "type": "is_abbreviation_of",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "BPR",
+      "target": "BPM",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "BPR",
+      "target": "BPM",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "BPR",
+      "target": "数年単位",
+      "type": "requires",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "BPM",
+      "target": "数年単位",
+      "type": "requires",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "BPR",
+      "target": "BPM",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "プロセスマップ",
+      "target": "業務フロー図",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "実践的なアプローチ",
+      "target": "プロセスマップ",
+      "type": "recommended_for",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "実践的なアプローチ",
+      "target": "業務フロー図",
+      "type": "recommended_for",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "受注",
+      "target": "出荷",
+      "type": "leads_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "担当者",
+      "target": "業務フロー図",
+      "type": "updates",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務プロセス",
+      "target": "短期間",
+      "type": "established_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務フロー図",
+      "target": "業務プロセス",
+      "type": "used_to_establish",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務設計",
+      "target": "業務プロセス",
+      "type": "results_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "デジタルトランスフォーメーション",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "システム導入",
+      "type": "should_not_start_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "業務プロセス",
+      "type": "requires_understanding_of",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DXプロジェクト",
+      "target": "業務プロセス",
+      "type": "first_step_is_understanding",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DXプロジェクト",
+      "target": "システム導入",
+      "type": "avoids_trap_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務プロセス",
+      "target": "システム導入",
+      "type": "prevents_misuse_of",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX",
+      "target": "デジタルトランスフォーメーション",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "情報システム部門",
+      "target": "業務部門",
+      "type": "conflicts_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DX推進",
+      "target": "業務プロセス",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務部門",
+      "target": "DX推進",
+      "type": "interacts_with",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DXプロジェクト",
+      "target": "情報システム部門",
+      "type": "involves_positioning_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DXプロジェクト",
+      "target": "業務プロセス",
+      "type": "requires_review_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "現場主義",
+      "target": "個別最適化",
+      "type": "leads_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務プロセス",
+      "target": "個別最適化",
+      "type": "undergoes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "マネジメント層",
+      "target": "業務プロセス",
+      "type": "cannot_fully_grasp",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "現場主義",
+      "target": "マネジメント層",
+      "type": "hinders_oversight_by",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "情報システム部門",
+      "target": "業務部門",
+      "type": "interacts_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DXプロジェクト",
+      "target": "情報システム部門",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "DXプロジェクト",
+      "target": "業務部門",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務部門",
+      "target": "情報システム部門",
+      "type": "interacts_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務部門",
+      "target": "水掛け論",
+      "type": "involved_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "情報システム部門",
+      "target": "水掛け論",
+      "type": "involved_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "水掛け論",
+      "target": "平行線の議論",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務部門",
+      "target": "システム",
+      "type": "requests",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "システム",
+      "target": "業務効率化",
+      "type": "used_for",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務部門",
+      "target": "業務効率化",
+      "type": "aims_to_achieve",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "情報システム部門",
+      "target": "業務プロセス",
+      "type": "requires",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "システム",
+      "target": "業務プロセス",
+      "type": "depends_on",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "情報システム部門",
+      "target": "業務部門",
+      "type": "has_communication_challenge_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "コミュニケーションの課題",
+      "target": "情報システム部門",
+      "type": "exists_between",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "コミュニケーションの課題",
+      "target": "業務部門",
+      "type": "exists_between",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務部門",
+      "target": "業務フロー図",
+      "type": "unable_to_create",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務部門",
+      "target": "処理手順",
+      "type": "focuses_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "処理手順",
+      "target": "業務の全体像",
+      "type": "obscures",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務部門",
+      "target": "業務の全体像",
+      "type": "lacks_visibility_of",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "システム導入",
+      "target": "業務プロセス",
+      "type": "depends_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務プロセス",
+      "target": "システム導入",
+      "type": "affects",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "システム導入",
+      "target": "使えないシステム",
+      "type": "leads_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "使えないシステム",
+      "target": "情報システム部門",
+      "type": "reported_to",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "構造的な問題",
+      "target": "使えないシステム",
+      "type": "involves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "構造的な問題",
+      "target": "情報システム部門",
+      "type": "affects",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "情報システム部門",
+      "target": "専門用語",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "専門用語",
+      "target": "業務部門",
+      "type": "causes_confusion_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "情報システム部門",
+      "target": "認識のズレ",
+      "type": "causes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "認識のズレ",
+      "target": "情報システム部門",
+      "type": "exists_between",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "認識のズレ",
+      "target": "業務部門",
+      "type": "exists_between",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "システムの導入",
+      "target": "対立構造",
+      "type": "causes",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務部門",
+      "target": "対立構造",
+      "type": "involved_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "情報システム部門",
+      "target": "対立構造",
+      "type": "involved_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "業務部門",
+      "target": "システムの導入",
+      "type": "affected_by",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "情報システム部門",
+      "target": "現場",
+      "type": "dissatisfied_with",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "情報システム部門",
+      "target": "予算執行",
+      "type": "evaluated_using",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "情報システム部門",
+      "target": "導入実績",
+      "type": "evaluated_using",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "プロジェクト",
+      "target": "導入実績",
+      "type": "driven_by",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    },
+    {
+      "source": "プロジェクト",
+      "target": "業務改善",
+      "type": "neglects_contribution_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+      },
+      "book_key": "Gyoumu_Sekkei_no_Kyoukasho"
+    }
+  ],
+  "metadata": {
+    "num_entities": 75,
+    "num_relationships": 162,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-31T07:41:39.860891",
+    "entity_resolution_applied": true,
+    "book_key": "Gyoumu_Sekkei_no_Kyoukasho",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

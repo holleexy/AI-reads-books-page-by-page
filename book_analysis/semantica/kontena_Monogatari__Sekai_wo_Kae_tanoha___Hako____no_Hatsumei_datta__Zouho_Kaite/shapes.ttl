@@ -1,0 +1,316 @@
+@prefix ex: <https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/shapes> a owl:Ontology .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "コンテナ物語のように、発明や経済史を扱う著作。" ;
+    sh:property [
+        sh:path ex:hasName ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人物" ;
+    sh:description "マルコム・マクリーンなど、コンテナ史に関わる人物。" ;
+    sh:property [
+        sh:path ex:founded ;
+        sh:class ex:Company ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:involvedIn ;
+        sh:class ex:HistoricalEvent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasName ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/CompanyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Company ;
+    sh:name "企業" ;
+    sh:description "シー・ランドや海運会社など、輸送や買収に関わる企業。" ;
+    sh:property [
+        sh:path ex:agreedIn ;
+        sh:class ex:LaborAgreement ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:acquired ;
+        sh:class ex:Company ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:memberOf ;
+        sh:class ex:Consortium ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:involvedIn ;
+        sh:class ex:HistoricalEvent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasName ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/ContainerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Container ;
+    sh:name "コンテナ" ;
+    sh:description "貨物を運ぶ標準化された金属の箱。世界経済を変えた単純な発明。" ;
+    sh:property [
+        sh:path ex:pioneeredBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesStandard ;
+        sh:class ex:Standard ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:carriedBy ;
+        sh:class ex:Ship ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:enabled ;
+        sh:class ex:SupplyChain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasName ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/InnovationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Innovation ;
+    sh:name "イノベーション" ;
+    sh:description "長年の経験と体系的アプローチ、予期せぬ結果の積み重ねによる革新。" ;
+    sh:property [
+        sh:path ex:pioneeredBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/ContainerizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Containerization ;
+    sh:name "コンテナリゼーション" ;
+    sh:description "標準コンテナによる貨物輸送方式。輸送コストを下げグローバリゼーションを推進した。" ;
+    sh:property [
+        sh:path ex:pioneeredBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:opposedBy ;
+        sh:class ex:LaborUnion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:enabled ;
+        sh:class ex:SupplyChain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:causedDeclineOf ;
+        sh:class ex:Port ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:causedRiseOf ;
+        sh:class ex:Port ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/DisruptiveTechnologyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DisruptiveTechnology ;
+    sh:name "破壊的技術" ;
+    sh:description "予想外の形で経済地図や規制を塗り替える技術。コンテナがその典型。" ;
+    sh:property [
+        sh:path ex:pioneeredBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/ShipShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Ship ;
+    sh:name "船舶" ;
+    sh:description "アイデアルX号やSL-7、巨大コンテナ船などの船。" ;
+    sh:property [
+        sh:path ex:operatedBy ;
+        sh:class ex:Company ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:departedFrom ;
+        sh:class ex:Port ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:involvedIn ;
+        sh:class ex:HistoricalEvent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasName ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/PortShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Port ;
+    sh:name "港湾" ;
+    sh:description "ニューアーク、ポート・エリザベス、ロッテルダム、シンガポール、釜山などの港。" ;
+    sh:property [
+        sh:path ex:locatedIn ;
+        sh:class ex:City ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:involvedIn ;
+        sh:class ex:HistoricalEvent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasName ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/CityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:City ;
+    sh:name "都市" ;
+    sh:description "ニューヨーク、ロンドン、リバプールなど盛衰した港湾都市。" ;
+    sh:property [
+        sh:path ex:hasName ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LaborUnionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LaborUnion ;
+    sh:name "労働組合" ;
+    sh:description "国際港湾労働者協会や国際港湾倉庫労働者組合など港湾労働の組合。" ;
+    sh:property [
+        sh:path ex:agreedIn ;
+        sh:class ex:LaborAgreement ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LaborAgreementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LaborAgreement ;
+    sh:name "労働協約" ;
+    sh:description "機械化・近代化協定や年間所得保障など、コンテナ化を受け入れる労使協定。" .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/StandardShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Standard ;
+    sh:name "規格" ;
+    sh:description "ISOによるサイズ・金具の国際標準。TEUやツイストロックを含む。" ;
+    sh:property [
+        sh:path ex:hasName ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/HistoricalEventShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HistoricalEvent ;
+    sh:name "歴史的出来事" ;
+    sh:description "1956年の最初の航海、ベトナム戦争の兵站危機、オイルショックなどの出来事。" ;
+    sh:property [
+        sh:path ex:departedFrom ;
+        sh:class ex:Port ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedIn ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/SupplyChainShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SupplyChain ;
+    sh:name "サプライチェーン" ;
+    sh:description "低コスト輸送により構築されたグローバルな供給網と中間財貿易。" .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/IntermodalTransportShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IntermodalTransport ;
+    sh:name "インターモーダル輸送" ;
+    sh:description "トラック、鉄道、船舶を連携させる一貫輸送。ピギーバック方式を含む。" .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/ConsortiumShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Consortium ;
+    sh:name "コンソーシアム" ;
+    sh:description "価格競争を生き抜くために海運会社が形成した企業連合や同盟。" .
+
+<https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LogisticsClusterShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LogisticsCluster ;
+    sh:name "ロジスティクスクラスター" ;
+    sh:description "通過地点ではなく加工や再梱包を行う高度物流集積地。" ;
+    sh:property [
+        sh:path ex:locatedIn ;
+        sh:class ex:City ;
+        sh:severity sh:Violation
+    ] .

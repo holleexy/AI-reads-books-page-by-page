@@ -1,0 +1,219 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/プロダクトマネジメントのすべて/> .
+
+book:source a prov:Entity ;
+  foaf:name "プロダクトマネジメントのすべて" ;
+  book:book_key "プロダクトマネジメントのすべて" .
+
+book:HSBC a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:Hong Kong a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:PayMe a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:engineers a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:founder a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:business model a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:Revenue a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:10→100 stage a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:designers a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:marketers a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:2016 a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:competitive pressure a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:user interviews a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:app a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:value hypothesis a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:e-commerce division a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:startup founder a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:0→1 (zero-to-one) a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:intermediaries a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:artists a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:explosive user growth a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:operational imbalance a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:Western countries a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:Asian nations a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:millennials a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:WeChat Pay a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:quantitative surveys a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:monozukuri a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:UX a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:February 2021 a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:Takuya Oikawa a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:new-business service a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:esthetic and relaxation salons a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:healthcare a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:growth plateau a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:call center a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:acquisition-to-conversion failure a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:turnaround a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:backlog a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:事業収益 a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:trade-off relationship a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:hypotheses a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:flashy advertisements a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:launch phase a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:Andy Rachleff a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:Benchmark Capital a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:Twitter a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:eBay a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:Rachleff a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:12 Things about Product-Market Fit a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:a16z.com a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:Zero to One a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .
+
+book:customer adoption a prov:Entity ;
+  book:book_key "プロダクトマネジメントのすべて" ;
+  prov:wasDerivedFrom book:source .

@@ -1,0 +1,431 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/SHIFT_Kaibou/> .
+
+book:source a prov:Entity ;
+  foaf:name "SHIFT_Kaibou" ;
+  book:book_key "SHIFT_Kaibou" .
+
+book:SHIFT社 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:最高人事責任者 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:CHRO a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:東証マザーズ市場 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:IT業界 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:近年 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:人的資本経営 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:有価証券報告書 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:人材戦略 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:制度的可塑性 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:1990年代 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:バブル崩壊 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:成果主義 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:コアな価値 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:丹下社長 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:採用戦略 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:management a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:PMO a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:富士通 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:NEC a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:菅原要介 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ソフトウェアのテスト a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:年功序列 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:2024年11月 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Project Management Office a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:business leader/manager a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:経営環境 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:相互評価 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:タレント・マネジメント・システム a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:AI a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:patissiers a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:戦略 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:friendly competition a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:human resources a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:東京都港区 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:麻布台ヒルズ森JPタワー a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:取材者 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:品質保証 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:最先端技術 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:5年後 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:経済産業省 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:女性管理職比率 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:男女間の賃金格差 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:労働人口 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:賃上げ機運 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:新商品 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:新サービス a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:業績 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:天才 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:普通の人々 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:その他大勢 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:創業者 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:エリート主義 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:皮剝き作業 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業成長 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンゲージメント a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Relative evaluation a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:稼ぐモデルの構築 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:absolute evaluation a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:絶対評価 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:escape a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:逃げ a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:total optimization a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:全体最適 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Commodity-like work a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:コモディティー化した仕事 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:99% of ordinary people a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:99％の普通の人たちを底上げしたい a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:top performers a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:supermarket managers a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:driving school instructors a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:team bonding a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:mutual motivation a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:切磋琢磨 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Seiji Hara a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:workforce diversity a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:激務 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:完全成果主義 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:sports gym instructor a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Tsubuku a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:宮大工 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:11 years a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:age 29 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:30s a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Diverse Workforce a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:consultants a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:gym instructors a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:police officers a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:nurses a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:actors a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:idols a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:警察官 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:看護師 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンサルタント a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:社長 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:多様性 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:グロー市場 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:野村総合研究所 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アクセンチュア a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロジェクトマネジメントオフィス a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Growth市場 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:マザーズ a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:デジタルトランスフォーメーション a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:DX a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .
+
+book:システム開発 a prov:Entity ;
+  book:book_key "SHIFT_Kaibou" ;
+  prov:wasDerivedFrom book:source .

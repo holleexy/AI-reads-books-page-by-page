@@ -1,0 +1,547 @@
+{
+  "uri": "https://books.local/Anthro_Vision/",
+  "name": "Anthro_VisionOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "AnthroVision",
+      "uri": "https://books.local/Anthro_Vision/AnthroVision",
+      "label": "アンソロ・ビジョン",
+      "comment": "文化や文脈を理解する人類学的アプローチ。VUCAの時代に経済学やデータサイエンスだけでは足りない視点を補う。",
+      "parent": null
+    },
+    {
+      "name": "AnthropologicalIntelligence",
+      "uri": "https://books.local/Anthro_Vision/AnthropologicalIntelligence",
+      "label": "人類学的知性",
+      "comment": "人工知能とは別のもう一つのAI。文化・儀礼・象徴・文脈を深く理解し、不確実な未来のリスクを回避する知性。",
+      "parent": null
+    },
+    {
+      "name": "LateralVision",
+      "uri": "https://books.local/Anthro_Vision/LateralVision",
+      "label": "ラテラル・ビジョン",
+      "comment": "データやアルゴリズム依存を超え、人間の文化と文脈を捉える広い視野。",
+      "parent": null
+    },
+    {
+      "name": "Anthropology",
+      "uri": "https://books.local/Anthro_Vision/Anthropology",
+      "label": "人類学",
+      "comment": "人間の文化や社会を研究する学問。核心的手法は参与観察である。",
+      "parent": null
+    },
+    {
+      "name": "ResearchMethod",
+      "uri": "https://books.local/Anthro_Vision/ResearchMethod",
+      "label": "研究方法",
+      "comment": "文化や社会を読み解くための調査・分析の手法。",
+      "parent": null
+    },
+    {
+      "name": "Ethnography",
+      "uri": "https://books.local/Anthro_Vision/Ethnography",
+      "label": "エスノグラフィー",
+      "comment": "参与観察。研究者が現地に浸かり、インサイダー兼アウトサイダーとして文化的パターンを読み解く。",
+      "parent": "ResearchMethod"
+    },
+    {
+      "name": "Fieldwork",
+      "uri": "https://books.local/Anthro_Vision/Fieldwork",
+      "label": "フィールドワーク",
+      "comment": "ミクロな虫の目で人々の生活を観察し、マクロな鳥の目では見えない真実を明らかにする現地調査。",
+      "parent": "ResearchMethod"
+    },
+    {
+      "name": "Culture",
+      "uri": "https://books.local/Anthro_Vision/Culture",
+      "label": "文化",
+      "comment": "人々の価値観・慣習・意味づけの体系。技術の使い方や消費の意味も文化によって異なる。",
+      "parent": null
+    },
+    {
+      "name": "CulturalRelativism",
+      "uri": "https://books.local/Anthro_Vision/CulturalRelativism",
+      "label": "文化的相対性",
+      "comment": "すべての文化は独自の価値を持つという思想。帝国主義的進化主義からの転回としてフランツ・ボアズらが確立した。",
+      "parent": null
+    },
+    {
+      "name": "Habitus",
+      "uri": "https://books.local/Anthro_Vision/Habitus",
+      "label": "ハビトゥス",
+      "comment": "ピエール・ブルデューの概念。状況に応じて異なる価値観を使い分ける身体化された性向。",
+      "parent": null
+    },
+    {
+      "name": "MeaningWeb",
+      "uri": "https://books.local/Anthro_Vision/MeaningWeb",
+      "label": "意味の網の目",
+      "comment": "クリフォード・ギアーツの概念。人々が自覚していない文化的パターンと意味のネットワーク。",
+      "parent": null
+    },
+    {
+      "name": "Person",
+      "uri": "https://books.local/Anthro_Vision/Person",
+      "label": "人",
+      "comment": "文化的文脈の中で儀礼・消費・技術利用を行う人間。",
+      "parent": null
+    },
+    {
+      "name": "Anthropologist",
+      "uri": "https://books.local/Anthro_Vision/Anthropologist",
+      "label": "人類学者",
+      "comment": "参与観察により文化を解明し、企業・医療・危機対応などに介入する専門家。",
+      "parent": "Person"
+    },
+    {
+      "name": "Organization",
+      "uri": "https://books.local/Anthro_Vision/Organization",
+      "label": "組織",
+      "comment": "企業や集団。内部に異なる文化やサイロが共存しうる。",
+      "parent": null
+    },
+    {
+      "name": "Community",
+      "uri": "https://books.local/Anthro_Vision/Community",
+      "label": "コミュニティ",
+      "comment": "共有された儀礼や価値観を持つ人々の集団。パンデミック対策では共生的アプローチの主体となる。",
+      "parent": null
+    },
+    {
+      "name": "Ritual",
+      "uri": "https://books.local/Anthro_Vision/Ritual",
+      "label": "儀礼",
+      "comment": "結婚儀礼や葬儀など、文化的意味を持つ慣習的行為。医療的介入と衝突することがある。",
+      "parent": null
+    },
+    {
+      "name": "Technology",
+      "uri": "https://books.local/Anthro_Vision/Technology",
+      "label": "テクノロジー",
+      "comment": "製品やデジタルサービス。文化によって使われ方と意味が全く異なる。",
+      "parent": null
+    },
+    {
+      "name": "Tribalism",
+      "uri": "https://books.local/Anthro_Vision/Tribalism",
+      "label": "部族主義",
+      "comment": "組織内のサイロ化。同じ社内でも会議の意味が「意思決定」と「情報共有」のように食い違う病理。",
+      "parent": null
+    },
+    {
+      "name": "Egocentrism",
+      "uri": "https://books.local/Anthro_Vision/Egocentrism",
+      "label": "エゴセントリズム",
+      "comment": "世界中の誰もが同じようにテクノロジーを使うと思い込む自己中心主義。技術者に生じやすい。",
+      "parent": null
+    },
+    {
+      "name": "CreationMyth",
+      "uri": "https://books.local/Anthro_Vision/CreationMyth",
+      "label": "創世神話",
+      "comment": "金融イノベーションなどを正当化するために信じ込まれる物語。複雑な商品のリスクを見えなくする。",
+      "parent": null
+    },
+    {
+      "name": "Crisis",
+      "uri": "https://books.local/Anthro_Vision/Crisis",
+      "label": "危機",
+      "comment": "金融崩壊や感染症など、文化的誤読や神話が悪化させうる社会的危機。",
+      "parent": null
+    },
+    {
+      "name": "FinancialCrisis",
+      "uri": "https://books.local/Anthro_Vision/FinancialCrisis",
+      "label": "金融危機",
+      "comment": "2008年のように、合理的経済モデルでは測れない人間行動と創世神話が引き起こす危機。",
+      "parent": "Crisis"
+    },
+    {
+      "name": "Pandemic",
+      "uri": "https://books.local/Anthro_Vision/Pandemic",
+      "label": "パンデミック",
+      "comment": "エボラや新型コロナウイルスなど、西洋的トップダウン医療が現地儀礼と衝突しうる感染症危機。",
+      "parent": "Crisis"
+    },
+    {
+      "name": "DigitalEconomy",
+      "uri": "https://books.local/Anthro_Vision/DigitalEconomy",
+      "label": "デジタル経済",
+      "comment": "無料サービスとユーザーデータの交換で成り立つ経済。GDPでは無形資産の価値を測りにくい。",
+      "parent": null
+    },
+    {
+      "name": "BarterExchange",
+      "uri": "https://books.local/Anthro_Vision/BarterExchange",
+      "label": "バーター",
+      "comment": "物々交換。シリコンバレーが「無料」と引き換えにデータを収集する取引形態。",
+      "parent": null
+    },
+    {
+      "name": "ConsumerBehavior",
+      "uri": "https://books.local/Anthro_Vision/ConsumerBehavior",
+      "label": "消費者行動",
+      "comment": "ペットを家族として扱うなど、複雑で矛盾的な消費の実践。",
+      "parent": null
+    },
+    {
+      "name": "WEIRDModel",
+      "uri": "https://books.local/Anthro_Vision/WEIRDModel",
+      "label": "WEIRDモデル",
+      "comment": "西洋的・教育的・産業化・富裕・民主的な心理パッケージ。個人主義的・分析的だが実際の行動を説明しきれない。",
+      "parent": null
+    },
+    {
+      "name": "BigData",
+      "uri": "https://books.local/Anthro_Vision/BigData",
+      "label": "ビッグデータ",
+      "comment": "何が起きているかを示す定量的な大規模データ。",
+      "parent": null
+    },
+    {
+      "name": "ThickData",
+      "uri": "https://books.local/Anthro_Vision/ThickData",
+      "label": "シックデータ",
+      "comment": "厚いデータ。なぜ起きているかを明らかにする定性調査のデータ。ビッグデータを補完する。",
+      "parent": null
+    },
+    {
+      "name": "ShareholderCapitalism",
+      "uri": "https://books.local/Anthro_Vision/ShareholderCapitalism",
+      "label": "株主資本主義",
+      "comment": "フリードマン流の、株主利益を最優先する資本主義。",
+      "parent": null
+    },
+    {
+      "name": "StakeholderCapitalism",
+      "uri": "https://books.local/Anthro_Vision/StakeholderCapitalism",
+      "label": "ステークホルダー資本主義",
+      "comment": "すべての利害関係者を考慮する資本主義。外部不経済を無視できない時代への転換先。",
+      "parent": null
+    },
+    {
+      "name": "Sustainability",
+      "uri": "https://books.local/Anthro_Vision/Sustainability",
+      "label": "サステナビリティ",
+      "comment": "気候変動や格差などの外部不経済に向き合う持続可能性（ESGを含む）。レジリエンス強化に結びつく。",
+      "parent": null
+    },
+    {
+      "name": "Practice",
+      "uri": "https://books.local/Anthro_Vision/Practice",
+      "label": "実践",
+      "comment": "他者理解、多様性の受容、異質なものへの没入、自己相対化、社会的沈黙への聴取など、アンソロ・ビジョンを身につける方法。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "embodies",
+      "type": "object",
+      "domain": [
+        "AnthropologicalIntelligence"
+      ],
+      "range": [
+        "AnthroVision",
+        "LateralVision"
+      ],
+      "label": "体現する",
+      "comment": "人類学的知性がアンソロ・ビジョンやラテラル・ビジョンとして現れる関係。",
+      "uri": "https://books.local/Anthro_Vision/embodies"
+    },
+    {
+      "name": "usesMethod",
+      "type": "object",
+      "domain": [
+        "Anthropology",
+        "Anthropologist",
+        "AnthroVision"
+      ],
+      "range": [
+        "Ethnography",
+        "Fieldwork"
+      ],
+      "label": "手法を用いる",
+      "comment": "人類学や人類学者が参与観察・フィールドワークを用いる関係。",
+      "uri": "https://books.local/Anthro_Vision/usesMethod"
+    },
+    {
+      "name": "studies",
+      "type": "object",
+      "domain": [
+        "Anthropology",
+        "Anthropologist"
+      ],
+      "range": [
+        "Culture",
+        "Community",
+        "Ritual",
+        "Organization"
+      ],
+      "label": "研究する",
+      "comment": "人類学が文化・コミュニティ・儀礼・組織を対象とする関係。",
+      "uri": "https://books.local/Anthro_Vision/studies"
+    },
+    {
+      "name": "groundedIn",
+      "type": "object",
+      "domain": [
+        "Anthropology",
+        "AnthroVision"
+      ],
+      "range": [
+        "CulturalRelativism"
+      ],
+      "label": "基づく",
+      "comment": "人類学的アプローチが文化的相対性に根拠を置く関係。",
+      "uri": "https://books.local/Anthro_Vision/groundedIn"
+    },
+    {
+      "name": "hasMeaningWeb",
+      "type": "object",
+      "domain": [
+        "Culture"
+      ],
+      "range": [
+        "MeaningWeb"
+      ],
+      "label": "意味の網の目を持つ",
+      "comment": "文化が固有の意味ネットワークを持つ関係。キットカットの再解釈などに表れる。",
+      "uri": "https://books.local/Anthro_Vision/hasMeaningWeb"
+    },
+    {
+      "name": "hasHabitus",
+      "type": "object",
+      "domain": [
+        "Person",
+        "Community"
+      ],
+      "range": [
+        "Habitus"
+      ],
+      "label": "ハビトゥスを持つ",
+      "comment": "人やコミュニティが状況に応じて価値観を使い分ける性向を持つ関係。",
+      "uri": "https://books.local/Anthro_Vision/hasHabitus"
+    },
+    {
+      "name": "hasRitual",
+      "type": "object",
+      "domain": [
+        "Culture",
+        "Community"
+      ],
+      "range": [
+        "Ritual"
+      ],
+      "label": "儀礼を持つ",
+      "comment": "文化やコミュニティが結婚・葬儀などの儀礼を持つ関係。",
+      "uri": "https://books.local/Anthro_Vision/hasRitual"
+    },
+    {
+      "name": "memberOf",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Organization",
+        "Community"
+      ],
+      "label": "所属する",
+      "comment": "人が組織やコミュニティに属する関係。",
+      "uri": "https://books.local/Anthro_Vision/memberOf"
+    },
+    {
+      "name": "employs",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "Anthropologist"
+      ],
+      "label": "雇用する",
+      "comment": "インテルやグーグルのように、組織が製品開発や組織診断のために人類学者を起用する関係。",
+      "uri": "https://books.local/Anthro_Vision/employs"
+    },
+    {
+      "name": "exhibits",
+      "type": "object",
+      "domain": [
+        "Organization",
+        "Person"
+      ],
+      "range": [
+        "Tribalism",
+        "Egocentrism"
+      ],
+      "label": "示す",
+      "comment": "組織や技術者が部族主義や自己中心主義といった病理を示す関係。",
+      "uri": "https://books.local/Anthro_Vision/exhibits"
+    },
+    {
+      "name": "usesDifferently",
+      "type": "object",
+      "domain": [
+        "Culture",
+        "Person"
+      ],
+      "range": [
+        "Technology"
+      ],
+      "label": "異なる使い方をする",
+      "comment": "文化によって技術の用途や意味が変わる関係。例としてメッカの方角探しに使うスマートフォン。",
+      "uri": "https://books.local/Anthro_Vision/usesDifferently"
+    },
+    {
+      "name": "causedBy",
+      "type": "object",
+      "domain": [
+        "FinancialCrisis"
+      ],
+      "range": [
+        "CreationMyth"
+      ],
+      "label": "原因となる",
+      "comment": "創世神話への信奉が金融危機のリスクを見えなくする関係。",
+      "uri": "https://books.local/Anthro_Vision/causedBy"
+    },
+    {
+      "name": "conflictsWith",
+      "type": "object",
+      "domain": [
+        "Pandemic"
+      ],
+      "range": [
+        "Ritual"
+      ],
+      "label": "衝突する",
+      "comment": "トップダウン型の医療対策が現地の遺体接触などの儀礼と衝突する関係。",
+      "uri": "https://books.local/Anthro_Vision/conflictsWith"
+    },
+    {
+      "name": "basedOn",
+      "type": "object",
+      "domain": [
+        "DigitalEconomy"
+      ],
+      "range": [
+        "BarterExchange"
+      ],
+      "label": "依拠する",
+      "comment": "デジタル経済が無料サービスとデータのバーターに依拠する関係。",
+      "uri": "https://books.local/Anthro_Vision/basedOn"
+    },
+    {
+      "name": "complements",
+      "type": "object",
+      "domain": [
+        "ThickData"
+      ],
+      "range": [
+        "BigData"
+      ],
+      "label": "補完する",
+      "comment": "シックデータがビッグデータの「何」を「なぜ」で補完する関係。",
+      "uri": "https://books.local/Anthro_Vision/complements"
+    },
+    {
+      "name": "limitedBy",
+      "type": "object",
+      "domain": [
+        "ConsumerBehavior"
+      ],
+      "range": [
+        "WEIRDModel"
+      ],
+      "label": "限界づけられる",
+      "comment": "WEIRDな心理モデルでは実際の複雑な消費者行動を説明しきれない関係。",
+      "uri": "https://books.local/Anthro_Vision/limitedBy"
+    },
+    {
+      "name": "succeeds",
+      "type": "object",
+      "domain": [
+        "StakeholderCapitalism"
+      ],
+      "range": [
+        "ShareholderCapitalism"
+      ],
+      "label": "転換する",
+      "comment": "株主資本主義からステークホルダー資本主義へ移行する関係。",
+      "uri": "https://books.local/Anthro_Vision/succeeds"
+    },
+    {
+      "name": "requires",
+      "type": "object",
+      "domain": [
+        "Sustainability",
+        "Crisis"
+      ],
+      "range": [
+        "AnthroVision",
+        "StakeholderCapitalism"
+      ],
+      "label": "必要とする",
+      "comment": "持続可能性や危機対応が人類学的視点と利害関係者資本主義を必要とする関係。",
+      "uri": "https://books.local/Anthro_Vision/requires"
+    },
+    {
+      "name": "appliedTo",
+      "type": "object",
+      "domain": [
+        "AnthroVision",
+        "AnthropologicalIntelligence"
+      ],
+      "range": [
+        "Organization",
+        "Technology",
+        "Crisis",
+        "DigitalEconomy",
+        "ConsumerBehavior",
+        "Sustainability"
+      ],
+      "label": "適用される",
+      "comment": "アンソロ・ビジョンが企業・技術・危機・経済・消費・持続可能性に適用される関係。",
+      "uri": "https://books.local/Anthro_Vision/appliedTo"
+    },
+    {
+      "name": "practices",
+      "type": "object",
+      "domain": [
+        "Person",
+        "Anthropologist",
+        "Organization"
+      ],
+      "range": [
+        "Practice"
+      ],
+      "label": "実践する",
+      "comment": "他者理解や自己相対化など、アンソロ・ビジョンを身につける実践を行う関係。",
+      "uri": "https://books.local/Anthro_Vision/practices"
+    },
+    {
+      "name": "exampleCase",
+      "type": "data",
+      "domain": [
+        "Organization",
+        "Ritual",
+        "Technology",
+        "Crisis",
+        "Culture",
+        "Practice"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "事例",
+      "comment": "インテル、ネスレのキットカット、GM、タジキスタンの結婚儀礼、エボラ対策など具体例を表す文字列。",
+      "uri": "https://books.local/Anthro_Vision/exampleCase"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

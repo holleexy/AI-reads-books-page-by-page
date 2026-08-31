@@ -1,0 +1,160 @@
+@prefix ex: <https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/shapes> a owl:Ontology .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "デイブ・アスプリー著『ゲームチェンジャー』に基づき、卓越した成功者の実践から導かれた法則をまとめた書籍" ;
+    sh:property [
+        sh:path ex:hasAuthor ;
+        sh:class ex:Author ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnInterview ;
+        sh:class ex:GameChanger ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPillar ;
+        sh:class ex:Pillar ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCompass ;
+        sh:class ex:CompassPrinciple ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/AuthorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Author ;
+    sh:name "著者" ;
+    sh:description "書籍を執筆した人物。本作ではデイブ・アスプリーを指す" .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/GameChangerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GameChanger ;
+    sh:name "ゲームチェンジャー" ;
+    sh:description "人類最高峰のパフォーマンスを発揮する卓越した成功者。約450人がインタビュー対象となった" .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/PillarShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Pillar ;
+    sh:name "柱" ;
+    sh:description "法則を分類する三つの主要な柱。もっと賢く、もっと速く、もっと幸せに" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/LawShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Law ;
+    sh:name "法則" ;
+    sh:description "超成果を生み出す四十二の実践的な法則" ;
+    sh:property [
+        sh:path ex:belongsToPillar ;
+        sh:class ex:Pillar ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasTechnique ;
+        sh:class ex:Technique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/TechniqueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Technique ;
+    sh:name "手法" ;
+    sh:description "脳・身体・意識を最適化するためのバイオハックや実践技法" ;
+    sh:property [
+        sh:path ex:hacksInstinct ;
+        sh:class ex:MitochondrialEgo ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:optimizesState ;
+        sh:class ex:BiologicalState ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:rewritesBelief ;
+        sh:class ex:Belief ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsChronotype ;
+        sh:class ex:Chronotype ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:buildsCommunity ;
+        sh:class ex:Community ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/MitochondrialEgoShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MitochondrialEgo ;
+    sh:name "ミトコンドリアのエゴ" ;
+    sh:description "闘争逃走・食欲・生殖など、人間を縛る原始的な生存本能" .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/BiologicalStateShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BiologicalState ;
+    sh:name "生物学的状態" ;
+    sh:description "食事・光・睡眠・動きなどのインプットに反応する身体と脳の状態" .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/BeliefShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Belief ;
+    sh:name "信念" ;
+    sh:description "過去の環境で植え付けられ行動を支配する脳のハードウェア。神経可塑性により書き換え可能" .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/ChronotypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Chronotype ;
+    sh:name "クロノタイプ" ;
+    sh:description "ライオン・クマ・オオカミ・イルカなど、遺伝子に合わせた睡眠覚醒リズム" .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/CompassPrincipleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CompassPrinciple ;
+    sh:name "羅針盤" ;
+    sh:description "真の成功を導く三原則。感謝と赦し、脳の配線の理解、身体を知ること" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/shirikonbaree_Shiki_Chou_raifuhakku__-_deivu/CommunityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Community ;
+    sh:name "コミュニティ" ;
+    sh:description "幸福と成功を左右する周囲の人々。幸福は三次のつながりまで伝染する" .

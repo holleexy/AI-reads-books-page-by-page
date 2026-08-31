@@ -1,0 +1,401 @@
+{
+  "uri": "https://books.local/Eigyou_no_Kagaku/",
+  "name": "Eigyou_no_KagakuOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Salesperson",
+      "uri": "https://books.local/Eigyou_no_Kagaku/Salesperson",
+      "label": "営業担当者",
+      "comment": "顧客へ提案や関係構築を行う担い手。成果には急所を踏まえた武器の習得が不可欠である。",
+      "parent": null
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/Eigyou_no_Kagaku/Customer",
+      "label": "顧客",
+      "comment": "購買者の仮面を無意識に付け、本音や真のニーズを隠すことがある購買側の当事者。",
+      "parent": null
+    },
+    {
+      "name": "Manager",
+      "uri": "https://books.local/Eigyou_no_Kagaku/Manager",
+      "label": "マネジャー",
+      "comment": "営業組織を指導する立場。精神論ではなく急所に基づく具体的マネジメントが求められる。",
+      "parent": null
+    },
+    {
+      "name": "Organization",
+      "uri": "https://books.local/Eigyou_no_Kagaku/Organization",
+      "label": "組織",
+      "comment": "営業担当者とマネジャーから成る集団。超人の成功体験やガンバリズムが蔓延しやすい。",
+      "parent": null
+    },
+    {
+      "name": "Superhuman",
+      "uri": "https://books.local/Eigyou_no_Kagaku/Superhuman",
+      "label": "超人",
+      "comment": "突出成果を出す創業メンバー等。自身の当たり前が他者には尋常ならざる努力であることに無自覚な存在。",
+      "parent": "Salesperson"
+    },
+    {
+      "name": "DecisionMaker",
+      "uri": "https://books.local/Eigyou_no_Kagaku/DecisionMaker",
+      "label": "決裁者",
+      "comment": "決める人ではなく決めきれずに悩む人として支援すべき社内の意思決定者。",
+      "parent": "Customer"
+    },
+    {
+      "name": "BuyerMask",
+      "uri": "https://books.local/Eigyou_no_Kagaku/BuyerMask",
+      "label": "購買者の仮面",
+      "comment": "顧客が本音や真のニーズを隠すために無意識につける防衛的な仮面。営業の中核的な急所。",
+      "parent": null
+    },
+    {
+      "name": "EvasionMask",
+      "uri": "https://books.local/Eigyou_no_Kagaku/EvasionMask",
+      "label": "はぐらかしの仮面",
+      "comment": "予算や競合などの機微情報を聞かれた際、リスクを避けるために曖昧にはぐらかす防衛反応。",
+      "parent": "BuyerMask"
+    },
+    {
+      "name": "BusynessMask",
+      "uri": "https://books.local/Eigyou_no_Kagaku/BusynessMask",
+      "label": "忙しさの仮面",
+      "comment": "今は忙しい、資料を送ってと拒絶し、レベルの低い営業に時間を使いたくない本音を隠す仮面。",
+      "parent": "BuyerMask"
+    },
+    {
+      "name": "SuddenRequestMask",
+      "uri": "https://books.local/Eigyou_no_Kagaku/SuddenRequestMask",
+      "label": "いきなりの仮面",
+      "comment": "突然の短納期見積もり要求。競合先行のサインであり、話が早く頼れる営業へ依頼したい本音を隠す。",
+      "parent": "BuyerMask"
+    },
+    {
+      "name": "CheapnessMask",
+      "uri": "https://books.local/Eigyou_no_Kagaku/CheapnessMask",
+      "label": "とにかく安くの仮面",
+      "comment": "安くしてほしいという要求の裏に判断基準の不明確さを隠す仮面。見積もりだけを見る顧客はごく少数である。",
+      "parent": "BuyerMask"
+    },
+    {
+      "name": "ConsiderationMask",
+      "uri": "https://books.local/Eigyou_no_Kagaku/ConsiderationMask",
+      "label": "検討しますの仮面",
+      "comment": "社内で検討しますと述べて面倒なやり取りを避ける一時しのぎの現実逃避。多くの場合に営業チャンスが残る。",
+      "parent": "BuyerMask"
+    },
+    {
+      "name": "CustomerType",
+      "uri": "https://books.local/Eigyou_no_Kagaku/CustomerType",
+      "label": "顧客タイプ",
+      "comment": "意思決定で動くツボに基づく顧客分類。論理・感情・政治の三類型がある。",
+      "parent": null
+    },
+    {
+      "name": "LogicalType",
+      "uri": "https://books.local/Eigyou_no_Kagaku/LogicalType",
+      "label": "論理タイプ",
+      "comment": "結論先行や定量的根拠、一貫性を重視し無駄な時間を嫌う顧客タイプ。",
+      "parent": "CustomerType"
+    },
+    {
+      "name": "EmotionalType",
+      "uri": "https://books.local/Eigyou_no_Kagaku/EmotionalType",
+      "label": "感情タイプ",
+      "comment": "感覚や好き嫌いを重視し言語化が苦手な顧客タイプ。本音での共感や一体感が鍵となる。",
+      "parent": "CustomerType"
+    },
+    {
+      "name": "PoliticalType",
+      "uri": "https://books.local/Eigyou_no_Kagaku/PoliticalType",
+      "label": "政治タイプ",
+      "comment": "社内評価や他者の意見、リスク回避を重視する最も多い顧客タイプ。実績や権威の提示が有効。",
+      "parent": "CustomerType"
+    },
+    {
+      "name": "CriticalPoint",
+      "uri": "https://books.local/Eigyou_no_Kagaku/CriticalPoint",
+      "label": "急所",
+      "comment": "成果を左右する営業の急所。購買者の仮面を外し正しい方向へ努力を向けることが中核である。",
+      "parent": null
+    },
+    {
+      "name": "SalesWeapon",
+      "uri": "https://books.local/Eigyou_no_Kagaku/SalesWeapon",
+      "label": "武器",
+      "comment": "急所を踏まえて習得すべき具体的アクション。枕詞、深掘り質問、高速ラリー、要件整理などが含まれる。",
+      "parent": null
+    },
+    {
+      "name": "SalesTechnique",
+      "uri": "https://books.local/Eigyou_no_Kagaku/SalesTechnique",
+      "label": "営業技法",
+      "comment": "枕詞、深掘り質問、特定質問、高速ラリー、ハイブリッド営業、テストクロージング、スモールステップなどの具体技法。",
+      "parent": null
+    },
+    {
+      "name": "GanbarismTrap",
+      "uri": "https://books.local/Eigyou_no_Kagaku/GanbarismTrap",
+      "label": "ガンバリズムの罠",
+      "comment": "努力不足ではなくがんばり方の間違いが組織に蔓延し、誤った努力が逆効果になる罠。",
+      "parent": null
+    },
+    {
+      "name": "SalesMeeting",
+      "uri": "https://books.local/Eigyou_no_Kagaku/SalesMeeting",
+      "label": "商談",
+      "comment": "一方的な提案ではなく、高速ラリーを通じて考えを整理し最適解を共創する場。",
+      "parent": null
+    },
+    {
+      "name": "CoCreation",
+      "uri": "https://books.local/Eigyou_no_Kagaku/CoCreation",
+      "label": "共創",
+      "comment": "顧客との高速ラリーを通じ、二人三脚で最適解を作り上げる関係性とプロセス。",
+      "parent": null
+    },
+    {
+      "name": "ValueBasis",
+      "uri": "https://books.local/Eigyou_no_Kagaku/ValueBasis",
+      "label": "価値の根拠",
+      "comment": "課題解決力、費用対効果、クイックレスポンスなど、アタリの営業であることを早期に示す根拠。",
+      "parent": null
+    },
+    {
+      "name": "SFASystem",
+      "uri": "https://books.local/Eigyou_no_Kagaku/SFASystem",
+      "label": "SFA",
+      "comment": "営業プロセスの見える化ツール。指導力不足やラッキー成果の露見を恐れて活用が進みにくい。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "wearsMask",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "BuyerMask"
+      ],
+      "label": "仮面を付ける",
+      "comment": "顧客が本音を隠すために購買者の仮面を無意識に付ける関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/wearsMask"
+    },
+    {
+      "name": "hasCustomerType",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "CustomerType"
+      ],
+      "label": "顧客タイプを持つ",
+      "comment": "顧客が論理・感情・政治のいずれかの意思決定タイプに属する関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/hasCustomerType"
+    },
+    {
+      "name": "usesWeapon",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "SalesWeapon"
+      ],
+      "label": "武器を用いる",
+      "comment": "営業担当者が急所を踏まえた具体的アクションとしての武器を用いる関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/usesWeapon"
+    },
+    {
+      "name": "appliesTechnique",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "SalesTechnique"
+      ],
+      "label": "技法を適用する",
+      "comment": "営業担当者が商談で具体的な営業技法を適用する関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/appliesTechnique"
+    },
+    {
+      "name": "countersMask",
+      "type": "object",
+      "domain": [
+        "SalesWeapon",
+        "SalesTechnique"
+      ],
+      "range": [
+        "BuyerMask"
+      ],
+      "label": "仮面に対処する",
+      "comment": "武器や技法が特定の購買者の仮面を外すために用いられる関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/countersMask"
+    },
+    {
+      "name": "targetsCriticalPoint",
+      "type": "object",
+      "domain": [
+        "SalesWeapon"
+      ],
+      "range": [
+        "CriticalPoint"
+      ],
+      "label": "急所を狙う",
+      "comment": "武器が成果を左右する営業の急所に向けられる関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/targetsCriticalPoint"
+    },
+    {
+      "name": "managesMember",
+      "type": "object",
+      "domain": [
+        "Manager"
+      ],
+      "range": [
+        "Salesperson"
+      ],
+      "label": "メンバーを管理する",
+      "comment": "マネジャーが営業担当者を指導・管理する関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/managesMember"
+    },
+    {
+      "name": "belongsTo",
+      "type": "object",
+      "domain": [
+        "Salesperson",
+        "Manager"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "label": "組織に所属する",
+      "comment": "営業担当者またはマネジャーが組織に所属する関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/belongsTo"
+    },
+    {
+      "name": "participatesIn",
+      "type": "object",
+      "domain": [
+        "Salesperson",
+        "Customer"
+      ],
+      "range": [
+        "SalesMeeting"
+      ],
+      "label": "商談に参加する",
+      "comment": "営業担当者または顧客が商談に参加する関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/participatesIn"
+    },
+    {
+      "name": "coCreatesWith",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "共創する",
+      "comment": "営業担当者が顧客と高速ラリーを通じ最適解を共に作り上げる関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/coCreatesWith"
+    },
+    {
+      "name": "showsValueBasis",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "ValueBasis"
+      ],
+      "label": "価値の根拠を示す",
+      "comment": "忙しさの仮面などに対し、課題解決力や費用対効果、クイックレスポンスを早期に示す関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/showsValueBasis"
+    },
+    {
+      "name": "fallsIntoTrap",
+      "type": "object",
+      "domain": [
+        "Organization",
+        "Salesperson",
+        "Manager"
+      ],
+      "range": [
+        "GanbarismTrap"
+      ],
+      "label": "罠にはまる",
+      "comment": "組織や個人ががんばり方を誤ったガンバリズムの罠に陥る関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/fallsIntoTrap"
+    },
+    {
+      "name": "hasDecisionMaker",
+      "type": "object",
+      "domain": [
+        "Customer",
+        "Organization"
+      ],
+      "range": [
+        "DecisionMaker"
+      ],
+      "label": "決裁者を持つ",
+      "comment": "顧客側組織に決めきれずに悩む決裁者が存在する関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/hasDecisionMaker"
+    },
+    {
+      "name": "usesSFA",
+      "type": "object",
+      "domain": [
+        "Manager",
+        "Salesperson"
+      ],
+      "range": [
+        "SFASystem"
+      ],
+      "label": "SFAを利用する",
+      "comment": "マネジャーや営業担当者が営業の見える化のためにSFAを利用する関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/usesSFA"
+    },
+    {
+      "name": "embodiesCoCreation",
+      "type": "object",
+      "domain": [
+        "SalesMeeting"
+      ],
+      "range": [
+        "CoCreation"
+      ],
+      "label": "共創を体現する",
+      "comment": "商談が顧客との共創プロセスとして行われる関係。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/embodiesCoCreation"
+    },
+    {
+      "name": "hasDescription",
+      "type": "data",
+      "domain": [
+        "BuyerMask",
+        "CustomerType",
+        "SalesWeapon",
+        "SalesTechnique",
+        "CriticalPoint",
+        "ValueBasis"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明を持つ",
+      "comment": "概念の補足説明や調査に基づく特徴を文字列で保持する。",
+      "uri": "https://books.local/Eigyou_no_Kagaku/hasDescription"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

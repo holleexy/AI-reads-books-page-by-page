@@ -1,0 +1,245 @@
+@prefix ex: <https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/shapes> a owl:Ontology .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesPersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesPerson ;
+    sh:name "セールスパーソン" ;
+    sh:description "顧客対応や製品理解を行い、型の限界を超えてトップセールスを目指す営業担当者。" ;
+    sh:property [
+        sh:path ex:createsValue ;
+        sh:class ex:IntermediaryValue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:constructsHypothesis ;
+        sh:class ex:Hypothesis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:BusinessFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTechnique ;
+        sh:class ex:SalesTechnique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:influencedByBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:limitedBy ;
+        sh:class ex:SalesKata ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesKataShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesKata ;
+    sh:name "営業の型" ;
+    sh:description "基本手法を教える定型だが、顧客に合わせたカスタマイズ提案のスキルは養われない。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/IntermediaryValueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IntermediaryValue ;
+    sh:name "介在価値" ;
+    sh:description "営業が生み出す付加価値。売上至上主義ではなく顧客提供価値を前提とする存在意義。" ;
+    sh:property [
+        sh:path ex:addressesIssue ;
+        sh:class ex:CustomerIssue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/HypothesisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Hypothesis ;
+    sh:name "仮説" ;
+    sh:description "情報不足の状況で一時的に立てる結論。間違えてもよい前提で早期に顧客にぶつける。" ;
+    sh:property [
+        sh:path ex:appliesTo ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:addressesIssue ;
+        sh:class ex:CustomerIssue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:verifiedBy ;
+        sh:class ex:VerificationProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:derivedUsing ;
+        sh:class ex:InferenceMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/HypothesisThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HypothesisThinking ;
+    sh:name "仮説思考" ;
+    sh:description "ゴールから逆算し、必要最小限の情報で検証する思考。キーエンスのガイ報制度などで実践される。" ;
+    sh:property [
+        sh:path ex:constructsHypothesis ;
+        sh:class ex:Hypothesis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesPerspective ;
+        sh:class ex:HypothesisPerspective ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:BusinessFramework ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "課題が複雑化し自ら気づけていない対象。サブスクリプションではLTVが重視される。" ;
+    sh:property [
+        sh:path ex:influencedByBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/CustomerIssueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerIssue ;
+    sh:name "顧客課題" ;
+    sh:description "複雑化した顧客の問題。営業は仮説により気づかせ決断と行動を支援する。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/HypothesisPerspectiveShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HypothesisPerspective ;
+    sh:name "仮説構築の視点" ;
+    sh:description "ゴールから見る、俯瞰する、分解する、顧客視点、エッジから見るの5つの視点。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/BusinessFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessFramework ;
+    sh:name "ビジネスフレームワーク" ;
+    sh:description "3C、PEST、ファイブフォース、VRIO、SWOT、STP、4Pなどの分析と戦略の枠組み。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/ThreeCAnalysisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThreeCAnalysis ;
+    sh:name "3C分析" ;
+    sh:description "顧客・自社・競合の相互作用からバリュープロポジションを明確にする。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SWOTAnalysisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SWOTAnalysis ;
+    sh:name "SWOT分析" ;
+    sh:description "強み弱みと機会脅威を掛け合わせ具体的戦略を立案する。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/InferenceMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InferenceMethod ;
+    sh:name "推論手法" ;
+    sh:description "演繹法、帰納法、アブダクション。仮説作りにはアブダクションが最も有効。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/AbductionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Abduction ;
+    sh:name "アブダクション" ;
+    sh:description "結果とルールから原因を推測する仮説推論。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/CognitiveBiasShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CognitiveBias ;
+    sh:name "認知バイアス" ;
+    sh:description "プロスペクト理論、サンクコスト、現状維持バイアスなど人間の非合理判断。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/ProspectTheoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProspectTheory ;
+    sh:name "プロスペクト理論" ;
+    sh:description "利益より損失を約2倍大きく感じる損失回避性。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesTechniqueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesTechnique ;
+    sh:name "営業技術" ;
+    sh:description "SPIN話法、BANT、PSS、PREP法、交渉とクロージングなどの実践スキル。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SPINMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SPINMethod ;
+    sh:name "SPIN話法" ;
+    sh:description "状況・問題・示唆・解決質問で潜在課題を引き出し影響を気づかせる。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/FactShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Fact ;
+    sh:name "事実" ;
+    sh:description "客観的な出来事。解釈と明確に分離して報告する必要がある。" ;
+    sh:property [
+        sh:path ex:distinguishesFrom ;
+        sh:class ex:Interpretation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/InterpretationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Interpretation ;
+    sh:name "解釈" ;
+    sh:description "仮説に基づく主観。事実として伝えると信頼を損なう危険がある。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/VerificationProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:VerificationProcess ;
+    sh:name "仮説検証プロセス" ;
+    sh:description "粗い仮説を早期に顧客と共に磨き上げる。リーンスタートアップのMVP発想に近い。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/DataAnalysisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DataAnalysis ;
+    sh:name "データ分析" ;
+    sh:description "適切な可視化と因果・相関の区別、疑似相関や交絡因子に注意しA/Bテストで検証する。" .
+
+<https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/FutureSalesRoleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FutureSalesRole ;
+    sh:name "これからの営業の価値" ;
+    sh:description "仮説を用いて顧客が取り組むべき課題に気づかせ、スピード感を持って決断し行動できるよう支援すること。" ;
+    sh:property [
+        sh:path ex:addressesIssue ;
+        sh:class ex:CustomerIssue ;
+        sh:severity sh:Violation
+    ] .

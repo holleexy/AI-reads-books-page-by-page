@@ -1,0 +1,547 @@
+@prefix ex: <https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/shapes> a owl:Ontology .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesEnablement ;
+    sh:name "セールスイネーブルメント" ;
+    sh:description "営業担当者が適切なタイミングで適切なリソースを活用できるようにする部門横断的かつ戦略的なアプローチ。目的は営業組織の生産性最大化、売上向上、コスト削減である。" ;
+    sh:property [
+        sh:path ex:basedOnSystemsThinking ;
+        sh:class ex:SystemsThinking ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBuildingBlock ;
+        sh:class ex:BuildingBlock ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasSystem ;
+        sh:class ex:EnablementSystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsOrganization ;
+        sh:class ex:SalesOrganization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:enablesRepresentative ;
+        sh:class ex:SalesRepresentative ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCharter ;
+        sh:class ex:Charter ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasOnboarding ;
+        sh:class ex:Onboarding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:providesSupportService ;
+        sh:class ex:SupportService ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:evolvesInto ;
+        sh:class ex:PerformanceConsulting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMetric ;
+        sh:class ex:Metric ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SystemsThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SystemsThinking ;
+    sh:name "システム思考" ;
+    sh:description "相互に依存し全体として機能する部分の集合として営業組織を生態系として捉える思考法。セールスイネーブルメント構築の基盤となる。" .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlockShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BuildingBlock ;
+    sh:name "ビルディングブロック" ;
+    sh:description "組織の営業力を最大化するための構成要素。単発の研修やツール導入ではなく相互依存する要素群として設計される。" ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/CustomerUnderstandingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerUnderstanding ;
+    sh:name "顧客理解" ;
+    sh:description "ペルソナ設定とCOIN-OPフレームワークにより顧客の購買プロセスの完了条件を特定しマッピングするビルディングブロック。" ;
+    sh:property [
+        sh:path ex:definesCompletionCriteria ;
+        sh:class ex:Buyer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuyerEngagementContentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BuyerEngagementContent ;
+    sh:name "バイヤーエンゲージメントコンテンツ" ;
+    sh:description "顧客の購買プロセスの完了条件を満たすためのマーケティング、案件発掘、商談管理用コンテンツ。" ;
+    sh:property [
+        sh:path ex:engagesBuyer ;
+        sh:class ex:Buyer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesSupportContentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesSupportContent ;
+    sh:name "営業サポートコンテンツ" ;
+    sh:description "プレイブック、ジョブエイド、ワークフロー・パフォーマンスサポートツールなど、目の前のタスクを容易にするための支援コンテンツ。" ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesHiringShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesHiring ;
+    sh:name "営業の採用" ;
+    sh:description "ノーマティブ方式の心理測定テスト、STARフレームワークによる行動面接、ロールプレイによるスキル検証を用いる採用の構成要素。" ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesTrainingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesTraining ;
+    sh:name "営業トレーニング" ;
+    sh:description "知識の習得からスキルの定着までを導く営業熟達と行動変容の五段階プロセスに基づくトレーニング。" ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesCoachingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesCoaching ;
+    sh:name "営業コーチング" ;
+    sh:description "ROAMモデルによるパフォーマンス診断と、診断・計画・実行・確認のサイクルによる継続的コーチング文化の構築。" ;
+    sh:property [
+        sh:path ex:coaches ;
+        sh:class ex:SalesRepresentative ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesProcess ;
+    sh:name "営業プロセス" ;
+    sh:description "商談の進行段階と完了条件を定義する構成要素。" ;
+    sh:property [
+        sh:path ex:definesCompletionCriteria ;
+        sh:class ex:Buyer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesMethodInProcess ;
+        sh:class ex:SalesMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesMethod ;
+    sh:name "営業メソッド" ;
+    sh:description "営業プロセスの各段階で求められる具体的なスキルや行動を定義する構成要素。" ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesTechAndToolsShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesTechAndTools ;
+    sh:name "セールステックとツール" ;
+    sh:description "CRMやセールスエンゲージメントプラットフォームなど。導入前にプロセスとワークフローの最適化が前提となる。" ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesCompensationAndEvaluationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesCompensationAndEvaluation ;
+    sh:name "営業報酬と評価" ;
+    sh:description "ハーズバーグの二要因理論を踏まえ、衛生要因としての報酬と動機付け要因としての目的・自主性・熟達のバランスを設計する。" ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesManagerEnablementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesManagerEnablement ;
+    sh:name "営業マネージャーイネーブルメント" ;
+    sh:description "前線の営業マネージャーが価値の低い事務作業を排除し、コーチングや現場トレーニングに集中できる環境を構築する。" ;
+    sh:property [
+        sh:path ex:supportsManager ;
+        sh:class ex:FrontLineSalesManager ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/EnablementSystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EnablementSystem ;
+    sh:name "イネーブルメントシステム" ;
+    sh:description "ビルディングブロックを機能させる相互依存する基盤。採用、レディネス、トレーニング、マネジメントの四系統からなる。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/HiringSystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HiringSystem ;
+    sh:name "採用システム" ;
+    sh:description "適材適所を実現し組織の基盤を作るシステム。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesReadinessSystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesReadinessSystem ;
+    sh:name "セールスレディネスシステム" ;
+    sh:description "顧客理解、コンテンツ、ビジネス知識を統合し、営業担当者を常に準備完了状態にするシステム。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesTrainingSystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesTrainingSystem ;
+    sh:name "営業トレーニングシステム" ;
+    sh:description "チェンジマネジメントとして機能し、学習内容を現場の行動変容に繋げるシステム。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesManagementSystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesManagementSystem ;
+    sh:name "営業マネジメントシステム" ;
+    sh:description "チームミーティング、ワンオンワン、パイプラインレビューなどマネージャーの定常業務を体系化するシステム。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesOrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesOrganization ;
+    sh:name "営業組織" ;
+    sh:description "相互依存する部分の集合として機能する営業の生態系。属人化や非効率を克服し営業を科学する対象。" ;
+    sh:property [
+        sh:path ex:usesTool ;
+        sh:class ex:SalesTechAndTools ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesRepresentativeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesRepresentative ;
+    sh:name "営業担当者" ;
+    sh:description "顧客との商談においてツール、コンテンツ、知識、トレーニングを活用する前線の営業人材。" ;
+    sh:property [
+        sh:path ex:engagesBuyer ;
+        sh:class ex:Buyer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTool ;
+        sh:class ex:SalesTechAndTools ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToOrganization ;
+        sh:class ex:SalesOrganization ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/FrontLineSalesManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FrontLineSalesManager ;
+    sh:name "前線営業マネージャー" ;
+    sh:description "コーチングと現場トレーニングに集中すべき前線の営業管理者。イネーブルメントによる事務作業削減の対象。" ;
+    sh:property [
+        sh:path ex:coaches ;
+        sh:class ex:SalesRepresentative ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:managesTeam ;
+        sh:class ex:SalesRepresentative ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToOrganization ;
+        sh:class ex:SalesOrganization ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuyerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Buyer ;
+    sh:name "顧客" ;
+    sh:description "購買プロセスと完了条件を持つバイヤー。ペルソナとCOIN-OPにより理解される対象。" .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/FrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Framework ;
+    sh:name "フレームワーク" ;
+    sh:description "COIN-OP、STAR、ROAM、営業熟達と行動変容の五段階、二要因理論など、実践を導く枠組み。地図は現地ではないという前提で現場に適応させる。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/CharterShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Charter ;
+    sh:name "憲章" ;
+    sh:description "目的、目標、関係者、アウトプット、先行指標と遅行指標を明確にした戦略的計画。" ;
+    sh:property [
+        sh:path ex:hasMetric ;
+        sh:class ex:Metric ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasObjective ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/OnboardingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Onboarding ;
+    sh:name "営業オンボーディング" ;
+    sh:description "パフォーマンスマイルストーン、チャンク・シーケンス・レイヤー、反転学習、間隔反復、ロールプレイ、レディネス検証、七十・二十・十の法則により新入社員を早期戦力化する取組。" ;
+    sh:property [
+        sh:path ex:hasObjective ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SupportServiceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SupportService ;
+    sh:name "営業サポートサービス" ;
+    sh:description "領域専門家、提案依頼書支援、ディールデスク、外部コーチングなど、コミュニケーション一元化とナレッジマネジメントを支えるサービス。" .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/PerformanceConsultingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PerformanceConsulting ;
+    sh:name "パフォーマンスコンサルティング" ;
+    sh:description "トレーニングでは解決できない組織的要因や個人的要因の根本原因を分析し継続的改善を行う、セールスイネーブルメントの最終形。" .
+
+<https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/MetricShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Metric ;
+    sh:name "指標" ;
+    sh:description "憲章で定義される先行指標と遅行指標。現状診断のギャップ分析や影響分析にも用いる。" ;
+    sh:property [
+        sh:path ex:hasObjective ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .

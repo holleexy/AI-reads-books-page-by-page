@@ -1,0 +1,327 @@
+@prefix ex: <https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/shapes> a owl:Ontology .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "『頭のいい人が話す前に考えていること』のように、話す前の思考法と習慣を扱う書籍を表す。" ;
+    sh:property [
+        sh:path ex:writtenBy ;
+        sh:class ex:Author ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasGoldenRule ;
+        sh:class ex:GoldenRule ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasThinkingForm ;
+        sh:class ex:ThinkingForm ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:definesConcept ;
+        sh:class ex:Concept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:title ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:coreConclusion ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人物" ;
+    sh:description "著者、理論の提唱者、経営者、聞き手など、コミュニケーションに関わる人物。" .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/AuthorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Author ;
+    sh:name "著者" ;
+    sh:description "コンサルタント経験に基づき社会的知性の実践法をまとめた書籍の執筆者。" .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/GoldenRuleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GoldenRule ;
+    sh:name "黄金法則" ;
+    sh:description "知性を感じさせ信頼を得るためのマインドの基盤。感情制御、他者評価、承認欲求の扱いなどを含む。" ;
+    sh:property [
+        sh:path ex:usesTechnique ;
+        sh:class ex:Technique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesTo ;
+        sh:class ex:Communication ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:cultivates ;
+        sh:class ex:SocialIntelligence ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:ruleStatement ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/ThinkingFormShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThinkingForm ;
+    sh:name "思考の型" ;
+    sh:description "思考を深め適切に伝えるためのフォーム。客観視、整理、傾聴、言語化の四類型がある。" ;
+    sh:property [
+        sh:path ex:usesTechnique ;
+        sh:class ex:Technique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesTo ;
+        sh:class ex:Communication ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:cultivates ;
+        sh:class ex:SocialIntelligence ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/ObjectiveThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ObjectiveThinking ;
+    sh:name "客観視の思考法" ;
+    sh:description "根拠の薄い情報や認知バイアスを避け、言葉の定義を共有して話を浅くしない思考法。" ;
+    sh:property [
+        sh:path ex:targetsBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTechnique ;
+        sh:class ex:Technique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesTo ;
+        sh:class ex:Communication ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:cultivates ;
+        sh:class ex:SocialIntelligence ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/OrganizingThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizingThinking ;
+    sh:name "整理の思考法" ;
+    sh:description "重要な情報と雑多な情報、事実と意見を峻別し、結論からわかりやすく話す思考法。" ;
+    sh:property [
+        sh:path ex:usesTechnique ;
+        sh:class ex:Technique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesTo ;
+        sh:class ex:Communication ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:cultivates ;
+        sh:class ex:SocialIntelligence ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/ListeningThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ListeningThinking ;
+    sh:name "傾聴の思考法" ;
+    sh:description "相手の真意を探り、アドバイスより整理を行い、構造化面接や仮説質問で深く聞く思考法。" ;
+    sh:property [
+        sh:path ex:usesTechnique ;
+        sh:class ex:Technique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesTo ;
+        sh:class ex:Communication ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:cultivates ;
+        sh:class ex:SocialIntelligence ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/VerbalizationThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:VerbalizationThinking ;
+    sh:name "言語化の思考法" ;
+    sh:description "言語化コストを自ら負担し、再定義・ネーミング・語彙・読書ノートでアウトプットの質を高める思考法。" ;
+    sh:property [
+        sh:path ex:usesTechnique ;
+        sh:class ex:Technique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesTo ;
+        sh:class ex:Communication ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:cultivates ;
+        sh:class ex:SocialIntelligence ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/ConceptShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Concept ;
+    sh:name "概念" ;
+    sh:description "社会的知性、知的謙虚さ、結果は話す前に決まる、など本書の中核的な考え方。" ;
+    sh:property [
+        sh:path ex:proposedBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/SocialIntelligenceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SocialIntelligence ;
+    sh:name "社会的知性" ;
+    sh:description "頭のよさは生まれつきではなく後天的に身につけられるSQであり、他者の思考を読み信頼を得て動かす能力。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:proposedBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/CognitiveBiasShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CognitiveBias ;
+    sh:name "認知バイアス" ;
+    sh:description "確証バイアスや後知恵バイアスなど、客観視と論理的な遅い思考を妨げる認知の歪み。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:proposedBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/TechniqueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Technique ;
+    sh:name "実践技法" ;
+    sh:description "アンガーマネジメント、並列評価、構造化面接、再定義、ノウハウメモなど具体的な手法。" ;
+    sh:property [
+        sh:path ex:belongsToForm ;
+        sh:class ex:ThinkingForm ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportsRule ;
+        sh:class ex:GoldenRule ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:proposedBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsBias ;
+        sh:class ex:CognitiveBias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesTo ;
+        sh:class ex:Communication ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:cultivates ;
+        sh:class ex:SocialIntelligence ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Atama_noii_Nin_ga_Hanasu_Mae_ni_Kangae_teirukoto__-_Adachi__Yuusai/CommunicationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Communication ;
+    sh:name "コミュニケーション" ;
+    sh:description "プレゼンや商談、大切な人との対話など、話す前のプロセスが結果を左右する対人伝達。" ;
+    sh:property [
+        sh:path ex:involvesParticipant ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .

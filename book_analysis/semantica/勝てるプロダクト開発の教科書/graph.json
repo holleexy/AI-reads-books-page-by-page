@@ -1,0 +1,5618 @@
+{
+  "entities": [
+    {
+      "id": "responsibility",
+      "name": "responsibility",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "responsibility",
+              "name": "responsibility",
+              "source": null
+            },
+            {
+              "id": "responsibility",
+              "name": "responsibility",
+              "source": null
+            },
+            {
+              "id": "responsibility gaps",
+              "name": "responsibility gaps",
+              "source": null
+            },
+            {
+              "id": "Reusable process",
+              "name": "Reusable process",
+              "source": null
+            },
+            {
+              "id": "request skills",
+              "name": "request skills",
+              "source": null
+            },
+            {
+              "id": "risks",
+              "name": "risks",
+              "source": null
+            },
+            {
+              "id": "risks",
+              "name": "risks",
+              "source": null
+            },
+            {
+              "id": "Risk",
+              "name": "Risk",
+              "source": null
+            },
+            {
+              "id": "Risk",
+              "name": "Risk",
+              "source": null
+            },
+            {
+              "id": "risk versus return",
+              "name": "risk versus return",
+              "source": null
+            },
+            {
+              "id": "Reunion with Product Management",
+              "name": "Reunion with Product Management",
+              "source": null
+            }
+          ],
+          "merge_count": 11
+        }
+      },
+      "merged_from": [
+        "responsibility",
+        "responsibility",
+        "responsibility gaps",
+        "Reusable process",
+        "request skills",
+        "risks",
+        "risks",
+        "Risk",
+        "Risk",
+        "risk versus return",
+        "Reunion with Product Management"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "engineers",
+      "name": "engineers",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "engineers",
+              "name": "engineers",
+              "source": null
+            },
+            {
+              "id": "engineers",
+              "name": "engineers",
+              "source": null
+            },
+            {
+              "id": "engineering",
+              "name": "engineering",
+              "source": null
+            },
+            {
+              "id": "engineering debugging",
+              "name": "engineering debugging",
+              "source": null
+            },
+            {
+              "id": "Experience Design",
+              "name": "Experience Design",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "engineers",
+        "engineers",
+        "engineering",
+        "engineering debugging",
+        "Experience Design"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "designers",
+      "name": "designers",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "designers",
+              "name": "designers",
+              "source": null
+            },
+            {
+              "id": "designers",
+              "name": "designers",
+              "source": null
+            },
+            {
+              "id": "design",
+              "name": "design",
+              "source": null
+            },
+            {
+              "id": "decision-making literacy",
+              "name": "decision-making literacy",
+              "source": null
+            },
+            {
+              "id": "decision-making literacy",
+              "name": "decision-making literacy",
+              "source": null
+            },
+            {
+              "id": "Decision-making literacy",
+              "name": "Decision-making literacy",
+              "source": null
+            },
+            {
+              "id": "decision-making",
+              "name": "decision-making",
+              "source": null
+            },
+            {
+              "id": "decision-making",
+              "name": "decision-making",
+              "source": null
+            },
+            {
+              "id": "decision",
+              "name": "decision",
+              "source": null
+            },
+            {
+              "id": "decision literacy",
+              "name": "decision literacy",
+              "source": null
+            },
+            {
+              "id": "Delegating",
+              "name": "Delegating",
+              "source": null
+            },
+            {
+              "id": "delegating",
+              "name": "delegating",
+              "source": null
+            },
+            {
+              "id": "Dumping/throwing everything",
+              "name": "Dumping/throwing everything",
+              "source": null
+            },
+            {
+              "id": "dumping",
+              "name": "dumping",
+              "source": null
+            }
+          ],
+          "merge_count": 14
+        }
+      },
+      "merged_from": [
+        "designers",
+        "designers",
+        "design",
+        "decision-making literacy",
+        "decision-making literacy",
+        "Decision-making literacy",
+        "decision-making",
+        "decision-making",
+        "decision",
+        "decision literacy",
+        "Delegating",
+        "delegating",
+        "Dumping/throwing everything",
+        "dumping"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "marketers",
+      "name": "marketers",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "marketers",
+              "name": "marketers",
+              "source": null
+            },
+            {
+              "id": "marketers",
+              "name": "marketers",
+              "source": null
+            },
+            {
+              "id": "marketing",
+              "name": "marketing",
+              "source": null
+            },
+            {
+              "id": "mini-CEO",
+              "name": "mini-CEO",
+              "source": null
+            },
+            {
+              "id": "MECE",
+              "name": "MECE",
+              "source": null
+            },
+            {
+              "id": "miles",
+              "name": "miles",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "marketers",
+        "marketers",
+        "marketing",
+        "mini-CEO",
+        "MECE",
+        "miles"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "sales",
+      "name": "sales",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "sales",
+              "name": "sales",
+              "source": null
+            },
+            {
+              "id": "sales",
+              "name": "sales",
+              "source": null
+            },
+            {
+              "id": "specialists",
+              "name": "specialists",
+              "source": null
+            },
+            {
+              "id": "specialized knowledge",
+              "name": "specialized knowledge",
+              "source": null
+            },
+            {
+              "id": "skills",
+              "name": "skills",
+              "source": null
+            },
+            {
+              "id": "stance",
+              "name": "stance",
+              "source": null
+            },
+            {
+              "id": "stance",
+              "name": "stance",
+              "source": null
+            },
+            {
+              "id": "strategy",
+              "name": "strategy",
+              "source": null
+            },
+            {
+              "id": "status cards",
+              "name": "status cards",
+              "source": null
+            },
+            {
+              "id": "status",
+              "name": "status",
+              "source": null
+            },
+            {
+              "id": "structural leverage",
+              "name": "structural leverage",
+              "source": null
+            },
+            {
+              "id": "shortcuts",
+              "name": "shortcuts",
+              "source": null
+            },
+            {
+              "id": "system structure",
+              "name": "system structure",
+              "source": null
+            }
+          ],
+          "merge_count": 13
+        }
+      },
+      "merged_from": [
+        "sales",
+        "sales",
+        "specialists",
+        "specialized knowledge",
+        "skills",
+        "stance",
+        "stance",
+        "strategy",
+        "status cards",
+        "status",
+        "structural leverage",
+        "shortcuts",
+        "system structure"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "PR",
+      "name": "PR",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "PR",
+              "name": "PR",
+              "source": null
+            },
+            {
+              "id": "PR",
+              "name": "PR",
+              "source": null
+            },
+            {
+              "id": "Purpose",
+              "name": "Purpose",
+              "source": null
+            },
+            {
+              "id": "product owners",
+              "name": "product owners",
+              "source": null
+            },
+            {
+              "id": "Product owners",
+              "name": "Product owners",
+              "source": null
+            },
+            {
+              "id": "product owner",
+              "name": "product owner",
+              "source": null
+            },
+            {
+              "id": "product owner",
+              "name": "product owner",
+              "source": null
+            },
+            {
+              "id": "product owner/PM",
+              "name": "product owner/PM",
+              "source": null
+            },
+            {
+              "id": "Product Management",
+              "name": "Product Management",
+              "source": null
+            },
+            {
+              "id": "product management",
+              "name": "product management",
+              "source": null
+            },
+            {
+              "id": "Project Management",
+              "name": "Project Management",
+              "source": null
+            },
+            {
+              "id": "product managers",
+              "name": "product managers",
+              "source": null
+            },
+            {
+              "id": "product managers",
+              "name": "product managers",
+              "source": null
+            },
+            {
+              "id": "product manager",
+              "name": "product manager",
+              "source": null
+            },
+            {
+              "id": "product value",
+              "name": "product value",
+              "source": null
+            },
+            {
+              "id": "product failures",
+              "name": "product failures",
+              "source": null
+            },
+            {
+              "id": "product leader",
+              "name": "product leader",
+              "source": null
+            },
+            {
+              "id": "Product development knowledge",
+              "name": "Product development knowledge",
+              "source": null
+            },
+            {
+              "id": "product development",
+              "name": "product development",
+              "source": null
+            },
+            {
+              "id": "product development organization",
+              "name": "product development organization",
+              "source": null
+            },
+            {
+              "id": "product responsibility",
+              "name": "product responsibility",
+              "source": null
+            },
+            {
+              "id": "project schedule",
+              "name": "project schedule",
+              "source": null
+            },
+            {
+              "id": "PR and Branding",
+              "name": "PR and Branding",
+              "source": null
+            },
+            {
+              "id": "points system",
+              "name": "points system",
+              "source": null
+            },
+            {
+              "id": "point systems",
+              "name": "point systems",
+              "source": null
+            },
+            {
+              "id": "points",
+              "name": "points",
+              "source": null
+            },
+            {
+              "id": "profit-and-loss statement",
+              "name": "profit-and-loss statement",
+              "source": null
+            },
+            {
+              "id": "PM",
+              "name": "PM",
+              "source": null
+            },
+            {
+              "id": "PM",
+              "name": "PM",
+              "source": null
+            },
+            {
+              "id": "PMs",
+              "name": "PMs",
+              "source": null
+            },
+            {
+              "id": "PIVOT",
+              "name": "PIVOT",
+              "source": null
+            },
+            {
+              "id": "PIVOT",
+              "name": "PIVOT",
+              "source": null
+            },
+            {
+              "id": "PIVOT Miles",
+              "name": "PIVOT Miles",
+              "source": null
+            }
+          ],
+          "merge_count": 33
+        }
+      },
+      "merged_from": [
+        "PR",
+        "PR",
+        "Purpose",
+        "product owners",
+        "Product owners",
+        "product owner",
+        "product owner",
+        "product owner/PM",
+        "Product Management",
+        "product management",
+        "Project Management",
+        "product managers",
+        "product managers",
+        "product manager",
+        "product value",
+        "product failures",
+        "product leader",
+        "Product development knowledge",
+        "product development",
+        "product development organization",
+        "product responsibility",
+        "project schedule",
+        "PR and Branding",
+        "points system",
+        "point systems",
+        "points",
+        "profit-and-loss statement",
+        "PM",
+        "PM",
+        "PMs",
+        "PIVOT",
+        "PIVOT",
+        "PIVOT Miles"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "プロダクト責任者",
+      "name": "プロダクト責任者",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "プロダクト責任者",
+              "name": "プロダクト責任者",
+              "source": null
+            },
+            {
+              "id": "プロダクト責任者",
+              "name": "プロダクト責任者",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "プロダクト責任者",
+        "プロダクト責任者"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "OS",
+      "name": "OS",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "OS",
+              "name": "OS",
+              "source": null
+            },
+            {
+              "id": "OS",
+              "name": "OS",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "OS",
+        "OS"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "ロジカルシンキング",
+      "name": "ロジカルシンキング",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ロジカルシンキング",
+              "name": "ロジカルシンキング",
+              "source": null
+            },
+            {
+              "id": "ロジカルシンキング",
+              "name": "ロジカルシンキング",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ロジカルシンキング",
+        "ロジカルシンキング"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "論理的思考力",
+      "name": "論理的思考力",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "論理的思考力",
+              "name": "論理的思考力",
+              "source": null
+            },
+            {
+              "id": "論理的思考力",
+              "name": "論理的思考力",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "論理的思考力",
+        "論理的思考力"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "具体と抽象を行き来する力",
+      "name": "具体と抽象を行き来する力",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "具体と抽象を行き来する力",
+              "name": "具体と抽象を行き来する力",
+              "source": null
+            },
+            {
+              "id": "具体と抽象を行き来する力",
+              "name": "具体と抽象を行き来する力",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "具体と抽象を行き来する力",
+        "具体と抽象を行き来する力"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "概念化能力",
+      "name": "概念化能力",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "概念化能力",
+              "name": "概念化能力",
+              "source": null
+            },
+            {
+              "id": "概念化能力",
+              "name": "概念化能力",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "概念化能力",
+        "概念化能力"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "意思決定リテラシー",
+      "name": "意思決定リテラシー",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "意思決定リテラシー",
+              "name": "意思決定リテラシー",
+              "source": null
+            },
+            {
+              "id": "意思決定リテラシー",
+              "name": "意思決定リテラシー",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "意思決定リテラシー",
+        "意思決定リテラシー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "判断の軸",
+      "name": "判断の軸",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "判断の軸",
+              "name": "判断の軸",
+              "source": null
+            },
+            {
+              "id": "判断の軸",
+              "name": "判断の軸",
+              "source": null
+            },
+            {
+              "id": "判断基準",
+              "name": "判断基準",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "判断の軸",
+        "判断の軸",
+        "判断基準"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "technical debt",
+      "name": "technical debt",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "technical debt",
+              "name": "technical debt",
+              "source": null
+            },
+            {
+              "id": "technical debt",
+              "name": "technical debt",
+              "source": null
+            },
+            {
+              "id": "technical constraints",
+              "name": "technical constraints",
+              "source": null
+            },
+            {
+              "id": "Technology and Engineering",
+              "name": "Technology and Engineering",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "technical debt",
+        "technical debt",
+        "technical constraints",
+        "Technology and Engineering"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "目的",
+      "name": "目的",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "目的",
+              "name": "目的",
+              "source": null
+            },
+            {
+              "id": "目的",
+              "name": "目的",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "目的",
+        "目的"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "制約条件",
+      "name": "制約条件",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "制約条件",
+              "name": "制約条件",
+              "source": null
+            },
+            {
+              "id": "制約条件",
+              "name": "制約条件",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "制約条件",
+        "制約条件"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "成功指標",
+      "name": "成功指標",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "成功指標",
+              "name": "成功指標",
+              "source": null
+            },
+            {
+              "id": "成功指標",
+              "name": "成功指標",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "成功指標",
+        "成功指標"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "代替案",
+      "name": "代替案",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "代替案",
+              "name": "代替案",
+              "source": null
+            },
+            {
+              "id": "代替案",
+              "name": "代替案",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "代替案",
+        "代替案"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "リスク",
+      "name": "リスク",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "リスク",
+              "name": "リスク",
+              "source": null
+            },
+            {
+              "id": "リスク",
+              "name": "リスク",
+              "source": null
+            },
+            {
+              "id": "リスクと不確実性",
+              "name": "リスクと不確実性",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "リスク",
+        "リスク",
+        "リスクと不確実性"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "questioning skills",
+      "name": "questioning skills",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "questioning skills",
+              "name": "questioning skills",
+              "source": null
+            },
+            {
+              "id": "Questioning skill",
+              "name": "Questioning skill",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "questioning skills",
+        "Questioning skill"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "organization theory",
+      "name": "organization theory",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "organization theory",
+              "name": "organization theory",
+              "source": null
+            },
+            {
+              "id": "organization",
+              "name": "organization",
+              "source": null
+            },
+            {
+              "id": "operating system",
+              "name": "operating system",
+              "source": null
+            },
+            {
+              "id": "Options",
+              "name": "Options",
+              "source": null
+            },
+            {
+              "id": "OPEX",
+              "name": "OPEX",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "organization theory",
+        "organization",
+        "operating system",
+        "Options",
+        "OPEX"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "business success",
+      "name": "business success",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "business success",
+              "name": "business success",
+              "source": null
+            },
+            {
+              "id": "business results",
+              "name": "business results",
+              "source": null
+            },
+            {
+              "id": "business owners",
+              "name": "business owners",
+              "source": null
+            },
+            {
+              "id": "business model",
+              "name": "business model",
+              "source": null
+            },
+            {
+              "id": "business trade-offs",
+              "name": "business trade-offs",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "business success",
+        "business results",
+        "business owners",
+        "business model",
+        "business trade-offs"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "judgment axis",
+      "name": "judgment axis",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "judgment axis",
+              "name": "judgment axis",
+              "source": null
+            },
+            {
+              "id": "judgment criteria",
+              "name": "judgment criteria",
+              "source": null
+            },
+            {
+              "id": "judgment/decision",
+              "name": "judgment/decision",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "judgment axis",
+        "judgment criteria",
+        "judgment/decision"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "Roots",
+      "name": "Roots",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Roots",
+              "name": "Roots",
+              "source": null
+            },
+            {
+              "id": "root bug",
+              "name": "root bug",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Roots",
+        "root bug"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "frameworks",
+      "name": "frameworks",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "frameworks",
+              "name": "frameworks",
+              "source": null
+            },
+            {
+              "id": "Framework for delegating",
+              "name": "Framework for delegating",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "frameworks",
+        "Framework for delegating"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "任せる",
+      "name": "任せる",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "任せる",
+              "name": "任せる",
+              "source": null
+            },
+            {
+              "id": "任せるための前提",
+              "name": "任せるための前提",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "任せる",
+        "任せるための前提"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "learning resources",
+      "name": "learning resources",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "learning resources",
+              "name": "learning resources",
+              "source": null
+            },
+            {
+              "id": "learning behavior",
+              "name": "learning behavior",
+              "source": null
+            },
+            {
+              "id": "legal",
+              "name": "legal",
+              "source": null
+            },
+            {
+              "id": "legal",
+              "name": "legal",
+              "source": null
+            },
+            {
+              "id": "legal risk",
+              "name": "legal risk",
+              "source": null
+            },
+            {
+              "id": "Legal and IP Strategy",
+              "name": "Legal and IP Strategy",
+              "source": null
+            },
+            {
+              "id": "leaders",
+              "name": "leaders",
+              "source": null
+            },
+            {
+              "id": "leverage point",
+              "name": "leverage point",
+              "source": null
+            },
+            {
+              "id": "logical thinking",
+              "name": "logical thinking",
+              "source": null
+            },
+            {
+              "id": "logical thinking",
+              "name": "logical thinking",
+              "source": null
+            },
+            {
+              "id": "Logical thinking",
+              "name": "Logical thinking",
+              "source": null
+            }
+          ],
+          "merge_count": 11
+        }
+      },
+      "merged_from": [
+        "learning resources",
+        "learning behavior",
+        "legal",
+        "legal",
+        "legal risk",
+        "Legal and IP Strategy",
+        "leaders",
+        "leverage point",
+        "logical thinking",
+        "logical thinking",
+        "Logical thinking"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "CPO",
+      "name": "CPO",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "CPO",
+              "name": "CPO",
+              "source": null
+            },
+            {
+              "id": "CTO",
+              "name": "CTO",
+              "source": null
+            },
+            {
+              "id": "CFO",
+              "name": "CFO",
+              "source": null
+            },
+            {
+              "id": "customer value",
+              "name": "customer value",
+              "source": null
+            },
+            {
+              "id": "customer value",
+              "name": "customer value",
+              "source": null
+            },
+            {
+              "id": "cash-flow statement",
+              "name": "cash-flow statement",
+              "source": null
+            },
+            {
+              "id": "Chapter 6",
+              "name": "Chapter 6",
+              "source": null
+            },
+            {
+              "id": "Chapter 8",
+              "name": "Chapter 8",
+              "source": null
+            },
+            {
+              "id": "Chapter 10",
+              "name": "Chapter 10",
+              "source": null
+            },
+            {
+              "id": "Chapter 11",
+              "name": "Chapter 11",
+              "source": null
+            },
+            {
+              "id": "CAPEX",
+              "name": "CAPEX",
+              "source": null
+            },
+            {
+              "id": "Criterion 2",
+              "name": "Criterion 2",
+              "source": null
+            },
+            {
+              "id": "Criterion 3",
+              "name": "Criterion 3",
+              "source": null
+            },
+            {
+              "id": "Communication Design",
+              "name": "Communication Design",
+              "source": null
+            },
+            {
+              "id": "combined thinking process",
+              "name": "combined thinking process",
+              "source": null
+            },
+            {
+              "id": "concrete",
+              "name": "concrete",
+              "source": null
+            },
+            {
+              "id": "Concrete",
+              "name": "Concrete",
+              "source": null
+            },
+            {
+              "id": "Constraints",
+              "name": "Constraints",
+              "source": null
+            },
+            {
+              "id": "composure",
+              "name": "composure",
+              "source": null
+            }
+          ],
+          "merge_count": 19
+        }
+      },
+      "merged_from": [
+        "CPO",
+        "CTO",
+        "CFO",
+        "customer value",
+        "customer value",
+        "cash-flow statement",
+        "Chapter 6",
+        "Chapter 8",
+        "Chapter 10",
+        "Chapter 11",
+        "CAPEX",
+        "Criterion 2",
+        "Criterion 3",
+        "Communication Design",
+        "combined thinking process",
+        "concrete",
+        "Concrete",
+        "Constraints",
+        "composure"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "KPI",
+      "name": "KPI",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "KPI",
+              "name": "KPI",
+              "source": null
+            },
+            {
+              "id": "KGI",
+              "name": "KGI",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "KPI",
+        "KGI"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "user psychology",
+      "name": "user psychology",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "user psychology",
+              "name": "user psychology",
+              "source": null
+            },
+            {
+              "id": "User A",
+              "name": "User A",
+              "source": null
+            },
+            {
+              "id": "uncertainty",
+              "name": "uncertainty",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "user psychology",
+        "User A",
+        "uncertainty"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "taking it on",
+      "name": "taking it on",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "taking it on",
+              "name": "taking it on",
+              "source": null
+            },
+            {
+              "id": "thinking OS",
+              "name": "thinking OS",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "taking it on",
+        "thinking OS"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "innovation",
+      "name": "innovation",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "innovation",
+              "name": "innovation",
+              "source": null
+            },
+            {
+              "id": "incentive design",
+              "name": "incentive design",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "innovation",
+        "incentive design"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "work becoming person-dependent",
+      "name": "work becoming person-dependent",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "work becoming person-dependent",
+              "name": "work becoming person-dependent",
+              "source": null
+            },
+            {
+              "id": "Worst Case",
+              "name": "Worst Case",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "work becoming person-dependent",
+        "Worst Case"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "Agile",
+      "name": "Agile",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Agile",
+              "name": "Agile",
+              "source": null
+            },
+            {
+              "id": "airline mileage programs",
+              "name": "airline mileage programs",
+              "source": null
+            },
+            {
+              "id": "AI era",
+              "name": "AI era",
+              "source": null
+            },
+            {
+              "id": "abstract",
+              "name": "abstract",
+              "source": null
+            },
+            {
+              "id": "Abstract",
+              "name": "Abstract",
+              "source": null
+            },
+            {
+              "id": "alternatives",
+              "name": "alternatives",
+              "source": null
+            },
+            {
+              "id": "Alternatives",
+              "name": "Alternatives",
+              "source": null
+            },
+            {
+              "id": "Another concrete",
+              "name": "Another concrete",
+              "source": null
+            },
+            {
+              "id": "American Express",
+              "name": "American Express",
+              "source": null
+            }
+          ],
+          "merge_count": 9
+        }
+      },
+      "merged_from": [
+        "Agile",
+        "airline mileage programs",
+        "AI era",
+        "abstract",
+        "Abstract",
+        "alternatives",
+        "Alternatives",
+        "Another concrete",
+        "American Express"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "責任",
+      "name": "責任",
+      "text": "責任",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "引き受ける",
+      "name": "引き受ける",
+      "text": "引き受ける",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "Trunk",
+      "name": "Trunk",
+      "text": "Trunk",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "Vision and Business Development",
+      "name": "Vision and Business Development",
+      "text": "Vision and Business Development",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "Management Planning and Budget Management",
+      "name": "Management Planning and Budget Management",
+      "text": "Management Planning and Budget Management",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "HR Strategy and People Management",
+      "name": "HR Strategy and People Management",
+      "text": "HR Strategy and People Management",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "GTM Strategy and Marketing",
+      "name": "GTM Strategy and Marketing",
+      "text": "GTM Strategy and Marketing",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "unifying question",
+      "name": "unifying question",
+      "text": "unifying question",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "final responsibility",
+      "name": "final responsibility",
+      "text": "final responsibility",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "学びのリソース",
+      "name": "学びのリソース",
+      "text": "学びのリソース",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "蜂須賀大貴",
+      "name": "蜂須賀大貴",
+      "text": "蜂須賀大貴",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "Hachisuka Daiki",
+      "name": "Hachisuka Daiki",
+      "text": "Hachisuka Daiki",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "Author",
+      "name": "Author",
+      "text": "Author",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "姿勢",
+      "name": "姿勢",
+      "text": "姿勢",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "VPoP",
+      "name": "VPoP",
+      "text": "VPoP",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "腹を括る",
+      "name": "腹を括る",
+      "text": "腹を括る",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "序章",
+      "name": "序章",
+      "text": "序章",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "application",
+      "name": "application",
+      "text": "application",
+      "type": "PRODUCT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "foundation of thinking",
+      "name": "foundation of thinking",
+      "text": "foundation of thinking",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "3つの基礎体力",
+      "name": "3つの基礎体力",
+      "text": "3つの基礎体力",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "new-value creation",
+      "name": "new-value creation",
+      "text": "new-value creation",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "feature B",
+      "name": "feature B",
+      "text": "feature B",
+      "type": "PRODUCT",
+      "confidence": 0.76,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "対症療法",
+      "name": "対症療法",
+      "text": "対症療法",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "feedback/recognition",
+      "name": "feedback/recognition",
+      "text": "feedback/recognition",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "doctor-oriented platforms",
+      "name": "doctor-oriented platforms",
+      "text": "doctor-oriented platforms",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "Re-concretize",
+      "name": "Re-concretize",
+      "text": "Re-concretize",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "loop",
+      "name": "loop",
+      "text": "loop",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "non-expert decision-maker",
+      "name": "non-expert decision-maker",
+      "text": "non-expert decision-maker",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "fatal damage",
+      "name": "fatal damage",
+      "text": "fatal damage",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "violations",
+      "name": "violations",
+      "text": "violations",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "licenses",
+      "name": "licenses",
+      "text": "licenses",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "boundary of authority",
+      "name": "boundary of authority",
+      "text": "boundary of authority",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "P/L",
+      "name": "P/L",
+      "text": "P/L",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "B/S",
+      "name": "B/S",
+      "text": "B/S",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "balance sheet",
+      "name": "balance sheet",
+      "text": "balance sheet",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "C/F",
+      "name": "C/F",
+      "text": "C/F",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "gross profit",
+      "name": "gross profit",
+      "text": "gross profit",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "丸投げ",
+      "name": "丸投げ",
+      "text": "丸投げ",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "依頼のスキル",
+      "name": "依頼のスキル",
+      "text": "依頼のスキル",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "質問のスキル",
+      "name": "質問のスキル",
+      "text": "質問のスキル",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "背景",
+      "name": "背景",
+      "text": "背景",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "期待値",
+      "name": "期待値",
+      "text": "期待値",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "期限",
+      "name": "期限",
+      "text": "期限",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "ブラックボックス化",
+      "name": "ブラックボックス化",
+      "text": "ブラックボックス化",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "black-boxing",
+      "name": "black-boxing",
+      "text": "black-boxing",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "属人化",
+      "name": "属人化",
+      "text": "属人化",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "図表0-2",
+      "name": "図表0-2",
+      "text": "図表0-2",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "anti-pattern",
+      "name": "anti-pattern",
+      "text": "anti-pattern",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "guiding principle",
+      "name": "guiding principle",
+      "text": "guiding principle",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "目指す指針",
+      "name": "目指す指針",
+      "text": "目指す指針",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "平常心",
+      "name": "平常心",
+      "text": "平常心",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "Diagram 0-2",
+      "name": "Diagram 0-2",
+      "text": "Diagram 0-2",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "id": "Success metrics",
+      "name": "Success metrics",
+      "text": "Success metrics",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "責任",
+      "target": "responsibility",
+      "type": "translated_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "引き受ける",
+      "target": "taking it on",
+      "type": "translated_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product managers",
+      "target": "product owners",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "PM",
+      "target": "product managers",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "business owners",
+      "target": "product owners",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owners",
+      "target": "product value",
+      "type": "accountable_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owners",
+      "target": "business success",
+      "type": "accountable_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "engineers",
+      "target": "product owners",
+      "type": "works_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "designers",
+      "target": "product owners",
+      "type": "works_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "marketers",
+      "target": "product owners",
+      "type": "works_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "sales",
+      "target": "product owners",
+      "type": "works_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "PR",
+      "target": "product owners",
+      "type": "works_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "legal",
+      "target": "product owners",
+      "type": "works_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "The book (Chapters 1–12)",
+      "target": "one large tree",
+      "type": "designed_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Product development knowledge",
+      "target": "roots, trunk, and branches/leaves",
+      "type": "structured_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "roots, trunk, and branches/leaves",
+      "target": "the tree",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Roots",
+      "target": "Experience Design",
+      "type": "covered_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Roots",
+      "target": "Communication Design",
+      "type": "covered_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Roots",
+      "target": "Reunion with Product Management",
+      "type": "covered_in",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Reunion with Product Management",
+      "target": "Product Management",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Experience Design",
+      "target": "Communication Design",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Trunk",
+      "target": "Vision and Business Development",
+      "type": "corresponds_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Trunk",
+      "target": "Management Planning and Budget Management",
+      "type": "corresponds_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Trunk",
+      "target": "HR Strategy and People Management",
+      "type": "corresponds_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Trunk",
+      "target": "Project Management",
+      "type": "corresponds_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Trunk",
+      "target": "Agile",
+      "type": "corresponds_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Project Management",
+      "target": "Agile",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Chapter 6",
+      "target": "Technology and Engineering",
+      "type": "covers",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Chapter 8",
+      "target": "GTM Strategy and Marketing",
+      "type": "covers",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Chapter 10",
+      "target": "PR and Branding",
+      "type": "covers",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Chapter 11",
+      "target": "Legal and IP Strategy",
+      "type": "covers",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "Technology and Engineering",
+      "type": "delegates",
+      "confidence": 0.7,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "GTM Strategy and Marketing",
+      "type": "delegates",
+      "confidence": 0.7,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "PR and Branding",
+      "type": "delegates",
+      "confidence": 0.7,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "Legal and IP Strategy",
+      "type": "delegates",
+      "confidence": 0.7,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product management",
+      "target": "designers",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product management",
+      "target": "engineers",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product management",
+      "target": "marketers",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product management",
+      "target": "sales",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product management",
+      "target": "legal",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product management",
+      "target": "PR",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "unifying question",
+      "target": "final responsibility",
+      "type": "addresses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "unifying question",
+      "target": "judgment/decision",
+      "type": "addresses",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "final responsibility",
+      "target": "judgment/decision",
+      "type": "applies_to",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "organization theory",
+      "target": "AI era",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "mini-CEO",
+      "type": "redefined_as",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "learning resources",
+      "target": "学びのリソース",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "蜂須賀大貴",
+      "target": "Hachisuka Daiki",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Author",
+      "target": "蜂須賀大貴",
+      "type": "is",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Author",
+      "target": "Hachisuka Daiki",
+      "type": "is",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "蜂須賀大貴",
+      "target": "PM",
+      "type": "worked_as",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "蜂須賀大貴",
+      "target": "product owner",
+      "type": "worked_as",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Hachisuka Daiki",
+      "target": "PM",
+      "type": "worked_as",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Hachisuka Daiki",
+      "target": "product owner",
+      "type": "worked_as",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product failures",
+      "target": "skills",
+      "type": "not_caused_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product failures",
+      "target": "frameworks",
+      "type": "not_caused_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product failures",
+      "target": "responsibility",
+      "type": "caused_by",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product failures",
+      "target": "stance",
+      "type": "caused_by",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "プロダクト責任者",
+      "type": "equivalent_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "stance",
+      "target": "姿勢",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "プロダクト責任者",
+      "target": "product responsibility",
+      "type": "takes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "stance",
+      "target": "PM",
+      "type": "matters_more_than",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "stance",
+      "target": "CPO",
+      "type": "matters_more_than",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "stance",
+      "target": "VPoP",
+      "type": "matters_more_than",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "stance",
+      "target": "CTO",
+      "type": "matters_more_than",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "stance",
+      "target": "プロダクト責任者",
+      "type": "describes_attitude_of",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product leader",
+      "target": "customer value",
+      "type": "does_not_run_away_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "responsibility gaps",
+      "target": "organization",
+      "type": "located_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "customer value",
+      "target": "business results",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "序章",
+      "target": "OS",
+      "type": "unpacks",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "OS",
+      "target": "product development",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product manager",
+      "target": "プロダクト責任者",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product manager",
+      "target": "thinking OS",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "thinking OS",
+      "target": "operating system",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "thinking OS",
+      "target": "PR",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "application",
+      "target": "strategy",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "OS",
+      "target": "foundation of thinking",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "application",
+      "target": "OS",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "strategy",
+      "target": "foundation of thinking",
+      "type": "depends_on",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "3つの基礎体力",
+      "target": "product managers",
+      "type": "is_universal_OS_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "logical thinking",
+      "target": "3つの基礎体力",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "ロジカルシンキング",
+      "target": "logical thinking",
+      "type": "same_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "論理的思考力",
+      "target": "logical thinking",
+      "type": "same_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "具体と抽象を行き来する力",
+      "target": "3つの基礎体力",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "概念化能力",
+      "target": "具体と抽象を行き来する力",
+      "type": "same_as",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "decision-making literacy",
+      "target": "3つの基礎体力",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "意思決定リテラシー",
+      "target": "decision-making literacy",
+      "type": "same_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "判断の軸",
+      "target": "decision-making literacy",
+      "type": "same_as",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Product owners",
+      "target": "プロダクト責任者",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "decision-making literacy",
+      "target": "意思決定リテラシー",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "decision-making literacy",
+      "target": "判断の軸",
+      "type": "equivalent_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "意思決定リテラシー",
+      "target": "判断の軸",
+      "type": "equivalent_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "具体と抽象を行き来する力",
+      "target": "概念化能力",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "logical thinking",
+      "target": "ロジカルシンキング",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "logical thinking",
+      "target": "論理的思考力",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "ロジカルシンキング",
+      "target": "論理的思考力",
+      "type": "equivalent_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Product owners",
+      "target": "decision-making literacy",
+      "type": "needs",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Product owners",
+      "target": "具体と抽象を行き来する力",
+      "type": "needs",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Product owners",
+      "target": "logical thinking",
+      "type": "needs",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "プロダクト責任者",
+      "target": "意思決定リテラシー",
+      "type": "needs",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "プロダクト責任者",
+      "target": "具体と抽象を行き来する力",
+      "type": "needs",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "プロダクト責任者",
+      "target": "ロジカルシンキング",
+      "type": "needs",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "decision-making literacy",
+      "target": "具体と抽象を行き来する力",
+      "type": "interconnected_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "decision-making literacy",
+      "target": "logical thinking",
+      "type": "interconnected_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "具体と抽象を行き来する力",
+      "target": "logical thinking",
+      "type": "interconnected_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Logical thinking",
+      "target": "decision-making literacy",
+      "type": "interacts_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "combined thinking process",
+      "target": "leaders",
+      "type": "is_condition_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "leaders",
+      "target": "uncertainty",
+      "type": "produce_results_under",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "technical constraints",
+      "target": "legal risk",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "technical constraints",
+      "target": "user psychology",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "legal risk",
+      "target": "user psychology",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "MECE",
+      "target": "leverage point",
+      "type": "makes_visible",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "root bug",
+      "target": "system structure",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "engineering debugging",
+      "target": "root bug",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "engineering debugging",
+      "target": "system structure",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "engineering debugging",
+      "target": "shortcuts",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "shortcuts",
+      "target": "system structure",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Logical thinking",
+      "target": "structural leverage",
+      "type": "indispensable_for_finding",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "logical thinking",
+      "target": "innovation",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "logical thinking",
+      "target": "new-value creation",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "innovation",
+      "target": "new-value creation",
+      "type": "related_to",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "User A",
+      "target": "対症療法",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "feature B",
+      "target": "対症療法",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "プロダクト責任者",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "concrete",
+      "target": "abstract",
+      "type": "interacts_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "concrete",
+      "type": "uses",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "abstract",
+      "type": "uses",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "PIVOT Miles",
+      "target": "PIVOT",
+      "type": "created_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "points system",
+      "target": "feedback/recognition",
+      "type": "is_essentially",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "feedback/recognition",
+      "target": "learning behavior",
+      "type": "for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "points system",
+      "target": "incentive design",
+      "type": "is",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "PIVOT",
+      "target": "airline mileage programs",
+      "type": "has_typical_audience_that_prefers",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "PIVOT",
+      "target": "status cards",
+      "type": "has_typical_audience_that_prefers",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "PIVOT",
+      "target": "point systems",
+      "type": "has_typical_audience_that_prefers",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "status cards",
+      "target": "American Express",
+      "type": "styled_after",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "point systems",
+      "target": "doctor-oriented platforms",
+      "type": "used_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "miles",
+      "target": "points",
+      "type": "alternative_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "status",
+      "target": "points",
+      "type": "alternative_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "miles",
+      "target": "status",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Concrete",
+      "target": "Reusable process",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Abstract",
+      "target": "Reusable process",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Another concrete",
+      "target": "Reusable process",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Re-concretize",
+      "target": "Reusable process",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Concrete",
+      "target": "Abstract",
+      "type": "followed_by",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Abstract",
+      "target": "Another concrete",
+      "type": "followed_by",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Another concrete",
+      "target": "Re-concretize",
+      "type": "followed_by",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Reusable process",
+      "target": "loop",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Decision-making literacy",
+      "target": "意思決定リテラシー",
+      "type": "also_known_as",
+      "confidence": 1.0,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Decision-making literacy",
+      "target": "product managers",
+      "type": "functions_as_foundational_OS_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Decision-making literacy",
+      "target": "PMs",
+      "type": "functions_as_foundational_OS_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product managers",
+      "target": "PMs",
+      "type": "abbreviated_as",
+      "confidence": 1.0,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner/PM",
+      "target": "engineering",
+      "type": "cannot_possess_expert_knowledge_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner/PM",
+      "target": "design",
+      "type": "cannot_possess_expert_knowledge_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner/PM",
+      "target": "marketing",
+      "type": "cannot_possess_expert_knowledge_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner/PM",
+      "target": "sales",
+      "type": "cannot_possess_expert_knowledge_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner/PM",
+      "target": "PR",
+      "type": "cannot_possess_expert_knowledge_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner/PM",
+      "target": "legal",
+      "type": "cannot_possess_expert_knowledge_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "judgment axis",
+      "target": "risk versus return",
+      "type": "used_to_evaluate",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "non-expert decision-maker",
+      "target": "specialists",
+      "type": "interacts_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "non-expert decision-maker",
+      "target": "decision",
+      "type": "defines",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "specialists",
+      "target": "specialized knowledge",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "specialists",
+      "target": "judgment criteria",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "risks",
+      "target": "fatal damage",
+      "type": "related_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "violations",
+      "target": "risks",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "licenses",
+      "target": "project schedule",
+      "type": "conflict_with",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "licenses",
+      "target": "risks",
+      "type": "related_to",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "boundary of authority",
+      "target": "decision-making",
+      "type": "related_to",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "decision",
+      "target": "decision-making",
+      "type": "part_of",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "P/L",
+      "target": "profit-and-loss statement",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "B/S",
+      "target": "balance sheet",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "C/F",
+      "target": "cash-flow statement",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "CAPEX",
+      "target": "OPEX",
+      "type": "distinguished_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "P/L",
+      "target": "B/S",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "P/L",
+      "target": "C/F",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "B/S",
+      "target": "C/F",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "gross profit",
+      "target": "P/L",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "プロダクト責任者",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "business model",
+      "type": "must_know_fundamentals_of",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "technical debt",
+      "type": "must_understand_impact_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "technical debt",
+      "target": "business model",
+      "type": "affects",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Decision-making literacy",
+      "target": "意思決定リテラシー",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "Decision-making literacy",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "意思決定リテラシー",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Delegating",
+      "target": "任せる",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Dumping/throwing everything",
+      "target": "丸投げ",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Delegating",
+      "target": "Dumping/throwing everything",
+      "type": "contrasted_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "任せる",
+      "target": "丸投げ",
+      "type": "contrasted_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "request skills",
+      "target": "依頼のスキル",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "questioning skills",
+      "target": "質問のスキル",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "request skills",
+      "target": "questioning skills",
+      "type": "required_together_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "delegating",
+      "target": "dumping",
+      "type": "distinguished_from",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "背景 (CONCEPT)",
+      "target": "目的",
+      "type": "must_be_aligned_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "目的",
+      "target": "判断基準 (CONCEPT)",
+      "type": "must_be_aligned_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "判断基準 (CONCEPT)",
+      "target": "期待値 (CONCEPT)",
+      "type": "must_be_aligned_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "期待値 (CONCEPT)",
+      "target": "期限 (CONCEPT)",
+      "type": "must_be_aligned_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "期限 (CONCEPT)",
+      "target": "リスクと不確実性",
+      "type": "must_be_aligned_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "背景 (CONCEPT)",
+      "target": "リスクと不確実性",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "ブラックボックス化",
+      "target": "black-boxing",
+      "type": "related_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "属人化",
+      "target": "work becoming person-dependent",
+      "type": "related_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "図表0-2",
+      "type": "must_hold",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "anti-pattern",
+      "type": "should_avoid",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "product owner",
+      "target": "why",
+      "type": "must_state_forcefully",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Criterion 2",
+      "target": "制約条件",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "technical debt",
+      "target": "制約条件",
+      "type": "part_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Criterion 3",
+      "target": "成功指標",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "成功指標",
+      "target": "KPI",
+      "type": "includes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "成功指標",
+      "target": "KGI",
+      "type": "includes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "guiding principle",
+      "target": "目指す指針",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Options",
+      "target": "代替案",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Options",
+      "target": "alternatives",
+      "type": "refers_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "alternatives",
+      "target": "risks",
+      "type": "considered_together_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Risk",
+      "target": "Worst Case",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Risk",
+      "target": "リスク",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "composure",
+      "target": "平常心",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Worst Case",
+      "target": "composure",
+      "type": "enables",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Framework for delegating",
+      "target": "任せるための前提",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Framework for delegating",
+      "target": "Diagram 0-2",
+      "type": "illustrated_by",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Framework for delegating",
+      "target": "Purpose",
+      "type": "consists_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Framework for delegating",
+      "target": "Constraints",
+      "type": "consists_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Framework for delegating",
+      "target": "Success metrics",
+      "type": "consists_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Framework for delegating",
+      "target": "Alternatives",
+      "type": "consists_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Framework for delegating",
+      "target": "Risk",
+      "type": "consists_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Purpose",
+      "target": "目的",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Constraints",
+      "target": "制約条件",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Success metrics",
+      "target": "成功指標",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Alternatives",
+      "target": "代替案",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Risk",
+      "target": "リスク",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "Questioning skill",
+      "target": "decision-making",
+      "type": "helps_understand",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    },
+    {
+      "source": "technical debt",
+      "target": "business trade-offs",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "勝てるプロダクト開発の教科書"
+      },
+      "book_key": "勝てるプロダクト開発の教科書"
+    }
+  ],
+  "metadata": {
+    "num_entities": 88,
+    "num_relationships": 229,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-30T21:25:03.491611",
+    "entity_resolution_applied": true,
+    "book_key": "勝てるプロダクト開発の教科書",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

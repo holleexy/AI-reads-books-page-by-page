@@ -1,0 +1,195 @@
+@prefix ex: <https://books.local/Bunka_Jinruigaku_no_Shikouhou/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/shapes> a owl:Ontology .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "読者に文化人類学の思考の道具箱を提供し、答えではなく探索のルートを伝える本書" ;
+    sh:property [
+        sh:path ex:authoredBy ;
+        sh:class ex:Anthropologist ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:providesThinking ;
+        sh:class ex:AnthropologicalThinking ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasTitle ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologistShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Anthropologist ;
+    sh:name "人類学者" ;
+    sh:description "日本・アジア・ヨーロッパ・アフリカで科学技術、宗教、芸術、経済、政治、家族、医療などを研究し教える専門家" ;
+    sh:property [
+        sh:path ex:conductsFieldwork ;
+        sh:class ex:Fieldwork ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:studies ;
+        sh:class ex:AnthropologicalConcept ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/CulturalAnthropologyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CulturalAnthropology ;
+    sh:name "文化人類学" ;
+    sh:description "現場の人々の感じ方を重視し、白黒判断ではなく絡み合った複雑さを描き出す学問" ;
+    sh:property [
+        sh:path ex:usesMethod ;
+        sh:class ex:Fieldwork ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/FieldworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Fieldwork ;
+    sh:name "フィールドワーク" ;
+    sh:description "参与観察の身体経験を通じ、他者理解と自己の前提の発見、既存概念の更新を行う方法" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnthropologicalThinking ;
+    sh:name "文化人類学的思考" ;
+    sh:description "特定の答えではなく、ルートの探索方法と目のつけどころを提供する思考" ;
+    sh:property [
+        sh:path ex:hasCoreDimension ;
+        sh:class ex:Closeness ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/ClosenessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Closeness ;
+    sh:name "近さ" ;
+    sh:description "フィールドワークで対象に肉薄し、五感を働かせ現場の違和感や問いから目をそらさないこと" ;
+    sh:property [
+        sh:path ex:hasCoreDimension ;
+        sh:class ex:Closeness ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/DistanceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Distance ;
+    sh:name "遠さ" ;
+    sh:description "ヤップ島の石貨や東アフリカの牧畜民など遠い事例との比較により固定観念を打ち砕くこと" ;
+    sh:property [
+        sh:path ex:defamiliarizes ;
+        sh:class ex:AnthropologicalConcept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCoreDimension ;
+        sh:class ex:Closeness ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/AnthropologicalConceptShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnthropologicalConcept ;
+    sh:name "人類学的概念" ;
+    sh:description "世界のとらえ方、価値と秩序、あらたな共同性を問い直すための分析概念" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/NatureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Nature ;
+    sh:name "自然" ;
+    sh:description "客観的実体ではなく文化的に構築された概念。多自然主義では複数の自然が想定される" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/CultureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Culture ;
+    sh:name "文化" ;
+    sh:description "人々の感じ方や考え方であり、他者理解を通じて自己の前提も発見される対象" ;
+    sh:property [
+        sh:path ex:culturallyConstructs ;
+        sh:class ex:Nature ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/TechnologyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Technology ;
+    sh:name "技術" ;
+    sh:description "ホモ・ファーベルとしての人間が作り、身体・社会・環世界を相互に条件づけ拡張するもの" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/MagicShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Magic ;
+    sh:name "呪術" ;
+    sh:description "類感・感染の連想、心理的社会的機能、野生の思考やネットワークとして分析される実践" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/ScienceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Science ;
+    sh:name "科学" ;
+    sh:description "社会的実践により構築され、アクターネットワーク論では呪術と本質的に区別されない事実" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/ArtShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Art ;
+    sh:name "芸術" ;
+    sh:description "制度的にいつ芸術になるかという問いと、社会的関係を媒介する指標として再定義される" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/GiftShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Gift ;
+    sh:name "贈与" ;
+    sh:description "与える・受け取る・お返しする義務を伴い、クラやポトラッチに見られる全体的社会的事実" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/MoneyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Money ;
+    sh:name "貨幣" ;
+    sh:description "商品起源説に対し、石貨やブロックチェーンのように記憶・合意・信用で機能するシステム" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/StateShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:State ;
+    sh:name "国家" ;
+    sh:description "ヌアー社会など国家なき秩序との対比により中央集権的権力を相対化する対象" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/NationStateShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:NationState ;
+    sh:name "国民国家" ;
+    sh:description "教育やメディアを通じて想像された共同体として形成され、グローバル化で揺らぐ枠組み" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/WarShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:War ;
+    sh:name "戦争" ;
+    sh:description "隣接集団との関係や普通の人が加害者となる文脈、自己再生産する暴力の連鎖として分析される" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/FamilyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Family ;
+    sh:name "家族" ;
+    sh:description "血縁だけでなく共に暮らす関係性により構築され、ジェンダーや生殖医療により再編される" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/CareShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Care ;
+    sh:name "ケア" ;
+    sh:description "選択の論理に対し必要性に寄り添う共同的・生態系的実践であり、基盤的コミュニズムでもある" .
+
+<https://books.local/Bunka_Jinruigaku_no_Shikouhou/CivilSocietyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CivilSociety ;
+    sh:name "市民社会" ;
+    sh:description "公式手段を持たない人々の逃散や日常的交渉によるしたたかな政治が営まれる場" .

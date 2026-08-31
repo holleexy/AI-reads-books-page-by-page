@@ -1,0 +1,7007 @@
+{
+  "entities": [
+    {
+      "id": "営業",
+      "name": "営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "営業",
+              "name": "営業",
+              "source": null
+            },
+            {
+              "id": "営業",
+              "name": "営業",
+              "source": null
+            },
+            {
+              "id": "営業手法",
+              "name": "営業手法",
+              "source": null
+            },
+            {
+              "id": "営業手法",
+              "name": "営業手法",
+              "source": null
+            },
+            {
+              "id": "営業担当者",
+              "name": "営業担当者",
+              "source": null
+            },
+            {
+              "id": "営業パーソン",
+              "name": "営業パーソン",
+              "source": null
+            },
+            {
+              "id": "営業パーソン",
+              "name": "営業パーソン",
+              "source": null
+            }
+          ],
+          "merge_count": 7
+        }
+      },
+      "merged_from": [
+        "営業",
+        "営業",
+        "営業手法",
+        "営業手法",
+        "営業担当者",
+        "営業パーソン",
+        "営業パーソン"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "アプローチ",
+      "name": "アプローチ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "アプローチ",
+              "name": "アプローチ",
+              "source": null
+            },
+            {
+              "id": "アプローチ",
+              "name": "アプローチ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "アプローチ",
+        "アプローチ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "顧客",
+      "name": "顧客",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "顧客",
+              "name": "顧客",
+              "source": null
+            },
+            {
+              "id": "顧客",
+              "name": "顧客",
+              "source": null
+            },
+            {
+              "id": "顧客側",
+              "name": "顧客側",
+              "source": null
+            },
+            {
+              "id": "顧客視点",
+              "name": "顧客視点",
+              "source": null
+            },
+            {
+              "id": "顧客のために",
+              "name": "顧客のために",
+              "source": null
+            },
+            {
+              "id": "顧客ロイヤリティ",
+              "name": "顧客ロイヤリティ",
+              "source": null
+            },
+            {
+              "id": "顧客の本当の気持ち",
+              "name": "顧客の本当の気持ち",
+              "source": null
+            },
+            {
+              "id": "顧客エンゲージメント",
+              "name": "顧客エンゲージメント",
+              "source": null
+            }
+          ],
+          "merge_count": 8
+        }
+      },
+      "merged_from": [
+        "顧客",
+        "顧客",
+        "顧客側",
+        "顧客視点",
+        "顧客のために",
+        "顧客ロイヤリティ",
+        "顧客の本当の気持ち",
+        "顧客エンゲージメント"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "knowing",
+      "name": "knowing",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "knowing",
+              "name": "knowing",
+              "source": null
+            },
+            {
+              "id": "knowing",
+              "name": "knowing",
+              "source": null
+            },
+            {
+              "id": "KPI",
+              "name": "KPI",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "knowing",
+        "knowing",
+        "KPI"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "されたい営業",
+      "name": "されたい営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "されたい営業",
+              "name": "されたい営業",
+              "source": null
+            },
+            {
+              "id": "されたい営業",
+              "name": "されたい営業",
+              "source": null
+            },
+            {
+              "id": "されたい",
+              "name": "されたい",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "されたい営業",
+        "されたい営業",
+        "されたい"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "シン・セールス理論",
+      "name": "シン・セールス理論",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "シン・セールス理論",
+              "name": "シン・セールス理論",
+              "source": null
+            },
+            {
+              "id": "シン・セールス理論",
+              "name": "シン・セールス理論",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "シン・セールス理論",
+        "シン・セールス理論"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "Shin Sales Theory",
+      "name": "Shin Sales Theory",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Shin Sales Theory",
+              "name": "Shin Sales Theory",
+              "source": null
+            },
+            {
+              "id": "Shin Sales Theory",
+              "name": "Shin Sales Theory",
+              "source": null
+            },
+            {
+              "id": "sales theory",
+              "name": "sales theory",
+              "source": null
+            },
+            {
+              "id": "Sales Tech",
+              "name": "Sales Tech",
+              "source": null
+            },
+            {
+              "id": "sales approach",
+              "name": "sales approach",
+              "source": null
+            },
+            {
+              "id": "Sales Force Automation",
+              "name": "Sales Force Automation",
+              "source": null
+            },
+            {
+              "id": "Solution",
+              "name": "Solution",
+              "source": null
+            },
+            {
+              "id": "Solution Selling",
+              "name": "Solution Selling",
+              "source": null
+            },
+            {
+              "id": "social media",
+              "name": "social media",
+              "source": null
+            },
+            {
+              "id": "social significance",
+              "name": "social significance",
+              "source": null
+            },
+            {
+              "id": "social contribution",
+              "name": "social contribution",
+              "source": null
+            },
+            {
+              "id": "significant minority",
+              "name": "significant minority",
+              "source": null
+            },
+            {
+              "id": "strategies",
+              "name": "strategies",
+              "source": null
+            },
+            {
+              "id": "substantial segment",
+              "name": "substantial segment",
+              "source": null
+            },
+            {
+              "id": "SFA",
+              "name": "SFA",
+              "source": null
+            }
+          ],
+          "merge_count": 15
+        }
+      },
+      "merged_from": [
+        "Shin Sales Theory",
+        "Shin Sales Theory",
+        "sales theory",
+        "Sales Tech",
+        "sales approach",
+        "Sales Force Automation",
+        "Solution",
+        "Solution Selling",
+        "social media",
+        "social significance",
+        "social contribution",
+        "significant minority",
+        "strategies",
+        "substantial segment",
+        "SFA"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "商談",
+      "name": "商談",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "商談",
+              "name": "商談",
+              "source": null
+            },
+            {
+              "id": "商談",
+              "name": "商談",
+              "source": null
+            },
+            {
+              "id": "商談・営業方法に関するアンケート",
+              "name": "商談・営業方法に関するアンケート",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "商談",
+        "商談",
+        "商談・営業方法に関するアンケート"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "コミュニケーション",
+      "name": "コミュニケーション",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "コミュニケーション",
+              "name": "コミュニケーション",
+              "source": null
+            },
+            {
+              "id": "コミュニケーション",
+              "name": "コミュニケーション",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "コミュニケーション",
+        "コミュニケーション"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "プッシュ営業",
+      "name": "プッシュ営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "プッシュ営業",
+              "name": "プッシュ営業",
+              "source": null
+            },
+            {
+              "id": "プッシュ営業",
+              "name": "プッシュ営業",
+              "source": null
+            },
+            {
+              "id": "プル型営業",
+              "name": "プル型営業",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "プッシュ営業",
+        "プッシュ営業",
+        "プル型営業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "日本",
+      "name": "日本",
+      "type": "GPE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "日本",
+              "name": "日本",
+              "source": null
+            },
+            {
+              "id": "日本",
+              "name": "日本",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "日本",
+        "日本"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "インサイト",
+      "name": "インサイト",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "インサイト",
+              "name": "インサイト",
+              "source": null
+            },
+            {
+              "id": "インサイト",
+              "name": "インサイト",
+              "source": null
+            },
+            {
+              "id": "インサイドセールス",
+              "name": "インサイドセールス",
+              "source": null
+            },
+            {
+              "id": "インターネットリサーチ",
+              "name": "インターネットリサーチ",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "インサイト",
+        "インサイト",
+        "インサイドセールス",
+        "インターネットリサーチ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "潜在ニーズ",
+      "name": "潜在ニーズ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "潜在ニーズ",
+              "name": "潜在ニーズ",
+              "source": null
+            },
+            {
+              "id": "潜在ニーズ",
+              "name": "潜在ニーズ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "潜在ニーズ",
+        "潜在ニーズ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "COVID-19",
+      "name": "COVID-19",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "COVID-19",
+              "name": "COVID-19",
+              "source": null
+            },
+            {
+              "id": "COVID-19",
+              "name": "COVID-19",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "COVID-19",
+        "COVID-19"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "コロナ禍",
+      "name": "コロナ禍",
+      "type": "EVENT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "コロナ禍",
+              "name": "コロナ禍",
+              "source": null
+            },
+            {
+              "id": "コロナ禍",
+              "name": "コロナ禍",
+              "source": null
+            },
+            {
+              "id": "コロナ",
+              "name": "コロナ",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "コロナ禍",
+        "コロナ禍",
+        "コロナ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "アフターコロナ",
+      "name": "アフターコロナ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "アフターコロナ",
+              "name": "アフターコロナ",
+              "source": null
+            },
+            {
+              "id": "アフターコロナ",
+              "name": "アフターコロナ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "アフターコロナ",
+        "アフターコロナ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "マクロミル",
+      "name": "マクロミル",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "マクロミル",
+              "name": "マクロミル",
+              "source": null
+            },
+            {
+              "id": "マクロミル",
+              "name": "マクロミル",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "マクロミル",
+        "マクロミル"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "著者",
+      "name": "著者",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "著者",
+              "name": "著者",
+              "source": null
+            },
+            {
+              "id": "著者",
+              "name": "著者",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "著者",
+        "著者"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "オンライン商談",
+      "name": "オンライン商談",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "オンライン商談",
+              "name": "オンライン商談",
+              "source": null
+            },
+            {
+              "id": "オンライン商談",
+              "name": "オンライン商談",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "オンライン商談",
+        "オンライン商談"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "in-person meetings",
+      "name": "in-person meetings",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "in-person meetings",
+              "name": "in-person meetings",
+              "source": null
+            },
+            {
+              "id": "in-person meetings",
+              "name": "in-person meetings",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "in-person meetings",
+        "in-person meetings"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "2020",
+      "name": "2020",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "2020",
+              "name": "2020",
+              "source": null
+            },
+            {
+              "id": "2020年",
+              "name": "2020年",
+              "source": null
+            },
+            {
+              "id": "2020年8月7日",
+              "name": "2020年8月7日",
+              "source": null
+            },
+            {
+              "id": "2021年",
+              "name": "2021年",
+              "source": null
+            },
+            {
+              "id": "2022年",
+              "name": "2022年",
+              "source": null
+            },
+            {
+              "id": "2021年11月26～30日",
+              "name": "2021年11月26～30日",
+              "source": null
+            },
+            {
+              "id": "2021年11月26日〜11月30日",
+              "name": "2021年11月26日〜11月30日",
+              "source": null
+            }
+          ],
+          "merge_count": 7
+        }
+      },
+      "merged_from": [
+        "2020",
+        "2020年",
+        "2020年8月7日",
+        "2021年",
+        "2022年",
+        "2021年11月26～30日",
+        "2021年11月26日〜11月30日"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ソリューション",
+      "name": "ソリューション",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ソリューション",
+              "name": "ソリューション",
+              "source": null
+            },
+            {
+              "id": "ソリューション営業",
+              "name": "ソリューション営業",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ソリューション",
+        "ソリューション営業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "心理学者",
+      "name": "心理学者",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "心理学者",
+              "name": "心理学者",
+              "source": null
+            },
+            {
+              "id": "心理学",
+              "name": "心理学",
+              "source": null
+            },
+            {
+              "id": "心理错觉",
+              "name": "心理错觉",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "心理学者",
+        "心理学",
+        "心理错觉"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "法人営業",
+      "name": "法人営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "法人営業",
+              "name": "法人営業",
+              "source": null
+            },
+            {
+              "id": "法人営業向け",
+              "name": "法人営業向け",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "法人営業",
+        "法人営業向け"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "BtoB営業",
+      "name": "BtoB営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "BtoB営業",
+              "name": "BtoB営業",
+              "source": null
+            },
+            {
+              "id": "BtoC営業",
+              "name": "BtoC営業",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "BtoB営業",
+        "BtoC営業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "セールス",
+      "name": "セールス",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "セールス",
+              "name": "セールス",
+              "source": null
+            },
+            {
+              "id": "セールステック",
+              "name": "セールステック",
+              "source": null
+            },
+            {
+              "id": "セールスコンテンツ",
+              "name": "セールスコンテンツ",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "セールス",
+        "セールステック",
+        "セールスコンテンツ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "マーケティング戦略",
+      "name": "マーケティング戦略",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "マーケティング戦略",
+              "name": "マーケティング戦略",
+              "source": null
+            },
+            {
+              "id": "マーケティング施策",
+              "name": "マーケティング施策",
+              "source": null
+            },
+            {
+              "id": "マーケティングオートメーション",
+              "name": "マーケティングオートメーション",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "マーケティング戦略",
+        "マーケティング施策",
+        "マーケティングオートメーション"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "対面での商談",
+      "name": "対面での商談",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "対面での商談",
+              "name": "対面での商談",
+              "source": null
+            },
+            {
+              "id": "対面商談",
+              "name": "対面商談",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "対面での商談",
+        "対面商談"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "customer service",
+      "name": "customer service",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "customer service",
+              "name": "customer service",
+              "source": null
+            },
+            {
+              "id": "customer needs",
+              "name": "customer needs",
+              "source": null
+            },
+            {
+              "id": "customer emotions/preferences",
+              "name": "customer emotions/preferences",
+              "source": null
+            },
+            {
+              "id": "Customer Relationship Management",
+              "name": "Customer Relationship Management",
+              "source": null
+            },
+            {
+              "id": "countermeasures",
+              "name": "countermeasures",
+              "source": null
+            },
+            {
+              "id": "CRM",
+              "name": "CRM",
+              "source": null
+            },
+            {
+              "id": "Celebrix Sales Company",
+              "name": "Celebrix Sales Company",
+              "source": null
+            }
+          ],
+          "merge_count": 7
+        }
+      },
+      "merged_from": [
+        "customer service",
+        "customer needs",
+        "customer emotions/preferences",
+        "Customer Relationship Management",
+        "countermeasures",
+        "CRM",
+        "Celebrix Sales Company"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ホット",
+      "name": "ホット",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ホット",
+              "name": "ホット",
+              "source": null
+            },
+            {
+              "id": "ホットリード",
+              "name": "ホットリード",
+              "source": null
+            },
+            {
+              "id": "ホワイトペーパー",
+              "name": "ホワイトペーパー",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "ホット",
+        "ホットリード",
+        "ホワイトペーパー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "Online Merges with Offline",
+      "name": "Online Merges with Offline",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Online Merges with Offline",
+              "name": "Online Merges with Offline",
+              "source": null
+            },
+            {
+              "id": "online meetings",
+              "name": "online meetings",
+              "source": null
+            },
+            {
+              "id": "online negotiations",
+              "name": "online negotiations",
+              "source": null
+            },
+            {
+              "id": "online only",
+              "name": "online only",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "Online Merges with Offline",
+        "online meetings",
+        "online negotiations",
+        "online only"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "企業戦略",
+      "name": "企業戦略",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "企業戦略",
+              "name": "企業戦略",
+              "source": null
+            },
+            {
+              "id": "企業",
+              "name": "企業",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "企業戦略",
+        "企業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "3C分析",
+      "name": "3C分析",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "3C分析",
+              "name": "3C分析",
+              "source": null
+            },
+            {
+              "id": "3C",
+              "name": "3C",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "3C分析",
+        "3C"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "data analysis",
+      "name": "data analysis",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "data analysis",
+              "name": "data analysis",
+              "source": null
+            },
+            {
+              "id": "Data",
+              "name": "Data",
+              "source": null
+            },
+            {
+              "id": "Dark Social",
+              "name": "Dark Social",
+              "source": null
+            },
+            {
+              "id": "desecration",
+              "name": "desecration",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "data analysis",
+        "Data",
+        "Dark Social",
+        "desecration"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ウェビナー",
+      "name": "ウェビナー",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ウェビナー",
+              "name": "ウェビナー",
+              "source": null
+            },
+            {
+              "id": "ウェブセミナー",
+              "name": "ウェブセミナー",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ウェビナー",
+        "ウェブセミナー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "売り方",
+      "name": "売り方",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "売り方",
+              "name": "売り方",
+              "source": null
+            },
+            {
+              "id": "売り手",
+              "name": "売り手",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "売り方",
+        "売り手"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "アウトコール",
+      "name": "アウトコール",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "アウトコール",
+              "name": "アウトコール",
+              "source": null
+            },
+            {
+              "id": "アカウントセールス",
+              "name": "アカウントセールス",
+              "source": null
+            },
+            {
+              "id": "アウトバウンド営業",
+              "name": "アウトバウンド営業",
+              "source": null
+            },
+            {
+              "id": "アウトバウンド営業",
+              "name": "アウトバウンド営業",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "アウトコール",
+        "アカウントセールス",
+        "アウトバウンド営業",
+        "アウトバウンド営業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "mastery",
+      "name": "mastery",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "mastery",
+              "name": "mastery",
+              "source": null
+            },
+            {
+              "id": "MA",
+              "name": "MA",
+              "source": null
+            },
+            {
+              "id": "majority",
+              "name": "majority",
+              "source": null
+            },
+            {
+              "id": "Manifest Needs",
+              "name": "Manifest Needs",
+              "source": null
+            },
+            {
+              "id": "Marketo",
+              "name": "Marketo",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "mastery",
+        "MA",
+        "majority",
+        "Manifest Needs",
+        "Marketo"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "第1章",
+      "name": "第1章",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "第1章",
+              "name": "第1章",
+              "source": null
+            },
+            {
+              "id": "第2章",
+              "name": "第2章",
+              "source": null
+            },
+            {
+              "id": "第3章",
+              "name": "第3章",
+              "source": null
+            },
+            {
+              "id": "第4章",
+              "name": "第4章",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "第1章",
+        "第2章",
+        "第3章",
+        "第4章"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "自社",
+      "name": "自社",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "自社",
+              "name": "自社",
+              "source": null
+            },
+            {
+              "id": "自社製品",
+              "name": "自社製品",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "自社",
+        "自社製品"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "purchasing behavior",
+      "name": "purchasing behavior",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "purchasing behavior",
+              "name": "purchasing behavior",
+              "source": null
+            },
+            {
+              "id": "Purpose",
+              "name": "Purpose",
+              "source": null
+            },
+            {
+              "id": "pandemic",
+              "name": "pandemic",
+              "source": null
+            },
+            {
+              "id": "Pardot",
+              "name": "Pardot",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "purchasing behavior",
+        "Purpose",
+        "pandemic",
+        "Pardot"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "購買者",
+      "name": "購買者",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "購買者",
+              "name": "購買者",
+              "source": null
+            },
+            {
+              "id": "購買ルール",
+              "name": "購買ルール",
+              "source": null
+            },
+            {
+              "id": "購買検討企業",
+              "name": "購買検討企業",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "購買者",
+        "購買ルール",
+        "購買検討企業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "the difference between heaven and earth",
+      "name": "the difference between heaven and earth",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "the difference between heaven and earth",
+              "name": "the difference between heaven and earth",
+              "source": null
+            },
+            {
+              "id": "theory",
+              "name": "theory",
+              "source": null
+            },
+            {
+              "id": "Tokyo",
+              "name": "Tokyo",
+              "source": null
+            },
+            {
+              "id": "Touchpoint",
+              "name": "Touchpoint",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "the difference between heaven and earth",
+        "theory",
+        "Tokyo",
+        "Touchpoint"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "リード",
+      "name": "リード",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "リード",
+              "name": "リード",
+              "source": null
+            },
+            {
+              "id": "リモートワーク",
+              "name": "リモートワーク",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "リード",
+        "リモートワーク"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "summer 2020",
+      "name": "summer 2020",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "summer 2020",
+              "name": "summer 2020",
+              "source": null
+            },
+            {
+              "id": "survey",
+              "name": "survey",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "summer 2020",
+        "survey"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "提供者側",
+      "name": "提供者側",
+      "text": "提供者側",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "したい",
+      "name": "したい",
+      "text": "したい",
+      "type": "CONCEPT",
+      "confidence": 0.79,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "知っている",
+      "name": "知っている",
+      "text": "知っている",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "being able to do",
+      "name": "being able to do",
+      "text": "being able to do",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "できる",
+      "name": "できる",
+      "text": "できる",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "天地の差",
+      "name": "天地の差",
+      "text": "天地の差",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "communication",
+      "name": "communication",
+      "text": "communication",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "繰り返しトレーニング",
+      "name": "繰り返しトレーニング",
+      "text": "繰り返しトレーニング",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "血肉となる",
+      "name": "血肉となる",
+      "text": "血肉となる",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "知るのその先",
+      "name": "知るのその先",
+      "text": "知るのその先",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "practical application",
+      "name": "practical application",
+      "text": "practical application",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "后疫情时代",
+      "name": "后疫情时代",
+      "text": "后疫情时代",
+      "type": "DATE",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "新常态",
+      "name": "新常态",
+      "text": "新常态",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "销售技巧",
+      "name": "销售技巧",
+      "text": "销售技巧",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "客户",
+      "name": "客户",
+      "text": "客户",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "お客様",
+      "name": "お客様",
+      "text": "お客様",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "商业实践",
+      "name": "商业实践",
+      "text": "商业实践",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "note",
+      "name": "note",
+      "text": "note",
+      "type": "ORG",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "新销售理论",
+      "name": "新销售理论",
+      "text": "新销售理论",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "疫情",
+      "name": "疫情",
+      "text": "疫情",
+      "type": "EVENT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "作者",
+      "name": "作者",
+      "text": "作者",
+      "type": "PERSON",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "物理层面的巨变",
+      "name": "物理层面的巨变",
+      "text": "物理层面的巨变",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "社交趋势",
+      "name": "社交趋势",
+      "text": "社交趋势",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "结构性转变",
+      "name": "结构性转变",
+      "text": "结构性转变",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "April 2022",
+      "name": "April 2022",
+      "text": "April 2022",
+      "type": "DATE",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "べき論",
+      "name": "べき論",
+      "text": "べき論",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "prescriptive 'should-do' theories",
+      "name": "prescriptive 'should-do' theories",
+      "text": "prescriptive 'should-do' theories",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "知る→学ぶ→活かすのサイクル",
+      "name": "知る→学ぶ→活かすのサイクル",
+      "text": "知る→学ぶ→活かすのサイクル",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "戦略",
+      "name": "戦略",
+      "text": "戦略",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "コンテンツ",
+      "name": "コンテンツ",
+      "text": "コンテンツ",
+      "type": "CONCEPT",
+      "confidence": 0.83,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "新規顧客の開拓",
+      "name": "新規顧客の開拓",
+      "text": "新規顧客の開拓",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "個人向け営業",
+      "name": "個人向け営業",
+      "text": "個人向け営業",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "既存顧客営業",
+      "name": "既存顧客営業",
+      "text": "既存顧客営業",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ルート営業",
+      "name": "ルート営業",
+      "text": "ルート営業",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "アイスブレイク",
+      "name": "アイスブレイク",
+      "text": "アイスブレイク",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "アジェンダ",
+      "name": "アジェンダ",
+      "text": "アジェンダ",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ラテン語",
+      "name": "ラテン語",
+      "text": "ラテン語",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "英語",
+      "name": "英語",
+      "text": "英語",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "レジュメ",
+      "name": "レジュメ",
+      "text": "レジュメ",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "具体化商談",
+      "name": "具体化商談",
+      "text": "具体化商談",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "検討段階",
+      "name": "検討段階",
+      "text": "検討段階",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "提案書",
+      "name": "提案書",
+      "text": "提案書",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "見積もり書",
+      "name": "見積もり書",
+      "text": "見積もり書",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "クロージング",
+      "name": "クロージング",
+      "text": "クロージング",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "洞察力",
+      "name": "洞察力",
+      "text": "洞察力",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "本質を見抜く力",
+      "name": "本質を見抜く力",
+      "text": "本質を見抜く力",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "内勤営業",
+      "name": "内勤営業",
+      "text": "内勤営業",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "Web会議システム",
+      "name": "Web会議システム",
+      "text": "Web会議システム",
+      "type": "PRODUCT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "訪問型営業",
+      "name": "訪問型営業",
+      "text": "訪問型営業",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "フィールドセールス",
+      "name": "フィールドセールス",
+      "text": "フィールドセールス",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "インバウンド営業",
+      "name": "インバウンド営業",
+      "text": "インバウンド営業",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "反響営業",
+      "name": "反響営業",
+      "text": "反響営業",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "エンゲージメント",
+      "name": "エンゲージメント",
+      "text": "エンゲージメント",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "OMO",
+      "name": "OMO",
+      "text": "OMO",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "カスタマージャーニーマップ",
+      "name": "カスタマージャーニーマップ",
+      "text": "カスタマージャーニーマップ",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "キードライバー",
+      "name": "キードライバー",
+      "text": "キードライバー",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "目標達成",
+      "name": "目標達成",
+      "text": "目標達成",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "受注・契約",
+      "name": "受注・契約",
+      "text": "受注・契約",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "個別評価要因",
+      "name": "個別評価要因",
+      "text": "個別評価要因",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "場創りのキードライバー",
+      "name": "場創りのキードライバー",
+      "text": "場創りのキードライバー",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "関係構築",
+      "name": "関係構築",
+      "text": "関係構築",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "情熱強化",
+      "name": "情熱強化",
+      "text": "情熱強化",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "プロジェクト化",
+      "name": "プロジェクト化",
+      "text": "プロジェクト化",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ケイパビリティ",
+      "name": "ケイパビリティ",
+      "text": "ケイパビリティ",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "Key Performance Indicator",
+      "name": "Key Performance Indicator",
+      "text": "Key Performance Indicator",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "重要業績評価指標",
+      "name": "重要業績評価指標",
+      "text": "重要業績評価指標",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ザイオンス効果",
+      "name": "ザイオンス効果",
+      "text": "ザイオンス効果",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "単純接触効果",
+      "name": "単純接触効果",
+      "text": "単純接触効果",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "アメリカ",
+      "name": "アメリカ",
+      "text": "アメリカ",
+      "type": "GPE",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ロバート・ザイオンス",
+      "name": "ロバート・ザイオンス",
+      "text": "ロバート・ザイオンス",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "事業計画",
+      "name": "事業計画",
+      "text": "事業計画",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "フレームワーク",
+      "name": "フレームワーク",
+      "text": "フレームワーク",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "市場・顧客",
+      "name": "市場・顧客",
+      "text": "市場・顧客",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "競合",
+      "name": "競合",
+      "text": "競合",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "Latent Needs",
+      "name": "Latent Needs",
+      "text": "Latent Needs",
+      "type": "CONCEPT",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "insights",
+      "name": "insights",
+      "text": "insights",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "顕在ニーズ",
+      "name": "顕在ニーズ",
+      "text": "顕在ニーズ",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ダークソーシャル",
+      "name": "ダークソーシャル",
+      "text": "ダークソーシャル",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "DMs",
+      "name": "DMs",
+      "text": "DMs",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "タッチポイント",
+      "name": "タッチポイント",
+      "text": "タッチポイント",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "パーパス",
+      "name": "パーパス",
+      "text": "パーパス",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "reason for existence",
+      "name": "reason for existence",
+      "text": "reason for existence",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "存在意義",
+      "name": "存在意義",
+      "text": "存在意義",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "社会的存在意義",
+      "name": "社会的存在意義",
+      "text": "社会的存在意義",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "business strategy",
+      "name": "business strategy",
+      "text": "business strategy",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "白書",
+      "name": "白書",
+      "text": "白書",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "e-Book",
+      "name": "e-Book",
+      "text": "e-Book",
+      "type": "PRODUCT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "お役立ち資料",
+      "name": "お役立ち資料",
+      "text": "お役立ち資料",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ラポール",
+      "name": "ラポール",
+      "text": "ラポール",
+      "type": "CONCEPT",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "フランス語",
+      "name": "フランス語",
+      "text": "フランス語",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "カウンセリング",
+      "name": "カウンセリング",
+      "text": "カウンセリング",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "見込み客",
+      "name": "見込み客",
+      "text": "見込み客",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "将来顧客",
+      "name": "将来顧客",
+      "text": "将来顧客",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ロイヤリティ",
+      "name": "ロイヤリティ",
+      "text": "ロイヤリティ",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "製品",
+      "name": "製品",
+      "text": "製品",
+      "type": "PRODUCT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "信頼",
+      "name": "信頼",
+      "text": "信頼",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "愛着",
+      "name": "愛着",
+      "text": "愛着",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ポジティブな感情",
+      "name": "ポジティブな感情",
+      "text": "ポジティブな感情",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "口コミ",
+      "name": "口コミ",
+      "text": "口コミ",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "紹介",
+      "name": "紹介",
+      "text": "紹介",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "理想の営業",
+      "name": "理想の営業",
+      "text": "理想の営業",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "電話",
+      "name": "電話",
+      "text": "電話",
+      "type": "PRODUCT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "新型コロナウイルス感染症（COVID-19）",
+      "name": "新型コロナウイルス感染症（COVID-19）",
+      "text": "新型コロナウイルス感染症（COVID-19）",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "キーパーソン",
+      "name": "キーパーソン",
+      "text": "キーパーソン",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "買う側の気持ち",
+      "name": "買う側の気持ち",
+      "text": "買う側の気持ち",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ウィズコロナ",
+      "name": "ウィズコロナ",
+      "text": "ウィズコロナ",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "最初の年",
+      "name": "最初の年",
+      "text": "最初の年",
+      "type": "DATE",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ステイホーム期間中",
+      "name": "ステイホーム期間中",
+      "text": "ステイホーム期間中",
+      "type": "DATE",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "ビジネス環境",
+      "name": "ビジネス環境",
+      "text": "ビジネス環境",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "情報収集",
+      "name": "情報収集",
+      "text": "情報収集",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "考察",
+      "name": "考察",
+      "text": "考察",
+      "type": "CONCEPT",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "健全な疑い",
+      "name": "健全な疑い",
+      "text": "健全な疑い",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "データ分析",
+      "name": "データ分析",
+      "text": "データ分析",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "調査",
+      "name": "調査",
+      "text": "調査",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "感染拡大",
+      "name": "感染拡大",
+      "text": "感染拡大",
+      "type": "EVENT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "アンケート調査",
+      "name": "アンケート調査",
+      "text": "アンケート調査",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "IT関連企業",
+      "name": "IT関連企業",
+      "text": "IT関連企業",
+      "type": "ORG",
+      "confidence": 0.71,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "デジタルツール",
+      "name": "デジタルツール",
+      "text": "デジタルツール",
+      "type": "PRODUCT",
+      "confidence": 0.83,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "バイアス",
+      "name": "バイアス",
+      "text": "バイアス",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "分析者",
+      "name": "分析者",
+      "text": "分析者",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "冒涜",
+      "name": "冒涜",
+      "text": "冒涜",
+      "type": "CONCEPT",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "対策",
+      "name": "対策",
+      "text": "対策",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "face-to-face",
+      "name": "face-to-face",
+      "text": "face-to-face",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "mostly online",
+      "name": "mostly online",
+      "text": "mostly online",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "about half-and-half",
+      "name": "about half-and-half",
+      "text": "about half-and-half",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "id": "actual current state",
+      "name": "actual current state",
+      "text": "actual current state",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "したい",
+      "target": "提供者側",
+      "type": "is_viewpoint_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "されたい",
+      "target": "顧客側",
+      "type": "is_viewpoint_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "したい",
+      "target": "されたい",
+      "type": "differs_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "営業",
+      "target": "提供者側",
+      "type": "involves",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "営業",
+      "target": "顧客側",
+      "type": "involves",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "営業担当者",
+      "target": "アプローチ",
+      "type": "wants_to_provide",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "顧客",
+      "target": "アプローチ",
+      "type": "wants_to_receive",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "knowing",
+      "target": "知っている",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "being able to do",
+      "target": "できる",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "the difference between heaven and earth",
+      "target": "天地の差",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "knowing",
+      "target": "being able to do",
+      "type": "fundamentally_different_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "知っている",
+      "target": "できる",
+      "type": "fundamentally_different_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "customer service",
+      "target": "sales approach",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "sales approach",
+      "target": "されたい営業",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "sales approach",
+      "target": "communication",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "customer service",
+      "target": "communication",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "繰り返しトレーニング",
+      "target": "血肉となる",
+      "type": "leads_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "knowing",
+      "target": "知るのその先",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "knowing",
+      "target": "practical application",
+      "type": "precedes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "knowing",
+      "target": "mastery",
+      "type": "precedes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "practical application",
+      "target": "mastery",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "后疫情时代",
+      "target": "新常态",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "销售技巧",
+      "target": "売り方",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "客户",
+      "target": "お客様",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "销售技巧",
+      "target": "客户",
+      "type": "contrasted_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "销售技巧",
+      "target": "商业实践",
+      "type": "overemphasized_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "客户",
+      "target": "商业实践",
+      "type": "underunderstood_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "シン・セールス理論",
+      "target": "新销售理论",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "シン・セールス理論",
+      "target": "Shin Sales Theory",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "シン・セールス理論",
+      "target": "note",
+      "type": "published_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "シン・セールス理論",
+      "target": "2020年8月7日",
+      "type": "published_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "疫情",
+      "target": "物理层面的巨变",
+      "type": "caused",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "作者",
+      "target": "物理层面的巨变",
+      "type": "acknowledges",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "作者",
+      "target": "社交趋势",
+      "type": "attributes_perceived_changes_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "作者",
+      "target": "心理错觉",
+      "type": "attributes_perceived_changes_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "作者",
+      "target": "结构性转变",
+      "type": "denies_as_actual",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "シン・セールス理論",
+      "target": "Shin Sales Theory",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "シン・セールス理論",
+      "target": "2020",
+      "type": "published_around",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Shin Sales Theory",
+      "target": "2020",
+      "type": "published_around",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "シン・セールス理論",
+      "target": "April 2022",
+      "type": "gained_attention_by",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Shin Sales Theory",
+      "target": "April 2022",
+      "type": "gained_attention_by",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "sales theory",
+      "target": "pandemic",
+      "type": "developed_in_response_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "theory",
+      "target": "summer 2020",
+      "type": "originates_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "author",
+      "target": "theory",
+      "type": "had_doubts_about",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "theory",
+      "target": "purchasing behavior",
+      "type": "based_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "べき論",
+      "target": "prescriptive 'should-do' theories",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第1章",
+      "target": "知る→学ぶ→活かすのサイクル",
+      "type": "part_of",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第2章",
+      "target": "知る→学ぶ→活かすのサイクル",
+      "type": "part_of",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第3章",
+      "target": "知る→学ぶ→活かすのサイクル",
+      "type": "part_of",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第4章",
+      "target": "知る→学ぶ→活かすのサイクル",
+      "type": "part_of",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第1章",
+      "target": "第2章",
+      "type": "precedes",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第2章",
+      "target": "第3章",
+      "type": "precedes",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第3章",
+      "target": "第4章",
+      "type": "precedes",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "購買者",
+      "target": "されたい営業",
+      "type": "related_to",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第1章",
+      "target": "されたい営業",
+      "type": "focuses_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第2章",
+      "target": "されたい営業",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第2章",
+      "target": "戦略",
+      "type": "related_to",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第3章",
+      "target": "されたい営業",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第3章",
+      "target": "商談",
+      "type": "related_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第4章",
+      "target": "されたい営業",
+      "type": "related_to",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第4章",
+      "target": "商談",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "第4章",
+      "target": "コンテンツ",
+      "type": "enables_creation_of",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "法人営業",
+      "target": "BtoB営業",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "個人向け営業",
+      "target": "BtoC営業",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "法人営業",
+      "target": "新規顧客の開拓",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "BtoB営業",
+      "target": "新規顧客の開拓",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "法人営業向け",
+      "target": "法人営業",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "個人向け営業",
+      "target": "法人営業",
+      "type": "contrasts_with",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "既存顧客営業",
+      "target": "新規顧客の開拓",
+      "type": "contrasts_with",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ルート営業",
+      "target": "既存顧客営業",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アイスブレイク",
+      "target": "コミュニケーション",
+      "type": "facilitates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アウトコール",
+      "target": "アウトバウンド営業",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アウトバウンド営業",
+      "target": "プッシュ営業",
+      "type": "also_known_as",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アウトコール",
+      "target": "プッシュ営業",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アウトバウンド営業",
+      "target": "プッシュ営業",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "営業パーソン",
+      "target": "売り手",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アウトバウンド営業",
+      "target": "営業パーソン",
+      "type": "performed_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アカウントセールス",
+      "target": "営業手法",
+      "type": "is_a",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アカウントセールス",
+      "target": "営業パーソン",
+      "type": "involves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アジェンダ",
+      "target": "ラテン語",
+      "type": "originates_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アジェンダ",
+      "target": "英語",
+      "type": "has_meaning_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アジェンダ",
+      "target": "日本",
+      "type": "used_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アジェンダ",
+      "target": "レジュメ",
+      "type": "different_from",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "具体化商談",
+      "target": "検討段階",
+      "type": "enters",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "具体化商談",
+      "target": "提案書",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "具体化商談",
+      "target": "見積もり書",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "提案書",
+      "target": "購買検討企業",
+      "type": "sent_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "見積もり書",
+      "target": "購買検討企業",
+      "type": "sent_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "具体化商談",
+      "target": "クロージング",
+      "type": "aims_to_achieve",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "クロージング",
+      "target": "購買検討企業",
+      "type": "targets",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "インサイト",
+      "target": "洞察力",
+      "type": "means",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "インサイト",
+      "target": "本質を見抜く力",
+      "type": "means",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "インサイト",
+      "target": "潜在ニーズ",
+      "type": "deeper_than",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "インサイドセールス",
+      "target": "内勤営業",
+      "type": "defined_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "インサイドセールス",
+      "target": "Web会議システム",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "訪問型営業",
+      "target": "フィールドセールス",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "インサイドセールス",
+      "target": "フィールドセールス",
+      "type": "contrasted_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "インバウンド営業",
+      "target": "プル型営業",
+      "type": "also_called",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "インバウンド営業",
+      "target": "反響営業",
+      "type": "also_called",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "エンゲージメント",
+      "target": "顧客エンゲージメント",
+      "type": "also_expressed_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "OMO",
+      "target": "Online Merges with Offline",
+      "type": "stands_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "キードライバー",
+      "target": "目標達成",
+      "type": "influences",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "キードライバー",
+      "target": "個別評価要因",
+      "type": "is_a",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "目標達成",
+      "target": "セールス",
+      "type": "in_context_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "セールス",
+      "target": "受注・契約",
+      "type": "achieves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "場創りのキードライバー",
+      "target": "営業",
+      "type": "used_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "場創りのキードライバー",
+      "target": "キードライバー",
+      "type": "is_a",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "場創りのキードライバー",
+      "target": "セールスコンテンツ",
+      "type": "includes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "場創りのキードライバー",
+      "target": "関係構築",
+      "type": "includes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "場創りのキードライバー",
+      "target": "情熱強化",
+      "type": "includes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "場創りのキードライバー",
+      "target": "プロジェクト化",
+      "type": "includes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ケイパビリティ",
+      "target": "企業戦略",
+      "type": "is_concept_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "KPI",
+      "target": "Key Performance Indicator",
+      "type": "is_abbreviation_of",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "KPI",
+      "target": "重要業績評価指標",
+      "type": "translated_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Key Performance Indicator",
+      "target": "重要業績評価指標",
+      "type": "translated_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ザイオンス効果",
+      "target": "単純接触効果",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ザイオンス効果",
+      "target": "ロバート・ザイオンス",
+      "type": "created_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ロバート・ザイオンス",
+      "target": "心理学者",
+      "type": "is_a",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ロバート・ザイオンス",
+      "target": "アメリカ",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "3C分析",
+      "target": "フレームワーク",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "3C分析",
+      "target": "事業計画",
+      "type": "used_to_analyze",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "3C分析",
+      "target": "マーケティング戦略",
+      "type": "used_to_analyze",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "3C分析",
+      "target": "3C",
+      "type": "based_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "3C",
+      "target": "自社",
+      "type": "derived_from_initials_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "3C",
+      "target": "市場・顧客",
+      "type": "derived_from_initials_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "3C",
+      "target": "競合",
+      "type": "derived_from_initials_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Sales Tech",
+      "target": "セールステック",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Sales Tech",
+      "target": "SFA",
+      "type": "refers_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Sales Tech",
+      "target": "CRM",
+      "type": "refers_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "SFA",
+      "target": "Sales Force Automation",
+      "type": "stands_for",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "CRM",
+      "target": "Customer Relationship Management",
+      "type": "stands_for",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Latent Needs",
+      "target": "潜在ニーズ",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "insights",
+      "target": "インサイト",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Manifest Needs",
+      "target": "顕在ニーズ",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Latent Needs",
+      "target": "insights",
+      "type": "unlike",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Latent Needs",
+      "target": "Manifest Needs",
+      "type": "contrasts_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Solution",
+      "target": "ソリューション (CONCEPT)",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Solution Selling",
+      "target": "ソリューション営業 (CONCEPT)",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Solution Selling",
+      "target": "Solution",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ソリューション営業 (CONCEPT)",
+      "target": "ソリューション (CONCEPT)",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Dark Social",
+      "target": "ダークソーシャル",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Dark Social",
+      "target": "DMs",
+      "type": "includes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Dark Social",
+      "target": "social media",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "DMs",
+      "target": "social media",
+      "type": "part_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Touchpoint",
+      "target": "タッチポイント",
+      "type": "translated_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Purpose",
+      "target": "パーパス",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Purpose",
+      "target": "reason for existence",
+      "type": "defined_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Purpose",
+      "target": "social significance",
+      "type": "defined_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "reason for existence",
+      "target": "存在意義",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "social significance",
+      "target": "社会的存在意義",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Purpose",
+      "target": "social contribution",
+      "type": "represents",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Purpose",
+      "target": "business strategy",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "プッシュ営業",
+      "target": "アウトバウンド営業",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ホットリード",
+      "target": "ホット",
+      "type": "example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ホワイトペーパー",
+      "target": "白書",
+      "type": "originally_means",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ホワイトペーパー",
+      "target": "お役立ち資料",
+      "type": "refers_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "e-Book",
+      "target": "お役立ち資料",
+      "type": "is_example_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "MA",
+      "target": "マーケティングオートメーション",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Pardot",
+      "target": "マーケティングオートメーション",
+      "type": "is_tool_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Marketo",
+      "target": "マーケティングオートメーション",
+      "type": "is_tool_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Pardot",
+      "target": "日本",
+      "type": "famous_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Marketo",
+      "target": "日本",
+      "type": "famous_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ラポール",
+      "target": "フランス語",
+      "type": "originates_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ラポール",
+      "target": "心理学",
+      "type": "defined_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ラポール",
+      "target": "営業",
+      "type": "important_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ラポール",
+      "target": "カウンセリング",
+      "type": "important_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "リード",
+      "target": "見込み客",
+      "type": "is_information_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "見込み客",
+      "target": "将来顧客",
+      "type": "may_become",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ロイヤリティ",
+      "target": "顧客ロイヤリティ",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ロイヤリティ",
+      "target": "ポジティブな感情",
+      "type": "is_a",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "顧客ロイヤリティ",
+      "target": "企業",
+      "type": "directed_towards",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "顧客ロイヤリティ",
+      "target": "製品",
+      "type": "directed_towards",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ロイヤリティ",
+      "target": "信頼",
+      "type": "includes",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ロイヤリティ",
+      "target": "愛着",
+      "type": "includes",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "信頼",
+      "target": "ポジティブな感情",
+      "type": "is_a",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "愛着",
+      "target": "ポジティブな感情",
+      "type": "is_a",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "顧客",
+      "target": "ロイヤリティ",
+      "type": "has",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "顧客",
+      "target": "自社製品",
+      "type": "promotes",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ロイヤリティ",
+      "target": "口コミ",
+      "type": "basis_for",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ロイヤリティ",
+      "target": "紹介",
+      "type": "basis_for",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "自社製品",
+      "target": "製品",
+      "type": "related_to",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "営業",
+      "target": "理想の営業",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "対面での商談",
+      "target": "理想の営業",
+      "type": "example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "顧客",
+      "target": "電話",
+      "type": "interacts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "コミュニケーション",
+      "target": "電話",
+      "type": "possible_without",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "新型コロナウイルス感染症（COVID-19）",
+      "target": "COVID-19",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "新型コロナウイルス感染症（COVID-19）",
+      "target": "営業パーソン",
+      "type": "spread_causes_challenges_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "COVID-19",
+      "target": "営業パーソン",
+      "type": "spread_causes_challenges_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "コロナ",
+      "target": "営業パーソン",
+      "type": "caused_opportunity_losses_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "リモートワーク",
+      "target": "キーパーソン",
+      "type": "prevents_connection_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "営業パーソン",
+      "target": "商談",
+      "type": "unable_to_conduct",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "コロナ",
+      "target": "商談",
+      "type": "prevented",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "営業パーソン",
+      "target": "顧客視点",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "営業パーソン",
+      "target": "顧客のために",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "営業パーソン",
+      "target": "買う側の気持ち",
+      "type": "does_not_know",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "営業パーソン",
+      "target": "顧客の本当の気持ち",
+      "type": "does_not_know",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "顧客視点",
+      "target": "顧客の本当の気持ち",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "コロナ禍",
+      "target": "アフターコロナ",
+      "type": "not_simply_categorized_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "コロナ禍",
+      "target": "ウィズコロナ",
+      "type": "not_simply_categorized_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アフターコロナ",
+      "target": "ウィズコロナ",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "コロナ禍",
+      "target": "COVID-19",
+      "type": "caused_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "コロナ禍",
+      "target": "2020年",
+      "type": "occurred_during",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "コロナ禍",
+      "target": "2021年",
+      "type": "occurred_during",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "コロナ禍",
+      "target": "2022年",
+      "type": "occurred_during",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "COVID-19",
+      "target": "2020年",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "COVID-19",
+      "target": "2021年",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "COVID-19",
+      "target": "2022年",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "マクロミル",
+      "target": "されたい営業",
+      "type": "conducted_survey_about",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "マクロミル",
+      "target": "2021年11月26～30日",
+      "type": "conducted_survey_during",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "されたい営業",
+      "target": "2021年11月26～30日",
+      "type": "surveyed_during",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "著者",
+      "target": "営業手法",
+      "type": "skeptical_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "著者",
+      "target": "マーケティング施策",
+      "type": "skeptical_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "営業手法",
+      "target": "アフターコロナ",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "マーケティング施策",
+      "target": "アフターコロナ",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "最初の年",
+      "target": "COVID-19",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ウェビナー",
+      "target": "ウェブセミナー",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ウェビナー",
+      "target": "ステイホーム期間中",
+      "type": "held_during",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ウェブセミナー",
+      "target": "ステイホーム期間中",
+      "type": "held_during",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ビジネス環境",
+      "target": "オンライン商談",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "ビジネス環境",
+      "target": "購買ルール",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "情報収集",
+      "target": "ビジネス環境",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "考察",
+      "target": "ビジネス環境",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "情報収集",
+      "target": "考察",
+      "type": "interacts_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "商談・営業方法に関するアンケート",
+      "target": "インターネットリサーチ",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "商談・営業方法に関するアンケート",
+      "target": "マクロミル",
+      "type": "commissioned_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "商談・営業方法に関するアンケート",
+      "target": "2021年11月26日〜11月30日",
+      "type": "conducted_during",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "著者",
+      "target": "健全な疑い",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "健全な疑い",
+      "target": "データ分析",
+      "type": "starting_point_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "健全な疑い",
+      "target": "調査",
+      "type": "starting_point_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "COVID-19",
+      "target": "オンライン商談",
+      "type": "increased_demand_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "感染拡大",
+      "target": "オンライン商談",
+      "type": "raises_questions_about_continued_need_for",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "対面商談",
+      "target": "オンライン商談",
+      "type": "replacing_trend_from",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "アンケート調査",
+      "target": "オンライン商談",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "分析者",
+      "target": "バイアス",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "バイアス",
+      "target": "IT関連企業",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "バイアス",
+      "target": "デジタルツール",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "分析者",
+      "target": "IT関連企業",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Tokyo",
+      "target": "online business negotiations",
+      "type": "leans_towards",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "desecration",
+      "target": "冒涜",
+      "type": "translated_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "in-person meetings",
+      "target": "online meetings",
+      "type": "contrasted_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "data analysis",
+      "target": "desecration",
+      "type": "has_pitfall_described_as",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "data analysis",
+      "target": "in-person meetings",
+      "type": "involves_example_of",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Data",
+      "target": "countermeasures",
+      "type": "has_complex_relationship_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "Data",
+      "target": "対策",
+      "type": "has_complex_relationship_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "countermeasures",
+      "target": "対策",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "survey",
+      "target": "in-person meetings",
+      "type": "indicates_preference_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "strategies",
+      "target": "survey",
+      "type": "must_account_for_minority_of",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "majority",
+      "target": "face-to-face",
+      "type": "prefers",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "online only",
+      "target": "significant minority",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "mostly online",
+      "target": "significant minority",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "about half-and-half",
+      "target": "significant minority",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "significant minority",
+      "target": "substantial segment",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "online negotiations",
+      "target": "substantial segment",
+      "type": "engages",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "customer needs",
+      "target": "actual current state",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "customer needs",
+      "target": "customer emotions/preferences",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    },
+    {
+      "source": "actual current state",
+      "target": "customer emotions/preferences",
+      "type": "contrasted_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Saretai_Eigyou"
+      },
+      "book_key": "Saretai_Eigyou"
+    }
+  ],
+  "metadata": {
+    "num_entities": 171,
+    "num_relationships": 256,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-31T00:43:41.671346",
+    "entity_resolution_applied": true,
+    "book_key": "Saretai_Eigyou",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

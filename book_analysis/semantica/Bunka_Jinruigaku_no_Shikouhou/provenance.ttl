@@ -1,0 +1,587 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Bunka_Jinruigaku_no_Shikouhou/> .
+
+book:source a prov:Entity ;
+  foaf:name "Bunka_Jinruigaku_no_Shikouhou" ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" .
+
+book:文化人類学 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:芸術 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:経済 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:政治 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:フィールドワーク a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:思考法 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:cultural anthropology a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:近さ a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:遠さ a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:美 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:科学 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:distance a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:差異 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:比較 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポトラッチ a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ニューギニア a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Globalization a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:第Ⅰ部 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Anthropological theory a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:自己 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:他者理解 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:magical thinking a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:「近さ」 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:scientists a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:社会学 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:世界の成り立ち a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:西太平洋の遠洋航海者 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:家庭生活 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:調査計画 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:politics a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:healing a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:技法 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:technology a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:temporal distance a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Evolutionary paradigms a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:human evolution a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アジア a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヨーロッパ a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アフリカ a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:宗教 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:家族 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:医療 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:エスノグラフィー a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:民族誌 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:複雑さに満ちた世界そのもの a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロセス a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:常識 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:4年 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:family life a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:目のつけどころ a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アプローチの方法 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:エッセンス a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:遠近法 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:五感 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:客観性 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:違和感 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:貨幣 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮想通貨 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ミクロネシア連邦 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヤップ島 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:石貨 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:東アフリカ a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:牧畜民社会 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:距離感 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:固定観念 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:視野 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:旧石器時代 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:カラハリ砂漠 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:狩猟採集民 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:健康 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:呪術 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:現代 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:著者 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:geography a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:theory of magic a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:South American a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Western modernity a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:physical experience a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:local languages a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:linguistic understandings a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:わかる a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:女性 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:男性 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:私的 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:公的 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:名づけ／位置づけ a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:カルチャーショック a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:机上の空論 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:価値観 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:解釈 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ブロニスワフ・マリノフスキー a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:メラネシア a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:トロブリアンド諸島 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:長期参与観察 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:マリノフスキー a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:1922年 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロイ・ワグナー a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:自文化 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:異文化 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アイデンティティ a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:彼らと私たち a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:学問 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:日常生活 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:共通性 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:普遍性 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:負債 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:人類学 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:マルセル・モース a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:贈与交換 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:北米先住民 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:クラ a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:フランス a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:実用性 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:暗黙の前提 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:非西洋社会 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:二つの迂回 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:理論 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:グローバル化 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:均質化 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:多様性 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:パラドックス a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:アーパドゥライ a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:James Clifford a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:旅する文化 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:people a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:media a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:capital a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:ideologies a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Arjun Appadurai a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:care workers a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:aging society a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:emerging lifestyles a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:gift economies a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:virtual currency trading a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:Stateless societies a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:closeness a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:economic anthropology a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:religious anthropology a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:fieldwork a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:classical theories a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:new theories a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:academic disciplines a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:迷信 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .
+
+book:人間の身体 a prov:Entity ;
+  book:book_key "Bunka_Jinruigaku_no_Shikouhou" ;
+  prov:wasDerivedFrom book:source .

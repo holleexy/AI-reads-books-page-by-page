@@ -1,0 +1,619 @@
+{
+  "uri": "https://books.local/Kenkyo_na_Consulting/",
+  "name": "Kenkyo_na_ConsultingOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Book",
+      "label": "書籍",
+      "comment": "エドガー・H・シャインによる謙虚なコンサルティングの原著および関連する著作。",
+      "parent": null
+    },
+    {
+      "name": "Person",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Person",
+      "label": "人物",
+      "comment": "提唱者、コンサルタント、クライアント、リーダーなど、本書に登場する人物。",
+      "parent": null
+    },
+    {
+      "name": "Consultant",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Consultant",
+      "label": "コンサルタント",
+      "comment": "クライアントに支援を提供する専門家。処方箋を押し付けるのではなく、クライアント自身の気づきと行動を後押しする。",
+      "parent": "Person"
+    },
+    {
+      "name": "Client",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Client",
+      "label": "クライアント",
+      "comment": "支援を受ける側。主語は常にクライアントであり、自ら気づき行動できることが支援の目的である。",
+      "parent": "Person"
+    },
+    {
+      "name": "Leader",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Leader",
+      "label": "リーダー",
+      "comment": "組織内の指導者。すべてを知るヒーローである必要はなく、わからないことを認め対話から適応的な動きを見出す。",
+      "parent": "Person"
+    },
+    {
+      "name": "Manager",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Manager",
+      "label": "マネージャー",
+      "comment": "組織内の管理者。謙虚なコンサルティングは外部専門家だけでなくすべてのマネージャーが身につけるべきスキルである。",
+      "parent": "Person"
+    },
+    {
+      "name": "HumbleConsulting",
+      "uri": "https://books.local/Kenkyo_na_Consulting/HumbleConsulting",
+      "label": "謙虚なコンサルティング",
+      "comment": "エドガー・H・シャインが提唱した、本当の支援を速やかに行う新しいアプローチ。原題は Humble Consulting: How to Provide Real Help Faster。",
+      "parent": null
+    },
+    {
+      "name": "TraditionalConsulting",
+      "uri": "https://books.local/Kenkyo_na_Consulting/TraditionalConsulting",
+      "label": "従来型コンサルティング",
+      "comment": "診断して助言するモデルに基づき、専門家としての解決策を押し付ける従来のアプローチ。",
+      "parent": null
+    },
+    {
+      "name": "DiagnosticAdvisoryModel",
+      "uri": "https://books.local/Kenkyo_na_Consulting/DiagnosticAdvisoryModel",
+      "label": "診断して助言するモデル",
+      "comment": "若手コンサルタントや伝統的専門家が陥りやすい、すぐに「これが答えです」と処方箋を出す失敗モデル。",
+      "parent": "TraditionalConsulting"
+    },
+    {
+      "name": "OneUpDynamics",
+      "uri": "https://books.local/Kenkyo_na_Consulting/OneUpDynamics",
+      "label": "ワン・アップのダイナミクス",
+      "comment": "コンサルタントが上から目線で指示を出し、クライアントの自己責任感と所有感を損ない提案が実行されない力学。",
+      "parent": null
+    },
+    {
+      "name": "ContentTemptation",
+      "uri": "https://books.local/Kenkyo_na_Consulting/ContentTemptation",
+      "label": "内容の誘惑",
+      "comment": "クライアントが提示する表面的な問題に飛びつき、自分の専門知識で解決しようとする誘惑。支援者はプロセスへの気づきを優先すべきである。",
+      "parent": null
+    },
+    {
+      "name": "RealHelp",
+      "uri": "https://books.local/Kenkyo_na_Consulting/RealHelp",
+      "label": "本当の支援",
+      "comment": "クライアントが問題の複雑さと厄介さを理解し、その場しのぎをやめ、本当の現実に対処する行動をとれるよう後押しすること。",
+      "parent": null
+    },
+    {
+      "name": "Problem",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Problem",
+      "label": "課題",
+      "comment": "組織やクライアントが直面する問題。ロナルド・ハイフェッツにより技術的な課題と適応を要する課題に分類される。",
+      "parent": null
+    },
+    {
+      "name": "TechnicalProblem",
+      "uri": "https://books.local/Kenkyo_na_Consulting/TechnicalProblem",
+      "label": "技術的な課題",
+      "comment": "過去の知見や専門知識で解決策が明らかな問題。専門家に委ねれば解決する。",
+      "parent": "Problem"
+    },
+    {
+      "name": "AdaptiveProblem",
+      "uri": "https://books.local/Kenkyo_na_Consulting/AdaptiveProblem",
+      "label": "適応を要する課題",
+      "comment": "解決策が自明ではなく、関係者自身が継続的な学習と視点の転換を通じて適応していく必要がある複雑な問題。",
+      "parent": "Problem"
+    },
+    {
+      "name": "ComplexityFactor",
+      "uri": "https://books.local/Kenkyo_na_Consulting/ComplexityFactor",
+      "label": "複雑化の要因",
+      "comment": "専門分野の深化、多様性の増大、共通理解の難化、時間の不足など、適応課題を増やす現代的要因。",
+      "parent": null
+    },
+    {
+      "name": "Relationship",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Relationship",
+      "label": "人間関係",
+      "comment": "コンサルタントとクライアントの間に築かれる関係。支援の成否は関係性の深さに依存する。",
+      "parent": null
+    },
+    {
+      "name": "RelationshipLevel",
+      "uri": "https://books.local/Kenkyo_na_Consulting/RelationshipLevel",
+      "label": "関係性のレベル",
+      "comment": "シャインが分類した人間関係の四段階。謙虚なコンサルティングではレベル2が不可欠である。",
+      "parent": null
+    },
+    {
+      "name": "LevelMinus1",
+      "uri": "https://books.local/Kenkyo_na_Consulting/LevelMinus1",
+      "label": "レベルマイナス1",
+      "comment": "敵対・搾取の関係。相手を人間として扱わない関係で、ブラック企業などに見られる。",
+      "parent": "RelationshipLevel"
+    },
+    {
+      "name": "Level1",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Level1",
+      "label": "レベル1",
+      "comment": "取引・専門的な関係。役割に基づきほどほどの距離を保つ従来の距離であり、本音が語られにくく真の問題が見過ごされる。",
+      "parent": "RelationshipLevel"
+    },
+    {
+      "name": "Level2",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Level2",
+      "label": "レベル2",
+      "comment": "信頼と率直さに基づく関係。相手を一人の人間として認知する、謙虚なコンサルティングに不可欠な関係性。",
+      "parent": "RelationshipLevel"
+    },
+    {
+      "name": "Level3",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Level3",
+      "label": "レベル3",
+      "comment": "親密・感情に基づく関係。職業的支援ではえこひいきや腐敗の原因となるため避けるべきである。",
+      "parent": "RelationshipLevel"
+    },
+    {
+      "name": "Personalization",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Personalization",
+      "label": "パーソナライゼーション",
+      "comment": "レベル1を脱し、個人的背景や感情に適度に踏み込んでレベル2を築く過程。プライバシーを侵害しレベル3に侵入しないバランスが必要である。",
+      "parent": null
+    },
+    {
+      "name": "ListeningStyle",
+      "uri": "https://books.local/Kenkyo_na_Consulting/ListeningStyle",
+      "label": "聴き方",
+      "comment": "コンサルタントがクライアントの話を聴く際の姿勢の選択肢。",
+      "parent": null
+    },
+    {
+      "name": "SelfCenteredListening",
+      "uri": "https://books.local/Kenkyo_na_Consulting/SelfCenteredListening",
+      "label": "自己中心的な聴き方",
+      "comment": "自分の知識をどう活かせかに集中する聴き方。謙虚なコンサルティングでは不適切である。",
+      "parent": "ListeningStyle"
+    },
+    {
+      "name": "ContentEmpathicListening",
+      "uri": "https://books.local/Kenkyo_na_Consulting/ContentEmpathicListening",
+      "label": "内容に共感して聴く",
+      "comment": "提示された状況や事実の機能的な側面にフォーカスする聴き方。",
+      "parent": "ListeningStyle"
+    },
+    {
+      "name": "PersonEmpathicListening",
+      "uri": "https://books.local/Kenkyo_na_Consulting/PersonEmpathicListening",
+      "label": "人に共感して聴く",
+      "comment": "クライアント個人の感情、不安、懸念に焦点を当てる聴き方。レベル2の関係構築に最も有効である。",
+      "parent": "ListeningStyle"
+    },
+    {
+      "name": "QuestioningApproach",
+      "uri": "https://books.local/Kenkyo_na_Consulting/QuestioningApproach",
+      "label": "問いかけ",
+      "comment": "クライアントの気づきを促すための質問アプローチ。",
+      "parent": null
+    },
+    {
+      "name": "HumbleInquiry",
+      "uri": "https://books.local/Kenkyo_na_Consulting/HumbleInquiry",
+      "label": "謙虚な問いかけ",
+      "comment": "答えを予期せず、純粋な好奇心から状況や本心を引き出すオープンな質問。初期段階で極めて有効である。",
+      "parent": "QuestioningApproach"
+    },
+    {
+      "name": "DiagnosticInquiry",
+      "uri": "https://books.local/Kenkyo_na_Consulting/DiagnosticInquiry",
+      "label": "診断的な問いかけ",
+      "comment": "会話の方向を変え問題の焦点を絞る質問。なぜそうなったのか、どう感じたかなど。",
+      "parent": "QuestioningApproach"
+    },
+    {
+      "name": "CircularInquiry",
+      "uri": "https://books.local/Kenkyo_na_Consulting/CircularInquiry",
+      "label": "循環的な問いかけ",
+      "comment": "第三者の視点を想像させ、クライアントに状況を客観視させる手法。",
+      "parent": "QuestioningApproach"
+    },
+    {
+      "name": "SuggestiveInquiry",
+      "uri": "https://books.local/Kenkyo_na_Consulting/SuggestiveInquiry",
+      "label": "示唆的な問いかけ",
+      "comment": "新しい視点や避けるべき情報を提供する質問。信頼関係がないと反発を招くリスクがある。",
+      "parent": "QuestioningApproach"
+    },
+    {
+      "name": "ProcessOrientedInquiry",
+      "uri": "https://books.local/Kenkyo_na_Consulting/ProcessOrientedInquiry",
+      "label": "プロセス指向の問いかけ",
+      "comment": "問題の説明の仕方や進め方、今この場でのやり取りそのものに焦点を当てる問いかけ。",
+      "parent": "QuestioningApproach"
+    },
+    {
+      "name": "AdaptiveMove",
+      "uri": "https://books.local/Kenkyo_na_Consulting/AdaptiveMove",
+      "label": "アダプティブ・ムーブ",
+      "comment": "万能の解決策ではなく、状況を少し改善し次の行動につながる情報を引き出す小さく俊敏な介入。対話から即興的に生まれる。",
+      "parent": null
+    },
+    {
+      "name": "ConsultantQuality",
+      "uri": "https://books.local/Kenkyo_na_Consulting/ConsultantQuality",
+      "label": "コンサルタントの資質",
+      "comment": "謙虚なコンサルティングで求められる三つのC、すなわち積極的な気持ち、思いやり、好奇心。",
+      "parent": null
+    },
+    {
+      "name": "Commitment",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Commitment",
+      "label": "積極的な気持ち",
+      "comment": "なんとかしてクライアントの力になりたいという真摯な動機。",
+      "parent": "ConsultantQuality"
+    },
+    {
+      "name": "Caring",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Caring",
+      "label": "思いやり",
+      "comment": "クライアントの立場や感情に寄り添う共感的な態度。",
+      "parent": "ConsultantQuality"
+    },
+    {
+      "name": "Curiosity",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Curiosity",
+      "label": "好奇心",
+      "comment": "相手の状況や抱える問題に対する最大限の関心と探究心。",
+      "parent": "ConsultantQuality"
+    },
+    {
+      "name": "CaseStudy",
+      "uri": "https://books.local/Kenkyo_na_Consulting/CaseStudy",
+      "label": "ケーススタディ",
+      "comment": "DEC、GE、MACコンサルタント、銀行IT導入など、本書で示される成功と失敗の実践事例。",
+      "parent": null
+    },
+    {
+      "name": "Organization",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Organization",
+      "label": "組織",
+      "comment": "コンサルティングや組織開発の対象となる企業や集団。学び方を学び自律的に適応し続けることが究極の目標である。",
+      "parent": null
+    },
+    {
+      "name": "HighReliabilityOrganization",
+      "uri": "https://books.local/Kenkyo_na_Consulting/HighReliabilityOrganization",
+      "label": "高信頼性組織",
+      "comment": "原子力発電所や消防などの高危険性環境で、ルール徹底だけでなくグループ・センスメイキングが不可欠な組織。",
+      "parent": "Organization"
+    },
+    {
+      "name": "OrganizationDevelopment",
+      "uri": "https://books.local/Kenkyo_na_Consulting/OrganizationDevelopment",
+      "label": "組織開発",
+      "comment": "組織の学習と適応を促す実践。複雑な問題は所定の診断ツールでは解決できないという認識に基づく。",
+      "parent": null
+    },
+    {
+      "name": "DialogicOrganizationDevelopment",
+      "uri": "https://books.local/Kenkyo_na_Consulting/DialogicOrganizationDevelopment",
+      "label": "対話型組織開発",
+      "comment": "ブッシュとマーシャクが提唱し、ハイフェッツらが主張する対話を中心とした組織開発アプローチ。",
+      "parent": "OrganizationDevelopment"
+    },
+    {
+      "name": "SafetyCulture",
+      "uri": "https://books.local/Kenkyo_na_Consulting/SafetyCulture",
+      "label": "安全文化",
+      "comment": "安全を規定する厳格な官僚的・法的基準が、現場の率直な報告というレベル2の関係を阻害しうる文化。",
+      "parent": null
+    },
+    {
+      "name": "Sensemaking",
+      "uri": "https://books.local/Kenkyo_na_Consulting/Sensemaking",
+      "label": "センスメイキング",
+      "comment": "カール・ワイックの研究に基づく、現場メンバーが互いに状況を報告し合うグループによる意味形成。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "proposedBy",
+      "type": "object",
+      "domain": [
+        "HumbleConsulting",
+        "OrganizationDevelopment"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "提唱者",
+      "comment": "概念やアプローチを提唱した人物との関係。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/proposedBy"
+    },
+    {
+      "name": "authoredBy",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "著者",
+      "comment": "書籍とその著者を結ぶ関係。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/authoredBy"
+    },
+    {
+      "name": "helps",
+      "type": "object",
+      "domain": [
+        "Consultant"
+      ],
+      "range": [
+        "Client"
+      ],
+      "label": "支援する",
+      "comment": "コンサルタントがクライアントに本当の支援を提供する関係。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/helps"
+    },
+    {
+      "name": "facesProblem",
+      "type": "object",
+      "domain": [
+        "Client",
+        "Organization"
+      ],
+      "range": [
+        "Problem"
+      ],
+      "label": "直面する",
+      "comment": "クライアントや組織が直面する課題。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/facesProblem"
+    },
+    {
+      "name": "hasRelationship",
+      "type": "object",
+      "domain": [
+        "Consultant",
+        "Client"
+      ],
+      "range": [
+        "Relationship"
+      ],
+      "label": "関係を持つ",
+      "comment": "コンサルタントとクライアントが築く人間関係。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/hasRelationship"
+    },
+    {
+      "name": "hasLevel",
+      "type": "object",
+      "domain": [
+        "Relationship"
+      ],
+      "range": [
+        "RelationshipLevel"
+      ],
+      "label": "関係レベル",
+      "comment": "人間関係が属する四つのレベルのいずれか。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/hasLevel"
+    },
+    {
+      "name": "requiresQuality",
+      "type": "object",
+      "domain": [
+        "HumbleConsulting",
+        "Consultant"
+      ],
+      "range": [
+        "ConsultantQuality"
+      ],
+      "label": "求められる資質",
+      "comment": "謙虚なコンサルティングの実践に必要な三つのC。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/requiresQuality"
+    },
+    {
+      "name": "usesListeningStyle",
+      "type": "object",
+      "domain": [
+        "Consultant"
+      ],
+      "range": [
+        "ListeningStyle"
+      ],
+      "label": "聴き方を用いる",
+      "comment": "コンサルタントが対話で用いる聴き方。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/usesListeningStyle"
+    },
+    {
+      "name": "usesQuestioning",
+      "type": "object",
+      "domain": [
+        "Consultant"
+      ],
+      "range": [
+        "QuestioningApproach"
+      ],
+      "label": "問いかけを用いる",
+      "comment": "クライアントの気づきを促すために用いる問いかけ。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/usesQuestioning"
+    },
+    {
+      "name": "performs",
+      "type": "object",
+      "domain": [
+        "Consultant",
+        "Leader",
+        "Manager"
+      ],
+      "range": [
+        "AdaptiveMove"
+      ],
+      "label": "実行する",
+      "comment": "対話の中から即興的に生み出す小さく俊敏な介入を行う。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/performs"
+    },
+    {
+      "name": "illustratedBy",
+      "type": "object",
+      "domain": [
+        "HumbleConsulting",
+        "TraditionalConsulting"
+      ],
+      "range": [
+        "CaseStudy"
+      ],
+      "label": "事例で示される",
+      "comment": "概念がケーススタディによって例示される関係。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/illustratedBy"
+    },
+    {
+      "name": "involvesOrganization",
+      "type": "object",
+      "domain": [
+        "CaseStudy"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "label": "対象組織",
+      "comment": "ケーススタディが扱う組織。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/involvesOrganization"
+    },
+    {
+      "name": "avoids",
+      "type": "object",
+      "domain": [
+        "HumbleConsulting",
+        "Consultant"
+      ],
+      "range": [
+        "ContentTemptation",
+        "OneUpDynamics",
+        "DiagnosticAdvisoryModel",
+        "Level3"
+      ],
+      "label": "回避する",
+      "comment": "謙虚なコンサルティングが避けるべき従来の罠や過剰な親密さ。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/avoids"
+    },
+    {
+      "name": "enables",
+      "type": "object",
+      "domain": [
+        "Personalization"
+      ],
+      "range": [
+        "Level2"
+      ],
+      "label": "可能にする",
+      "comment": "パーソナライゼーションによって信頼と率直さに基づくレベル2の関係を築く。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/enables"
+    },
+    {
+      "name": "causedBy",
+      "type": "object",
+      "domain": [
+        "AdaptiveProblem"
+      ],
+      "range": [
+        "ComplexityFactor"
+      ],
+      "label": "要因",
+      "comment": "適応を要する課題を複雑化させる要因。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/causedBy"
+    },
+    {
+      "name": "practices",
+      "type": "object",
+      "domain": [
+        "Consultant",
+        "Leader",
+        "Manager"
+      ],
+      "range": [
+        "HumbleConsulting"
+      ],
+      "label": "実践する",
+      "comment": "リーダー、マネージャー、コンサルタントが謙虚なコンサルティングを実践する。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/practices"
+    },
+    {
+      "name": "appliedTo",
+      "type": "object",
+      "domain": [
+        "HumbleConsulting"
+      ],
+      "range": [
+        "OrganizationDevelopment",
+        "SafetyCulture"
+      ],
+      "label": "応用される",
+      "comment": "謙虚なコンサルティングが組織開発や安全文化へ応用される。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/appliedTo"
+    },
+    {
+      "name": "requiresSensemaking",
+      "type": "object",
+      "domain": [
+        "HighReliabilityOrganization"
+      ],
+      "range": [
+        "Sensemaking"
+      ],
+      "label": "センスメイキングを必要とする",
+      "comment": "高信頼性組織がグループ・センスメイキングを必要とする関係。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/requiresSensemaking"
+    },
+    {
+      "name": "aimsAt",
+      "type": "object",
+      "domain": [
+        "HumbleConsulting"
+      ],
+      "range": [
+        "RealHelp"
+      ],
+      "label": "目的とする",
+      "comment": "謙虚なコンサルティングの目的は本当の支援を速やかに行うことである。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/aimsAt"
+    },
+    {
+      "name": "dependsOn",
+      "type": "object",
+      "domain": [
+        "HumbleConsulting"
+      ],
+      "range": [
+        "Level2"
+      ],
+      "label": "依拠する",
+      "comment": "謙虚なコンサルティングはレベル2の信頼と率直さに依拠する。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/dependsOn"
+    },
+    {
+      "name": "hasDescription",
+      "type": "data",
+      "domain": [
+        "Book",
+        "CaseStudy",
+        "Problem",
+        "AdaptiveMove",
+        "Organization"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "対象についての説明文。",
+      "uri": "https://books.local/Kenkyo_na_Consulting/hasDescription"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

@@ -1,0 +1,537 @@
+@prefix ex: <https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/shapes> a owl:Ontology .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "人と事業の可能性を広げる有機的な土壌として再定義されるべき集団。戦略を達成するための機械ではない。" ;
+    sh:property [
+        sh:path ex:hasWorldview ;
+        sh:class ex:Worldview ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesLens ;
+        sh:class ex:AdventureLens ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesModel ;
+        sh:class ex:OrganizationalModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:pursuesInquiry ;
+        sh:class ex:Inquiry ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasAlignment ;
+        sh:class ex:Alignment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:Goal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMember ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPhilosophy ;
+        sh:class ex:ManagementPhilosophy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:undergoesChange ;
+        sh:class ex:OrganizationalChange ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:employsPractice ;
+        sh:class ex:Practice ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:holdsMeeting ;
+        sh:class ex:Meeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLearningCulture ;
+        sh:class ex:LearningCulture ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasAlumniNetwork ;
+        sh:class ex:AlumniNetwork ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:transformsFrom ;
+        sh:class ex:MilitaryWorldview ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:transformsTo ;
+        sh:class ex:AdventureWorldview ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/WorldviewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Worldview ;
+    sh:name "世界観" ;
+    sh:description "組織の根本的な思考枠組み（OS）。施策（アプリ）より先にアップデートすべき基盤。" ;
+    sh:property [
+        sh:path ex:transformsFrom ;
+        sh:class ex:MilitaryWorldview ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:transformsTo ;
+        sh:class ex:AdventureWorldview ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MilitaryWorldviewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MilitaryWorldview ;
+    sh:name "軍事的世界観" ;
+    sh:description "奪い合い・競争・上下関係を前提とし、目標を行動を縛る指令、人を道具として扱う思考枠組み。官僚化と大企業病を招く。" ;
+    sh:property [
+        sh:path ex:transformsFrom ;
+        sh:class ex:MilitaryWorldview ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:transformsTo ;
+        sh:class ex:AdventureWorldview ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureWorldviewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AdventureWorldview ;
+    sh:name "冒険的世界観" ;
+    sh:description "開拓・共創・自己実現を前提とし、ビジネスを領地の奪い合いから可能性の開拓へと捉える思考枠組み。" ;
+    sh:property [
+        sh:path ex:transformsFrom ;
+        sh:class ex:MilitaryWorldview ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:transformsTo ;
+        sh:class ex:AdventureWorldview ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureLensShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AdventureLens ;
+    sh:name "冒険的レンズ" ;
+    sh:description "組織のものの見方を軍事的から冒険的へ転換するための視点。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/GoalLensShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GoalLens ;
+    sh:name "目標のレンズ" ;
+    sh:description "目標を行動を縛る指令から好奇心をかき立てる問い（Quest）へと捉える視点。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/TeamLensShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TeamLens ;
+    sh:name "チームのレンズ" ;
+    sh:description "チームを機能別に編成した小隊から個性を活かし合う精神的な共同体（仲間）へと捉える視点。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MeetingLensShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MeetingLens ;
+    sh:name "会議のレンズ" ;
+    sh:description "会議を伝令と意思決定の場から対話と価値創造の場へと捉える視点。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/GrowthLensShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GrowthLens ;
+    sh:name "成長のレンズ" ;
+    sh:description "成長を望ましいスキル・行動の習得から新たなアイデンティティの探究へと捉える視点。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationLensShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationLens ;
+    sh:name "組織のレンズ" ;
+    sh:description "組織を事業戦略のための手段から人と事業の可能性を広げる土壌へと捉える視点。アンゾフの「戦略は組織に従う」を重視する。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationalModel ;
+    sh:name "組織モデル" ;
+    sh:description "組織の構造と動態を記述する枠組み。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/CreativeCultivationModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CreativeCultivationModel ;
+    sh:name "創造的耕作モデル" ;
+    sh:description "CCM。ナドラー＆タッシュマンの機械的・静的な整合性モデルの限界を克服する、有機的で動的な組織モデル。" ;
+    sh:property [
+        sh:path ex:hasCentralInquiry ;
+        sh:class ex:Inquiry ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasAlignment ;
+        sh:class ex:Alignment ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/InquiryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Inquiry ;
+    sh:name "探究" ;
+    sh:description "CCMの中央に配置される四つの探求。個人・組織・事業・社会の可能性を広げる営み。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/IndividualSelfRealizationInquiryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IndividualSelfRealizationInquiry ;
+    sh:name "個々の自己実現の探究" ;
+    sh:description "従業員個人が自己実現を諦めずに追求する探究。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalIdentityInquiryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationalIdentityInquiry ;
+    sh:name "組織アイデンティティの探究" ;
+    sh:description "私たちらしさを問い続ける探究。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/BusinessCapabilityInquiryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessCapabilityInquiry ;
+    sh:name "事業ケイパビリティの探究" ;
+    sh:description "組織の得意技を開拓し続ける探究。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/SocialMissionInquiryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SocialMissionInquiry ;
+    sh:name "社会的ミッションの探究" ;
+    sh:description "組織の存在意義を追求する探究。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AlignmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Alignment ;
+    sh:name "整合" ;
+    sh:description "組織の各要素を調和させ続けること。探究の整合を中核とする。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/FunctionalAlignmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FunctionalAlignment ;
+    sh:name "機能的整合" ;
+    sh:description "事業構造・組織構造・業務構造といった構造面のデザイン。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/SpiritualAlignmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SpiritualAlignment ;
+    sh:name "精神的整合" ;
+    sh:description "ブランド・組織文化・職場風土といった文化面のデザイン。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/GoalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Goal ;
+    sh:name "目標" ;
+    sh:description "組織や個人が追う到達点。冒険的世界観では好奇心をかき立てる問いとして埋め込む。" ;
+    sh:property [
+        sh:path ex:embedsQuestion ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/ALIVEGoalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ALIVEGoal ;
+    sh:name "ALIVE目標" ;
+    sh:description "SMARTに代わり、Adaptive・Learningful・Interesting・Visionary・Experimentalな目標。" ;
+    sh:property [
+        sh:path ex:embedsQuestion ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/TeamShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Team ;
+    sh:name "チーム" ;
+    sh:description "個性を活かし合う精神的な共同体。独自のバリューやローカルなルーティンを持ちうる。" ;
+    sh:property [
+        sh:path ex:pursuesInquiry ;
+        sh:class ex:Inquiry ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:Goal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMember ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:employsPractice ;
+        sh:class ex:Practice ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:holdsMeeting ;
+        sh:class ex:Meeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:addressesChallenge ;
+        sh:class ex:AdaptiveChallenge ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人" ;
+    sh:description "自己実現の探究を行い、組織を構成する個人。道具ではなく可能性の担い手。" ;
+    sh:property [
+        sh:path ex:pursuesInquiry ;
+        sh:class ex:Inquiry ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:Goal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToTeam ;
+        sh:class ex:Team ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasImpulse ;
+        sh:class ex:Impulse ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MiddleManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MiddleManager ;
+    sh:name "ミドルマネージャー" ;
+    sh:description "組織変革の要。プレイヤーからマネージャーへの転換によるアイデンティティ危機に直面しやすい。" ;
+    sh:property [
+        sh:path ex:manages ;
+        sh:class ex:Team ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportsChange ;
+        sh:class ex:OrganizationalChange ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:pursuesInquiry ;
+        sh:class ex:Inquiry ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:Goal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToTeam ;
+        sh:class ex:Team ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasImpulse ;
+        sh:class ex:Impulse ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MeetingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Meeting ;
+    sh:name "会議" ;
+    sh:description "対話と価値創造の場。ミクロなアジェンダとマクロな開催順序を再設計する対象。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/ManagementPhilosophyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ManagementPhilosophy ;
+    sh:name "経営理念" ;
+    sh:description "絶対的な教義ではなく、メンバーの探究のエネルギーを生み出すツール。矛盾を含んだメタファーが解釈の余地を生む。" ;
+    sh:property [
+        sh:path ex:generatesInquiryEnergy ;
+        sh:class ex:Inquiry ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMetaphor ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/ImpulseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Impulse ;
+    sh:name "衝動" ;
+    sh:description "ウズウズするような好奇心。組織変革の出発点となる小さな火種。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalChangeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationalChange ;
+    sh:name "組織変革" ;
+    sh:description "世界観と実践を冒険的なものへ転換するプロセス。ポジティブな動機（もったいない）を起点とする。" ;
+    sh:property [
+        sh:path ex:isTriggeredBy ;
+        sh:class ex:Impulse ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/PracticeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Practice ;
+    sh:name "実践" ;
+    sh:description "冒険する組織をつくる具体的な営み。深い自己紹介、リフレクション、ファシリテーション、冒険的フィードバックなどを含む。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/DeepSelfIntroductionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DeepSelfIntroduction ;
+    sh:name "深い自己紹介" ;
+    sh:description "経歴だけでなく過去の葛藤・価値観・未来への好奇心（推しの精神）を共有し、心理的安全性を高める実践。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/ReflectionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Reflection ;
+    sh:name "リフレクション" ;
+    sh:description "KPTやKMQTなどで経験を共有し、チームの共通体験化する内省の実践。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/FacilitationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Facilitation ;
+    sh:name "ファシリテーション" ;
+    sh:description "各自の芸風を活かし、前提のズレを察知・理解・共創の三ステップで解消する対話の実践。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureFeedbackShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AdventureFeedback ;
+    sh:name "冒険的フィードバック" ;
+    sh:description "過去のエラー行動の修正ではなく、未来の可能性の提案として目を開かせる言葉を贈る実践。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/HareAndKeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HareAndKe ;
+    sh:name "ハレとケ" ;
+    sh:description "定例会議（ケ）の質向上と全社総会・合宿（ハレ）への資源投下により精神的整合性を高める場づくり。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/LearningCultureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LearningCulture ;
+    sh:name "学習文化" ;
+    sh:description "教材から学ぶ個人スキル習得を超え、経験から生まれチームの関係性が変化することを称賛する文化。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/KnowledgeManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KnowledgeManagement ;
+    sh:name "ナレッジマネジメント" ;
+    sh:description "失敗談や葛藤を含む暗黙知と形式知の循環（SECIモデル）をデザインする営み。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdaptiveChallengeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AdaptiveChallenge ;
+    sh:name "適応課題" ;
+    sh:description "価値観や関係性の修正が必要な問題。事象をチームが取り組む問いへ落とし込む目線合わせが重要。" .
+
+<https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AlumniNetworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AlumniNetwork ;
+    sh:name "アルムナイネットワーク" ;
+    sh:description "退職を組織の裏切りではなく探究の卒業として捉え、卒業生と構築するネットワーク。" .

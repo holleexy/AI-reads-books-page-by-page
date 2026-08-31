@@ -1,0 +1,616 @@
+{
+  "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/",
+  "name": "toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_Ontology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "SalesEnablement",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesEnablement",
+      "label": "セールス・イネーブルメント",
+      "comment": "営業担当者が成果を出せるよう支援する部門横断的な戦略的規律。人の成長を通じて持続的な営業成果を創出する仕組み。",
+      "parent": null
+    },
+    {
+      "name": "SalesOrganization",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOrganization",
+      "label": "営業組織",
+      "comment": "営業目標の達成を担う組織。目標達成率が高くても一部のトップセールスに依存すると運営が脆弱になる。",
+      "parent": null
+    },
+    {
+      "name": "Salesperson",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Salesperson",
+      "label": "営業担当者",
+      "comment": "営業活動を行い成果創出を担う個人。能力開発と仕組みによって持続的に成果を出せるよう支援される。",
+      "parent": null
+    },
+    {
+      "name": "TopSalesperson",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/TopSalesperson",
+      "label": "トップセールス",
+      "comment": "営業組織の上位約20%を占めるハイパフォーマー。勝ちパターンの源泉だが、組織成果がこの層に偏ると退職や異動で崩壊しやすい。",
+      "parent": "Salesperson"
+    },
+    {
+      "name": "MiddleLayerSalesperson",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/MiddleLayerSalesperson",
+      "label": "中間層営業担当者",
+      "comment": "組織の約6割を占める一般営業。セールス・イネーブルメントによるパフォーマンス底上げの主対象。",
+      "parent": "Salesperson"
+    },
+    {
+      "name": "Enabler",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Enabler",
+      "label": "イネーブラー",
+      "comment": "イネーブルメント担当者。人の成長と営業成果をつなぐ探究心を最重視し、体系化力・コンテンツ作成力・事業知識が求められる。",
+      "parent": null
+    },
+    {
+      "name": "OutcomeBehaviorSkillFramework",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/OutcomeBehaviorSkillFramework",
+      "label": "成果行動スキル連結",
+      "comment": "成果・行動・スキルまたは知識の3要素を一気通貫でつなぐイネーブルメントの骨格。営業企画と人事に分断されがちだった管理を統合する。",
+      "parent": null
+    },
+    {
+      "name": "SalesOutcome",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOutcome",
+      "label": "営業成果",
+      "comment": "売上やパイプラインなど最終的に創出すべき営業上のゴール。育成成果との相関分析により施策の有効性を検証する。",
+      "parent": null
+    },
+    {
+      "name": "SalesAction",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesAction",
+      "label": "営業行動",
+      "comment": "成果創出のために営業担当者が行う行動。スキルマップ上ではフェーズごとの重要行動として定義される。",
+      "parent": null
+    },
+    {
+      "name": "SkillOrKnowledge",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillOrKnowledge",
+      "label": "スキル知識",
+      "comment": "営業行動を実行するために必要な能力および知識。アセスメントで現状レベルを定量把握する。",
+      "parent": null
+    },
+    {
+      "name": "PDSCycle",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/PDSCycle",
+      "label": "PDSサイクル",
+      "comment": "計画・実行・検証からなる持続的マネジメントサイクル。施策と営業成果の相関を次の計画へ反映する。",
+      "parent": null
+    },
+    {
+      "name": "SkillMap",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillMap",
+      "label": "スキルマップ",
+      "comment": "ハイパフォーマーへのヒアリングで勝ちパターンを体系化したもの。営業フェーズ、重要行動、スキル知識の三層構造を持つ。",
+      "parent": null
+    },
+    {
+      "name": "SalesPhase",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesPhase",
+      "label": "営業フェーズ",
+      "comment": "自社視点の活動量ではなく、顧客の意思決定プロセスに沿って定義する商談進捗の段階。",
+      "parent": null
+    },
+    {
+      "name": "KeyAction",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/KeyAction",
+      "label": "重要行動",
+      "comment": "各営業フェーズで成果に直結する行動。スキルマップの中核であり、スキルコーチングの問いかけ軸となる。",
+      "parent": "SalesAction"
+    },
+    {
+      "name": "CustomerDecisionProcess",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/CustomerDecisionProcess",
+      "label": "顧客意思決定プロセス",
+      "comment": "顧客視点の購買・意思決定の流れ。営業フェーズ定義の基準となり、商談コーチングでも主語を顧客に置く。",
+      "parent": null
+    },
+    {
+      "name": "EnablementMeasure",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasure",
+      "label": "イネーブルメント施策",
+      "comment": "育成テーマに基づき企画・開発・提供される支援施策。育成成果と営業成果の両面で評価する。",
+      "parent": null
+    },
+    {
+      "name": "Assessment",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Assessment",
+      "label": "アセスメント",
+      "comment": "スキルレベルを段階評価などで定量把握し、自己評価と上司評価のギャップから育成テーマを特定する評価。",
+      "parent": "EnablementMeasure"
+    },
+    {
+      "name": "Training",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Training",
+      "label": "トレーニング",
+      "comment": "フレームワーク、実例サンプル、演習の3要素を組み込み、翌日から実践できる内容にする能力開発施策。",
+      "parent": "EnablementMeasure"
+    },
+    {
+      "name": "Coaching",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Coaching",
+      "label": "コーチング",
+      "comment": "ティーチングや進捗確認ではなく、部下が次のアクションを自ら決められるよう促す支援。商談コーチングとスキルコーチングがある。",
+      "parent": "EnablementMeasure"
+    },
+    {
+      "name": "KnowledgeManagement",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/KnowledgeManagement",
+      "label": "ナレッジマネジメント",
+      "comment": "成功事例の収集と流通サイクルを回し、営業がすぐ使える最新の武器を提供する取り組み。",
+      "parent": "EnablementMeasure"
+    },
+    {
+      "name": "ProductEnablement",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/ProductEnablement",
+      "label": "プロダクト・イネーブルメント",
+      "comment": "製品ごとに売り方をパッケージ化したセールス・プレイを提供し、拡大した製品知識の習得負荷を下げる取り組み。",
+      "parent": "EnablementMeasure"
+    },
+    {
+      "name": "ManagerEnablement",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/ManagerEnablement",
+      "label": "マネジャー・イネーブルメント",
+      "comment": "営業マネジャー向けの定着支援。現場への施策浸透と実践形式トレーニングの効果を加速する。",
+      "parent": "EnablementMeasure"
+    },
+    {
+      "name": "OnboardingProgram",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/OnboardingProgram",
+      "label": "オンボーディングプログラム",
+      "comment": "中途社員などを早期戦力化するための導入育成。事業成長のための育成として位置づける。",
+      "parent": "EnablementMeasure"
+    },
+    {
+      "name": "RevenueEnablement",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/RevenueEnablement",
+      "label": "レベニュー・イネーブルメント",
+      "comment": "営業部門に留まらず収益部門全体を支援するよう進化したイネーブルメント。",
+      "parent": "SalesEnablement"
+    },
+    {
+      "name": "EnablementTeam",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementTeam",
+      "label": "イネーブルメントチーム",
+      "comment": "型の提供と浸透、側面支援コーチ、ナレッジ流通ハブの3役割を担う専門チーム。縦横の配置で全社または事業部に置く。",
+      "parent": null
+    },
+    {
+      "name": "EnablementMissionSheet",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMissionSheet",
+      "label": "イネーブルメントミッションシート",
+      "comment": "チームの配置と役割を明示し、社内の理解と認知を獲得するための文書。",
+      "parent": null
+    },
+    {
+      "name": "OperationFlow",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/OperationFlow",
+      "label": "業務オペレーションフロー",
+      "comment": "改善すべき営業KPIの設定から次回施策検討までを回す、成果起点の10ステップ循環。",
+      "parent": null
+    },
+    {
+      "name": "Company",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/Company",
+      "label": "企業",
+      "comment": "セールス・イネーブルメントを導入し、トップセールス依存の解消と中間層底上げを目指す組織主体。",
+      "parent": null
+    },
+    {
+      "name": "CaseStudy",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/CaseStudy",
+      "label": "導入事例",
+      "comment": "企業における実践と成果を示すケース。分業化、オンボーディング、需要創造型への転換などが含まれる。",
+      "parent": null
+    },
+    {
+      "name": "SalesKPI",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesKPI",
+      "label": "営業KPI",
+      "comment": "目標達成の柱に沿って設定される注力営業指標。イネーブルメント施策の改善起点となる。",
+      "parent": null
+    },
+    {
+      "name": "SalesGoal",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesGoal",
+      "label": "営業目標",
+      "comment": "達成すべき売上などの定量的ゴール。計画段階で戦略および注力指標と合わせて明確化する。",
+      "parent": null
+    },
+    {
+      "name": "SalesStrategy",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesStrategy",
+      "label": "営業戦略",
+      "comment": "注力顧客・チャネル・製品など目標達成の柱を含む戦略。イネーブルメント施策はこれに沿って統合実行する。",
+      "parent": null
+    },
+    {
+      "name": "SalesPlay",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesPlay",
+      "label": "セールス・プレイ",
+      "comment": "現場スペシャリストのナレッジを集約し、製品ごとの売り方をパッケージ化した実践的営業コンテンツ。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "supportsSalesperson",
+      "type": "object",
+      "domain": [
+        "SalesEnablement",
+        "EnablementTeam",
+        "Enabler"
+      ],
+      "range": [
+        "Salesperson"
+      ],
+      "label": "営業担当者を支援する",
+      "comment": "成果を出せるよう能力開発と仕組みで営業担当者を支援する関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/supportsSalesperson"
+    },
+    {
+      "name": "dependsOnTopSales",
+      "type": "object",
+      "domain": [
+        "SalesOrganization"
+      ],
+      "range": [
+        "TopSalesperson"
+      ],
+      "label": "トップセールスに依存する",
+      "comment": "組織全体の目標達成が一部ハイパフォーマーの突出成績に頼っている脆弱な状態。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/dependsOnTopSales"
+    },
+    {
+      "name": "liftsPerformanceOf",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "MiddleLayerSalesperson"
+      ],
+      "label": "中間層を底上げする",
+      "comment": "一般営業のパフォーマンスを引き上げ、トップセールス依存を解消する目的関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/liftsPerformanceOf"
+    },
+    {
+      "name": "hasFramework",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "OutcomeBehaviorSkillFramework"
+      ],
+      "label": "骨格フレームワークを持つ",
+      "comment": "成果・行動・スキル知識を連結する概念をイネーブルメントの骨格として持つ。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasFramework"
+    },
+    {
+      "name": "producesOutcome",
+      "type": "object",
+      "domain": [
+        "SalesAction",
+        "KeyAction"
+      ],
+      "range": [
+        "SalesOutcome"
+      ],
+      "label": "成果を創出する",
+      "comment": "定義された営業行動が最終的な営業成果につながる関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/producesOutcome"
+    },
+    {
+      "name": "requiresSkillOrKnowledge",
+      "type": "object",
+      "domain": [
+        "SalesAction",
+        "KeyAction"
+      ],
+      "range": [
+        "SkillOrKnowledge"
+      ],
+      "label": "スキル知識を必要とする",
+      "comment": "重要行動の実行に必要なスキルまたは知識との対応。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/requiresSkillOrKnowledge"
+    },
+    {
+      "name": "hasManagementCycle",
+      "type": "object",
+      "domain": [
+        "SalesEnablement"
+      ],
+      "range": [
+        "PDSCycle"
+      ],
+      "label": "マネジメントサイクルを持つ",
+      "comment": "持続的な仕組みとして計画・実行・検証のサイクルを運用する。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasManagementCycle"
+    },
+    {
+      "name": "hasSkillMap",
+      "type": "object",
+      "domain": [
+        "SalesEnablement",
+        "PDSCycle"
+      ],
+      "range": [
+        "SkillMap"
+      ],
+      "label": "スキルマップを持つ",
+      "comment": "勝ちパターンを営業フェーズ・重要行動・スキル知識として体系化したマップを持つ。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasSkillMap"
+    },
+    {
+      "name": "basedOnHearingOf",
+      "type": "object",
+      "domain": [
+        "SkillMap"
+      ],
+      "range": [
+        "TopSalesperson"
+      ],
+      "label": "ヒアリングに基づく",
+      "comment": "スキルマップがハイパフォーマーへのヒアリングから作られる関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/basedOnHearingOf"
+    },
+    {
+      "name": "hasPhase",
+      "type": "object",
+      "domain": [
+        "SkillMap"
+      ],
+      "range": [
+        "SalesPhase"
+      ],
+      "label": "営業フェーズを持つ",
+      "comment": "スキルマップが顧客視点の営業フェーズで構成される関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasPhase"
+    },
+    {
+      "name": "alignedWithCustomerProcess",
+      "type": "object",
+      "domain": [
+        "SalesPhase",
+        "Coaching"
+      ],
+      "range": [
+        "CustomerDecisionProcess"
+      ],
+      "label": "顧客プロセスに沿う",
+      "comment": "フェーズ定義や商談コーチングが顧客の意思決定プロセスを主語にして進む関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/alignedWithCustomerProcess"
+    },
+    {
+      "name": "hasKeyAction",
+      "type": "object",
+      "domain": [
+        "SalesPhase",
+        "SkillMap"
+      ],
+      "range": [
+        "KeyAction"
+      ],
+      "label": "重要行動を持つ",
+      "comment": "各営業フェーズに成果直結の重要行動が紐づく関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasKeyAction"
+    },
+    {
+      "name": "assesses",
+      "type": "object",
+      "domain": [
+        "Assessment"
+      ],
+      "range": [
+        "Salesperson",
+        "SkillOrKnowledge"
+      ],
+      "label": "評価する",
+      "comment": "現状スキルを定量評価し育成テーマを特定する関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/assesses"
+    },
+    {
+      "name": "belongsToOrganization",
+      "type": "object",
+      "domain": [
+        "Salesperson",
+        "EnablementTeam"
+      ],
+      "range": [
+        "SalesOrganization"
+      ],
+      "label": "組織に所属する",
+      "comment": "営業担当者またはイネーブルメントチームが営業組織に属する関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/belongsToOrganization"
+    },
+    {
+      "name": "hasTeam",
+      "type": "object",
+      "domain": [
+        "SalesOrganization",
+        "Company"
+      ],
+      "range": [
+        "EnablementTeam"
+      ],
+      "label": "チームを持つ",
+      "comment": "組織がイネーブルメントチームを配置する関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasTeam"
+    },
+    {
+      "name": "hasEnabler",
+      "type": "object",
+      "domain": [
+        "EnablementTeam"
+      ],
+      "range": [
+        "Enabler"
+      ],
+      "label": "イネーブラーを擁する",
+      "comment": "チームが担当者としてイネーブラーを置く関係。トップセールスのローテーションも多い。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasEnabler"
+    },
+    {
+      "name": "providesMeasure",
+      "type": "object",
+      "domain": [
+        "EnablementTeam",
+        "Enabler"
+      ],
+      "range": [
+        "EnablementMeasure"
+      ],
+      "label": "施策を提供する",
+      "comment": "トレーニング、コーチング、ナレッジ等の施策を企画・開発・提供する関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/providesMeasure"
+    },
+    {
+      "name": "followsStrategy",
+      "type": "object",
+      "domain": [
+        "SalesEnablement",
+        "EnablementMeasure"
+      ],
+      "range": [
+        "SalesStrategy"
+      ],
+      "label": "営業戦略に沿う",
+      "comment": "イネーブルメントが営業戦略に沿った施策を統合実行する関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/followsStrategy"
+    },
+    {
+      "name": "hasGoal",
+      "type": "object",
+      "domain": [
+        "SalesOrganization",
+        "SalesStrategy"
+      ],
+      "range": [
+        "SalesGoal"
+      ],
+      "label": "営業目標を持つ",
+      "comment": "組織または戦略が達成すべき売上等のゴールを持つ関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasGoal"
+    },
+    {
+      "name": "measuredByKPI",
+      "type": "object",
+      "domain": [
+        "SalesOrganization",
+        "SalesOutcome",
+        "OperationFlow"
+      ],
+      "range": [
+        "SalesKPI"
+      ],
+      "label": "KPIで測定される",
+      "comment": "成果や改善対象が注力営業指標で測られる関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/measuredByKPI"
+    },
+    {
+      "name": "verifiesCorrelation",
+      "type": "object",
+      "domain": [
+        "PDSCycle"
+      ],
+      "range": [
+        "SalesOutcome",
+        "EnablementMeasure"
+      ],
+      "label": "相関を検証する",
+      "comment": "育成成果と営業成果を掛け合わせ、無相関なら設計誤りや環境変化を分析して次計画へ返す。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/verifiesCorrelation"
+    },
+    {
+      "name": "usesOperationFlow",
+      "type": "object",
+      "domain": [
+        "EnablementTeam"
+      ],
+      "range": [
+        "OperationFlow"
+      ],
+      "label": "業務フローを用いる",
+      "comment": "成果起点の10ステップで施策を回す関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/usesOperationFlow"
+    },
+    {
+      "name": "hasMissionSheet",
+      "type": "object",
+      "domain": [
+        "EnablementTeam"
+      ],
+      "range": [
+        "EnablementMissionSheet"
+      ],
+      "label": "ミッションシートを持つ",
+      "comment": "社内認知獲得のため役割と配置を文書化する関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasMissionSheet"
+    },
+    {
+      "name": "implementsEnablement",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "SalesEnablement"
+      ],
+      "label": "イネーブルメントを導入する",
+      "comment": "企業がセールス・イネーブルメントを導入・運用する関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/implementsEnablement"
+    },
+    {
+      "name": "hasCaseStudy",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "CaseStudy"
+      ],
+      "label": "導入事例を持つ",
+      "comment": "企業の実践内容と成功の鍵を事例として示す関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasCaseStudy"
+    },
+    {
+      "name": "providesSalesPlay",
+      "type": "object",
+      "domain": [
+        "ProductEnablement"
+      ],
+      "range": [
+        "SalesPlay"
+      ],
+      "label": "セールスプレイを提供する",
+      "comment": "製品ごとの売り方パッケージを営業へ提供する関係。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/providesSalesPlay"
+    },
+    {
+      "name": "hasDescription",
+      "type": "data",
+      "domain": [
+        "SalesEnablement",
+        "EnablementMeasure",
+        "Enabler",
+        "SkillMap",
+        "CaseStudy",
+        "EnablementMissionSheet"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "記述",
+      "comment": "定義、目的、役割、成功の鍵などの説明文。",
+      "uri": "https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/hasDescription"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

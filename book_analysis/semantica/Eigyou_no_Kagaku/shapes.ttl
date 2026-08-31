@@ -1,0 +1,392 @@
+@prefix ex: <https://books.local/Eigyou_no_Kagaku/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Eigyou_no_Kagaku/shapes> a owl:Ontology .
+
+<https://books.local/Eigyou_no_Kagaku/SalespersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Salesperson ;
+    sh:name "営業担当者" ;
+    sh:description "顧客へ提案や関係構築を行う担い手。成果には急所を踏まえた武器の習得が不可欠である。" ;
+    sh:property [
+        sh:path ex:usesWeapon ;
+        sh:class ex:SalesWeapon ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesTechnique ;
+        sh:class ex:SalesTechnique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsTo ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:SalesMeeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:coCreatesWith ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:showsValueBasis ;
+        sh:class ex:ValueBasis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:fallsIntoTrap ;
+        sh:class ex:GanbarismTrap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesSFA ;
+        sh:class ex:SFASystem ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "購買者の仮面を無意識に付け、本音や真のニーズを隠すことがある購買側の当事者。" ;
+    sh:property [
+        sh:path ex:wearsMask ;
+        sh:class ex:BuyerMask ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCustomerType ;
+        sh:class ex:CustomerType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:SalesMeeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDecisionMaker ;
+        sh:class ex:DecisionMaker ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/ManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Manager ;
+    sh:name "マネジャー" ;
+    sh:description "営業組織を指導する立場。精神論ではなく急所に基づく具体的マネジメントが求められる。" ;
+    sh:property [
+        sh:path ex:managesMember ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsTo ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:fallsIntoTrap ;
+        sh:class ex:GanbarismTrap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesSFA ;
+        sh:class ex:SFASystem ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "営業担当者とマネジャーから成る集団。超人の成功体験やガンバリズムが蔓延しやすい。" ;
+    sh:property [
+        sh:path ex:fallsIntoTrap ;
+        sh:class ex:GanbarismTrap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDecisionMaker ;
+        sh:class ex:DecisionMaker ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/SuperhumanShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Superhuman ;
+    sh:name "超人" ;
+    sh:description "突出成果を出す創業メンバー等。自身の当たり前が他者には尋常ならざる努力であることに無自覚な存在。" ;
+    sh:property [
+        sh:path ex:usesWeapon ;
+        sh:class ex:SalesWeapon ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesTechnique ;
+        sh:class ex:SalesTechnique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsTo ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:SalesMeeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:coCreatesWith ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:showsValueBasis ;
+        sh:class ex:ValueBasis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:fallsIntoTrap ;
+        sh:class ex:GanbarismTrap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesSFA ;
+        sh:class ex:SFASystem ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/DecisionMakerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DecisionMaker ;
+    sh:name "決裁者" ;
+    sh:description "決める人ではなく決めきれずに悩む人として支援すべき社内の意思決定者。" ;
+    sh:property [
+        sh:path ex:wearsMask ;
+        sh:class ex:BuyerMask ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCustomerType ;
+        sh:class ex:CustomerType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:SalesMeeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDecisionMaker ;
+        sh:class ex:DecisionMaker ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/BuyerMaskShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BuyerMask ;
+    sh:name "購買者の仮面" ;
+    sh:description "顧客が本音や真のニーズを隠すために無意識につける防衛的な仮面。営業の中核的な急所。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/EvasionMaskShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EvasionMask ;
+    sh:name "はぐらかしの仮面" ;
+    sh:description "予算や競合などの機微情報を聞かれた際、リスクを避けるために曖昧にはぐらかす防衛反応。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/BusynessMaskShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusynessMask ;
+    sh:name "忙しさの仮面" ;
+    sh:description "今は忙しい、資料を送ってと拒絶し、レベルの低い営業に時間を使いたくない本音を隠す仮面。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/SuddenRequestMaskShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SuddenRequestMask ;
+    sh:name "いきなりの仮面" ;
+    sh:description "突然の短納期見積もり要求。競合先行のサインであり、話が早く頼れる営業へ依頼したい本音を隠す。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/CheapnessMaskShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CheapnessMask ;
+    sh:name "とにかく安くの仮面" ;
+    sh:description "安くしてほしいという要求の裏に判断基準の不明確さを隠す仮面。見積もりだけを見る顧客はごく少数である。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/ConsiderationMaskShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConsiderationMask ;
+    sh:name "検討しますの仮面" ;
+    sh:description "社内で検討しますと述べて面倒なやり取りを避ける一時しのぎの現実逃避。多くの場合に営業チャンスが残る。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/CustomerTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerType ;
+    sh:name "顧客タイプ" ;
+    sh:description "意思決定で動くツボに基づく顧客分類。論理・感情・政治の三類型がある。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/LogicalTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LogicalType ;
+    sh:name "論理タイプ" ;
+    sh:description "結論先行や定量的根拠、一貫性を重視し無駄な時間を嫌う顧客タイプ。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/EmotionalTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EmotionalType ;
+    sh:name "感情タイプ" ;
+    sh:description "感覚や好き嫌いを重視し言語化が苦手な顧客タイプ。本音での共感や一体感が鍵となる。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/PoliticalTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PoliticalType ;
+    sh:name "政治タイプ" ;
+    sh:description "社内評価や他者の意見、リスク回避を重視する最も多い顧客タイプ。実績や権威の提示が有効。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/CriticalPointShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CriticalPoint ;
+    sh:name "急所" ;
+    sh:description "成果を左右する営業の急所。購買者の仮面を外し正しい方向へ努力を向けることが中核である。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/SalesWeaponShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesWeapon ;
+    sh:name "武器" ;
+    sh:description "急所を踏まえて習得すべき具体的アクション。枕詞、深掘り質問、高速ラリー、要件整理などが含まれる。" ;
+    sh:property [
+        sh:path ex:countersMask ;
+        sh:class ex:BuyerMask ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsCriticalPoint ;
+        sh:class ex:CriticalPoint ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/SalesTechniqueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesTechnique ;
+    sh:name "営業技法" ;
+    sh:description "枕詞、深掘り質問、特定質問、高速ラリー、ハイブリッド営業、テストクロージング、スモールステップなどの具体技法。" ;
+    sh:property [
+        sh:path ex:countersMask ;
+        sh:class ex:BuyerMask ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/GanbarismTrapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GanbarismTrap ;
+    sh:name "ガンバリズムの罠" ;
+    sh:description "努力不足ではなくがんばり方の間違いが組織に蔓延し、誤った努力が逆効果になる罠。" .
+
+<https://books.local/Eigyou_no_Kagaku/SalesMeetingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesMeeting ;
+    sh:name "商談" ;
+    sh:description "一方的な提案ではなく、高速ラリーを通じて考えを整理し最適解を共創する場。" ;
+    sh:property [
+        sh:path ex:embodiesCoCreation ;
+        sh:class ex:CoCreation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/CoCreationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CoCreation ;
+    sh:name "共創" ;
+    sh:description "顧客との高速ラリーを通じ、二人三脚で最適解を作り上げる関係性とプロセス。" .
+
+<https://books.local/Eigyou_no_Kagaku/ValueBasisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ValueBasis ;
+    sh:name "価値の根拠" ;
+    sh:description "課題解決力、費用対効果、クイックレスポンスなど、アタリの営業であることを早期に示す根拠。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_no_Kagaku/SFASystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SFASystem ;
+    sh:name "SFA" ;
+    sh:description "営業プロセスの見える化ツール。指導力不足やラッキー成果の露見を恐れて活用が進みにくい。" .

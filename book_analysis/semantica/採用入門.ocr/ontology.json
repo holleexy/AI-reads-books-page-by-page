@@ -1,0 +1,547 @@
+{
+  "uri": "https://books.local/採用入門.ocr/",
+  "name": "採用入門.ocrOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/採用入門.ocr/Book",
+      "label": "書籍",
+      "comment": "『図解採用入門100のツボ』など、採用の考え方を体系的に示す入門書。100の独立したツボで構成され順不同で読める。",
+      "parent": null
+    },
+    {
+      "name": "Author",
+      "uri": "https://books.local/採用入門.ocr/Author",
+      "label": "著者",
+      "comment": "書籍の執筆者。実務家の坪谷邦生と採用市場研究所の秋山統樹など。",
+      "parent": null
+    },
+    {
+      "name": "Tsubo",
+      "uri": "https://books.local/採用入門.ocr/Tsubo",
+      "label": "ツボ",
+      "comment": "書籍を構成する100の独立した要点。見開き2ページで自己完結し、Q&A・解説・図解・実践ヒントからなる。",
+      "parent": null
+    },
+    {
+      "name": "HumanResources",
+      "uri": "https://books.local/採用入門.ocr/HumanResources",
+      "label": "人事",
+      "comment": "人を生かして事をなすこと。人の能力発揮と組織成果の同時実現。搾取でもぬるま湯でもない。機能はホロン構造をなす。",
+      "parent": null
+    },
+    {
+      "name": "Result",
+      "uri": "https://books.local/採用入門.ocr/Result",
+      "label": "成果",
+      "comment": "組織が顧客と社会に提供する価値。内部努力ではなく外部から見える価値であり、ドラッカーによれば成果は組織の外に存在する。",
+      "parent": null
+    },
+    {
+      "name": "Business",
+      "uri": "https://books.local/採用入門.ocr/Business",
+      "label": "事業",
+      "comment": "価値を継続的に提供する活動。製品・サービスを生み出し収益を得て、企業が成長するための仕組み全体。",
+      "parent": null
+    },
+    {
+      "name": "Organization",
+      "uri": "https://books.local/採用入門.ocr/Organization",
+      "label": "組織",
+      "comment": "共通目的に向かい人が結びつき役割を分担して協働する仕組み。織り合わせるという意味を持ち、円滑な機能に人事が不可欠。",
+      "parent": null
+    },
+    {
+      "name": "Recruitment",
+      "uri": "https://books.local/採用入門.ocr/Recruitment",
+      "label": "採用",
+      "comment": "組織と人が出会いともに未来を形づくる営み。人を選ぶから関係性を築くへの転換。人事の最初で特に重要な中核機能。",
+      "parent": "HumanResources"
+    },
+    {
+      "name": "NewGraduateRecruitment",
+      "uri": "https://books.local/採用入門.ocr/NewGraduateRecruitment",
+      "label": "新卒採用",
+      "comment": "日本特有の一括採用。潜在能力と将来の成長を重視し、長期育成・ジョブローテーション・同期文化を前提とする。",
+      "parent": "Recruitment"
+    },
+    {
+      "name": "ExperiencedHireRecruitment",
+      "uri": "https://books.local/採用入門.ocr/ExperiencedHireRecruitment",
+      "label": "経験者採用",
+      "comment": "実務経験と専門スキルを評価し任せる採用。即戦力と入社後成果が最重要。需要は流動的で現場主導が多い。",
+      "parent": "Recruitment"
+    },
+    {
+      "name": "RecruitmentTeam",
+      "uri": "https://books.local/採用入門.ocr/RecruitmentTeam",
+      "label": "採用チーム",
+      "comment": "人事・現場マネージャー・現場メンバー・経営者・外部パートナーが協働する体制。多様な視点・速度と質の両立・学習資産化が利点。",
+      "parent": null
+    },
+    {
+      "name": "TeamStructure",
+      "uri": "https://books.local/採用入門.ocr/TeamStructure",
+      "label": "チーム構造",
+      "comment": "分散型・専任集中型・ハイブリッド型・プロジェクト型・RPO外部委託型の五類型。人員規模に応じて見直しが必要。",
+      "parent": null
+    },
+    {
+      "name": "RecruitmentProcess",
+      "uri": "https://books.local/採用入門.ocr/RecruitmentProcess",
+      "label": "採用プロセス",
+      "comment": "矢羽モデルと呼ばれる短期プロセス。採用要件から募集、選考、適応（オンボーディング）へと進む。",
+      "parent": null
+    },
+    {
+      "name": "RecruitmentRequirement",
+      "uri": "https://books.local/採用入門.ocr/RecruitmentRequirement",
+      "label": "採用要件",
+      "comment": "事業と組織が成果を出すために必要な人材条件。曖昧だとスキル不一致や早期離職を招く。",
+      "parent": null
+    },
+    {
+      "name": "Sourcing",
+      "uri": "https://books.local/採用入門.ocr/Sourcing",
+      "label": "募集",
+      "comment": "候補者を集め接点を作る活動。媒体・紹介・スカウト・リファラルなどを含む。",
+      "parent": null
+    },
+    {
+      "name": "Selection",
+      "uri": "https://books.local/採用入門.ocr/Selection",
+      "label": "選考",
+      "comment": "候補者を評価し採否を決める活動。属人的直感への偏りは失敗要因となる。",
+      "parent": null
+    },
+    {
+      "name": "Onboarding",
+      "uri": "https://books.local/採用入門.ocr/Onboarding",
+      "label": "適応",
+      "comment": "入社後の定着・貢献・成果創出を促すオンボーディング。適応できなければ採用は失敗である。",
+      "parent": null
+    },
+    {
+      "name": "CandidateExperience",
+      "uri": "https://books.local/採用入門.ocr/CandidateExperience",
+      "label": "採用CX",
+      "comment": "応募から入社までの全接点における候補者体験。迅速な連絡・丁寧な対応・文化を感じる瞬間が入社承諾と適応に影響する。",
+      "parent": null
+    },
+    {
+      "name": "RecruitmentMarketing",
+      "uri": "https://books.local/採用入門.ocr/RecruitmentMarketing",
+      "label": "採用マーケティング",
+      "comment": "候補者と企業の関係性を育成する活動。採用CXを支える層。",
+      "parent": null
+    },
+    {
+      "name": "RecruitmentStrategy",
+      "uri": "https://books.local/採用入門.ocr/RecruitmentStrategy",
+      "label": "採用戦略",
+      "comment": "経営・事業戦略と候補者ニーズを整合させる方針。いつ、どんな人を、何人、どのように採用するかを定める。",
+      "parent": null
+    },
+    {
+      "name": "Person",
+      "uri": "https://books.local/採用入門.ocr/Person",
+      "label": "人",
+      "comment": "採用に関わる個人。能力を生かして事をなす主体。",
+      "parent": null
+    },
+    {
+      "name": "Executive",
+      "uri": "https://books.local/採用入門.ocr/Executive",
+      "label": "経営者",
+      "comment": "方向提示・顔出し・迅速な意思決定・文化語りを担う。採用へのコミットで活動は半ば成功する。",
+      "parent": "Person"
+    },
+    {
+      "name": "FieldManager",
+      "uri": "https://books.local/採用入門.ocr/FieldManager",
+      "label": "現場マネージャー",
+      "comment": "職場適合を保証する役割。要件の具体化、スキルとスタンス評価、CX演出、適応支援、結果検証を行う。",
+      "parent": "Person"
+    },
+    {
+      "name": "Recruiter",
+      "uri": "https://books.local/採用入門.ocr/Recruiter",
+      "label": "採用担当者",
+      "comment": "経営・現場・外部をつなぐハブ。戦略立案、プロセス設計、情報調整、CX設計、組織学習促進を担う。",
+      "parent": "Person"
+    },
+    {
+      "name": "Candidate",
+      "uri": "https://books.local/採用入門.ocr/Candidate",
+      "label": "候補者",
+      "comment": "組織と出会い関係性を築く人材。キャリア形成の機会として採用を捉える主体。",
+      "parent": "Person"
+    },
+    {
+      "name": "ExternalPartner",
+      "uri": "https://books.local/採用入門.ocr/ExternalPartner",
+      "label": "外部パートナー",
+      "comment": "効率を高める協力者。求人媒体、人材紹介、スカウト、RPOなどの類型がある。信頼関係が成功の鍵。",
+      "parent": null
+    },
+    {
+      "name": "HiringFailure",
+      "uri": "https://books.local/採用入門.ocr/HiringFailure",
+      "label": "採用失敗",
+      "comment": "要件曖昧、属人的選考、広報と実態の乖離、戦略欠如の四類型。戦術成功への執着が中長期の大きな失敗を招く。",
+      "parent": null
+    },
+    {
+      "name": "RecruitmentImpact",
+      "uri": "https://books.local/採用入門.ocr/RecruitmentImpact",
+      "label": "採用の影響",
+      "comment": "組織成長（増員と補充）、組織活性化、個人のキャリア形成、社会の雇用創出という四層の影響。",
+      "parent": null
+    },
+    {
+      "name": "HiringModel",
+      "uri": "https://books.local/採用入門.ocr/HiringModel",
+      "label": "採用モデル",
+      "comment": "文化と雇用システムに根ざす採用の型。国によるタイミング・基準・雇用形態の違いを説明する。",
+      "parent": null
+    },
+    {
+      "name": "JapaneseHiringModel",
+      "uri": "https://books.local/採用入門.ocr/JapaneseHiringModel",
+      "label": "日本型採用",
+      "comment": "新卒一括採用・潜在能力・長期雇用・ジョブローテーションによるメンバーシップ型。組織力と忠誠心が強み。",
+      "parent": "HiringModel"
+    },
+    {
+      "name": "AmericanHiringModel",
+      "uri": "https://books.local/採用入門.ocr/AmericanHiringModel",
+      "label": "米国型採用",
+      "comment": "通年採用・スキルと成果・ジョブ型雇用。適材適所と専門深化、市場流動性が強み。",
+      "parent": "HiringModel"
+    },
+    {
+      "name": "HistoricalPeriod",
+      "uri": "https://books.local/採用入門.ocr/HistoricalPeriod",
+      "label": "歴史的時期",
+      "comment": "明治の学歴エリート採用から、終身雇用の定着、バブル崩壊後の多様化、21世紀の通年・ジョブ型・遠隔採用までの区分。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "writtenBy",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Author"
+      ],
+      "label": "著者である",
+      "comment": "書籍とその執筆者を結びつける。",
+      "uri": "https://books.local/採用入門.ocr/writtenBy"
+    },
+    {
+      "name": "consistsOfTsubo",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Tsubo"
+      ],
+      "label": "ツボからなる",
+      "comment": "書籍が独立したツボの集合として構成される関係。",
+      "uri": "https://books.local/採用入門.ocr/consistsOfTsubo"
+    },
+    {
+      "name": "producesResult",
+      "type": "object",
+      "domain": [
+        "Business",
+        "Organization"
+      ],
+      "range": [
+        "Result"
+      ],
+      "label": "成果を生む",
+      "comment": "事業と組織が顧客・社会への価値としての成果を生み出す関係。",
+      "uri": "https://books.local/採用入門.ocr/producesResult"
+    },
+    {
+      "name": "requiresOrganization",
+      "type": "object",
+      "domain": [
+        "Business"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "label": "組織を必要とする",
+      "comment": "事業が継続的に成果を出すために組織を必要とする関係。",
+      "uri": "https://books.local/採用入門.ocr/requiresOrganization"
+    },
+    {
+      "name": "requiresRecruitment",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "Recruitment"
+      ],
+      "label": "採用を必要とする",
+      "comment": "組織が事業を通じて成果を出すために必要な人材を採用で迎え入れる関係。",
+      "uri": "https://books.local/採用入門.ocr/requiresRecruitment"
+    },
+    {
+      "name": "hasTeam",
+      "type": "object",
+      "domain": [
+        "Recruitment"
+      ],
+      "range": [
+        "RecruitmentTeam"
+      ],
+      "label": "採用チームを持つ",
+      "comment": "採用活動が個人ではなくチームとして行われる関係。",
+      "uri": "https://books.local/採用入門.ocr/hasTeam"
+    },
+    {
+      "name": "hasProcess",
+      "type": "object",
+      "domain": [
+        "Recruitment"
+      ],
+      "range": [
+        "RecruitmentProcess"
+      ],
+      "label": "採用プロセスを持つ",
+      "comment": "採用が矢羽モデルの短期プロセスとして構造化される関係。",
+      "uri": "https://books.local/採用入門.ocr/hasProcess"
+    },
+    {
+      "name": "hasStageRequirement",
+      "type": "object",
+      "domain": [
+        "RecruitmentProcess"
+      ],
+      "range": [
+        "RecruitmentRequirement"
+      ],
+      "label": "採用要件段階を持つ",
+      "comment": "プロセスの起点として必要な人材条件を定める関係。",
+      "uri": "https://books.local/採用入門.ocr/hasStageRequirement"
+    },
+    {
+      "name": "hasStageSourcing",
+      "type": "object",
+      "domain": [
+        "RecruitmentProcess"
+      ],
+      "range": [
+        "Sourcing"
+      ],
+      "label": "募集段階を持つ",
+      "comment": "プロセスが候補者募集へと進む関係。",
+      "uri": "https://books.local/採用入門.ocr/hasStageSourcing"
+    },
+    {
+      "name": "hasStageSelection",
+      "type": "object",
+      "domain": [
+        "RecruitmentProcess"
+      ],
+      "range": [
+        "Selection"
+      ],
+      "label": "選考段階を持つ",
+      "comment": "プロセスが評価と採否決定へと進む関係。",
+      "uri": "https://books.local/採用入門.ocr/hasStageSelection"
+    },
+    {
+      "name": "hasStageOnboarding",
+      "type": "object",
+      "domain": [
+        "RecruitmentProcess"
+      ],
+      "range": [
+        "Onboarding"
+      ],
+      "label": "適応段階を持つ",
+      "comment": "プロセスが入社後の定着と貢献へと進む関係。",
+      "uri": "https://books.local/採用入門.ocr/hasStageOnboarding"
+    },
+    {
+      "name": "hasCandidateExperience",
+      "type": "object",
+      "domain": [
+        "Recruitment"
+      ],
+      "range": [
+        "CandidateExperience"
+      ],
+      "label": "採用CXを持つ",
+      "comment": "採用が候補者の全接点体験として設計される関係。",
+      "uri": "https://books.local/採用入門.ocr/hasCandidateExperience"
+    },
+    {
+      "name": "hasStrategy",
+      "type": "object",
+      "domain": [
+        "Recruitment"
+      ],
+      "range": [
+        "RecruitmentStrategy"
+      ],
+      "label": "採用戦略を持つ",
+      "comment": "採用が経営・事業戦略と候補者ニーズに整合する方針を持つ関係。",
+      "uri": "https://books.local/採用入門.ocr/hasStrategy"
+    },
+    {
+      "name": "hasMarketing",
+      "type": "object",
+      "domain": [
+        "Recruitment"
+      ],
+      "range": [
+        "RecruitmentMarketing"
+      ],
+      "label": "採用マーケティングを持つ",
+      "comment": "候補者と企業の関係性育成が採用を支える関係。",
+      "uri": "https://books.local/採用入門.ocr/hasMarketing"
+    },
+    {
+      "name": "hasMember",
+      "type": "object",
+      "domain": [
+        "RecruitmentTeam"
+      ],
+      "range": [
+        "Executive",
+        "FieldManager",
+        "Recruiter"
+      ],
+      "label": "メンバーを持つ",
+      "comment": "採用チームが経営者・現場マネージャー・採用担当者で構成される関係。",
+      "uri": "https://books.local/採用入門.ocr/hasMember"
+    },
+    {
+      "name": "collaboratesWith",
+      "type": "object",
+      "domain": [
+        "RecruitmentTeam"
+      ],
+      "range": [
+        "ExternalPartner"
+      ],
+      "label": "外部パートナーと協働する",
+      "comment": "採用チームが媒体・紹介・スカウト・RPOなどと信頼関係を築く関係。",
+      "uri": "https://books.local/採用入門.ocr/collaboratesWith"
+    },
+    {
+      "name": "hasStructure",
+      "type": "object",
+      "domain": [
+        "RecruitmentTeam"
+      ],
+      "range": [
+        "TeamStructure"
+      ],
+      "label": "構造を持つ",
+      "comment": "採用チームが分散・専任・ハイブリッド・プロジェクト・外部委託のいずれかの型を取る関係。",
+      "uri": "https://books.local/採用入門.ocr/hasStructure"
+    },
+    {
+      "name": "targetsCandidate",
+      "type": "object",
+      "domain": [
+        "Recruitment",
+        "Sourcing",
+        "Selection",
+        "CandidateExperience"
+      ],
+      "range": [
+        "Candidate"
+      ],
+      "label": "候補者を対象とする",
+      "comment": "採用活動と各接点が候補者に向かう関係。",
+      "uri": "https://books.local/採用入門.ocr/targetsCandidate"
+    },
+    {
+      "name": "hasImpact",
+      "type": "object",
+      "domain": [
+        "Recruitment"
+      ],
+      "range": [
+        "RecruitmentImpact"
+      ],
+      "label": "影響を持つ",
+      "comment": "採用が組織・個人・社会に成長・活性化・キャリア・雇用の影響を与える関係。",
+      "uri": "https://books.local/採用入門.ocr/hasImpact"
+    },
+    {
+      "name": "hasFailure",
+      "type": "object",
+      "domain": [
+        "Recruitment"
+      ],
+      "range": [
+        "HiringFailure"
+      ],
+      "label": "失敗を持つ",
+      "comment": "採用が要件曖昧・属人性・実態乖離・戦略欠如などの失敗パターンに陥る関係。",
+      "uri": "https://books.local/採用入門.ocr/hasFailure"
+    },
+    {
+      "name": "followsModel",
+      "type": "object",
+      "domain": [
+        "Recruitment"
+      ],
+      "range": [
+        "HiringModel"
+      ],
+      "label": "採用モデルに従う",
+      "comment": "採用実務が日本型または米国型などの雇用文化モデルに根ざす関係。",
+      "uri": "https://books.local/採用入門.ocr/followsModel"
+    },
+    {
+      "name": "shapedInPeriod",
+      "type": "object",
+      "domain": [
+        "HiringModel",
+        "JapaneseHiringModel"
+      ],
+      "range": [
+        "HistoricalPeriod"
+      ],
+      "label": "歴史的時期に形成される",
+      "comment": "採用モデルが明治以降の各時代の雇用慣行の中で形成される関係。",
+      "uri": "https://books.local/採用入門.ocr/shapedInPeriod"
+    },
+    {
+      "name": "definition",
+      "type": "data",
+      "domain": [
+        "HumanResources",
+        "Recruitment",
+        "Result",
+        "Tsubo",
+        "HiringFailure"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "定義",
+      "comment": "概念の日本語による定義文。",
+      "uri": "https://books.local/採用入門.ocr/definition"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

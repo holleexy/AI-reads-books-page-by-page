@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/">
+    <rdfs:label>Soshiki_Koudou_no_Kangaekata_ShinpanOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SalesProfessional">
+    <rdfs:label xml:lang="ja">営業パーソン</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客に合わせて提案をカスタマイズし介在価値を生み出す営業の担い手</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/TopSales">
+    <rdfs:label xml:lang="ja">トップセールス</rdfs:label>
+    <rdfs:comment xml:lang="ja">型の延長ではなく思考法により複雑な顧客課題へ対応し平均を超える成果を出す営業パーソン</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SalesProfessional"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Customer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品そのものではなく片付けたいジョブを解決するために製品を雇用する主体</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InterveningValue">
+    <rdfs:label xml:lang="ja">介在価値</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業が介在することで生まれる付加価値。プロダクトを届けるだけではウェブサイトで足りる</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisThinking">
+    <rdfs:label xml:lang="ja">仮説思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報不足の下で最も確からしい結論を立て検証により精度を高める思考法</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Hypothesis">
+    <rdfs:label xml:lang="ja">仮説</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客自身も気づいていない課題を提示し行動決断を促すための暫定的結論</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Framework">
+    <rdfs:label xml:lang="ja">フレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客のビジネスや課題を解像度高く捉えるための分析および実践の枠組み</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/BusinessAnalysisFramework">
+    <rdfs:label xml:lang="ja">ビジネス分析フレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">戦略と環境を構造化し競争優位や市場位置を明らかにする枠組み</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SellingSkillsFramework">
+    <rdfs:label xml:lang="ja">営業スキルフレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">商談を前進させるコミュニケーションと質問設計の枠組み</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/ThreeCAnalysis">
+    <rdfs:label xml:lang="ja">3C分析</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客・自社・競合の観点から事業環境を捉える分析枠組み</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/BusinessAnalysisFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/ValueProposition">
+    <rdfs:label xml:lang="ja">バリュープロポジション</rdfs:label>
+    <rdfs:comment xml:lang="ja">We help X do Y by doing Z の構造で顧客にとっての独自価値を定義する</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/BusinessAnalysisFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/FiveForcesAnalysis">
+    <rdfs:label xml:lang="ja">ファイブフォース分析</rdfs:label>
+    <rdfs:comment xml:lang="ja">新規参入・代替品・売り手と買い手の交渉力・競合の五脅威から業界を分析する</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/BusinessAnalysisFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SWOTAnalysis">
+    <rdfs:label xml:lang="ja">SWOT分析</rdfs:label>
+    <rdfs:comment xml:lang="ja">内部の強み弱みと外部の機会脅威を整理し戦略方向を見出す分析</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/BusinessAnalysisFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/STPTheory">
+    <rdfs:label xml:lang="ja">STP理論</rdfs:label>
+    <rdfs:comment xml:lang="ja">セグメンテーション・ターゲティング・ポジショニングで市場上の立ち位置を定める</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/BusinessAnalysisFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/JobsToBeDoneTheory">
+    <rdfs:label xml:lang="ja">ジョブ理論</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客は製品ではなく片付けたいジョブのために製品を雇用するという理論</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/PSSFramework">
+    <rdfs:label xml:lang="ja">PSS営業フレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">開始・調査・提案・締結の四ステップで商談を進めるプロフェッショナルセリングスキル</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SellingSkillsFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SPINSelling">
+    <rdfs:label xml:lang="ja">SPIN営業術</rdfs:label>
+    <rdfs:comment xml:lang="ja">状況・問題・示唆・解決の質問により真の課題と行動動機を引き出す話法</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SellingSkillsFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InferenceMethod">
+    <rdfs:label xml:lang="ja">推論手法</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説構築に用いる演繹・帰納・アブダクションなどの推論の方法</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/DeductiveReasoning">
+    <rdfs:label xml:lang="ja">演繹法</rdfs:label>
+    <rdfs:comment xml:lang="ja">一般的なルールである大前提から具体的結論を導く推論</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InferenceMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InductiveReasoning">
+    <rdfs:label xml:lang="ja">帰納法</rdfs:label>
+    <rdfs:comment xml:lang="ja">複数の事例から一般的な法則を導く推論</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InferenceMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/AbductiveReasoning">
+    <rdfs:label xml:lang="ja">アブダクション</rdfs:label>
+    <rdfs:comment xml:lang="ja">結果とルールから原因となる仮説を推測する遡及推論。営業の仮説構築で最も重要</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InferenceMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisViewpoint">
+    <rdfs:label xml:lang="ja">仮説の視点</rdfs:label>
+    <rdfs:comment xml:lang="ja">ゴールから見る・遠くから引く・分解する・反対から見る・端を見るという五つの視点</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/CustomerJob">
+    <rdfs:label xml:lang="ja">ジョブ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が片付けたい用事。機能面・感情面・社会面の三側面で捉える</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/CognitiveBias">
+    <rdfs:label xml:lang="ja">認知バイアス</rdfs:label>
+    <rdfs:comment xml:lang="ja">合理的判断を歪める心理傾向。仮説構築や交渉に活かす対象</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/ProspectTheory">
+    <rdfs:label xml:lang="ja">プロスペクト理論</rdfs:label>
+    <rdfs:comment xml:lang="ja">損失回避性・参照点依存性・感応度逓減性。得る喜びより損の苦痛を約二倍大きく評価する</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/CognitiveBias"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Negotiation">
+    <rdfs:label xml:lang="ja">交渉</rdfs:label>
+    <rdfs:comment xml:lang="ja">勝ち取りではなく双方が納得する不等価交換によりWin-Winを目指す過程</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/AnalogicalThinking">
+    <rdfs:label xml:lang="ja">アナロジー思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">他業界の構造や成功事例を適用し既存前提を覆す新しい仮説を生む思考法</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/VUCAEnvironment">
+    <rdfs:label xml:lang="ja">VUCA時代</rdfs:label>
+    <rdfs:comment xml:lang="ja">複雑化多様化した環境。型通りの説明や御用聞き営業が限界を迎える背景</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/createsInterveningValue">
+    <rdfs:label xml:lang="ja">介在価値を生み出す</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業が介在することで顧客に付加価値を提供する関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SalesProfessional"/>
+    <rdfs:range rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InterveningValue"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/practicesHypothesisThinking">
+    <rdfs:label xml:lang="ja">仮説思考を実践する</rdfs:label>
+    <rdfs:comment xml:lang="ja">トップセールスへ成長するために仮説思考を用いる関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SalesProfessional"/>
+    <rdfs:range rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisThinking"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/constructsHypothesis">
+    <rdfs:label xml:lang="ja">仮説を構築する</rdfs:label>
+    <rdfs:comment xml:lang="ja">検証を前提に最も確からしい暫定結論を立てる関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisThinking"/>
+    <rdfs:range rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Hypothesis"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/servesCustomer">
+    <rdfs:label xml:lang="ja">顧客に向き合う</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客起点で課題を捉え提案する関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SalesProfessional"/>
+    <rdfs:range rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/usesFramework">
+    <rdfs:label xml:lang="ja">フレームワークを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客ビジネスの全体像を構造化するために枠組みを適用する</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SalesProfessional"/>
+    <rdfs:range rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Framework"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/usesInferenceMethod">
+    <rdfs:label xml:lang="ja">推論手法を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">演繹・帰納・アブダクションを使い分けて仮説の確からしさを高める</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisThinking"/>
+    <rdfs:range rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/InferenceMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/hasHypothesisViewpoint">
+    <rdfs:label xml:lang="ja">仮説の視点を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">五つの視点のいずれかから仮説を立てる関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisThinking"/>
+    <rdfs:range rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisViewpoint"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/hiresForJob">
+    <rdfs:label xml:lang="ja">ジョブのために雇用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">片付けたい用事を解決するために製品やサービスを雇用する関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/CustomerJob"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/affectedByBias">
+    <rdfs:label xml:lang="ja">バイアスの影響を受ける</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客判断が損失回避などの認知バイアスにより歪む関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/CognitiveBias"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/conductsNegotiation">
+    <rdfs:label xml:lang="ja">交渉を行う</rdfs:label>
+    <rdfs:comment xml:lang="ja">優先順位のリストと事前合意に基づき不等価交換を進める関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SalesProfessional"/>
+    <rdfs:range rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Negotiation"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/usesAnalogicalThinking">
+    <rdfs:label xml:lang="ja">類推により発想する</rdfs:label>
+    <rdfs:comment xml:lang="ja">他業界の成功構造を移し新しい仮説を得る関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/HypothesisThinking"/>
+    <rdfs:range rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/AnalogicalThinking"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/operatesInEnvironment">
+    <rdfs:label xml:lang="ja">環境下で活動する</rdfs:label>
+    <rdfs:comment xml:lang="ja">VUCA時代においてスピードと仮説提示が競争優位となる関係</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/SalesProfessional"/>
+    <rdfs:range rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/VUCAEnvironment"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/textualDescription">
+    <rdfs:label xml:lang="ja">説明文</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説の内容を表す文字列</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Soshiki_Koudou_no_Kangaekata_Shinpan/Hypothesis"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

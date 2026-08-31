@@ -1,0 +1,636 @@
+{
+  "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/",
+  "name": "Gyoumu_Sekkei_no_KyoukashoOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Book",
+      "label": "書籍",
+      "comment": "業務設計とDX推進の重要性および実践手法を解説する対象書籍。",
+      "parent": null
+    },
+    {
+      "name": "BusinessDesign",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesign",
+      "label": "業務設計",
+      "comment": "システムに任せる定型業務と人間が行う判断業務を切り分け、最適な組み合わせを見つける活動。",
+      "parent": null
+    },
+    {
+      "name": "DigitalTransformation",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DigitalTransformation",
+      "label": "デジタルトランスフォーメーション",
+      "comment": "デジタルテクノロジーが人間の生活のあらゆる側面に引き起こす変革。ビジネスモデル自体の変革を含む。",
+      "parent": null
+    },
+    {
+      "name": "Digitization",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Digitization",
+      "label": "デジタイゼーション",
+      "comment": "アナログからデジタルへの単なる置き換え。真のDXとは区別される。",
+      "parent": null
+    },
+    {
+      "name": "Digitalization",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Digitalization",
+      "label": "デジタライゼーション",
+      "comment": "業務プロセスの再構築。デジタイゼーションとDXの中間段階。",
+      "parent": null
+    },
+    {
+      "name": "BusinessProcess",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessProcess",
+      "label": "業務プロセス",
+      "comment": "目的・開始条件・入力・処理・出力を持つ一連の仕事の流れ。",
+      "parent": null
+    },
+    {
+      "name": "WorkingFramework",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/WorkingFramework",
+      "label": "WORKINGフレームワーク",
+      "comment": "完璧に把握してから進むのではなく、大まかに捉えて動かしながら足りない部分を埋めるアジャイルな業務設計の枠組み。",
+      "parent": null
+    },
+    {
+      "name": "BusinessCategory",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessCategory",
+      "label": "業務分類",
+      "comment": "属人化リスクを把握するために業務を感覚系・仕組系・作業系に分ける分類。",
+      "parent": null
+    },
+    {
+      "name": "SensoryWork",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/SensoryWork",
+      "label": "感覚系業務",
+      "comment": "個人の経験や勘に依存する業務。",
+      "parent": "BusinessCategory"
+    },
+    {
+      "name": "SystematicWork",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/SystematicWork",
+      "label": "仕組系業務",
+      "comment": "ルール化・マニュアル化されている業務。",
+      "parent": "BusinessCategory"
+    },
+    {
+      "name": "ManualWork",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ManualWork",
+      "label": "作業系業務",
+      "comment": "単純な定型手作業の業務。",
+      "parent": "BusinessCategory"
+    },
+    {
+      "name": "Viewpoint",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Viewpoint",
+      "label": "視点",
+      "comment": "業務の現状を正確に把握するための観察の視点。",
+      "parent": null
+    },
+    {
+      "name": "BirdsEyeView",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BirdsEyeView",
+      "label": "鳥の目",
+      "comment": "全体像を俯瞰し、ムダやボトルネックを見つける視点。",
+      "parent": "Viewpoint"
+    },
+    {
+      "name": "InsectsEyeView",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/InsectsEyeView",
+      "label": "虫の目",
+      "comment": "現場の詳細な手順や暗黙知を観察する視点。",
+      "parent": "Viewpoint"
+    },
+    {
+      "name": "FishsEyeView",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/FishsEyeView",
+      "label": "魚の目",
+      "comment": "全体の流れや変化を捉える視点。",
+      "parent": "Viewpoint"
+    },
+    {
+      "name": "DesignArtifact",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DesignArtifact",
+      "label": "設計成果物",
+      "comment": "業務の見える化のために作成するシートや地図などの成果物。",
+      "parent": null
+    },
+    {
+      "name": "BusinessDefinitionSheet",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDefinitionSheet",
+      "label": "業務定義シート",
+      "comment": "業務の目的・トリガー・入力・処理・出力を整理し関係者の共通認識を作る文書。",
+      "parent": "DesignArtifact"
+    },
+    {
+      "name": "BusinessMap",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessMap",
+      "label": "業務の地図",
+      "comment": "誰がどの順番で何をしているかという人の動きの全体像をラフに描いた図。",
+      "parent": "DesignArtifact"
+    },
+    {
+      "name": "InformationMap",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/InformationMap",
+      "label": "情報の地図",
+      "comment": "データがどこから生まれどこで加工されどこへ行くかを可視化し、転記や滞留を発見する図。",
+      "parent": "DesignArtifact"
+    },
+    {
+      "name": "Knowledge",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Knowledge",
+      "label": "知識",
+      "comment": "個人や組織が持つノウハウおよび情報。",
+      "parent": null
+    },
+    {
+      "name": "TacitKnowledge",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/TacitKnowledge",
+      "label": "暗黙知",
+      "comment": "ベテランの頭の中にある言語化されていないノウハウ。",
+      "parent": "Knowledge"
+    },
+    {
+      "name": "ExplicitKnowledge",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ExplicitKnowledge",
+      "label": "形式知",
+      "comment": "マニュアルやチェックリストとして明文化された知識。",
+      "parent": "Knowledge"
+    },
+    {
+      "name": "SECIModel",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/SECIModel",
+      "label": "SECIモデル",
+      "comment": "共同化・表出化・連結化・内面化のサイクルを通じて組織の知識を更新するモデル。",
+      "parent": null
+    },
+    {
+      "name": "ECRSPrinciple",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ECRSPrinciple",
+      "label": "ECRSの原則",
+      "comment": "排除・結合・入れ替え・簡素化によりシステム化の前に業務をスリム化する原則。",
+      "parent": null
+    },
+    {
+      "name": "PullTypeDesign",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PullTypeDesign",
+      "label": "PULL型設計",
+      "comment": "後工程の要求から逆算して各工程の入力と出力を定義する全体最適の設計。",
+      "parent": null
+    },
+    {
+      "name": "PushTypeDesign",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PushTypeDesign",
+      "label": "PUSH型設計",
+      "comment": "前工程が処理を押し付ける設計。全体最適を阻害しやすい。",
+      "parent": null
+    },
+    {
+      "name": "PolanyisParadox",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PolanyisParadox",
+      "label": "ポランニーのパラドックス",
+      "comment": "知っていることは言葉で表現できるよりもはるかに多いという概念。AI活用には暗黙知の構造化が必要。",
+      "parent": null
+    },
+    {
+      "name": "OperationalExcellence",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/OperationalExcellence",
+      "label": "オペレーショナル・エクセレンス",
+      "comment": "誰が担当しても一定の成果を出せる再現性のある仕組み。模倣困難な組織能力となる。",
+      "parent": null
+    },
+    {
+      "name": "DecisionMatrix",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DecisionMatrix",
+      "label": "意思決定マトリクス",
+      "comment": "コスト・スピード・実行可能性・効果・影響範囲などの評価軸で優先順位を決める手法。",
+      "parent": null
+    },
+    {
+      "name": "ImprovementCycle",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ImprovementCycle",
+      "label": "改善サイクル",
+      "comment": "PDCAやCAPDoなど、現場主体で継続的に業務を見直す循環。",
+      "parent": null
+    },
+    {
+      "name": "Organization",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Organization",
+      "label": "組織",
+      "comment": "業務設計とDXの対象となる企業や部門。",
+      "parent": null
+    },
+    {
+      "name": "Person",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/Person",
+      "label": "人物",
+      "comment": "現場従業員・マネジメント・推進リーダーなど業務設計に関わる個人。",
+      "parent": null
+    },
+    {
+      "name": "InformationSystem",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/InformationSystem",
+      "label": "情報システム",
+      "comment": "業務を支援するソフトウェアやクラウドサービス。導入ありきは失敗の原因になりうる。",
+      "parent": null
+    },
+    {
+      "name": "ArtificialIntelligence",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ArtificialIntelligence",
+      "label": "人工知能",
+      "comment": "定型業務やデータ処理で人間を凌駕するが、微妙な判断や例外処理には人間の介入が不可欠な技術。",
+      "parent": null
+    },
+    {
+      "name": "CaseStudy",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/CaseStudy",
+      "label": "実践事例",
+      "comment": "高山技研のように失敗と小さな成功を経て全社的な業務設計へ展開する物語。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "explains",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "BusinessDesign"
+      ],
+      "label": "解説する",
+      "comment": "書籍が業務設計の重要性と実践手法を解説する関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/explains"
+    },
+    {
+      "name": "promotes",
+      "type": "object",
+      "domain": [
+        "BusinessDesign"
+      ],
+      "range": [
+        "DigitalTransformation"
+      ],
+      "label": "推進する",
+      "comment": "業務設計が真のDX推進の前提となる関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/promotes"
+    },
+    {
+      "name": "requiresStage",
+      "type": "object",
+      "domain": [
+        "DigitalTransformation"
+      ],
+      "range": [
+        "Digitalization"
+      ],
+      "label": "段階を必要とする",
+      "comment": "DXはデジタライゼーションを経てビジネスモデル変革に至る。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/requiresStage"
+    },
+    {
+      "name": "warnsAgainst",
+      "type": "object",
+      "domain": [
+        "BusinessDesign"
+      ],
+      "range": [
+        "Digitization"
+      ],
+      "label": "戒める",
+      "comment": "プロセス見直しなきデジタル化は運用を硬直化させるという警告。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/warnsAgainst"
+    },
+    {
+      "name": "usesFramework",
+      "type": "object",
+      "domain": [
+        "BusinessDesign"
+      ],
+      "range": [
+        "WorkingFramework"
+      ],
+      "label": "フレームワークを用いる",
+      "comment": "業務設計をWORKINGのアジャイルな枠組みで進める関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/usesFramework"
+    },
+    {
+      "name": "classifiesAs",
+      "type": "object",
+      "domain": [
+        "BusinessProcess"
+      ],
+      "range": [
+        "BusinessCategory"
+      ],
+      "label": "分類される",
+      "comment": "業務プロセスを感覚系・仕組系・作業系のいずれかに分類する。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/classifiesAs"
+    },
+    {
+      "name": "observesWith",
+      "type": "object",
+      "domain": [
+        "BusinessDesign"
+      ],
+      "range": [
+        "Viewpoint"
+      ],
+      "label": "視点で観察する",
+      "comment": "鳥の目・虫の目・魚の目で現状を把握する関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/observesWith"
+    },
+    {
+      "name": "produces",
+      "type": "object",
+      "domain": [
+        "BusinessDesign"
+      ],
+      "range": [
+        "DesignArtifact"
+      ],
+      "label": "作成する",
+      "comment": "業務設計が定義シートや地図などの成果物を生み出す関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/produces"
+    },
+    {
+      "name": "definedBy",
+      "type": "object",
+      "domain": [
+        "BusinessProcess"
+      ],
+      "range": [
+        "BusinessDefinitionSheet"
+      ],
+      "label": "定義される",
+      "comment": "業務プロセスが業務定義シートで整理される関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/definedBy"
+    },
+    {
+      "name": "visualizedByPeopleFlow",
+      "type": "object",
+      "domain": [
+        "BusinessProcess"
+      ],
+      "range": [
+        "BusinessMap"
+      ],
+      "label": "人の動きで可視化される",
+      "comment": "業務の地図が人の動きの全体像を示す関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/visualizedByPeopleFlow"
+    },
+    {
+      "name": "visualizedByDataFlow",
+      "type": "object",
+      "domain": [
+        "BusinessProcess"
+      ],
+      "range": [
+        "InformationMap"
+      ],
+      "label": "データの流れで可視化される",
+      "comment": "情報の地図がデータの発生・加工・移動を示す関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/visualizedByDataFlow"
+    },
+    {
+      "name": "externalizesTo",
+      "type": "object",
+      "domain": [
+        "TacitKnowledge"
+      ],
+      "range": [
+        "ExplicitKnowledge"
+      ],
+      "label": "形式知化する",
+      "comment": "タクミの暗黙知をマニュアル等の形式知へ転換する関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/externalizesTo"
+    },
+    {
+      "name": "appliesSECI",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "SECIModel"
+      ],
+      "label": "SECIを適用する",
+      "comment": "組織がSECIサイクルで知識を更新する関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/appliesSECI"
+    },
+    {
+      "name": "appliesECRS",
+      "type": "object",
+      "domain": [
+        "BusinessDesign"
+      ],
+      "range": [
+        "ECRSPrinciple"
+      ],
+      "label": "ECRSを適用する",
+      "comment": "自動化の前に排除・結合・入れ替え・簡素化でスリム化する関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/appliesECRS"
+    },
+    {
+      "name": "prefersDesign",
+      "type": "object",
+      "domain": [
+        "BusinessDesign"
+      ],
+      "range": [
+        "PullTypeDesign"
+      ],
+      "label": "設計を採用する",
+      "comment": "後工程からの逆算によるPULL型を全体最適として採用する関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/prefersDesign"
+    },
+    {
+      "name": "avoidsDesign",
+      "type": "object",
+      "domain": [
+        "BusinessDesign"
+      ],
+      "range": [
+        "PushTypeDesign"
+      ],
+      "label": "設計を避ける",
+      "comment": "前工程が押し付けるPUSH型を避ける関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/avoidsDesign"
+    },
+    {
+      "name": "aimsAt",
+      "type": "object",
+      "domain": [
+        "BusinessDesign"
+      ],
+      "range": [
+        "OperationalExcellence"
+      ],
+      "label": "目指す",
+      "comment": "業務設計の最終目標が再現性のある仕組みである関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/aimsAt"
+    },
+    {
+      "name": "evaluatedBy",
+      "type": "object",
+      "domain": [
+        "InformationSystem"
+      ],
+      "range": [
+        "DecisionMatrix"
+      ],
+      "label": "評価される",
+      "comment": "システム選定を意思決定マトリクスで客観的に行う関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/evaluatedBy"
+    },
+    {
+      "name": "constrainedBy",
+      "type": "object",
+      "domain": [
+        "ArtificialIntelligence"
+      ],
+      "range": [
+        "PolanyisParadox"
+      ],
+      "label": "制約される",
+      "comment": "AI活用が暗黙知の言語化限界に制約される関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/constrainedBy"
+    },
+    {
+      "name": "hasProcess",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "BusinessProcess"
+      ],
+      "label": "業務を持つ",
+      "comment": "組織が業務プロセスを保有する関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/hasProcess"
+    },
+    {
+      "name": "assignedTo",
+      "type": "object",
+      "domain": [
+        "BusinessProcess"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "担当する",
+      "comment": "業務プロセスが人物に割り当てられる関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/assignedTo"
+    },
+    {
+      "name": "supportedBy",
+      "type": "object",
+      "domain": [
+        "BusinessProcess"
+      ],
+      "range": [
+        "InformationSystem"
+      ],
+      "label": "支援される",
+      "comment": "業務が情報システムによって支援される関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/supportedBy"
+    },
+    {
+      "name": "assistedBy",
+      "type": "object",
+      "domain": [
+        "BusinessProcess"
+      ],
+      "range": [
+        "ArtificialIntelligence"
+      ],
+      "label": "補助される",
+      "comment": "定型処理が人工知能によって補助される関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/assistedBy"
+    },
+    {
+      "name": "employs",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "雇用する",
+      "comment": "組織が現場と経営層を含む人物を雇用する関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/employs"
+    },
+    {
+      "name": "improvesWith",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "ImprovementCycle"
+      ],
+      "label": "改善する",
+      "comment": "組織が継続的改善サイクルを定着させる関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/improvesWith"
+    },
+    {
+      "name": "illustratedBy",
+      "type": "object",
+      "domain": [
+        "BusinessDesign"
+      ],
+      "range": [
+        "CaseStudy"
+      ],
+      "label": "例示される",
+      "comment": "業務設計の実践が事例物語で示される関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/illustratedBy"
+    },
+    {
+      "name": "aboutOrganization",
+      "type": "object",
+      "domain": [
+        "CaseStudy"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "label": "対象組織",
+      "comment": "実践事例が特定の組織の改善ストーリーである関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/aboutOrganization"
+    },
+    {
+      "name": "ledBy",
+      "type": "object",
+      "domain": [
+        "CaseStudy"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "主導される",
+      "comment": "事例プロジェクトが特定の人物に主導される関係。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ledBy"
+    },
+    {
+      "name": "hasPurpose",
+      "type": "data",
+      "domain": [
+        "BusinessProcess",
+        "BusinessDefinitionSheet"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "目的",
+      "comment": "業務または業務定義シートが持つ本来の目的。",
+      "uri": "https://books.local/Gyoumu_Sekkei_no_Kyoukasho/hasPurpose"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

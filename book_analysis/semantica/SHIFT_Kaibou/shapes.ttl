@@ -1,0 +1,417 @@
+@prefix ex: <https://books.local/SHIFT_Kaibou/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/SHIFT_Kaibou/shapes> a owl:Ontology .
+
+<https://books.local/SHIFT_Kaibou/CompanyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Company ;
+    sh:name "会社" ;
+    sh:description "ソフトウェアのテスト・品質保証などを行う企業組織" ;
+    sh:property [
+        sh:path ex:hasLocation ;
+        sh:class ex:Location ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasExecutive ;
+        sh:class ex:Executive ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:employs ;
+        sh:class ex:Employee ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBusiness ;
+        sh:class ex:Business ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPhilosophy ;
+        sh:class ex:ManagementPhilosophy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practices ;
+        sh:class ex:HumanCapitalManagement ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesProcessTechnology ;
+        sh:class ex:ProcessTechnology ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasRecruitmentStrategy ;
+        sh:class ex:RecruitmentStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesAISystem ;
+        sh:class ex:AISystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:holdsEvaluationMeeting ;
+        sh:class ex:EvaluationMeeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCompensationSystem ;
+        sh:class ex:CompensationSystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasTopGunSystem ;
+        sh:class ex:TopGunSystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesHitoLog ;
+        sh:class ex:HitoLog ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:measuresWith ;
+        sh:class ex:LifetimeValue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCulture ;
+        sh:class ex:OrganizationalCulture ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:holdsEvent ;
+        sh:class ex:InternalEvent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasOffice ;
+        sh:class ex:Office ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasSalesStrategy ;
+        sh:class ex:SalesStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignsHRBP ;
+        sh:class ex:HRBusinessPartner ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignsLastMileTo ;
+        sh:class ex:LastMileRole ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:salesRevenue ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:operatingProfit ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人物" ;
+    sh:description "経営者・社員など組織に関わる個人" ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/ExecutiveShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Executive ;
+    sh:name "経営陣" ;
+    sh:description "創業者社長・CHRO・会長など経営を担う人物" ;
+    sh:property [
+        sh:path ex:hasPhilosophy ;
+        sh:class ex:ManagementPhilosophy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/EmployeeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Employee ;
+    sh:name "社員" ;
+    sh:description "多様なバックグラウンドを持つ従業員。IT未経験者も含む" ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/LocationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Location ;
+    sh:name "所在地" ;
+    sh:description "本社オフィスなどの地理的拠点" ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/BusinessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Business ;
+    sh:name "事業" ;
+    sh:description "ソフトウェアテスト、コンサルティング、システム開発などの事業領域" ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/ManagementPhilosophyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ManagementPhilosophy ;
+    sh:name "経営理念" ;
+    sh:description "コアな価値の探求、エリート主義の否定、99パーセントの底上げなどの思想" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/HumanCapitalManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HumanCapitalManagement ;
+    sh:name "人的資本経営" ;
+    sh:description "学歴・職歴・年齢を問わず多様な人材の能力を極限まで引き出す経営" ;
+    sh:property [
+        sh:path ex:appliesProcessTechnology ;
+        sh:class ex:ProcessTechnology ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:measuresWith ;
+        sh:class ex:LifetimeValue ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/ProcessTechnologyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProcessTechnology ;
+    sh:name "プロセス・テクノロジー" ;
+    sh:description "暗黙知や非効率な業務を分解・可視化・標準化する手法" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/AptitudeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Aptitude ;
+    sh:name "素養" ;
+    sh:description "属性ではなくパターン認識などテスト業務に必要な基礎的能力" .
+
+<https://books.local/SHIFT_Kaibou/RecruitmentStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RecruitmentStrategy ;
+    sh:name "採用戦略" ;
+    sh:description "属性を排除し素養を見抜く桜木花道型の採用アプローチ" ;
+    sh:property [
+        sh:path ex:seeksAptitude ;
+        sh:class ex:Aptitude ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesCATTest ;
+        sh:class ex:CATTest ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesAISystem ;
+        sh:class ex:AISystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/CATTestShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CATTest ;
+    sh:name "CAT検定" ;
+    sh:description "専門知識を問わず素養を判定するオンライン適性テスト" ;
+    sh:property [
+        sh:path ex:seeksAptitude ;
+        sh:class ex:Aptitude ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:certifies ;
+        sh:class ex:Employee ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:passRate ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/AISystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AISystem ;
+    sh:name "AIシステム" ;
+    sh:description "レジュミル、AI面接官、めん太など人事・採用に用いる人工知能" ;
+    sh:property [
+        sh:path ex:predictsTurnoverOf ;
+        sh:class ex:Employee ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/EvaluationMeetingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EvaluationMeeting ;
+    sh:name "評価会議" ;
+    sh:description "役員が全社員の年収を一人ずつ実額で決める会議" ;
+    sh:property [
+        sh:path ex:evaluates ;
+        sh:class ex:Employee ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/CompensationSystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CompensationSystem ;
+    sh:name "報酬制度" ;
+    sh:description "市場価値絶対主義と先行投資としての給与に基づく実力主義報酬" ;
+    sh:property [
+        sh:path ex:evaluates ;
+        sh:class ex:Employee ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:takeRate ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/TopGunSystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TopGunSystem ;
+    sh:name "TopGun制度" ;
+    sh:description "スキル分解と検定合格を年収に直結させる任意の能力開発制度" ;
+    sh:property [
+        sh:path ex:certifies ;
+        sh:class ex:Employee ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/HitoLogShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HitoLog ;
+    sh:name "ヒトログ" ;
+    sh:description "450項目超の社員データを管理し退職リスクを予測する人材システム" ;
+    sh:property [
+        sh:path ex:usesAISystem ;
+        sh:class ex:AISystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:predictsTurnoverOf ;
+        sh:class ex:Employee ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/LifetimeValueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LifetimeValue ;
+    sh:name "生涯価値" ;
+    sh:description "人数・在籍期間・価値総出力で人事施策効果を定量化する指標" ;
+    sh:property [
+        sh:path ex:formula ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/OrganizationalCultureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationalCulture ;
+    sh:name "組織文化" ;
+    sh:description "イベント・部活・オフィスを教会と捉えるウェットな関係性" ;
+    sh:property [
+        sh:path ex:holdsEvent ;
+        sh:class ex:InternalEvent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/InternalEventShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InternalEvent ;
+    sh:name "社内イベント" ;
+    sh:description "エンゲージメント向上のための行事・部活動・社内ラジオ・表彰" .
+
+<https://books.local/SHIFT_Kaibou/OfficeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Office ;
+    sh:name "オフィス" ;
+    sh:description "アイデンティティ確認の場として定義される職場空間" ;
+    sh:property [
+        sh:path ex:locatedIn ;
+        sh:class ex:Location ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/SHIFT_Kaibou/SalesStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesStrategy ;
+    sh:name "営業戦略" ;
+    sh:description "組織的営業と多重下請け構造打破を目指す営業改革" .
+
+<https://books.local/SHIFT_Kaibou/HRBusinessPartnerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HRBusinessPartner ;
+    sh:name "人事ビジネスパートナー" ;
+    sh:description "事業目標から採用ペルソナを逆算し事業と人事を同期させる役割" .
+
+<https://books.local/SHIFT_Kaibou/LastMileRoleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LastMileRole ;
+    sh:name "ラストワンマイル" ;
+    sh:description "自動化後に人間が担う繊細な仕上げやAI統括の役割" ;
+    sh:property [
+        sh:path ex:performedBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] .

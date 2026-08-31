@@ -1,0 +1,80 @@
+[
+  {
+    "conflict_id": "会社_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "会社",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "ORG",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.7,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.9,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "孫子の兵法_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "孫子の兵法",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "PRODUCT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

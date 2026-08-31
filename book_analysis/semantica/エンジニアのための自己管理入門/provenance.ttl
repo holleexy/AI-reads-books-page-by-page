@@ -1,0 +1,235 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/エンジニアのための自己管理入門/> .
+
+book:source a prov:Entity ;
+  foaf:name "エンジニアのための自己管理入門" ;
+  book:book_key "エンジニアのための自己管理入門" .
+
+book:Self-management a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:セルフマネジメント a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:TOBE a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:Johari's Window a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:Open Window a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:開放の窓 a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:盲点の窓 a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:Unknown Window a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:未知の窓 a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:Secret window a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:engineer a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:motivation management a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:career management a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:Chapter 1 a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:manager a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:Blind Spot Window a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:anger/stress management a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:task/time management a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:customer experience a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:User-experience design a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:growth loop a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:problem-solving ability a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:Initial phase a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:generative AI a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:desired worldview a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:生成AI a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:FOMO a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:ASIS a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:ジョハリの窓 a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:Hidden Window a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:隠れた窓 a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:秘密の窓 a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:autonomous action a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:technical debt a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:ワクワク a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:ケイパビリティ a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:成長ループ a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:success a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:わざ開発 a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:quality of results a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:成果の質 a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:creativity a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:一点もの a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:rework a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:requirements definition a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:specification work a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:UI/UX a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:long-term support a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:transfer/route guidance services a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:乗換案内サービス a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:Figure 1.2 a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:Claude Code a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:web a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:legal/regulatory constraints a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:adaptation a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:value delivery a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .
+
+book:releases a prov:Entity ;
+  book:book_key "エンジニアのための自己管理入門" ;
+  prov:wasDerivedFrom book:source .

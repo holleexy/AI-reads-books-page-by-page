@@ -1,0 +1,551 @@
+@prefix ex: <https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/shapes> a owl:Ontology .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesEnablementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesEnablement ;
+    sh:name "セールス・イネーブルメント" ;
+    sh:description "営業担当者が成果を出せるよう支援する部門横断的な戦略的規律。人の成長を通じて持続的な営業成果を創出する仕組み。" ;
+    sh:property [
+        sh:path ex:supportsSalesperson ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:liftsPerformanceOf ;
+        sh:class ex:MiddleLayerSalesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasFramework ;
+        sh:class ex:OutcomeBehaviorSkillFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasManagementCycle ;
+        sh:class ex:PDSCycle ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasSkillMap ;
+        sh:class ex:SkillMap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsStrategy ;
+        sh:class ex:SalesStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesOrganization ;
+    sh:name "営業組織" ;
+    sh:description "営業目標の達成を担う組織。目標達成率が高くても一部のトップセールスに依存すると運営が脆弱になる。" ;
+    sh:property [
+        sh:path ex:dependsOnTopSales ;
+        sh:class ex:TopSalesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasTeam ;
+        sh:class ex:EnablementTeam ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:SalesGoal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:measuredByKPI ;
+        sh:class ex:SalesKPI ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalespersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Salesperson ;
+    sh:name "営業担当者" ;
+    sh:description "営業活動を行い成果創出を担う個人。能力開発と仕組みによって持続的に成果を出せるよう支援される。" ;
+    sh:property [
+        sh:path ex:belongsToOrganization ;
+        sh:class ex:SalesOrganization ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/TopSalespersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TopSalesperson ;
+    sh:name "トップセールス" ;
+    sh:description "営業組織の上位約20%を占めるハイパフォーマー。勝ちパターンの源泉だが、組織成果がこの層に偏ると退職や異動で崩壊しやすい。" ;
+    sh:property [
+        sh:path ex:belongsToOrganization ;
+        sh:class ex:SalesOrganization ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/MiddleLayerSalespersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MiddleLayerSalesperson ;
+    sh:name "中間層営業担当者" ;
+    sh:description "組織の約6割を占める一般営業。セールス・イネーブルメントによるパフォーマンス底上げの主対象。" ;
+    sh:property [
+        sh:path ex:belongsToOrganization ;
+        sh:class ex:SalesOrganization ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Enabler ;
+    sh:name "イネーブラー" ;
+    sh:description "イネーブルメント担当者。人の成長と営業成果をつなぐ探究心を最重視し、体系化力・コンテンツ作成力・事業知識が求められる。" ;
+    sh:property [
+        sh:path ex:supportsSalesperson ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:providesMeasure ;
+        sh:class ex:EnablementMeasure ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/OutcomeBehaviorSkillFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OutcomeBehaviorSkillFramework ;
+    sh:name "成果行動スキル連結" ;
+    sh:description "成果・行動・スキルまたは知識の3要素を一気通貫でつなぐイネーブルメントの骨格。営業企画と人事に分断されがちだった管理を統合する。" .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesOutcomeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesOutcome ;
+    sh:name "営業成果" ;
+    sh:description "売上やパイプラインなど最終的に創出すべき営業上のゴール。育成成果との相関分析により施策の有効性を検証する。" ;
+    sh:property [
+        sh:path ex:measuredByKPI ;
+        sh:class ex:SalesKPI ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesActionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesAction ;
+    sh:name "営業行動" ;
+    sh:description "成果創出のために営業担当者が行う行動。スキルマップ上ではフェーズごとの重要行動として定義される。" ;
+    sh:property [
+        sh:path ex:producesOutcome ;
+        sh:class ex:SalesOutcome ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresSkillOrKnowledge ;
+        sh:class ex:SkillOrKnowledge ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillOrKnowledgeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SkillOrKnowledge ;
+    sh:name "スキル知識" ;
+    sh:description "営業行動を実行するために必要な能力および知識。アセスメントで現状レベルを定量把握する。" .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/PDSCycleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PDSCycle ;
+    sh:name "PDSサイクル" ;
+    sh:description "計画・実行・検証からなる持続的マネジメントサイクル。施策と営業成果の相関を次の計画へ反映する。" ;
+    sh:property [
+        sh:path ex:hasSkillMap ;
+        sh:class ex:SkillMap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:verifiesCorrelation ;
+        sh:class ex:SalesOutcome ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SkillMapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SkillMap ;
+    sh:name "スキルマップ" ;
+    sh:description "ハイパフォーマーへのヒアリングで勝ちパターンを体系化したもの。営業フェーズ、重要行動、スキル知識の三層構造を持つ。" ;
+    sh:property [
+        sh:path ex:basedOnHearingOf ;
+        sh:class ex:TopSalesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPhase ;
+        sh:class ex:SalesPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasKeyAction ;
+        sh:class ex:KeyAction ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesPhase ;
+    sh:name "営業フェーズ" ;
+    sh:description "自社視点の活動量ではなく、顧客の意思決定プロセスに沿って定義する商談進捗の段階。" ;
+    sh:property [
+        sh:path ex:alignedWithCustomerProcess ;
+        sh:class ex:CustomerDecisionProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasKeyAction ;
+        sh:class ex:KeyAction ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/KeyActionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KeyAction ;
+    sh:name "重要行動" ;
+    sh:description "各営業フェーズで成果に直結する行動。スキルマップの中核であり、スキルコーチングの問いかけ軸となる。" ;
+    sh:property [
+        sh:path ex:producesOutcome ;
+        sh:class ex:SalesOutcome ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresSkillOrKnowledge ;
+        sh:class ex:SkillOrKnowledge ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/CustomerDecisionProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerDecisionProcess ;
+    sh:name "顧客意思決定プロセス" ;
+    sh:description "顧客視点の購買・意思決定の流れ。営業フェーズ定義の基準となり、商談コーチングでも主語を顧客に置く。" .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMeasureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EnablementMeasure ;
+    sh:name "イネーブルメント施策" ;
+    sh:description "育成テーマに基づき企画・開発・提供される支援施策。育成成果と営業成果の両面で評価する。" ;
+    sh:property [
+        sh:path ex:followsStrategy ;
+        sh:class ex:SalesStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/AssessmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Assessment ;
+    sh:name "アセスメント" ;
+    sh:description "スキルレベルを段階評価などで定量把握し、自己評価と上司評価のギャップから育成テーマを特定する評価。" ;
+    sh:property [
+        sh:path ex:assesses ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsStrategy ;
+        sh:class ex:SalesStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/TrainingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Training ;
+    sh:name "トレーニング" ;
+    sh:description "フレームワーク、実例サンプル、演習の3要素を組み込み、翌日から実践できる内容にする能力開発施策。" ;
+    sh:property [
+        sh:path ex:followsStrategy ;
+        sh:class ex:SalesStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/CoachingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Coaching ;
+    sh:name "コーチング" ;
+    sh:description "ティーチングや進捗確認ではなく、部下が次のアクションを自ら決められるよう促す支援。商談コーチングとスキルコーチングがある。" ;
+    sh:property [
+        sh:path ex:alignedWithCustomerProcess ;
+        sh:class ex:CustomerDecisionProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsStrategy ;
+        sh:class ex:SalesStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/KnowledgeManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KnowledgeManagement ;
+    sh:name "ナレッジマネジメント" ;
+    sh:description "成功事例の収集と流通サイクルを回し、営業がすぐ使える最新の武器を提供する取り組み。" ;
+    sh:property [
+        sh:path ex:followsStrategy ;
+        sh:class ex:SalesStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/ProductEnablementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductEnablement ;
+    sh:name "プロダクト・イネーブルメント" ;
+    sh:description "製品ごとに売り方をパッケージ化したセールス・プレイを提供し、拡大した製品知識の習得負荷を下げる取り組み。" ;
+    sh:property [
+        sh:path ex:providesSalesPlay ;
+        sh:class ex:SalesPlay ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsStrategy ;
+        sh:class ex:SalesStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/ManagerEnablementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ManagerEnablement ;
+    sh:name "マネジャー・イネーブルメント" ;
+    sh:description "営業マネジャー向けの定着支援。現場への施策浸透と実践形式トレーニングの効果を加速する。" ;
+    sh:property [
+        sh:path ex:followsStrategy ;
+        sh:class ex:SalesStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/OnboardingProgramShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OnboardingProgram ;
+    sh:name "オンボーディングプログラム" ;
+    sh:description "中途社員などを早期戦力化するための導入育成。事業成長のための育成として位置づける。" ;
+    sh:property [
+        sh:path ex:followsStrategy ;
+        sh:class ex:SalesStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/RevenueEnablementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RevenueEnablement ;
+    sh:name "レベニュー・イネーブルメント" ;
+    sh:description "営業部門に留まらず収益部門全体を支援するよう進化したイネーブルメント。" ;
+    sh:property [
+        sh:path ex:supportsSalesperson ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:liftsPerformanceOf ;
+        sh:class ex:MiddleLayerSalesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasFramework ;
+        sh:class ex:OutcomeBehaviorSkillFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasManagementCycle ;
+        sh:class ex:PDSCycle ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasSkillMap ;
+        sh:class ex:SkillMap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsStrategy ;
+        sh:class ex:SalesStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementTeamShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EnablementTeam ;
+    sh:name "イネーブルメントチーム" ;
+    sh:description "型の提供と浸透、側面支援コーチ、ナレッジ流通ハブの3役割を担う専門チーム。縦横の配置で全社または事業部に置く。" ;
+    sh:property [
+        sh:path ex:supportsSalesperson ;
+        sh:class ex:Salesperson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToOrganization ;
+        sh:class ex:SalesOrganization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasEnabler ;
+        sh:class ex:Enabler ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:providesMeasure ;
+        sh:class ex:EnablementMeasure ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesOperationFlow ;
+        sh:class ex:OperationFlow ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMissionSheet ;
+        sh:class ex:EnablementMissionSheet ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/EnablementMissionSheetShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EnablementMissionSheet ;
+    sh:name "イネーブルメントミッションシート" ;
+    sh:description "チームの配置と役割を明示し、社内の理解と認知を獲得するための文書。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/OperationFlowShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OperationFlow ;
+    sh:name "業務オペレーションフロー" ;
+    sh:description "改善すべき営業KPIの設定から次回施策検討までを回す、成果起点の10ステップ循環。" ;
+    sh:property [
+        sh:path ex:measuredByKPI ;
+        sh:class ex:SalesKPI ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/CompanyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Company ;
+    sh:name "企業" ;
+    sh:description "セールス・イネーブルメントを導入し、トップセールス依存の解消と中間層底上げを目指す組織主体。" ;
+    sh:property [
+        sh:path ex:hasTeam ;
+        sh:class ex:EnablementTeam ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:implementsEnablement ;
+        sh:class ex:SalesEnablement ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCaseStudy ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/CaseStudyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CaseStudy ;
+    sh:name "導入事例" ;
+    sh:description "企業における実践と成果を示すケース。分業化、オンボーディング、需要創造型への転換などが含まれる。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesKPIShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesKPI ;
+    sh:name "営業KPI" ;
+    sh:description "目標達成の柱に沿って設定される注力営業指標。イネーブルメント施策の改善起点となる。" .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesGoalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesGoal ;
+    sh:name "営業目標" ;
+    sh:description "達成すべき売上などの定量的ゴール。計画段階で戦略および注力指標と合わせて明確化する。" .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesStrategy ;
+    sh:name "営業戦略" ;
+    sh:description "注力顧客・チャネル・製品など目標達成の柱を含む戦略。イネーブルメント施策はこれに沿って統合実行する。" ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:SalesGoal ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/toppuseerusu_dakeni_Tayora_nai_Soshiki_wo_Tsukuru__Jissen_seeruu_/SalesPlayShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesPlay ;
+    sh:name "セールス・プレイ" ;
+    sh:description "現場スペシャリストのナレッジを集約し、製品ごとの売り方をパッケージ化した実践的営業コンテンツ。" .

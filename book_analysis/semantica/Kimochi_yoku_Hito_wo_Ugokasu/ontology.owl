@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/">
+    <rdfs:label>Kimochi_yoku_Hito_wo_UgokasuOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">人を動かすコミュニケーション術を扱う対象書籍。正論だけでは人は動かないという出発点を持つ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CommunicationApproach">
+    <rdfs:label xml:lang="ja">コミュニケーションアプローチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">合意形成に用いる対話の進め方の総称。競争的議論と共創的議論を含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CompetitiveDiscussion">
+    <rdfs:label xml:lang="ja">競い争うディスカッション</rdfs:label>
+    <rdfs:comment xml:lang="ja">相手を説得・論破する競争的な議論。正しさの押し付けにより抵抗や思考停止を招く。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CommunicationApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoCreativeDiscussion">
+    <rdfs:label xml:lang="ja">共に創るディスカッション</rdfs:label>
+    <rdfs:comment xml:lang="ja">相手の意見を引き出し、一緒により良い結論を生み出すコ・クリエーション型の議論。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CommunicationApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Bias">
+    <rdfs:label xml:lang="ja">バイアス</rdfs:label>
+    <rdfs:comment xml:lang="ja">判断や行動を歪める認知上の偏り。現状維持や経験則に基づく思い込みを含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/StatusQuoBias">
+    <rdfs:label xml:lang="ja">現状維持バイアス</rdfs:label>
+    <rdfs:comment xml:lang="ja">変化を嫌い現状を維持しようとする心理。正論の押し付けが抵抗を生む原因となる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Bias"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Heuristic">
+    <rdfs:label xml:lang="ja">ヒューリスティック</rdfs:label>
+    <rdfs:comment xml:lang="ja">経験則に基づく速い判断。代表性、利用可能性、固着性、シミュレーションの四種がある。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Bias"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill">
+    <rdfs:label xml:lang="ja">コアスキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">共に創るディスカッションを実践し四つの壁を越えるための七つの中核技能。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AnticipationSkill">
+    <rdfs:label xml:lang="ja">想定する力</rdfs:label>
+    <rdfs:comment xml:lang="ja">ベストケースとワーストケースを想定し、ゴール・壁・対応策を事前に書き出す技能。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SequencingSkill">
+    <rdfs:label xml:lang="ja">段取りする力</rdfs:label>
+    <rdfs:comment xml:lang="ja">相手の発言を引き出し双方向の流れを設計する技能。W字型進行と枕詞を用いる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DeepUnderstandingSkill">
+    <rdfs:label xml:lang="ja">理解を深める力</rdfs:label>
+    <rdfs:comment xml:lang="ja">関係性の壁を越える技能。アクティブリスニングと無知の知により信頼を築く。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/VisualizationSkill">
+    <rdfs:label xml:lang="ja">見える化する力</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報整理の壁を越える技能。ピラミッド構造や図解で結論と根拠を階層化する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/UnframingSkill">
+    <rdfs:label xml:lang="ja">思い込みを外す力</rdfs:label>
+    <rdfs:comment xml:lang="ja">思い込みの壁を越える技能。ヒューリスティックを特定し認知的不協和を解消する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AxisShiftingSkill">
+    <rdfs:label xml:lang="ja">軸を動かす力</rdfs:label>
+    <rdfs:comment xml:lang="ja">損得勘定の壁を越える技能。SCAMPERで選択肢を増やし判断基準を動かす。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/InvolvementSkill">
+    <rdfs:label xml:lang="ja">巻き込む力</rdfs:label>
+    <rdfs:comment xml:lang="ja">合意から実行へ移す技能。見せかけの合意を排除し合言葉とアクションプランで自分ごと化させる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PsychologicalWall">
+    <rdfs:label xml:lang="ja">心理的障壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">合意に至るまでに乗り越えるべき四つの壁の総称。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/RelationshipWall">
+    <rdfs:label xml:lang="ja">関係性の壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">信頼関係不足から生じる抵抗。理解を深める力で乗り越える。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PsychologicalWall"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/InformationOrganizationWall">
+    <rdfs:label xml:lang="ja">情報整理の壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">状況が不明瞭で保留が生じる状態。見える化する力で乗り越える。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PsychologicalWall"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AssumptionWall">
+    <rdfs:label xml:lang="ja">思い込みの壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">過去経験や先入観による固定思考。思い込みを外す力で乗り越える。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PsychologicalWall"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CostBenefitWall">
+    <rdfs:label xml:lang="ja">損得勘定の壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">割に合わないと感じ慎重検討する状態。軸を動かす力で乗り越える。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PsychologicalWall"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Framework">
+    <rdfs:label xml:lang="ja">フレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">議論の設計や情報整理に用いる型。T字型、W字型、ピラミッド、SCAMPERなどを含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/TShapedFramework">
+    <rdfs:label xml:lang="ja">T字型フレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">ゴール、壁、対応策を事前に一対一で書き出す想定の枠組み。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/WShapedProgress">
+    <rdfs:label xml:lang="ja">W字型の進行</rdfs:label>
+    <rdfs:comment xml:lang="ja">会議を前半の深掘りと後半の収束に分け、中間で一旦まとめる進行設計。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PyramidStructure">
+    <rdfs:label xml:lang="ja">ピラミッド構造</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報をグルーピングし結論と根拠をMECEに階層化する整理法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SCAMPERMethod">
+    <rdfs:label>SCAMPER</rdfs:label>
+    <rdfs:comment xml:lang="ja">代用・組み合わせ・修正・削減などで新しい選択肢を創出する発想法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/FiveWTwoH">
+    <rdfs:label>5W2H</rdfs:label>
+    <rdfs:comment xml:lang="ja">わかったつもりを捨て相手の言葉を深掘りするための質問枠組み。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Framework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Goal">
+    <rdfs:label xml:lang="ja">ゴール</rdfs:label>
+    <rdfs:comment xml:lang="ja">誰からどのような台詞や確約がもらえたら成功かを具体化した目標。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Obstacle">
+    <rdfs:label xml:lang="ja">障害</rdfs:label>
+    <rdfs:comment xml:lang="ja">想定される相手の疑問、反論、懸念。T字型フレームワークの壁に相当する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Countermeasure">
+    <rdfs:label xml:lang="ja">対応策</rdfs:label>
+    <rdfs:comment xml:lang="ja">各障害を乗り越えるために一対一で考えておく具体的な対策。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PillowPhrase">
+    <rdfs:label xml:lang="ja">枕詞</rdfs:label>
+    <rdfs:comment xml:lang="ja">唐突さを避け相手が発言しやすくする前置き。仮の話や個人的意見などの表現。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ActiveListening">
+    <rdfs:label xml:lang="ja">アクティブリスニング</rdfs:label>
+    <rdfs:comment xml:lang="ja">自己一致・無条件の肯定的関心・共感的理解によりわかってもらえたと感じさせる傾聴。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/InformationLayer">
+    <rdfs:label xml:lang="ja">情報の階層</rdfs:label>
+    <rdfs:comment xml:lang="ja">今話していること、想定していること、想定外のこと、無意識の発見という四層。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ThinkingSystem">
+    <rdfs:label xml:lang="ja">思考システム</rdfs:label>
+    <rdfs:comment xml:lang="ja">速い思考と遅い思考の二系統。思い込みと損得勘定にそれぞれ対応する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/FastThinking">
+    <rdfs:label xml:lang="ja">システム1</rdfs:label>
+    <rdfs:comment xml:lang="ja">過去経験や先入観に基づく速い思考。思い込みの壁の背景となる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ThinkingSystem"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SlowThinking">
+    <rdfs:label xml:lang="ja">システム2</rdfs:label>
+    <rdfs:comment xml:lang="ja">論理的に慎重検討する遅い思考。損得勘定の壁の背景となる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ThinkingSystem"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CognitiveDissonance">
+    <rdfs:label xml:lang="ja">認知的不協和</rdfs:label>
+    <rdfs:comment xml:lang="ja">矛盾を避けるため現状維持を正当化する心理。新情報追加か枠組み変更で解消する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/KeyQuestion">
+    <rdfs:label xml:lang="ja">キークエスチョン</rdfs:label>
+    <rdfs:comment xml:lang="ja">網羅性・具体化・優先順位の観点から判断軸を明確にし気づきを与える問い。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SharedCatchphrase">
+    <rdfs:label xml:lang="ja">合言葉</rdfs:label>
+    <rdfs:comment xml:lang="ja">相手の発言を拾って作る共通言語。見せかけの合意を排し自分ごと化を促す。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ActionPlan">
+    <rdfs:label xml:lang="ja">アクションプラン</rdfs:label>
+    <rdfs:comment xml:lang="ja">目的、想定成果物、誰が、いつ、何をするかを明確にした実行計画。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BusinessSituation">
+    <rdfs:label xml:lang="ja">ビジネス場面</rdfs:label>
+    <rdfs:comment xml:lang="ja">合意にかかる時間とフォーマル度で分類される五つの応用場面。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CustomerProposal">
+    <rdfs:label xml:lang="ja">お客様への提案</rdfs:label>
+    <rdfs:comment xml:lang="ja">フォーマル度が高く時間がかかる場面。対話で潜在課題を引き出す。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BusinessSituation"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Negotiation">
+    <rdfs:label xml:lang="ja">社内外との交渉</rdfs:label>
+    <rdfs:comment xml:lang="ja">損得の落としどころを探る場面。SCAMPERで選択肢を拡大する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BusinessSituation"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CooperationRequest">
+    <rdfs:label xml:lang="ja">協力依頼</rdfs:label>
+    <rdfs:comment xml:lang="ja">関係性の壁を越え相手の背景を5W2Hで深く理解する場面。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BusinessSituation"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/MemberGuidance">
+    <rdfs:label xml:lang="ja">メンバーへの指導</rdfs:label>
+    <rdfs:comment xml:lang="ja">一方的な説教を避け、前半で深掘りし後半でアクションを絞り込む場面。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BusinessSituation"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SupervisorApproval">
+    <rdfs:label xml:lang="ja">上司への承認依頼</rdfs:label>
+    <rdfs:comment xml:lang="ja">結論を押し付けず上司と同じ方向を向いて企画を共創する場面。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BusinessSituation"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AdultDevelopmentTheory">
+    <rdfs:label xml:lang="ja">成人発達理論</rdfs:label>
+    <rdfs:comment xml:lang="ja">ロバート・キーガンによる成長段階論。自己中心から自己変容までの四段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevelopmentStage">
+    <rdfs:label xml:lang="ja">発達段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">成人の成長段階。議論の質と他者との関わり方を規定する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SelfCenteredStage">
+    <rdfs:label xml:lang="ja">自己中心段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">約一割が該当し、競い争うディスカッションに陥りやすい段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevelopmentStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/OtherDependentStage">
+    <rdfs:label xml:lang="ja">他者依存段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">約七割が該当し、周囲の基準で行動し働きかけを諦めやすい段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevelopmentStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SelfAuthoringStage">
+    <rdfs:label xml:lang="ja">自己主導段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">約二割が該当し、自分の価値観を持ち共に創るディスカッションの入り口に立つ段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevelopmentStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SelfTransformingStage">
+    <rdfs:label xml:lang="ja">自己変容段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">一パーセント未満。多様な価値観を取り込み的確に意思決定する段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevelopmentStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevilsAdvocate">
+    <rdfs:label xml:lang="ja">悪魔の代弁者</rdfs:label>
+    <rdfs:comment xml:lang="ja">疑問や反論を結論の敵ではなく進化のための貴重な材料と捉える役割。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/overcomesWall">
+    <rdfs:label xml:lang="ja">壁を乗り越える</rdfs:label>
+    <rdfs:comment xml:lang="ja">コアスキルが対象とする心理的障壁を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PsychologicalWall"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/usesFramework">
+    <rdfs:label xml:lang="ja">フレームワークを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">技能の実践で用いる思考や進行の型を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Framework"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/appliedToSituation">
+    <rdfs:label xml:lang="ja">場面に適用される</rdfs:label>
+    <rdfs:comment xml:lang="ja">技能やアプローチが活用されるビジネス場面を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CommunicationApproach"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BusinessSituation"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/supportsApproach">
+    <rdfs:label xml:lang="ja">アプローチを支える</rdfs:label>
+    <rdfs:comment xml:lang="ja">コアスキルが共に創るディスカッションを実現することを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoCreativeDiscussion"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/hasGoal">
+    <rdfs:label xml:lang="ja">ゴールを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">成功条件として設定された具体的な目標を持つ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/TShapedFramework"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ActionPlan"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Goal"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/hasObstacle">
+    <rdfs:label xml:lang="ja">障害を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">事前に洗い出した疑問・反論・懸念を持つ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/TShapedFramework"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Obstacle"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/hasCountermeasure">
+    <rdfs:label xml:lang="ja">対応策を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">障害に対して一対一で用意された対策を持つ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/TShapedFramework"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Obstacle"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Countermeasure"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/usesPillowPhrase">
+    <rdfs:label xml:lang="ja">枕詞を使う</rdfs:label>
+    <rdfs:comment xml:lang="ja">段取りする力が発言を促す前置きを用いることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SequencingSkill"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PillowPhrase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/usesActiveListening">
+    <rdfs:label xml:lang="ja">傾聴を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">理解を深める力がアクティブリスニングを用いることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DeepUnderstandingSkill"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ActiveListening"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/accessesLayer">
+    <rdfs:label xml:lang="ja">情報階層にアクセスする</rdfs:label>
+    <rdfs:comment xml:lang="ja">深掘りにより想定外や無意識の発見の層へ至ることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DeepUnderstandingSkill"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/InformationLayer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/causedByThinking">
+    <rdfs:label xml:lang="ja">思考に起因する</rdfs:label>
+    <rdfs:comment xml:lang="ja">壁が速い思考または遅い思考に由来することを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PsychologicalWall"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ThinkingSystem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/resolvesDissonance">
+    <rdfs:label xml:lang="ja">不協和を解消する</rdfs:label>
+    <rdfs:comment xml:lang="ja">新情報の追加や枠組み変更により認知的不協和を打破する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/UnframingSkill"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CognitiveDissonance"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/asksKeyQuestion">
+    <rdfs:label xml:lang="ja">キークエスチョンを投げる</rdfs:label>
+    <rdfs:comment xml:lang="ja">判断基準を動かすために本質的な問いを投げかける。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AxisShiftingSkill"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/KeyQuestion"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/createsCatchphrase">
+    <rdfs:label xml:lang="ja">合言葉を作る</rdfs:label>
+    <rdfs:comment xml:lang="ja">巻き込む力が共通言語を作り自分ごと化を促すことを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/InvolvementSkill"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SharedCatchphrase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/producesActionPlan">
+    <rdfs:label xml:lang="ja">実行計画を作る</rdfs:label>
+    <rdfs:comment xml:lang="ja">合意後の実行に必要なアクションプランを作成する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/InvolvementSkill"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ActionPlan"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/treatsAsMaterial">
+    <rdfs:label xml:lang="ja">材料として扱う</rdfs:label>
+    <rdfs:comment xml:lang="ja">疑問や反論を結論を進化させる貴重な材料として扱う。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoCreativeDiscussion"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevilsAdvocate"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Obstacle"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/describedInBook">
+    <rdfs:label xml:lang="ja">書籍で述べられる</rdfs:label>
+    <rdfs:comment xml:lang="ja">当該概念が本書で説明されていることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PsychologicalWall"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CommunicationApproach"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Framework"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BusinessSituation"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevelopmentStage"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Book"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/hasDevelopmentStage">
+    <rdfs:label xml:lang="ja">発達段階を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">成人発達理論が含む成長段階を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AdultDevelopmentTheory"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevelopmentStage"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/tendsToward">
+    <rdfs:label xml:lang="ja">議論様式に傾く</rdfs:label>
+    <rdfs:comment xml:lang="ja">発達段階が特定のディスカッション様式に結びつきやすいことを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevelopmentStage"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CommunicationApproach"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/triggeredByBias">
+    <rdfs:label xml:lang="ja">バイアスに誘発される</rdfs:label>
+    <rdfs:comment xml:lang="ja">現状維持バイアスなどが抵抗や競争的議論を誘発することを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PsychologicalWall"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CompetitiveDiscussion"/>
+    <rdfs:range rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Bias"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/labelText">
+    <rdfs:label xml:lang="ja">名称文字列</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念の日本語名称や短い別名を保持する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Book"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkill"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PsychologicalWall"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/Framework"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BusinessSituation"/>
+    <rdfs:domain rdf:resource="https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevelopmentStage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

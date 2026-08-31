@@ -1,0 +1,446 @@
+@prefix ex: <https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/shapes> a owl:Ontology .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "本書『営業スキル検定』。いい営業像の提示と、営業の学術的・体系的整理を目的とする。" ;
+    sh:property [
+        sh:path ex:hasAuthor ;
+        sh:class ex:Author ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasEssence ;
+        sh:class ex:EmpathyAcquisition ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:recommends ;
+        sh:class ex:BusinessDevelopmentSales ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:purpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/AuthorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Author ;
+    sh:name "著者" ;
+    sh:description "リクルートで営業を始め、モノグサ株式会社を起業した人物。営業の価値を事業開発という長期的視点で捉え直した。" .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/EmpathyAcquisitionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EmpathyAcquisition ;
+    sh:name "共感獲得" ;
+    sh:description "営業の本質。絶対的根拠がない中でリスクを伴う意思決定を相手にしてもらうこと。資金調達・採用・ミッション伝達なども含まれる。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesStyleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesStyle ;
+    sh:name "営業スタイル" ;
+    sh:description "担当見込み顧客数と商品の弾力性の二つの変数によって決まる営業の分類。" ;
+    sh:property [
+        sh:path ex:sells ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:prospectCount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:productElasticity ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/MarketingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Marketing ;
+    sh:name "マーケティング" ;
+    sh:description "顧客数が膨大で、効率的に見込み客を絞り込む領域の営業スタイル。" ;
+    sh:property [
+        sh:path ex:sells ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:prospectCount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:productElasticity ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/CustomOrderSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomOrderSales ;
+    sh:name "御用聞き営業" ;
+    sh:description "顧客数は少ないが高単価。強固な信頼関係を基にした深い伴走を行うスタイル。" ;
+    sh:property [
+        sh:path ex:sells ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:prospectCount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:productElasticity ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/ConsultingSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConsultingSales ;
+    sh:name "コンサルティング営業" ;
+    sh:description "弾力性が小さい商品を、営業自身の問題解決能力を付加価値として売るスタイル。短期売上にはなるが商品改善には繋がりにくい。" ;
+    sh:property [
+        sh:path ex:sells ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:prospectCount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:productElasticity ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/BusinessDevelopmentSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessDevelopmentSales ;
+    sh:name "事業開発営業" ;
+    sh:description "弾力性が大きい商品を扱い、現場の一次情報を開発へフィードバックして商品価値を高める。本書が最も推奨するスタイル。" ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:sells ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:prospectCount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:productElasticity ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesFoundationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesFoundation ;
+    sh:name "営業基盤" ;
+    sh:description "営業を体系化するために分離して定義すべき知識・KPI・スキルの総称。" .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/KnowledgeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Knowledge ;
+    sh:name "知識" ;
+    sh:description "記憶していればそのまま使える情報。業界知識、商品知識、決裁者情報など。" .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/KPIShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KPI ;
+    sh:name "KPI" ;
+    sh:description "営業目標と相関する行動指標。アポ数や商談回数など。" .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Skill ;
+    sh:name "スキル" ;
+    sh:description "記憶だけでは体現できず、実践と反復が必要な技術。言語化できなければ育成もスランプ脱出もできない。" ;
+    sh:property [
+        sh:path ex:identifies ;
+        sh:class ex:Gap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesLevelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesLevel ;
+    sh:name "営業レベル" ;
+    sh:description "顧客ニーズの顕在化度合い（自覚の有無）によって0から3に分類される営業スキルの水準。" ;
+    sh:property [
+        sh:path ex:requiresSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsNeed ;
+        sh:class ex:Need ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:levelNumber ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesLevel0Shape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesLevel0 ;
+    sh:name "営業レベル0" ;
+    sh:description "ニーズが顕在化し購買行動を開始している顧客への対応。店頭接客や問い合わせ対応。基本的ビジネスマナーが中心。" ;
+    sh:property [
+        sh:path ex:requiresSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsNeed ;
+        sh:class ex:Need ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:levelNumber ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesLevel1Shape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesLevel1 ;
+    sh:name "営業レベル1" ;
+    sh:description "ニーズは自覚しているが購買を始めていない顧客。情報の非対称性を埋めて売る。トークスクリプトや想定Q&Aが中心。" ;
+    sh:property [
+        sh:path ex:requiresSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsNeed ;
+        sh:class ex:Need ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:levelNumber ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesLevel2Shape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesLevel2 ;
+    sh:name "営業レベル2" ;
+    sh:description "潜在ニーズはあるが自覚していない顧客。ヒアリング・ギャップ特定・真因合意・導入障害解消が中心。事業開発営業のコア。" ;
+    sh:property [
+        sh:path ex:requiresSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsNeed ;
+        sh:class ex:Need ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:levelNumber ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesLevel3Shape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesLevel3 ;
+    sh:name "営業レベル3" ;
+    sh:description "潜在ニーズすら無い顧客への合法的な課題創造。目標を引き上げ新たなギャップを作る。商品が市場適合するまでの時間稼ぎの禁じ手。" ;
+    sh:property [
+        sh:path ex:requiresSkill ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsNeed ;
+        sh:class ex:Need ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:levelNumber ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "営業の対象となる見込み客または既存顧客。" ;
+    sh:property [
+        sh:path ex:hasNeed ;
+        sh:class ex:Need ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasGap ;
+        sh:class ex:Gap ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/NeedShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Need ;
+    sh:name "ニーズ" ;
+    sh:description "顧客の課題や欲求。顕在化の度合いによって対応すべき営業レベルが決まる。" ;
+    sh:property [
+        sh:path ex:needAwareness ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/GapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Gap ;
+    sh:name "ギャップ" ;
+    sh:description "顧客の目標（ありたい姿）と現状との差。レベル2で認識させる対象。" ;
+    sh:property [
+        sh:path ex:hasRootCause ;
+        sh:class ex:RootCause ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/RootCauseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RootCause ;
+    sh:name "真因" ;
+    sh:description "ギャップの、顧客自身も気づいていない根本原因。仮説で提示し顧客の口で言わせる。" .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/ProductShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Product ;
+    sh:name "商品" ;
+    sh:description "販売対象。弾力性の大小で価値変化の速さが異なる。究極目標は営業がいなくても売れる状態を作ること。" ;
+    sh:property [
+        sh:path ex:productElasticity ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/MeetingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Meeting ;
+    sh:name "商談" ;
+    sh:description "顧客との営業対話。三回商談フレームワークの構成単位。" ;
+    sh:property [
+        sh:path ex:involves ;
+        sh:class ex:DecisionMaker ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:duration ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:meetingOrder ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/ThreeMeetingFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThreeMeetingFramework ;
+    sh:name "三回商談フレームワーク" ;
+    sh:description "レベル2〜3向けの商談設計。1回目は価値伝達とヒアリング、2回目は期待を超える提案と障害解消、3回目は決裁者へのクロージング。" ;
+    sh:property [
+        sh:path ex:consistsOf ;
+        sh:class ex:Meeting ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/DecisionMakerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DecisionMaker ;
+    sh:name "決裁者" ;
+    sh:description "顧客組織の購買意思決定者。レベル3では経営課題について語り、3回目商談でプレゼン対象となる。" ;
+    sh:property [
+        sh:path ex:belongsTo ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesSkillCertificationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesSkillCertification ;
+    sh:name "営業スキル検定" ;
+    sh:description "スキルを言語化し習得可能にし、評価とフィードバックを行う仕組み。組織のいい営業像と改善基準を提供する。" ;
+    sh:property [
+        sh:path ex:evaluates ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesRolePlay ;
+        sh:class ex:RolePlay ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:purpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/RolePlayShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RolePlay ;
+    sh:name "ロールプレイング" ;
+    sh:description "レベル別に設計する実践評価。くじ引きで顧客属性や真因パターンを変え、対応力を測る。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "検定を運用し営業像を定着させる企業やチーム。録音公開、評価者育成、開発連携が求められる。" ;
+    sh:property [
+        sh:path ex:implements ;
+        sh:class ex:SalesSkillCertification ;
+        sh:severity sh:Violation
+    ] .

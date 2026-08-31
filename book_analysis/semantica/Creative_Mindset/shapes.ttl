@@ -1,0 +1,273 @@
+@prefix ex: <https://books.local/Creative_Mindset/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Creative_Mindset/shapes> a owl:Ontology .
+
+<https://books.local/Creative_Mindset/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "創造的自信に関する分析対象の著作。" ;
+    sh:property [
+        sh:path ex:authoredBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:title ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Creative_Mindset/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人物" ;
+    sh:description "著者、実践者、研究者などの個人。" ;
+    sh:property [
+        sh:path ex:hasMindset ;
+        sh:class ex:Mindset ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTool ;
+        sh:class ex:CreativeTool ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Creative_Mindset/CreativeConfidenceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CreativeConfidence ;
+    sh:name "クリエイティブ・コンフィデンス" ;
+    sh:description "自身の創造的潜在能力を信じ、それに基づいて行動する勇気。" ;
+    sh:property [
+        sh:path ex:blockedBy ;
+        sh:class ex:Fear ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Creative_Mindset/MindsetShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Mindset ;
+    sh:name "マインドセット" ;
+    sh:description "能力や失敗に対する信念の枠組み。" .
+
+<https://books.local/Creative_Mindset/FixedMindsetShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FixedMindset ;
+    sh:name "固定マインドセット" ;
+    sh:description "能力は生まれつき静的で変わらないという信念。" .
+
+<https://books.local/Creative_Mindset/GrowthMindsetShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GrowthMindset ;
+    sh:name "成長マインドセット" ;
+    sh:description "能力は努力によって伸ばせると信じる姿勢。" .
+
+<https://books.local/Creative_Mindset/FearShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Fear ;
+    sh:name "恐れ" ;
+    sh:description "評価や失敗への不安など、創造性を阻む主要な障壁。" .
+
+<https://books.local/Creative_Mindset/FailureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Failure ;
+    sh:name "失敗" ;
+    sh:description "学習と実験に不可欠な過程であり、前向きに再解釈される対象。" ;
+    sh:property [
+        sh:path ex:reframedAs ;
+        sh:class ex:GuidedMastery ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Creative_Mindset/GuidedMasteryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GuidedMastery ;
+    sh:name "誘導的習熟" ;
+    sh:description "小さな段階的挑戦を通じて勇気と自己効力感を育てる方法。" ;
+    sh:property [
+        sh:path ex:builds ;
+        sh:class ex:SelfEfficacy ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Creative_Mindset/SelfEfficacyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SelfEfficacy ;
+    sh:name "自己効力感" ;
+    sh:description "自分の能力で成果を出せるという確信。" .
+
+<https://books.local/Creative_Mindset/DesignThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DesignThinking ;
+    sh:name "デザイン思考" ;
+    sh:description "人間中心で反復的な問題解決の方法論。" ;
+    sh:property [
+        sh:path ex:unlocks ;
+        sh:class ex:CreativeConfidence ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStep ;
+        sh:class ex:DesignThinkingStep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:illustratedBy ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Creative_Mindset/DesignThinkingStepShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DesignThinkingStep ;
+    sh:name "デザイン思考のステップ" ;
+    sh:description "デザイン思考プロセスを構成する段階。" .
+
+<https://books.local/Creative_Mindset/EmpathizeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Empathize ;
+    sh:name "共感" ;
+    sh:description "自然な環境で利用者を観察し潜在ニーズを探る段階。" .
+
+<https://books.local/Creative_Mindset/DefineShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Define ;
+    sh:name "問題定義" ;
+    sh:description "観察を統合し、問題を明確に再フレーミングする段階。" .
+
+<https://books.local/Creative_Mindset/IdeateShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Ideate ;
+    sh:name "発想" ;
+    sh:description "判断を保留して多様なアイデアを出す発散的思考の段階。" .
+
+<https://books.local/Creative_Mindset/PrototypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Prototype ;
+    sh:name "プロトタイプ" ;
+    sh:description "アイデアを素早く低忠実度で形にする段階。" .
+
+<https://books.local/Creative_Mindset/TestShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Test ;
+    sh:name "テスト" ;
+    sh:description "利用者の反応を集め、反復改善する段階。" .
+
+<https://books.local/Creative_Mindset/InnovationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Innovation ;
+    sh:name "イノベーション" ;
+    sh:description "技術・事業・人間ニーズの均衡によって生まれる革新。" ;
+    sh:property [
+        sh:path ex:balances ;
+        sh:class ex:InnovationPillar ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Creative_Mindset/InnovationPillarShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InnovationPillar ;
+    sh:name "イノベーションの柱" ;
+    sh:description "成功する革新を支える三要素のいずれか。" .
+
+<https://books.local/Creative_Mindset/FeasibilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Feasibility ;
+    sh:name "実現可能性" ;
+    sh:description "技術的・機能的に可能な範囲。" .
+
+<https://books.local/Creative_Mindset/ViabilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Viability ;
+    sh:name "事業妥当性" ;
+    sh:description "財務的に持続できるかどうか。" .
+
+<https://books.local/Creative_Mindset/DesirabilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Desirability ;
+    sh:name "望ましさ" ;
+    sh:description "人々が実際に必要とし、欲するもの。" .
+
+<https://books.local/Creative_Mindset/CaseStudyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CaseStudy ;
+    sh:name "事例研究" ;
+    sh:description "共感と行動による創造的実践の具体例。" ;
+    sh:property [
+        sh:path ex:practicedBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:title ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Creative_Mindset/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "創造性を規模展開する企業や集団。" ;
+    sh:property [
+        sh:path ex:fosters ;
+        sh:class ex:PsychologicalSafety ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:employsCatalyst ;
+        sh:class ex:InnovationCatalyst ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:ledBy ;
+        sh:class ex:Leader ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Creative_Mindset/LeaderShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Leader ;
+    sh:name "リーダー" ;
+    sh:description "チームの創造性に影響を与える指導者。" .
+
+<https://books.local/Creative_Mindset/MultiplierShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Multiplier ;
+    sh:name "増幅型リーダー" ;
+    sh:description "周囲の知性と創造性を引き出すリーダー。" .
+
+<https://books.local/Creative_Mindset/DiminisherShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Diminisher ;
+    sh:name "減点型リーダー" ;
+    sh:description "チームの知性や挑戦を抑制するリーダー。" .
+
+<https://books.local/Creative_Mindset/InnovationCatalystShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InnovationCatalyst ;
+    sh:name "イノベーション・カタリスト" ;
+    sh:description "組織内でデザイン思考の実践を促す訓練された促進者。" .
+
+<https://books.local/Creative_Mindset/PsychologicalSafetyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PsychologicalSafety ;
+    sh:name "心理的安全性" ;
+    sh:description "失敗や異論を恐れずに発言・実験できる環境。" .
+
+<https://books.local/Creative_Mindset/CreativeToolShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CreativeTool ;
+    sh:name "創造性ツール" ;
+    sh:description "発想や共感、フィードバックを促す実践的手法。" ;
+    sh:property [
+        sh:path ex:title ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Anthro_Vision/">
+    <rdfs:label>Anthro_VisionOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/AnthroVision">
+    <rdfs:label xml:lang="ja">アンソロ・ビジョン</rdfs:label>
+    <rdfs:comment xml:lang="ja">文化や文脈を理解する人類学的アプローチ。VUCAの時代に経済学やデータサイエンスだけでは足りない視点を補う。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/AnthropologicalIntelligence">
+    <rdfs:label xml:lang="ja">人類学的知性</rdfs:label>
+    <rdfs:comment xml:lang="ja">人工知能とは別のもう一つのAI。文化・儀礼・象徴・文脈を深く理解し、不確実な未来のリスクを回避する知性。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/LateralVision">
+    <rdfs:label xml:lang="ja">ラテラル・ビジョン</rdfs:label>
+    <rdfs:comment xml:lang="ja">データやアルゴリズム依存を超え、人間の文化と文脈を捉える広い視野。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Anthropology">
+    <rdfs:label xml:lang="ja">人類学</rdfs:label>
+    <rdfs:comment xml:lang="ja">人間の文化や社会を研究する学問。核心的手法は参与観察である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/ResearchMethod">
+    <rdfs:label xml:lang="ja">研究方法</rdfs:label>
+    <rdfs:comment xml:lang="ja">文化や社会を読み解くための調査・分析の手法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Ethnography">
+    <rdfs:label xml:lang="ja">エスノグラフィー</rdfs:label>
+    <rdfs:comment xml:lang="ja">参与観察。研究者が現地に浸かり、インサイダー兼アウトサイダーとして文化的パターンを読み解く。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Anthro_Vision/ResearchMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Fieldwork">
+    <rdfs:label xml:lang="ja">フィールドワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">ミクロな虫の目で人々の生活を観察し、マクロな鳥の目では見えない真実を明らかにする現地調査。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Anthro_Vision/ResearchMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Culture">
+    <rdfs:label xml:lang="ja">文化</rdfs:label>
+    <rdfs:comment xml:lang="ja">人々の価値観・慣習・意味づけの体系。技術の使い方や消費の意味も文化によって異なる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/CulturalRelativism">
+    <rdfs:label xml:lang="ja">文化的相対性</rdfs:label>
+    <rdfs:comment xml:lang="ja">すべての文化は独自の価値を持つという思想。帝国主義的進化主義からの転回としてフランツ・ボアズらが確立した。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Habitus">
+    <rdfs:label xml:lang="ja">ハビトゥス</rdfs:label>
+    <rdfs:comment xml:lang="ja">ピエール・ブルデューの概念。状況に応じて異なる価値観を使い分ける身体化された性向。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/MeaningWeb">
+    <rdfs:label xml:lang="ja">意味の網の目</rdfs:label>
+    <rdfs:comment xml:lang="ja">クリフォード・ギアーツの概念。人々が自覚していない文化的パターンと意味のネットワーク。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Person">
+    <rdfs:label xml:lang="ja">人</rdfs:label>
+    <rdfs:comment xml:lang="ja">文化的文脈の中で儀礼・消費・技術利用を行う人間。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Anthropologist">
+    <rdfs:label xml:lang="ja">人類学者</rdfs:label>
+    <rdfs:comment xml:lang="ja">参与観察により文化を解明し、企業・医療・危機対応などに介入する専門家。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Anthro_Vision/Person"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Organization">
+    <rdfs:label xml:lang="ja">組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業や集団。内部に異なる文化やサイロが共存しうる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Community">
+    <rdfs:label xml:lang="ja">コミュニティ</rdfs:label>
+    <rdfs:comment xml:lang="ja">共有された儀礼や価値観を持つ人々の集団。パンデミック対策では共生的アプローチの主体となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Ritual">
+    <rdfs:label xml:lang="ja">儀礼</rdfs:label>
+    <rdfs:comment xml:lang="ja">結婚儀礼や葬儀など、文化的意味を持つ慣習的行為。医療的介入と衝突することがある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Technology">
+    <rdfs:label xml:lang="ja">テクノロジー</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品やデジタルサービス。文化によって使われ方と意味が全く異なる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Tribalism">
+    <rdfs:label xml:lang="ja">部族主義</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織内のサイロ化。同じ社内でも会議の意味が「意思決定」と「情報共有」のように食い違う病理。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Egocentrism">
+    <rdfs:label xml:lang="ja">エゴセントリズム</rdfs:label>
+    <rdfs:comment xml:lang="ja">世界中の誰もが同じようにテクノロジーを使うと思い込む自己中心主義。技術者に生じやすい。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/CreationMyth">
+    <rdfs:label xml:lang="ja">創世神話</rdfs:label>
+    <rdfs:comment xml:lang="ja">金融イノベーションなどを正当化するために信じ込まれる物語。複雑な商品のリスクを見えなくする。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Crisis">
+    <rdfs:label xml:lang="ja">危機</rdfs:label>
+    <rdfs:comment xml:lang="ja">金融崩壊や感染症など、文化的誤読や神話が悪化させうる社会的危機。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/FinancialCrisis">
+    <rdfs:label xml:lang="ja">金融危機</rdfs:label>
+    <rdfs:comment xml:lang="ja">2008年のように、合理的経済モデルでは測れない人間行動と創世神話が引き起こす危機。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Anthro_Vision/Crisis"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Pandemic">
+    <rdfs:label xml:lang="ja">パンデミック</rdfs:label>
+    <rdfs:comment xml:lang="ja">エボラや新型コロナウイルスなど、西洋的トップダウン医療が現地儀礼と衝突しうる感染症危機。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Anthro_Vision/Crisis"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/DigitalEconomy">
+    <rdfs:label xml:lang="ja">デジタル経済</rdfs:label>
+    <rdfs:comment xml:lang="ja">無料サービスとユーザーデータの交換で成り立つ経済。GDPでは無形資産の価値を測りにくい。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/BarterExchange">
+    <rdfs:label xml:lang="ja">バーター</rdfs:label>
+    <rdfs:comment xml:lang="ja">物々交換。シリコンバレーが「無料」と引き換えにデータを収集する取引形態。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/ConsumerBehavior">
+    <rdfs:label xml:lang="ja">消費者行動</rdfs:label>
+    <rdfs:comment xml:lang="ja">ペットを家族として扱うなど、複雑で矛盾的な消費の実践。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/WEIRDModel">
+    <rdfs:label xml:lang="ja">WEIRDモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">西洋的・教育的・産業化・富裕・民主的な心理パッケージ。個人主義的・分析的だが実際の行動を説明しきれない。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/BigData">
+    <rdfs:label xml:lang="ja">ビッグデータ</rdfs:label>
+    <rdfs:comment xml:lang="ja">何が起きているかを示す定量的な大規模データ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/ThickData">
+    <rdfs:label xml:lang="ja">シックデータ</rdfs:label>
+    <rdfs:comment xml:lang="ja">厚いデータ。なぜ起きているかを明らかにする定性調査のデータ。ビッグデータを補完する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/ShareholderCapitalism">
+    <rdfs:label xml:lang="ja">株主資本主義</rdfs:label>
+    <rdfs:comment xml:lang="ja">フリードマン流の、株主利益を最優先する資本主義。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/StakeholderCapitalism">
+    <rdfs:label xml:lang="ja">ステークホルダー資本主義</rdfs:label>
+    <rdfs:comment xml:lang="ja">すべての利害関係者を考慮する資本主義。外部不経済を無視できない時代への転換先。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Sustainability">
+    <rdfs:label xml:lang="ja">サステナビリティ</rdfs:label>
+    <rdfs:comment xml:lang="ja">気候変動や格差などの外部不経済に向き合う持続可能性（ESGを含む）。レジリエンス強化に結びつく。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Anthro_Vision/Practice">
+    <rdfs:label xml:lang="ja">実践</rdfs:label>
+    <rdfs:comment xml:lang="ja">他者理解、多様性の受容、異質なものへの没入、自己相対化、社会的沈黙への聴取など、アンソロ・ビジョンを身につける方法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/embodies">
+    <rdfs:label xml:lang="ja">体現する</rdfs:label>
+    <rdfs:comment xml:lang="ja">人類学的知性がアンソロ・ビジョンやラテラル・ビジョンとして現れる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/AnthropologicalIntelligence"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/AnthroVision"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/LateralVision"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/usesMethod">
+    <rdfs:label xml:lang="ja">手法を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">人類学や人類学者が参与観察・フィールドワークを用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Anthropology"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Anthropologist"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/AnthroVision"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Ethnography"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Fieldwork"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/studies">
+    <rdfs:label xml:lang="ja">研究する</rdfs:label>
+    <rdfs:comment xml:lang="ja">人類学が文化・コミュニティ・儀礼・組織を対象とする関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Anthropology"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Anthropologist"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Culture"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Community"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Ritual"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Organization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/groundedIn">
+    <rdfs:label xml:lang="ja">基づく</rdfs:label>
+    <rdfs:comment xml:lang="ja">人類学的アプローチが文化的相対性に根拠を置く関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Anthropology"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/AnthroVision"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/CulturalRelativism"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/hasMeaningWeb">
+    <rdfs:label xml:lang="ja">意味の網の目を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">文化が固有の意味ネットワークを持つ関係。キットカットの再解釈などに表れる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Culture"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/MeaningWeb"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/hasHabitus">
+    <rdfs:label xml:lang="ja">ハビトゥスを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">人やコミュニティが状況に応じて価値観を使い分ける性向を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Person"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Community"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Habitus"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/hasRitual">
+    <rdfs:label xml:lang="ja">儀礼を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">文化やコミュニティが結婚・葬儀などの儀礼を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Culture"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Community"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Ritual"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/memberOf">
+    <rdfs:label xml:lang="ja">所属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">人が組織やコミュニティに属する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Person"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Community"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/employs">
+    <rdfs:label xml:lang="ja">雇用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">インテルやグーグルのように、組織が製品開発や組織診断のために人類学者を起用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Anthropologist"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/exhibits">
+    <rdfs:label xml:lang="ja">示す</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織や技術者が部族主義や自己中心主義といった病理を示す関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Person"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Tribalism"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Egocentrism"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/usesDifferently">
+    <rdfs:label xml:lang="ja">異なる使い方をする</rdfs:label>
+    <rdfs:comment xml:lang="ja">文化によって技術の用途や意味が変わる関係。例としてメッカの方角探しに使うスマートフォン。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Culture"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Person"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Technology"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/causedBy">
+    <rdfs:label xml:lang="ja">原因となる</rdfs:label>
+    <rdfs:comment xml:lang="ja">創世神話への信奉が金融危機のリスクを見えなくする関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/FinancialCrisis"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/CreationMyth"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/conflictsWith">
+    <rdfs:label xml:lang="ja">衝突する</rdfs:label>
+    <rdfs:comment xml:lang="ja">トップダウン型の医療対策が現地の遺体接触などの儀礼と衝突する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Pandemic"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Ritual"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/basedOn">
+    <rdfs:label xml:lang="ja">依拠する</rdfs:label>
+    <rdfs:comment xml:lang="ja">デジタル経済が無料サービスとデータのバーターに依拠する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/DigitalEconomy"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/BarterExchange"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/complements">
+    <rdfs:label xml:lang="ja">補完する</rdfs:label>
+    <rdfs:comment xml:lang="ja">シックデータがビッグデータの「何」を「なぜ」で補完する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/ThickData"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/BigData"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/limitedBy">
+    <rdfs:label xml:lang="ja">限界づけられる</rdfs:label>
+    <rdfs:comment xml:lang="ja">WEIRDな心理モデルでは実際の複雑な消費者行動を説明しきれない関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/ConsumerBehavior"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/WEIRDModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/succeeds">
+    <rdfs:label xml:lang="ja">転換する</rdfs:label>
+    <rdfs:comment xml:lang="ja">株主資本主義からステークホルダー資本主義へ移行する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/StakeholderCapitalism"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/ShareholderCapitalism"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/requires">
+    <rdfs:label xml:lang="ja">必要とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">持続可能性や危機対応が人類学的視点と利害関係者資本主義を必要とする関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Sustainability"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Crisis"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/AnthroVision"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/StakeholderCapitalism"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/appliedTo">
+    <rdfs:label xml:lang="ja">適用される</rdfs:label>
+    <rdfs:comment xml:lang="ja">アンソロ・ビジョンが企業・技術・危機・経済・消費・持続可能性に適用される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/AnthroVision"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/AnthropologicalIntelligence"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Technology"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Crisis"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/DigitalEconomy"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/ConsumerBehavior"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Sustainability"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Anthro_Vision/practices">
+    <rdfs:label xml:lang="ja">実践する</rdfs:label>
+    <rdfs:comment xml:lang="ja">他者理解や自己相対化など、アンソロ・ビジョンを身につける実践を行う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Person"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Anthropologist"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Anthro_Vision/Practice"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Anthro_Vision/exampleCase">
+    <rdfs:label xml:lang="ja">事例</rdfs:label>
+    <rdfs:comment xml:lang="ja">インテル、ネスレのキットカット、GM、タジキスタンの結婚儀礼、エボラ対策など具体例を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Ritual"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Technology"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Crisis"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Culture"/>
+    <rdfs:domain rdf:resource="https://books.local/Anthro_Vision/Practice"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

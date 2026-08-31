@@ -1,0 +1,588 @@
+{
+  "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/",
+  "name": "バックオフィス業務のすべてがわかる本.ocrOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "BackOffice",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOffice",
+      "label": "バックオフィス",
+      "comment": "経理、人事、法務、総務を総称する管理部門・間接部門・コーポレート部門。一つの機能として捉え、経営者の会社経営コントロールの一部を引き受ける。",
+      "parent": null
+    },
+    {
+      "name": "FrontOffice",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/FrontOffice",
+      "label": "フロントオフィス",
+      "comment": "販売、アフターサービス、企画・開発、製造、物流、マーケティング、サービスなど直接的な事業活動を担う部門。",
+      "parent": null
+    },
+    {
+      "name": "Company",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/Company",
+      "label": "企業",
+      "comment": "バックオフィスを持つ組織。大企業、中小企業、スタートアップなど類型や成長段階により組織設計が異なる。",
+      "parent": null
+    },
+    {
+      "name": "BackOfficeFunction",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficeFunction",
+      "label": "バックオフィス機能",
+      "comment": "バックオフィスを構成する職能領域。ヒト・モノ・カネの観点から経営意思決定を支える。",
+      "parent": null
+    },
+    {
+      "name": "AccountingFinance",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/AccountingFinance",
+      "label": "経理財務",
+      "comment": "カネに対応する機能。帳簿、財務諸表、資金繰り、資金調達、決算、税務、予算・業績分析を扱う。",
+      "parent": "BackOfficeFunction"
+    },
+    {
+      "name": "HumanResourcesLabor",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/HumanResourcesLabor",
+      "label": "人事労務",
+      "comment": "ヒトに対応する機能。採用、育成、人事制度、労働法遵守、社会保険手続きを扱う。",
+      "parent": "BackOfficeFunction"
+    },
+    {
+      "name": "LegalAffairs",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/LegalAffairs",
+      "label": "法務",
+      "comment": "法的リスクの認識と統制。事業法務（契約）と会社法務（株主総会、取締役会、登記）、ハラスメントとガバナンスを扱う。",
+      "parent": "BackOfficeFunction"
+    },
+    {
+      "name": "GeneralAffairs",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/GeneralAffairs",
+      "label": "総務",
+      "comment": "社内環境と行事を担う縁の下の力持ち。社内イベント、贈答、オフィス移転、OA機器などを扱う。",
+      "parent": "BackOfficeFunction"
+    },
+    {
+      "name": "ManagementPlanning",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/ManagementPlanning",
+      "label": "経営企画",
+      "comment": "経営の手足。中期計画、予算、M&A、特別プロジェクトを扱い、定型業務は相対的に少ない。",
+      "parent": "BackOfficeFunction"
+    },
+    {
+      "name": "Resource",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/Resource",
+      "label": "経営資源",
+      "comment": "バックオフィスが経営意思決定を支えるヒト・モノ・カネ。",
+      "parent": null
+    },
+    {
+      "name": "PeopleResource",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/PeopleResource",
+      "label": "ヒト",
+      "comment": "人事労務が主に担う人的資源。",
+      "parent": "Resource"
+    },
+    {
+      "name": "GoodsResource",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/GoodsResource",
+      "label": "モノ",
+      "comment": "物品・設備など物的資源。",
+      "parent": "Resource"
+    },
+    {
+      "name": "MoneyResource",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/MoneyResource",
+      "label": "カネ",
+      "comment": "経理財務が主に担う資金・財務資源。お金の動きはビジネスが進む過程の結果に過ぎない。",
+      "parent": "Resource"
+    },
+    {
+      "name": "ExecutiveRole",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/ExecutiveRole",
+      "label": "経営層役職",
+      "comment": "バックオフィスと経営をつなぐCXO級の役割。CFO、CHROに加えCLOやCAOも重要性を増す。差は経営への関与にある。",
+      "parent": null
+    },
+    {
+      "name": "ChiefFinancialOfficer",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/ChiefFinancialOfficer",
+      "label": "最高財務責任者",
+      "comment": "全社の財務資源配分をM&Aを含めて最適化する使命を持つ。",
+      "parent": "ExecutiveRole"
+    },
+    {
+      "name": "ChiefHumanResourcesOfficer",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/ChiefHumanResourcesOfficer",
+      "label": "最高人事責任者",
+      "comment": "制度設計、採用、文化を通じて最強の成果を生む組織を構築する使命を持つ。",
+      "parent": "ExecutiveRole"
+    },
+    {
+      "name": "WorkType",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/WorkType",
+      "label": "業務類型",
+      "comment": "バックオフィス業務の性質。定型業務の割合が高いこと、専門知識を要すること、全社の経営管理を規律することの三特性がある。",
+      "parent": null
+    },
+    {
+      "name": "RoutineWork",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/RoutineWork",
+      "label": "定型業務",
+      "comment": "日次・週次・月次・年次のサイクルで行われる標準化された業務。可視化とマニュアル化が効率を左右する。",
+      "parent": "WorkType"
+    },
+    {
+      "name": "SpecializedKnowledgeWork",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/SpecializedKnowledgeWork",
+      "label": "専門知識業務",
+      "comment": "法令や会計基準など専門知識を要する業務。法令はほぼ毎年改正される。",
+      "parent": "WorkType"
+    },
+    {
+      "name": "ManagementControlWork",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/ManagementControlWork",
+      "label": "経営管理業務",
+      "comment": "全社の経営管理を規律する業務。経営者の意図を理解し同じ視点でオペレーションを回すことが本質である。",
+      "parent": "WorkType"
+    },
+    {
+      "name": "OrganizationDesign",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/OrganizationDesign",
+      "label": "組織設計",
+      "comment": "事業モデル、成長計画、文化、企業類型、ステークホルダー要求に応じた編成。一人バックオフィスから機能別部門まで段階的に変わる。組織設計は文化形成そのものである。",
+      "parent": null
+    },
+    {
+      "name": "BackOfficePolicy",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/BackOfficePolicy",
+      "label": "バックオフィス・ポリシー",
+      "comment": "機能を統一する羅針盤。全社戦略との連動、情熱と論理の結合、独自性の簡潔な表現が設計原則。コストセンターである機能の成長と存在感を支える。",
+      "parent": null
+    },
+    {
+      "name": "PeriodicTask",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/PeriodicTask",
+      "label": "定期業務",
+      "comment": "年間・月次または随時のスケジュール、提出先、書類で管理される業務。法定期限を持つものが多く、繁閑は予測可能である。",
+      "parent": null
+    },
+    {
+      "name": "FinancialClosing",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/FinancialClosing",
+      "label": "決算業務",
+      "comment": "最も重要な定期業務の一つ。定型に見えて基準や事業展開により毎年変化し、完了時の達成感が大きい。",
+      "parent": "PeriodicTask"
+    },
+    {
+      "name": "AccountingPrinciple",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/AccountingPrinciple",
+      "label": "会計原則",
+      "comment": "発生主義、費用収益対応の原則、継続企業の前提、収益の実現主義など、記帳と期間計算を支える原則。",
+      "parent": null
+    },
+    {
+      "name": "DoubleEntryBookkeeping",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/DoubleEntryBookkeeping",
+      "label": "複式簿記",
+      "comment": "資産・負債・純資産・収益・費用の五分類で中長期視点を加える記帳法。会計の言語であり、借方と貸方で取引を捉える。",
+      "parent": null
+    },
+    {
+      "name": "FinancialStatement",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/FinancialStatement",
+      "label": "財務諸表",
+      "comment": "会社法、金融商品取引法、税法、経営それぞれに奉仕する報告。貸借対照表と損益計算書を含む。",
+      "parent": null
+    },
+    {
+      "name": "ConsumptionTax",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/ConsumptionTax",
+      "label": "消費税",
+      "comment": "仮受消費税から仮払消費税を差し引いて納税する付加価値税。免税事業者、簡易課税、税込経理と税抜経理が関連する。",
+      "parent": null
+    },
+    {
+      "name": "InvoiceSystem",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/InvoiceSystem",
+      "label": "インボイス制度",
+      "comment": "2023年10月開始。適格請求書がなければ仕入税額控除できない制度。課税区分・税率・適格可否・控除方法の四軸で誤りやすい。",
+      "parent": null
+    },
+    {
+      "name": "Depreciation",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/Depreciation",
+      "label": "減価償却",
+      "comment": "長期使用資産を耐用年数にわたって費用配分する処理。定額法と定率法があり、事業供用日から開始する。",
+      "parent": null
+    },
+    {
+      "name": "DigitalTransformation",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/DigitalTransformation",
+      "label": "デジタルトランスフォーメーション",
+      "comment": "2010年代以降不可避の変革。待ったなしで事務・取引処理をシステムに置き換え、残る役割を専門業務・管理・業務設計へ移す。",
+      "parent": null
+    },
+    {
+      "name": "RoboticProcessAutomation",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/RoboticProcessAutomation",
+      "label": "ロボティックプロセスオートメーション",
+      "comment": "データの検索、ダウンロード、入力、分析を自動化する技術。",
+      "parent": "DigitalTransformation"
+    },
+    {
+      "name": "CloudSystem",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/CloudSystem",
+      "label": "クラウドシステム",
+      "comment": "UI/UXとAPI連携を重視する現代の業務システム。入力・所定ルールによる内部処理・出力の構造を理解することが運用の要点。",
+      "parent": null
+    },
+    {
+      "name": "BusinessProcessOutsourcing",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/BusinessProcessOutsourcing",
+      "label": "業務プロセスアウトソーシング",
+      "comment": "内部知識不足の補完や必要な時だけの資源利用。丸投げは危険であり、内部人材が指導・仲介者となる必要がある。",
+      "parent": null
+    },
+    {
+      "name": "LicensedSpecialist",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/LicensedSpecialist",
+      "label": "士業専門家",
+      "comment": "弁護士、弁理士、税理士、公認会計士、社会保険労務士など法令領域の専門家。内部知識の不足を補う。",
+      "parent": null
+    },
+    {
+      "name": "Law",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/Law",
+      "label": "法令",
+      "comment": "会社法、独占禁止法、下請法、労働基準法、税法、会計基準、特許法、金融商品取引法、労働者派遣法など。ほぼ毎年改正される。",
+      "parent": null
+    },
+    {
+      "name": "Stakeholder",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/Stakeholder",
+      "label": "ステークホルダー",
+      "comment": "税務当局、株主、債権者、銀行、取引先、労働基準監督署など、方針や報告先を形づくる関係者。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "hasFunction",
+      "type": "object",
+      "domain": [
+        "BackOffice"
+      ],
+      "range": [
+        "BackOfficeFunction"
+      ],
+      "label": "機能を持つ",
+      "comment": "バックオフィスが経理財務、人事労務、法務、総務、経営企画などの職能を構成要素として持つ関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/hasFunction"
+    },
+    {
+      "name": "contrastedWith",
+      "type": "object",
+      "domain": [
+        "BackOffice"
+      ],
+      "range": [
+        "FrontOffice"
+      ],
+      "label": "対比される",
+      "comment": "バックオフィスが販売・製造などのフロントオフィスと対比される関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/contrastedWith"
+    },
+    {
+      "name": "belongsToCompany",
+      "type": "object",
+      "domain": [
+        "BackOffice"
+      ],
+      "range": [
+        "Company"
+      ],
+      "label": "所属する",
+      "comment": "バックオフィスが特定の企業に属する関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/belongsToCompany"
+    },
+    {
+      "name": "mappedToResource",
+      "type": "object",
+      "domain": [
+        "BackOfficeFunction"
+      ],
+      "range": [
+        "Resource"
+      ],
+      "label": "経営資源に対応する",
+      "comment": "職能がヒト・モノ・カネのいずれかに対応して設計される関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/mappedToResource"
+    },
+    {
+      "name": "ledBy",
+      "type": "object",
+      "domain": [
+        "BackOffice",
+        "BackOfficeFunction"
+      ],
+      "range": [
+        "ExecutiveRole"
+      ],
+      "label": "統括される",
+      "comment": "バックオフィスまたは個別機能がCFOやCHROなどの経営層役職に統括される関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/ledBy"
+    },
+    {
+      "name": "hasPolicy",
+      "type": "object",
+      "domain": [
+        "BackOffice"
+      ],
+      "range": [
+        "BackOfficePolicy"
+      ],
+      "label": "方針を持つ",
+      "comment": "バックオフィスが機能を統一するポリシーを持つ関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/hasPolicy"
+    },
+    {
+      "name": "hasOrganizationDesign",
+      "type": "object",
+      "domain": [
+        "Company",
+        "BackOffice"
+      ],
+      "range": [
+        "OrganizationDesign"
+      ],
+      "label": "組織設計を持つ",
+      "comment": "企業またはバックオフィスが成長段階や事業モデルに応じた編成を持つ関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/hasOrganizationDesign"
+    },
+    {
+      "name": "hasWorkType",
+      "type": "object",
+      "domain": [
+        "BackOffice",
+        "BackOfficeFunction"
+      ],
+      "range": [
+        "WorkType"
+      ],
+      "label": "業務類型を持つ",
+      "comment": "定型、専門知識、経営管理といった業務特性を持つ関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/hasWorkType"
+    },
+    {
+      "name": "hasPeriodicTask",
+      "type": "object",
+      "domain": [
+        "BackOfficeFunction"
+      ],
+      "range": [
+        "PeriodicTask"
+      ],
+      "label": "定期業務を持つ",
+      "comment": "職能が年間・月次などの周期で実施する業務を持つ関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/hasPeriodicTask"
+    },
+    {
+      "name": "governedByLaw",
+      "type": "object",
+      "domain": [
+        "BackOfficeFunction",
+        "PeriodicTask"
+      ],
+      "range": [
+        "Law"
+      ],
+      "label": "法令に規律される",
+      "comment": "職能や定期業務が会社法、税法、労働基準法などの法令に規律される関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/governedByLaw"
+    },
+    {
+      "name": "consultsSpecialist",
+      "type": "object",
+      "domain": [
+        "BackOffice"
+      ],
+      "range": [
+        "LicensedSpecialist"
+      ],
+      "label": "専門家に相談する",
+      "comment": "法令改正の影響評価や不足知識の補完のため士業専門家と連携する関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/consultsSpecialist"
+    },
+    {
+      "name": "outsourcesTo",
+      "type": "object",
+      "domain": [
+        "BackOffice",
+        "Company"
+      ],
+      "range": [
+        "BusinessProcessOutsourcing",
+        "LicensedSpecialist"
+      ],
+      "label": "外部委託する",
+      "comment": "経理や人事労務など比較的委託しやすい領域をBPOや士業に任せる関係。完全な丸投げは想定しない。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/outsourcesTo"
+    },
+    {
+      "name": "usesDigitalTransformation",
+      "type": "object",
+      "domain": [
+        "BackOffice"
+      ],
+      "range": [
+        "DigitalTransformation",
+        "CloudSystem",
+        "RoboticProcessAutomation"
+      ],
+      "label": "デジタル化を用いる",
+      "comment": "定型の事務処理をRPA、OCR、クラウドシステムなどで置き換える関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/usesDigitalTransformation"
+    },
+    {
+      "name": "involvesStakeholder",
+      "type": "object",
+      "domain": [
+        "PeriodicTask",
+        "AccountingFinance",
+        "FinancialStatement"
+      ],
+      "range": [
+        "Stakeholder"
+      ],
+      "label": "関係者を伴う",
+      "comment": "提出先や報告先として税務当局、株主、銀行などの関係者を伴う関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/involvesStakeholder"
+    },
+    {
+      "name": "appliesPrinciple",
+      "type": "object",
+      "domain": [
+        "AccountingFinance",
+        "DoubleEntryBookkeeping"
+      ],
+      "range": [
+        "AccountingPrinciple"
+      ],
+      "label": "原則を適用する",
+      "comment": "経理財務や複式簿記が発生主義などの会計原則を適用する関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/appliesPrinciple"
+    },
+    {
+      "name": "producesStatement",
+      "type": "object",
+      "domain": [
+        "AccountingFinance",
+        "FinancialClosing"
+      ],
+      "range": [
+        "FinancialStatement"
+      ],
+      "label": "財務諸表を作成する",
+      "comment": "経理財務や決算業務が財務諸表を作成する関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/producesStatement"
+    },
+    {
+      "name": "usesBookkeeping",
+      "type": "object",
+      "domain": [
+        "AccountingFinance"
+      ],
+      "range": [
+        "DoubleEntryBookkeeping"
+      ],
+      "label": "簿記を用いる",
+      "comment": "経理財務が複式簿記を記帳の基盤として用いる関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/usesBookkeeping"
+    },
+    {
+      "name": "appliesDepreciation",
+      "type": "object",
+      "domain": [
+        "AccountingFinance"
+      ],
+      "range": [
+        "Depreciation"
+      ],
+      "label": "減価償却を適用する",
+      "comment": "長期使用資産の取得原価を耐用年数にわたって配分する関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/appliesDepreciation"
+    },
+    {
+      "name": "handlesConsumptionTax",
+      "type": "object",
+      "domain": [
+        "AccountingFinance"
+      ],
+      "range": [
+        "ConsumptionTax",
+        "InvoiceSystem"
+      ],
+      "label": "消費税を扱う",
+      "comment": "経理財務が消費税計算とインボイス制度への対応を扱う関係。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/handlesConsumptionTax"
+    },
+    {
+      "name": "mission",
+      "type": "data",
+      "domain": [
+        "ExecutiveRole",
+        "BackOffice"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "使命",
+      "comment": "経営層役職やバックオフィス機能が果たすべき使命の記述。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/mission"
+    },
+    {
+      "name": "workCycle",
+      "type": "data",
+      "domain": [
+        "PeriodicTask",
+        "RoutineWork"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "業務周期",
+      "comment": "日次、週次、月次、年次など業務が繰り返される周期。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/workCycle"
+    },
+    {
+      "name": "policyValue",
+      "type": "data",
+      "domain": [
+        "BackOfficePolicy"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "方針の価値観",
+      "comment": "攻めて守る、バーサタイル、ゼロベース思考、プロフェッショナリズムなどポリシーが掲げる価値観。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/policyValue"
+    },
+    {
+      "name": "characteristic",
+      "type": "data",
+      "domain": [
+        "BackOffice",
+        "WorkType",
+        "OrganizationDesign"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "特性",
+      "comment": "定型性、専門性、経営管理性など対象の性質を表す記述。",
+      "uri": "https://books.local/バックオフィス業務のすべてがわかる本.ocr/characteristic"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

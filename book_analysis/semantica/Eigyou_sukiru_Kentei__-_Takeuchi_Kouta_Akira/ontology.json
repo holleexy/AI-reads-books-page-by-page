@@ -1,0 +1,541 @@
+{
+  "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/",
+  "name": "Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_AkiraOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/Book",
+      "label": "書籍",
+      "comment": "本書『営業スキル検定』。いい営業像の提示と、営業の学術的・体系的整理を目的とする。",
+      "parent": null
+    },
+    {
+      "name": "Author",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/Author",
+      "label": "著者",
+      "comment": "リクルートで営業を始め、モノグサ株式会社を起業した人物。営業の価値を事業開発という長期的視点で捉え直した。",
+      "parent": null
+    },
+    {
+      "name": "EmpathyAcquisition",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/EmpathyAcquisition",
+      "label": "共感獲得",
+      "comment": "営業の本質。絶対的根拠がない中でリスクを伴う意思決定を相手にしてもらうこと。資金調達・採用・ミッション伝達なども含まれる。",
+      "parent": null
+    },
+    {
+      "name": "SalesStyle",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesStyle",
+      "label": "営業スタイル",
+      "comment": "担当見込み顧客数と商品の弾力性の二つの変数によって決まる営業の分類。",
+      "parent": null
+    },
+    {
+      "name": "Marketing",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/Marketing",
+      "label": "マーケティング",
+      "comment": "顧客数が膨大で、効率的に見込み客を絞り込む領域の営業スタイル。",
+      "parent": "SalesStyle"
+    },
+    {
+      "name": "CustomOrderSales",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/CustomOrderSales",
+      "label": "御用聞き営業",
+      "comment": "顧客数は少ないが高単価。強固な信頼関係を基にした深い伴走を行うスタイル。",
+      "parent": "SalesStyle"
+    },
+    {
+      "name": "ConsultingSales",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/ConsultingSales",
+      "label": "コンサルティング営業",
+      "comment": "弾力性が小さい商品を、営業自身の問題解決能力を付加価値として売るスタイル。短期売上にはなるが商品改善には繋がりにくい。",
+      "parent": "SalesStyle"
+    },
+    {
+      "name": "BusinessDevelopmentSales",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/BusinessDevelopmentSales",
+      "label": "事業開発営業",
+      "comment": "弾力性が大きい商品を扱い、現場の一次情報を開発へフィードバックして商品価値を高める。本書が最も推奨するスタイル。",
+      "parent": "SalesStyle"
+    },
+    {
+      "name": "SalesFoundation",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesFoundation",
+      "label": "営業基盤",
+      "comment": "営業を体系化するために分離して定義すべき知識・KPI・スキルの総称。",
+      "parent": null
+    },
+    {
+      "name": "Knowledge",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/Knowledge",
+      "label": "知識",
+      "comment": "記憶していればそのまま使える情報。業界知識、商品知識、決裁者情報など。",
+      "parent": "SalesFoundation"
+    },
+    {
+      "name": "KPI",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/KPI",
+      "label": "KPI",
+      "comment": "営業目標と相関する行動指標。アポ数や商談回数など。",
+      "parent": "SalesFoundation"
+    },
+    {
+      "name": "Skill",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/Skill",
+      "label": "スキル",
+      "comment": "記憶だけでは体現できず、実践と反復が必要な技術。言語化できなければ育成もスランプ脱出もできない。",
+      "parent": "SalesFoundation"
+    },
+    {
+      "name": "SalesLevel",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesLevel",
+      "label": "営業レベル",
+      "comment": "顧客ニーズの顕在化度合い（自覚の有無）によって0から3に分類される営業スキルの水準。",
+      "parent": null
+    },
+    {
+      "name": "SalesLevel0",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesLevel0",
+      "label": "営業レベル0",
+      "comment": "ニーズが顕在化し購買行動を開始している顧客への対応。店頭接客や問い合わせ対応。基本的ビジネスマナーが中心。",
+      "parent": "SalesLevel"
+    },
+    {
+      "name": "SalesLevel1",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesLevel1",
+      "label": "営業レベル1",
+      "comment": "ニーズは自覚しているが購買を始めていない顧客。情報の非対称性を埋めて売る。トークスクリプトや想定Q&Aが中心。",
+      "parent": "SalesLevel"
+    },
+    {
+      "name": "SalesLevel2",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesLevel2",
+      "label": "営業レベル2",
+      "comment": "潜在ニーズはあるが自覚していない顧客。ヒアリング・ギャップ特定・真因合意・導入障害解消が中心。事業開発営業のコア。",
+      "parent": "SalesLevel"
+    },
+    {
+      "name": "SalesLevel3",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesLevel3",
+      "label": "営業レベル3",
+      "comment": "潜在ニーズすら無い顧客への合法的な課題創造。目標を引き上げ新たなギャップを作る。商品が市場適合するまでの時間稼ぎの禁じ手。",
+      "parent": "SalesLevel"
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/Customer",
+      "label": "顧客",
+      "comment": "営業の対象となる見込み客または既存顧客。",
+      "parent": null
+    },
+    {
+      "name": "Need",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/Need",
+      "label": "ニーズ",
+      "comment": "顧客の課題や欲求。顕在化の度合いによって対応すべき営業レベルが決まる。",
+      "parent": null
+    },
+    {
+      "name": "Gap",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/Gap",
+      "label": "ギャップ",
+      "comment": "顧客の目標（ありたい姿）と現状との差。レベル2で認識させる対象。",
+      "parent": null
+    },
+    {
+      "name": "RootCause",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/RootCause",
+      "label": "真因",
+      "comment": "ギャップの、顧客自身も気づいていない根本原因。仮説で提示し顧客の口で言わせる。",
+      "parent": null
+    },
+    {
+      "name": "Product",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/Product",
+      "label": "商品",
+      "comment": "販売対象。弾力性の大小で価値変化の速さが異なる。究極目標は営業がいなくても売れる状態を作ること。",
+      "parent": null
+    },
+    {
+      "name": "Meeting",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/Meeting",
+      "label": "商談",
+      "comment": "顧客との営業対話。三回商談フレームワークの構成単位。",
+      "parent": null
+    },
+    {
+      "name": "ThreeMeetingFramework",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/ThreeMeetingFramework",
+      "label": "三回商談フレームワーク",
+      "comment": "レベル2〜3向けの商談設計。1回目は価値伝達とヒアリング、2回目は期待を超える提案と障害解消、3回目は決裁者へのクロージング。",
+      "parent": null
+    },
+    {
+      "name": "DecisionMaker",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/DecisionMaker",
+      "label": "決裁者",
+      "comment": "顧客組織の購買意思決定者。レベル3では経営課題について語り、3回目商談でプレゼン対象となる。",
+      "parent": null
+    },
+    {
+      "name": "SalesSkillCertification",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/SalesSkillCertification",
+      "label": "営業スキル検定",
+      "comment": "スキルを言語化し習得可能にし、評価とフィードバックを行う仕組み。組織のいい営業像と改善基準を提供する。",
+      "parent": null
+    },
+    {
+      "name": "RolePlay",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/RolePlay",
+      "label": "ロールプレイング",
+      "comment": "レベル別に設計する実践評価。くじ引きで顧客属性や真因パターンを変え、対応力を測る。",
+      "parent": null
+    },
+    {
+      "name": "Organization",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/Organization",
+      "label": "組織",
+      "comment": "検定を運用し営業像を定着させる企業やチーム。録音公開、評価者育成、開発連携が求められる。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "hasAuthor",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Author"
+      ],
+      "label": "著者を持つ",
+      "comment": "書籍とその著者の関係。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/hasAuthor"
+    },
+    {
+      "name": "hasEssence",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "EmpathyAcquisition"
+      ],
+      "label": "本質を持つ",
+      "comment": "本書が営業の本質として定義する共感獲得。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/hasEssence"
+    },
+    {
+      "name": "recommends",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "BusinessDevelopmentSales"
+      ],
+      "label": "推奨する",
+      "comment": "本書が最も推奨する事業開発営業。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/recommends"
+    },
+    {
+      "name": "sells",
+      "type": "object",
+      "domain": [
+        "SalesStyle"
+      ],
+      "range": [
+        "Product"
+      ],
+      "label": "販売する",
+      "comment": "その営業スタイルが扱う商品。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/sells"
+    },
+    {
+      "name": "improves",
+      "type": "object",
+      "domain": [
+        "BusinessDevelopmentSales"
+      ],
+      "range": [
+        "Product"
+      ],
+      "label": "改善する",
+      "comment": "顧客の温度感という一次情報を開発へ返し、プロダクト価値やCVRを高める。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/improves"
+    },
+    {
+      "name": "requiresSkill",
+      "type": "object",
+      "domain": [
+        "SalesLevel"
+      ],
+      "range": [
+        "Skill"
+      ],
+      "label": "スキルを要する",
+      "comment": "各営業レベルで求められる主要スキル。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/requiresSkill"
+    },
+    {
+      "name": "targetsNeed",
+      "type": "object",
+      "domain": [
+        "SalesLevel"
+      ],
+      "range": [
+        "Need"
+      ],
+      "label": "ニーズを対象とする",
+      "comment": "営業レベルはニーズの顕在化度合いで分類される。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/targetsNeed"
+    },
+    {
+      "name": "hasNeed",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "Need"
+      ],
+      "label": "ニーズを持つ",
+      "comment": "顧客が持つ顕在的または潜在的ニーズ。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/hasNeed"
+    },
+    {
+      "name": "hasGap",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "Gap"
+      ],
+      "label": "ギャップを持つ",
+      "comment": "顧客の目標と現状の差。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/hasGap"
+    },
+    {
+      "name": "hasRootCause",
+      "type": "object",
+      "domain": [
+        "Gap"
+      ],
+      "range": [
+        "RootCause"
+      ],
+      "label": "真因を持つ",
+      "comment": "ギャップを生んでいる根本原因。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/hasRootCause"
+    },
+    {
+      "name": "identifies",
+      "type": "object",
+      "domain": [
+        "Skill"
+      ],
+      "range": [
+        "Gap",
+        "RootCause"
+      ],
+      "label": "特定する",
+      "comment": "ヒアリングを通じギャップや真因を特定する。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/identifies"
+    },
+    {
+      "name": "consistsOf",
+      "type": "object",
+      "domain": [
+        "ThreeMeetingFramework"
+      ],
+      "range": [
+        "Meeting"
+      ],
+      "label": "構成要素とする",
+      "comment": "三回商談フレームワークを構成する各商談。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/consistsOf"
+    },
+    {
+      "name": "involves",
+      "type": "object",
+      "domain": [
+        "Meeting"
+      ],
+      "range": [
+        "DecisionMaker",
+        "Customer"
+      ],
+      "label": "関与させる",
+      "comment": "商談に顧客や決裁者を関与させる。特に3回目で決裁者へクロージングする。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/involves"
+    },
+    {
+      "name": "evaluates",
+      "type": "object",
+      "domain": [
+        "SalesSkillCertification"
+      ],
+      "range": [
+        "Skill"
+      ],
+      "label": "評価する",
+      "comment": "検定が評価する営業スキル。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/evaluates"
+    },
+    {
+      "name": "usesRolePlay",
+      "type": "object",
+      "domain": [
+        "SalesSkillCertification"
+      ],
+      "range": [
+        "RolePlay"
+      ],
+      "label": "ロープレを用いる",
+      "comment": "検定設計にロールプレイングを用いる。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/usesRolePlay"
+    },
+    {
+      "name": "implements",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "SalesSkillCertification"
+      ],
+      "label": "導入する",
+      "comment": "組織が検定を定着・運用する関係。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/implements"
+    },
+    {
+      "name": "belongsTo",
+      "type": "object",
+      "domain": [
+        "DecisionMaker"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "label": "所属する",
+      "comment": "決裁者が属する顧客組織。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/belongsTo"
+    },
+    {
+      "name": "purpose",
+      "type": "data",
+      "domain": [
+        "Book",
+        "SalesSkillCertification"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "目的",
+      "comment": "書籍または検定の目的を表す。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/purpose"
+    },
+    {
+      "name": "levelNumber",
+      "type": "data",
+      "domain": [
+        "SalesLevel"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "レベル番号",
+      "comment": "営業レベルを表す0から3の番号。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/levelNumber"
+    },
+    {
+      "name": "needAwareness",
+      "type": "data",
+      "domain": [
+        "Need"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "顕在化度合い",
+      "comment": "ニーズの自覚の有無や購買行動の開始状況。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/needAwareness"
+    },
+    {
+      "name": "prospectCount",
+      "type": "data",
+      "domain": [
+        "SalesStyle"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "担当見込み顧客数",
+      "comment": "一人の営業が抱える顧客の絶対数。スタイルを決める変数の一つ。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/prospectCount"
+    },
+    {
+      "name": "productElasticity",
+      "type": "data",
+      "domain": [
+        "Product",
+        "SalesStyle"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "商品の弾力性",
+      "comment": "商品価値が変化する速さ。硬直的か弾力的かを区別する。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/productElasticity"
+    },
+    {
+      "name": "duration",
+      "type": "data",
+      "domain": [
+        "Meeting"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "所要時間",
+      "comment": "商談の想定所要時間。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/duration"
+    },
+    {
+      "name": "meetingOrder",
+      "type": "data",
+      "domain": [
+        "Meeting"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "商談回数",
+      "comment": "1回目・2回目・3回目の別。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/meetingOrder"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "Skill",
+        "RolePlay",
+        "Meeting",
+        "EmpathyAcquisition"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "対象の内容を表す文字列。",
+      "uri": "https://books.local/Eigyou_sukiru_Kentei__-_Takeuchi_Kouta_Akira/description"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

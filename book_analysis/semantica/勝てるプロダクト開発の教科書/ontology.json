@@ -1,0 +1,536 @@
+{
+  "uri": "https://books.local/勝てるプロダクト開発の教科書/",
+  "name": "勝てるプロダクト開発の教科書Ontology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Book",
+      "label": "書籍",
+      "comment": "プロダクト責任の引き受けと勝ち切る開発組織を論じた教科書そのもの。",
+      "parent": null
+    },
+    {
+      "name": "Author",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Author",
+      "label": "著者",
+      "comment": "現場PMと意思決定者の双方を経験した書き手。蜂須賀大貴を想定する。",
+      "parent": null
+    },
+    {
+      "name": "Chapter",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Chapter",
+      "label": "章",
+      "comment": "独立して読めるが一つの哲学でつながる章。多くは学びのリソースで終わる。",
+      "parent": null
+    },
+    {
+      "name": "Audience",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Audience",
+      "label": "想定読者",
+      "comment": "第一は価値と事業成果に責任を持つプロダクトオーナー、第二は協働する専門家。",
+      "parent": null
+    },
+    {
+      "name": "ProductOwner",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/ProductOwner",
+      "label": "プロダクト責任者",
+      "comment": "肩書ではなく、最終判断と成果説明から逃げない姿勢を持つ人。ミニCEOでもある。",
+      "parent": null
+    },
+    {
+      "name": "Specialist",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Specialist",
+      "label": "専門家",
+      "comment": "エンジニア、デザイナー、マーケ、営業、PR、法務など、委任先となりうる専門職。",
+      "parent": null
+    },
+    {
+      "name": "Product",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Product",
+      "label": "プロダクト",
+      "comment": "顧客価値と事業成果が同時に問われる対象。生存と同僚の生活がかかることがある。",
+      "parent": null
+    },
+    {
+      "name": "Market",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Market",
+      "label": "市場",
+      "comment": "生きた水系のように上流下流を持つ戦場。勝てる市場選びが勝敗を決する。",
+      "parent": null
+    },
+    {
+      "name": "Responsibility",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Responsibility",
+      "label": "責任",
+      "comment": "不確実性の中で最終決定し、失敗時も他責せず火中に立つこと。逃げない罰則の覚悟を含む。",
+      "parent": null
+    },
+    {
+      "name": "Stance",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Stance",
+      "label": "姿勢",
+      "comment": "顧客価値から逃げない、決断を先送りしない、委任しても責任を捨てない、失敗時に弁解しない。",
+      "parent": null
+    },
+    {
+      "name": "ThinkingOS",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/ThinkingOS",
+      "label": "思考OS",
+      "comment": "戦略・組織・技術・マーケ・法務などの知識を正しく使うための土台。アプリより先に整える。",
+      "parent": null
+    },
+    {
+      "name": "FoundationalAbility",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/FoundationalAbility",
+      "label": "基礎体力",
+      "comment": "論理的思考、具体と抽象の往来、意思決定リテラシーが連動する三つの基礎能力。",
+      "parent": "ThinkingOS"
+    },
+    {
+      "name": "KnowledgeLayer",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/KnowledgeLayer",
+      "label": "知識の層",
+      "comment": "根（哲学）、幹（基礎技術）、枝葉（専門応用）からなる一本の木としての知識構造。",
+      "parent": null
+    },
+    {
+      "name": "Delegation",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Delegation",
+      "label": "委任",
+      "comment": "成果責任は自分が保持したまま、専門家にオーナーシップを渡すこと。丸投げではない。",
+      "parent": null
+    },
+    {
+      "name": "Dumping",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Dumping",
+      "label": "丸投げ",
+      "comment": "成果責任と思考の両方を渡し専門家を孤立させる行為。責任所在を不明確にし失敗を招く。",
+      "parent": null
+    },
+    {
+      "name": "AlignmentElement",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/AlignmentElement",
+      "label": "引き継ぎ要素",
+      "comment": "背景、目的、判断基準、期待値、期限、リスクと不確実性の六要素。欠けるとブラックボックス化する。",
+      "parent": null
+    },
+    {
+      "name": "HeldCriterion",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/HeldCriterion",
+      "label": "保持すべき判断基準",
+      "comment": "目的、制約条件、成功指標、代替案、最悪ケース。委任しても手放してはならない軸。",
+      "parent": null
+    },
+    {
+      "name": "WinnableMarketCondition",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/WinnableMarketCondition",
+      "label": "勝てる市場の条件",
+      "comment": "成長市場、圧倒的首位の不在、独自技術や資産による独占的地位（MOAT）の三つ。",
+      "parent": null
+    },
+    {
+      "name": "MarketSelectionFailurePattern",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/MarketSelectionFailurePattern",
+      "label": "市場選びの失敗パターン",
+      "comment": "情熱のみ、過密ブーム、時期尚早、実在顧客不在、思考の偏り、過信の六類型。",
+      "parent": null
+    },
+    {
+      "name": "PassionMarketQuadrant",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/PassionMarketQuadrant",
+      "label": "情熱と市場理解の象限",
+      "comment": "経験×現在市場、経験×未来市場、志×現在市場、志×未来市場の二次元で戦場を意識する枠。",
+      "parent": null
+    },
+    {
+      "name": "Vision",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Vision",
+      "label": "ビジョン",
+      "comment": "Why me と Why now を自分の言葉で重ねた先に立ち現れる、スローガンではない目的。",
+      "parent": null
+    },
+    {
+      "name": "WhyMe",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/WhyMe",
+      "label": "なぜ自分か",
+      "comment": "原体験、代替不能な資産、実現したい社会変革が重なる、自分がやる必然。",
+      "parent": null
+    },
+    {
+      "name": "WhyNow",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/WhyNow",
+      "label": "なぜ今か",
+      "comment": "技術制度インフラ、社会文化、競争と産業構造の変化が重なる、このタイミングの必然。",
+      "parent": null
+    },
+    {
+      "name": "OriginalExperience",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/OriginalExperience",
+      "label": "原体験",
+      "comment": "持続動機の源泉。肯定的である必要はなく、言語化されていないだけであることが多い。",
+      "parent": null
+    },
+    {
+      "name": "Moat",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/Moat",
+      "label": "堀",
+      "comment": "独自技術や資産、プラットフォーム化の可能性によって築く排他的・独占的地位。",
+      "parent": null
+    },
+    {
+      "name": "OrganizationPhase",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/OrganizationPhase",
+      "label": "組織フェーズ",
+      "comment": "立ち上げ・成長・拡大。戦略・戦術・施策のどこを自ら保持しどこを委任するかが変わる。",
+      "parent": null
+    },
+    {
+      "name": "LearningResource",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/LearningResource",
+      "label": "学びのリソース",
+      "comment": "各章末に置かれ、実務の途中で開いて戻るための学習材料。",
+      "parent": null
+    },
+    {
+      "name": "JudgmentQuestion",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/JudgmentQuestion",
+      "label": "専門家への問い",
+      "comment": "何を聞くか、何を決めるか、リスクはどこか、何を委任し何を保持するか、の四種。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "writtenBy",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Author"
+      ],
+      "label": "著者である",
+      "comment": "書籍とその著者を結ぶ。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/writtenBy"
+    },
+    {
+      "name": "hasChapter",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Chapter"
+      ],
+      "label": "章を持つ",
+      "comment": "書籍が根幹枝葉の知識構造に沿った章を含む。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/hasChapter"
+    },
+    {
+      "name": "targetsAudience",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Audience"
+      ],
+      "label": "読者を想定する",
+      "comment": "第一読者と協働専門家を指す。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/targetsAudience"
+    },
+    {
+      "name": "belongsToLayer",
+      "type": "object",
+      "domain": [
+        "Chapter"
+      ],
+      "range": [
+        "KnowledgeLayer"
+      ],
+      "label": "知識の層に属する",
+      "comment": "章が根・幹・枝葉のいずれかの層に位置づく。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/belongsToLayer"
+    },
+    {
+      "name": "hasLearningResource",
+      "type": "object",
+      "domain": [
+        "Chapter"
+      ],
+      "range": [
+        "LearningResource"
+      ],
+      "label": "学びのリソースを持つ",
+      "comment": "章末の学習材料との関係。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/hasLearningResource"
+    },
+    {
+      "name": "takesResponsibilityFor",
+      "type": "object",
+      "domain": [
+        "ProductOwner"
+      ],
+      "range": [
+        "Product",
+        "Responsibility"
+      ],
+      "label": "最終責任を引き受ける",
+      "comment": "この判断の最終責任を誰が引き受けるのか、という統一問いの中核関係。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/takesResponsibilityFor"
+    },
+    {
+      "name": "hasStance",
+      "type": "object",
+      "domain": [
+        "ProductOwner"
+      ],
+      "range": [
+        "Stance"
+      ],
+      "label": "姿勢を持つ",
+      "comment": "肩書ではなく四つの定義的姿勢でリーダーを特徴づける。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/hasStance"
+    },
+    {
+      "name": "hasThinkingOS",
+      "type": "object",
+      "domain": [
+        "ProductOwner"
+      ],
+      "range": [
+        "ThinkingOS"
+      ],
+      "label": "思考OSを持つ",
+      "comment": "個別スキルの前に必要な判断の土台。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/hasThinkingOS"
+    },
+    {
+      "name": "comprisesAbility",
+      "type": "object",
+      "domain": [
+        "ThinkingOS"
+      ],
+      "range": [
+        "FoundationalAbility"
+      ],
+      "label": "基礎体力からなる",
+      "comment": "論理、具体抽象、判断軸が連動プロセスとしてOSを構成する。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/comprisesAbility"
+    },
+    {
+      "name": "selectsMarket",
+      "type": "object",
+      "domain": [
+        "ProductOwner"
+      ],
+      "range": [
+        "Market"
+      ],
+      "label": "市場を選ぶ",
+      "comment": "ゲームの難易度を選ぶ行為。身の程を知り勝てる戦場を決める。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/selectsMarket"
+    },
+    {
+      "name": "hasWinnableCondition",
+      "type": "object",
+      "domain": [
+        "Market"
+      ],
+      "range": [
+        "WinnableMarketCondition"
+      ],
+      "label": "勝てる条件を持つ",
+      "comment": "成長性、首位不在、堀の有無で市場の勝ちやすさを示す。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/hasWinnableCondition"
+    },
+    {
+      "name": "hasMoat",
+      "type": "object",
+      "domain": [
+        "Market"
+      ],
+      "range": [
+        "Moat"
+      ],
+      "label": "堀を持つ",
+      "comment": "市場における排他的地位。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/hasMoat"
+    },
+    {
+      "name": "exhibitsFailurePattern",
+      "type": "object",
+      "domain": [
+        "Market"
+      ],
+      "range": [
+        "MarketSelectionFailurePattern"
+      ],
+      "label": "失敗パターンを示す",
+      "comment": "市場選びの六つの敗北類型との関係。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/exhibitsFailurePattern"
+    },
+    {
+      "name": "positionedInQuadrant",
+      "type": "object",
+      "domain": [
+        "ProductOwner"
+      ],
+      "range": [
+        "PassionMarketQuadrant"
+      ],
+      "label": "情熱と市場の象限に位置づく",
+      "comment": "どの象限で勝とうとしているかを意識する。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/positionedInQuadrant"
+    },
+    {
+      "name": "delegatesTo",
+      "type": "object",
+      "domain": [
+        "ProductOwner"
+      ],
+      "range": [
+        "Specialist"
+      ],
+      "label": "委任する",
+      "comment": "成果責任は保持したまま専門家に仕事の所有を渡す。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/delegatesTo"
+    },
+    {
+      "name": "dumpsOnto",
+      "type": "object",
+      "domain": [
+        "ProductOwner"
+      ],
+      "range": [
+        "Specialist"
+      ],
+      "label": "丸投げする",
+      "comment": "思考と成果責任まで手放し専門家を孤立させる誤った渡し方。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/dumpsOnto"
+    },
+    {
+      "name": "requiresAlignment",
+      "type": "object",
+      "domain": [
+        "Delegation"
+      ],
+      "range": [
+        "AlignmentElement"
+      ],
+      "label": "揃え要素を必要とする",
+      "comment": "渡す前に背景からリスクまで六要素を揃える。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/requiresAlignment"
+    },
+    {
+      "name": "holdsCriterion",
+      "type": "object",
+      "domain": [
+        "ProductOwner"
+      ],
+      "range": [
+        "HeldCriterion"
+      ],
+      "label": "判断基準を保持する",
+      "comment": "Why、制約、指標、代替案、最悪ケースを自ら持ち続ける。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/holdsCriterion"
+    },
+    {
+      "name": "posesQuestion",
+      "type": "object",
+      "domain": [
+        "ProductOwner"
+      ],
+      "range": [
+        "JudgmentQuestion"
+      ],
+      "label": "問いを投げる",
+      "comment": "非専門家が専門家と対等にリスク対リターンを評価するための問い。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/posesQuestion"
+    },
+    {
+      "name": "hasVision",
+      "type": "object",
+      "domain": [
+        "ProductOwner"
+      ],
+      "range": [
+        "Vision"
+      ],
+      "label": "ビジョンを持つ",
+      "comment": "市場選定後に Why me / Why now から戦略の核を立てる。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/hasVision"
+    },
+    {
+      "name": "answersWhyMe",
+      "type": "object",
+      "domain": [
+        "Vision"
+      ],
+      "range": [
+        "WhyMe"
+      ],
+      "label": "なぜ自分かを答える",
+      "comment": "原体験・独自資産・思想の重なりがビジョンの片方の核になる。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/answersWhyMe"
+    },
+    {
+      "name": "answersWhyNow",
+      "type": "object",
+      "domain": [
+        "Vision"
+      ],
+      "range": [
+        "WhyNow"
+      ],
+      "label": "なぜ今かを答える",
+      "comment": "技術・社会・競争環境の変化がタイミングの必然を与える。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/answersWhyNow"
+    },
+    {
+      "name": "groundedIn",
+      "type": "object",
+      "domain": [
+        "WhyMe"
+      ],
+      "range": [
+        "OriginalExperience"
+      ],
+      "label": "原体験に根ざす",
+      "comment": "自分がやる必然の物語は過去の原体験から始まる。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/groundedIn"
+    },
+    {
+      "name": "operatesInPhase",
+      "type": "object",
+      "domain": [
+        "ProductOwner"
+      ],
+      "range": [
+        "OrganizationPhase"
+      ],
+      "label": "組織フェーズで活動する",
+      "comment": "立ち上げ・成長・拡大で保持と委任の地図が変わる。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/operatesInPhase"
+    },
+    {
+      "name": "title",
+      "type": "data",
+      "domain": [
+        "Book",
+        "Chapter"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "標題",
+      "comment": "書籍名または章題の文字列。",
+      "uri": "https://books.local/勝てるプロダクト開発の教科書/title"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

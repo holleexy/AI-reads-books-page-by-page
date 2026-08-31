@@ -1,0 +1,433 @@
+@prefix ex: <https://books.local/The_Intelligent_Sales/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/The_Intelligent_Sales/shapes> a owl:Ontology .
+
+<https://books.local/The_Intelligent_Sales/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "法人営業における生成AIの実践的活用法を解説する著作。" ;
+    sh:property [
+        sh:path ex:writtenBy ;
+        sh:class ex:Author ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasTitle ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/AuthorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Author ;
+    sh:name "著者" ;
+    sh:description "書籍の執筆者。生成AIの進化に衝撃を受け、使い手のリテラシーが成果差を生むと認識する。" .
+
+<https://books.local/The_Intelligent_Sales/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "生成AIを導入し営業活動を行う企業や部門などの組織。" ;
+    sh:property [
+        sh:path ex:utilizes ;
+        sh:class ex:GenerativeAI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsApproach ;
+        sh:class ex:IntroductionApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStatistic ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/CompanyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Company ;
+    sh:name "企業" ;
+    sh:description "法人営業の実践主体または顧客となる企業。" ;
+    sh:property [
+        sh:path ex:utilizes ;
+        sh:class ex:GenerativeAI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsApproach ;
+        sh:class ex:IntroductionApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStatistic ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/SalesPersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesPerson ;
+    sh:name "営業担当者" ;
+    sh:description "法人営業を担う人材。熱意・誠意・安心感が購買の最終決定に不可欠である。" ;
+    sh:property [
+        sh:path ex:utilizes ;
+        sh:class ex:GenerativeAI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesPrompt ;
+        sh:class ex:Prompt ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:serves ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsTo ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresLiteracy ;
+        sh:class ex:AILiteracy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStatistic ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "法人営業における購買側の企業または推進者。" .
+
+<https://books.local/The_Intelligent_Sales/GenerativeAIShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GenerativeAI ;
+    sh:name "生成AI" ;
+    sh:description "営業プロセスの標準化・自動化を支援する生成人工知能。魔法の杖ではなくサプリメントである。" ;
+    sh:property [
+        sh:path ex:supportsProcess ;
+        sh:class ex:SalesProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBenefit ;
+        sh:class ex:Benefit ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresLiteracy ;
+        sh:class ex:AILiteracy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:doesNotReplace ;
+        sh:class ex:HumanDomain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:explainedBy ;
+        sh:class ex:SupplementTheory ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:freesTimeFor ;
+        sh:class ex:SalesPureTime ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/TraditionalSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TraditionalSales ;
+    sh:name "三K営業" ;
+    sh:description "勘・経験・根性に依存する旧来の営業スタイル。" .
+
+<https://books.local/The_Intelligent_Sales/IntelligentSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IntelligentSales ;
+    sh:name "インテリジェントセールス" ;
+    sh:description "生成AIやデジタルを駆使した営業4.0。外見の洗練とプロセスの無駄のないスマートさを備える。" ;
+    sh:property [
+        sh:path ex:evolvesFrom ;
+        sh:class ex:TraditionalSales ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:utilizes ;
+        sh:class ex:GenerativeAI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasProcess ;
+        sh:class ex:SalesProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasBenefit ;
+        sh:class ex:Benefit ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:illustratedBy ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/SalesProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesProcess ;
+    sh:name "営業プロセス" ;
+    sh:description "ターゲティングから商談準備、ロープレ、稟議支援までの一連の営業活動。" .
+
+<https://books.local/The_Intelligent_Sales/TargetingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Targeting ;
+    sh:name "ターゲティング" ;
+    sh:description "過去の成功データから条件を特定し、ホットなリストを抽出する工程。" .
+
+<https://books.local/The_Intelligent_Sales/MeetingPreparationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MeetingPreparation ;
+    sh:name "商談準備" ;
+    sh:description "3C分析、PEST分析、競合調査により精度の高い仮説を構築する工程。" .
+
+<https://books.local/The_Intelligent_Sales/SalesRolePlayShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesRolePlay ;
+    sh:name "営業ロープレ" ;
+    sh:description "顧客ペルソナを詳細設定したAIとの模擬商談で反論対策や質問力を鍛える工程。" ;
+    sh:property [
+        sh:path ex:hasPersona ;
+        sh:class ex:Persona ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/ApprovalDocumentSupportShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ApprovalDocumentSupport ;
+    sh:name "稟議書支援" ;
+    sh:description "顧客の社内稟議を通す文言を生成し、購買推進者を優秀な社内営業に変える支援。" .
+
+<https://books.local/The_Intelligent_Sales/MinutesCreationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MinutesCreation ;
+    sh:name "議事録作成" ;
+    sh:description "結論、ネクストアクション、予算、選定基準、開始時期を簡潔に要約する周辺業務。" .
+
+<https://books.local/The_Intelligent_Sales/PromptEngineeringShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PromptEngineering ;
+    sh:name "プロンプトエンジニアリング" ;
+    sh:description "一問一答で終わらせず、理想の回答を引き出す指示設計の技術。" ;
+    sh:property [
+        sh:path ex:usesPrompt ;
+        sh:class ex:Prompt ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:employsTechnique ;
+        sh:class ex:PromptTechnique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsCycle ;
+        sh:class ex:DialogueCycle ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/PromptShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Prompt ;
+    sh:name "プロンプト" ;
+    sh:description "命令文や役割指定などを含む、生成AIへの構造化された指示。" ;
+    sh:property [
+        sh:path ex:employsTechnique ;
+        sh:class ex:PromptTechnique ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPersona ;
+        sh:class ex:Persona ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedTo ;
+        sh:class ex:SalesProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/PromptTechniqueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PromptTechnique ;
+    sh:name "プロンプト技法" ;
+    sh:description "具体性、目的明確化、出力形式指定、役割付与、不足情報の確認などの原則。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/DialogueCycleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DialogueCycle ;
+    sh:name "対話サイクル" ;
+    sh:description "拡散・深掘り・収束の三フェーズで回答の解像度を上げる対話手法。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/PersonaShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Persona ;
+    sh:name "ペルソナ" ;
+    sh:description "企業情報や制約条件を定義した詳細な顧客像。" .
+
+<https://books.local/The_Intelligent_Sales/ManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Management ;
+    sh:name "マネジメント" ;
+    sh:description "指標や案件などのコトの管理と、感情やモチベーションなどのヒトの管理。" ;
+    sh:property [
+        sh:path ex:manages ;
+        sh:class ex:SalesPerson ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/LeadershipShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Leadership ;
+    sh:name "リーダーシップ" ;
+    sh:description "管理職が自らAIを体験し、無能・無知・無謀を避けて段階導入する指導力。" ;
+    sh:property [
+        sh:path ex:leads ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:manages ;
+        sh:class ex:SalesPerson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsApproach ;
+        sh:class ex:IntroductionApproach ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/IntroductionApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IntroductionApproach ;
+    sh:name "段階的導入" ;
+    sh:description "PoCでの成功体験、特定部門のスモールスタート、全社展開という導入手順。" .
+
+<https://books.local/The_Intelligent_Sales/HumanDomainShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HumanDomain ;
+    sh:name "人間の領域" ;
+    sh:description "感情、信頼、熱意、誠意など、AIが代替せず購買決定を動かす領域。" .
+
+<https://books.local/The_Intelligent_Sales/SupplementTheoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SupplementTheory ;
+    sh:name "サプリメント論" ;
+    sh:description "生成AIは基礎能力なしには効果が出ず、鵜呑みにすればリスクを生むという考え方。" .
+
+<https://books.local/The_Intelligent_Sales/AILiteracyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AILiteracy ;
+    sh:name "AIリテラシー" ;
+    sh:description "生成AIの出力品質を左右する使い手の知識・経験・属人性。" .
+
+<https://books.local/The_Intelligent_Sales/BenefitShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Benefit ;
+    sh:name "活用メリット" ;
+    sh:description "知識向上、活動効率化、品質向上、マネジメント改善、再現性確保などの利点。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/NewHeroShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:NewHero ;
+    sh:name "ニューヒーロー" ;
+    sh:description "細分化された特定営業職種の専門性とAIを掛け合わせた次世代人材。" ;
+    sh:property [
+        sh:path ex:combinesExpertiseWith ;
+        sh:class ex:GenerativeAI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:utilizes ;
+        sh:class ex:GenerativeAI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesPrompt ;
+        sh:class ex:Prompt ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:serves ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsTo ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresLiteracy ;
+        sh:class ex:AILiteracy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStatistic ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/CaseStudyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CaseStudy ;
+    sh:name "導入事例" ;
+    sh:description "ディップやセレブリックスなど、生成AIを営業に先行導入した実践例。" ;
+    sh:property [
+        sh:path ex:implementedAt ;
+        sh:class ex:Company ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStatistic ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/The_Intelligent_Sales/SalesPureTimeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesPureTime ;
+    sh:name "セールスピュアタイム" ;
+    sh:description "周辺業務をAIで非同期化した結果、人間が本質的な顧客対応に充てる時間。" .

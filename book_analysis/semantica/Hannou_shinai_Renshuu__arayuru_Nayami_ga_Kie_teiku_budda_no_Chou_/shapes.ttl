@@ -1,0 +1,268 @@
+@prefix ex: <https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/shapes> a owl:Ontology .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "ブッダの教えに基づき、ムダな心の反応をしないことで悩みを解消する実践を解説した書物。" ;
+    sh:property [
+        sh:path ex:isBasedOn ;
+        sh:class ex:BuddhaTeaching ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasTitle ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/BuddhaTeachingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BuddhaTeaching ;
+    sh:name "ブッダの教え" ;
+    sh:description "宗教ではなく合理的で実用的な思考法として抽出された原始仏教の知恵。" ;
+    sh:property [
+        sh:path ex:teaches ;
+        sh:class ex:PracticeMethod ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/FourNobleTruthShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FourNobleTruth ;
+    sh:name "四聖諦" ;
+    sh:description "苦諦・集諦・滅諦・道諦からなり、苦しみをなくそうとする前にまず理解する枠組み。" ;
+    sh:property [
+        sh:path ex:teaches ;
+        sh:class ex:PracticeMethod ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/WorryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Worry ;
+    sh:name "悩み" ;
+    sh:description "心が何かに反応し動揺や落ち込みが生じるプロセスそのものであり、すべての苦しみの現れ。" ;
+    sh:property [
+        sh:path ex:hasCause ;
+        sh:class ex:MentalReaction ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/MentalReactionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MentalReaction ;
+    sh:name "心の反応" ;
+    sh:description "外部刺激に対する心の自動的な反応であり、すべての悩みの根本原因。" ;
+    sh:property [
+        sh:path ex:isEnergizedBy ;
+        sh:class ex:Craving ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isTriggeredBy ;
+        sh:class ex:Memory ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/CravingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Craving ;
+    sh:name "タンハー" ;
+    sh:description "反応し続ける心のエネルギーである求める心。" ;
+    sh:property [
+        sh:path ex:includesDesire ;
+        sh:class ex:Desire ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/DesireShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Desire ;
+    sh:name "欲求" ;
+    sh:description "生存欲・睡眠欲・食欲・性欲・怠惰欲・感楽欲・承認欲求からなる七つの欲求。" ;
+    sh:property [
+        sh:path ex:includesDesire ;
+        sh:class ex:Desire ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ApprovalNeedShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ApprovalNeed ;
+    sh:name "承認欲求" ;
+    sh:description "認められたいという欲求であり、嫉妬・比較・競争心の根源となる現代人にとって最も切実な欲求。" ;
+    sh:property [
+        sh:path ex:includesDesire ;
+        sh:class ex:Desire ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/NonReactionPracticeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:NonReactionPractice ;
+    sh:name "反応しない練習" ;
+    sh:description "無感情になることではなく、怒りや苦しみを素早くリセットしムダな反応をしない実践。" ;
+    sh:property [
+        sh:path ex:isPracticedThrough ;
+        sh:class ex:PracticeMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:overcomes ;
+        sh:class ex:Worry ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/PracticeMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PracticeMethod ;
+    sh:name "実践方法" ;
+    sh:description "心の状態を見てムダな反応をしないためのラベリング・感覚への意識・心の分類などの方法。" ;
+    sh:property [
+        sh:path ex:classifiesState ;
+        sh:class ex:ThreePoison ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/LabelingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Labeling ;
+    sh:name "ラベリング" ;
+    sh:description "心の状態を客観的な言葉で確認し、「今、妄想している」などと認識する方法。" ;
+    sh:property [
+        sh:path ex:classifiesState ;
+        sh:class ex:ThreePoison ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/MindfulnessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Mindfulness ;
+    sh:name "サティ" ;
+    sh:description "手・足裏・呼吸などの身体感覚に意識を向け、妄想の世界から感覚の世界へ移るマインドフルネス。" ;
+    sh:property [
+        sh:path ex:classifiesState ;
+        sh:class ex:ThreePoison ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ThreePoisonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThreePoison ;
+    sh:name "三毒" ;
+    sh:description "心の状態を分類する貪欲・怒り・妄想の三つの基本カテゴリー。" .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/GreedShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Greed ;
+    sh:name "貪欲" ;
+    sh:description "過度に期待しすぎたり焦ったりする心の状態。" .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/AngerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Anger ;
+    sh:name "怒り" ;
+    sh:description "不満や不快を感じている状態。悲しみ・未練・挫折感・コンプレックスや嫉妬も含む。" .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/DelusionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Delusion ;
+    sh:name "妄想" ;
+    sh:description "あれこれ不要な考えを巡らせている状態であり、人間のナンバーワンの煩悩。" .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/JudgmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Judgment ;
+    sh:name "判断" ;
+    sh:description "いい・悪い、好き・嫌いという二極化の評価。執着すると自分や他人を苦しめる猛毒となる。" ;
+    sh:property [
+        sh:path ex:producesWorry ;
+        sh:class ex:Worry ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:involvesConceit ;
+        sh:class ex:Conceit ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ConceitShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Conceit ;
+    sh:name "慢" ;
+    sh:description "自分は正しい・優れているというこだわり。プライドだけでなく劣等感や自信のなさも含む。" .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/HumanRelationshipShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HumanRelationship ;
+    sh:name "人間関係" ;
+    sh:description "感情の問題と関わりの問題を分け、相手を判断せずまず理解すべき対人関係。" ;
+    sh:property [
+        sh:path ex:isDealtWithBy ;
+        sh:class ex:NonReactionPractice ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/FourImmeasurableMindShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FourImmeasurableMind ;
+    sh:name "四無量心" ;
+    sh:description "慈・悲・喜・捨からなる生きるための基本の心がけ。競争や欲・怒り・妄想から自由になる動機。" .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/FiveHindranceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FiveHindrance ;
+    sh:name "五蓋" ;
+    sh:description "快楽・怒り・怠惰・そわそわ・疑いなど、目的達成を阻害する五つの障害。" .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/RightEffortShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RightEffort ;
+    sh:name "正しい努力" ;
+    sh:description "改善・集中・納得を条件に、ムダな反応をリセットして目の前の作業に無心で取り組む努力。" ;
+    sh:property [
+        sh:path ex:isMotivatedBy ;
+        sh:class ex:FourImmeasurableMind ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isObstructedBy ;
+        sh:class ex:FiveHindrance ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ThreeRefugeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThreeRefuge ;
+    sh:name "三帰依" ;
+    sh:description "ブッダ・ダンマ・サンガに基づき、正しい生き方を自ら心の土台にすえること。" ;
+    sh:property [
+        sh:path ex:isGroundedIn ;
+        sh:class ex:BuddhaTeaching ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/JealousyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Jealousy ;
+    sh:name "嫉妬" ;
+    sh:description "承認欲求が満たされない怒りを相手に向けている状態であり、脚下照顧によって内側の動機へ降りることが必要。" ;
+    sh:property [
+        sh:path ex:stemsFrom ;
+        sh:class ex:ApprovalNeed ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/MemoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Memory ;
+    sh:name "記憶" ;
+    sh:description "過去への執着として反応し続ける対象。結生として強い反応のエネルギーを残し過剰反応を引き起こす。" .

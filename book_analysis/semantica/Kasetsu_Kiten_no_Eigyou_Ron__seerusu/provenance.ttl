@@ -1,0 +1,423 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/> .
+
+book:source a prov:Entity ;
+  foaf:name "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" .
+
+book:営業パーソン a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮説 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:課題 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:How a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:型 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:What a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:スタートアップ a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:カスタマーサクセス a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:思考法 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Ga-i-hou a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:法人営業 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ice-breaker a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:アイスブレイク a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Perspective 2 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Chapter 3 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:hypothesis ideas a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:business a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Keyence a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Osborne a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:AIDMA a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:heuristics a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:individual goals a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:SMART a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Five Forces a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:基本手法 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:View from a distance a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:製品理解 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:受注率 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:トップセールス a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:考える力 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:方法論 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:成長過程 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:応用力 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:自主的な思考力 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:6年半 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:OpenText a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:freee a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Go To Market a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:市場進出戦略 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーケティング a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:根拠 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンタープライズ a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:大企業 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:仲介価値 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:介在価値 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:6W3H a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:4 No's a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:四つの不 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Wall of Unnecessary a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:不要の壁 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Pull back a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:organizational goals a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:MECE a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:3C a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Value Chain a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:PPM a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:4P a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Demand Waterfall a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:5W1H a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Customer perspective a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Jobs a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:causality a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:correlation a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:deductive reasoning a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:large enterprise sales a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:questions derived from hypotheses a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:新人営業 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:新製品 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:訪問 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:外出報告書 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Outing Report a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Role-Playing a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロープレ a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:author a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:new employee a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Kasetsu a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:B2B a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンサルティング a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:18 years a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:提案前の仮説構築 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:フィールドセールス a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:インサイドセールス a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:上司 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:先輩 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:若手営業担当者 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:スキル向上 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:学生時代 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ペーパーテスト a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:潜在的なニーズ a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Celebrities Inc. a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:アウトバウンド a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:雑談 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ニュース a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:標準化 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:分解と再構築 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:原理原則 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:抽象化力 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:体系化力 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:言語化力 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:マネジメント層 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .
+
+book:人材育成 a prov:Entity ;
+  book:book_key "Kasetsu_Kiten_no_Eigyou_Ron__seerusu" ;
+  prov:wasDerivedFrom book:source .

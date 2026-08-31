@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/">
+    <rdfs:label>Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_enOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果に直結する仮説提案営業の実践講座に関する書籍およびその分析対象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesChallenge">
+    <rdfs:label xml:lang="ja">営業課題</rdfs:label>
+    <rdfs:comment xml:lang="ja">新製品が売れない、新規開拓が苦手、引き合い減少、製品同質化、オンライン商談での関係構築難化などBtoB営業の共通課題。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesApproach">
+    <rdfs:label xml:lang="ja">営業アプローチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客への働きかけの仕方を表す営業スタイルや手法の上位概念。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/WaitingSales">
+    <rdfs:label xml:lang="ja">待ちの営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客からの提案依頼を待つ従来型の営業。システムリプレース型の大型案件に依存しやすい。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/OffensiveSales">
+    <rdfs:label xml:lang="ja">攻めの営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">クラウド普及による単価低下を踏まえ、顧客に先回りして提案する能動的な営業パラダイム。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisProposalSales">
+    <rdfs:label xml:lang="ja">仮説提案営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">明確なニーズがなくても事前調査に基づく仮説と個別提案資料で初回商談から案件を前進させる営業手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/OffensiveSales"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ThinkingMethod">
+    <rdfs:label xml:lang="ja">思考法</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業活動で結論を導くための思考の枠組み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ExhaustiveThinking">
+    <rdfs:label xml:lang="ja">網羅思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">すべての事象やデータを抽出・分析してから結論を出す手法。現場営業には時間がかかりすぎて不向き。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ThinkingMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisThinking">
+    <rdfs:label xml:lang="ja">仮説思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">BCGが提唱した、情報が不十分な段階で仮の結論を立て実行・検証・修正を繰り返す手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ThinkingMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Hypothesis">
+    <rdfs:label xml:lang="ja">仮説</rdfs:label>
+    <rdfs:comment xml:lang="ja">限られた情報から立てる顧客課題または解決策の仮の結論。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProblemHypothesis">
+    <rdfs:label xml:lang="ja">問題仮説</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が抱えているであろう課題の仮定。So what?で根本原因とインパクトまで深掘りする。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Hypothesis"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SolutionHypothesis">
+    <rdfs:label xml:lang="ja">解決仮説</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題を解決するための具体的な対策や製品導入の仮定。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Hypothesis"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisLevel">
+    <rdfs:label xml:lang="ja">仮説レベル</rdfs:label>
+    <rdfs:comment xml:lang="ja">エリア特化・企業規模特化・業界特化・企業特化の四段階。レベルが上がるほど案件化率と共感が高まる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/InformationSource">
+    <rdfs:label xml:lang="ja">情報源</rdfs:label>
+    <rdfs:comment xml:lang="ja">SPEEDA、Googleアラート、RSSリーダーなど仮説立案のための調査手段。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProposalMaterial">
+    <rdfs:label xml:lang="ja">提案資料</rdfs:label>
+    <rdfs:comment xml:lang="ja">初回商談で導入必要性を伝える資料。情報過多を避け、Whyと起こり得る結果を中心に構成する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/CaseStudy">
+    <rdfs:label xml:lang="ja">導入事例</rdfs:label>
+    <rdfs:comment xml:lang="ja">同業種・同規模を優先して示す事例。検討中・検証・導入の段階と具体的社数で訴求する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesMeeting">
+    <rdfs:label xml:lang="ja">商談</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説提示、ヒアリング、質疑、クロージングで構成される顧客との商談。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/MeetingPhase">
+    <rdfs:label xml:lang="ja">商談フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">オープニング、ボディ、クロージングなど商談の時間配分単位。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ClosingTechnique">
+    <rdfs:label xml:lang="ja">クロージング手法</rdfs:label>
+    <rdfs:comment xml:lang="ja">松竹梅の選択肢クロージングなど、即決を迫らず次回アクションへ誘導する技法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/OnlineMeetingTechnique">
+    <rdfs:label xml:lang="ja">オンライン商談テクニック</rdfs:label>
+    <rdfs:comment xml:lang="ja">視覚・聴覚・言語の三つのVを工夫し、警戒心の高いオンライン環境で関係を深める技法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PartnerSales">
+    <rdfs:label xml:lang="ja">パートナーセールス</rdfs:label>
+    <rdfs:comment xml:lang="ja">SIerや代理店を通じた間接販売。分析、協業提案、交渉、案件創出、継続受注の五ステップで進める。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesApproach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PsychologicalPrinciple">
+    <rdfs:label xml:lang="ja">心理原則</rdfs:label>
+    <rdfs:comment xml:lang="ja">返報性・一貫性・社会的証明・権威・好意・希少性など、顧客の心を動かすチャルディーニの原則。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Salesperson">
+    <rdfs:label xml:lang="ja">営業パーソン</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業ブランドや製品スペックではなく仮説提案によって個人として選ばれることを目指す営業担当者。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Customer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説の対象となる企業。ニーズが未明確でも課題仮説によって商談を前進させる相手。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/BusinessPartner">
+    <rdfs:label xml:lang="ja">販売パートナー</rdfs:label>
+    <rdfs:comment xml:lang="ja">メーカー製品を顧客へ販売するSIerや代理店。Win-Win-Winの協業とイノベーター理論による展開対象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/addressesChallenge">
+    <rdfs:label xml:lang="ja">課題に対処する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業アプローチが対象とするBtoB営業上の課題。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesApproach"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesChallenge"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/usesThinkingMethod">
+    <rdfs:label xml:lang="ja">思考法を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説提案営業が依拠する思考法。主に仮説思考。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisProposalSales"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ThinkingMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/formulatesHypothesis">
+    <rdfs:label xml:lang="ja">仮説を立案する</rdfs:label>
+    <rdfs:comment xml:lang="ja">事前調査に基づき問題仮説と解決仮説を立てる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Salesperson"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisProposalSales"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Hypothesis"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/hasHypothesisLevel">
+    <rdfs:label xml:lang="ja">仮説レベルを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説の具体性（エリア・規模・業界・企業特化）を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Hypothesis"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisLevel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/basedOnSource">
+    <rdfs:label xml:lang="ja">情報源に基づく</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説立案の根拠となる企業データベースや自動収集手段。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Hypothesis"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/InformationSource"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/solvesProblem">
+    <rdfs:label xml:lang="ja">問題仮説を解決する</rdfs:label>
+    <rdfs:comment xml:lang="ja">解決仮説が対応する問題仮説。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SolutionHypothesis"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProblemHypothesis"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/proposedToCustomer">
+    <rdfs:label xml:lang="ja">顧客へ提案する</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説や提案資料の提示先となる顧客。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Hypothesis"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProposalMaterial"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/preparesMaterial">
+    <rdfs:label xml:lang="ja">提案資料を準備する</rdfs:label>
+    <rdfs:comment xml:lang="ja">初回商談に向けて個別資料を作成する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProposalMaterial"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/includesCaseStudy">
+    <rdfs:label xml:lang="ja">導入事例を含む</rdfs:label>
+    <rdfs:comment xml:lang="ja">提案資料に掲載する検討中・検証・導入の事例。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProposalMaterial"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/CaseStudy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/presentedInMeeting">
+    <rdfs:label xml:lang="ja">商談で提示する</rdfs:label>
+    <rdfs:comment xml:lang="ja">資料や仮説が用いられる商談。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProposalMaterial"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Hypothesis"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesMeeting"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/hasMeetingPhase">
+    <rdfs:label xml:lang="ja">商談フェーズを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">オープニング・ボディ・クロージングなどの構成。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesMeeting"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/MeetingPhase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/usesClosingTechnique">
+    <rdfs:label xml:lang="ja">クロージング手法を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">次回ステップへ誘導するための選択肢提示など。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesMeeting"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ClosingTechnique"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/appliesOnlineTechnique">
+    <rdfs:label xml:lang="ja">オンライン技法を適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">視覚・聴覚・言語面の工夫を商談に適用する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesMeeting"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/OnlineMeetingTechnique"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/conductedBy">
+    <rdfs:label xml:lang="ja">実施者</rdfs:label>
+    <rdfs:comment xml:lang="ja">商談を進行する営業パーソン。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesMeeting"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Salesperson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/conductedWith">
+    <rdfs:label xml:lang="ja">商談相手</rdfs:label>
+    <rdfs:comment xml:lang="ja">商談の相手となる顧客。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesMeeting"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/practicesApproach">
+    <rdfs:label xml:lang="ja">営業アプローチを実践する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業パーソンが用いる仮説提案などの手法。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesApproach"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/appliesPrinciple">
+    <rdfs:label xml:lang="ja">心理原則を適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">返報性や社会的証明など顧客の意思決定を促す原則の利用。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesApproach"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PsychologicalPrinciple"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/sellsThroughPartner">
+    <rdfs:label xml:lang="ja">パートナー経由で販売する</rdfs:label>
+    <rdfs:comment xml:lang="ja">間接販売における代理店・SIerとの協業関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PartnerSales"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/BusinessPartner"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/collaboratesWith">
+    <rdfs:label xml:lang="ja">パートナーと協業する</rdfs:label>
+    <rdfs:comment xml:lang="ja">勉強会や営業同行を通じた案件創出のための協業。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Salesperson"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/BusinessPartner"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/describedInBook">
+    <rdfs:label xml:lang="ja">書籍で解説される</rdfs:label>
+    <rdfs:comment xml:lang="ja">当該概念が本書で扱われていることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesApproach"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Hypothesis"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PsychologicalPrinciple"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PartnerSales"/>
+    <rdfs:range rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Book"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/title">
+    <rdfs:label xml:lang="ja">タイトル</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍・資料・事例の名称。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Book"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProposalMaterial"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/CaseStudy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/description">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念の内容や具体例を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesChallenge"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Hypothesis"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/MeetingPhase"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PsychologicalPrinciple"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/OnlineMeetingTechnique"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/levelName">
+    <rdfs:label xml:lang="ja">レベル名称</rdfs:label>
+    <rdfs:comment xml:lang="ja">エリア特化、企業規模特化、業界特化、企業特化などの段階名。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisLevel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/durationNote">
+    <rdfs:label xml:lang="ja">所要時間の目安</rdfs:label>
+    <rdfs:comment xml:lang="ja">六十分配のオープニング五分、ボディ四十五分以内、クロージング十分などの時間配分。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/MeetingPhase"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesMeeting"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/goal">
+    <rdfs:label xml:lang="ja">ゴール</rdfs:label>
+    <rdfs:comment xml:lang="ja">機能理解ではなく導入必要性の理解、顧客紹介獲得など、設定すべき目的。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesMeeting"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProposalMaterial"/>
+    <rdfs:domain rdf:resource="https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PartnerSales"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

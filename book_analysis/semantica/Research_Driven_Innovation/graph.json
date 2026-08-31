@@ -1,0 +1,5312 @@
+{
+  "entities": [
+    {
+      "id": "リサーチ",
+      "name": "リサーチ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "リサーチ",
+              "name": "リサーチ",
+              "source": null
+            },
+            {
+              "id": "リサーチ",
+              "name": "リサーチ",
+              "source": null
+            },
+            {
+              "id": "リサーチクエスチョン",
+              "name": "リサーチクエスチョン",
+              "source": null
+            },
+            {
+              "id": "リサーチクエスチョン",
+              "name": "リサーチクエスチョン",
+              "source": null
+            },
+            {
+              "id": "リサーチ・ドリブン・イノベーション",
+              "name": "リサーチ・ドリブン・イノベーション",
+              "source": null
+            },
+            {
+              "id": "リサーチ・ドリブン・イノベーション",
+              "name": "リサーチ・ドリブン・イノベーション",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "リサーチ",
+        "リサーチ",
+        "リサーチクエスチョン",
+        "リサーチクエスチョン",
+        "リサーチ・ドリブン・イノベーション",
+        "リサーチ・ドリブン・イノベーション"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "デザイン思考",
+      "name": "デザイン思考",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "デザイン思考",
+              "name": "デザイン思考",
+              "source": null
+            },
+            {
+              "id": "デザイン思考",
+              "name": "デザイン思考",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "デザイン思考",
+        "デザイン思考"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "アート思考",
+      "name": "アート思考",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "アート思考",
+              "name": "アート思考",
+              "source": null
+            },
+            {
+              "id": "アート思考",
+              "name": "アート思考",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "アート思考",
+        "アート思考"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "意味のイノベーション",
+      "name": "意味のイノベーション",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "意味のイノベーション",
+              "name": "意味のイノベーション",
+              "source": null
+            },
+            {
+              "id": "意味のイノベーション",
+              "name": "意味のイノベーション",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "意味のイノベーション",
+        "意味のイノベーション"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "イノベーション",
+      "name": "イノベーション",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "イノベーション",
+              "name": "イノベーション",
+              "source": null
+            },
+            {
+              "id": "イノベーション",
+              "name": "イノベーション",
+              "source": null
+            },
+            {
+              "id": "イノベーション阻害",
+              "name": "イノベーション阻害",
+              "source": null
+            },
+            {
+              "id": "イノベーション手法論",
+              "name": "イノベーション手法論",
+              "source": null
+            },
+            {
+              "id": "イノベーションプロセス",
+              "name": "イノベーションプロセス",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "イノベーション",
+        "イノベーション",
+        "イノベーション阻害",
+        "イノベーション手法論",
+        "イノベーションプロセス"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "東京大学",
+      "name": "東京大学",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "東京大学",
+              "name": "東京大学",
+              "source": null
+            },
+            {
+              "id": "東京大学",
+              "name": "東京大学",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "東京大学",
+        "東京大学"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "研究者",
+      "name": "研究者",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "研究者",
+              "name": "研究者",
+              "source": null
+            },
+            {
+              "id": "研究者",
+              "name": "研究者",
+              "source": null
+            },
+            {
+              "id": "研究テーマ",
+              "name": "研究テーマ",
+              "source": null
+            },
+            {
+              "id": "研究テーマの決定プロセス",
+              "name": "研究テーマの決定プロセス",
+              "source": null
+            },
+            {
+              "id": "研究開発（R&D）",
+              "name": "研究開発（R&D）",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "研究者",
+        "研究者",
+        "研究テーマ",
+        "研究テーマの決定プロセス",
+        "研究開発（R&D）"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "先行研究",
+      "name": "先行研究",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "先行研究",
+              "name": "先行研究",
+              "source": null
+            },
+            {
+              "id": "先行研究",
+              "name": "先行研究",
+              "source": null
+            },
+            {
+              "id": "先行研究のレビュー",
+              "name": "先行研究のレビュー",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "先行研究",
+        "先行研究",
+        "先行研究のレビュー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "巨人の肩の上に立つ",
+      "name": "巨人の肩の上に立つ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "巨人の肩の上に立つ",
+              "name": "巨人の肩の上に立つ",
+              "source": null
+            },
+            {
+              "id": "巨人の肩の上に立つ",
+              "name": "巨人の肩の上に立つ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "巨人の肩の上に立つ",
+        "巨人の肩の上に立つ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "アウトサイド・イン",
+      "name": "アウトサイド・イン",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "アウトサイド・イン",
+              "name": "アウトサイド・イン",
+              "source": null
+            },
+            {
+              "id": "アウトサイド・イン",
+              "name": "アウトサイド・イン",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "アウトサイド・イン",
+        "アウトサイド・イン"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "インサイド・アウト",
+      "name": "インサイド・アウト",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "インサイド・アウト",
+              "name": "インサイド・アウト",
+              "source": null
+            },
+            {
+              "id": "インサイド・アウト",
+              "name": "インサイド・アウト",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "インサイド・アウト",
+        "インサイド・アウト"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "外から内（アウトサイド・イン）アプローチ",
+      "name": "外から内（アウトサイド・イン）アプローチ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "外から内（アウトサイド・イン）アプローチ",
+              "name": "外から内（アウトサイド・イン）アプローチ",
+              "source": null
+            },
+            {
+              "id": "外から内（アウトサイド・イン）アプローチ",
+              "name": "外から内（アウトサイド・イン）アプローチ",
+              "source": null
+            },
+            {
+              "id": "外から内（アウトサイド・イン）",
+              "name": "外から内（アウトサイド・イン）",
+              "source": null
+            },
+            {
+              "id": "外から内",
+              "name": "外から内",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "外から内（アウトサイド・イン）アプローチ",
+        "外から内（アウトサイド・イン）アプローチ",
+        "外から内（アウトサイド・イン）",
+        "外から内"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "ユーザー",
+      "name": "ユーザー",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ユーザー",
+              "name": "ユーザー",
+              "source": null
+            },
+            {
+              "id": "ユーザー",
+              "name": "ユーザー",
+              "source": null
+            },
+            {
+              "id": "ユーザー中心",
+              "name": "ユーザー中心",
+              "source": null
+            },
+            {
+              "id": "ユーザー主導",
+              "name": "ユーザー主導",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "ユーザー",
+        "ユーザー",
+        "ユーザー中心",
+        "ユーザー主導"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "Design Thinking",
+      "name": "Design Thinking",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Design Thinking",
+              "name": "Design Thinking",
+              "source": null
+            },
+            {
+              "id": "Design Thinking",
+              "name": "Design Thinking",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Design Thinking",
+        "Design Thinking"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "共感",
+      "name": "共感",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "共感",
+              "name": "共感",
+              "source": null
+            },
+            {
+              "id": "共感",
+              "name": "共感",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "共感",
+        "共感"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "内から外（インサイド・アウト）",
+      "name": "内から外（インサイド・アウト）",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "内から外（インサイド・アウト）",
+              "name": "内から外（インサイド・アウト）",
+              "source": null
+            },
+            {
+              "id": "内から外（インサイド・アウト）",
+              "name": "内から外（インサイド・アウト）",
+              "source": null
+            },
+            {
+              "id": "内から外",
+              "name": "内から外",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "内から外（インサイド・アウト）",
+        "内から外（インサイド・アウト）",
+        "内から外"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "「外から内」アプローチ",
+      "name": "「外から内」アプローチ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "「外から内」アプローチ",
+              "name": "「外から内」アプローチ",
+              "source": null
+            },
+            {
+              "id": "「外から内」アプローチ",
+              "name": "「外から内」アプローチ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "「外から内」アプローチ",
+        "「外から内」アプローチ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "ビジョン主導",
+      "name": "ビジョン主導",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ビジョン主導",
+              "name": "ビジョン主導",
+              "source": null
+            },
+            {
+              "id": "ビジョン主導",
+              "name": "ビジョン主導",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ビジョン主導",
+        "ビジョン主導"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "Outside-In",
+      "name": "Outside-In",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Outside-In",
+              "name": "Outside-In",
+              "source": null
+            },
+            {
+              "id": "Outside-In",
+              "name": "Outside-In",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Outside-In",
+        "Outside-In"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "Inside-Out",
+      "name": "Inside-Out",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Inside-Out",
+              "name": "Inside-Out",
+              "source": null
+            },
+            {
+              "id": "Inside-Out",
+              "name": "Inside-Out",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Inside-Out",
+        "Inside-Out"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "meaning-driven innovation",
+      "name": "meaning-driven innovation",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "meaning-driven innovation",
+              "name": "meaning-driven innovation",
+              "source": null
+            },
+            {
+              "id": "meaning-driven innovation",
+              "name": "meaning-driven innovation",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "meaning-driven innovation",
+        "meaning-driven innovation"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "新結合",
+      "name": "新結合",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "新結合",
+              "name": "新結合",
+              "source": null
+            },
+            {
+              "id": "新結合",
+              "name": "新結合",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "新結合",
+        "新結合"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "組織にとっての新結合",
+      "name": "組織にとっての新結合",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "組織にとっての新結合",
+              "name": "組織にとっての新結合",
+              "source": null
+            },
+            {
+              "id": "組織にとっての新結合",
+              "name": "組織にとっての新結合",
+              "source": null
+            },
+            {
+              "id": "組織",
+              "name": "組織",
+              "source": null
+            },
+            {
+              "id": "組織",
+              "name": "組織",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "組織にとっての新結合",
+        "組織にとっての新結合",
+        "組織",
+        "組織"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "チーム",
+      "name": "チーム",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "チーム",
+              "name": "チーム",
+              "source": null
+            },
+            {
+              "id": "チーム",
+              "name": "チーム",
+              "source": null
+            },
+            {
+              "id": "チームワーク",
+              "name": "チームワーク",
+              "source": null
+            },
+            {
+              "id": "チーム・レイヤー",
+              "name": "チーム・レイヤー",
+              "source": null
+            },
+            {
+              "id": "チームへの原因帰属",
+              "name": "チームへの原因帰属",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "チーム",
+        "チーム",
+        "チームワーク",
+        "チーム・レイヤー",
+        "チームへの原因帰属"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "個人",
+      "name": "個人",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "個人",
+              "name": "個人",
+              "source": null
+            },
+            {
+              "id": "個人",
+              "name": "個人",
+              "source": null
+            },
+            {
+              "id": "個人への原因帰属",
+              "name": "個人への原因帰属",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "個人",
+        "個人",
+        "個人への原因帰属"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "変化",
+      "name": "変化",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "変化",
+              "name": "変化",
+              "source": null
+            },
+            {
+              "id": "変化",
+              "name": "変化",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "変化",
+        "変化"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "成功の罠",
+      "name": "成功の罠",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "成功の罠",
+              "name": "成功の罠",
+              "source": null
+            },
+            {
+              "id": "成功の罠",
+              "name": "成功の罠",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "成功の罠",
+        "成功の罠"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "Practitioner",
+      "name": "Practitioner",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Practitioner",
+              "name": "Practitioner",
+              "source": null
+            },
+            {
+              "id": "practitioners",
+              "name": "practitioners",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Practitioner",
+        "practitioners"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "アイデア発想",
+      "name": "アイデア発想",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "アイデア発想",
+              "name": "アイデア発想",
+              "source": null
+            },
+            {
+              "id": "アイデア発想力",
+              "name": "アイデア発想力",
+              "source": null
+            },
+            {
+              "id": "アイデア",
+              "name": "アイデア",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "アイデア発想",
+        "アイデア発想力",
+        "アイデア"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "第1のレイヤー",
+      "name": "第1のレイヤー",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "第1のレイヤー",
+              "name": "第1のレイヤー",
+              "source": null
+            },
+            {
+              "id": "第2のレイヤー",
+              "name": "第2のレイヤー",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "第1のレイヤー",
+        "第2のレイヤー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "innovation",
+      "name": "innovation",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "innovation",
+              "name": "innovation",
+              "source": null
+            },
+            {
+              "id": "innovation process",
+              "name": "innovation process",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "innovation",
+        "innovation process"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "データ",
+      "name": "データ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "データ",
+              "name": "データ",
+              "source": null
+            },
+            {
+              "id": "データ分析",
+              "name": "データ分析",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "データ",
+        "データ分析"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "Mimicry Design Inc.",
+      "name": "Mimicry Design Inc.",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Mimicry Design Inc.",
+              "name": "Mimicry Design Inc.",
+              "source": null
+            },
+            {
+              "id": "MIMIGURI Inc.",
+              "name": "MIMIGURI Inc.",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Mimicry Design Inc.",
+        "MIMIGURI Inc."
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "批判厳禁",
+      "name": "批判厳禁",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "批判厳禁",
+              "name": "批判厳禁",
+              "source": null
+            },
+            {
+              "id": "批判",
+              "name": "批判",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "批判厳禁",
+        "批判"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "技術革新",
+      "name": "技術革新",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "技術革新",
+              "name": "技術革新",
+              "source": null
+            },
+            {
+              "id": "技術",
+              "name": "技術",
+              "source": null
+            },
+            {
+              "id": "技術主導のイノベーション",
+              "name": "技術主導のイノベーション",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "技術革新",
+        "技術",
+        "技術主導のイノベーション"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "Researcher",
+      "name": "Researcher",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Researcher",
+              "name": "Researcher",
+              "source": null
+            },
+            {
+              "id": "Research-Driven Innovation",
+              "name": "Research-Driven Innovation",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Researcher",
+        "Research-Driven Innovation"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "未踏の領域",
+      "name": "未踏の領域",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "未踏の領域",
+              "name": "未踏の領域",
+              "source": null
+            },
+            {
+              "id": "未踏の知",
+              "name": "未踏の知",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "未踏の領域",
+        "未踏の知"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "市場",
+      "name": "市場",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "市場",
+              "name": "市場",
+              "source": null
+            },
+            {
+              "id": "市場のニーズ",
+              "name": "市場のニーズ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "市場",
+        "市場のニーズ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "conflicting perspectives",
+      "name": "conflicting perspectives",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "conflicting perspectives",
+              "name": "conflicting perspectives",
+              "source": null
+            },
+            {
+              "id": "concrete thinking process",
+              "name": "concrete thinking process",
+              "source": null
+            },
+            {
+              "id": "continuous back-and-forth exploration",
+              "name": "continuous back-and-forth exploration",
+              "source": null
+            },
+            {
+              "id": "Criticism",
+              "name": "Criticism",
+              "source": null
+            },
+            {
+              "id": "critical mindset",
+              "name": "critical mindset",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "conflicting perspectives",
+        "concrete thinking process",
+        "continuous back-and-forth exploration",
+        "Criticism",
+        "critical mindset"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "European Commission",
+      "name": "European Commission",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "European Commission",
+              "name": "European Commission",
+              "source": null
+            },
+            {
+              "id": "EU",
+              "name": "EU",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "European Commission",
+        "EU"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "経済学者",
+      "name": "経済学者",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "経済学者",
+              "name": "経済学者",
+              "source": null
+            },
+            {
+              "id": "経営学",
+              "name": "経営学",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "経済学者",
+        "経営学"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "新しい機能",
+      "name": "新しい機能",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "新しい機能",
+              "name": "新しい機能",
+              "source": null
+            },
+            {
+              "id": "新しい知識の組み合わせ",
+              "name": "新しい知識の組み合わせ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "新しい機能",
+        "新しい知識の組み合わせ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "特任助教",
+      "name": "特任助教",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "特任助教",
+              "name": "特任助教",
+              "source": null
+            },
+            {
+              "id": "特任研究員",
+              "name": "特任研究員",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "特任助教",
+        "特任研究員"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "人間中心",
+      "name": "人間中心",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "人間中心",
+              "name": "人間中心",
+              "source": null
+            },
+            {
+              "id": "人間の本質",
+              "name": "人間の本質",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "人間中心",
+        "人間の本質"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "新規事業開発担当者",
+      "name": "新規事業開発担当者",
+      "text": "新規事業開発担当者",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "マーケティング担当者",
+      "name": "マーケティング担当者",
+      "text": "マーケティング担当者",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "問い",
+      "name": "問い",
+      "text": "問い",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "思考法",
+      "name": "思考法",
+      "text": "思考法",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "安斎勇樹",
+      "name": "安斎勇樹",
+      "text": "安斎勇樹",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "学習",
+      "name": "学習",
+      "text": "学習",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "ワークショップデザイン",
+      "name": "ワークショップデザイン",
+      "text": "ワークショップデザイン",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "ファシリテーション",
+      "name": "ファシリテーション",
+      "text": "ファシリテーション",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "小田裕和",
+      "name": "小田裕和",
+      "text": "小田裕和",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "博士論文",
+      "name": "博士論文",
+      "text": "博士論文",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "テーマ",
+      "name": "テーマ",
+      "text": "テーマ",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "実践者",
+      "name": "実践者",
+      "text": "実践者",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "学術研究",
+      "name": "学術研究",
+      "text": "学術研究",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "院生",
+      "name": "院生",
+      "text": "院生",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "仮説",
+      "name": "仮説",
+      "text": "仮説",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "学問の世界",
+      "name": "学問の世界",
+      "text": "学問の世界",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "独自の研究視点",
+      "name": "独自の研究視点",
+      "text": "独自の研究視点",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "アンケート",
+      "name": "アンケート",
+      "text": "アンケート",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "インタビュー",
+      "name": "インタビュー",
+      "text": "インタビュー",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "観察ノート",
+      "name": "観察ノート",
+      "text": "観察ノート",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "one year",
+      "name": "one year",
+      "text": "one year",
+      "type": "DATE",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "several years",
+      "name": "several years",
+      "text": "several years",
+      "type": "DATE",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "academic research",
+      "name": "academic research",
+      "text": "academic research",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "literature",
+      "name": "literature",
+      "text": "literature",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "workplace",
+      "name": "workplace",
+      "text": "workplace",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "the field",
+      "name": "the field",
+      "text": "the field",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "bottom-up innovation",
+      "name": "bottom-up innovation",
+      "text": "bottom-up innovation",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "organizational development",
+      "name": "organizational development",
+      "text": "organizational development",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "business development",
+      "name": "business development",
+      "text": "business development",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "existing research",
+      "name": "existing research",
+      "text": "existing research",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "プロダクト",
+      "name": "プロダクト",
+      "text": "プロダクト",
+      "type": "PRODUCT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "サービス",
+      "name": "サービス",
+      "text": "サービス",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "ニーズ",
+      "name": "ニーズ",
+      "text": "ニーズ",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "ミラノ工科大学",
+      "name": "ミラノ工科大学",
+      "text": "ミラノ工科大学",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "ロベルト・ベルガンティ",
+      "name": "ロベルト・ベルガンティ",
+      "text": "ロベルト・ベルガンティ",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "教授",
+      "name": "教授",
+      "text": "教授",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "「意味のイノベーション」",
+      "name": "「意味のイノベーション」",
+      "text": "「意味のイノベーション」",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "革新的なアイデア",
+      "name": "革新的なアイデア",
+      "text": "革新的なアイデア",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "ものづくり",
+      "name": "ものづくり",
+      "text": "ものづくり",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "近年",
+      "name": "近年",
+      "text": "近年",
+      "type": "DATE",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "no criticism",
+      "name": "no criticism",
+      "text": "no criticism",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "Art Thinking",
+      "name": "Art Thinking",
+      "text": "Art Thinking",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "Vision-driven",
+      "name": "Vision-driven",
+      "text": "Vision-driven",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "sparring",
+      "name": "sparring",
+      "text": "sparring",
+      "type": "EVENT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "スパーリング",
+      "name": "スパーリング",
+      "text": "スパーリング",
+      "type": "EVENT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "二項対立",
+      "name": "二項対立",
+      "text": "二項対立",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "ambidextrous",
+      "name": "ambidextrous",
+      "text": "ambidextrous",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "両利き",
+      "name": "両利き",
+      "text": "両利き",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "internal and external",
+      "name": "internal and external",
+      "text": "internal and external",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "内と外の絶えざる往復による探究",
+      "name": "内と外の絶えざる往復による探究",
+      "text": "内と外の絶えざる往復による探究",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "レビュー",
+      "name": "レビュー",
+      "text": "レビュー",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "自分らしい問い",
+      "name": "自分らしい問い",
+      "text": "自分らしい問い",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "ヨーゼフ・シュンペーター",
+      "name": "ヨーゼフ・シュンペーター",
+      "text": "ヨーゼフ・シュンペーター",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "社会にとっての新結合",
+      "name": "社会にとっての新結合",
+      "text": "社会にとっての新結合",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "新奇な価値",
+      "name": "新奇な価値",
+      "text": "新奇な価値",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "人類の進化",
+      "name": "人類の進化",
+      "text": "人類の進化",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "探究そのもの",
+      "name": "探究そのもの",
+      "text": "探究そのもの",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "フレームワーク",
+      "name": "フレームワーク",
+      "text": "フレームワーク",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "ノウハウ",
+      "name": "ノウハウ",
+      "text": "ノウハウ",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "企業組織",
+      "name": "企業組織",
+      "text": "企業組織",
+      "type": "ORG",
+      "confidence": 0.76,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "創造性",
+      "name": "創造性",
+      "text": "創造性",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "専門性",
+      "name": "専門性",
+      "text": "専門性",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "固定観念",
+      "name": "固定観念",
+      "text": "固定観念",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "キース・ソーヤー",
+      "name": "キース・ソーヤー",
+      "text": "キース・ソーヤー",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "心理学者",
+      "name": "心理学者",
+      "text": "心理学者",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "凡才の集団は孤高の天才に勝る",
+      "name": "凡才の集団は孤高の天才に勝る",
+      "text": "凡才の集団は孤高の天才に勝る",
+      "type": "PRODUCT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "コラボレーション",
+      "name": "コラボレーション",
+      "text": "コラボレーション",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "阻害要因",
+      "name": "阻害要因",
+      "text": "阻害要因",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "多様性",
+      "name": "多様性",
+      "text": "多様性",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "虫の目",
+      "name": "虫の目",
+      "text": "虫の目",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "鳥の目",
+      "name": "鳥の目",
+      "text": "鳥の目",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "人材育成",
+      "name": "人材育成",
+      "text": "人材育成",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "id": "知識",
+      "name": "知識",
+      "text": "知識",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "リサーチ・ドリブン・イノベーション",
+      "target": "リサーチ",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "デザイン思考",
+      "target": "イノベーション手法論",
+      "type": "is_example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "アート思考",
+      "target": "イノベーション手法論",
+      "type": "is_example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "意味のイノベーション",
+      "target": "イノベーション手法論",
+      "type": "is_example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "新規事業開発担当者",
+      "target": "イノベーション手法論",
+      "type": "weary_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "マーケティング担当者",
+      "target": "イノベーション手法論",
+      "type": "weary_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチ",
+      "target": "思考法",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチ",
+      "target": "問い",
+      "type": "starts_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチ",
+      "target": "データ",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチ",
+      "target": "イノベーション",
+      "type": "contrasted_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチ",
+      "target": "研究開発（R&D）",
+      "type": "contrasted_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "研究開発（R&D）",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "安斎勇樹",
+      "target": "学習",
+      "type": "is_expert_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "安斎勇樹",
+      "target": "ワークショップデザイン",
+      "type": "researches",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "安斎勇樹",
+      "target": "ファシリテーション",
+      "type": "researches",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "安斎勇樹",
+      "target": "特任助教",
+      "type": "holds_position",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "安斎勇樹",
+      "target": "東京大学",
+      "type": "affiliated_with",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "安斎勇樹",
+      "target": "イノベーション",
+      "type": "researches",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "特任助教",
+      "target": "東京大学",
+      "type": "located_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "小田裕和",
+      "target": "意味のイノベーション",
+      "type": "researched",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "小田裕和",
+      "target": "デザイン思考",
+      "type": "researched",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "小田裕和",
+      "target": "特任研究員",
+      "type": "worked_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "小田裕和",
+      "target": "東京大学",
+      "type": "affiliated_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "小田裕和",
+      "target": "イノベーションプロセス",
+      "type": "researched",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "特任研究員",
+      "target": "東京大学",
+      "type": "position_at",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "博士論文",
+      "target": "リサーチクエスチョン",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチクエスチョン",
+      "target": "テーマ",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "博士論文",
+      "target": "テーマ",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "研究者",
+      "target": "イノベーション",
+      "type": "interacts_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "実践者",
+      "target": "イノベーション",
+      "type": "interacts_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "研究者",
+      "target": "実践者",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "院生",
+      "target": "研究テーマ",
+      "type": "proposes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "院生",
+      "target": "仮説",
+      "type": "proposes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "院生",
+      "target": "先行研究",
+      "type": "needs_to_investigate",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "研究テーマ",
+      "target": "先行研究",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "仮説",
+      "target": "先行研究",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "学術研究",
+      "target": "院生",
+      "type": "involves",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "学術研究",
+      "target": "先行研究",
+      "type": "depends_on",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "巨人の肩の上に立つ",
+      "target": "学問の世界",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "巨人の肩の上に立つ",
+      "target": "未踏の領域",
+      "type": "identifies",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "研究テーマの決定プロセス",
+      "target": "先行研究のレビュー",
+      "type": "depends_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "研究テーマの決定プロセス",
+      "target": "リサーチクエスチョン",
+      "type": "involves",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "先行研究のレビュー",
+      "target": "リサーチクエスチョン",
+      "type": "leads_to",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "巨人の肩の上に立つ",
+      "target": "独自の研究視点",
+      "type": "leads_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチクエスチョン",
+      "target": "イノベーション",
+      "type": "precedes",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "アンケート",
+      "type": "researched_using",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "インタビュー",
+      "type": "researched_using",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "観察ノート",
+      "type": "researched_using",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "アンケート",
+      "target": "リサーチクエスチョン",
+      "type": "used_after",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "インタビュー",
+      "target": "リサーチクエスチョン",
+      "type": "used_after",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "観察ノート",
+      "target": "リサーチクエスチョン",
+      "type": "used_after",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "データ分析",
+      "target": "リサーチクエスチョン",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "one year",
+      "target": "several years",
+      "type": "range_start_of",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Researcher",
+      "target": "Practitioner",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "practitioners",
+      "target": "academic research",
+      "type": "conducted",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "academic research",
+      "target": "workplace",
+      "type": "findings_not_circulating_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "literature",
+      "target": "workplace",
+      "type": "findings_not_circulating_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "workplace",
+      "target": "the field",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Mimicry Design Inc.",
+      "target": "MIMIGURI Inc.",
+      "type": "merged_to_form",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "bottom-up innovation",
+      "target": "organizational development",
+      "type": "connects",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "bottom-up innovation",
+      "target": "business development",
+      "type": "connects",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "organizational development",
+      "target": "business development",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "existing research",
+      "target": "conflicting perspectives",
+      "type": "contains",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "アウトサイド・イン",
+      "type": "has_debated_approach",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "インサイド・アウト",
+      "type": "has_debated_approach",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "アウトサイド・イン",
+      "target": "インサイド・アウト",
+      "type": "opposes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "外から内（アウトサイド・イン）アプローチ",
+      "target": "イノベーション",
+      "type": "seeks_starting_point_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "外から内（アウトサイド・イン）アプローチ",
+      "target": "市場",
+      "type": "uses_as_external_source",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "外から内（アウトサイド・イン）アプローチ",
+      "target": "ユーザー",
+      "type": "uses_as_external_source",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "デザイン思考",
+      "target": "Design Thinking",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "外から内",
+      "target": "アウトサイド・イン",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "デザイン思考",
+      "target": "外から内",
+      "type": "is_representative_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "デザイン思考",
+      "target": "アウトサイド・イン",
+      "type": "is_representative_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "デザイン思考",
+      "target": "人間中心",
+      "type": "associated_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "デザイン思考",
+      "target": "ユーザー中心",
+      "type": "associated_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "人間中心",
+      "target": "ユーザー中心",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "デザイン思考",
+      "target": "ユーザー",
+      "type": "starts_with_observing",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "ユーザー",
+      "target": "プロダクト",
+      "type": "associated_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "ユーザー",
+      "target": "サービス",
+      "type": "associated_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "デザイン思考",
+      "target": "共感",
+      "type": "involves",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "共感",
+      "target": "ユーザー",
+      "type": "applied_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "デザイン思考",
+      "target": "ニーズ",
+      "type": "insights",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "ニーズ",
+      "target": "アイデア",
+      "type": "leads_to",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "デザイン思考",
+      "target": "アイデア",
+      "type": "generates",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "技術主導のイノベーション",
+      "target": "市場のニーズ",
+      "type": "unable_to_capture",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "新しい機能",
+      "target": "ユーザー",
+      "type": "does_not_address_pain_points_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "外から内（アウトサイド・イン）アプローチ",
+      "target": "ユーザー主導",
+      "type": "has_keyword",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "外から内（アウトサイド・イン）アプローチ",
+      "target": "共感",
+      "type": "has_keyword",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "内から外（インサイド・アウト）",
+      "target": "イノベーション",
+      "type": "is_approach_for",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "ロベルト・ベルガンティ",
+      "target": "ミラノ工科大学",
+      "type": "is_professor_at",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "ロベルト・ベルガンティ",
+      "target": "教授",
+      "type": "has_role",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "ロベルト・ベルガンティ",
+      "target": "意味のイノベーション",
+      "type": "proposed",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "意味のイノベーション",
+      "target": "内から外",
+      "type": "is_representative_example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "アート思考",
+      "target": "デザイン思考",
+      "type": "contrasted_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "アート思考",
+      "target": "内から外（インサイド・アウト）",
+      "type": "positioned_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "「外から内」アプローチ",
+      "target": "「意味のイノベーション」",
+      "type": "contrasted_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "意味のイノベーション",
+      "target": "ビジョン主導",
+      "type": "重視する",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "「外から内」アプローチ",
+      "target": "革新的なアイデア",
+      "type": "hinders_generation_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "意味のイノベーション",
+      "target": "ものづくり",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "意味のイノベーション",
+      "target": "近年",
+      "type": "gathers_attention_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Outside-In",
+      "target": "Inside-Out",
+      "type": "contrasts_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Outside-In",
+      "target": "Design Thinking",
+      "type": "associated_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Outside-In",
+      "target": "デザイン思考",
+      "type": "associated_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Design Thinking",
+      "target": "デザイン思考",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "no criticism",
+      "target": "批判厳禁",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Outside-In",
+      "target": "no criticism",
+      "type": "uses",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Outside-In",
+      "target": "批判厳禁",
+      "type": "uses",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Inside-Out",
+      "target": "Art Thinking",
+      "type": "associated_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Inside-Out",
+      "target": "アート思考",
+      "type": "associated_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Inside-Out",
+      "target": "meaning-driven innovation",
+      "type": "associated_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Inside-Out",
+      "target": "意味のイノベーション",
+      "type": "associated_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Art Thinking",
+      "target": "アート思考",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "meaning-driven innovation",
+      "target": "意味のイノベーション",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Inside-Out",
+      "target": "Vision-driven",
+      "type": "has_keyword",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Inside-Out",
+      "target": "Criticism",
+      "type": "has_keyword",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Vision-driven",
+      "target": "ビジョン主導",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Criticism",
+      "target": "批判",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "critical mindset",
+      "target": "meaning-driven innovation",
+      "type": "essential_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "meaning-driven innovation",
+      "target": "sparring",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "sparring",
+      "target": "スパーリング",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Outside-In",
+      "target": "Inside-Out",
+      "type": "mutually_exclusive_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Outside-In",
+      "target": "二項対立",
+      "type": "treated_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Inside-Out",
+      "target": "二項対立",
+      "type": "treated_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "ambidextrous",
+      "target": "両利き",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "European Commission",
+      "target": "EU",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "European Commission",
+      "target": "Outside-In",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "European Commission",
+      "target": "Inside-Out",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "Outside-In",
+      "target": "Inside-Out",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "concrete thinking process",
+      "target": "continuous back-and-forth exploration",
+      "type": "achieved_through",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "continuous back-and-forth exploration",
+      "target": "internal and external",
+      "type": "between",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "内と外の絶えざる往復による探究",
+      "target": "continuous back-and-forth exploration",
+      "type": "equivalent_to",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "内と外の絶えざる往復による探究",
+      "target": "internal and external",
+      "type": "involves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチ・ドリブン・イノベーション",
+      "target": "Research-Driven Innovation",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチ・ドリブン・イノベーション",
+      "target": "アウトサイド・イン",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチ・ドリブン・イノベーション",
+      "target": "インサイド・アウト",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "アウトサイド・イン",
+      "target": "インサイド・アウト",
+      "type": "interacts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "レビュー",
+      "target": "先行研究",
+      "type": "reviews",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "自分らしい問い",
+      "target": "レビュー",
+      "type": "based_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "自分らしい問い",
+      "target": "未踏の知",
+      "type": "pioneers",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "自分らしい問い",
+      "target": "リサーチクエスチョン",
+      "type": "is_a",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチクエスチョン",
+      "target": "アウトサイド・イン",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチクエスチョン",
+      "target": "インサイド・アウト",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチクエスチョン",
+      "target": "アウトサイド・イン",
+      "type": "connects",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "リサーチクエスチョン",
+      "target": "インサイド・アウト",
+      "type": "connects",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "研究者",
+      "target": "外から内（アウトサイド・イン）",
+      "type": "goes_beyond",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "データに主体的な解釈を加えて新たな意味を発見するプロセス",
+      "target": "内から外（インサイド・アウト）",
+      "type": "is",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "問い",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "イノベーション",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "問い",
+      "target": "イノベーション",
+      "type": "interacts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "ヨーゼフ・シュンペーター",
+      "target": "経済学者",
+      "type": "is_a",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "ヨーゼフ・シュンペーター",
+      "target": "新結合",
+      "type": "proposed",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "新結合",
+      "type": "accurately_represented_by",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "技術革新",
+      "type": "formerly_translated_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "新結合",
+      "target": "組織にとっての新結合",
+      "type": "has_aspect",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "新結合",
+      "target": "社会にとっての新結合",
+      "type": "has_aspect",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "組織にとっての新結合",
+      "target": "新しい知識の組み合わせ",
+      "type": "defined_as_trying",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "組織にとっての新結合",
+      "target": "新奇な価値",
+      "type": "does_not_necessarily_have",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "人類の進化",
+      "type": "contributes_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "探究そのもの",
+      "type": "defined_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "人間の本質",
+      "type": "approaches",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "フレームワーク",
+      "type": "uses",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "アイデア発想",
+      "target": "ノウハウ",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "新結合",
+      "target": "企業組織",
+      "type": "difficult_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "第1のレイヤー",
+      "target": "個人への原因帰属",
+      "type": "defined_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "第1のレイヤー",
+      "target": "イノベーション阻害",
+      "type": "explains_cause_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "個人への原因帰属",
+      "target": "創造性",
+      "type": "attributes_to_lack_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション阻害",
+      "target": "アイデア発想力",
+      "type": "caused_by_lack_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション阻害",
+      "target": "専門性",
+      "type": "caused_by_adherence_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション阻害",
+      "target": "固定観念",
+      "type": "caused_by_being_trapped_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "創造性",
+      "target": "アイデア発想力",
+      "type": "includes",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "第2のレイヤー",
+      "target": "チームへの原因帰属",
+      "type": "defined_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "チーム",
+      "target": "イノベーション",
+      "type": "produces",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "第2のレイヤー",
+      "target": "チーム",
+      "type": "attributes_cause_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "キース・ソーヤー",
+      "target": "心理学者",
+      "type": "is_a",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "凡才の集団は孤高の天才に勝る",
+      "target": "キース・ソーヤー",
+      "type": "created_by",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "キース・ソーヤー",
+      "target": "コラボレーション",
+      "type": "discusses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "阻害要因",
+      "target": "チーム・レイヤー",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "多様性",
+      "target": "イノベーション",
+      "type": "lack_of_hinders",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "チームワーク",
+      "target": "イノベーション",
+      "type": "poor_quality_hinders",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "多様性",
+      "target": "阻害要因",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "チームワーク",
+      "target": "阻害要因",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "個人",
+      "type": "analyzed_from_viewpoint_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "チーム",
+      "type": "analyzed_from_viewpoint_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "組織",
+      "type": "analyzed_from_viewpoint_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "他者の異なる考えが受け入れられなくなること",
+      "type": "inhibited_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "イノベーション",
+      "type": "occurs_at",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "虫の目",
+      "type": "affected_by_perspective",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "鳥の目",
+      "type": "affected_by_perspective",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "虫の目",
+      "target": "鳥の目",
+      "type": "contrasted_with",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "変化",
+      "target": "イノベーション",
+      "type": "hinders",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "個人",
+      "target": "イノベーション",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "チーム",
+      "target": "イノベーション",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "組織",
+      "target": "イノベーション",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "個人",
+      "target": "チーム",
+      "type": "related_to",
+      "confidence": 0.7,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "チーム",
+      "target": "組織",
+      "type": "related_to",
+      "confidence": 0.7,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "新結合",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "イノベーション",
+      "target": "変化",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "人材育成",
+      "target": "変化",
+      "type": "brings_about",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "人材育成",
+      "target": "知識",
+      "type": "not_merely_addition_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "人材育成",
+      "target": "技術",
+      "type": "not_merely_addition_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    },
+    {
+      "source": "経営学",
+      "target": "成功の罠",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Research_Driven_Innovation"
+      },
+      "book_key": "Research_Driven_Innovation"
+    }
+  ],
+  "metadata": {
+    "num_entities": 117,
+    "num_relationships": 201,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-31T02:26:28.461717",
+    "entity_resolution_applied": true,
+    "book_key": "Research_Driven_Innovation",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

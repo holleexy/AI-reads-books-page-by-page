@@ -1,0 +1,420 @@
+{
+  "uri": "https://books.local/Creative_Mindset/",
+  "name": "Creative_MindsetOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/Creative_Mindset/Book",
+      "label": "書籍",
+      "comment": "創造的自信に関する分析対象の著作。",
+      "parent": null
+    },
+    {
+      "name": "Person",
+      "uri": "https://books.local/Creative_Mindset/Person",
+      "label": "人物",
+      "comment": "著者、実践者、研究者などの個人。",
+      "parent": null
+    },
+    {
+      "name": "CreativeConfidence",
+      "uri": "https://books.local/Creative_Mindset/CreativeConfidence",
+      "label": "クリエイティブ・コンフィデンス",
+      "comment": "自身の創造的潜在能力を信じ、それに基づいて行動する勇気。",
+      "parent": null
+    },
+    {
+      "name": "Mindset",
+      "uri": "https://books.local/Creative_Mindset/Mindset",
+      "label": "マインドセット",
+      "comment": "能力や失敗に対する信念の枠組み。",
+      "parent": null
+    },
+    {
+      "name": "FixedMindset",
+      "uri": "https://books.local/Creative_Mindset/FixedMindset",
+      "label": "固定マインドセット",
+      "comment": "能力は生まれつき静的で変わらないという信念。",
+      "parent": "Mindset"
+    },
+    {
+      "name": "GrowthMindset",
+      "uri": "https://books.local/Creative_Mindset/GrowthMindset",
+      "label": "成長マインドセット",
+      "comment": "能力は努力によって伸ばせると信じる姿勢。",
+      "parent": "Mindset"
+    },
+    {
+      "name": "Fear",
+      "uri": "https://books.local/Creative_Mindset/Fear",
+      "label": "恐れ",
+      "comment": "評価や失敗への不安など、創造性を阻む主要な障壁。",
+      "parent": null
+    },
+    {
+      "name": "Failure",
+      "uri": "https://books.local/Creative_Mindset/Failure",
+      "label": "失敗",
+      "comment": "学習と実験に不可欠な過程であり、前向きに再解釈される対象。",
+      "parent": null
+    },
+    {
+      "name": "GuidedMastery",
+      "uri": "https://books.local/Creative_Mindset/GuidedMastery",
+      "label": "誘導的習熟",
+      "comment": "小さな段階的挑戦を通じて勇気と自己効力感を育てる方法。",
+      "parent": null
+    },
+    {
+      "name": "SelfEfficacy",
+      "uri": "https://books.local/Creative_Mindset/SelfEfficacy",
+      "label": "自己効力感",
+      "comment": "自分の能力で成果を出せるという確信。",
+      "parent": null
+    },
+    {
+      "name": "DesignThinking",
+      "uri": "https://books.local/Creative_Mindset/DesignThinking",
+      "label": "デザイン思考",
+      "comment": "人間中心で反復的な問題解決の方法論。",
+      "parent": null
+    },
+    {
+      "name": "DesignThinkingStep",
+      "uri": "https://books.local/Creative_Mindset/DesignThinkingStep",
+      "label": "デザイン思考のステップ",
+      "comment": "デザイン思考プロセスを構成する段階。",
+      "parent": null
+    },
+    {
+      "name": "Empathize",
+      "uri": "https://books.local/Creative_Mindset/Empathize",
+      "label": "共感",
+      "comment": "自然な環境で利用者を観察し潜在ニーズを探る段階。",
+      "parent": "DesignThinkingStep"
+    },
+    {
+      "name": "Define",
+      "uri": "https://books.local/Creative_Mindset/Define",
+      "label": "問題定義",
+      "comment": "観察を統合し、問題を明確に再フレーミングする段階。",
+      "parent": "DesignThinkingStep"
+    },
+    {
+      "name": "Ideate",
+      "uri": "https://books.local/Creative_Mindset/Ideate",
+      "label": "発想",
+      "comment": "判断を保留して多様なアイデアを出す発散的思考の段階。",
+      "parent": "DesignThinkingStep"
+    },
+    {
+      "name": "Prototype",
+      "uri": "https://books.local/Creative_Mindset/Prototype",
+      "label": "プロトタイプ",
+      "comment": "アイデアを素早く低忠実度で形にする段階。",
+      "parent": "DesignThinkingStep"
+    },
+    {
+      "name": "Test",
+      "uri": "https://books.local/Creative_Mindset/Test",
+      "label": "テスト",
+      "comment": "利用者の反応を集め、反復改善する段階。",
+      "parent": "DesignThinkingStep"
+    },
+    {
+      "name": "Innovation",
+      "uri": "https://books.local/Creative_Mindset/Innovation",
+      "label": "イノベーション",
+      "comment": "技術・事業・人間ニーズの均衡によって生まれる革新。",
+      "parent": null
+    },
+    {
+      "name": "InnovationPillar",
+      "uri": "https://books.local/Creative_Mindset/InnovationPillar",
+      "label": "イノベーションの柱",
+      "comment": "成功する革新を支える三要素のいずれか。",
+      "parent": null
+    },
+    {
+      "name": "Feasibility",
+      "uri": "https://books.local/Creative_Mindset/Feasibility",
+      "label": "実現可能性",
+      "comment": "技術的・機能的に可能な範囲。",
+      "parent": "InnovationPillar"
+    },
+    {
+      "name": "Viability",
+      "uri": "https://books.local/Creative_Mindset/Viability",
+      "label": "事業妥当性",
+      "comment": "財務的に持続できるかどうか。",
+      "parent": "InnovationPillar"
+    },
+    {
+      "name": "Desirability",
+      "uri": "https://books.local/Creative_Mindset/Desirability",
+      "label": "望ましさ",
+      "comment": "人々が実際に必要とし、欲するもの。",
+      "parent": "InnovationPillar"
+    },
+    {
+      "name": "CaseStudy",
+      "uri": "https://books.local/Creative_Mindset/CaseStudy",
+      "label": "事例研究",
+      "comment": "共感と行動による創造的実践の具体例。",
+      "parent": null
+    },
+    {
+      "name": "Organization",
+      "uri": "https://books.local/Creative_Mindset/Organization",
+      "label": "組織",
+      "comment": "創造性を規模展開する企業や集団。",
+      "parent": null
+    },
+    {
+      "name": "Leader",
+      "uri": "https://books.local/Creative_Mindset/Leader",
+      "label": "リーダー",
+      "comment": "チームの創造性に影響を与える指導者。",
+      "parent": null
+    },
+    {
+      "name": "Multiplier",
+      "uri": "https://books.local/Creative_Mindset/Multiplier",
+      "label": "増幅型リーダー",
+      "comment": "周囲の知性と創造性を引き出すリーダー。",
+      "parent": "Leader"
+    },
+    {
+      "name": "Diminisher",
+      "uri": "https://books.local/Creative_Mindset/Diminisher",
+      "label": "減点型リーダー",
+      "comment": "チームの知性や挑戦を抑制するリーダー。",
+      "parent": "Leader"
+    },
+    {
+      "name": "InnovationCatalyst",
+      "uri": "https://books.local/Creative_Mindset/InnovationCatalyst",
+      "label": "イノベーション・カタリスト",
+      "comment": "組織内でデザイン思考の実践を促す訓練された促進者。",
+      "parent": null
+    },
+    {
+      "name": "PsychologicalSafety",
+      "uri": "https://books.local/Creative_Mindset/PsychologicalSafety",
+      "label": "心理的安全性",
+      "comment": "失敗や異論を恐れずに発言・実験できる環境。",
+      "parent": null
+    },
+    {
+      "name": "CreativeTool",
+      "uri": "https://books.local/Creative_Mindset/CreativeTool",
+      "label": "創造性ツール",
+      "comment": "発想や共感、フィードバックを促す実践的手法。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "authoredBy",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "著者",
+      "comment": "書籍を書いた人物を示す。",
+      "uri": "https://books.local/Creative_Mindset/authoredBy"
+    },
+    {
+      "name": "hasMindset",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Mindset"
+      ],
+      "label": "持つマインドセット",
+      "comment": "人物が採用している能力観を示す。",
+      "uri": "https://books.local/Creative_Mindset/hasMindset"
+    },
+    {
+      "name": "blockedBy",
+      "type": "object",
+      "domain": [
+        "CreativeConfidence"
+      ],
+      "range": [
+        "Fear"
+      ],
+      "label": "阻まれる要因",
+      "comment": "創造的自信の発揮を妨げる恐れを示す。",
+      "uri": "https://books.local/Creative_Mindset/blockedBy"
+    },
+    {
+      "name": "reframedAs",
+      "type": "object",
+      "domain": [
+        "Failure"
+      ],
+      "range": [
+        "GuidedMastery"
+      ],
+      "label": "再解釈される",
+      "comment": "失敗を学習と習熟の過程として捉える関係。",
+      "uri": "https://books.local/Creative_Mindset/reframedAs"
+    },
+    {
+      "name": "builds",
+      "type": "object",
+      "domain": [
+        "GuidedMastery"
+      ],
+      "range": [
+        "SelfEfficacy"
+      ],
+      "label": "育む",
+      "comment": "誘導的習熟が自己効力感を高めることを示す。",
+      "uri": "https://books.local/Creative_Mindset/builds"
+    },
+    {
+      "name": "unlocks",
+      "type": "object",
+      "domain": [
+        "DesignThinking"
+      ],
+      "range": [
+        "CreativeConfidence"
+      ],
+      "label": "解き放つ",
+      "comment": "デザイン思考が創造的自信を引き出す手段であることを示す。",
+      "uri": "https://books.local/Creative_Mindset/unlocks"
+    },
+    {
+      "name": "hasStep",
+      "type": "object",
+      "domain": [
+        "DesignThinking"
+      ],
+      "range": [
+        "DesignThinkingStep"
+      ],
+      "label": "含むステップ",
+      "comment": "デザイン思考が持つプロセス段階。",
+      "uri": "https://books.local/Creative_Mindset/hasStep"
+    },
+    {
+      "name": "balances",
+      "type": "object",
+      "domain": [
+        "Innovation"
+      ],
+      "range": [
+        "InnovationPillar"
+      ],
+      "label": "均衡させる",
+      "comment": "イノベーションが実現可能性・事業妥当性・望ましさを両立すること。",
+      "uri": "https://books.local/Creative_Mindset/balances"
+    },
+    {
+      "name": "illustratedBy",
+      "type": "object",
+      "domain": [
+        "DesignThinking"
+      ],
+      "range": [
+        "CaseStudy"
+      ],
+      "label": "例示される",
+      "comment": "方法論が具体事例によって示される関係。",
+      "uri": "https://books.local/Creative_Mindset/illustratedBy"
+    },
+    {
+      "name": "practicedBy",
+      "type": "object",
+      "domain": [
+        "CaseStudy"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "実践者",
+      "comment": "事例を実施した人物。",
+      "uri": "https://books.local/Creative_Mindset/practicedBy"
+    },
+    {
+      "name": "fosters",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "PsychologicalSafety"
+      ],
+      "label": "育む環境",
+      "comment": "組織が心理的安全性を醸成すること。",
+      "uri": "https://books.local/Creative_Mindset/fosters"
+    },
+    {
+      "name": "employsCatalyst",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "InnovationCatalyst"
+      ],
+      "label": "カタリストを置く",
+      "comment": "組織が内部のイノベーション促進者を活用すること。",
+      "uri": "https://books.local/Creative_Mindset/employsCatalyst"
+    },
+    {
+      "name": "ledBy",
+      "type": "object",
+      "domain": [
+        "Organization"
+      ],
+      "range": [
+        "Leader"
+      ],
+      "label": "率いられる",
+      "comment": "組織を指導するリーダーとの関係。",
+      "uri": "https://books.local/Creative_Mindset/ledBy"
+    },
+    {
+      "name": "usesTool",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "CreativeTool"
+      ],
+      "label": "用いるツール",
+      "comment": "創造性を刺激するために使う手法。",
+      "uri": "https://books.local/Creative_Mindset/usesTool"
+    },
+    {
+      "name": "title",
+      "type": "data",
+      "domain": [
+        "Book",
+        "CaseStudy",
+        "CreativeTool"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "名称",
+      "comment": "書籍・事例・ツールなどの名前。",
+      "uri": "https://books.local/Creative_Mindset/title"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

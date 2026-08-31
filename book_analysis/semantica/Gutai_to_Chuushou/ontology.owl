@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Gutai_to_Chuushou/">
+    <rdfs:label>Gutai_to_ChuushouOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/Concept">
+    <rdfs:label xml:lang="ja">概念</rdfs:label>
+    <rdfs:comment xml:lang="ja">具体と抽象が相対的に連なるピラミッド構造の各層をなす思考の単位。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/ConcreteConcept">
+    <rdfs:label xml:lang="ja">具体概念</rdfs:label>
+    <rdfs:comment xml:lang="ja">個別事例や感覚で捉えやすい対象。より上位の抽象に対して相対的に具体と呼ばれる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gutai_to_Chuushou/Concept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/AbstractConcept">
+    <rdfs:label xml:lang="ja">抽象概念</rdfs:label>
+    <rdfs:comment xml:lang="ja">複数の異なる具体から共通特徴を抽出し、枝葉を切り捨てて幹だけを見た概念。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gutai_to_Chuushou/Concept"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/AbstractionProcess">
+    <rdfs:label xml:lang="ja">抽象化</rdfs:label>
+    <rdfs:comment xml:lang="ja">複数の異なるものをまとめて同じとみなし、目的に応じて本質を抽出し不要な詳細を捨てる過程。木の枝葉を切って幹を見ることに喩えられる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/ConcretizationProcess">
+    <rdfs:label xml:lang="ja">具体化</rdfs:label>
+    <rdfs:comment xml:lang="ja">抽象的な原理や構造を個別の現実・行動・成果物へ落とし込む過程。知的循環の最終段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/Purpose">
+    <rdfs:label xml:lang="ja">目的</rdfs:label>
+    <rdfs:comment xml:lang="ja">何を幹（本質）とし何を枝葉として捨てるかを決める基準。抽象化は目的依存である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/Pattern">
+    <rdfs:label xml:lang="ja">法則</rdfs:label>
+    <rdfs:comment xml:lang="ja">異なる具体的事象に共通するパターン。一を聞いて十を知ることを可能にし、科学的進歩の基盤となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/Structure">
+    <rdfs:label xml:lang="ja">構造</rdfs:label>
+    <rdfs:comment xml:lang="ja">個々の独自性を剥ぎ取り、要素間の関係として捉えた骨格。図や単純な図形がこれを可視化する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/Analogy">
+    <rdfs:label xml:lang="ja">類推</rdfs:label>
+    <rdfs:comment xml:lang="ja">遠い領域の構造や関係だけを借りて新しい文脈に適用する創造。表面の模倣は盗作、抽象レベルのコピーは革新である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/MagicMirror">
+    <rdfs:label xml:lang="ja">マジックミラー</rdfs:label>
+    <rdfs:comment xml:lang="ja">高次の抽象からは下の具体が見えるが、具体レベルからは上の抽象が見えない理解の非対称性。コミュニケーション摩擦の原因。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/WorkPhase">
+    <rdfs:label xml:lang="ja">仕事工程</rdfs:label>
+    <rdfs:comment xml:lang="ja">あらゆる仕事は抽象から具体へと進む過程である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/UpstreamWork">
+    <rdfs:label xml:lang="ja">上流工程</rdfs:label>
+    <rdfs:comment xml:lang="ja">構想・計画など自由度の高い段階。個人の創造性が必要で、人数を増やすと凡庸になり赤ペン修正では直せない。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gutai_to_Chuushou/WorkPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/DownstreamWork">
+    <rdfs:label xml:lang="ja">下流工程</rdfs:label>
+    <rdfs:comment xml:lang="ja">実行・製造など自由度の低い段階。効率とチームワークが重要で、人数が増えると品質が上がる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gutai_to_Chuushou/WorkPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/Goal">
+    <rdfs:label xml:lang="ja">目標</rdfs:label>
+    <rdfs:comment xml:lang="ja">抽象的で野心的だが実行しにくい目標と、具体的で実行可能だが意味を失いがちな目標を階層的に接続すべき対象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/Pitfall">
+    <rdfs:label xml:lang="ja">本末転倒</rdfs:label>
+    <rdfs:comment xml:lang="ja">抽象化されたルールや数値目標が本来の目的から切り離され独り歩きし、具体的現実を誤って拘束する状態。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/IntellectualCycle">
+    <rdfs:label xml:lang="ja">知的循環</rdfs:label>
+    <rdfs:comment xml:lang="ja">具体的現実の観察、心の中での抽象化、新たな知識の生成、現実への具体化という連続サイクル。これを避けることは動物の道を選ぶことである。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/Human">
+    <rdfs:label xml:lang="ja">人間</rdfs:label>
+    <rdfs:comment xml:lang="ja">高度に発達した抽象化能力によって動物と区別される存在。言葉・数・貨幣・科学・文明の担い手。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/ProductOfAbstraction">
+    <rdfs:label xml:lang="ja">抽象化の産物</rdfs:label>
+    <rdfs:comment xml:lang="ja">言葉・数・貨幣・科学など、抽象化なしには存在し得ない文明の産物。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/Word">
+    <rdfs:label xml:lang="ja">言葉</rdfs:label>
+    <rdfs:comment xml:lang="ja">マグロや鮭を魚としてまとめるなど、個別を一般概念に束ねる抽象化の究極の産物。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gutai_to_Chuushou/ProductOfAbstraction"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Gutai_to_Chuushou/Number">
+    <rdfs:label xml:lang="ja">数</rdfs:label>
+    <rdfs:comment xml:lang="ja">リンゴ三個や犬三匹から三という概念だけを取り出した抽象化の産物。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Gutai_to_Chuushou/ProductOfAbstraction"/>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/groupsItemsAsSame">
+    <rdfs:label xml:lang="ja">まとめて同じとみなす</rdfs:label>
+    <rdfs:comment xml:lang="ja">複数の異なる具体を同一カテゴリとして扱う。人間を動物から分ける抽象化の核心。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/AbstractionProcess"/>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/Human"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/ConcreteConcept"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/extractsEssentialFeature">
+    <rdfs:label xml:lang="ja">幹を抽出する</rdfs:label>
+    <rdfs:comment xml:lang="ja">目的に応じて本質的特徴だけを取り出す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/AbstractionProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/AbstractConcept"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/discardsIrrelevantDetail">
+    <rdfs:label xml:lang="ja">枝葉を捨てる</rdfs:label>
+    <rdfs:comment xml:lang="ja">目的に無関係な詳細を切り捨てる変形・様式化。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/AbstractionProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/ConcreteConcept"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/dependsOnPurpose">
+    <rdfs:label xml:lang="ja">目的に依存する</rdfs:label>
+    <rdfs:comment xml:lang="ja">何が幹で何が枝葉かは目的で変わる。銭湯では性別、映画館では年齢が幹になる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/AbstractionProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/Purpose"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/isMoreAbstractThan">
+    <rdfs:label xml:lang="ja">より抽象的である</rdfs:label>
+    <rdfs:comment xml:lang="ja">具体と抽象は相対的である。マグロは個体より抽象的だが魚より具体的。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/Concept"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/Concept"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/isMoreConcreteThan">
+    <rdfs:label xml:lang="ja">より具体的である</rdfs:label>
+    <rdfs:comment xml:lang="ja">抽象のピラミッドにおける下位方向の関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/Concept"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/Concept"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/discoversPattern">
+    <rdfs:label xml:lang="ja">法則を見出す</rdfs:label>
+    <rdfs:comment xml:lang="ja">異なる具体から共通パターンを取り出し、知識を無限に適用可能にする。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/AbstractionProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/Pattern"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/revealsStructure">
+    <rdfs:label xml:lang="ja">構造を明らかにする</rdfs:label>
+    <rdfs:comment xml:lang="ja">孤立した個別から関係と骨格を見るようになる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/AbstractConcept"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/Structure"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/borrowsStructureFrom">
+    <rdfs:label xml:lang="ja">構造を借りる</rdfs:label>
+    <rdfs:comment xml:lang="ja">遠い領域の関係だけを借りて新しい文脈に移す。回転寿司はビール搬送の構造の転用である。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/Analogy"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/Structure"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/producesInnovation">
+    <rdfs:label xml:lang="ja">革新を生む</rdfs:label>
+    <rdfs:comment xml:lang="ja">抽象レベルでのコピーは創造であり、具体表面のコピーは盗作である。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/Analogy"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/ConcreteConcept"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/canSeeConcreteBelow">
+    <rdfs:label xml:lang="ja">下位の具体を見通す</rdfs:label>
+    <rdfs:comment xml:lang="ja">高次の抽象を扱う側は下の具体を理解できる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/MagicMirror"/>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/AbstractConcept"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/ConcreteConcept"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/cannotSeeAbstractAbove">
+    <rdfs:label xml:lang="ja">上位の抽象を見られない</rdfs:label>
+    <rdfs:comment xml:lang="ja">具体レベルにいる者には上の抽象世界が見えず、深いコミュニケーションギャップが生じる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/ConcreteConcept"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/AbstractConcept"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/MagicMirror"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/movesTowardConcrete">
+    <rdfs:label xml:lang="ja">具体へ進む</rdfs:label>
+    <rdfs:comment xml:lang="ja">仕事は上流の抽象から下流の具体へと進む一方向の過程である。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/WorkPhase"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/ConcretizationProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/linksToLowerGoal">
+    <rdfs:label xml:lang="ja">下位目標へ結びつける</rdfs:label>
+    <rdfs:comment xml:lang="ja">抽象的な大目標と具体的な日々の行動を連続した階層でつなぎ、作業に目的を与える。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/Goal"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/Goal"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/detachesFromPurpose">
+    <rdfs:label xml:lang="ja">目的から切り離される</rdfs:label>
+    <rdfs:comment xml:lang="ja">ルールや数字が本来の目的を離れ独り歩きし、数値は達成しても真の目的を外す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/Pitfall"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/Purpose"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/observesConcrete">
+    <rdfs:label xml:lang="ja">具体的現実を観察する</rdfs:label>
+    <rdfs:comment xml:lang="ja">知的循環の起点。現実の観察から始まる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/IntellectualCycle"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/ConcreteConcept"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/abstractsInMind">
+    <rdfs:label xml:lang="ja">心の中で抽象化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">観察した具体を抽象へ上げ、新たな知識を生成する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/IntellectualCycle"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/AbstractConcept"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/concretizesToReality">
+    <rdfs:label xml:lang="ja">現実へ具体化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">抽象から得た知識を再び現実へ戻す。この循環を避けることは動物の道である。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/IntellectualCycle"/>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/ConcretizationProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/ConcreteConcept"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Gutai_to_Chuushou/producesCivilizationArtifact">
+    <rdfs:label xml:lang="ja">文明の産物を生む</rdfs:label>
+    <rdfs:comment xml:lang="ja">抽象化がなければ言語・貨幣・科学・文明は存在しない。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/AbstractionProcess"/>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/Human"/>
+    <rdfs:range rdf:resource="https://books.local/Gutai_to_Chuushou/ProductOfAbstraction"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Gutai_to_Chuushou/hasExample">
+    <rdfs:label xml:lang="ja">例</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念や過程を説明する具体例の文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/Concept"/>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/Analogy"/>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/Pitfall"/>
+    <rdfs:domain rdf:resource="https://books.local/Gutai_to_Chuushou/Purpose"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

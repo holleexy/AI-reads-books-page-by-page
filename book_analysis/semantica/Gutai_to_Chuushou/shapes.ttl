@@ -1,0 +1,303 @@
+@prefix ex: <https://books.local/Gutai_to_Chuushou/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Gutai_to_Chuushou/shapes> a owl:Ontology .
+
+<https://books.local/Gutai_to_Chuushou/ConceptShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Concept ;
+    sh:name "概念" ;
+    sh:description "具体と抽象が相対的に連なるピラミッド構造の各層をなす思考の単位。" ;
+    sh:property [
+        sh:path ex:isMoreAbstractThan ;
+        sh:class ex:Concept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isMoreConcreteThan ;
+        sh:class ex:Concept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasExample ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/ConcreteConceptShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConcreteConcept ;
+    sh:name "具体概念" ;
+    sh:description "個別事例や感覚で捉えやすい対象。より上位の抽象に対して相対的に具体と呼ばれる。" ;
+    sh:property [
+        sh:path ex:cannotSeeAbstractAbove ;
+        sh:class ex:AbstractConcept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isMoreAbstractThan ;
+        sh:class ex:Concept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isMoreConcreteThan ;
+        sh:class ex:Concept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasExample ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/AbstractConceptShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AbstractConcept ;
+    sh:name "抽象概念" ;
+    sh:description "複数の異なる具体から共通特徴を抽出し、枝葉を切り捨てて幹だけを見た概念。" ;
+    sh:property [
+        sh:path ex:revealsStructure ;
+        sh:class ex:Structure ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:canSeeConcreteBelow ;
+        sh:class ex:ConcreteConcept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isMoreAbstractThan ;
+        sh:class ex:Concept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isMoreConcreteThan ;
+        sh:class ex:Concept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasExample ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/AbstractionProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AbstractionProcess ;
+    sh:name "抽象化" ;
+    sh:description "複数の異なるものをまとめて同じとみなし、目的に応じて本質を抽出し不要な詳細を捨てる過程。木の枝葉を切って幹を見ることに喩えられる。" ;
+    sh:property [
+        sh:path ex:groupsItemsAsSame ;
+        sh:class ex:ConcreteConcept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:extractsEssentialFeature ;
+        sh:class ex:AbstractConcept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:discardsIrrelevantDetail ;
+        sh:class ex:ConcreteConcept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:dependsOnPurpose ;
+        sh:class ex:Purpose ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:discoversPattern ;
+        sh:class ex:Pattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:producesCivilizationArtifact ;
+        sh:class ex:ProductOfAbstraction ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/ConcretizationProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConcretizationProcess ;
+    sh:name "具体化" ;
+    sh:description "抽象的な原理や構造を個別の現実・行動・成果物へ落とし込む過程。知的循環の最終段階。" ;
+    sh:property [
+        sh:path ex:concretizesToReality ;
+        sh:class ex:ConcreteConcept ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/PurposeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Purpose ;
+    sh:name "目的" ;
+    sh:description "何を幹（本質）とし何を枝葉として捨てるかを決める基準。抽象化は目的依存である。" ;
+    sh:property [
+        sh:path ex:hasExample ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/PatternShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Pattern ;
+    sh:name "法則" ;
+    sh:description "異なる具体的事象に共通するパターン。一を聞いて十を知ることを可能にし、科学的進歩の基盤となる。" .
+
+<https://books.local/Gutai_to_Chuushou/StructureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Structure ;
+    sh:name "構造" ;
+    sh:description "個々の独自性を剥ぎ取り、要素間の関係として捉えた骨格。図や単純な図形がこれを可視化する。" .
+
+<https://books.local/Gutai_to_Chuushou/AnalogyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Analogy ;
+    sh:name "類推" ;
+    sh:description "遠い領域の構造や関係だけを借りて新しい文脈に適用する創造。表面の模倣は盗作、抽象レベルのコピーは革新である。" ;
+    sh:property [
+        sh:path ex:borrowsStructureFrom ;
+        sh:class ex:Structure ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:producesInnovation ;
+        sh:class ex:ConcreteConcept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasExample ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/MagicMirrorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MagicMirror ;
+    sh:name "マジックミラー" ;
+    sh:description "高次の抽象からは下の具体が見えるが、具体レベルからは上の抽象が見えない理解の非対称性。コミュニケーション摩擦の原因。" ;
+    sh:property [
+        sh:path ex:canSeeConcreteBelow ;
+        sh:class ex:ConcreteConcept ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/WorkPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WorkPhase ;
+    sh:name "仕事工程" ;
+    sh:description "あらゆる仕事は抽象から具体へと進む過程である。" ;
+    sh:property [
+        sh:path ex:movesTowardConcrete ;
+        sh:class ex:ConcretizationProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/UpstreamWorkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:UpstreamWork ;
+    sh:name "上流工程" ;
+    sh:description "構想・計画など自由度の高い段階。個人の創造性が必要で、人数を増やすと凡庸になり赤ペン修正では直せない。" ;
+    sh:property [
+        sh:path ex:movesTowardConcrete ;
+        sh:class ex:ConcretizationProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/DownstreamWorkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DownstreamWork ;
+    sh:name "下流工程" ;
+    sh:description "実行・製造など自由度の低い段階。効率とチームワークが重要で、人数が増えると品質が上がる。" ;
+    sh:property [
+        sh:path ex:movesTowardConcrete ;
+        sh:class ex:ConcretizationProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/GoalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Goal ;
+    sh:name "目標" ;
+    sh:description "抽象的で野心的だが実行しにくい目標と、具体的で実行可能だが意味を失いがちな目標を階層的に接続すべき対象。" ;
+    sh:property [
+        sh:path ex:linksToLowerGoal ;
+        sh:class ex:Goal ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/PitfallShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Pitfall ;
+    sh:name "本末転倒" ;
+    sh:description "抽象化されたルールや数値目標が本来の目的から切り離され独り歩きし、具体的現実を誤って拘束する状態。" ;
+    sh:property [
+        sh:path ex:detachesFromPurpose ;
+        sh:class ex:Purpose ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasExample ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/IntellectualCycleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IntellectualCycle ;
+    sh:name "知的循環" ;
+    sh:description "具体的現実の観察、心の中での抽象化、新たな知識の生成、現実への具体化という連続サイクル。これを避けることは動物の道を選ぶことである。" ;
+    sh:property [
+        sh:path ex:observesConcrete ;
+        sh:class ex:ConcreteConcept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:abstractsInMind ;
+        sh:class ex:AbstractConcept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:concretizesToReality ;
+        sh:class ex:ConcreteConcept ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/HumanShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Human ;
+    sh:name "人間" ;
+    sh:description "高度に発達した抽象化能力によって動物と区別される存在。言葉・数・貨幣・科学・文明の担い手。" ;
+    sh:property [
+        sh:path ex:groupsItemsAsSame ;
+        sh:class ex:ConcreteConcept ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:producesCivilizationArtifact ;
+        sh:class ex:ProductOfAbstraction ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gutai_to_Chuushou/ProductOfAbstractionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductOfAbstraction ;
+    sh:name "抽象化の産物" ;
+    sh:description "言葉・数・貨幣・科学など、抽象化なしには存在し得ない文明の産物。" .
+
+<https://books.local/Gutai_to_Chuushou/WordShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Word ;
+    sh:name "言葉" ;
+    sh:description "マグロや鮭を魚としてまとめるなど、個別を一般概念に束ねる抽象化の究極の産物。" .
+
+<https://books.local/Gutai_to_Chuushou/NumberShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Number ;
+    sh:name "数" ;
+    sh:description "リンゴ三個や犬三匹から三という概念だけを取り出した抽象化の産物。" .

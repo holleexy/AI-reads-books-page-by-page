@@ -1,0 +1,994 @@
+@prefix ex: <https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/shapes> a owl:Ontology .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "無敗営業の知見をまとめた分析対象の書籍。" ;
+    sh:property [
+        sh:path ex:writtenBy ;
+        sh:class ex:Author ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPhilosophy ;
+        sh:class ex:SalesPhilosophy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AuthorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Author ;
+    sh:name "著者" ;
+    sh:description "上場企業中心に三万人以上を指導し、八年無敗・受注率八割を維持した執筆者。" ;
+    sh:property [
+        sh:path ex:hasPhilosophy ;
+        sh:class ex:SalesPhilosophy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:trains ;
+        sh:class ex:SalesPerson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:statisticValue ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesPerson ;
+    sh:name "営業担当者" ;
+    sh:description "顧客との情報ギャップを解消し案件を推進する売り手。" ;
+    sh:property [
+        sh:path ex:sellsTo ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPower ;
+        sh:class ex:SalesPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:handlesCase ;
+        sh:class ex:SalesCase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:asksQuestion ;
+        sh:class ex:WinningQuestion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsModel ;
+        sh:class ex:SalesModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:AnalysisFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:performsAction ;
+        sh:class ex:SalesAction ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:statisticValue ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HighPerformerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HighPerformer ;
+    sh:name "ハイパフォーマー" ;
+    sh:description "商談前後の連絡・資料分割・早期の社内巻き込みを欠かさない高成果営業。" ;
+    sh:property [
+        sh:path ex:sellsTo ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPower ;
+        sh:class ex:SalesPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:handlesCase ;
+        sh:class ex:SalesCase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:asksQuestion ;
+        sh:class ex:WinningQuestion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsModel ;
+        sh:class ex:SalesModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:AnalysisFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:performsAction ;
+        sh:class ex:SalesAction ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:statisticValue ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/LowPerformerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LowPerformer ;
+    sh:name "ローパフォーマー" ;
+    sh:description "対面商談だけで勝負し、資料を一気に作成しがちな低成果営業。" ;
+    sh:property [
+        sh:path ex:sellsTo ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPower ;
+        sh:class ex:SalesPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:handlesCase ;
+        sh:class ex:SalesCase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:asksQuestion ;
+        sh:class ex:WinningQuestion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsModel ;
+        sh:class ex:SalesModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:AnalysisFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:performsAction ;
+        sh:class ex:SalesAction ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:statisticValue ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "価格そのものではなく費用対効果の納得感で判断し、建前で断りやすい買い手。" ;
+    sh:property [
+        sh:path ex:experiencesDissonance ;
+        sh:class ex:CognitiveDissonance ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:statisticValue ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPhilosophyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesPhilosophy ;
+    sh:name "営業理念" ;
+    sh:description "営業は根性ではなくステップ・バイ・ステップの体系化可能なスキルであるという思想。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InformationGapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InformationGap ;
+    sh:name "情報ギャップ" ;
+    sh:description "売り手と買い手の間に生じるズレであり、本書が解消すべき本質的課題。" ;
+    sh:property [
+        sh:path ex:arisesBetweenSeller ;
+        sh:class ex:SalesPerson ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:arisesBetweenBuyer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:resolvedByPower ;
+        sh:class ex:SalesPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:statisticValue ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPowerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesPower ;
+    sh:name "四つの力" ;
+    sh:description "四つのズレを構造的に解消するための営業能力の総称。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/QuestioningPowerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:QuestioningPower ;
+    sh:name "質問力" ;
+    sh:description "要件ヒアリング不足という最大の失望要因を解消する力。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValuePropositionPowerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ValuePropositionPower ;
+    sh:name "価値訴求力" ;
+    sh:description "魅力や価値を感じてもらえないズレを解消し、選ばれる理由をつくる力。" ;
+    sh:property [
+        sh:path ex:deliversValueIn ;
+        sh:class ex:ValueQuadrant ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:AnalysisFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProposalActionPowerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProposalActionPower ;
+    sh:name "提案行動力" ;
+    sh:description "レスポンスや動きの悪さを解消し、全ての力を回す実行力。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProposalLogicConstructionPowerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProposalLogicConstructionPower ;
+    sh:name "提案ロジック構築力" ;
+    sh:description "顧客の意図に沿わない提案を防ぎ、社内稟議で語れる選ぶ理由を組み立てる力。" ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:AnalysisFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesCaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesCase ;
+    sh:name "営業案件" ;
+    sh:description "難易度に応じてリソース投下先を見極める対象となる商談機会。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHearingPhase ;
+        sh:class ex:HearingPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/EasyWinCaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EasyWinCase ;
+    sh:name "楽勝案件" ;
+    sh:description "誰が担当しても受注できる既存・予算確保済みなどの案件。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHearingPhase ;
+        sh:class ex:HearingPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SureLossCaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SureLossCase ;
+    sh:name "惨敗案件" ;
+    sh:description "競合が深く浸透し当て馬になりやすい、誰が担当しても受注が難しい案件。" ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHearingPhase ;
+        sh:class ex:HearingPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CloseContestCaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CloseContestCase ;
+    sh:name "接戦案件" ;
+    sh:description "やり方次第で受注にも失注にもなる、最も重要な案件。" ;
+    sh:property [
+        sh:path ex:hasContestPattern ;
+        sh:class ex:CloseContestPattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHearingPhase ;
+        sh:class ex:HearingPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CloseContestPatternShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CloseContestPattern ;
+    sh:name "接戦パターン" ;
+    sh:description "顧客が何と何で迷っているかを把握するための迷いの類型。" .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CompetitorHesitationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CompetitorHesitation ;
+    sh:name "他社との迷い" ;
+    sh:description "コンペや相見積もりで競合他社と比較している接戦。" .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/PostponementHesitationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PostponementHesitation ;
+    sh:name "保留との迷い" ;
+    sh:description "今やるべきか後回しにすべきかを顧客が迷っている接戦。" .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InhouseHesitationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InhouseHesitation ;
+    sh:name "内製との迷い" ;
+    sh:description "外注すべきか自社でやるべきかを顧客が迷っている接戦。" .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/WinningQuestionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WinningQuestion ;
+    sh:name "三つの質問" ;
+    sh:description "情報ギャップを埋め接戦を制するための質問フレームワーク。" ;
+    sh:property [
+        sh:path ex:fillsGap ;
+        sh:class ex:InformationGap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresQuestioningPower ;
+        sh:class ex:QuestioningPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:examplePhrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ContestSituationQuestionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ContestSituationQuestion ;
+    sh:name "接戦状況を問う質問" ;
+    sh:description "案件発生直後に他社状況や暫定順位、BANTCHを確認する質問。" ;
+    sh:property [
+        sh:path ex:usesBantch ;
+        sh:class ex:BANTCH ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:fillsGap ;
+        sh:class ex:InformationGap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresQuestioningPower ;
+        sh:class ex:QuestioningPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:examplePhrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/DecisionSceneQuestionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DecisionSceneQuestion ;
+    sh:name "決定の場面を問う質問" ;
+    sh:description "決着後に、理由ではなく心が動いた瞬間や場面という事実を聞く質問。" ;
+    sh:property [
+        sh:path ex:fillsGap ;
+        sh:class ex:InformationGap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresQuestioningPower ;
+        sh:class ex:QuestioningPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:examplePhrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BackgroundQuestionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BackgroundQuestion ;
+    sh:name "裏にある背景を問う質問" ;
+    sh:description "枕詞を用い、顧客自身も気づいていない潜在課題を引き出す汎用質問。" ;
+    sh:property [
+        sh:path ex:usesPillowPhrase ;
+        sh:class ex:PillowPhrase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:fillsGap ;
+        sh:class ex:InformationGap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresQuestioningPower ;
+        sh:class ex:QuestioningPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:examplePhrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HearingPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HearingPhase ;
+    sh:name "商談フェーズ" ;
+    sh:description "ヒアリングを土台作りから具体化まで進める四段階。" ;
+    sh:property [
+        sh:path ex:requiresQuestioningPower ;
+        sh:class ex:QuestioningPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/FoundationPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FoundationPhase ;
+    sh:name "土台作り" ;
+    sh:description "信頼感・自己開示・興味関心でつかみとアイスブレイクを行う段階。" ;
+    sh:property [
+        sh:path ex:requiresQuestioningPower ;
+        sh:class ex:QuestioningPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BidirectionalHearingPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BidirectionalHearingPhase ;
+    sh:name "双方向な聞く" ;
+    sh:description "一方通行を避け、誠実な応答と枕詞でヒアリングへ切り込む段階。" ;
+    sh:property [
+        sh:path ex:usesPillowPhrase ;
+        sh:class ex:PillowPhrase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresQuestioningPower ;
+        sh:class ex:QuestioningPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/DeepListeningPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DeepListeningPhase ;
+    sh:name "深掘りする聴く" ;
+    sh:description "ピラミッド構造で発言割合を増やし、なぜかを掘り下げる段階。" ;
+    sh:property [
+        sh:path ex:requiresQuestioningPower ;
+        sh:class ex:QuestioningPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SpecifyingAskingPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SpecifyingAskingPhase ;
+    sh:name "具体化する訊く" ;
+    sh:description "条件付きオープン質問や選択肢付きクローズド質問でピンポイント情報を得る段階。" ;
+    sh:property [
+        sh:path ex:requiresQuestioningPower ;
+        sh:class ex:QuestioningPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProblemSolvingQuestionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProblemSolvingQuestion ;
+    sh:name "課題解決質問" ;
+    sh:description "現状把握・深掘り・気づかせ・つなぎからなるSPIN応用の質問群。" ;
+    sh:property [
+        sh:path ex:requiresQuestioningPower ;
+        sh:class ex:QuestioningPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:examplePhrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValueQuadrantShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ValueQuadrant ;
+    sh:name "価値の四象限" ;
+    sh:description "機能価値と情緒価値の二軸で顧客価値を四ゾーンに分類する枠組み。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/LaborProvisionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LaborProvision ;
+    sh:name "労務提供" ;
+    sh:description "事務作業や手間を代行する、経験の浅い営業でも実行しやすい価値。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AffinityEmpathyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AffinityEmpathy ;
+    sh:name "好感・共感" ;
+    sh:description "マナーや人柄を通じパートナーとしての安心感を与える情緒価値。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InformationProvisionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InformationProvision ;
+    sh:name "情報提供・人の紹介" ;
+    sh:description "業界知識や有益な人脈を提供する機能的価値。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/PlusAlphaProposalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PlusAlphaProposal ;
+    sh:name "プラスアルファ・提言" ;
+    sh:description "優先課題に寄り添う斬新なアイデアと付加価値の高い提案。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesModel ;
+    sh:name "営業モデル" ;
+    sh:description "リスト数とリードタイムに応じて勝ちパターンと力の重心が変わる営業様式。" ;
+    sh:property [
+        sh:path ex:emphasizesPower ;
+        sh:class ex:SalesPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/RouteSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RouteSales ;
+    sh:name "ルート型営業" ;
+    sh:description "数百件の短期リストを行動量で回し、質問力・価値訴求力・提案行動力を重心とする型。" ;
+    sh:property [
+        sh:path ex:emphasizesPower ;
+        sh:class ex:SalesPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AccountSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AccountSales ;
+    sh:name "アカウント型営業" ;
+    sh:description "少数大口を論理で深掘りし、質問力・価値訴求力・提案ロジック構築力を重心とする型。" ;
+    sh:property [
+        sh:path ex:emphasizesPower ;
+        sh:class ex:SalesPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AnalysisFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnalysisFramework ;
+    sh:name "分析フレームワーク" ;
+    sh:description "案件把握や関係構築、逆転論理に用いる思考枠組みの総称。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BANTCHShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BANTCH ;
+    sh:name "バンチ" ;
+    sh:description "予算・決裁・ニーズ・時期・競合・人数で案件の真の状況を見極める確認枠。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/FiveCsShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FiveCs ;
+    sh:name "五つのシー" ;
+    sh:description "顧客、顧客の顧客、競合、自社、顧客の競合から刺さる情報を分析する枠。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/JohariWindowShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:JohariWindow ;
+    sh:name "ジョハリの窓" ;
+    sh:description "自己開示とフィードバックで開放の窓を広げ、パートナーシップを築く枠。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/RequirementOrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RequirementOrganization ;
+    sh:name "要件整理" ;
+    sh:description "キーワード化・具体化と網羅・優先順位確認で提案前のズレを防ぐ上流プロセス。" ;
+    sh:property [
+        sh:path ex:organizes ;
+        sh:class ex:SalesCase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/OppositionLogicShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OppositionLogic ;
+    sh:name "対立ロジック" ;
+    sh:description "自社と競合・保留・内製の対立を明示し、当社を選ぶ理由で不協和を解消する下流プロセス。" ;
+    sh:property [
+        sh:path ex:reverses ;
+        sh:class ex:CloseContestCase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:resolvesDissonance ;
+        sh:class ex:CognitiveDissonance ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CognitiveDissonanceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CognitiveDissonance ;
+    sh:name "認知的不協和" ;
+    sh:description "迷いによる不快感を、断りやすい理由の正当化で解消しようとする顧客心理。" .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesActionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesAction ;
+    sh:name "営業行動" ;
+    sh:description "商談前後の連絡、分割作成、電話商談、クロージングなどの実行行為。" ;
+    sh:property [
+        sh:path ex:drivenByActionPower ;
+        sh:class ex:ProposalActionPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/TenMinuteSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TenMinuteSales ;
+    sh:name "テンミニッツ営業" ;
+    sh:description "訪問しない時間に十分程度の電話商談を行い直後にお役立ちメールを送る行動。" ;
+    sh:property [
+        sh:path ex:followedByEmail ;
+        sh:class ex:HelpfulEmail ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:drivenByActionPower ;
+        sh:class ex:ProposalActionPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ClosingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Closing ;
+    sh:name "クロージング" ;
+    sh:description "コンペ型では費用対効果と安心感、稟議型では担当者支援と期限・宿題で決裁を進める行為。" ;
+    sh:property [
+        sh:path ex:examplePhrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:drivenByActionPower ;
+        sh:class ex:ProposalActionPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HelpfulEmailShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HelpfulEmail ;
+    sh:name "お役立ちメール" ;
+    sh:description "電話直後に議事録と課題へのレスポンスを分単位で送るフォローメール。" ;
+    sh:property [
+        sh:path ex:drivenByActionPower ;
+        sh:class ex:ProposalActionPower ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:timingNote ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/PillowPhraseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PillowPhrase ;
+    sh:name "枕詞" ;
+    sh:description "もし仮に、個人的な意見、ビジョン実現のため、などで心理的ハードルを下げる前置き。" ;
+    sh:property [
+        sh:path ex:describedAs ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:examplePhrase ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .

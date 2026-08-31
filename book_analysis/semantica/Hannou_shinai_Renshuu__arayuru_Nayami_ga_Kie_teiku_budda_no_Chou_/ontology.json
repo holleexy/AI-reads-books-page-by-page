@@ -1,0 +1,411 @@
+{
+  "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/",
+  "name": "Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_Ontology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Book",
+      "label": "書籍",
+      "comment": "ブッダの教えに基づき、ムダな心の反応をしないことで悩みを解消する実践を解説した書物。",
+      "parent": null
+    },
+    {
+      "name": "BuddhaTeaching",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/BuddhaTeaching",
+      "label": "ブッダの教え",
+      "comment": "宗教ではなく合理的で実用的な思考法として抽出された原始仏教の知恵。",
+      "parent": null
+    },
+    {
+      "name": "FourNobleTruth",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/FourNobleTruth",
+      "label": "四聖諦",
+      "comment": "苦諦・集諦・滅諦・道諦からなり、苦しみをなくそうとする前にまず理解する枠組み。",
+      "parent": "BuddhaTeaching"
+    },
+    {
+      "name": "Worry",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Worry",
+      "label": "悩み",
+      "comment": "心が何かに反応し動揺や落ち込みが生じるプロセスそのものであり、すべての苦しみの現れ。",
+      "parent": null
+    },
+    {
+      "name": "MentalReaction",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/MentalReaction",
+      "label": "心の反応",
+      "comment": "外部刺激に対する心の自動的な反応であり、すべての悩みの根本原因。",
+      "parent": null
+    },
+    {
+      "name": "Craving",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Craving",
+      "label": "タンハー",
+      "comment": "反応し続ける心のエネルギーである求める心。",
+      "parent": null
+    },
+    {
+      "name": "Desire",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Desire",
+      "label": "欲求",
+      "comment": "生存欲・睡眠欲・食欲・性欲・怠惰欲・感楽欲・承認欲求からなる七つの欲求。",
+      "parent": "Craving"
+    },
+    {
+      "name": "ApprovalNeed",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ApprovalNeed",
+      "label": "承認欲求",
+      "comment": "認められたいという欲求であり、嫉妬・比較・競争心の根源となる現代人にとって最も切実な欲求。",
+      "parent": "Desire"
+    },
+    {
+      "name": "NonReactionPractice",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/NonReactionPractice",
+      "label": "反応しない練習",
+      "comment": "無感情になることではなく、怒りや苦しみを素早くリセットしムダな反応をしない実践。",
+      "parent": null
+    },
+    {
+      "name": "PracticeMethod",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/PracticeMethod",
+      "label": "実践方法",
+      "comment": "心の状態を見てムダな反応をしないためのラベリング・感覚への意識・心の分類などの方法。",
+      "parent": null
+    },
+    {
+      "name": "Labeling",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Labeling",
+      "label": "ラベリング",
+      "comment": "心の状態を客観的な言葉で確認し、「今、妄想している」などと認識する方法。",
+      "parent": "PracticeMethod"
+    },
+    {
+      "name": "Mindfulness",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Mindfulness",
+      "label": "サティ",
+      "comment": "手・足裏・呼吸などの身体感覚に意識を向け、妄想の世界から感覚の世界へ移るマインドフルネス。",
+      "parent": "PracticeMethod"
+    },
+    {
+      "name": "ThreePoison",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ThreePoison",
+      "label": "三毒",
+      "comment": "心の状態を分類する貪欲・怒り・妄想の三つの基本カテゴリー。",
+      "parent": null
+    },
+    {
+      "name": "Greed",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Greed",
+      "label": "貪欲",
+      "comment": "過度に期待しすぎたり焦ったりする心の状態。",
+      "parent": "ThreePoison"
+    },
+    {
+      "name": "Anger",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Anger",
+      "label": "怒り",
+      "comment": "不満や不快を感じている状態。悲しみ・未練・挫折感・コンプレックスや嫉妬も含む。",
+      "parent": "ThreePoison"
+    },
+    {
+      "name": "Delusion",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Delusion",
+      "label": "妄想",
+      "comment": "あれこれ不要な考えを巡らせている状態であり、人間のナンバーワンの煩悩。",
+      "parent": "ThreePoison"
+    },
+    {
+      "name": "Judgment",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Judgment",
+      "label": "判断",
+      "comment": "いい・悪い、好き・嫌いという二極化の評価。執着すると自分や他人を苦しめる猛毒となる。",
+      "parent": null
+    },
+    {
+      "name": "Conceit",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Conceit",
+      "label": "慢",
+      "comment": "自分は正しい・優れているというこだわり。プライドだけでなく劣等感や自信のなさも含む。",
+      "parent": null
+    },
+    {
+      "name": "HumanRelationship",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/HumanRelationship",
+      "label": "人間関係",
+      "comment": "感情の問題と関わりの問題を分け、相手を判断せずまず理解すべき対人関係。",
+      "parent": null
+    },
+    {
+      "name": "FourImmeasurableMind",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/FourImmeasurableMind",
+      "label": "四無量心",
+      "comment": "慈・悲・喜・捨からなる生きるための基本の心がけ。競争や欲・怒り・妄想から自由になる動機。",
+      "parent": null
+    },
+    {
+      "name": "FiveHindrance",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/FiveHindrance",
+      "label": "五蓋",
+      "comment": "快楽・怒り・怠惰・そわそわ・疑いなど、目的達成を阻害する五つの障害。",
+      "parent": null
+    },
+    {
+      "name": "RightEffort",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/RightEffort",
+      "label": "正しい努力",
+      "comment": "改善・集中・納得を条件に、ムダな反応をリセットして目の前の作業に無心で取り組む努力。",
+      "parent": null
+    },
+    {
+      "name": "ThreeRefuge",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ThreeRefuge",
+      "label": "三帰依",
+      "comment": "ブッダ・ダンマ・サンガに基づき、正しい生き方を自ら心の土台にすえること。",
+      "parent": null
+    },
+    {
+      "name": "Jealousy",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Jealousy",
+      "label": "嫉妬",
+      "comment": "承認欲求が満たされない怒りを相手に向けている状態であり、脚下照顧によって内側の動機へ降りることが必要。",
+      "parent": "Anger"
+    },
+    {
+      "name": "Memory",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Memory",
+      "label": "記憶",
+      "comment": "過去への執着として反応し続ける対象。結生として強い反応のエネルギーを残し過剰反応を引き起こす。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "isBasedOn",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "BuddhaTeaching"
+      ],
+      "label": "基づく",
+      "comment": "本書が依拠するブッダの教えを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isBasedOn"
+    },
+    {
+      "name": "hasCause",
+      "type": "object",
+      "domain": [
+        "Worry"
+      ],
+      "range": [
+        "MentalReaction"
+      ],
+      "label": "原因を持つ",
+      "comment": "悩みが心の反応から始まることを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/hasCause"
+    },
+    {
+      "name": "isEnergizedBy",
+      "type": "object",
+      "domain": [
+        "MentalReaction"
+      ],
+      "range": [
+        "Craving"
+      ],
+      "label": "エネルギー源とする",
+      "comment": "心の反応がタンハーによって持続することを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isEnergizedBy"
+    },
+    {
+      "name": "includesDesire",
+      "type": "object",
+      "domain": [
+        "Craving"
+      ],
+      "range": [
+        "Desire"
+      ],
+      "label": "欲求を含む",
+      "comment": "求める心が七つの欲求を含むことを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/includesDesire"
+    },
+    {
+      "name": "isPracticedThrough",
+      "type": "object",
+      "domain": [
+        "NonReactionPractice"
+      ],
+      "range": [
+        "PracticeMethod"
+      ],
+      "label": "実践手段とする",
+      "comment": "反応しない練習がラベリングやサティなどの具体的方法によって行われることを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isPracticedThrough"
+    },
+    {
+      "name": "classifiesState",
+      "type": "object",
+      "domain": [
+        "PracticeMethod"
+      ],
+      "range": [
+        "ThreePoison"
+      ],
+      "label": "心を分類する",
+      "comment": "実践方法が貪欲・怒り・妄想として心の状態を分類することを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/classifiesState"
+    },
+    {
+      "name": "producesWorry",
+      "type": "object",
+      "domain": [
+        "Judgment"
+      ],
+      "range": [
+        "Worry"
+      ],
+      "label": "悩みを生み出す",
+      "comment": "二極化の判断が悩みを作り出すことを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/producesWorry"
+    },
+    {
+      "name": "involvesConceit",
+      "type": "object",
+      "domain": [
+        "Judgment"
+      ],
+      "range": [
+        "Conceit"
+      ],
+      "label": "慢を伴う",
+      "comment": "判断が慢（自分が正しいというこだわり）と結びつくことを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/involvesConceit"
+    },
+    {
+      "name": "isDealtWithBy",
+      "type": "object",
+      "domain": [
+        "HumanRelationship"
+      ],
+      "range": [
+        "NonReactionPractice"
+      ],
+      "label": "対処される",
+      "comment": "人間関係の悩みが反応しない実践によって対処されることを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isDealtWithBy"
+    },
+    {
+      "name": "isMotivatedBy",
+      "type": "object",
+      "domain": [
+        "RightEffort"
+      ],
+      "range": [
+        "FourImmeasurableMind"
+      ],
+      "label": "動機づけられる",
+      "comment": "正しい努力が四無量心を動機とすることを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isMotivatedBy"
+    },
+    {
+      "name": "isObstructedBy",
+      "type": "object",
+      "domain": [
+        "RightEffort"
+      ],
+      "range": [
+        "FiveHindrance"
+      ],
+      "label": "妨げられる",
+      "comment": "正しい努力が五蓋によって阻害されることを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isObstructedBy"
+    },
+    {
+      "name": "isGroundedIn",
+      "type": "object",
+      "domain": [
+        "ThreeRefuge"
+      ],
+      "range": [
+        "BuddhaTeaching"
+      ],
+      "label": "よりどころとする",
+      "comment": "三帰依がブッダの教えを心の土台とすることを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isGroundedIn"
+    },
+    {
+      "name": "isTriggeredBy",
+      "type": "object",
+      "domain": [
+        "MentalReaction"
+      ],
+      "range": [
+        "Memory"
+      ],
+      "label": "記憶に引き起こされる",
+      "comment": "心の反応が過去の記憶によって引き起こされることを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isTriggeredBy"
+    },
+    {
+      "name": "overcomes",
+      "type": "object",
+      "domain": [
+        "NonReactionPractice"
+      ],
+      "range": [
+        "Worry"
+      ],
+      "label": "解消する",
+      "comment": "反応しない練習が悩みを解消することを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/overcomes"
+    },
+    {
+      "name": "teaches",
+      "type": "object",
+      "domain": [
+        "BuddhaTeaching"
+      ],
+      "range": [
+        "PracticeMethod",
+        "FourNobleTruth",
+        "NonReactionPractice"
+      ],
+      "label": "教える",
+      "comment": "ブッダの教えが実践方法や四聖諦、反応しない練習を示すことを表す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/teaches"
+    },
+    {
+      "name": "stemsFrom",
+      "type": "object",
+      "domain": [
+        "Jealousy"
+      ],
+      "range": [
+        "ApprovalNeed"
+      ],
+      "label": "由来する",
+      "comment": "嫉妬が承認欲求の不満から生じることを示す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/stemsFrom"
+    },
+    {
+      "name": "hasTitle",
+      "type": "data",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "題名",
+      "comment": "書籍の題名を表す。",
+      "uri": "https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/hasTitle"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

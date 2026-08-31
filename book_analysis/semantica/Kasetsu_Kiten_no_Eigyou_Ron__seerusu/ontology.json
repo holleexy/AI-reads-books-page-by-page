@@ -1,0 +1,345 @@
+{
+  "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/",
+  "name": "Kasetsu_Kiten_no_Eigyou_Ron__seerusuOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "SalesPerson",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesPerson",
+      "label": "セールスパーソン",
+      "comment": "顧客対応や製品理解を行い、型の限界を超えてトップセールスを目指す営業担当者。",
+      "parent": null
+    },
+    {
+      "name": "SalesKata",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesKata",
+      "label": "営業の型",
+      "comment": "基本手法を教える定型だが、顧客に合わせたカスタマイズ提案のスキルは養われない。",
+      "parent": null
+    },
+    {
+      "name": "IntermediaryValue",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/IntermediaryValue",
+      "label": "介在価値",
+      "comment": "営業が生み出す付加価値。売上至上主義ではなく顧客提供価値を前提とする存在意義。",
+      "parent": null
+    },
+    {
+      "name": "Hypothesis",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Hypothesis",
+      "label": "仮説",
+      "comment": "情報不足の状況で一時的に立てる結論。間違えてもよい前提で早期に顧客にぶつける。",
+      "parent": null
+    },
+    {
+      "name": "HypothesisThinking",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/HypothesisThinking",
+      "label": "仮説思考",
+      "comment": "ゴールから逆算し、必要最小限の情報で検証する思考。キーエンスのガイ報制度などで実践される。",
+      "parent": null
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Customer",
+      "label": "顧客",
+      "comment": "課題が複雑化し自ら気づけていない対象。サブスクリプションではLTVが重視される。",
+      "parent": null
+    },
+    {
+      "name": "CustomerIssue",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/CustomerIssue",
+      "label": "顧客課題",
+      "comment": "複雑化した顧客の問題。営業は仮説により気づかせ決断と行動を支援する。",
+      "parent": null
+    },
+    {
+      "name": "HypothesisPerspective",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/HypothesisPerspective",
+      "label": "仮説構築の視点",
+      "comment": "ゴールから見る、俯瞰する、分解する、顧客視点、エッジから見るの5つの視点。",
+      "parent": null
+    },
+    {
+      "name": "BusinessFramework",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/BusinessFramework",
+      "label": "ビジネスフレームワーク",
+      "comment": "3C、PEST、ファイブフォース、VRIO、SWOT、STP、4Pなどの分析と戦略の枠組み。",
+      "parent": null
+    },
+    {
+      "name": "ThreeCAnalysis",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/ThreeCAnalysis",
+      "label": "3C分析",
+      "comment": "顧客・自社・競合の相互作用からバリュープロポジションを明確にする。",
+      "parent": "BusinessFramework"
+    },
+    {
+      "name": "SWOTAnalysis",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SWOTAnalysis",
+      "label": "SWOT分析",
+      "comment": "強み弱みと機会脅威を掛け合わせ具体的戦略を立案する。",
+      "parent": "BusinessFramework"
+    },
+    {
+      "name": "InferenceMethod",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/InferenceMethod",
+      "label": "推論手法",
+      "comment": "演繹法、帰納法、アブダクション。仮説作りにはアブダクションが最も有効。",
+      "parent": null
+    },
+    {
+      "name": "Abduction",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Abduction",
+      "label": "アブダクション",
+      "comment": "結果とルールから原因を推測する仮説推論。",
+      "parent": "InferenceMethod"
+    },
+    {
+      "name": "CognitiveBias",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/CognitiveBias",
+      "label": "認知バイアス",
+      "comment": "プロスペクト理論、サンクコスト、現状維持バイアスなど人間の非合理判断。",
+      "parent": null
+    },
+    {
+      "name": "ProspectTheory",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/ProspectTheory",
+      "label": "プロスペクト理論",
+      "comment": "利益より損失を約2倍大きく感じる損失回避性。",
+      "parent": "CognitiveBias"
+    },
+    {
+      "name": "SalesTechnique",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SalesTechnique",
+      "label": "営業技術",
+      "comment": "SPIN話法、BANT、PSS、PREP法、交渉とクロージングなどの実践スキル。",
+      "parent": null
+    },
+    {
+      "name": "SPINMethod",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/SPINMethod",
+      "label": "SPIN話法",
+      "comment": "状況・問題・示唆・解決質問で潜在課題を引き出し影響を気づかせる。",
+      "parent": "SalesTechnique"
+    },
+    {
+      "name": "Fact",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Fact",
+      "label": "事実",
+      "comment": "客観的な出来事。解釈と明確に分離して報告する必要がある。",
+      "parent": null
+    },
+    {
+      "name": "Interpretation",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/Interpretation",
+      "label": "解釈",
+      "comment": "仮説に基づく主観。事実として伝えると信頼を損なう危険がある。",
+      "parent": null
+    },
+    {
+      "name": "VerificationProcess",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/VerificationProcess",
+      "label": "仮説検証プロセス",
+      "comment": "粗い仮説を早期に顧客と共に磨き上げる。リーンスタートアップのMVP発想に近い。",
+      "parent": null
+    },
+    {
+      "name": "DataAnalysis",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/DataAnalysis",
+      "label": "データ分析",
+      "comment": "適切な可視化と因果・相関の区別、疑似相関や交絡因子に注意しA/Bテストで検証する。",
+      "parent": null
+    },
+    {
+      "name": "FutureSalesRole",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/FutureSalesRole",
+      "label": "これからの営業の価値",
+      "comment": "仮説を用いて顧客が取り組むべき課題に気づかせ、スピード感を持って決断し行動できるよう支援すること。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "createsValue",
+      "type": "object",
+      "domain": [
+        "SalesPerson"
+      ],
+      "range": [
+        "IntermediaryValue"
+      ],
+      "label": "介在価値を生み出す",
+      "comment": "セールスパーソンが付加価値を創出する関係。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/createsValue"
+    },
+    {
+      "name": "constructsHypothesis",
+      "type": "object",
+      "domain": [
+        "SalesPerson",
+        "HypothesisThinking"
+      ],
+      "range": [
+        "Hypothesis"
+      ],
+      "label": "仮説を構築する",
+      "comment": "仮説思考により一時的な結論を立てる。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/constructsHypothesis"
+    },
+    {
+      "name": "appliesTo",
+      "type": "object",
+      "domain": [
+        "Hypothesis"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "顧客に適用される",
+      "comment": "仮説を顧客にぶつけ共に磨き上げる。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/appliesTo"
+    },
+    {
+      "name": "addressesIssue",
+      "type": "object",
+      "domain": [
+        "Hypothesis",
+        "IntermediaryValue",
+        "FutureSalesRole"
+      ],
+      "range": [
+        "CustomerIssue"
+      ],
+      "label": "課題に取り組む",
+      "comment": "顧客課題の気づきと解決を支援する。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/addressesIssue"
+    },
+    {
+      "name": "usesPerspective",
+      "type": "object",
+      "domain": [
+        "HypothesisThinking"
+      ],
+      "range": [
+        "HypothesisPerspective"
+      ],
+      "label": "視点を用いる",
+      "comment": "5つの視点から仮説を立てる。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/usesPerspective"
+    },
+    {
+      "name": "usesFramework",
+      "type": "object",
+      "domain": [
+        "SalesPerson",
+        "HypothesisThinking"
+      ],
+      "range": [
+        "BusinessFramework"
+      ],
+      "label": "フレームワークを使用する",
+      "comment": "分析や戦略立案にビジネスフレームワークを活用する。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/usesFramework"
+    },
+    {
+      "name": "usesTechnique",
+      "type": "object",
+      "domain": [
+        "SalesPerson"
+      ],
+      "range": [
+        "SalesTechnique"
+      ],
+      "label": "営業技術を用いる",
+      "comment": "ヒアリングや交渉に実践的スキルを適用する。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/usesTechnique"
+    },
+    {
+      "name": "influencedByBias",
+      "type": "object",
+      "domain": [
+        "Customer",
+        "SalesPerson"
+      ],
+      "range": [
+        "CognitiveBias"
+      ],
+      "label": "バイアスの影響を受ける",
+      "comment": "認知バイアスが判断に影響する。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/influencedByBias"
+    },
+    {
+      "name": "distinguishesFrom",
+      "type": "object",
+      "domain": [
+        "Fact"
+      ],
+      "range": [
+        "Interpretation"
+      ],
+      "label": "解釈と区別される",
+      "comment": "事実と解釈を明確に分離することが信頼維持に重要。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/distinguishesFrom"
+    },
+    {
+      "name": "verifiedBy",
+      "type": "object",
+      "domain": [
+        "Hypothesis"
+      ],
+      "range": [
+        "VerificationProcess",
+        "DataAnalysis"
+      ],
+      "label": "検証される",
+      "comment": "仮説は検証プロセスやデータ分析により確認される。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/verifiedBy"
+    },
+    {
+      "name": "derivedUsing",
+      "type": "object",
+      "domain": [
+        "Hypothesis"
+      ],
+      "range": [
+        "InferenceMethod"
+      ],
+      "label": "推論により導出される",
+      "comment": "特にアブダクションを用いて仮説を作る。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/derivedUsing"
+    },
+    {
+      "name": "limitedBy",
+      "type": "object",
+      "domain": [
+        "SalesPerson"
+      ],
+      "range": [
+        "SalesKata"
+      ],
+      "label": "型により制限される",
+      "comment": "型の習得が応用力育成の弊害となる場合がある。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/limitedBy"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "Hypothesis",
+        "IntermediaryValue",
+        "CustomerIssue",
+        "SalesKata"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "概念や実体の詳細な説明を表す。",
+      "uri": "https://books.local/Kasetsu_Kiten_no_Eigyou_Ron__seerusu/description"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

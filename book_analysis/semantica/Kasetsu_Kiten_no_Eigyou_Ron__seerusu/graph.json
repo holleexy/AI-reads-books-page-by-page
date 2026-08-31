@@ -1,0 +1,4848 @@
+{
+  "entities": [
+    {
+      "id": "営業パーソン",
+      "name": "営業パーソン",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "営業パーソン",
+              "name": "営業パーソン",
+              "source": null
+            },
+            {
+              "id": "営業パーソン",
+              "name": "営業パーソン",
+              "source": null
+            },
+            {
+              "id": "営業",
+              "name": "営業",
+              "source": null
+            },
+            {
+              "id": "営業",
+              "name": "営業",
+              "source": null
+            },
+            {
+              "id": "営業手法",
+              "name": "営業手法",
+              "source": null
+            },
+            {
+              "id": "営業活動",
+              "name": "営業活動",
+              "source": null
+            },
+            {
+              "id": "営業の現場",
+              "name": "営業の現場",
+              "source": null
+            },
+            {
+              "id": "営業スタイル",
+              "name": "営業スタイル",
+              "source": null
+            },
+            {
+              "id": "営業の成長プロセス",
+              "name": "営業の成長プロセス",
+              "source": null
+            }
+          ],
+          "merge_count": 9
+        }
+      },
+      "merged_from": [
+        "営業パーソン",
+        "営業パーソン",
+        "営業",
+        "営業",
+        "営業手法",
+        "営業活動",
+        "営業の現場",
+        "営業スタイル",
+        "営業の成長プロセス"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "仮説",
+      "name": "仮説",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "仮説",
+              "name": "仮説",
+              "source": null
+            },
+            {
+              "id": "仮説",
+              "name": "仮説",
+              "source": null
+            },
+            {
+              "id": "仮説立案",
+              "name": "仮説立案",
+              "source": null
+            },
+            {
+              "id": "仮説思考",
+              "name": "仮説思考",
+              "source": null
+            },
+            {
+              "id": "仮説構築",
+              "name": "仮説構築",
+              "source": null
+            },
+            {
+              "id": "仮説構築",
+              "name": "仮説構築",
+              "source": null
+            },
+            {
+              "id": "仮説構築力",
+              "name": "仮説構築力",
+              "source": null
+            },
+            {
+              "id": "仮説構築のスキル",
+              "name": "仮説構築のスキル",
+              "source": null
+            },
+            {
+              "id": "仮説を立てる",
+              "name": "仮説を立てる",
+              "source": null
+            },
+            {
+              "id": "仮説を立てる",
+              "name": "仮説を立てる",
+              "source": null
+            },
+            {
+              "id": "仮説を立てる力",
+              "name": "仮説を立てる力",
+              "source": null
+            }
+          ],
+          "merge_count": 11
+        }
+      },
+      "merged_from": [
+        "仮説",
+        "仮説",
+        "仮説立案",
+        "仮説思考",
+        "仮説構築",
+        "仮説構築",
+        "仮説構築力",
+        "仮説構築のスキル",
+        "仮説を立てる",
+        "仮説を立てる",
+        "仮説を立てる力"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "課題",
+      "name": "課題",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "課題",
+              "name": "課題",
+              "source": null
+            },
+            {
+              "id": "課題",
+              "name": "課題",
+              "source": null
+            },
+            {
+              "id": "課題解決",
+              "name": "課題解決",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "課題",
+        "課題",
+        "課題解決"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "How",
+      "name": "How",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "How",
+              "name": "How",
+              "source": null
+            },
+            {
+              "id": "How",
+              "name": "How",
+              "source": null
+            },
+            {
+              "id": "How to",
+              "name": "How to",
+              "source": null
+            },
+            {
+              "id": "How-to本",
+              "name": "How-to本",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "How",
+        "How",
+        "How to",
+        "How-to本"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "型",
+      "name": "型",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "型",
+              "name": "型",
+              "source": null
+            },
+            {
+              "id": "型",
+              "name": "型",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "型",
+        "型"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "What",
+      "name": "What",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "What",
+              "name": "What",
+              "source": null
+            },
+            {
+              "id": "What",
+              "name": "What",
+              "source": null
+            },
+            {
+              "id": "Why",
+              "name": "Why",
+              "source": null
+            },
+            {
+              "id": "Why",
+              "name": "Why",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "What",
+        "What",
+        "Why",
+        "Why"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "スタートアップ",
+      "name": "スタートアップ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "スタートアップ",
+              "name": "スタートアップ",
+              "source": null
+            },
+            {
+              "id": "スタートアップ",
+              "name": "スタートアップ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "スタートアップ",
+        "スタートアップ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "カスタマーサクセス",
+      "name": "カスタマーサクセス",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "カスタマーサクセス",
+              "name": "カスタマーサクセス",
+              "source": null
+            },
+            {
+              "id": "カスタマーサクセス",
+              "name": "カスタマーサクセス",
+              "source": null
+            },
+            {
+              "id": "カスタマイズ",
+              "name": "カスタマイズ",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "カスタマーサクセス",
+        "カスタマーサクセス",
+        "カスタマイズ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "思考法",
+      "name": "思考法",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "思考法",
+              "name": "思考法",
+              "source": null
+            },
+            {
+              "id": "思考法",
+              "name": "思考法",
+              "source": null
+            },
+            {
+              "id": "思考力",
+              "name": "思考力",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "思考法",
+        "思考法",
+        "思考力"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "顧客",
+      "name": "顧客",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "顧客",
+              "name": "顧客",
+              "source": null
+            },
+            {
+              "id": "顧客",
+              "name": "顧客",
+              "source": null
+            },
+            {
+              "id": "顧客対応",
+              "name": "顧客対応",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "顧客",
+        "顧客",
+        "顧客対応"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Ga-i-hou",
+      "name": "Ga-i-hou",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Ga-i-hou",
+              "name": "Ga-i-hou",
+              "source": null
+            },
+            {
+              "id": "Ga-i-hou",
+              "name": "Ga-i-hou",
+              "source": null
+            },
+            {
+              "id": "Ga-i-hou process",
+              "name": "Ga-i-hou process",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "Ga-i-hou",
+        "Ga-i-hou",
+        "Ga-i-hou process"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "法人営業",
+      "name": "法人営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "法人営業",
+              "name": "法人営業",
+              "source": null
+            },
+            {
+              "id": "法人営業",
+              "name": "法人営業",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "法人営業",
+        "法人営業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "ice-breaker",
+      "name": "ice-breaker",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ice-breaker",
+              "name": "ice-breaker",
+              "source": null
+            },
+            {
+              "id": "ice-breaker",
+              "name": "ice-breaker",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ice-breaker",
+        "ice-breaker"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "アイスブレイク",
+      "name": "アイスブレイク",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "アイスブレイク",
+              "name": "アイスブレイク",
+              "source": null
+            },
+            {
+              "id": "アイスブレイク",
+              "name": "アイスブレイク",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "アイスブレイク",
+        "アイスブレイク"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "日本",
+      "name": "日本",
+      "type": "GPE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "日本",
+              "name": "日本",
+              "source": null
+            },
+            {
+              "id": "日本",
+              "name": "日本",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "日本",
+        "日本"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Perspective 2",
+      "name": "Perspective 2",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Perspective 2",
+              "name": "Perspective 2",
+              "source": null
+            },
+            {
+              "id": "Perspective 4",
+              "name": "Perspective 4",
+              "source": null
+            },
+            {
+              "id": "PEST",
+              "name": "PEST",
+              "source": null
+            },
+            {
+              "id": "PSS",
+              "name": "PSS",
+              "source": null
+            },
+            {
+              "id": "PREP",
+              "name": "PREP",
+              "source": null
+            },
+            {
+              "id": "PR",
+              "name": "PR",
+              "source": null
+            },
+            {
+              "id": "PR記事",
+              "name": "PR記事",
+              "source": null
+            },
+            {
+              "id": "Pareto Principle",
+              "name": "Pareto Principle",
+              "source": null
+            },
+            {
+              "id": "pure interrogation",
+              "name": "pure interrogation",
+              "source": null
+            },
+            {
+              "id": "Population Curve",
+              "name": "Population Curve",
+              "source": null
+            }
+          ],
+          "merge_count": 10
+        }
+      },
+      "merged_from": [
+        "Perspective 2",
+        "Perspective 4",
+        "PEST",
+        "PSS",
+        "PREP",
+        "PR",
+        "PR記事",
+        "Pareto Principle",
+        "pure interrogation",
+        "Population Curve"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Chapter 3",
+      "name": "Chapter 3",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Chapter 3",
+              "name": "Chapter 3",
+              "source": null
+            },
+            {
+              "id": "Chapter 5",
+              "name": "Chapter 5",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Chapter 3",
+        "Chapter 5"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "hypothesis ideas",
+      "name": "hypothesis ideas",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "hypothesis ideas",
+              "name": "hypothesis ideas",
+              "source": null
+            },
+            {
+              "id": "hypothesis traps",
+              "name": "hypothesis traps",
+              "source": null
+            },
+            {
+              "id": "hypotheses",
+              "name": "hypotheses",
+              "source": null
+            },
+            {
+              "id": "hypotheses",
+              "name": "hypotheses",
+              "source": null
+            },
+            {
+              "id": "hypothesis",
+              "name": "hypothesis",
+              "source": null
+            },
+            {
+              "id": "hypothesis-based selling",
+              "name": "hypothesis-based selling",
+              "source": null
+            },
+            {
+              "id": "hypothesis verification",
+              "name": "hypothesis verification",
+              "source": null
+            },
+            {
+              "id": "Hypothesis construction",
+              "name": "Hypothesis construction",
+              "source": null
+            }
+          ],
+          "merge_count": 8
+        }
+      },
+      "merged_from": [
+        "hypothesis ideas",
+        "hypothesis traps",
+        "hypotheses",
+        "hypotheses",
+        "hypothesis",
+        "hypothesis-based selling",
+        "hypothesis verification",
+        "Hypothesis construction"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "business",
+      "name": "business",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "business",
+              "name": "business",
+              "source": null
+            },
+            {
+              "id": "business models",
+              "name": "business models",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "business",
+        "business models"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Keyence",
+      "name": "Keyence",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Keyence",
+              "name": "Keyence",
+              "source": null
+            },
+            {
+              "id": "Keyence Corporation",
+              "name": "Keyence Corporation",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Keyence",
+        "Keyence Corporation"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Osborne",
+      "name": "Osborne",
+      "type": "PERSON",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Osborne",
+              "name": "Osborne",
+              "source": null
+            },
+            {
+              "id": "Osborne's Checklist",
+              "name": "Osborne's Checklist",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Osborne",
+        "Osborne's Checklist"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "AIDMA",
+      "name": "AIDMA",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "AIDMA",
+              "name": "AIDMA",
+              "source": null
+            },
+            {
+              "id": "AISAS",
+              "name": "AISAS",
+              "source": null
+            },
+            {
+              "id": "Akiya Imai",
+              "name": "Akiya Imai",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "AIDMA",
+        "AISAS",
+        "Akiya Imai"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "heuristics",
+      "name": "heuristics",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "heuristics",
+              "name": "heuristics",
+              "source": null
+            },
+            {
+              "id": "hearings/inquiries",
+              "name": "hearings/inquiries",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "heuristics",
+        "hearings/inquiries"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "individual goals",
+      "name": "individual goals",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "individual goals",
+              "name": "individual goals",
+              "source": null
+            },
+            {
+              "id": "inductive reasoning",
+              "name": "inductive reasoning",
+              "source": null
+            },
+            {
+              "id": "inside sales",
+              "name": "inside sales",
+              "source": null
+            },
+            {
+              "id": "inbound sales",
+              "name": "inbound sales",
+              "source": null
+            },
+            {
+              "id": "Innovator Theory & Chasm",
+              "name": "Innovator Theory & Chasm",
+              "source": null
+            },
+            {
+              "id": "Initial hypothesis creation",
+              "name": "Initial hypothesis creation",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "individual goals",
+        "inductive reasoning",
+        "inside sales",
+        "inbound sales",
+        "Innovator Theory & Chasm",
+        "Initial hypothesis creation"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "SMART",
+      "name": "SMART",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "SMART",
+              "name": "SMART",
+              "source": null
+            },
+            {
+              "id": "SMB sales",
+              "name": "SMB sales",
+              "source": null
+            },
+            {
+              "id": "SWOT",
+              "name": "SWOT",
+              "source": null
+            },
+            {
+              "id": "SAP",
+              "name": "SAP",
+              "source": null
+            },
+            {
+              "id": "STP",
+              "name": "STP",
+              "source": null
+            },
+            {
+              "id": "sales",
+              "name": "sales",
+              "source": null
+            },
+            {
+              "id": "sales",
+              "name": "sales",
+              "source": null
+            },
+            {
+              "id": "sales enablement",
+              "name": "sales enablement",
+              "source": null
+            },
+            {
+              "id": "seniors",
+              "name": "seniors",
+              "source": null
+            },
+            {
+              "id": "SNS",
+              "name": "SNS",
+              "source": null
+            },
+            {
+              "id": "SNS",
+              "name": "SNS",
+              "source": null
+            }
+          ],
+          "merge_count": 11
+        }
+      },
+      "merged_from": [
+        "SMART",
+        "SMB sales",
+        "SWOT",
+        "SAP",
+        "STP",
+        "sales",
+        "sales",
+        "sales enablement",
+        "seniors",
+        "SNS",
+        "SNS"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Five Forces",
+      "name": "Five Forces",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Five Forces",
+              "name": "Five Forces",
+              "source": null
+            },
+            {
+              "id": "field sales",
+              "name": "field sales",
+              "source": null
+            },
+            {
+              "id": "Financial Statements",
+              "name": "Financial Statements",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "Five Forces",
+        "field sales",
+        "Financial Statements"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "基本手法",
+      "name": "基本手法",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "基本手法",
+              "name": "基本手法",
+              "source": null
+            },
+            {
+              "id": "基本スキル",
+              "name": "基本スキル",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "基本手法",
+        "基本スキル"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "View from a distance",
+      "name": "View from a distance",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "View from a distance",
+              "name": "View from a distance",
+              "source": null
+            },
+            {
+              "id": "VRIO",
+              "name": "VRIO",
+              "source": null
+            },
+            {
+              "id": "VISAS",
+              "name": "VISAS",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "View from a distance",
+        "VRIO",
+        "VISAS"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "製品理解",
+      "name": "製品理解",
+      "text": "製品理解",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "受注率",
+      "name": "受注率",
+      "text": "受注率",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "トップセールス",
+      "name": "トップセールス",
+      "text": "トップセールス",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "考える力",
+      "name": "考える力",
+      "text": "考える力",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "方法論",
+      "name": "方法論",
+      "text": "方法論",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "成長過程",
+      "name": "成長過程",
+      "text": "成長過程",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "応用力",
+      "name": "応用力",
+      "text": "応用力",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "自主的な思考力",
+      "name": "自主的な思考力",
+      "text": "自主的な思考力",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "6年半",
+      "name": "6年半",
+      "text": "6年半",
+      "type": "DATE",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "OpenText",
+      "name": "OpenText",
+      "text": "OpenText",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "freee",
+      "name": "freee",
+      "text": "freee",
+      "type": "ORG",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Go To Market",
+      "name": "Go To Market",
+      "text": "Go To Market",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "市場進出戦略",
+      "name": "市場進出戦略",
+      "text": "市場進出戦略",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "マーケティング",
+      "name": "マーケティング",
+      "text": "マーケティング",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "根拠",
+      "name": "根拠",
+      "text": "根拠",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "エンタープライズ",
+      "name": "エンタープライズ",
+      "text": "エンタープライズ",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "大企業",
+      "name": "大企業",
+      "text": "大企業",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "仲介価値",
+      "name": "仲介価値",
+      "text": "仲介価値",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "介在価値",
+      "name": "介在価値",
+      "text": "介在価値",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "6W3H",
+      "name": "6W3H",
+      "text": "6W3H",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "4 No's",
+      "name": "4 No's",
+      "text": "4 No's",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "四つの不",
+      "name": "四つの不",
+      "text": "四つの不",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Wall of Unnecessary",
+      "name": "Wall of Unnecessary",
+      "text": "Wall of Unnecessary",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "不要の壁",
+      "name": "不要の壁",
+      "text": "不要の壁",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Pull back",
+      "name": "Pull back",
+      "text": "Pull back",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "organizational goals",
+      "name": "organizational goals",
+      "text": "organizational goals",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "MECE",
+      "name": "MECE",
+      "text": "MECE",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "3C",
+      "name": "3C",
+      "text": "3C",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Value Chain",
+      "name": "Value Chain",
+      "text": "Value Chain",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "PPM",
+      "name": "PPM",
+      "text": "PPM",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "4P",
+      "name": "4P",
+      "text": "4P",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Demand Waterfall",
+      "name": "Demand Waterfall",
+      "text": "Demand Waterfall",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "5W1H",
+      "name": "5W1H",
+      "text": "5W1H",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Customer perspective",
+      "name": "Customer perspective",
+      "text": "Customer perspective",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Jobs",
+      "name": "Jobs",
+      "text": "Jobs",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "causality",
+      "name": "causality",
+      "text": "causality",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "correlation",
+      "name": "correlation",
+      "text": "correlation",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "deductive reasoning",
+      "name": "deductive reasoning",
+      "text": "deductive reasoning",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "large enterprise sales",
+      "name": "large enterprise sales",
+      "text": "large enterprise sales",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "questions derived from hypotheses",
+      "name": "questions derived from hypotheses",
+      "text": "questions derived from hypotheses",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "新人営業",
+      "name": "新人営業",
+      "text": "新人営業",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "新製品",
+      "name": "新製品",
+      "text": "新製品",
+      "type": "PRODUCT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "訪問",
+      "name": "訪問",
+      "text": "訪問",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "外出報告書",
+      "name": "外出報告書",
+      "text": "外出報告書",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Outing Report",
+      "name": "Outing Report",
+      "text": "Outing Report",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Role-Playing",
+      "name": "Role-Playing",
+      "text": "Role-Playing",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "ロープレ",
+      "name": "ロープレ",
+      "text": "ロープレ",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "author",
+      "name": "author",
+      "text": "author",
+      "type": "PERSON",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "new employee",
+      "name": "new employee",
+      "text": "new employee",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Kasetsu",
+      "name": "Kasetsu",
+      "text": "Kasetsu",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "B2B",
+      "name": "B2B",
+      "text": "B2B",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "コンサルティング",
+      "name": "コンサルティング",
+      "text": "コンサルティング",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "18 years",
+      "name": "18 years",
+      "text": "18 years",
+      "type": "DATE",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "提案前の仮説構築",
+      "name": "提案前の仮説構築",
+      "text": "提案前の仮説構築",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "フィールドセールス",
+      "name": "フィールドセールス",
+      "text": "フィールドセールス",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "インサイドセールス",
+      "name": "インサイドセールス",
+      "text": "インサイドセールス",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "上司",
+      "name": "上司",
+      "text": "上司",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "先輩",
+      "name": "先輩",
+      "text": "先輩",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "若手営業担当者",
+      "name": "若手営業担当者",
+      "text": "若手営業担当者",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "スキル向上",
+      "name": "スキル向上",
+      "text": "スキル向上",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "学生時代",
+      "name": "学生時代",
+      "text": "学生時代",
+      "type": "DATE",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "ペーパーテスト",
+      "name": "ペーパーテスト",
+      "text": "ペーパーテスト",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "潜在的なニーズ",
+      "name": "潜在的なニーズ",
+      "text": "潜在的なニーズ",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "Celebrities Inc.",
+      "name": "Celebrities Inc.",
+      "text": "Celebrities Inc.",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "アウトバウンド",
+      "name": "アウトバウンド",
+      "text": "アウトバウンド",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "ビジネス",
+      "name": "ビジネス",
+      "text": "ビジネス",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "雑談",
+      "name": "雑談",
+      "text": "雑談",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "ニュース",
+      "name": "ニュース",
+      "text": "ニュース",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "標準化",
+      "name": "標準化",
+      "text": "標準化",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "分解と再構築",
+      "name": "分解と再構築",
+      "text": "分解と再構築",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "原理原則",
+      "name": "原理原則",
+      "text": "原理原則",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "抽象化力",
+      "name": "抽象化力",
+      "text": "抽象化力",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "体系化力",
+      "name": "体系化力",
+      "text": "体系化力",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "言語化力",
+      "name": "言語化力",
+      "text": "言語化力",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "マネジメント層",
+      "name": "マネジメント層",
+      "text": "マネジメント層",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "id": "人材育成",
+      "name": "人材育成",
+      "text": "人材育成",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "営業パーソン",
+      "target": "製品理解",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業パーソン",
+      "target": "顧客対応",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "受注率",
+      "target": "製品理解",
+      "type": "depends_on",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "受注率",
+      "target": "顧客対応",
+      "type": "depends_on",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "トップセールス",
+      "target": "受注率",
+      "type": "characterized_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業パーソン",
+      "target": "トップセールス",
+      "type": "faces_barrier_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業",
+      "target": "仮説",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説",
+      "target": "考える力",
+      "type": "cultivates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業の成長プロセス",
+      "target": "方法論",
+      "type": "requires",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業",
+      "target": "成長過程",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "課題",
+      "target": "成長過程",
+      "type": "located_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "基本手法",
+      "target": "How",
+      "type": "also_known_as",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "基本手法",
+      "target": "型",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "応用力",
+      "target": "What",
+      "type": "related_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "応用力",
+      "target": "Why",
+      "type": "related_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "課題",
+      "target": "基本手法",
+      "type": "involves",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "課題",
+      "target": "応用力",
+      "type": "involves",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説立案",
+      "target": "仮説を立てる",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説を立てる",
+      "target": "自主的な思考力",
+      "type": "improves",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説立案",
+      "target": "自主的な思考力",
+      "type": "effective_for",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業手法",
+      "target": "型",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業手法",
+      "target": "思考力",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "思考力",
+      "target": "型",
+      "type": "goes_beyond",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "What",
+      "target": "思考力",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Why",
+      "target": "思考力",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Keyence",
+      "target": "6年半",
+      "type": "employment_duration",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "SAP",
+      "target": "OpenText",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "freee",
+      "target": "スタートアップ",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Go To Market",
+      "target": "市場進出戦略",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "マーケティング",
+      "target": "Go To Market",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業",
+      "target": "Go To Market",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "カスタマーサクセス",
+      "target": "Go To Market",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "マーケティング",
+      "target": "市場進出戦略",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業",
+      "target": "市場進出戦略",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "カスタマーサクセス",
+      "target": "市場進出戦略",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説を立てる",
+      "target": "営業",
+      "type": "is_most_important_skill_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "How",
+      "target": "仮説を立てる",
+      "type": "is_method_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "思考法",
+      "target": "Why",
+      "type": "part_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "根拠",
+      "target": "Why",
+      "type": "part_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Why",
+      "target": "How",
+      "type": "underlies",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "エンタープライズ",
+      "target": "大企業",
+      "type": "equivalent_to",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "スタートアップ",
+      "target": "エンタープライズ",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "スタートアップ",
+      "target": "大企業",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説",
+      "target": "スタートアップ",
+      "type": "emphasized_regardless_of",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説",
+      "target": "エンタープライズ",
+      "type": "emphasized_regardless_of",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説",
+      "target": "How",
+      "type": "emphasized_regardless_of",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "How",
+      "target": "仮説",
+      "type": "method_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "思考法",
+      "target": "How",
+      "type": "underlies",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "思考法",
+      "target": "仮説",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説を立てる力",
+      "target": "営業",
+      "type": "enables",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業スタイル",
+      "target": "営業",
+      "type": "transforms_into",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仲介価値",
+      "target": "介在価値",
+      "type": "synonym_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業",
+      "target": "仲介価値",
+      "type": "characterized_by",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業",
+      "target": "介在価値",
+      "type": "characterized_by",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業",
+      "target": "仮説を立てる力",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Chapter 3",
+      "target": "hypothesis ideas",
+      "type": "introduces_perspectives_for_generating",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "hypothesis ideas",
+      "target": "business",
+      "type": "generated_in_context_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "hypothesis ideas",
+      "target": "sales",
+      "type": "generated_in_context_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "SMART",
+      "target": "6W3H",
+      "type": "used_as_alternative_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "4 No's",
+      "target": "四つの不",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Wall of Unnecessary",
+      "target": "不要の壁",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "4 No's",
+      "target": "Wall of Unnecessary",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Perspective 2",
+      "target": "View from a distance",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Perspective 2",
+      "target": "Pull back",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Perspective 2",
+      "target": "Why",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "organizational goals",
+      "target": "individual goals",
+      "type": "connected_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "3C",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "Five Forces",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "VRIO",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "Value Chain",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "SWOT",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "PEST",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "Population Curve",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "PPM",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "STP",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "4P",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "Innovator Theory & Chasm",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "AIDMA",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "AISAS",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "VISAS",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "Demand Waterfall",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "5W1H",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "Pareto Principle",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "MECE",
+      "target": "Financial Statements",
+      "type": "used_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "AIDMA",
+      "target": "AISAS",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "AIDMA",
+      "target": "VISAS",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "AISAS",
+      "target": "VISAS",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Perspective 4",
+      "target": "Customer perspective",
+      "type": "is_view_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Perspective 4",
+      "target": "Jobs",
+      "type": "considers",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Customer perspective",
+      "target": "Jobs",
+      "type": "involves",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Osborne's Checklist",
+      "target": "Osborne",
+      "type": "created_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "hypothesis verification",
+      "target": "business models",
+      "type": "identifies",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "hypothesis verification",
+      "target": "hypothesis traps",
+      "type": "identifies",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "causality",
+      "target": "correlation",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "hypothesis verification",
+      "target": "deductive reasoning",
+      "type": "uses",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "hypothesis verification",
+      "target": "inductive reasoning",
+      "type": "uses",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "hypothesis verification",
+      "target": "PREP",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "hypothesis verification",
+      "target": "PSS",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Chapter 5",
+      "target": "Initial hypothesis creation",
+      "type": "covers",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Chapter 5",
+      "target": "heuristics",
+      "type": "covers_application_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Chapter 5",
+      "target": "hypotheses",
+      "type": "covers_application_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "hypotheses",
+      "target": "large enterprise sales",
+      "type": "applied_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Chapter 5",
+      "target": "hearings/inquiries",
+      "type": "covers",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Chapter 5",
+      "target": "pure interrogation",
+      "type": "covers_avoiding",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Chapter 5",
+      "target": "questions derived from hypotheses",
+      "type": "covers_creation_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "questions derived from hypotheses",
+      "target": "hypotheses",
+      "type": "derived_from",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Initial hypothesis creation",
+      "target": "hypotheses",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業活動",
+      "target": "仮説",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "顧客",
+      "target": "課題",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説",
+      "target": "顧客",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説",
+      "target": "課題",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "新人営業",
+      "target": "新製品",
+      "type": "explains",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説",
+      "target": "訪問",
+      "type": "clarifies_purpose_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説",
+      "target": "訪問",
+      "type": "enables_judgment_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説",
+      "target": "課題解決",
+      "type": "necessary_for",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "訪問",
+      "target": "課題解決",
+      "type": "may_not_lead_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "課題解決",
+      "target": "顧客",
+      "type": "related_to",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "訪問",
+      "target": "顧客",
+      "type": "involves",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Keyence Corporation",
+      "target": "Ga-i-hou",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Ga-i-hou",
+      "target": "外出報告書",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Ga-i-hou",
+      "target": "Outing Report",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "外出報告書",
+      "target": "Outing Report",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Role-Playing",
+      "target": "Ga-i-hou",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "ロープレ",
+      "target": "Ga-i-hou",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "ロープレ",
+      "target": "Role-Playing",
+      "type": "related_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "author",
+      "target": "new employee",
+      "type": "is_a",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "author",
+      "target": "Ga-i-hou process",
+      "type": "struggled_with",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "author",
+      "target": "seniors",
+      "type": "interacts_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "hypothesis",
+      "target": "仮説",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説",
+      "target": "Kasetsu",
+      "type": "transliterated_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "hypothesis",
+      "target": "hypotheses",
+      "type": "has_plural_form",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Hypothesis construction",
+      "target": "仮説構築",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "B2B",
+      "target": "法人営業",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Hypothesis construction",
+      "target": "B2B",
+      "type": "critical_element_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Hypothesis construction",
+      "target": "法人営業",
+      "type": "critical_element_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "field sales",
+      "target": "B2B",
+      "type": "sales_role_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "inside sales",
+      "target": "B2B",
+      "type": "sales_role_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "SMB sales",
+      "target": "B2B",
+      "type": "sales_role_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "sales enablement",
+      "target": "B2B",
+      "type": "sales_role_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "sales enablement",
+      "target": "コンサルティング",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "コンサルティング",
+      "target": "法人営業",
+      "type": "sales_role_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "18 years",
+      "target": "hypothesis-based selling",
+      "type": "depends_on",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業",
+      "target": "提案前の仮説構築",
+      "type": "emphasizes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "フィールドセールス",
+      "target": "法人営業",
+      "type": "is_role_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "インサイドセールス",
+      "target": "法人営業",
+      "type": "is_role_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "カスタマーサクセス",
+      "target": "法人営業",
+      "type": "is_role_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説構築",
+      "target": "法人営業",
+      "type": "is_common_skill_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説構築",
+      "target": "フィールドセールス",
+      "type": "useful_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説構築",
+      "target": "インサイドセールス",
+      "type": "useful_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説構築",
+      "target": "カスタマーサクセス",
+      "type": "useful_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説構築",
+      "target": "営業",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説構築",
+      "target": "顧客",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説構築",
+      "target": "上司",
+      "type": "depends_on",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説構築",
+      "target": "先輩",
+      "type": "depends_on",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "若手営業担当者",
+      "target": "仮説",
+      "type": "finds_difficult",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "若手営業担当者",
+      "target": "営業パーソン",
+      "type": "part_of",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業パーソン",
+      "target": "スキル向上",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "スキル向上",
+      "target": "仮説",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "スキル向上",
+      "target": "仮説構築力",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説構築力",
+      "target": "仮説",
+      "type": "related_to",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "学生時代",
+      "target": "ペーパーテスト",
+      "type": "associated_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "ペーパーテスト",
+      "target": "営業の現場",
+      "type": "contrasts_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業の現場",
+      "target": "仮説構築のスキル",
+      "type": "requires",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "仮説構築のスキル",
+      "target": "潜在的なニーズ",
+      "type": "extracts",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "潜在的なニーズ",
+      "target": "営業の現場",
+      "type": "located_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Akiya Imai",
+      "target": "Celebrities Inc.",
+      "type": "affiliated_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Akiya Imai",
+      "target": "ice-breaker",
+      "type": "surveyed_regarding",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "ice-breaker",
+      "target": "sales",
+      "type": "used_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "ice-breaker",
+      "target": "inbound sales",
+      "type": "effective_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "inbound sales",
+      "target": "sales",
+      "type": "part_of",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "アウトバウンド",
+      "target": "アイスブレイク",
+      "type": "requires",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "アイスブレイク",
+      "target": "PR記事",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "アイスブレイク",
+      "target": "SNS",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "アイスブレイク",
+      "target": "ビジネス",
+      "type": "used_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "アイスブレイク",
+      "target": "営業",
+      "type": "used_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "アイスブレイク",
+      "target": "雑談",
+      "type": "also_known_as",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "ビジネス",
+      "target": "営業",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "アイスブレイク",
+      "target": "ニュース",
+      "type": "uses",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "アイスブレイク",
+      "target": "PR",
+      "type": "uses",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "アイスブレイク",
+      "target": "SNS",
+      "type": "uses",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "営業",
+      "target": "型",
+      "type": "depends_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "How-to本",
+      "target": "基本スキル",
+      "type": "used_to_acquire",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "基本スキル",
+      "target": "標準化",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "標準化",
+      "target": "営業",
+      "type": "used_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "カスタマイズ",
+      "target": "分解と再構築",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "Why",
+      "target": "How to",
+      "type": "is_basis_for",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "思考法",
+      "target": "原理原則",
+      "type": "serves_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "思考法",
+      "target": "抽象化力",
+      "type": "requires",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "思考法",
+      "target": "体系化力",
+      "type": "requires",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "思考法",
+      "target": "言語化力",
+      "type": "requires",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    },
+    {
+      "source": "マネジメント層",
+      "target": "人材育成",
+      "type": "has_few_opportunities_to_consider",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+      },
+      "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu"
+    }
+  ],
+  "metadata": {
+    "num_entities": 104,
+    "num_relationships": 191,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-31T05:18:14.145254",
+    "entity_resolution_applied": true,
+    "book_key": "Kasetsu_Kiten_no_Eigyou_Ron__seerusu",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

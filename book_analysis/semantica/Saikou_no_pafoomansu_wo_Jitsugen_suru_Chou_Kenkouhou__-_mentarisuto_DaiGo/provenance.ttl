@@ -1,0 +1,411 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/> .
+
+book:source a prov:Entity ;
+  foaf:name "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" .
+
+book:観察研究 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:RCT a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:無作為化比較試験 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:16週間 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:食物繊維 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:朝食 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:parasympathetic nervous system a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:clock genes a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:時間栄養学 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:時計遺伝子 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:体内時計 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:視交叉上核 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:末端細胞 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:消化器官 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:炭水化物 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:太陽光 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:松果体 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:タンパク質 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:老化 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:夜中 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:糖質 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:果物 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:生のリンゴ a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:リンゴジュース a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:悪玉コレステロール a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:フルーツジュース a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:果糖ブドウ糖液糖 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:甘味料 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:全粒粉のパン a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:GI値 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:血糖値 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:白米 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:1997 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:LDL（悪玉）コレステロール a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:24時間 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:1日中 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:2002年 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:オレンジ a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:食べるタイミング a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:cholesterol a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:Thomas Edison a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:sympathetic nervous system a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:weight gain a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:因果関係 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:6年間 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:アメリカ人 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:シリアルグループ a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:オートミールグループ a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:低繊維シリアル a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:オーツ麦 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:石器時代 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:交感神経 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:体脂肪 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:blood pressure a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:body weight a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:diet a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:Stone Age a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:Japan a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:Chrono-nutrition a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:time-based nutrition a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:liver a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:タイムマネージメント a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:視床下部 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:肝臓 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:時・場所・場合 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:30分 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:インスリン a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:リセット a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:硬い時計 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:2食 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:朝8時 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:昼12時 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:夕方18時 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:医師 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:看護師 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:タクシー運転手 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:睡眠不足 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:注意力低下 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:リズム a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:徹夜 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:概日リズム a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:ジュース a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:栄養素 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:コレステロール値 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:4週間 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポリフェノール a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:ミカン a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:カロリー a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:レーズン a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:乾燥ブドウ a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:ブドウ a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:パスタ a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:普通のパン a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:パン a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:米 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:白パン a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:グリセミック指数 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:玄米 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:ノンオイルドレッシング a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:砂糖 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .
+
+book:トランス脂肪酸 a prov:Entity ;
+  book:book_key "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo" ;
+  prov:wasDerivedFrom book:source .

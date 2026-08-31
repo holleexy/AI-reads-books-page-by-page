@@ -1,0 +1,351 @@
+{
+  "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/",
+  "name": "Kyouyou_toshiteno_Ninchi_KagakuOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Intelligence",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Intelligence",
+      "label": "知性",
+      "comment": "特定の才能の占有物ではなく、学校・職場・日常で考え判断し学び表現するすべての活動に関与する基盤。",
+      "parent": null
+    },
+    {
+      "name": "AnimalIntelligence",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/AnimalIntelligence",
+      "label": "動物の知性",
+      "comment": "チンパンジーの記憶力やゴキブリの高速逃避行動など、人間以外の生物に見られる高度な知性。",
+      "parent": "Intelligence"
+    },
+    {
+      "name": "ArtificialIntelligence",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ArtificialIntelligence",
+      "label": "人工知能",
+      "comment": "将棋や囲碁でプロを破るシステムや、ウィットに富んだ応答を返す対話システムとして現れる知性。",
+      "parent": "Intelligence"
+    },
+    {
+      "name": "CollectiveIntelligence",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CollectiveIntelligence",
+      "label": "集合的知性",
+      "comment": "既存技術の組み合わせによる組織的成功や、群衆が衝突せず円滑に移動する協調として現れる知性。",
+      "parent": "Intelligence"
+    },
+    {
+      "name": "CognitiveScience",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitiveScience",
+      "label": "認知科学",
+      "comment": "心理学・言語学・哲学・神経科学・動物行動学・人工知能研究が協力し、知的システムの構造・機能・発生を探る学際領域。",
+      "parent": null
+    },
+    {
+      "name": "Representation",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Representation",
+      "label": "表象",
+      "comment": "外界の対象を脳内で代理する情報であり、認知プロセスの基盤となる。",
+      "parent": null
+    },
+    {
+      "name": "Computation",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Computation",
+      "label": "計算",
+      "comment": "入力情報に対して様々な処理を行い、表象を作り出すプロセス。",
+      "parent": null
+    },
+    {
+      "name": "Knowledge",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Knowledge",
+      "label": "知識",
+      "comment": "経験・概念・技能として貯蔵され、記号的または分散的に表現される情報の総体。",
+      "parent": null
+    },
+    {
+      "name": "EpisodicMemory",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/EpisodicMemory",
+      "label": "エピソード記憶",
+      "comment": "いつどこでという時間的文脈を伴う、個人的な経験の記憶。",
+      "parent": "Knowledge"
+    },
+    {
+      "name": "SemanticMemory",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/SemanticMemory",
+      "label": "意味記憶",
+      "comment": "概念やカテゴリー、言葉の意味に関する一般的な知識。",
+      "parent": "Knowledge"
+    },
+    {
+      "name": "ProceduralMemory",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ProceduralMemory",
+      "label": "手続き記憶",
+      "comment": "自転車の乗り方など体で覚える技能であり、言語化が困難な運動表象。",
+      "parent": "Knowledge"
+    },
+    {
+      "name": "MemoryProcess",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/MemoryProcess",
+      "label": "記憶過程",
+      "comment": "符号化・貯蔵・検索の三段階からなる記憶の情報処理。",
+      "parent": null
+    },
+    {
+      "name": "WorkingMemory",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/WorkingMemory",
+      "label": "ワーキングメモリ",
+      "comment": "約七プラスマイナス二チャンクの容量制限を持ち、保持と処理が同一資源を競合する短期記憶。",
+      "parent": "MemoryProcess"
+    },
+    {
+      "name": "Perception",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Perception",
+      "label": "知覚",
+      "comment": "感覚情報を解釈する過程。中心窩以外は低解像度であり、視覚表象はおおざっぱで脆弱である。",
+      "parent": null
+    },
+    {
+      "name": "Thinking",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Thinking",
+      "label": "思考",
+      "comment": "演繹・帰納・仮説推論、問題解決、意思決定を含む高次の認知過程。",
+      "parent": null
+    },
+    {
+      "name": "Heuristic",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Heuristic",
+      "label": "ヒューリスティクス",
+      "comment": "認知的労力を節約するための経験則。利用可能性や代表性などに基づく。",
+      "parent": null
+    },
+    {
+      "name": "CognitiveBias",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitiveBias",
+      "label": "認知バイアス",
+      "comment": "確証バイアスや連言錯誤など、系統的に判断を歪める傾向。",
+      "parent": null
+    },
+    {
+      "name": "KnowledgeRepresentation",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/KnowledgeRepresentation",
+      "label": "知識表現",
+      "comment": "スキーマ、プロダクションシステム、ニューラルネットワークなど、知識をモデル化する枠組み。",
+      "parent": null
+    },
+    {
+      "name": "CognitivePhenomenon",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitivePhenomenon",
+      "label": "認知現象",
+      "comment": "盲視、変化盲、虚偽の記憶、プライミングなど、認知の性質や限界を示す現象。",
+      "parent": null
+    },
+    {
+      "name": "Context",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Context",
+      "label": "文脈",
+      "comment": "課題の解釈や正答率を大きく左右する状況的枠組み。社会契約の文脈は論理課題の成績を向上させる。",
+      "parent": null
+    },
+    {
+      "name": "Environment",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Environment",
+      "label": "環境",
+      "comment": "知性が適応し、能動的に探索し、相互作用する外界。",
+      "parent": null
+    },
+    {
+      "name": "EmbodiedCognition",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/EmbodiedCognition",
+      "label": "身体化された認知",
+      "comment": "カテゴリー認識が言語記号ではなく、視覚・聴覚・情動などの感覚モダリティのシミュレーションとして働くという立場。",
+      "parent": null
+    },
+    {
+      "name": "ExtendedMind",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ExtendedMind",
+      "label": "拡張された心",
+      "comment": "認知は頭蓋内で完結せず、身体・道具・環境と相互作用しながら境界を越えて拡張される。",
+      "parent": null
+    },
+    {
+      "name": "ProspectTheory",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ProspectTheory",
+      "label": "プロスペクト理論",
+      "comment": "フレーミング効果、損失回避性、確率の過大・過小評価によって選好の逆転を説明する意思決定理論。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "studies",
+      "type": "object",
+      "domain": [
+        "CognitiveScience"
+      ],
+      "range": [
+        "Intelligence",
+        "Representation",
+        "Knowledge",
+        "MemoryProcess",
+        "Perception",
+        "Thinking"
+      ],
+      "label": "研究する",
+      "comment": "認知科学が知的システムの構造・機能・発生として対象とする関係。",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/studies"
+    },
+    {
+      "name": "hasRepresentation",
+      "type": "object",
+      "domain": [
+        "Intelligence",
+        "Knowledge"
+      ],
+      "range": [
+        "Representation"
+      ],
+      "label": "表象を持つ",
+      "comment": "知的システムや知識が外界を代理する内部情報を持つ関係。",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/hasRepresentation"
+    },
+    {
+      "name": "producesRepresentation",
+      "type": "object",
+      "domain": [
+        "Computation"
+      ],
+      "range": [
+        "Representation"
+      ],
+      "label": "表象を生成する",
+      "comment": "計算過程が入力情報を処理して表象を作り出す関係。",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/producesRepresentation"
+    },
+    {
+      "name": "encodes",
+      "type": "object",
+      "domain": [
+        "MemoryProcess"
+      ],
+      "range": [
+        "Knowledge"
+      ],
+      "label": "符号化する",
+      "comment": "記憶過程が知識を符号化し貯蔵可能にする関係。",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/encodes"
+    },
+    {
+      "name": "usesHeuristic",
+      "type": "object",
+      "domain": [
+        "Thinking"
+      ],
+      "range": [
+        "Heuristic"
+      ],
+      "label": "ヒューリスティクスを用いる",
+      "comment": "思考が認知的労力を節約するために経験則を用いる関係。",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/usesHeuristic"
+    },
+    {
+      "name": "causesBias",
+      "type": "object",
+      "domain": [
+        "Heuristic"
+      ],
+      "range": [
+        "CognitiveBias"
+      ],
+      "label": "バイアスを引き起こす",
+      "comment": "ヒューリスティクスが系統的な判断の偏りを生じさせる関係。",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/causesBias"
+    },
+    {
+      "name": "dependsOnContext",
+      "type": "object",
+      "domain": [
+        "Thinking",
+        "Perception",
+        "MemoryProcess"
+      ],
+      "range": [
+        "Context"
+      ],
+      "label": "文脈に依存する",
+      "comment": "思考・知覚・記憶の成績や解釈が状況的枠組みによって変わる関係。",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/dependsOnContext"
+    },
+    {
+      "name": "interactsWith",
+      "type": "object",
+      "domain": [
+        "Intelligence",
+        "EmbodiedCognition",
+        "ExtendedMind"
+      ],
+      "range": [
+        "Environment"
+      ],
+      "label": "相互作用する",
+      "comment": "知性が身体を通じて環境と密接に関わり、適応的に変化する関係。",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/interactsWith"
+    },
+    {
+      "name": "isExhibitedBy",
+      "type": "object",
+      "domain": [
+        "CognitivePhenomenon"
+      ],
+      "range": [
+        "Perception",
+        "MemoryProcess",
+        "Thinking"
+      ],
+      "label": "において示される",
+      "comment": "盲視や変化盲、虚偽の記憶などが知覚・記憶・思考の性質として現れる関係。",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/isExhibitedBy"
+    },
+    {
+      "name": "modelsKnowledge",
+      "type": "object",
+      "domain": [
+        "KnowledgeRepresentation"
+      ],
+      "range": [
+        "Knowledge"
+      ],
+      "label": "知識をモデル化する",
+      "comment": "スキーマやニューラルネットワークなどが知識の構造と獲得を表現する関係。",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/modelsKnowledge"
+    },
+    {
+      "name": "explainsDecision",
+      "type": "object",
+      "domain": [
+        "ProspectTheory"
+      ],
+      "range": [
+        "Thinking"
+      ],
+      "label": "意思決定を説明する",
+      "comment": "プロスペクト理論がフレーミングや損失回避による選好を説明する関係。",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/explainsDecision"
+    },
+    {
+      "name": "hasDescription",
+      "type": "data",
+      "domain": [
+        "Intelligence",
+        "CognitiveScience",
+        "CognitivePhenomenon"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "概念や現象の補足的な説明文。",
+      "uri": "https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/hasDescription"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

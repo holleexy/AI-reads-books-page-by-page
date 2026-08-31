@@ -1,0 +1,451 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Jissen_Jinzai_Kaihatsu/> .
+
+book:source a prov:Entity ;
+  foaf:name "Jissen_Jinzai_Kaihatsu" ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" .
+
+book:人財開発 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:内製化 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:研修 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:キャリア開発 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:採用 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:近年 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:human resources a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:OJT a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:発掘 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Association for Talent Development a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:米国 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:タレントマネジメント a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ひし形モデル a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:後継者育成計画 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:パフォーマンス管理 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:能力評価 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:チームと個人の育成 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:個別的アプローチ a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:学習環境 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:質の計画 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Capability a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:2008年 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:教育 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:定着 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニティ a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:専門用語 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:財（財産） a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:労働市場 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:評価 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンサルティング a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:外部委託 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ワークプレイス a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:recent years a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ラーニングデザイン a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:材（材料） a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業理念 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:51％の内製化 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:著者 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:経済性 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:効果性 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:jinzai a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:formal training a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:On-the-Job Training a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:self-development support a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:自己啓発支援 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:career development a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Performance a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:知識 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:スキル a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:態度 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:価値ある資産 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:育成 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:最適配置 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Culture a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Engagement a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:シナジー a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:成果管理施策 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:配置登用施策 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:計画的な配置 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:サクセッションプラン a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:8つの施策 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:1943年 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:バージニア州 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:アレクサンドリア a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:オン・ザ・ジョブ・トレーニング a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:集合研修 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:eラーニング a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:トレーニングに関する施策 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:メンタリング a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:マニュアル a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ジョブエイド a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:業務支援ツール a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーク・ローゼンバーグ a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:Marc・J・Rosenberg a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ツール a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:職場環境 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:経験 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:性格 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:保有スキル a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:アピアランス a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:容姿 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:外観 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:見かけ a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:求める人材像 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:量の計画 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:人件費 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:生産性 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:必要人数 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:理想的な組織構成 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:業務遂行部門 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:スタッフ a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:支援・専門部門 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:オペレーション系人材 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:マネジメント系人材 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:管理者 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネスモデル a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:総合職 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:正社員 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:アルバイト a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:事業所 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:本部 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:少子高齢化 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:就業人口 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:働き方の多様化 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:現代 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:給与条件 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:各種制度 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:イメージ a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .
+
+book:社内の人材活用 a prov:Entity ;
+  book:book_key "Jissen_Jinzai_Kaihatsu" ;
+  prov:wasDerivedFrom book:source .

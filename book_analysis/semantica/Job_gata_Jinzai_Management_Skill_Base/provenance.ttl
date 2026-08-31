@@ -1,0 +1,439 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Job_gata_Jinzai_Management_Skill_Base/> .
+
+book:source a prov:Entity ;
+  foaf:name "Job_gata_Jinzai_Management_Skill_Base" ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" .
+
+book:タレントマーケットプレイス a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:AI a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:人材マネジメント a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:スキルベース組織 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:ジョブ型人材マネジメント a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:JD a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:労働市場 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:量的不足 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:質的不足 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:最適配置 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:モジュール化 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:Xさん a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:Yさん a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:職能型 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:ジェネラリスト a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロール a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:役割 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンピテンシー a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:行動特性 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:EY a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:MCH a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:Eightfold a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:キャリア開発 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:育成 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:手動登録 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:能力開発 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:ホワイトカラー業務 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポジションマネジメント a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーケット a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:ソニー株式会社 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:市場価値 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:報酬 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:タスク対スキル a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:デジタルスキル a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:従業員エクスペリエンス a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:イントラ a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:社内副業 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:自動登録 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:自己申告 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:新たな打ち手 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:KDDI株式会社 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:未来志向 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:自律的なキャリア形成 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:テルモ株式会社 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:ニューホライズンコレクティブ合同会社 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:富士フイルムホールディングス株式会社 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:課題解決力 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:株式会社ローソン a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:SAPジャパン株式会社 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンタープライズ型スキル管理 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:LG CNS a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:仕事の見える化 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:ブラックボックス化 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヘッドカウント管理 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:人ありき a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:事業ありき・組織ありき a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織サイズの最適化 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:要員人件費管理 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:シニア層 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:若年層 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:名ばかり制度 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:形骸化 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:外部の市場価値 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:等級・評価制度 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベンチマーク a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:雇用流動性 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:米国 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:Talent Shortages a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:Skill Shortages a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:海外 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:生成AI a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:DX a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:生産性向上 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:メンバーシップ型 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:デマンド側 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:サプライ側 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:タイミー a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:運送業 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:飲食店 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:単純労働 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:マッチング a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:埋もれたスキル a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:先祖返り a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:戦後 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:高度成長期 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:オールラウンド型 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:My Career Hub a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:M&Aアドバイザリー a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロフェッショナルファーム a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:英語圏 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:第8章 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:LinkedIn a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:システム連携 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:経験 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:時系列 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:LMS a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:ラーニングマネジメントシステム a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:HR Tech a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:上司 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:SNS a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:いいね！ a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポジティブ思考 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:双方向的 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:認知の仕組み a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:「いいね！」機能 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:社内プラットフォーム a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業文化 a prov:Entity ;
+  book:book_key "Job_gata_Jinzai_Management_Skill_Base" ;
+  prov:wasDerivedFrom book:source .

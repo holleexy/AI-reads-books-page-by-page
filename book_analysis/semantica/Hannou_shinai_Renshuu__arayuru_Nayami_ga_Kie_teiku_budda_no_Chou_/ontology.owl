@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/">
+    <rdfs:label>Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_Ontology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">ブッダの教えに基づき、ムダな心の反応をしないことで悩みを解消する実践を解説した書物。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/BuddhaTeaching">
+    <rdfs:label xml:lang="ja">ブッダの教え</rdfs:label>
+    <rdfs:comment xml:lang="ja">宗教ではなく合理的で実用的な思考法として抽出された原始仏教の知恵。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/FourNobleTruth">
+    <rdfs:label xml:lang="ja">四聖諦</rdfs:label>
+    <rdfs:comment xml:lang="ja">苦諦・集諦・滅諦・道諦からなり、苦しみをなくそうとする前にまず理解する枠組み。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/BuddhaTeaching"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Worry">
+    <rdfs:label xml:lang="ja">悩み</rdfs:label>
+    <rdfs:comment xml:lang="ja">心が何かに反応し動揺や落ち込みが生じるプロセスそのものであり、すべての苦しみの現れ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/MentalReaction">
+    <rdfs:label xml:lang="ja">心の反応</rdfs:label>
+    <rdfs:comment xml:lang="ja">外部刺激に対する心の自動的な反応であり、すべての悩みの根本原因。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Craving">
+    <rdfs:label xml:lang="ja">タンハー</rdfs:label>
+    <rdfs:comment xml:lang="ja">反応し続ける心のエネルギーである求める心。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Desire">
+    <rdfs:label xml:lang="ja">欲求</rdfs:label>
+    <rdfs:comment xml:lang="ja">生存欲・睡眠欲・食欲・性欲・怠惰欲・感楽欲・承認欲求からなる七つの欲求。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Craving"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ApprovalNeed">
+    <rdfs:label xml:lang="ja">承認欲求</rdfs:label>
+    <rdfs:comment xml:lang="ja">認められたいという欲求であり、嫉妬・比較・競争心の根源となる現代人にとって最も切実な欲求。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Desire"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/NonReactionPractice">
+    <rdfs:label xml:lang="ja">反応しない練習</rdfs:label>
+    <rdfs:comment xml:lang="ja">無感情になることではなく、怒りや苦しみを素早くリセットしムダな反応をしない実践。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/PracticeMethod">
+    <rdfs:label xml:lang="ja">実践方法</rdfs:label>
+    <rdfs:comment xml:lang="ja">心の状態を見てムダな反応をしないためのラベリング・感覚への意識・心の分類などの方法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Labeling">
+    <rdfs:label xml:lang="ja">ラベリング</rdfs:label>
+    <rdfs:comment xml:lang="ja">心の状態を客観的な言葉で確認し、「今、妄想している」などと認識する方法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/PracticeMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Mindfulness">
+    <rdfs:label xml:lang="ja">サティ</rdfs:label>
+    <rdfs:comment xml:lang="ja">手・足裏・呼吸などの身体感覚に意識を向け、妄想の世界から感覚の世界へ移るマインドフルネス。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/PracticeMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ThreePoison">
+    <rdfs:label xml:lang="ja">三毒</rdfs:label>
+    <rdfs:comment xml:lang="ja">心の状態を分類する貪欲・怒り・妄想の三つの基本カテゴリー。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Greed">
+    <rdfs:label xml:lang="ja">貪欲</rdfs:label>
+    <rdfs:comment xml:lang="ja">過度に期待しすぎたり焦ったりする心の状態。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ThreePoison"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Anger">
+    <rdfs:label xml:lang="ja">怒り</rdfs:label>
+    <rdfs:comment xml:lang="ja">不満や不快を感じている状態。悲しみ・未練・挫折感・コンプレックスや嫉妬も含む。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ThreePoison"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Delusion">
+    <rdfs:label xml:lang="ja">妄想</rdfs:label>
+    <rdfs:comment xml:lang="ja">あれこれ不要な考えを巡らせている状態であり、人間のナンバーワンの煩悩。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ThreePoison"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Judgment">
+    <rdfs:label xml:lang="ja">判断</rdfs:label>
+    <rdfs:comment xml:lang="ja">いい・悪い、好き・嫌いという二極化の評価。執着すると自分や他人を苦しめる猛毒となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Conceit">
+    <rdfs:label xml:lang="ja">慢</rdfs:label>
+    <rdfs:comment xml:lang="ja">自分は正しい・優れているというこだわり。プライドだけでなく劣等感や自信のなさも含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/HumanRelationship">
+    <rdfs:label xml:lang="ja">人間関係</rdfs:label>
+    <rdfs:comment xml:lang="ja">感情の問題と関わりの問題を分け、相手を判断せずまず理解すべき対人関係。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/FourImmeasurableMind">
+    <rdfs:label xml:lang="ja">四無量心</rdfs:label>
+    <rdfs:comment xml:lang="ja">慈・悲・喜・捨からなる生きるための基本の心がけ。競争や欲・怒り・妄想から自由になる動機。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/FiveHindrance">
+    <rdfs:label xml:lang="ja">五蓋</rdfs:label>
+    <rdfs:comment xml:lang="ja">快楽・怒り・怠惰・そわそわ・疑いなど、目的達成を阻害する五つの障害。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/RightEffort">
+    <rdfs:label xml:lang="ja">正しい努力</rdfs:label>
+    <rdfs:comment xml:lang="ja">改善・集中・納得を条件に、ムダな反応をリセットして目の前の作業に無心で取り組む努力。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ThreeRefuge">
+    <rdfs:label xml:lang="ja">三帰依</rdfs:label>
+    <rdfs:comment xml:lang="ja">ブッダ・ダンマ・サンガに基づき、正しい生き方を自ら心の土台にすえること。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Jealousy">
+    <rdfs:label xml:lang="ja">嫉妬</rdfs:label>
+    <rdfs:comment xml:lang="ja">承認欲求が満たされない怒りを相手に向けている状態であり、脚下照顧によって内側の動機へ降りることが必要。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Anger"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Memory">
+    <rdfs:label xml:lang="ja">記憶</rdfs:label>
+    <rdfs:comment xml:lang="ja">過去への執着として反応し続ける対象。結生として強い反応のエネルギーを残し過剰反応を引き起こす。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isBasedOn">
+    <rdfs:label xml:lang="ja">基づく</rdfs:label>
+    <rdfs:comment xml:lang="ja">本書が依拠するブッダの教えを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Book"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/BuddhaTeaching"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/hasCause">
+    <rdfs:label xml:lang="ja">原因を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">悩みが心の反応から始まることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Worry"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/MentalReaction"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isEnergizedBy">
+    <rdfs:label xml:lang="ja">エネルギー源とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">心の反応がタンハーによって持続することを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/MentalReaction"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Craving"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/includesDesire">
+    <rdfs:label xml:lang="ja">欲求を含む</rdfs:label>
+    <rdfs:comment xml:lang="ja">求める心が七つの欲求を含むことを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Craving"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Desire"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isPracticedThrough">
+    <rdfs:label xml:lang="ja">実践手段とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">反応しない練習がラベリングやサティなどの具体的方法によって行われることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/NonReactionPractice"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/PracticeMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/classifiesState">
+    <rdfs:label xml:lang="ja">心を分類する</rdfs:label>
+    <rdfs:comment xml:lang="ja">実践方法が貪欲・怒り・妄想として心の状態を分類することを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/PracticeMethod"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ThreePoison"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/producesWorry">
+    <rdfs:label xml:lang="ja">悩みを生み出す</rdfs:label>
+    <rdfs:comment xml:lang="ja">二極化の判断が悩みを作り出すことを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Judgment"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Worry"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/involvesConceit">
+    <rdfs:label xml:lang="ja">慢を伴う</rdfs:label>
+    <rdfs:comment xml:lang="ja">判断が慢（自分が正しいというこだわり）と結びつくことを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Judgment"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Conceit"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isDealtWithBy">
+    <rdfs:label xml:lang="ja">対処される</rdfs:label>
+    <rdfs:comment xml:lang="ja">人間関係の悩みが反応しない実践によって対処されることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/HumanRelationship"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/NonReactionPractice"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isMotivatedBy">
+    <rdfs:label xml:lang="ja">動機づけられる</rdfs:label>
+    <rdfs:comment xml:lang="ja">正しい努力が四無量心を動機とすることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/RightEffort"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/FourImmeasurableMind"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isObstructedBy">
+    <rdfs:label xml:lang="ja">妨げられる</rdfs:label>
+    <rdfs:comment xml:lang="ja">正しい努力が五蓋によって阻害されることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/RightEffort"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/FiveHindrance"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isGroundedIn">
+    <rdfs:label xml:lang="ja">よりどころとする</rdfs:label>
+    <rdfs:comment xml:lang="ja">三帰依がブッダの教えを心の土台とすることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ThreeRefuge"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/BuddhaTeaching"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/isTriggeredBy">
+    <rdfs:label xml:lang="ja">記憶に引き起こされる</rdfs:label>
+    <rdfs:comment xml:lang="ja">心の反応が過去の記憶によって引き起こされることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/MentalReaction"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Memory"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/overcomes">
+    <rdfs:label xml:lang="ja">解消する</rdfs:label>
+    <rdfs:comment xml:lang="ja">反応しない練習が悩みを解消することを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/NonReactionPractice"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Worry"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/teaches">
+    <rdfs:label xml:lang="ja">教える</rdfs:label>
+    <rdfs:comment xml:lang="ja">ブッダの教えが実践方法や四聖諦、反応しない練習を示すことを表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/BuddhaTeaching"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/PracticeMethod"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/FourNobleTruth"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/NonReactionPractice"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/stemsFrom">
+    <rdfs:label xml:lang="ja">由来する</rdfs:label>
+    <rdfs:comment xml:lang="ja">嫉妬が承認欲求の不満から生じることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Jealousy"/>
+    <rdfs:range rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/ApprovalNeed"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/hasTitle">
+    <rdfs:label xml:lang="ja">題名</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍の題名を表す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hannou_shinai_Renshuu__arayuru_Nayami_ga_Kie_teiku_budda_no_Chou_/Book"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

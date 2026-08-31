@@ -1,0 +1,368 @@
+@prefix ex: <https://books.local/Gyoumu_Sekkei_no_Kyoukasho/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/shapes> a owl:Ontology .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "業務設計とDX推進の重要性および実践手法を解説する対象書籍。" ;
+    sh:property [
+        sh:path ex:explains ;
+        sh:class ex:BusinessDesign ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDesignShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessDesign ;
+    sh:name "業務設計" ;
+    sh:description "システムに任せる定型業務と人間が行う判断業務を切り分け、最適な組み合わせを見つける活動。" ;
+    sh:property [
+        sh:path ex:promotes ;
+        sh:class ex:DigitalTransformation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:warnsAgainst ;
+        sh:class ex:Digitization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:WorkingFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:observesWith ;
+        sh:class ex:Viewpoint ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:produces ;
+        sh:class ex:DesignArtifact ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesECRS ;
+        sh:class ex:ECRSPrinciple ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:prefersDesign ;
+        sh:class ex:PullTypeDesign ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:avoidsDesign ;
+        sh:class ex:PushTypeDesign ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:aimsAt ;
+        sh:class ex:OperationalExcellence ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:illustratedBy ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DigitalTransformationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DigitalTransformation ;
+    sh:name "デジタルトランスフォーメーション" ;
+    sh:description "デジタルテクノロジーが人間の生活のあらゆる側面に引き起こす変革。ビジネスモデル自体の変革を含む。" ;
+    sh:property [
+        sh:path ex:requiresStage ;
+        sh:class ex:Digitalization ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DigitizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Digitization ;
+    sh:name "デジタイゼーション" ;
+    sh:description "アナログからデジタルへの単なる置き換え。真のDXとは区別される。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DigitalizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Digitalization ;
+    sh:name "デジタライゼーション" ;
+    sh:description "業務プロセスの再構築。デジタイゼーションとDXの中間段階。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessProcess ;
+    sh:name "業務プロセス" ;
+    sh:description "目的・開始条件・入力・処理・出力を持つ一連の仕事の流れ。" ;
+    sh:property [
+        sh:path ex:classifiesAs ;
+        sh:class ex:BusinessCategory ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:definedBy ;
+        sh:class ex:BusinessDefinitionSheet ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:visualizedByPeopleFlow ;
+        sh:class ex:BusinessMap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:visualizedByDataFlow ;
+        sh:class ex:InformationMap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignedTo ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportedBy ;
+        sh:class ex:InformationSystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assistedBy ;
+        sh:class ex:ArtificialIntelligence ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/WorkingFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WorkingFramework ;
+    sh:name "WORKINGフレームワーク" ;
+    sh:description "完璧に把握してから進むのではなく、大まかに捉えて動かしながら足りない部分を埋めるアジャイルな業務設計の枠組み。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessCategoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessCategory ;
+    sh:name "業務分類" ;
+    sh:description "属人化リスクを把握するために業務を感覚系・仕組系・作業系に分ける分類。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/SensoryWorkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SensoryWork ;
+    sh:name "感覚系業務" ;
+    sh:description "個人の経験や勘に依存する業務。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/SystematicWorkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SystematicWork ;
+    sh:name "仕組系業務" ;
+    sh:description "ルール化・マニュアル化されている業務。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ManualWorkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ManualWork ;
+    sh:name "作業系業務" ;
+    sh:description "単純な定型手作業の業務。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ViewpointShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Viewpoint ;
+    sh:name "視点" ;
+    sh:description "業務の現状を正確に把握するための観察の視点。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BirdsEyeViewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BirdsEyeView ;
+    sh:name "鳥の目" ;
+    sh:description "全体像を俯瞰し、ムダやボトルネックを見つける視点。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/InsectsEyeViewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InsectsEyeView ;
+    sh:name "虫の目" ;
+    sh:description "現場の詳細な手順や暗黙知を観察する視点。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/FishsEyeViewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FishsEyeView ;
+    sh:name "魚の目" ;
+    sh:description "全体の流れや変化を捉える視点。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DesignArtifactShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DesignArtifact ;
+    sh:name "設計成果物" ;
+    sh:description "業務の見える化のために作成するシートや地図などの成果物。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessDefinitionSheetShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessDefinitionSheet ;
+    sh:name "業務定義シート" ;
+    sh:description "業務の目的・トリガー・入力・処理・出力を整理し関係者の共通認識を作る文書。" ;
+    sh:property [
+        sh:path ex:hasPurpose ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/BusinessMapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessMap ;
+    sh:name "業務の地図" ;
+    sh:description "誰がどの順番で何をしているかという人の動きの全体像をラフに描いた図。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/InformationMapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InformationMap ;
+    sh:name "情報の地図" ;
+    sh:description "データがどこから生まれどこで加工されどこへ行くかを可視化し、転記や滞留を発見する図。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/KnowledgeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Knowledge ;
+    sh:name "知識" ;
+    sh:description "個人や組織が持つノウハウおよび情報。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/TacitKnowledgeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TacitKnowledge ;
+    sh:name "暗黙知" ;
+    sh:description "ベテランの頭の中にある言語化されていないノウハウ。" ;
+    sh:property [
+        sh:path ex:externalizesTo ;
+        sh:class ex:ExplicitKnowledge ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ExplicitKnowledgeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExplicitKnowledge ;
+    sh:name "形式知" ;
+    sh:description "マニュアルやチェックリストとして明文化された知識。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/SECIModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SECIModel ;
+    sh:name "SECIモデル" ;
+    sh:description "共同化・表出化・連結化・内面化のサイクルを通じて組織の知識を更新するモデル。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ECRSPrincipleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ECRSPrinciple ;
+    sh:name "ECRSの原則" ;
+    sh:description "排除・結合・入れ替え・簡素化によりシステム化の前に業務をスリム化する原則。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PullTypeDesignShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PullTypeDesign ;
+    sh:name "PULL型設計" ;
+    sh:description "後工程の要求から逆算して各工程の入力と出力を定義する全体最適の設計。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PushTypeDesignShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PushTypeDesign ;
+    sh:name "PUSH型設計" ;
+    sh:description "前工程が処理を押し付ける設計。全体最適を阻害しやすい。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PolanyisParadoxShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PolanyisParadox ;
+    sh:name "ポランニーのパラドックス" ;
+    sh:description "知っていることは言葉で表現できるよりもはるかに多いという概念。AI活用には暗黙知の構造化が必要。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/OperationalExcellenceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OperationalExcellence ;
+    sh:name "オペレーショナル・エクセレンス" ;
+    sh:description "誰が担当しても一定の成果を出せる再現性のある仕組み。模倣困難な組織能力となる。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/DecisionMatrixShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DecisionMatrix ;
+    sh:name "意思決定マトリクス" ;
+    sh:description "コスト・スピード・実行可能性・効果・影響範囲などの評価軸で優先順位を決める手法。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ImprovementCycleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ImprovementCycle ;
+    sh:name "改善サイクル" ;
+    sh:description "PDCAやCAPDoなど、現場主体で継続的に業務を見直す循環。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "業務設計とDXの対象となる企業や部門。" ;
+    sh:property [
+        sh:path ex:appliesSECI ;
+        sh:class ex:SECIModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasProcess ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:employs ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:improvesWith ;
+        sh:class ex:ImprovementCycle ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人物" ;
+    sh:description "現場従業員・マネジメント・推進リーダーなど業務設計に関わる個人。" .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/InformationSystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InformationSystem ;
+    sh:name "情報システム" ;
+    sh:description "業務を支援するソフトウェアやクラウドサービス。導入ありきは失敗の原因になりうる。" ;
+    sh:property [
+        sh:path ex:evaluatedBy ;
+        sh:class ex:DecisionMatrix ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/ArtificialIntelligenceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ArtificialIntelligence ;
+    sh:name "人工知能" ;
+    sh:description "定型業務やデータ処理で人間を凌駕するが、微妙な判断や例外処理には人間の介入が不可欠な技術。" ;
+    sh:property [
+        sh:path ex:constrainedBy ;
+        sh:class ex:PolanyisParadox ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Gyoumu_Sekkei_no_Kyoukasho/CaseStudyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CaseStudy ;
+    sh:name "実践事例" ;
+    sh:description "高山技研のように失敗と小さな成功を経て全社的な業務設計へ展開する物語。" ;
+    sh:property [
+        sh:path ex:aboutOrganization ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:ledBy ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] .

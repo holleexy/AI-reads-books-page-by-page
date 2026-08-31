@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/">
+    <rdfs:label>Job_gata_Jinzai_Management_Skill_BaseOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedOrganization">
+    <rdfs:label xml:lang="ja">スキルベース組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">ジョブをモジュール化し、タスクという需要と個人のスキルという供給を細粒度で組み合わせて人材リソースを最大化する組織形態。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedTalentManagement">
+    <rdfs:label xml:lang="ja">スキルベース人材マネジメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">スキルの管理・可視化、評価、キャリア開発・育成、タレントマーケットプレイス展開からなる実践プロセス。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/JobTypeLimitation">
+    <rdfs:label xml:lang="ja">ジョブ型の限界</rdfs:label>
+    <rdfs:comment xml:lang="ja">ジョブディスクリプションによる職務の見える化が進む一方、人材獲得困難や名ばかり制度化が顕在化する課題。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Skill">
+    <rdfs:label xml:lang="ja">スキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人が有する能力であり、タスク遂行のための供給側の要素。動的に変化するため継続的更新が必要。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SoftSkill">
+    <rdfs:label xml:lang="ja">ソフトスキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">ヒューマンスキルやコンセプチュアルスキルなどの対人・思考に関する能力。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Skill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/HardSkill">
+    <rdfs:label xml:lang="ja">ハードスキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">テクニカルスキルなどの専門的・技術的能力。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Skill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Fluency">
+    <rdfs:label xml:lang="ja">フルーエンシー</rdfs:label>
+    <rdfs:comment xml:lang="ja">知識を自在に使いこなすだけでなく、陳腐化時に新たな知識を素早く学習・吸収するリスキル適性。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Skill"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Job">
+    <rdfs:label xml:lang="ja">ジョブ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織における役割や職務の枠組み。スキルベースではモジュール化され再構成されうる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Task">
+    <rdfs:label xml:lang="ja">タスク</rdfs:label>
+    <rdfs:comment xml:lang="ja">ジョブを要素分解した業務単位であり、スキル需要の細粒度の対象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/JobDescription">
+    <rdfs:label xml:lang="ja">ジョブディスクリプション</rdfs:label>
+    <rdfs:comment xml:lang="ja">職務の内容と要件を文書化した定義。ジョブ型の基盤だがスキルベースでは細分化の出発点となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Employee">
+    <rdfs:label xml:lang="ja">従業員</rdfs:label>
+    <rdfs:comment xml:lang="ja">スキルを保有しタスクを遂行する個人。自己申告・アセスメント・AI解析によりスキルが可視化される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Company">
+    <rdfs:label xml:lang="ja">企業</rdfs:label>
+    <rdfs:comment xml:lang="ja">スキルベース人材マネジメントを導入し、採用・配置・育成・報酬を再設計する組織。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillTaxonomy">
+    <rdfs:label xml:lang="ja">スキルタクソノミー</rdfs:label>
+    <rdfs:comment xml:lang="ja">体系化されたスキル一覧。自己申告の前提であり、中央管理と現場更新、外部データセット活用が求められる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillLibrary">
+    <rdfs:label xml:lang="ja">スキルライブラリ</rdfs:label>
+    <rdfs:comment xml:lang="ja">採用・配置・育成など全人事プロセスを貫く単一のスキル基盤。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentPool">
+    <rdfs:label xml:lang="ja">タレントプール</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業全体の人材群。スキル需給ギャップを俯瞰し中長期の育成・採用方針を決める単位。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillGap">
+    <rdfs:label xml:lang="ja">スキルギャップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ジョブサイドのスキル需要とタレントサイドのスキル供給の差。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentMarketplace">
+    <rdfs:label xml:lang="ja">タレントマーケットプレイス</rdfs:label>
+    <rdfs:comment xml:lang="ja">社内の人材流動市場。社内副業やギグを通じリスキリング成果の発揮の場となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/InternalGig">
+    <rdfs:label xml:lang="ja">社内ギグ</rdfs:label>
+    <rdfs:comment xml:lang="ja">社内副業や跨部門プロジェクトなど、スキルと興味に基づきマッチングされる短期的な機会。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedHiring">
+    <rdfs:label xml:lang="ja">スキルベース採用</rdfs:label>
+    <rdfs:comment xml:lang="ja">学歴や職歴ではなく特定のスキル・能力に基づき候補者を評価・選択する手法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/CareerDevelopment">
+    <rdfs:label xml:lang="ja">キャリア開発</rdfs:label>
+    <rdfs:comment xml:lang="ja">均一的育成から転換し、個人の志向とスキルギャップに基づきパーソナライズする育成。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Reskilling">
+    <rdfs:label xml:lang="ja">リスキリング</rdfs:label>
+    <rdfs:comment xml:lang="ja">新たなスキルを学習・獲得する取り組み。学びっぱなしを防ぐため発揮の場と一体で設計される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Matching">
+    <rdfs:label xml:lang="ja">マッチング</rdfs:label>
+    <rdfs:comment xml:lang="ja">必要スキル保有者の把握、部門ニーズと個人希望の判断、配置後オンボーディングからなる配置プロセス。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedCompensation">
+    <rdfs:label xml:lang="ja">スキルベース報酬</rdfs:label>
+    <rdfs:comment xml:lang="ja">保有スキルの幅と水準に応じて報酬を決める仕組み。保有か発揮か、職種間調整、降給の是非が論点。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Assessment">
+    <rdfs:label xml:lang="ja">アセスメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">自己申告、上司・客観基準評価、非構造化データからのAI推論などによるスキル可視化手法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/ChangeManagement">
+    <rdfs:label xml:lang="ja">チェンジマネジメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">ビジョン、適応型リーダーシップ、心理的安全性、技術活用、規律ある自由、協力を駆動力とする組織変革。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/PsychologicalSafety">
+    <rdfs:label xml:lang="ja">心理的安全性</rdfs:label>
+    <rdfs:comment xml:lang="ja">自己開示や挑戦を恐れない環境。FA制度や社内公募、変革成功の前提となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Antifragility">
+    <rdfs:label xml:lang="ja">反脆弱性</rdfs:label>
+    <rdfs:comment xml:lang="ja">効率化の極致であるスキルベース管理に遊びを持たせ、予期せぬストレスから強くなる性質。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillTech">
+    <rdfs:label xml:lang="ja">スキルテック</rdfs:label>
+    <rdfs:comment xml:lang="ja">AIによるスキル抽出・推定・マッチング・学習推奨・リテンション検知などを行う技術やプラットフォーム。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/requiresSkill">
+    <rdfs:label xml:lang="ja">必要とするスキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">ジョブやタスク、採用要件が需要側として求めるスキル。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Job"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Task"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedHiring"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Skill"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/possessesSkill">
+    <rdfs:label xml:lang="ja">保有するスキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">従業員が持つスキル。報酬設計では発揮スキルとの区別が論点となる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Employee"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Skill"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/exhibitsSkill">
+    <rdfs:label xml:lang="ja">発揮するスキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">実際の業務で用いられているスキル。保有スキルと対比される。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Employee"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Skill"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/consistsOfTask">
+    <rdfs:label xml:lang="ja">タスクに分解される</rdfs:label>
+    <rdfs:comment xml:lang="ja">ジョブをモジュール化し必要なスキルを導出するための要素分解関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Job"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Task"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/describedBy">
+    <rdfs:label xml:lang="ja">記述される</rdfs:label>
+    <rdfs:comment xml:lang="ja">ジョブがジョブディスクリプションによって定義される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Job"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/JobDescription"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/employedBy">
+    <rdfs:label xml:lang="ja">所属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">従業員が企業に雇用されている関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Employee"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Company"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/memberOfPool">
+    <rdfs:label xml:lang="ja">人材群に属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">従業員がスキル需給分析の単位であるタレントプールに含まれる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Employee"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentPool"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/classifiedIn">
+    <rdfs:label xml:lang="ja">体系に分類される</rdfs:label>
+    <rdfs:comment xml:lang="ja">スキルがタクソノミーや単一ライブラリに位置づけられる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Skill"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillTaxonomy"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillLibrary"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/hasSkillTaxonomy">
+    <rdfs:label xml:lang="ja">スキルタクソノミーを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織が体系化されたスキル一覧を整備・運用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedTalentManagement"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillTaxonomy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/hasTalentMarketplace">
+    <rdfs:label xml:lang="ja">タレントマーケットプレイスを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業が社内人材流動市場を運営する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Company"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentMarketplace"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/hasSkillGap">
+    <rdfs:label xml:lang="ja">スキルギャップを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">人材群単位で需給の差を俯瞰する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentPool"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillGap"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/concernsSkill">
+    <rdfs:label xml:lang="ja">対象スキルである</rdfs:label>
+    <rdfs:comment xml:lang="ja">ギャップがどのスキルの過不足に関するかを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillGap"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Skill"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/matchesTo">
+    <rdfs:label xml:lang="ja">マッチングする</rdfs:label>
+    <rdfs:comment xml:lang="ja">必要スキル・興味・部門ニーズに基づき人と仕事を組み合わせる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Matching"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentMarketplace"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Employee"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Task"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/InternalGig"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/assessedBy">
+    <rdfs:label xml:lang="ja">評価される</rdfs:label>
+    <rdfs:comment xml:lang="ja">自己申告、上司評価、AI解析などによりスキルが可視化される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Employee"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Skill"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Assessment"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/developsThrough">
+    <rdfs:label xml:lang="ja">育成される</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人の志向とギャップに基づくキャリア開発やリスキリングの関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Employee"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/CareerDevelopment"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Reskilling"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/compensatedBy">
+    <rdfs:label xml:lang="ja">報酬が決まる</rdfs:label>
+    <rdfs:comment xml:lang="ja">スキルの幅と水準に応じて報酬が決定される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Employee"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedCompensation"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/offersGig">
+    <rdfs:label xml:lang="ja">ギグ機会を提供する</rdfs:label>
+    <rdfs:comment xml:lang="ja">マーケットプレイスが社内副業やプロジェクト機会を提供する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentMarketplace"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/InternalGig"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/participatesInGig">
+    <rdfs:label xml:lang="ja">ギグに参加する</rdfs:label>
+    <rdfs:comment xml:lang="ja">従業員が社内ギグや跨部門プロジェクトに参画する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Employee"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/InternalGig"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/implementsManagement">
+    <rdfs:label xml:lang="ja">導入する</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業がスキルベースのマネジメントや組織形態を実装する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Company"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedTalentManagement"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedOrganization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/usesSkillTech">
+    <rdfs:label xml:lang="ja">スキルテックを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">AIプラットフォーム等でスキル推定・マッチング・学習推奨を行う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedTalentManagement"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillTech"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/hiresThrough">
+    <rdfs:label xml:lang="ja">スキルベースで採用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">必須スキル定義、スクリーニング、実務模擬により候補者を選ぶ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Company"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedHiring"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/managesChange">
+    <rdfs:label xml:lang="ja">変革を推進する</rdfs:label>
+    <rdfs:comment xml:lang="ja">人を中心に据えたチェンジマネジメントを実施する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Company"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/ChangeManagement"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/requiresPsychologicalSafety">
+    <rdfs:label xml:lang="ja">心理的安全性を必要とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">自発的異動や挑戦、自己開示を可能にするための前提条件。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/ChangeManagement"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentMarketplace"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Matching"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/PsychologicalSafety"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/incorporatesAntifragility">
+    <rdfs:label xml:lang="ja">反脆弱性を取り入れる</rdfs:label>
+    <rdfs:comment xml:lang="ja">予測不能なリスクに備え組織に余裕を持たせる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Antifragility"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Job_gata_Jinzai_Management_Skill_Base/name">
+    <rdfs:label xml:lang="ja">名称</rdfs:label>
+    <rdfs:comment xml:lang="ja">エンティティを識別するための名称。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Skill"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Job"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Task"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Employee"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillTaxonomy"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillTech"/>
+    <rdfs:domain rdf:resource="https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentMarketplace"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

@@ -1,0 +1,604 @@
+@prefix ex: <https://books.local/Operational_Excellence_BPR/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Operational_Excellence_BPR/shapes> a owl:Ontology .
+
+<https://books.local/Operational_Excellence_BPR/OperationalExcellenceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OperationalExcellence ;
+    sh:name "オペレーショナルエクセレンス" ;
+    sh:description "業務の卓越性。優れた製品や顧客があっても非効率な業務では利益は生まれず、洗練された強い業務運営によって利益を生む価値基準および到達目標。" ;
+    sh:property [
+        sh:path ex:hasPillar ;
+        sh:class ex:ExcellencePillar ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCaseStudy ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/BusinessReformShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessReform ;
+    sh:name "業務改革" ;
+    sh:description "仕事の進め方を変えることであり、企業のすべての営みを対象とする。単発の流行よりも経営革新において決定的な重要性を持つ。BPRとして検討・分析・設計・実施・評価のプロセスで進める。" ;
+    sh:property [
+        sh:path ex:aimsAt ;
+        sh:class ex:OperationalExcellence ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targets ;
+        sh:class ex:ManufacturingCompany ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasOpportunityAt ;
+        sh:class ex:InterdepartmentalInterface ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesMethodology ;
+        sh:class ex:BPRMethodology ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isLedBy ;
+        sh:class ex:ProcessOwner ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isManagedBy ;
+        sh:class ex:BPMOrganization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsFramework ;
+        sh:class ex:SixBubblesFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:cultivates ;
+        sh:class ex:CorporateCulture ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:dependsOnMechanism ;
+        sh:class ex:Mechanism ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/ValueCriterionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ValueCriterion ;
+    sh:name "価値基準" ;
+    sh:description "マイケル・トレーシーとフレッド・ウィアセマが『ナンバーワン企業の法則』で提唱した、企業を支える三つの価値基準の上位概念。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/CustomerIntimacyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerIntimacy ;
+    sh:name "カスタマーインティマシー" ;
+    sh:description "顧客との親密性。よい顧客をつかむことを目指す価値基準。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/ProductInnovationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductInnovation ;
+    sh:name "プロダクトイノベーション" ;
+    sh:description "製品の革新性。よい製品を生むことを目指す価値基準。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/ExcellencePillarShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExcellencePillar ;
+    sh:name "卓越性の柱" ;
+    sh:description "優れた業務品質を生み出すための三つの柱（指標・仕組み・適材適所）の上位概念。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/MetricsShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Metrics ;
+    sh:name "指標" ;
+    sh:description "財務指標と運営指標を明確に結びつけ、一つの指標は一つの意味しか持たない状態を実現する柱。部門間の解釈違いや在庫の押し込みを防ぐ。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/MechanismShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Mechanism ;
+    sh:name "仕組み" ;
+    sh:description "役割と権限、指標、情報システム、業務体系で構成される経営メカニズム。一流の仕組みがあれば一流でない能力でも一流の成果を出せ、属人化を排除する。" ;
+    sh:property [
+        sh:path ex:includesValue ;
+        sh:class ex:MissionVisionValue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTool ;
+        sh:class ex:InformationSystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/TalentPlacementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TalentPlacement ;
+    sh:name "適材適所配置" ;
+    sh:description "職務定義書に基づき適材を適所に配し、スキルの見える化と育成を行う柱。単純作業は仕組み化し、高度な手技は職人技として伝承する。" ;
+    sh:property [
+        sh:path ex:usesJobDescription ;
+        sh:class ex:JobDescription ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:develops ;
+        sh:class ex:Skill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:respects ;
+        sh:class ex:Craftsmanship ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/FinancialIndexShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FinancialIndex ;
+    sh:name "財務指標" ;
+    sh:description "FI。経営の財務的成果を示す指標であり、運営指標と結合して現場改善の経営貢献を可視化する。" ;
+    sh:property [
+        sh:path ex:bindsTo ;
+        sh:class ex:OperationalIndex ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/OperationalIndexShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OperationalIndex ;
+    sh:name "運営指標" ;
+    sh:description "OI。現場の運営成果を示す指標であり、財務指標と結合して用いられる。" .
+
+<https://books.local/Operational_Excellence_BPR/ROICTreeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ROICTree ;
+    sh:name "ROICツリー" ;
+    sh:description "経営のトップ目標を現場の具体的なアクション（KPI）までブレイクダウンし、改善活動の経営貢献を可視化する指標体系。" ;
+    sh:property [
+        sh:path ex:decomposesInto ;
+        sh:class ex:KPI ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/KPIShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KPI ;
+    sh:name "重要業績評価指標" ;
+    sh:description "現場の具体的なアクションを示す指標。ROICツリーにより経営目標から展開される。" .
+
+<https://books.local/Operational_Excellence_BPR/JobDescriptionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:JobDescription ;
+    sh:name "職務定義書" ;
+    sh:description "人事部の書式埋めではなく、組織全体の業務フローの中でそのポジションの役割を定義するもの。" .
+
+<https://books.local/Operational_Excellence_BPR/BusinessProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessProcess ;
+    sh:name "業務プロセス" ;
+    sh:description "企業の業務の流れ。四つのレイヤーで表現され、リポジトリに型として蓄積・管理される。" ;
+    sh:property [
+        sh:path ex:hasLayer ;
+        sh:class ex:ProcessLayer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isStoredIn ;
+        sh:class ex:Repository ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/ProcessLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProcessLayer ;
+    sh:name "業務プロセスレイヤー" ;
+    sh:description "業務フローを表現する四階層の上位概念。" .
+
+<https://books.local/Operational_Excellence_BPR/FunctionGroupLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FunctionGroupLayer ;
+    sh:name "機能群レイヤー" ;
+    sh:description "Layer1。企業全体の機能群の流れであり、モノづくり企業で共通する。" .
+
+<https://books.local/Operational_Excellence_BPR/BusinessModelLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessModelLayer ;
+    sh:name "事業モデルレイヤー" ;
+    sh:description "Layer2。在庫販売型や受注設計型など、事業特性による業務の違いを表現する。" .
+
+<https://books.local/Operational_Excellence_BPR/BusinessFlowLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessFlowLayer ;
+    sh:name "業務フローレイヤー" ;
+    sh:description "Layer3。担当者レベルの具体的なタスクの流れ。開始・終了条件や分岐を可視化し、業務改革の主役となる。" .
+
+<https://books.local/Operational_Excellence_BPR/BusinessManualLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessManualLayer ;
+    sh:name "業務マニュアルレイヤー" ;
+    sh:description "Layer4。単一タスクの手順書。誰が読んでも一意の解釈で同一行動が取れることが条件。" .
+
+<https://books.local/Operational_Excellence_BPR/RepositoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Repository ;
+    sh:name "リポジトリ" ;
+    sh:description "オペレーションの型を蓄積・管理する格納庫。新規事業や新工場では九割を既存の型から流用し一割を追加する。" .
+
+<https://books.local/Operational_Excellence_BPR/TaskShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Task ;
+    sh:name "タスク" ;
+    sh:description "担当者レベルの具体的な作業。名称は成果物名ではなく目的や行為とし、正常系だけでなく例外系も記述する。" ;
+    sh:property [
+        sh:path ex:belongsToLayer ;
+        sh:class ex:BusinessFlowLayer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasException ;
+        sh:class ex:ExceptionProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/ExceptionProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExceptionProcess ;
+    sh:name "例外処理" ;
+    sh:description "イレギュラーな業務処理。例外こそが問題の宝の山である。" .
+
+<https://books.local/Operational_Excellence_BPR/BPRMethodologyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BPRMethodology ;
+    sh:name "業務改革実行手法" ;
+    sh:description "検討から評価までのプロセスと、四つの可視化と一つの整流化のフレームワークからなる実行手法。" ;
+    sh:property [
+        sh:path ex:hasDefinition ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/VisualizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Visualization ;
+    sh:name "可視化" ;
+    sh:description "業務・問題・暗黙知・結果を見える化する活動の上位概念。" ;
+    sh:property [
+        sh:path ex:visualizes ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/BusinessVisualizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessVisualization ;
+    sh:name "業務の可視化" ;
+    sh:description "流れ・情報・組織・人・スキルの四つの切り口で、主にLayer3の粒度でフローチャートを作成する。" ;
+    sh:property [
+        sh:path ex:visualizes ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/ProblemVisualizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProblemVisualization ;
+    sh:name "問題の可視化" ;
+    sh:description "現状バイアスを排除し、QCDを棄損する事象を問題と定義して可視化する。" ;
+    sh:property [
+        sh:path ex:hasApproach ;
+        sh:class ex:ProblemDiscoveryApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:impairs ;
+        sh:class ex:QCD ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:visualizes ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/TacitKnowledgeVisualizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TacitKnowledgeVisualization ;
+    sh:name "暗黙知の可視化" ;
+    sh:description "ベテランの無意識の判断である職人技を言語化・体系化する。" ;
+    sh:property [
+        sh:path ex:visualizes ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/ResultVisualizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ResultVisualization ;
+    sh:name "結果の可視化" ;
+    sh:description "現場の定性的実感と、財務指標と運営指標を結ぶ定量データの両面で効果を測定する。" ;
+    sh:property [
+        sh:path ex:visualizes ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/StreamliningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Streamlining ;
+    sh:name "整流化" ;
+    sh:description "ECRSの原則に基づき業務を整流化し、ソリューションをデザインする活動。" ;
+    sh:property [
+        sh:path ex:streamlines ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesPrinciple ;
+        sh:class ex:ECRSPrinciple ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/ECRSPrincipleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ECRSPrinciple ;
+    sh:name "ECRSの原則" ;
+    sh:description "排除・結合・入替代替・簡素化の優先順位。簡素化が最も重要で安定した効果を発揮する。" .
+
+<https://books.local/Operational_Excellence_BPR/ProblemDiscoveryApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProblemDiscoveryApproach ;
+    sh:name "問題発見アプローチ" ;
+    sh:description "何を問題とするかを定め、QCD棄損事象を発見するためのアプローチの上位概念。" .
+
+<https://books.local/Operational_Excellence_BPR/VisualizationDiscoveryApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:VisualizationDiscoveryApproach ;
+    sh:name "可視化発見型" ;
+    sh:description "業務フローを観察し、歪みや偏りを発見するアプローチ。" .
+
+<https://books.local/Operational_Excellence_BPR/HypothesisVerificationApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HypothesisVerificationApproach ;
+    sh:name "仮説検証型" ;
+    sh:description "現場の違和感から仮説を立て、可視化された情報で検証するアプローチ。" .
+
+<https://books.local/Operational_Excellence_BPR/OriginReturnApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OriginReturnApproach ;
+    sh:name "原点立ち返り型" ;
+    sh:description "最も強力なアプローチ。そもそもの目的は何かからゼロベースで業務を見直す。タフネスが必要。" .
+
+<https://books.local/Operational_Excellence_BPR/ProcessOwnerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProcessOwner ;
+    sh:name "プロセスオーナー" ;
+    sh:description "As-Isの可視化、改善点抽出、変革立案、効果検証を行う強い権限を持つ役割。名目的な内部統制役職ではない。" .
+
+<https://books.local/Operational_Excellence_BPR/BPMOrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BPMOrganization ;
+    sh:name "BPM組織" ;
+    sh:description "業務改革を部門へ丸投げせず、縦軸（事業）に位置づけられた専任組織。" .
+
+<https://books.local/Operational_Excellence_BPR/SixBubblesFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SixBubblesFramework ;
+    sh:name "六つのバブルフレームワーク" ;
+    sh:description "戦略、業務、情報システム、組織、人材・スキル、風土の順で企業変革を進める枠組み。システムは業務に先行しない。" .
+
+<https://books.local/Operational_Excellence_BPR/StrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Strategy ;
+    sh:name "戦略" ;
+    sh:description "企業変革の起点。VUCA時代には頻繁に更新され、巧拙より実行スピードが重要となる。" ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/InformationSystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InformationSystem ;
+    sh:name "情報システム" ;
+    sh:description "業務に先行せず手段として位置づけられるシステムおよびITツール。" ;
+    sh:property [
+        sh:path ex:isMeansFor ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "役割と責任が定義され、部門間インターフェースを持つ企業内の編成。" ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasInterface ;
+        sh:class ex:InterdepartmentalInterface ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/SkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Skill ;
+    sh:name "スキル" ;
+    sh:description "部門特有の実務的能力。見える化し、ロールモデルの思考法から学ぶプログラムで育成する。" ;
+    sh:property [
+        sh:path ex:precedes ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/CorporateCultureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CorporateCulture ;
+    sh:name "企業風土" ;
+    sh:description "現場からボトムアップで改善が湧き上がる改革の自働化としての最終的な到達点。" .
+
+<https://books.local/Operational_Excellence_BPR/TransformerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Transformer ;
+    sh:name "トランスフォーマー" ;
+    sh:description "仕組み自体をゼロから構築する改革人材。日常業務の延長では育たず、意図的な選抜と長期育成が必要。" ;
+    sh:property [
+        sh:path ex:hasCapability ;
+        sh:class ex:TransformationCapability ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:contrastedWith ;
+        sh:class ex:OperationTalent ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/OperationTalentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OperationTalent ;
+    sh:name "オペレーション人材" ;
+    sh:description "定められた仕組みの中で成果を出す人材。改革人材とは役割が異なる。" .
+
+<https://books.local/Operational_Excellence_BPR/TransformationCapabilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TransformationCapability ;
+    sh:name "変革のチカラ" ;
+    sh:description "ジョン・コッターの変革プロセスに基づく、改革人材に求められる能力の上位概念。" .
+
+<https://books.local/Operational_Excellence_BPR/ConceptualizationCapabilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConceptualizationCapability ;
+    sh:name "変革構想力" ;
+    sh:description "現状（As-Is）を可視化し、理想（To-Be）を描く力。" .
+
+<https://books.local/Operational_Excellence_BPR/ExecutionCapabilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExecutionCapability ;
+    sh:name "変革実行力" ;
+    sh:description "関係者を巻き込み、長期プロジェクトを息切れさせずに推進する力。" .
+
+<https://books.local/Operational_Excellence_BPR/AnchoringCapabilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnchoringCapability ;
+    sh:name "変革定着力" ;
+    sh:description "変革を企業文化として定着させ、次世代のトランスフォーマーを育てる力。" .
+
+<https://books.local/Operational_Excellence_BPR/ManufacturingCompanyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ManufacturingCompany ;
+    sh:name "モノづくり企業" ;
+    sh:description "自社の技術力に誇りはあるが十分な利益が上がっていないと感じる、本書の主な対象企業。" ;
+    sh:property [
+        sh:path ex:hasValueCriterion ;
+        sh:class ex:ValueCriterion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:operatesUnder ;
+        sh:class ex:VUCAEnvironment ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Operational_Excellence_BPR/CaseStudyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CaseStudy ;
+    sh:name "実践事例" ;
+    sh:description "ZARA、キーエンス、大塚商会、アシックスなどに見られるオペレーショナルエクセレンスの実践例。" .
+
+<https://books.local/Operational_Excellence_BPR/InterdepartmentalInterfaceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InterdepartmentalInterface ;
+    sh:name "組織間インターフェース" ;
+    sh:description "部門間の受け渡しや連携が生じる部分。業務改革の余地は常にここに存在し、複雑な企業活動ではさらに拡大する。" .
+
+<https://books.local/Operational_Excellence_BPR/QCDShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:QCD ;
+    sh:name "QCD" ;
+    sh:description "品質・コスト・納期。これを棄損する事象を客観的に問題と定義する。" .
+
+<https://books.local/Operational_Excellence_BPR/VUCAEnvironmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:VUCAEnvironment ;
+    sh:name "VUCA環境" ;
+    sh:description "変動性・不確実性・複雑性・曖昧性の時代。完璧な長期戦略より現場オペレーションの実行スピードが競争優位となる。" .
+
+<https://books.local/Operational_Excellence_BPR/CraftsmanshipShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Craftsmanship ;
+    sh:name "職人技" ;
+    sh:description "アナログで高度な手技や勘所。属人化（仕組み化の欠如）とは峻別し、尊重して伝承する。" .
+
+<https://books.local/Operational_Excellence_BPR/MissionVisionValueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MissionVisionValue ;
+    sh:name "ミッションビジョンバリュー" ;
+    sh:description "改革を人ではなく仕組みに依存させて定着させるための構成要素の一つ。" .

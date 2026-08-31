@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/">
+    <rdfs:label>BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_JissentekiOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement">
+    <rdfs:label xml:lang="ja">セールスイネーブルメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者が適切なタイミングで適切なリソースを活用できるようにする部門横断的かつ戦略的なアプローチ。目的は営業組織の生産性最大化、売上向上、コスト削減である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SystemsThinking">
+    <rdfs:label xml:lang="ja">システム思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">相互に依存し全体として機能する部分の集合として営業組織を生態系として捉える思考法。セールスイネーブルメント構築の基盤となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock">
+    <rdfs:label xml:lang="ja">ビルディングブロック</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織の営業力を最大化するための構成要素。単発の研修やツール導入ではなく相互依存する要素群として設計される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/CustomerUnderstanding">
+    <rdfs:label xml:lang="ja">顧客理解</rdfs:label>
+    <rdfs:comment xml:lang="ja">ペルソナ設定とCOIN-OPフレームワークにより顧客の購買プロセスの完了条件を特定しマッピングするビルディングブロック。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuyerEngagementContent">
+    <rdfs:label xml:lang="ja">バイヤーエンゲージメントコンテンツ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の購買プロセスの完了条件を満たすためのマーケティング、案件発掘、商談管理用コンテンツ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesSupportContent">
+    <rdfs:label xml:lang="ja">営業サポートコンテンツ</rdfs:label>
+    <rdfs:comment xml:lang="ja">プレイブック、ジョブエイド、ワークフロー・パフォーマンスサポートツールなど、目の前のタスクを容易にするための支援コンテンツ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesHiring">
+    <rdfs:label xml:lang="ja">営業の採用</rdfs:label>
+    <rdfs:comment xml:lang="ja">ノーマティブ方式の心理測定テスト、STARフレームワークによる行動面接、ロールプレイによるスキル検証を用いる採用の構成要素。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesTraining">
+    <rdfs:label xml:lang="ja">営業トレーニング</rdfs:label>
+    <rdfs:comment xml:lang="ja">知識の習得からスキルの定着までを導く営業熟達と行動変容の五段階プロセスに基づくトレーニング。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesCoaching">
+    <rdfs:label xml:lang="ja">営業コーチング</rdfs:label>
+    <rdfs:comment xml:lang="ja">ROAMモデルによるパフォーマンス診断と、診断・計画・実行・確認のサイクルによる継続的コーチング文化の構築。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesProcess">
+    <rdfs:label xml:lang="ja">営業プロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">商談の進行段階と完了条件を定義する構成要素。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesMethod">
+    <rdfs:label xml:lang="ja">営業メソッド</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業プロセスの各段階で求められる具体的なスキルや行動を定義する構成要素。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesTechAndTools">
+    <rdfs:label xml:lang="ja">セールステックとツール</rdfs:label>
+    <rdfs:comment xml:lang="ja">CRMやセールスエンゲージメントプラットフォームなど。導入前にプロセスとワークフローの最適化が前提となる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesCompensationAndEvaluation">
+    <rdfs:label xml:lang="ja">営業報酬と評価</rdfs:label>
+    <rdfs:comment xml:lang="ja">ハーズバーグの二要因理論を踏まえ、衛生要因としての報酬と動機付け要因としての目的・自主性・熟達のバランスを設計する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesManagerEnablement">
+    <rdfs:label xml:lang="ja">営業マネージャーイネーブルメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">前線の営業マネージャーが価値の低い事務作業を排除し、コーチングや現場トレーニングに集中できる環境を構築する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/EnablementSystem">
+    <rdfs:label xml:lang="ja">イネーブルメントシステム</rdfs:label>
+    <rdfs:comment xml:lang="ja">ビルディングブロックを機能させる相互依存する基盤。採用、レディネス、トレーニング、マネジメントの四系統からなる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/HiringSystem">
+    <rdfs:label xml:lang="ja">採用システム</rdfs:label>
+    <rdfs:comment xml:lang="ja">適材適所を実現し組織の基盤を作るシステム。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/EnablementSystem"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesReadinessSystem">
+    <rdfs:label xml:lang="ja">セールスレディネスシステム</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客理解、コンテンツ、ビジネス知識を統合し、営業担当者を常に準備完了状態にするシステム。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/EnablementSystem"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesTrainingSystem">
+    <rdfs:label xml:lang="ja">営業トレーニングシステム</rdfs:label>
+    <rdfs:comment xml:lang="ja">チェンジマネジメントとして機能し、学習内容を現場の行動変容に繋げるシステム。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/EnablementSystem"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesManagementSystem">
+    <rdfs:label xml:lang="ja">営業マネジメントシステム</rdfs:label>
+    <rdfs:comment xml:lang="ja">チームミーティング、ワンオンワン、パイプラインレビューなどマネージャーの定常業務を体系化するシステム。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/EnablementSystem"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesOrganization">
+    <rdfs:label xml:lang="ja">営業組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">相互依存する部分の集合として機能する営業の生態系。属人化や非効率を克服し営業を科学する対象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesRepresentative">
+    <rdfs:label xml:lang="ja">営業担当者</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客との商談においてツール、コンテンツ、知識、トレーニングを活用する前線の営業人材。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/FrontLineSalesManager">
+    <rdfs:label xml:lang="ja">前線営業マネージャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">コーチングと現場トレーニングに集中すべき前線の営業管理者。イネーブルメントによる事務作業削減の対象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Buyer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">購買プロセスと完了条件を持つバイヤー。ペルソナとCOIN-OPにより理解される対象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Framework">
+    <rdfs:label xml:lang="ja">フレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">COIN-OP、STAR、ROAM、営業熟達と行動変容の五段階、二要因理論など、実践を導く枠組み。地図は現地ではないという前提で現場に適応させる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Charter">
+    <rdfs:label xml:lang="ja">憲章</rdfs:label>
+    <rdfs:comment xml:lang="ja">目的、目標、関係者、アウトプット、先行指標と遅行指標を明確にした戦略的計画。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Onboarding">
+    <rdfs:label xml:lang="ja">営業オンボーディング</rdfs:label>
+    <rdfs:comment xml:lang="ja">パフォーマンスマイルストーン、チャンク・シーケンス・レイヤー、反転学習、間隔反復、ロールプレイ、レディネス検証、七十・二十・十の法則により新入社員を早期戦力化する取組。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SupportService">
+    <rdfs:label xml:lang="ja">営業サポートサービス</rdfs:label>
+    <rdfs:comment xml:lang="ja">領域専門家、提案依頼書支援、ディールデスク、外部コーチングなど、コミュニケーション一元化とナレッジマネジメントを支えるサービス。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/PerformanceConsulting">
+    <rdfs:label xml:lang="ja">パフォーマンスコンサルティング</rdfs:label>
+    <rdfs:comment xml:lang="ja">トレーニングでは解決できない組織的要因や個人的要因の根本原因を分析し継続的改善を行う、セールスイネーブルメントの最終形。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Metric">
+    <rdfs:label xml:lang="ja">指標</rdfs:label>
+    <rdfs:comment xml:lang="ja">憲章で定義される先行指標と遅行指標。現状診断のギャップ分析や影響分析にも用いる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/basedOnSystemsThinking">
+    <rdfs:label xml:lang="ja">システム思考に基づく</rdfs:label>
+    <rdfs:comment xml:lang="ja">セールスイネーブルメントがシステム思考に基づいて構築される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SystemsThinking"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasBuildingBlock">
+    <rdfs:label xml:lang="ja">ビルディングブロックを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">セールスイネーブルメントが営業力最大化の構成要素を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasSystem">
+    <rdfs:label xml:lang="ja">システムを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">セールスイネーブルメントが相互依存する四つの基盤システムを持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/EnablementSystem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/targetsOrganization">
+    <rdfs:label xml:lang="ja">対象組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">セールスイネーブルメントが生産性を最大化しようとする営業組織。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesOrganization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/enablesRepresentative">
+    <rdfs:label xml:lang="ja">営業担当者をイネーブルする</rdfs:label>
+    <rdfs:comment xml:lang="ja">適切なリソースを適切なタイミングで活用できるよう営業担当者を支援する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesRepresentative"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/usesFramework">
+    <rdfs:label xml:lang="ja">フレームワークを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">ビルディングブロックやイネーブルメントが実践枠組みを用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Framework"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasCharter">
+    <rdfs:label xml:lang="ja">憲章を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">導入時に目的・目標・関係者・指標を定めた憲章を策定する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Charter"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasOnboarding">
+    <rdfs:label xml:lang="ja">オンボーディングを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">新入社員の早期戦力化プログラムを持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Onboarding"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/providesSupportService">
+    <rdfs:label xml:lang="ja">サポートサービスを提供する</rdfs:label>
+    <rdfs:comment xml:lang="ja">領域専門家やディールデスク等の営業支援サービスを提供する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SupportService"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/evolvesInto">
+    <rdfs:label xml:lang="ja">進化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">単なるツールや研修提供からパフォーマンスコンサルティングへ進化する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/PerformanceConsulting"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasMetric">
+    <rdfs:label xml:lang="ja">指標を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">憲章や取組が先行指標と遅行指標を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Charter"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Metric"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/engagesBuyer">
+    <rdfs:label xml:lang="ja">顧客とエンゲージする</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者またはコンテンツが顧客の購買プロセスに関与する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesRepresentative"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuyerEngagementContent"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Buyer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/coaches">
+    <rdfs:label xml:lang="ja">コーチングする</rdfs:label>
+    <rdfs:comment xml:lang="ja">マネージャーまたはコーチング機能が営業担当者の行動変容を支援する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/FrontLineSalesManager"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesCoaching"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesRepresentative"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/managesTeam">
+    <rdfs:label xml:lang="ja">チームを管理する</rdfs:label>
+    <rdfs:comment xml:lang="ja">前線営業マネージャーが営業担当者を管理する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/FrontLineSalesManager"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesRepresentative"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/supportsManager">
+    <rdfs:label xml:lang="ja">マネージャーを支援する</rdfs:label>
+    <rdfs:comment xml:lang="ja">マネージャーイネーブルメントが前線営業マネージャーを支援する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesManagerEnablement"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/FrontLineSalesManager"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/definesCompletionCriteria">
+    <rdfs:label xml:lang="ja">完了条件を定義する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業プロセスまたは顧客理解が購買・商談の完了条件を定義する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesProcess"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/CustomerUnderstanding"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Buyer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/usesMethodInProcess">
+    <rdfs:label xml:lang="ja">プロセスでメソッドを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">各進行段階で具体的スキルや行動を定義するメソッドを用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesProcess"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/usesTool">
+    <rdfs:label xml:lang="ja">ツールを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者や組織がCRM等のセールステックを用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesRepresentative"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesTechAndTools"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/belongsToOrganization">
+    <rdfs:label xml:lang="ja">組織に属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業人材が営業組織に所属する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesRepresentative"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/FrontLineSalesManager"/>
+    <rdfs:range rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesOrganization"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasPurpose">
+    <rdfs:label xml:lang="ja">目的</rdfs:label>
+    <rdfs:comment xml:lang="ja">取組や憲章、構成要素の目的を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Charter"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasDefinition">
+    <rdfs:label xml:lang="ja">定義</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念の定義を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/SalesEnablement"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/BuildingBlock"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/EnablementSystem"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Framework"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/hasObjective">
+    <rdfs:label xml:lang="ja">目標</rdfs:label>
+    <rdfs:comment xml:lang="ja">憲章、オンボーディング、指標における目標を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Charter"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Onboarding"/>
+    <rdfs:domain rdf:resource="https://books.local/BUILDING_BLOCKS_birudinguburokku_Shiki_seerusuineeburumento__EiKae_ru_Jissenteki/Metric"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

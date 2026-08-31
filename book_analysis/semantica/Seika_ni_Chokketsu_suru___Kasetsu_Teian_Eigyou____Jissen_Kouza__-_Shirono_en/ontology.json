@@ -1,0 +1,529 @@
+{
+  "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/",
+  "name": "Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_enOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Book",
+      "label": "書籍",
+      "comment": "成果に直結する仮説提案営業の実践講座に関する書籍およびその分析対象。",
+      "parent": null
+    },
+    {
+      "name": "SalesChallenge",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesChallenge",
+      "label": "営業課題",
+      "comment": "新製品が売れない、新規開拓が苦手、引き合い減少、製品同質化、オンライン商談での関係構築難化などBtoB営業の共通課題。",
+      "parent": null
+    },
+    {
+      "name": "SalesApproach",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesApproach",
+      "label": "営業アプローチ",
+      "comment": "顧客への働きかけの仕方を表す営業スタイルや手法の上位概念。",
+      "parent": null
+    },
+    {
+      "name": "WaitingSales",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/WaitingSales",
+      "label": "待ちの営業",
+      "comment": "顧客からの提案依頼を待つ従来型の営業。システムリプレース型の大型案件に依存しやすい。",
+      "parent": "SalesApproach"
+    },
+    {
+      "name": "OffensiveSales",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/OffensiveSales",
+      "label": "攻めの営業",
+      "comment": "クラウド普及による単価低下を踏まえ、顧客に先回りして提案する能動的な営業パラダイム。",
+      "parent": "SalesApproach"
+    },
+    {
+      "name": "HypothesisProposalSales",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisProposalSales",
+      "label": "仮説提案営業",
+      "comment": "明確なニーズがなくても事前調査に基づく仮説と個別提案資料で初回商談から案件を前進させる営業手法。",
+      "parent": "OffensiveSales"
+    },
+    {
+      "name": "ThinkingMethod",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ThinkingMethod",
+      "label": "思考法",
+      "comment": "営業活動で結論を導くための思考の枠組み。",
+      "parent": null
+    },
+    {
+      "name": "ExhaustiveThinking",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ExhaustiveThinking",
+      "label": "網羅思考",
+      "comment": "すべての事象やデータを抽出・分析してから結論を出す手法。現場営業には時間がかかりすぎて不向き。",
+      "parent": "ThinkingMethod"
+    },
+    {
+      "name": "HypothesisThinking",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisThinking",
+      "label": "仮説思考",
+      "comment": "BCGが提唱した、情報が不十分な段階で仮の結論を立て実行・検証・修正を繰り返す手法。",
+      "parent": "ThinkingMethod"
+    },
+    {
+      "name": "Hypothesis",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Hypothesis",
+      "label": "仮説",
+      "comment": "限られた情報から立てる顧客課題または解決策の仮の結論。",
+      "parent": null
+    },
+    {
+      "name": "ProblemHypothesis",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProblemHypothesis",
+      "label": "問題仮説",
+      "comment": "顧客が抱えているであろう課題の仮定。So what?で根本原因とインパクトまで深掘りする。",
+      "parent": "Hypothesis"
+    },
+    {
+      "name": "SolutionHypothesis",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SolutionHypothesis",
+      "label": "解決仮説",
+      "comment": "問題を解決するための具体的な対策や製品導入の仮定。",
+      "parent": "Hypothesis"
+    },
+    {
+      "name": "HypothesisLevel",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/HypothesisLevel",
+      "label": "仮説レベル",
+      "comment": "エリア特化・企業規模特化・業界特化・企業特化の四段階。レベルが上がるほど案件化率と共感が高まる。",
+      "parent": null
+    },
+    {
+      "name": "InformationSource",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/InformationSource",
+      "label": "情報源",
+      "comment": "SPEEDA、Googleアラート、RSSリーダーなど仮説立案のための調査手段。",
+      "parent": null
+    },
+    {
+      "name": "ProposalMaterial",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ProposalMaterial",
+      "label": "提案資料",
+      "comment": "初回商談で導入必要性を伝える資料。情報過多を避け、Whyと起こり得る結果を中心に構成する。",
+      "parent": null
+    },
+    {
+      "name": "CaseStudy",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/CaseStudy",
+      "label": "導入事例",
+      "comment": "同業種・同規模を優先して示す事例。検討中・検証・導入の段階と具体的社数で訴求する。",
+      "parent": null
+    },
+    {
+      "name": "SalesMeeting",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/SalesMeeting",
+      "label": "商談",
+      "comment": "仮説提示、ヒアリング、質疑、クロージングで構成される顧客との商談。",
+      "parent": null
+    },
+    {
+      "name": "MeetingPhase",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/MeetingPhase",
+      "label": "商談フェーズ",
+      "comment": "オープニング、ボディ、クロージングなど商談の時間配分単位。",
+      "parent": null
+    },
+    {
+      "name": "ClosingTechnique",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/ClosingTechnique",
+      "label": "クロージング手法",
+      "comment": "松竹梅の選択肢クロージングなど、即決を迫らず次回アクションへ誘導する技法。",
+      "parent": null
+    },
+    {
+      "name": "OnlineMeetingTechnique",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/OnlineMeetingTechnique",
+      "label": "オンライン商談テクニック",
+      "comment": "視覚・聴覚・言語の三つのVを工夫し、警戒心の高いオンライン環境で関係を深める技法。",
+      "parent": null
+    },
+    {
+      "name": "PartnerSales",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PartnerSales",
+      "label": "パートナーセールス",
+      "comment": "SIerや代理店を通じた間接販売。分析、協業提案、交渉、案件創出、継続受注の五ステップで進める。",
+      "parent": "SalesApproach"
+    },
+    {
+      "name": "PsychologicalPrinciple",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/PsychologicalPrinciple",
+      "label": "心理原則",
+      "comment": "返報性・一貫性・社会的証明・権威・好意・希少性など、顧客の心を動かすチャルディーニの原則。",
+      "parent": null
+    },
+    {
+      "name": "Salesperson",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Salesperson",
+      "label": "営業パーソン",
+      "comment": "企業ブランドや製品スペックではなく仮説提案によって個人として選ばれることを目指す営業担当者。",
+      "parent": null
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/Customer",
+      "label": "顧客",
+      "comment": "仮説の対象となる企業。ニーズが未明確でも課題仮説によって商談を前進させる相手。",
+      "parent": null
+    },
+    {
+      "name": "BusinessPartner",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/BusinessPartner",
+      "label": "販売パートナー",
+      "comment": "メーカー製品を顧客へ販売するSIerや代理店。Win-Win-Winの協業とイノベーター理論による展開対象。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "addressesChallenge",
+      "type": "object",
+      "domain": [
+        "SalesApproach"
+      ],
+      "range": [
+        "SalesChallenge"
+      ],
+      "label": "課題に対処する",
+      "comment": "営業アプローチが対象とするBtoB営業上の課題。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/addressesChallenge"
+    },
+    {
+      "name": "usesThinkingMethod",
+      "type": "object",
+      "domain": [
+        "HypothesisProposalSales"
+      ],
+      "range": [
+        "ThinkingMethod"
+      ],
+      "label": "思考法を用いる",
+      "comment": "仮説提案営業が依拠する思考法。主に仮説思考。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/usesThinkingMethod"
+    },
+    {
+      "name": "formulatesHypothesis",
+      "type": "object",
+      "domain": [
+        "Salesperson",
+        "HypothesisProposalSales"
+      ],
+      "range": [
+        "Hypothesis"
+      ],
+      "label": "仮説を立案する",
+      "comment": "事前調査に基づき問題仮説と解決仮説を立てる関係。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/formulatesHypothesis"
+    },
+    {
+      "name": "hasHypothesisLevel",
+      "type": "object",
+      "domain": [
+        "Hypothesis"
+      ],
+      "range": [
+        "HypothesisLevel"
+      ],
+      "label": "仮説レベルを持つ",
+      "comment": "仮説の具体性（エリア・規模・業界・企業特化）を示す。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/hasHypothesisLevel"
+    },
+    {
+      "name": "basedOnSource",
+      "type": "object",
+      "domain": [
+        "Hypothesis"
+      ],
+      "range": [
+        "InformationSource"
+      ],
+      "label": "情報源に基づく",
+      "comment": "仮説立案の根拠となる企業データベースや自動収集手段。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/basedOnSource"
+    },
+    {
+      "name": "solvesProblem",
+      "type": "object",
+      "domain": [
+        "SolutionHypothesis"
+      ],
+      "range": [
+        "ProblemHypothesis"
+      ],
+      "label": "問題仮説を解決する",
+      "comment": "解決仮説が対応する問題仮説。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/solvesProblem"
+    },
+    {
+      "name": "proposedToCustomer",
+      "type": "object",
+      "domain": [
+        "Hypothesis",
+        "ProposalMaterial"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "顧客へ提案する",
+      "comment": "仮説や提案資料の提示先となる顧客。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/proposedToCustomer"
+    },
+    {
+      "name": "preparesMaterial",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "ProposalMaterial"
+      ],
+      "label": "提案資料を準備する",
+      "comment": "初回商談に向けて個別資料を作成する関係。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/preparesMaterial"
+    },
+    {
+      "name": "includesCaseStudy",
+      "type": "object",
+      "domain": [
+        "ProposalMaterial"
+      ],
+      "range": [
+        "CaseStudy"
+      ],
+      "label": "導入事例を含む",
+      "comment": "提案資料に掲載する検討中・検証・導入の事例。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/includesCaseStudy"
+    },
+    {
+      "name": "presentedInMeeting",
+      "type": "object",
+      "domain": [
+        "ProposalMaterial",
+        "Hypothesis"
+      ],
+      "range": [
+        "SalesMeeting"
+      ],
+      "label": "商談で提示する",
+      "comment": "資料や仮説が用いられる商談。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/presentedInMeeting"
+    },
+    {
+      "name": "hasMeetingPhase",
+      "type": "object",
+      "domain": [
+        "SalesMeeting"
+      ],
+      "range": [
+        "MeetingPhase"
+      ],
+      "label": "商談フェーズを持つ",
+      "comment": "オープニング・ボディ・クロージングなどの構成。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/hasMeetingPhase"
+    },
+    {
+      "name": "usesClosingTechnique",
+      "type": "object",
+      "domain": [
+        "SalesMeeting"
+      ],
+      "range": [
+        "ClosingTechnique"
+      ],
+      "label": "クロージング手法を用いる",
+      "comment": "次回ステップへ誘導するための選択肢提示など。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/usesClosingTechnique"
+    },
+    {
+      "name": "appliesOnlineTechnique",
+      "type": "object",
+      "domain": [
+        "SalesMeeting"
+      ],
+      "range": [
+        "OnlineMeetingTechnique"
+      ],
+      "label": "オンライン技法を適用する",
+      "comment": "視覚・聴覚・言語面の工夫を商談に適用する。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/appliesOnlineTechnique"
+    },
+    {
+      "name": "conductedBy",
+      "type": "object",
+      "domain": [
+        "SalesMeeting"
+      ],
+      "range": [
+        "Salesperson"
+      ],
+      "label": "実施者",
+      "comment": "商談を進行する営業パーソン。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/conductedBy"
+    },
+    {
+      "name": "conductedWith",
+      "type": "object",
+      "domain": [
+        "SalesMeeting"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "商談相手",
+      "comment": "商談の相手となる顧客。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/conductedWith"
+    },
+    {
+      "name": "practicesApproach",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "SalesApproach"
+      ],
+      "label": "営業アプローチを実践する",
+      "comment": "営業パーソンが用いる仮説提案などの手法。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/practicesApproach"
+    },
+    {
+      "name": "appliesPrinciple",
+      "type": "object",
+      "domain": [
+        "SalesApproach",
+        "Salesperson"
+      ],
+      "range": [
+        "PsychologicalPrinciple"
+      ],
+      "label": "心理原則を適用する",
+      "comment": "返報性や社会的証明など顧客の意思決定を促す原則の利用。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/appliesPrinciple"
+    },
+    {
+      "name": "sellsThroughPartner",
+      "type": "object",
+      "domain": [
+        "PartnerSales"
+      ],
+      "range": [
+        "BusinessPartner"
+      ],
+      "label": "パートナー経由で販売する",
+      "comment": "間接販売における代理店・SIerとの協業関係。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/sellsThroughPartner"
+    },
+    {
+      "name": "collaboratesWith",
+      "type": "object",
+      "domain": [
+        "Salesperson"
+      ],
+      "range": [
+        "BusinessPartner"
+      ],
+      "label": "パートナーと協業する",
+      "comment": "勉強会や営業同行を通じた案件創出のための協業。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/collaboratesWith"
+    },
+    {
+      "name": "describedInBook",
+      "type": "object",
+      "domain": [
+        "SalesApproach",
+        "Hypothesis",
+        "PsychologicalPrinciple",
+        "PartnerSales"
+      ],
+      "range": [
+        "Book"
+      ],
+      "label": "書籍で解説される",
+      "comment": "当該概念が本書で扱われていることを示す。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/describedInBook"
+    },
+    {
+      "name": "title",
+      "type": "data",
+      "domain": [
+        "Book",
+        "ProposalMaterial",
+        "CaseStudy"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "タイトル",
+      "comment": "書籍・資料・事例の名称。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/title"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "SalesChallenge",
+        "Hypothesis",
+        "MeetingPhase",
+        "PsychologicalPrinciple",
+        "OnlineMeetingTechnique"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "概念の内容や具体例を表す文字列。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/description"
+    },
+    {
+      "name": "levelName",
+      "type": "data",
+      "domain": [
+        "HypothesisLevel"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "レベル名称",
+      "comment": "エリア特化、企業規模特化、業界特化、企業特化などの段階名。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/levelName"
+    },
+    {
+      "name": "durationNote",
+      "type": "data",
+      "domain": [
+        "MeetingPhase",
+        "SalesMeeting"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "所要時間の目安",
+      "comment": "六十分配のオープニング五分、ボディ四十五分以内、クロージング十分などの時間配分。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/durationNote"
+    },
+    {
+      "name": "goal",
+      "type": "data",
+      "domain": [
+        "SalesMeeting",
+        "ProposalMaterial",
+        "PartnerSales"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "ゴール",
+      "comment": "機能理解ではなく導入必要性の理解、顧客紹介獲得など、設定すべき目的。",
+      "uri": "https://books.local/Seika_ni_Chokketsu_suru___Kasetsu_Teian_Eigyou____Jissen_Kouza__-_Shirono_en/goal"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

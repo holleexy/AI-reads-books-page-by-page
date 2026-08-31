@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/プロダクトマネジメントのすべて/">
+    <rdfs:label>プロダクトマネジメントのすべてOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/ProductManager">
+    <rdfs:label xml:lang="ja">プロダクトマネージャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロダクトを市場成功に導きエンジニア・デザイナー・マーケターを統率する役割。ミニCEOとも呼ばれビジネス・UX・技術の交差点で意思決定する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/Product">
+    <rdfs:label xml:lang="ja">プロダクト</rdfs:label>
+    <rdfs:comment xml:lang="ja">市場の顧客となりうる個人または組織に価値を提案するもの。狭義は成果物、広義は営業・PR・カスタマーサクセスを含む事業全体。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/Vision">
+    <rdfs:label xml:lang="ja">ビジョン</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロダクトが創り出したい未来の世界観であり存在理由。チーム全員が同じビジョンを述べ共有できることが重要。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/UserValue">
+    <rdfs:label xml:lang="ja">ユーザー価値</rdfs:label>
+    <rdfs:comment xml:lang="ja">ユーザーが価値を感じて継続利用する状態。当初は一部ユーザーに提案し検証済み仮説で拡大する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/BusinessRevenue">
+    <rdfs:label xml:lang="ja">事業収益</rdfs:label>
+    <rdfs:comment xml:lang="ja">チームと投資を持続しビジョンへ進むために必要な収益。市場観察と独自戦略でビジネスモデルを構築する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/ProductStage">
+    <rdfs:label xml:lang="ja">プロダクトステージ</rdfs:label>
+    <rdfs:comment xml:lang="ja">0→1（PMF達成）、1→10（急成長）、10→100（大規模化）の段階。ステージごとに成功定義と必要な視点が変わる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/ProductMarketFit">
+    <rdfs:label xml:lang="ja">プロダクトマーケットフィット</rdfs:label>
+    <rdfs:comment xml:lang="ja">強力な価値仮説を見つけユーザーが想定価格で購入する状態。スタートアップと新規事業で最重要。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/ProductLayer">
+    <rdfs:label xml:lang="ja">プロダクトレイヤー</rdfs:label>
+    <rdfs:comment xml:lang="ja">コア（世界観・戦略）、Why（誰をどの状態に）、What（UX・ビジネスモデル）、How（実現）の4階層。上層変更は下層再検討を要する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/PMSkill">
+    <rdfs:label xml:lang="ja">PMスキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">発想力・計画力・実行力・仮説検証力・リスク管理力・チーム構築力の6つ。ステージにより相対的重要度が変わる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/LeanCanvas">
+    <rdfs:label xml:lang="ja">リーンキャンバス</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題・ソリューション・UVP等9項目を1ページで整理しコア・Why・Whatの整合を検証するフレームワーク。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/MinimumViableProduct">
+    <rdfs:label xml:lang="ja">ミニマムバイアブルプロダクト</rdfs:label>
+    <rdfs:comment xml:lang="ja">コア価値を提案する最小プロダクト。すべてを磨き切らず段階的リリースで価値検証する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/ValuePropositionCanvas">
+    <rdfs:label xml:lang="ja">バリュープロポジションキャンバス</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客プロファイル（Jobs/Pains/Gains）と価値マップの左右整合をペルソナごとに確認するツール。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/Persona">
+    <rdfs:label xml:lang="ja">ペルソナ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ターゲットセグメントから実データに基づき作られた架空ユーザー。役割ごとに1つ作成する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/CustomerJourneyMap">
+    <rdfs:label xml:lang="ja">カスタマージャーニーマップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ユーザーの行動・思考とプロダクト機能を時系列で可視化し遷移・離脱理由を捉える。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/BusinessModelCanvas">
+    <rdfs:label xml:lang="ja">ビジネスモデルキャンバス</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客セグメントからコスト構造まで9ブロックで価値創造と提供の論理を記述する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/ProductRoadmap">
+    <rdfs:label xml:lang="ja">プロダクトロードマップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ビジョンへ向かう中間マイルストーン付き行程。コミュニケーションツールとして継続更新する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/NorthStarMetric">
+    <rdfs:label xml:lang="ja">ノーススターメトリック</rdfs:label>
+    <rdfs:comment xml:lang="ja">コア価値がユーザーに届いているかを測る単一指標。収益に先行しUX・リテンションと結びつく。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/ProductBacklog">
+    <rdfs:label xml:lang="ja">プロダクトバックログ</rdfs:label>
+    <rdfs:comment xml:lang="ja">優先順位付けされた機能・仕組みの継続更新リスト。ユーザーストーリーで伝達する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/プロダクトマネジメントのすべて/Hypothesis">
+    <rdfs:label xml:lang="ja">仮説</rdfs:label>
+    <rdfs:comment xml:lang="ja">4階層を連鎖した検証対象。すべて仮説と捉え小さなリスクで高速ループを回す。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/プロダクトマネジメントのすべて/managesProduct">
+    <rdfs:label xml:lang="ja">プロダクトを管理する</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロダクトマネージャーがプロダクト成功の責任を負いステークホルダーを統率する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/ProductManager"/>
+    <rdfs:range rdf:resource="https://books.local/プロダクトマネジメントのすべて/Product"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/プロダクトマネジメントのすべて/hasVision">
+    <rdfs:label xml:lang="ja">ビジョンを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロダクトが目指す世界観との関係。ビジョン不在では成功とみなされない。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/Product"/>
+    <rdfs:range rdf:resource="https://books.local/プロダクトマネジメントのすべて/Vision"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/プロダクトマネジメントのすべて/providesUserValue">
+    <rdfs:label xml:lang="ja">ユーザー価値を提供する</rdfs:label>
+    <rdfs:comment xml:lang="ja">継続利用される価値をユーザーに届ける関係。一時的収益のための価値毀損は持続しない。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/Product"/>
+    <rdfs:range rdf:resource="https://books.local/プロダクトマネジメントのすべて/UserValue"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/プロダクトマネジメントのすべて/generatesRevenue">
+    <rdfs:label xml:lang="ja">事業収益を生み出す</rdfs:label>
+    <rdfs:comment xml:lang="ja">ビジョン実現を支える収益との関係。3要素の相互バランスが必須。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/Product"/>
+    <rdfs:range rdf:resource="https://books.local/プロダクトマネジメントのすべて/BusinessRevenue"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/プロダクトマネジメントのすべて/isInStage">
+    <rdfs:label xml:lang="ja">ステージにある</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロダクトが0→1、1→10、10→100のいずれかの段階にある関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/Product"/>
+    <rdfs:range rdf:resource="https://books.local/プロダクトマネジメントのすべて/ProductStage"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/プロダクトマネジメントのすべて/achievesPMF">
+    <rdfs:label xml:lang="ja">PMFを達成する</rdfs:label>
+    <rdfs:comment xml:lang="ja">価値仮説が検証され本格的ライフサイクルが始まる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/Product"/>
+    <rdfs:range rdf:resource="https://books.local/プロダクトマネジメントのすべて/ProductMarketFit"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/プロダクトマネジメントのすべて/hasLayer">
+    <rdfs:label xml:lang="ja">レイヤーを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">コア・Why・What・Howの階層で構成されFit&amp;Refineで整合させる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/Product"/>
+    <rdfs:range rdf:resource="https://books.local/プロダクトマネジメントのすべて/ProductLayer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/プロダクトマネジメントのすべて/requiresSkill">
+    <rdfs:label xml:lang="ja">スキルを必要とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">6つのコアスキルでユーザー価値と収益の両輪を支える関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/ProductManager"/>
+    <rdfs:range rdf:resource="https://books.local/プロダクトマネジメントのすべて/PMSkill"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/プロダクトマネジメントのすべて/validatesWithMVP">
+    <rdfs:label xml:lang="ja">MVPで検証する</rdfs:label>
+    <rdfs:comment xml:lang="ja">最小プロダクトでコア価値仮説を迅速に検証する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/Product"/>
+    <rdfs:range rdf:resource="https://books.local/プロダクトマネジメントのすべて/MinimumViableProduct"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/プロダクトマネジメントのすべて/hasDescription">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">対象の名称や詳細を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/Product"/>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/ProductManager"/>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/Vision"/>
+    <rdfs:domain rdf:resource="https://books.local/プロダクトマネジメントのすべて/Hypothesis"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

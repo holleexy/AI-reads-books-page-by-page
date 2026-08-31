@@ -1,0 +1,970 @@
+@prefix ex: <https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/shapes> a owl:Ontology .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "人を動かすコミュニケーション術を扱う対象書籍。正論だけでは人は動かないという出発点を持つ。" ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CommunicationApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CommunicationApproach ;
+    sh:name "コミュニケーションアプローチ" ;
+    sh:description "合意形成に用いる対話の進め方の総称。競争的議論と共創的議論を含む。" ;
+    sh:property [
+        sh:path ex:appliedToSituation ;
+        sh:class ex:BusinessSituation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CompetitiveDiscussionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CompetitiveDiscussion ;
+    sh:name "競い争うディスカッション" ;
+    sh:description "相手を説得・論破する競争的な議論。正しさの押し付けにより抵抗や思考停止を招く。" ;
+    sh:property [
+        sh:path ex:triggeredByBias ;
+        sh:class ex:Bias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedToSituation ;
+        sh:class ex:BusinessSituation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoCreativeDiscussionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CoCreativeDiscussion ;
+    sh:name "共に創るディスカッション" ;
+    sh:description "相手の意見を引き出し、一緒により良い結論を生み出すコ・クリエーション型の議論。" ;
+    sh:property [
+        sh:path ex:treatsAsMaterial ;
+        sh:class ex:Obstacle ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedToSituation ;
+        sh:class ex:BusinessSituation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BiasShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Bias ;
+    sh:name "バイアス" ;
+    sh:description "判断や行動を歪める認知上の偏り。現状維持や経験則に基づく思い込みを含む。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/StatusQuoBiasShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:StatusQuoBias ;
+    sh:name "現状維持バイアス" ;
+    sh:description "変化を嫌い現状を維持しようとする心理。正論の押し付けが抵抗を生む原因となる。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/HeuristicShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Heuristic ;
+    sh:name "ヒューリスティック" ;
+    sh:description "経験則に基づく速い判断。代表性、利用可能性、固着性、シミュレーションの四種がある。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CoreSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CoreSkill ;
+    sh:name "コアスキル" ;
+    sh:description "共に創るディスカッションを実践し四つの壁を越えるための七つの中核技能。" ;
+    sh:property [
+        sh:path ex:overcomesWall ;
+        sh:class ex:PsychologicalWall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedToSituation ;
+        sh:class ex:BusinessSituation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportsApproach ;
+        sh:class ex:CoCreativeDiscussion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AnticipationSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnticipationSkill ;
+    sh:name "想定する力" ;
+    sh:description "ベストケースとワーストケースを想定し、ゴール・壁・対応策を事前に書き出す技能。" ;
+    sh:property [
+        sh:path ex:overcomesWall ;
+        sh:class ex:PsychologicalWall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedToSituation ;
+        sh:class ex:BusinessSituation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportsApproach ;
+        sh:class ex:CoCreativeDiscussion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SequencingSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SequencingSkill ;
+    sh:name "段取りする力" ;
+    sh:description "相手の発言を引き出し双方向の流れを設計する技能。W字型進行と枕詞を用いる。" ;
+    sh:property [
+        sh:path ex:usesPillowPhrase ;
+        sh:class ex:PillowPhrase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:overcomesWall ;
+        sh:class ex:PsychologicalWall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedToSituation ;
+        sh:class ex:BusinessSituation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportsApproach ;
+        sh:class ex:CoCreativeDiscussion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DeepUnderstandingSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DeepUnderstandingSkill ;
+    sh:name "理解を深める力" ;
+    sh:description "関係性の壁を越える技能。アクティブリスニングと無知の知により信頼を築く。" ;
+    sh:property [
+        sh:path ex:usesActiveListening ;
+        sh:class ex:ActiveListening ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:accessesLayer ;
+        sh:class ex:InformationLayer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:overcomesWall ;
+        sh:class ex:PsychologicalWall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedToSituation ;
+        sh:class ex:BusinessSituation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportsApproach ;
+        sh:class ex:CoCreativeDiscussion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/VisualizationSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:VisualizationSkill ;
+    sh:name "見える化する力" ;
+    sh:description "情報整理の壁を越える技能。ピラミッド構造や図解で結論と根拠を階層化する。" ;
+    sh:property [
+        sh:path ex:overcomesWall ;
+        sh:class ex:PsychologicalWall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedToSituation ;
+        sh:class ex:BusinessSituation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportsApproach ;
+        sh:class ex:CoCreativeDiscussion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/UnframingSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:UnframingSkill ;
+    sh:name "思い込みを外す力" ;
+    sh:description "思い込みの壁を越える技能。ヒューリスティックを特定し認知的不協和を解消する。" ;
+    sh:property [
+        sh:path ex:resolvesDissonance ;
+        sh:class ex:CognitiveDissonance ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:overcomesWall ;
+        sh:class ex:PsychologicalWall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedToSituation ;
+        sh:class ex:BusinessSituation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportsApproach ;
+        sh:class ex:CoCreativeDiscussion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AxisShiftingSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AxisShiftingSkill ;
+    sh:name "軸を動かす力" ;
+    sh:description "損得勘定の壁を越える技能。SCAMPERで選択肢を増やし判断基準を動かす。" ;
+    sh:property [
+        sh:path ex:asksKeyQuestion ;
+        sh:class ex:KeyQuestion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:overcomesWall ;
+        sh:class ex:PsychologicalWall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedToSituation ;
+        sh:class ex:BusinessSituation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportsApproach ;
+        sh:class ex:CoCreativeDiscussion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/InvolvementSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InvolvementSkill ;
+    sh:name "巻き込む力" ;
+    sh:description "合意から実行へ移す技能。見せかけの合意を排除し合言葉とアクションプランで自分ごと化させる。" ;
+    sh:property [
+        sh:path ex:createsCatchphrase ;
+        sh:class ex:SharedCatchphrase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:producesActionPlan ;
+        sh:class ex:ActionPlan ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:overcomesWall ;
+        sh:class ex:PsychologicalWall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesFramework ;
+        sh:class ex:Framework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedToSituation ;
+        sh:class ex:BusinessSituation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:supportsApproach ;
+        sh:class ex:CoCreativeDiscussion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PsychologicalWallShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PsychologicalWall ;
+    sh:name "心理的障壁" ;
+    sh:description "合意に至るまでに乗り越えるべき四つの壁の総称。" ;
+    sh:property [
+        sh:path ex:causedByThinking ;
+        sh:class ex:ThinkingSystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:triggeredByBias ;
+        sh:class ex:Bias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/RelationshipWallShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RelationshipWall ;
+    sh:name "関係性の壁" ;
+    sh:description "信頼関係不足から生じる抵抗。理解を深める力で乗り越える。" ;
+    sh:property [
+        sh:path ex:causedByThinking ;
+        sh:class ex:ThinkingSystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:triggeredByBias ;
+        sh:class ex:Bias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/InformationOrganizationWallShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InformationOrganizationWall ;
+    sh:name "情報整理の壁" ;
+    sh:description "状況が不明瞭で保留が生じる状態。見える化する力で乗り越える。" ;
+    sh:property [
+        sh:path ex:causedByThinking ;
+        sh:class ex:ThinkingSystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:triggeredByBias ;
+        sh:class ex:Bias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AssumptionWallShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AssumptionWall ;
+    sh:name "思い込みの壁" ;
+    sh:description "過去経験や先入観による固定思考。思い込みを外す力で乗り越える。" ;
+    sh:property [
+        sh:path ex:causedByThinking ;
+        sh:class ex:ThinkingSystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:triggeredByBias ;
+        sh:class ex:Bias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CostBenefitWallShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CostBenefitWall ;
+    sh:name "損得勘定の壁" ;
+    sh:description "割に合わないと感じ慎重検討する状態。軸を動かす力で乗り越える。" ;
+    sh:property [
+        sh:path ex:causedByThinking ;
+        sh:class ex:ThinkingSystem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:triggeredByBias ;
+        sh:class ex:Bias ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/FrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Framework ;
+    sh:name "フレームワーク" ;
+    sh:description "議論の設計や情報整理に用いる型。T字型、W字型、ピラミッド、SCAMPERなどを含む。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/TShapedFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TShapedFramework ;
+    sh:name "T字型フレームワーク" ;
+    sh:description "ゴール、壁、対応策を事前に一対一で書き出す想定の枠組み。" ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:Goal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasObstacle ;
+        sh:class ex:Obstacle ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCountermeasure ;
+        sh:class ex:Countermeasure ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/WShapedProgressShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WShapedProgress ;
+    sh:name "W字型の進行" ;
+    sh:description "会議を前半の深掘りと後半の収束に分け、中間で一旦まとめる進行設計。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PyramidStructureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PyramidStructure ;
+    sh:name "ピラミッド構造" ;
+    sh:description "情報をグルーピングし結論と根拠をMECEに階層化する整理法。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SCAMPERMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SCAMPERMethod ;
+    sh:name "SCAMPER" ;
+    sh:description "代用・組み合わせ・修正・削減などで新しい選択肢を創出する発想法。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/FiveWTwoHShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FiveWTwoH ;
+    sh:name "5W2H" ;
+    sh:description "わかったつもりを捨て相手の言葉を深掘りするための質問枠組み。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/GoalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Goal ;
+    sh:name "ゴール" ;
+    sh:description "誰からどのような台詞や確約がもらえたら成功かを具体化した目標。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ObstacleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Obstacle ;
+    sh:name "障害" ;
+    sh:description "想定される相手の疑問、反論、懸念。T字型フレームワークの壁に相当する。" ;
+    sh:property [
+        sh:path ex:hasCountermeasure ;
+        sh:class ex:Countermeasure ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CountermeasureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Countermeasure ;
+    sh:name "対応策" ;
+    sh:description "各障害を乗り越えるために一対一で考えておく具体的な対策。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/PillowPhraseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PillowPhrase ;
+    sh:name "枕詞" ;
+    sh:description "唐突さを避け相手が発言しやすくする前置き。仮の話や個人的意見などの表現。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ActiveListeningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ActiveListening ;
+    sh:name "アクティブリスニング" ;
+    sh:description "自己一致・無条件の肯定的関心・共感的理解によりわかってもらえたと感じさせる傾聴。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/InformationLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InformationLayer ;
+    sh:name "情報の階層" ;
+    sh:description "今話していること、想定していること、想定外のこと、無意識の発見という四層。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ThinkingSystemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThinkingSystem ;
+    sh:name "思考システム" ;
+    sh:description "速い思考と遅い思考の二系統。思い込みと損得勘定にそれぞれ対応する。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/FastThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FastThinking ;
+    sh:name "システム1" ;
+    sh:description "過去経験や先入観に基づく速い思考。思い込みの壁の背景となる。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SlowThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SlowThinking ;
+    sh:name "システム2" ;
+    sh:description "論理的に慎重検討する遅い思考。損得勘定の壁の背景となる。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CognitiveDissonanceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CognitiveDissonance ;
+    sh:name "認知的不協和" ;
+    sh:description "矛盾を避けるため現状維持を正当化する心理。新情報追加か枠組み変更で解消する。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/KeyQuestionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KeyQuestion ;
+    sh:name "キークエスチョン" ;
+    sh:description "網羅性・具体化・優先順位の観点から判断軸を明確にし気づきを与える問い。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SharedCatchphraseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SharedCatchphrase ;
+    sh:name "合言葉" ;
+    sh:description "相手の発言を拾って作る共通言語。見せかけの合意を排し自分ごと化を促す。" .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/ActionPlanShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ActionPlan ;
+    sh:name "アクションプラン" ;
+    sh:description "目的、想定成果物、誰が、いつ、何をするかを明確にした実行計画。" ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:Goal ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/BusinessSituationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessSituation ;
+    sh:name "ビジネス場面" ;
+    sh:description "合意にかかる時間とフォーマル度で分類される五つの応用場面。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CustomerProposalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerProposal ;
+    sh:name "お客様への提案" ;
+    sh:description "フォーマル度が高く時間がかかる場面。対話で潜在課題を引き出す。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/NegotiationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Negotiation ;
+    sh:name "社内外との交渉" ;
+    sh:description "損得の落としどころを探る場面。SCAMPERで選択肢を拡大する。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/CooperationRequestShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CooperationRequest ;
+    sh:name "協力依頼" ;
+    sh:description "関係性の壁を越え相手の背景を5W2Hで深く理解する場面。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/MemberGuidanceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MemberGuidance ;
+    sh:name "メンバーへの指導" ;
+    sh:description "一方的な説教を避け、前半で深掘りし後半でアクションを絞り込む場面。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SupervisorApprovalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SupervisorApproval ;
+    sh:name "上司への承認依頼" ;
+    sh:description "結論を押し付けず上司と同じ方向を向いて企画を共創する場面。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/AdultDevelopmentTheoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AdultDevelopmentTheory ;
+    sh:name "成人発達理論" ;
+    sh:description "ロバート・キーガンによる成長段階論。自己中心から自己変容までの四段階。" ;
+    sh:property [
+        sh:path ex:hasDevelopmentStage ;
+        sh:class ex:DevelopmentStage ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevelopmentStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DevelopmentStage ;
+    sh:name "発達段階" ;
+    sh:description "成人の成長段階。議論の質と他者との関わり方を規定する。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:tendsToward ;
+        sh:class ex:CommunicationApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SelfCenteredStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SelfCenteredStage ;
+    sh:name "自己中心段階" ;
+    sh:description "約一割が該当し、競い争うディスカッションに陥りやすい段階。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:tendsToward ;
+        sh:class ex:CommunicationApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/OtherDependentStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OtherDependentStage ;
+    sh:name "他者依存段階" ;
+    sh:description "約七割が該当し、周囲の基準で行動し働きかけを諦めやすい段階。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:tendsToward ;
+        sh:class ex:CommunicationApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SelfAuthoringStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SelfAuthoringStage ;
+    sh:name "自己主導段階" ;
+    sh:description "約二割が該当し、自分の価値観を持ち共に創るディスカッションの入り口に立つ段階。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:tendsToward ;
+        sh:class ex:CommunicationApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/SelfTransformingStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SelfTransformingStage ;
+    sh:name "自己変容段階" ;
+    sh:description "一パーセント未満。多様な価値観を取り込み的確に意思決定する段階。" ;
+    sh:property [
+        sh:path ex:describedInBook ;
+        sh:class ex:Book ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:tendsToward ;
+        sh:class ex:CommunicationApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:labelText ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kimochi_yoku_Hito_wo_Ugokasu/DevilsAdvocateShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DevilsAdvocate ;
+    sh:name "悪魔の代弁者" ;
+    sh:description "疑問や反論を結論の敵ではなく進化のための貴重な材料と捉える役割。" ;
+    sh:property [
+        sh:path ex:treatsAsMaterial ;
+        sh:class ex:Obstacle ;
+        sh:severity sh:Violation
+    ] .

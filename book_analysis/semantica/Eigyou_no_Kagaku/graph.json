@@ -1,0 +1,3619 @@
+{
+  "entities": [
+    {
+      "id": "急所",
+      "name": "急所",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "急所",
+              "name": "急所",
+              "source": null
+            },
+            {
+              "id": "急所",
+              "name": "急所",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "急所",
+        "急所"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "武器",
+      "name": "武器",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "武器",
+              "name": "武器",
+              "source": null
+            },
+            {
+              "id": "武器",
+              "name": "武器",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "武器",
+        "武器"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "受注",
+      "name": "受注",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "受注",
+              "name": "受注",
+              "source": null
+            },
+            {
+              "id": "受注",
+              "name": "受注",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "受注",
+        "受注"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "創業メンバー",
+      "name": "創業メンバー",
+      "type": "PERSON",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "創業メンバー",
+              "name": "創業メンバー",
+              "source": null
+            },
+            {
+              "id": "創業メンバー",
+              "name": "創業メンバー",
+              "source": null
+            },
+            {
+              "id": "創業初期",
+              "name": "創業初期",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "創業メンバー",
+        "創業メンバー",
+        "創業初期"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "著者",
+      "name": "著者",
+      "type": "PERSON",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "著者",
+              "name": "著者",
+              "source": null
+            },
+            {
+              "id": "著者",
+              "name": "著者",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "著者",
+        "著者"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "営業",
+      "name": "営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "営業",
+              "name": "営業",
+              "source": null
+            },
+            {
+              "id": "営業",
+              "name": "営業",
+              "source": null
+            },
+            {
+              "id": "営業環境",
+              "name": "営業環境",
+              "source": null
+            },
+            {
+              "id": "営業活動",
+              "name": "営業活動",
+              "source": null
+            },
+            {
+              "id": "営業能力",
+              "name": "営業能力",
+              "source": null
+            },
+            {
+              "id": "営業チーム",
+              "name": "営業チーム",
+              "source": null
+            },
+            {
+              "id": "営業チーム",
+              "name": "営業チーム",
+              "source": null
+            },
+            {
+              "id": "営業１万人",
+              "name": "営業１万人",
+              "source": null
+            },
+            {
+              "id": "営業１万人調査",
+              "name": "営業１万人調査",
+              "source": null
+            },
+            {
+              "id": "営業1万人調査",
+              "name": "営業1万人調査",
+              "source": null
+            },
+            {
+              "id": "営業担当者",
+              "name": "営業担当者",
+              "source": null
+            },
+            {
+              "id": "営業担当者",
+              "name": "営業担当者",
+              "source": null
+            },
+            {
+              "id": "営業担当役員",
+              "name": "営業担当役員",
+              "source": null
+            },
+            {
+              "id": "営業個人の課題",
+              "name": "営業個人の課題",
+              "source": null
+            },
+            {
+              "id": "営業組織の実態",
+              "name": "営業組織の実態",
+              "source": null
+            },
+            {
+              "id": "営業スキルレベル",
+              "name": "営業スキルレベル",
+              "source": null
+            },
+            {
+              "id": "営業に対する警戒心",
+              "name": "営業に対する警戒心",
+              "source": null
+            },
+            {
+              "id": "営業のパフォーマンス向上",
+              "name": "営業のパフォーマンス向上",
+              "source": null
+            },
+            {
+              "id": "営業の科学",
+              "name": "営業の科学",
+              "source": null
+            }
+          ],
+          "merge_count": 19
+        }
+      },
+      "merged_from": [
+        "営業",
+        "営業",
+        "営業環境",
+        "営業活動",
+        "営業能力",
+        "営業チーム",
+        "営業チーム",
+        "営業１万人",
+        "営業１万人調査",
+        "営業1万人調査",
+        "営業担当者",
+        "営業担当者",
+        "営業担当役員",
+        "営業個人の課題",
+        "営業組織の実態",
+        "営業スキルレベル",
+        "営業に対する警戒心",
+        "営業のパフォーマンス向上",
+        "営業の科学"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "マネジメント",
+      "name": "マネジメント",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "マネジメント",
+              "name": "マネジメント",
+              "source": null
+            },
+            {
+              "id": "マネジメント",
+              "name": "マネジメント",
+              "source": null
+            },
+            {
+              "id": "マネジャー",
+              "name": "マネジャー",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "マネジメント",
+        "マネジメント",
+        "マネジャー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "リーダー",
+      "name": "リーダー",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "リーダー",
+              "name": "リーダー",
+              "source": null
+            },
+            {
+              "id": "リーダー",
+              "name": "リーダー",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "リーダー",
+        "リーダー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "顧客",
+      "name": "顧客",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "顧客",
+              "name": "顧客",
+              "source": null
+            },
+            {
+              "id": "顧客",
+              "name": "顧客",
+              "source": null
+            },
+            {
+              "id": "顧客1万人調査",
+              "name": "顧客1万人調査",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "顧客",
+        "顧客",
+        "顧客1万人調査"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "大規模調査",
+      "name": "大規模調査",
+      "type": "EVENT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "大規模調査",
+              "name": "大規模調査",
+              "source": null
+            },
+            {
+              "id": "大規模調査",
+              "name": "大規模調査",
+              "source": null
+            },
+            {
+              "id": "大規模な調査",
+              "name": "大規模な調査",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "大規模調査",
+        "大規模調査",
+        "大規模な調査"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "購買者の仮面",
+      "name": "購買者の仮面",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "購買者の仮面",
+              "name": "購買者の仮面",
+              "source": null
+            },
+            {
+              "id": "購買者の仮面",
+              "name": "購買者の仮面",
+              "source": null
+            },
+            {
+              "id": "購買者の仮面を外すスキル",
+              "name": "購買者の仮面を外すスキル",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "購買者の仮面",
+        "購買者の仮面",
+        "購買者の仮面を外すスキル"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "ガンバリズムの罠",
+      "name": "ガンバリズムの罠",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ガンバリズムの罠",
+              "name": "ガンバリズムの罠",
+              "source": null
+            },
+            {
+              "id": "ガンバリズムの罠",
+              "name": "ガンバリズムの罠",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ガンバリズムの罠",
+        "ガンバリズムの罠"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "はぐらかしの仮面",
+      "name": "はぐらかしの仮面",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "はぐらかしの仮面",
+              "name": "はぐらかしの仮面",
+              "source": null
+            },
+            {
+              "id": "はぐらかしの仮面",
+              "name": "はぐらかしの仮面",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "はぐらかしの仮面",
+        "はぐらかしの仮面"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "枕詞",
+      "name": "枕詞",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "枕詞",
+              "name": "枕詞",
+              "source": null
+            },
+            {
+              "id": "枕詞",
+              "name": "枕詞",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "枕詞",
+        "枕詞"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "高速ラリー",
+      "name": "高速ラリー",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "高速ラリー",
+              "name": "高速ラリー",
+              "source": null
+            },
+            {
+              "id": "高速ラリー",
+              "name": "高速ラリー",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "高速ラリー",
+        "高速ラリー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "仮提案",
+      "name": "仮提案",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "仮提案",
+              "name": "仮提案",
+              "source": null
+            },
+            {
+              "id": "仮提案",
+              "name": "仮提案",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "仮提案",
+        "仮提案"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "関係構築の呪縛",
+      "name": "関係構築の呪縛",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "関係構築の呪縛",
+              "name": "関係構築の呪縛",
+              "source": null
+            },
+            {
+              "id": "関係構築",
+              "name": "関係構築",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "関係構築の呪縛",
+        "関係構築"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "指導",
+      "name": "指導",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "指導",
+              "name": "指導",
+              "source": null
+            },
+            {
+              "id": "指導者",
+              "name": "指導者",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "指導",
+        "指導者"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "ビジネス",
+      "name": "ビジネス",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ビジネス",
+              "name": "ビジネス",
+              "source": null
+            },
+            {
+              "id": "ビジネススピード",
+              "name": "ビジネススピード",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ビジネス",
+        "ビジネススピード"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "お客様１万人",
+      "name": "お客様１万人",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "お客様１万人",
+              "name": "お客様１万人",
+              "source": null
+            },
+            {
+              "id": "お客様１万人調査",
+              "name": "お客様１万人調査",
+              "source": null
+            },
+            {
+              "id": "お客様の隠れた本音",
+              "name": "お客様の隠れた本音",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "お客様１万人",
+        "お客様１万人調査",
+        "お客様の隠れた本音"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "努力",
+      "name": "努力",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "努力",
+              "name": "努力",
+              "source": null
+            },
+            {
+              "id": "努力至上主義の陥穽",
+              "name": "努力至上主義の陥穽",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "努力",
+        "努力至上主義の陥穽"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "2019年",
+      "name": "2019年",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "2019年",
+              "name": "2019年",
+              "source": null
+            },
+            {
+              "id": "2022年",
+              "name": "2022年",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "2019年",
+        "2022年"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "本音",
+      "name": "本音",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "本音",
+              "name": "本音",
+              "source": null
+            },
+            {
+              "id": "本音で正直なコミュニケーション",
+              "name": "本音で正直なコミュニケーション",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "本音",
+        "本音で正直なコミュニケーション"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "思考回路",
+      "name": "思考回路",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "思考回路",
+              "name": "思考回路",
+              "source": null
+            },
+            {
+              "id": "思考停止",
+              "name": "思考停止",
+              "source": null
+            },
+            {
+              "id": "思考パターン",
+              "name": "思考パターン",
+              "source": null
+            },
+            {
+              "id": "思考プロセス",
+              "name": "思考プロセス",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "思考回路",
+        "思考停止",
+        "思考パターン",
+        "思考プロセス"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "アポイントメント",
+      "name": "アポイントメント",
+      "text": "アポイントメント",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "具体的なアクション",
+      "name": "具体的なアクション",
+      "text": "具体的なアクション",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "2段階のアプローチ",
+      "name": "2段階のアプローチ",
+      "text": "2段階のアプローチ",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "起業初期",
+      "name": "起業初期",
+      "text": "起業初期",
+      "type": "DATE",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "みんなが売れる営業組織",
+      "name": "みんなが売れる営業組織",
+      "text": "みんなが売れる営業組織",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "スキル",
+      "name": "スキル",
+      "text": "スキル",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "基本",
+      "name": "基本",
+      "text": "基本",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "信念",
+      "name": "信念",
+      "text": "信念",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "現場",
+      "name": "現場",
+      "text": "現場",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "価格",
+      "name": "価格",
+      "text": "価格",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "見込み顧客",
+      "name": "見込み顧客",
+      "text": "見込み顧客",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "リスト",
+      "name": "リスト",
+      "text": "リスト",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "言い訳",
+      "name": "言い訳",
+      "text": "言い訳",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "組織的な営業力向上",
+      "name": "組織的な営業力向上",
+      "text": "組織的な営業力向上",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "課題",
+      "name": "課題",
+      "text": "課題",
+      "type": "CONCEPT",
+      "confidence": 0.83,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "実績",
+      "name": "実績",
+      "text": "実績",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "ノウハウ",
+      "name": "ノウハウ",
+      "text": "ノウハウ",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "数年",
+      "name": "数年",
+      "text": "数年",
+      "type": "DATE",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "大企業",
+      "name": "大企業",
+      "text": "大企業",
+      "type": "ORG",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "導入実績",
+      "name": "導入実績",
+      "text": "導入実績",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "ターゲットリスト",
+      "name": "ターゲットリスト",
+      "text": "ターゲットリスト",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "提案書のひな形",
+      "name": "提案書のひな形",
+      "text": "提案書のひな形",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "バイアス",
+      "name": "バイアス",
+      "text": "バイアス",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "役員",
+      "name": "役員",
+      "text": "役員",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "プライド",
+      "name": "プライド",
+      "text": "プライド",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "意地",
+      "name": "意地",
+      "text": "意地",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "根性論",
+      "name": "根性論",
+      "text": "根性論",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "コーチング",
+      "name": "コーチング",
+      "text": "コーチング",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "ヒアリング",
+      "name": "ヒアリング",
+      "text": "ヒアリング",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "アクション",
+      "name": "アクション",
+      "text": "アクション",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "逆説的な構造",
+      "name": "逆説的な構造",
+      "text": "逆説的な構造",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "優秀な層",
+      "name": "優秀な層",
+      "text": "優秀な層",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "超人",
+      "name": "超人",
+      "text": "超人",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "当たり前の基本",
+      "name": "当たり前の基本",
+      "text": "当たり前の基本",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "後から入社したメンバー",
+      "name": "後から入社したメンバー",
+      "text": "後から入社したメンバー",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "試行錯誤",
+      "name": "試行錯誤",
+      "text": "試行錯誤",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "自己工夫",
+      "name": "自己工夫",
+      "text": "自己工夫",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "成功体験",
+      "name": "成功体験",
+      "text": "成功体験",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "教育的なジレンマ",
+      "name": "教育的なジレンマ",
+      "text": "教育的なジレンマ",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "成長の機会",
+      "name": "成長の機会",
+      "text": "成長の機会",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "正解の行動",
+      "name": "正解の行動",
+      "text": "正解の行動",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "無敗営業 「３つの質問」と「４つの力",
+      "name": "無敗営業 「３つの質問」と「４つの力",
+      "text": "無敗営業 「３つの質問」と「４つの力",
+      "type": "PRODUCT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "落とし穴",
+      "name": "落とし穴",
+      "text": "落とし穴",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "仮説",
+      "name": "仮説",
+      "text": "仮説",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "外資系の戦略コンサルティング会社",
+      "name": "外資系の戦略コンサルティング会社",
+      "text": "外資系の戦略コンサルティング会社",
+      "type": "ORG",
+      "confidence": 0.83,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "新卒時代",
+      "name": "新卒時代",
+      "text": "新卒時代",
+      "type": "DATE",
+      "confidence": 0.79,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "調査の設計や分析",
+      "name": "調査の設計や分析",
+      "text": "調査の設計や分析",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "法人営業",
+      "name": "法人営業",
+      "text": "法人営業",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "ハイパフォーマー",
+      "name": "ハイパフォーマー",
+      "text": "ハイパフォーマー",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "ローパフォーマー",
+      "name": "ローパフォーマー",
+      "text": "ローパフォーマー",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "素顔",
+      "name": "素顔",
+      "text": "素顔",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "建前",
+      "name": "建前",
+      "text": "建前",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "心理的な防衛機制",
+      "name": "心理的な防衛機制",
+      "text": "心理的な防衛機制",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "確率論的アプローチ",
+      "name": "確率論的アプローチ",
+      "text": "確率論的アプローチ",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "フレームワーク",
+      "name": "フレームワーク",
+      "text": "フレームワーク",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "勝手に寸止め",
+      "name": "勝手に寸止め",
+      "text": "勝手に寸止め",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "５つのC",
+      "name": "５つのC",
+      "text": "５つのC",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "カスタマイズ感",
+      "name": "カスタマイズ感",
+      "text": "カスタマイズ感",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "メール",
+      "name": "メール",
+      "text": "メール",
+      "type": "PRODUCT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "忙しさの仮面",
+      "name": "忙しさの仮面",
+      "text": "忙しさの仮面",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "コンペ",
+      "name": "コンペ",
+      "text": "コンペ",
+      "type": "EVENT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "いきなりの仮面",
+      "name": "いきなりの仮面",
+      "text": "いきなりの仮面",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "迅速なやりとりの往復",
+      "name": "迅速なやりとりの往復",
+      "text": "迅速なやりとりの往復",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "レスポンス",
+      "name": "レスポンス",
+      "text": "レスポンス",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "合格ライン",
+      "name": "合格ライン",
+      "text": "合格ライン",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "返信１日、解決２日",
+      "name": "返信１日、解決２日",
+      "text": "返信１日、解決２日",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "時間感覚",
+      "name": "時間感覚",
+      "text": "時間感覚",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "初回商談",
+      "name": "初回商談",
+      "text": "初回商談",
+      "type": "EVENT",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "5営業日以内",
+      "name": "5営業日以内",
+      "text": "5営業日以内",
+      "type": "DATE",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "体制構築",
+      "name": "体制構築",
+      "text": "体制構築",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "10分電話商談",
+      "name": "10分電話商談",
+      "text": "10分電話商談",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "ラリー",
+      "name": "ラリー",
+      "text": "ラリー",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "id": "電話はNG",
+      "name": "電話はNG",
+      "text": "電話はNG",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "武器",
+      "target": "急所",
+      "type": "based_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "武器",
+      "target": "アポイントメント",
+      "type": "increases",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "武器",
+      "target": "受注",
+      "type": "increases",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業のパフォーマンス向上",
+      "target": "2段階のアプローチ",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "2段階のアプローチ",
+      "target": "急所",
+      "type": "involves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "2段階のアプローチ",
+      "target": "武器",
+      "type": "involves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "武器",
+      "target": "具体的なアクション",
+      "type": "is",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "武器",
+      "target": "急所",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "創業メンバー",
+      "target": "営業担当役員",
+      "type": "is",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "創業メンバー",
+      "target": "起業初期",
+      "type": "active_during",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "起業初期",
+      "target": "みんなが売れる営業組織",
+      "type": "requires_transformation_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "著者",
+      "target": "信念",
+      "type": "holds",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業",
+      "target": "スキル",
+      "type": "does_not_require",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "努力",
+      "target": "営業",
+      "type": "enables",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "基本",
+      "target": "営業",
+      "type": "enables_success_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "信念",
+      "target": "営業",
+      "type": "concerns",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業",
+      "target": "現場",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "現場",
+      "target": "言い訳",
+      "type": "reports",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "価格",
+      "target": "言い訳",
+      "type": "cited_in",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "見込み顧客",
+      "target": "リスト",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "リスト",
+      "target": "言い訳",
+      "type": "cited_in",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "著者",
+      "target": "言い訳",
+      "type": "dismisses",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "組織的な営業力向上",
+      "target": "課題",
+      "type": "has",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "課題",
+      "target": "現場",
+      "type": "related_to",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "ビジネス",
+      "target": "創業初期",
+      "type": "has_phase",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "創業初期",
+      "target": "実績",
+      "type": "lacks",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "創業初期",
+      "target": "ノウハウ",
+      "type": "lacks",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "創業初期",
+      "target": "受注",
+      "type": "requires_acquisition_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "数年",
+      "target": "導入実績",
+      "type": "leads_to",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "導入実績",
+      "target": "大企業",
+      "type": "related_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "数年",
+      "target": "ターゲットリスト",
+      "type": "leads_to",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "数年",
+      "target": "提案書のひな形",
+      "type": "leads_to",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "導入実績",
+      "target": "営業環境",
+      "type": "improves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "ターゲットリスト",
+      "target": "営業環境",
+      "type": "improves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "提案書のひな形",
+      "target": "営業環境",
+      "type": "improves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "数年",
+      "target": "営業環境",
+      "type": "improves",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "思考パターン",
+      "target": "バイアス",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "リーダー",
+      "target": "思考パターン",
+      "type": "tends_to_fall_into",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "思考パターン",
+      "target": "マネジメント",
+      "type": "typical_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "創業メンバー",
+      "target": "役員",
+      "type": "is_example_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "役員",
+      "target": "マネジャー",
+      "type": "concurrently_serves_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "プライド",
+      "target": "意地",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "プライド",
+      "target": "マネジメント",
+      "type": "affects",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "意地",
+      "target": "マネジメント",
+      "type": "affects",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "マネジメント",
+      "target": "根性論",
+      "type": "has_limited_approach_using",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "マネジメント",
+      "target": "指導",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "指導",
+      "target": "コーチング",
+      "type": "related_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "コーチング",
+      "target": "ヒアリング",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "コーチング",
+      "target": "アクション",
+      "type": "involves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "ヒアリング",
+      "target": "アクション",
+      "type": "leads_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "逆説的な構造",
+      "target": "営業活動",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "顧客",
+      "target": "逆説的な構造",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業活動",
+      "target": "顧客",
+      "type": "involves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "創業メンバー",
+      "target": "優秀な層",
+      "type": "example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "優秀な層",
+      "target": "超人",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "当たり前の基本",
+      "target": "優秀な層",
+      "type": "standard_for",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "当たり前の基本",
+      "target": "後から入社したメンバー",
+      "type": "too_high_for",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "指導者",
+      "target": "成功体験",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "成功体験",
+      "target": "試行錯誤",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "成功体験",
+      "target": "自己工夫",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "指導者",
+      "target": "教育的なジレンマ",
+      "type": "experiences",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "教育的なジレンマ",
+      "target": "成長の機会",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "思考回路",
+      "target": "思考プロセス",
+      "type": "equivalent_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "思考回路",
+      "target": "正解の行動",
+      "type": "serves_as_countermeasure_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業チーム",
+      "target": "思考停止",
+      "type": "falls_into",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "リーダー",
+      "target": "思考停止",
+      "type": "causes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "リーダー",
+      "target": "営業チーム",
+      "type": "leads",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "リーダー",
+      "target": "営業",
+      "type": "comments_on",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業チーム",
+      "target": "お客様の隠れた本音",
+      "type": "has_pitfall_involving",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "お客様の隠れた本音",
+      "target": "顧客",
+      "type": "belongs_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "無敗営業 「３つの質問」と「４つの力",
+      "target": "2019年",
+      "type": "published_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業個人の課題",
+      "target": "落とし穴",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "仮説",
+      "target": "営業個人の課題",
+      "type": "concerns",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "仮説",
+      "target": "営業チーム",
+      "type": "involves",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "著者",
+      "target": "大規模な調査",
+      "type": "conducted",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "大規模な調査",
+      "target": "仮説",
+      "type": "verifies",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "著者",
+      "target": "外資系の戦略コンサルティング会社",
+      "type": "worked_at",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "著者",
+      "target": "新卒時代",
+      "type": "experienced_during",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "著者",
+      "target": "調査の設計や分析",
+      "type": "responsible_for",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "調査の設計や分析",
+      "target": "外資系の戦略コンサルティング会社",
+      "type": "performed_at",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "調査の設計や分析",
+      "target": "新卒時代",
+      "type": "occurred_during",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "大規模調査",
+      "target": "2022年",
+      "type": "conducted_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業１万人",
+      "target": "大規模調査",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "お客様１万人",
+      "target": "大規模調査",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業１万人",
+      "target": "お客様１万人",
+      "type": "combined_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "大規模調査",
+      "target": "営業",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業１万人調査",
+      "target": "大規模調査",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "お客様１万人調査",
+      "target": "大規模調査",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業１万人調査",
+      "target": "法人営業",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業スキルレベル",
+      "target": "営業１万人調査",
+      "type": "part_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業組織の実態",
+      "target": "営業１万人調査",
+      "type": "part_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "ハイパフォーマー",
+      "target": "ローパフォーマー",
+      "type": "compared_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "急所",
+      "target": "素顔",
+      "type": "is",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "素顔",
+      "target": "本音",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "素顔",
+      "target": "購買者の仮面",
+      "type": "located_behind",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "急所",
+      "target": "購買者の仮面",
+      "type": "located_behind",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "ガンバリズムの罠",
+      "target": "努力至上主義の陥穽",
+      "type": "defined_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "購買者の仮面",
+      "target": "建前",
+      "type": "represents",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "武器",
+      "target": "ガンバリズムの罠",
+      "type": "used_while_avoiding",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "顧客1万人調査",
+      "target": "購買者の仮面",
+      "type": "used_to_explore",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "営業1万人調査",
+      "target": "購買者の仮面",
+      "type": "used_to_supplement",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "購買者の仮面",
+      "target": "心理的な防衛機制",
+      "type": "has_background",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "購買者の仮面",
+      "target": "営業に対する警戒心",
+      "type": "has_background",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "確率論的アプローチ",
+      "target": "フレームワーク",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "購買者の仮面を外すスキル",
+      "target": "営業能力",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "勝手に寸止め",
+      "target": "営業担当者",
+      "type": "performed_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "メール",
+      "target": "カスタマイズ感",
+      "type": "emphasizes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "本音で正直なコミュニケーション",
+      "target": "関係構築",
+      "type": "is_key_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "高速ラリー",
+      "target": "迅速なやりとりの往復",
+      "type": "equivalent_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "高速ラリー",
+      "target": "いきなりの仮面",
+      "type": "is_key_to_removing",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "コンペ",
+      "target": "いきなりの仮面",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "レスポンス",
+      "target": "合格ライン",
+      "type": "has",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "合格ライン",
+      "target": "返信１日、解決２日",
+      "type": "is",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "時間感覚",
+      "target": "レスポンス",
+      "type": "related_to",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "時間感覚",
+      "target": "返信１日、解決２日",
+      "type": "refers_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "ビジネススピード",
+      "target": "時間感覚",
+      "type": "drives",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "ビジネススピード",
+      "target": "レスポンス",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "5営業日以内",
+      "target": "初回商談",
+      "type": "starting_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "仮提案",
+      "target": "5営業日以内",
+      "type": "to_be_submitted_within",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "仮提案",
+      "target": "初回商談",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "仮提案",
+      "target": "体制構築",
+      "type": "depends_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "仮提案",
+      "target": "営業担当者",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "10分電話商談",
+      "target": "ラリー",
+      "type": "raises",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    },
+    {
+      "source": "10分電話商談",
+      "target": "電話はNG",
+      "type": "requires_discarding",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Eigyou_no_Kagaku"
+      },
+      "book_key": "Eigyou_no_Kagaku"
+    }
+  ],
+  "metadata": {
+    "num_entities": 97,
+    "num_relationships": 124,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-31T09:25:52.883408",
+    "entity_resolution_applied": true,
+    "book_key": "Eigyou_no_Kagaku",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

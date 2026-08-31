@@ -1,0 +1,4294 @@
+{
+  "entities": [
+    {
+      "id": "HSBC",
+      "name": "HSBC",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "HSBC",
+              "name": "HSBC",
+              "source": null
+            },
+            {
+              "id": "HSBC",
+              "name": "HSBC",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "HSBC",
+        "HSBC"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "Hong Kong",
+      "name": "Hong Kong",
+      "type": "GPE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Hong Kong",
+              "name": "Hong Kong",
+              "source": null
+            },
+            {
+              "id": "Hong Kong",
+              "name": "Hong Kong",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Hong Kong",
+        "Hong Kong"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "PayMe",
+      "name": "PayMe",
+      "type": "PRODUCT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "PayMe",
+              "name": "PayMe",
+              "source": null
+            },
+            {
+              "id": "PayMe",
+              "name": "PayMe",
+              "source": null
+            },
+            {
+              "id": "payment pain point",
+              "name": "payment pain point",
+              "source": null
+            },
+            {
+              "id": "product",
+              "name": "product",
+              "source": null
+            },
+            {
+              "id": "product",
+              "name": "product",
+              "source": null
+            },
+            {
+              "id": "product vision",
+              "name": "product vision",
+              "source": null
+            },
+            {
+              "id": "product vision",
+              "name": "product vision",
+              "source": null
+            },
+            {
+              "id": "product growth",
+              "name": "product growth",
+              "source": null
+            },
+            {
+              "id": "Product growth",
+              "name": "Product growth",
+              "source": null
+            },
+            {
+              "id": "Product success",
+              "name": "Product success",
+              "source": null
+            },
+            {
+              "id": "product success",
+              "name": "product success",
+              "source": null
+            },
+            {
+              "id": "Product Manager",
+              "name": "Product Manager",
+              "source": null
+            },
+            {
+              "id": "Product Manager",
+              "name": "Product Manager",
+              "source": null
+            },
+            {
+              "id": "product manager",
+              "name": "product manager",
+              "source": null
+            },
+            {
+              "id": "product managers",
+              "name": "product managers",
+              "source": null
+            },
+            {
+              "id": "product managers",
+              "name": "product managers",
+              "source": null
+            },
+            {
+              "id": "Product managers",
+              "name": "Product managers",
+              "source": null
+            },
+            {
+              "id": "product-manager",
+              "name": "product-manager",
+              "source": null
+            },
+            {
+              "id": "product-manager",
+              "name": "product-manager",
+              "source": null
+            },
+            {
+              "id": "product-manager role",
+              "name": "product-manager role",
+              "source": null
+            },
+            {
+              "id": "product management",
+              "name": "product management",
+              "source": null
+            },
+            {
+              "id": "product management",
+              "name": "product management",
+              "source": null
+            },
+            {
+              "id": "product management thinking",
+              "name": "product management thinking",
+              "source": null
+            },
+            {
+              "id": "product-making",
+              "name": "product-making",
+              "source": null
+            },
+            {
+              "id": "product team",
+              "name": "product team",
+              "source": null
+            },
+            {
+              "id": "product team",
+              "name": "product team",
+              "source": null
+            },
+            {
+              "id": "product stages",
+              "name": "product stages",
+              "source": null
+            },
+            {
+              "id": "product-market fit",
+              "name": "product-market fit",
+              "source": null
+            },
+            {
+              "id": "Product-Market Fit",
+              "name": "Product-Market Fit",
+              "source": null
+            },
+            {
+              "id": "Product-Market Fit (PMF)",
+              "name": "Product-Market Fit (PMF)",
+              "source": null
+            },
+            {
+              "id": "producer",
+              "name": "producer",
+              "source": null
+            },
+            {
+              "id": "product-usage logs",
+              "name": "product-usage logs",
+              "source": null
+            },
+            {
+              "id": "product organization",
+              "name": "product organization",
+              "source": null
+            },
+            {
+              "id": "product lifecycle",
+              "name": "product lifecycle",
+              "source": null
+            },
+            {
+              "id": "product lifecycle",
+              "name": "product lifecycle",
+              "source": null
+            },
+            {
+              "id": "programmers",
+              "name": "programmers",
+              "source": null
+            },
+            {
+              "id": "PMF",
+              "name": "PMF",
+              "source": null
+            },
+            {
+              "id": "PMF",
+              "name": "PMF",
+              "source": null
+            },
+            {
+              "id": "PM",
+              "name": "PM",
+              "source": null
+            },
+            {
+              "id": "present reality",
+              "name": "present reality",
+              "source": null
+            },
+            {
+              "id": "Peter Thiel",
+              "name": "Peter Thiel",
+              "source": null
+            },
+            {
+              "id": "perceived user value",
+              "name": "perceived user value",
+              "source": null
+            }
+          ],
+          "merge_count": 42
+        }
+      },
+      "merged_from": [
+        "PayMe",
+        "PayMe",
+        "payment pain point",
+        "product",
+        "product",
+        "product vision",
+        "product vision",
+        "product growth",
+        "Product growth",
+        "Product success",
+        "product success",
+        "Product Manager",
+        "Product Manager",
+        "product manager",
+        "product managers",
+        "product managers",
+        "Product managers",
+        "product-manager",
+        "product-manager",
+        "product-manager role",
+        "product management",
+        "product management",
+        "product management thinking",
+        "product-making",
+        "product team",
+        "product team",
+        "product stages",
+        "product-market fit",
+        "Product-Market Fit",
+        "Product-Market Fit (PMF)",
+        "producer",
+        "product-usage logs",
+        "product organization",
+        "product lifecycle",
+        "product lifecycle",
+        "programmers",
+        "PMF",
+        "PMF",
+        "PM",
+        "present reality",
+        "Peter Thiel",
+        "perceived user value"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "engineers",
+      "name": "engineers",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "engineers",
+              "name": "engineers",
+              "source": null
+            },
+            {
+              "id": "engineers",
+              "name": "engineers",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "engineers",
+        "engineers"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "founder",
+      "name": "founder",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "founder",
+              "name": "founder",
+              "source": null
+            },
+            {
+              "id": "founder",
+              "name": "founder",
+              "source": null
+            },
+            {
+              "id": "future",
+              "name": "future",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "founder",
+        "founder",
+        "future"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "business model",
+      "name": "business model",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "business model",
+              "name": "business model",
+              "source": null
+            },
+            {
+              "id": "business model",
+              "name": "business model",
+              "source": null
+            },
+            {
+              "id": "Business Revenue",
+              "name": "Business Revenue",
+              "source": null
+            },
+            {
+              "id": "business revenue",
+              "name": "business revenue",
+              "source": null
+            },
+            {
+              "id": "Business revenue",
+              "name": "Business revenue",
+              "source": null
+            },
+            {
+              "id": "buyers",
+              "name": "buyers",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "business model",
+        "business model",
+        "Business Revenue",
+        "business revenue",
+        "Business revenue",
+        "buyers"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "Revenue",
+      "name": "Revenue",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Revenue",
+              "name": "Revenue",
+              "source": null
+            },
+            {
+              "id": "revenue",
+              "name": "revenue",
+              "source": null
+            },
+            {
+              "id": "revenue and cost structures",
+              "name": "revenue and cost structures",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "Revenue",
+        "revenue",
+        "revenue and cost structures"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "10→100 stage",
+      "name": "10→100 stage",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "10→100 stage",
+              "name": "10→100 stage",
+              "source": null
+            },
+            {
+              "id": "10→100 stage",
+              "name": "10→100 stage",
+              "source": null
+            },
+            {
+              "id": "1→10 stage",
+              "name": "1→10 stage",
+              "source": null
+            },
+            {
+              "id": "10 → 100",
+              "name": "10 → 100",
+              "source": null
+            },
+            {
+              "id": "10→100",
+              "name": "10→100",
+              "source": null
+            },
+            {
+              "id": "1 → 10",
+              "name": "1 → 10",
+              "source": null
+            },
+            {
+              "id": "1→10",
+              "name": "1→10",
+              "source": null
+            }
+          ],
+          "merge_count": 7
+        }
+      },
+      "merged_from": [
+        "10→100 stage",
+        "10→100 stage",
+        "1→10 stage",
+        "10 → 100",
+        "10→100",
+        "1 → 10",
+        "1→10"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "designers",
+      "name": "designers",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "designers",
+              "name": "designers",
+              "source": null
+            },
+            {
+              "id": "design",
+              "name": "design",
+              "source": null
+            },
+            {
+              "id": "directors",
+              "name": "directors",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "designers",
+        "design",
+        "directors"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "marketers",
+      "name": "marketers",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "marketers",
+              "name": "marketers",
+              "source": null
+            },
+            {
+              "id": "market",
+              "name": "market",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "marketers",
+        "market"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "2016",
+      "name": "2016",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "2016",
+              "name": "2016",
+              "source": null
+            },
+            {
+              "id": "2017",
+              "name": "2017",
+              "source": null
+            },
+            {
+              "id": "2014-2016",
+              "name": "2014-2016",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "2016",
+        "2017",
+        "2014-2016"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "competitive pressure",
+      "name": "competitive pressure",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "competitive pressure",
+              "name": "competitive pressure",
+              "source": null
+            },
+            {
+              "id": "competitors",
+              "name": "competitors",
+              "source": null
+            },
+            {
+              "id": "cosmetics",
+              "name": "cosmetics",
+              "source": null
+            },
+            {
+              "id": "commercial success",
+              "name": "commercial success",
+              "source": null
+            },
+            {
+              "id": "coexistence",
+              "name": "coexistence",
+              "source": null
+            },
+            {
+              "id": "Chinese",
+              "name": "Chinese",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "competitive pressure",
+        "competitors",
+        "cosmetics",
+        "commercial success",
+        "coexistence",
+        "Chinese"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "user interviews",
+      "name": "user interviews",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "user interviews",
+              "name": "user interviews",
+              "source": null
+            },
+            {
+              "id": "user-interface",
+              "name": "user-interface",
+              "source": null
+            },
+            {
+              "id": "user value",
+              "name": "user value",
+              "source": null
+            },
+            {
+              "id": "User Value",
+              "name": "User Value",
+              "source": null
+            },
+            {
+              "id": "User value",
+              "name": "User value",
+              "source": null
+            },
+            {
+              "id": "user base",
+              "name": "user base",
+              "source": null
+            },
+            {
+              "id": "user research",
+              "name": "user research",
+              "source": null
+            },
+            {
+              "id": "user growth",
+              "name": "user growth",
+              "source": null
+            },
+            {
+              "id": "user comments",
+              "name": "user comments",
+              "source": null
+            },
+            {
+              "id": "user transformation",
+              "name": "user transformation",
+              "source": null
+            },
+            {
+              "id": "user-centric inquiry",
+              "name": "user-centric inquiry",
+              "source": null
+            },
+            {
+              "id": "unmet needs",
+              "name": "unmet needs",
+              "source": null
+            },
+            {
+              "id": "Uber",
+              "name": "Uber",
+              "source": null
+            }
+          ],
+          "merge_count": 13
+        }
+      },
+      "merged_from": [
+        "user interviews",
+        "user-interface",
+        "user value",
+        "User Value",
+        "User value",
+        "user base",
+        "user research",
+        "user growth",
+        "user comments",
+        "user transformation",
+        "user-centric inquiry",
+        "unmet needs",
+        "Uber"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "app",
+      "name": "app",
+      "type": "PRODUCT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "app",
+              "name": "app",
+              "source": null
+            },
+            {
+              "id": "apparel",
+              "name": "apparel",
+              "source": null
+            },
+            {
+              "id": "Alipay",
+              "name": "Alipay",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "app",
+        "apparel",
+        "Alipay"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "value hypothesis",
+      "name": "value hypothesis",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "value hypothesis",
+              "name": "value hypothesis",
+              "source": null
+            },
+            {
+              "id": "value",
+              "name": "value",
+              "source": null
+            },
+            {
+              "id": "Validation process",
+              "name": "Validation process",
+              "source": null
+            },
+            {
+              "id": "viable business",
+              "name": "viable business",
+              "source": null
+            },
+            {
+              "id": "Vision",
+              "name": "Vision",
+              "source": null
+            },
+            {
+              "id": "Vision",
+              "name": "Vision",
+              "source": null
+            },
+            {
+              "id": "vision",
+              "name": "vision",
+              "source": null
+            }
+          ],
+          "merge_count": 7
+        }
+      },
+      "merged_from": [
+        "value hypothesis",
+        "value",
+        "Validation process",
+        "viable business",
+        "Vision",
+        "Vision",
+        "vision"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "e-commerce division",
+      "name": "e-commerce division",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "e-commerce division",
+              "name": "e-commerce division",
+              "source": null
+            },
+            {
+              "id": "e-commerce",
+              "name": "e-commerce",
+              "source": null
+            },
+            {
+              "id": "economic rationality",
+              "name": "economic rationality",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "e-commerce division",
+        "e-commerce",
+        "economic rationality"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "startup founder",
+      "name": "startup founder",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "startup founder",
+              "name": "startup founder",
+              "source": null
+            },
+            {
+              "id": "status quo",
+              "name": "status quo",
+              "source": null
+            },
+            {
+              "id": "strategy",
+              "name": "strategy",
+              "source": null
+            },
+            {
+              "id": "software",
+              "name": "software",
+              "source": null
+            },
+            {
+              "id": "security",
+              "name": "security",
+              "source": null
+            },
+            {
+              "id": "sellers",
+              "name": "sellers",
+              "source": null
+            },
+            {
+              "id": "select-shop",
+              "name": "select-shop",
+              "source": null
+            },
+            {
+              "id": "social-media",
+              "name": "social-media",
+              "source": null
+            },
+            {
+              "id": "SKU",
+              "name": "SKU",
+              "source": null
+            }
+          ],
+          "merge_count": 9
+        }
+      },
+      "merged_from": [
+        "startup founder",
+        "status quo",
+        "strategy",
+        "software",
+        "security",
+        "sellers",
+        "select-shop",
+        "social-media",
+        "SKU"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "0→1 (zero-to-one)",
+      "name": "0→1 (zero-to-one)",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "0→1 (zero-to-one)",
+              "name": "0→1 (zero-to-one)",
+              "source": null
+            },
+            {
+              "id": "0→1",
+              "name": "0→1",
+              "source": null
+            },
+            {
+              "id": "0 → 1",
+              "name": "0 → 1",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "0→1 (zero-to-one)",
+        "0→1",
+        "0 → 1"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "intermediaries",
+      "name": "intermediaries",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "intermediaries",
+              "name": "intermediaries",
+              "source": null
+            },
+            {
+              "id": "internal search",
+              "name": "internal search",
+              "source": null
+            },
+            {
+              "id": "intellectual property",
+              "name": "intellectual property",
+              "source": null
+            },
+            {
+              "id": "investments",
+              "name": "investments",
+              "source": null
+            },
+            {
+              "id": "ideal image",
+              "name": "ideal image",
+              "source": null
+            },
+            {
+              "id": "iteration",
+              "name": "iteration",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "intermediaries",
+        "internal search",
+        "intellectual property",
+        "investments",
+        "ideal image",
+        "iteration"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "artists",
+      "name": "artists",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "artists",
+              "name": "artists",
+              "source": null
+            },
+            {
+              "id": "A/B test",
+              "name": "A/B test",
+              "source": null
+            },
+            {
+              "id": "advertisements",
+              "name": "advertisements",
+              "source": null
+            },
+            {
+              "id": "advertisements",
+              "name": "advertisements",
+              "source": null
+            },
+            {
+              "id": "ads",
+              "name": "ads",
+              "source": null
+            },
+            {
+              "id": "actors",
+              "name": "actors",
+              "source": null
+            },
+            {
+              "id": "ad click-through rates",
+              "name": "ad click-through rates",
+              "source": null
+            }
+          ],
+          "merge_count": 7
+        }
+      },
+      "merged_from": [
+        "artists",
+        "A/B test",
+        "advertisements",
+        "advertisements",
+        "ads",
+        "actors",
+        "ad click-through rates"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "explosive user growth",
+      "name": "explosive user growth",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "explosive user growth",
+              "name": "explosive user growth",
+              "source": null
+            },
+            {
+              "id": "external web search",
+              "name": "external web search",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "explosive user growth",
+        "external web search"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "operational imbalance",
+      "name": "operational imbalance",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "operational imbalance",
+              "name": "operational imbalance",
+              "source": null
+            },
+            {
+              "id": "organizational inertia",
+              "name": "organizational inertia",
+              "source": null
+            },
+            {
+              "id": "online reservation platform",
+              "name": "online reservation platform",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "operational imbalance",
+        "organizational inertia",
+        "online reservation platform"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "Western countries",
+      "name": "Western countries",
+      "text": "Western countries",
+      "type": "GPE",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "Asian nations",
+      "name": "Asian nations",
+      "text": "Asian nations",
+      "type": "GPE",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "millennials",
+      "name": "millennials",
+      "text": "millennials",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "WeChat Pay",
+      "name": "WeChat Pay",
+      "text": "WeChat Pay",
+      "type": "PRODUCT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "quantitative surveys",
+      "name": "quantitative surveys",
+      "text": "quantitative surveys",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "monozukuri",
+      "name": "monozukuri",
+      "text": "monozukuri",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "UX",
+      "name": "UX",
+      "text": "UX",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "February 2021",
+      "name": "February 2021",
+      "text": "February 2021",
+      "type": "DATE",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "Takuya Oikawa",
+      "name": "Takuya Oikawa",
+      "text": "Takuya Oikawa",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "new-business service",
+      "name": "new-business service",
+      "text": "new-business service",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "esthetic and relaxation salons",
+      "name": "esthetic and relaxation salons",
+      "text": "esthetic and relaxation salons",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "healthcare",
+      "name": "healthcare",
+      "text": "healthcare",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "growth plateau",
+      "name": "growth plateau",
+      "text": "growth plateau",
+      "type": "CONCEPT",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "call center",
+      "name": "call center",
+      "text": "call center",
+      "type": "ORG",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "acquisition-to-conversion failure",
+      "name": "acquisition-to-conversion failure",
+      "text": "acquisition-to-conversion failure",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "turnaround",
+      "name": "turnaround",
+      "text": "turnaround",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "backlog",
+      "name": "backlog",
+      "text": "backlog",
+      "type": "CONCEPT",
+      "confidence": 0.79,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "事業収益",
+      "name": "事業収益",
+      "text": "事業収益",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "trade-off relationship",
+      "name": "trade-off relationship",
+      "text": "trade-off relationship",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "hypotheses",
+      "name": "hypotheses",
+      "text": "hypotheses",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "flashy advertisements",
+      "name": "flashy advertisements",
+      "text": "flashy advertisements",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "launch phase",
+      "name": "launch phase",
+      "text": "launch phase",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "Andy Rachleff",
+      "name": "Andy Rachleff",
+      "text": "Andy Rachleff",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "Benchmark Capital",
+      "name": "Benchmark Capital",
+      "text": "Benchmark Capital",
+      "type": "ORG",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "Twitter",
+      "name": "Twitter",
+      "text": "Twitter",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "eBay",
+      "name": "eBay",
+      "text": "eBay",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "Rachleff",
+      "name": "Rachleff",
+      "text": "Rachleff",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "12 Things about Product-Market Fit",
+      "name": "12 Things about Product-Market Fit",
+      "text": "12 Things about Product-Market Fit",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "a16z.com",
+      "name": "a16z.com",
+      "text": "a16z.com",
+      "type": "ORG",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "Zero to One",
+      "name": "Zero to One",
+      "text": "Zero to One",
+      "type": "PRODUCT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "id": "customer adoption",
+      "name": "customer adoption",
+      "text": "customer adoption",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Product Manager",
+      "target": "Western countries",
+      "type": "in_high_demand_across",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product Manager",
+      "target": "Asian nations",
+      "type": "in_high_demand_across",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product Manager",
+      "target": "guiding products to market success",
+      "type": "role_defined_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product Manager",
+      "target": "business world",
+      "type": "scarce_talent_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "HSBC",
+      "target": "2014-2016",
+      "type": "studied_during",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "HSBC",
+      "target": "millennials",
+      "type": "losing_market_share_among",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "HSBC",
+      "target": "Alipay",
+      "type": "facing_threats_from",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "HSBC",
+      "target": "WeChat Pay",
+      "type": "facing_threats_from",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Alipay",
+      "target": "Chinese",
+      "type": "originates_from",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "WeChat Pay",
+      "target": "Chinese",
+      "type": "originates_from",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Alipay",
+      "target": "WeChat Pay",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "HSBC",
+      "target": "Product Manager",
+      "type": "considers_proposal_from",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product Manager",
+      "target": "2016",
+      "type": "proposed_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "HSBC",
+      "target": "2016",
+      "type": "began_considering_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "HSBC",
+      "target": "Hong Kong",
+      "type": "focuses_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Validation process",
+      "target": "user interviews",
+      "type": "involved",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Validation process",
+      "target": "quantitative surveys",
+      "type": "involved",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user interviews",
+      "target": "quantitative surveys",
+      "type": "followed_by",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "quantitative surveys",
+      "target": "payment pain point",
+      "type": "confirm",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Validation process",
+      "target": "payment pain point",
+      "type": "confirms",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product Manager",
+      "target": "PayMe",
+      "type": "proposed",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "PayMe",
+      "target": "HSBC",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "PayMe",
+      "target": "Hong Kong",
+      "type": "used_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product managers",
+      "target": "product manager",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "engineers",
+      "type": "unifies",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "designers",
+      "type": "unifies",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "marketers",
+      "type": "unifies",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product-making",
+      "target": "product manager",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "commercial success",
+      "type": "responsible_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "engineers",
+      "target": "product-making",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product-manager",
+      "target": "producer",
+      "type": "shares_much_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "producer",
+      "target": "artists",
+      "type": "draws_out_talents_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "producer",
+      "target": "actors",
+      "type": "draws_out_talents_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "producer",
+      "target": "directors",
+      "type": "draws_out_talents_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "PM",
+      "target": "product management",
+      "type": "responsible_for",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product managers",
+      "target": "product organization",
+      "type": "part_of",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product managers",
+      "target": "UX",
+      "type": "should_know",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product managers",
+      "target": "revenue and cost structures",
+      "type": "should_know",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product managers",
+      "target": "design",
+      "type": "should_know",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product managers",
+      "target": "software",
+      "type": "should_know",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product managers",
+      "target": "security",
+      "type": "should_know",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product managers",
+      "target": "intellectual property",
+      "type": "should_know",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "product management",
+      "type": "livelihood_is",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product managers",
+      "target": "product management",
+      "type": "engage_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product managers",
+      "target": "product management thinking",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product management thinking",
+      "target": "product managers",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Takuya Oikawa",
+      "target": "February 2021",
+      "type": "signed_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product managers",
+      "target": "user transformation",
+      "type": "focus_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product",
+      "target": "user transformation",
+      "type": "creates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product managers",
+      "target": "product",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "app",
+      "target": "programmers",
+      "type": "created_by",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "app",
+      "target": "economic rationality",
+      "type": "depends_on",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product managers",
+      "target": "founder",
+      "type": "interacts_with",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "founder",
+      "target": "user value",
+      "type": "has_vision_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user value",
+      "target": "business model",
+      "type": "beyond",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "business model",
+      "target": "intermediaries",
+      "type": "bypasses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product managers",
+      "target": "intermediaries",
+      "type": "investigate",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product managers",
+      "target": "unmet needs",
+      "type": "investigate",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user research",
+      "target": "product-market fit",
+      "type": "guides_towards",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "social-media",
+      "target": "explosive user growth",
+      "type": "causes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "explosive user growth",
+      "target": "operational imbalance",
+      "type": "results_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product managers",
+      "target": "operational imbalance",
+      "type": "handle",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "buyers",
+      "target": "sellers",
+      "type": "outpace",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "operational imbalance",
+      "target": "buyers",
+      "type": "involves",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "operational imbalance",
+      "target": "sellers",
+      "type": "involves",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product-manager role",
+      "target": "product manager",
+      "type": "illustrated_by",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "startup founder",
+      "target": "product manager",
+      "type": "interacts_with",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "user-centric inquiry",
+      "type": "applies",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "iteration",
+      "type": "applies",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user-centric inquiry",
+      "target": "iteration",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "new-business service",
+      "type": "assigned_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "online reservation platform",
+      "target": "new-business service",
+      "type": "example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "online reservation platform",
+      "target": "esthetic and relaxation salons",
+      "type": "serves",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "e-commerce division",
+      "type": "pulled_into",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user growth",
+      "target": "product manager",
+      "type": "triggers_reassignment_of",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "competitive pressure",
+      "target": "product manager",
+      "type": "triggers_reassignment_of",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "e-commerce",
+      "target": "apparel",
+      "type": "began_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "e-commerce",
+      "target": "cosmetics",
+      "type": "expanded_into",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "e-commerce",
+      "target": "healthcare",
+      "type": "expanded_into",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "e-commerce",
+      "target": "select-shop",
+      "type": "succeeds_through",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "e-commerce",
+      "target": "growth plateau",
+      "type": "encounters",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "growth plateau",
+      "target": "product-manager",
+      "type": "requires",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "product team",
+      "type": "joins",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "user comments",
+      "type": "reviews",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "product-usage logs",
+      "type": "reviews",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user comments",
+      "target": "call center",
+      "type": "collected_by",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "acquisition-to-conversion failure",
+      "target": "external web search",
+      "type": "triggered_by",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "external web search",
+      "target": "internal search",
+      "type": "leads_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "acquisition-to-conversion failure",
+      "target": "internal search",
+      "type": "involves",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product-detail pages",
+      "target": "SKU",
+      "type": "cause_incorrect_addition_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "product team",
+      "type": "reconvenes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "product vision",
+      "type": "reconfirms",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product team",
+      "target": "product vision",
+      "type": "reconfirms",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user-interface",
+      "target": "A/B test",
+      "type": "change_released_as",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "product team",
+      "type": "interacts_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "product team",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "backlog",
+      "target": "turnaround",
+      "type": "related_to",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "backlog",
+      "type": "related_to",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "turnaround",
+      "type": "related_to",
+      "confidence": 0.76,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Vision",
+      "target": "User Value",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Vision",
+      "target": "Business Revenue",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "User Value",
+      "target": "Business Revenue",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Business Revenue",
+      "target": "事業収益",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Vision",
+      "target": "product",
+      "type": "realized_through",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product",
+      "target": "Vision",
+      "type": "exists_to_realize",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product success",
+      "target": "user value",
+      "type": "requires_balancing",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product success",
+      "target": "business revenue",
+      "type": "requires_balancing",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user value",
+      "target": "business revenue",
+      "type": "forms_trade_off_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user value",
+      "target": "trade-off relationship",
+      "type": "can_form",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "business revenue",
+      "target": "trade-off relationship",
+      "type": "can_form",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "User value",
+      "type": "proposes",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user base",
+      "target": "vision",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "hypotheses",
+      "target": "user base",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "vision",
+      "target": "ideal image",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product",
+      "target": "user base",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Business revenue",
+      "target": "product",
+      "type": "required_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product",
+      "target": "vision",
+      "type": "moving_toward",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product",
+      "target": "user value",
+      "type": "delivers",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Revenue",
+      "target": "investments",
+      "type": "enables",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product growth",
+      "target": "vision",
+      "type": "sustained_until",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product growth",
+      "target": "market",
+      "type": "depends_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product growth",
+      "target": "strategy",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product growth",
+      "target": "business model",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "strategy",
+      "target": "competitors",
+      "type": "distinct_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "advertisements",
+      "target": "revenue",
+      "type": "generates",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "advertisements",
+      "target": "perceived user value",
+      "type": "lowers",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "flashy advertisements",
+      "target": "perceived user value",
+      "type": "reduces",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "flashy advertisements",
+      "target": "advertisements",
+      "type": "is_a",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "coexistence",
+      "target": "ads",
+      "type": "exemplified_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "ads",
+      "target": "advertisements",
+      "type": "instead_of",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "ads",
+      "target": "user value",
+      "type": "avoids_damaging",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "ads",
+      "target": "ad click-through rates",
+      "type": "increases",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "ads",
+      "target": "revenue",
+      "type": "generates",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user value",
+      "target": "business revenue",
+      "type": "improves_together_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "coexistence",
+      "target": "product managers",
+      "type": "is_key_skill_for",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Vision",
+      "target": "future",
+      "type": "defined_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "present reality",
+      "target": "future",
+      "type": "prevents_creating",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Vision",
+      "target": "user value",
+      "type": "must_not_be_forgotten_despite_growth_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Vision",
+      "target": "business revenue",
+      "type": "must_not_be_forgotten_despite_growth_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user value",
+      "target": "business revenue",
+      "type": "grows_alongside",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Vision",
+      "target": "user value",
+      "type": "requires_more_than_delivering",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "vision",
+      "target": "user value",
+      "type": "mutually_influences",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "vision",
+      "target": "business revenue",
+      "type": "mutually_influences",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user value",
+      "target": "business revenue",
+      "type": "mutually_influences",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product",
+      "target": "vision",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product",
+      "target": "user value",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product",
+      "target": "business revenue",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product growth",
+      "target": "vision",
+      "type": "requires_balancing_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product growth",
+      "target": "user value",
+      "type": "requires_balancing_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product growth",
+      "target": "business revenue",
+      "type": "requires_balancing_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "vision",
+      "type": "balances",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "user value",
+      "type": "balances",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product manager",
+      "target": "business revenue",
+      "type": "balances",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "vision",
+      "target": "user value",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "vision",
+      "target": "business revenue",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "user value",
+      "target": "business revenue",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "0→1 (zero-to-one)",
+      "target": "Product-Market Fit",
+      "type": "has_primary_objective",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product-Market Fit",
+      "target": "PMF",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "0→1 (zero-to-one)",
+      "target": "PMF",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "PMF",
+      "target": "1→10 stage",
+      "type": "precedes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "10→100 stage",
+      "target": "launch phase",
+      "type": "requires_more_factors_than",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product-Market Fit",
+      "target": "PMF",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product-Market Fit",
+      "target": "Andy Rachleff",
+      "type": "introduced_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "PMF",
+      "target": "Andy Rachleff",
+      "type": "introduced_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Andy Rachleff",
+      "target": "Benchmark Capital",
+      "type": "founder_of",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Andy Rachleff",
+      "target": "founder",
+      "type": "is_a",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Benchmark Capital",
+      "target": "Twitter",
+      "type": "investor_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Benchmark Capital",
+      "target": "Uber",
+      "type": "investor_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Benchmark Capital",
+      "target": "eBay",
+      "type": "investor_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Rachleff",
+      "target": "PMF",
+      "type": "defines",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "PMF",
+      "target": "value hypothesis",
+      "type": "defined_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "value hypothesis",
+      "target": "PMF",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "12 Things about Product-Market Fit",
+      "target": "a16z.com",
+      "type": "published_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "12 Things about Product-Market Fit",
+      "target": "2017",
+      "type": "published_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product-Market Fit (PMF)",
+      "target": "value",
+      "type": "established_when_connected_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "business model",
+      "target": "viable business",
+      "type": "becomes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "viable business",
+      "target": "revenue",
+      "type": "generates",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product lifecycle",
+      "target": "PMF",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "PMF",
+      "target": "product lifecycle",
+      "type": "required_for",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Peter Thiel",
+      "target": "Zero to One",
+      "type": "authored",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "status quo",
+      "target": "organizational inertia",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "status quo",
+      "target": "user value",
+      "type": "leads_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "organizational inertia",
+      "target": "user value",
+      "type": "leads_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "0 → 1",
+      "target": "1 → 10",
+      "type": "precedes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "1 → 10",
+      "target": "10 → 100",
+      "type": "precedes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "0 → 1",
+      "target": "1 → 10",
+      "type": "part_of",
+      "confidence": 0.7,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "0→1",
+      "target": "Product-Market Fit",
+      "type": "aims_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "0→1",
+      "target": "PMF",
+      "type": "aims_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "Product-Market Fit",
+      "target": "PMF",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "0→1",
+      "target": "1→10",
+      "type": "precedes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "1→10",
+      "target": "10→100",
+      "type": "precedes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product vision",
+      "target": "10→100 stage",
+      "type": "serves_as_guiding_beacon_for",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product stages",
+      "target": "product lifecycle",
+      "type": "understood_through",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "product stages",
+      "target": "customer adoption",
+      "type": "understood_via",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    },
+    {
+      "source": "customer adoption",
+      "target": "product growth",
+      "type": "represents",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "プロダクトマネジメントのすべて"
+      },
+      "book_key": "プロダクトマネジメントのすべて"
+    }
+  ],
+  "metadata": {
+    "num_entities": 53,
+    "num_relationships": 195,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-30T22:28:23.835479",
+    "entity_resolution_applied": true,
+    "book_key": "プロダクトマネジメントのすべて",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

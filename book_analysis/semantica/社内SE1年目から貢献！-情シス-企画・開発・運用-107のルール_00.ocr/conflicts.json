@@ -1,0 +1,326 @@
+[
+  {
+    "conflict_id": "SIers_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "SIers",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "ORG",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.84,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "4th Industrial Revolution_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "4th Industrial Revolution",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "EVENT",
+      "EVENT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.96,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "SES_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "SES",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "ORG",
+      "ORG",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.96,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.84,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.89,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "SIer_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "SIer",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "ORG",
+      "ORG",
+      "ORG",
+      "ORG",
+      "ORG",
+      "CONCEPT",
+      "CONCEPT",
+      "ORG"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/">
+    <rdfs:label>Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gmOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">非エンジニアを対象としたAIコーディング入門書。基礎からツール活用、自動化、エージェント開発までを体系的に扱う。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Occupation">
+    <rdfs:label xml:lang="ja">職種</rdfs:label>
+    <rdfs:comment xml:lang="ja">人事やプロダクトマネージャーなど、従来は専門家向けだったプログラミングを活用しうる多様な職種。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/LearningGoal">
+    <rdfs:label xml:lang="ja">学習目標</rdfs:label>
+    <rdfs:comment xml:lang="ja">AIを通じたプログラミング能力の習得、分解して設計するエンジニアリング思考、ツールの汎用的な活用。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICoding">
+    <rdfs:label xml:lang="ja">AIコーディング</rdfs:label>
+    <rdfs:comment xml:lang="ja">コードの完全理解より目的達成を重視するAI活用プログラミング。軽いニュアンスを避けるためバイブコーディングとは呼ばない。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/ProgrammingLanguage">
+    <rdfs:label xml:lang="ja">プログラミング言語</rdfs:label>
+    <rdfs:comment xml:lang="ja">JavaScriptやPythonなど主流言語。本書はNode.js前提、Chrome拡張、GAS、主要AI API対応からJavaScriptを採用する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DevelopmentEnvironment">
+    <rdfs:label xml:lang="ja">開発環境</rdfs:label>
+    <rdfs:comment xml:lang="ja">本書で必要なのはAntigravityとNode.jsの二つにほぼ限られる開発のための基盤。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/CodeEditor">
+    <rdfs:label xml:lang="ja">コードエディター</rdfs:label>
+    <rdfs:comment xml:lang="ja">VSCodeベースのAI搭載エディター。タブ補完、日本語指示によるコード生成、エラー説明と修正を備える。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DevelopmentEnvironment"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/RuntimeEnvironment">
+    <rdfs:label xml:lang="ja">実行環境</rdfs:label>
+    <rdfs:comment xml:lang="ja">Node.jsのようにブラウザ外でJavaScriptを実行し、同時にnpmを利用可能にする環境。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DevelopmentEnvironment"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Variable">
+    <rdfs:label xml:lang="ja">変数</rdfs:label>
+    <rdfs:comment xml:lang="ja">データを保存する箱。constは再代入不可の定数、letは再代入可能。constでも配列やオブジェクトの中身は変更できる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DataType">
+    <rdfs:label xml:lang="ja">データ型</rdfs:label>
+    <rdfs:comment xml:lang="ja">文字列、数値、真偽値、配列、オブジェクトなどの種類。暗黙の結合と明示的なNumber変換に注意する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Function">
+    <rdfs:label xml:lang="ja">関数</rdfs:label>
+    <rdfs:comment xml:lang="ja">引数を受け戻り値を返す再利用単位。function構文、アロー関数、デフォルト引数がある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/ControlFlow">
+    <rdfs:label xml:lang="ja">制御フロー</rdfs:label>
+    <rdfs:comment xml:lang="ja">ifによる条件分岐と、for...of、Object.entries、whileによる繰り返し。比較演算子と論理演算子を用いる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/BuiltInMethod">
+    <rdfs:label xml:lang="ja">組み込みメソッド</rdfs:label>
+    <rdfs:comment xml:lang="ja">配列のpush、filter、reduceや文字列のsplit、replaceなど言語に備わる操作。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/API">
+    <rdfs:label>API</rdfs:label>
+    <rdfs:comment xml:lang="ja">ソフトウェア間の公式なルールブック。UI変更に強く、仕様変更の告知やスケジュール実行が可能。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/APIKey">
+    <rdfs:label xml:lang="ja">APIキー</rdfs:label>
+    <rdfs:comment xml:lang="ja">パスワード以上に機密な認証情報。ハードコーディングせず.envに置き.gitignoreで除外する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/HttpRequest">
+    <rdfs:label xml:lang="ja">HTTPリクエスト</rdfs:label>
+    <rdfs:comment xml:lang="ja">fetchで送る通信。URL、ボディ、ヘッダーから成り、GET、POST、PUT、DELETEとステータスコードを持つ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Token">
+    <rdfs:label xml:lang="ja">トークン</rdfs:label>
+    <rdfs:comment xml:lang="ja">AIがテキストを処理する最小単位で従量課金の基準。日本語はおおよそ1文字が0.5から0.7トークン。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Library">
+    <rdfs:label xml:lang="ja">ライブラリ</rdfs:label>
+    <rdfs:comment xml:lang="ja">標準ライブラリまたは第三者のサードパーティライブラリ。依存の連鎖とサプライチェーン攻撃のリスクがある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/PackageManager">
+    <rdfs:label xml:lang="ja">パッケージマネージャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">npmのようにインストール、package.jsonへの依存記録、node_modules、auditによる脆弱性修正を担う。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/OpenSourceSoftware">
+    <rdfs:label xml:lang="ja">オープンソースソフトウェア</rdfs:label>
+    <rdfs:comment xml:lang="ja">ソースが公開され誰でも利用できる文化。Node.jsやaxiosなどが代表例。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICodingTool">
+    <rdfs:label xml:lang="ja">AIコーディングツール</rdfs:label>
+    <rdfs:comment xml:lang="ja">単発スクリプト、エディター型、CLI型、クラウド型、オールインワンに分類されるAI支援開発手段。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AIAgent">
+    <rdfs:label xml:lang="ja">AIエージェント</rdfs:label>
+    <rdfs:comment xml:lang="ja">ファイルメンション、Webサーチ、MCP、ルール、カスタムコマンド、ガードレールを持つ自動コーディング主体。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICodingTool"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Context">
+    <rdfs:label xml:lang="ja">コンテキスト</rdfs:label>
+    <rdfs:comment xml:lang="ja">AIの選択肢を狭めて最良の回答へ導く情報。メンションやステップごとの文脈設計で渡す。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/RuleFile">
+    <rdfs:label xml:lang="ja">ルールファイル</rdfs:label>
+    <rdfs:comment xml:lang="ja">AGENTS.mdのような作業マニュアル。Why・Who・What、例と制約、参照先を明示し失敗を反復反映する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Guardrail">
+    <rdfs:label xml:lang="ja">ガードレール</rdfs:label>
+    <rdfs:comment xml:lang="ja">実行前確認、許可リストと拒否リスト、アクセス制限、サンドボックスなど危険操作を防ぐ安全機構。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/CommandLineInterface">
+    <rdfs:label xml:lang="ja">コマンドラインインタフェース</rdfs:label>
+    <rdfs:comment xml:lang="ja">cd、ls、mkdir、mv、cp、rmなどで高速操作し、テキスト指示と自動化に向くインタフェース。rmは復元不可。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/VersionControlSystem">
+    <rdfs:label xml:lang="ja">バージョン管理システム</rdfs:label>
+    <rdfs:comment xml:lang="ja">リポジトリ、コミット、ステージング、ブランチにより変更を記録し、AIの予期せぬ変更を取り消せる分散型の仕組み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/GitHub">
+    <rdfs:label>GitHub</rdfs:label>
+    <rdfs:comment xml:lang="ja">プッシュとプルによるクラウドバックアップ、Jules等のクラウドエージェント連携、Actionsによる自動化を提供する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AIParameter">
+    <rdfs:label xml:lang="ja">AIパラメータ</rdfs:label>
+    <rdfs:comment xml:lang="ja">systemInstructionで役割を固定し、temperatureで創造性を調整するAPI設定。プロンプトインジェクション対策が必要。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/teaches">
+    <rdfs:label xml:lang="ja">教える対象</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍が体系的に解説するAIコーディングという主題。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Book"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICoding"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/targetsOccupation">
+    <rdfs:label xml:lang="ja">対象職種</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍が想定する非エンジニアを含む読者の職種。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Book"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Occupation"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hasLearningGoal">
+    <rdfs:label xml:lang="ja">学習目標を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍が掲げる能力習得と思考法とツール活用の目標。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Book"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/LearningGoal"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/usesLanguage">
+    <rdfs:label xml:lang="ja">使用言語</rdfs:label>
+    <rdfs:comment xml:lang="ja">AIコーディングや関数実装で主に用いるプログラミング言語。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICoding"/>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Function"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/ProgrammingLanguage"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/requiresEnvironment">
+    <rdfs:label xml:lang="ja">必要な環境</rdfs:label>
+    <rdfs:comment xml:lang="ja">AIコーディングの前提となるエディターと実行環境。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICoding"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DevelopmentEnvironment"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hasEditor">
+    <rdfs:label xml:lang="ja">エディターを含む</rdfs:label>
+    <rdfs:comment xml:lang="ja">開発環境に含まれるAI搭載コードエディター。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DevelopmentEnvironment"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/CodeEditor"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hasRuntime">
+    <rdfs:label xml:lang="ja">実行環境を含む</rdfs:label>
+    <rdfs:comment xml:lang="ja">開発環境に含まれるNode.jsなどの実行基盤。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DevelopmentEnvironment"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/RuntimeEnvironment"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hasDataType">
+    <rdfs:label xml:lang="ja">データ型を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">変数が保持する文字列や数値などの型。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Variable"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DataType"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/usesControlFlow">
+    <rdfs:label xml:lang="ja">制御フローを使う</rdfs:label>
+    <rdfs:comment xml:lang="ja">条件分岐やループで処理の流れを組み立てる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Function"/>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICoding"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/ControlFlow"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hasBuiltInMethod">
+    <rdfs:label xml:lang="ja">組み込みメソッドを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">配列や文字列などの型が提供する標準操作。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/DataType"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/BuiltInMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/invokesAPI">
+    <rdfs:label xml:lang="ja">APIを呼び出す</rdfs:label>
+    <rdfs:comment xml:lang="ja">ブラウザを介さずサービスを直接利用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICoding"/>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Function"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/API"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/authenticatesWith">
+    <rdfs:label xml:lang="ja">認証に用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">APIアクセスをAPIキーで認証する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/API"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/APIKey"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/usesHttpRequest">
+    <rdfs:label xml:lang="ja">HTTPリクエストを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">API呼び出しがURL、ボディ、ヘッダー、メソッドで構成される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/API"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/HttpRequest"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/billedByToken">
+    <rdfs:label xml:lang="ja">トークンで課金される</rdfs:label>
+    <rdfs:comment xml:lang="ja">従量課金、プロンプトキャッシュ、Batch API割引の単位となる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/API"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Token"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hasParameter">
+    <rdfs:label xml:lang="ja">パラメータを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">システムプロンプトやtemperatureなどAPIの振る舞いを決める設定。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/API"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AIParameter"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/managedBy">
+    <rdfs:label xml:lang="ja">管理される</rdfs:label>
+    <rdfs:comment xml:lang="ja">ライブラリのインストールと依存関係がパッケージマネージャーに記録される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Library"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/PackageManager"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/dependsOn">
+    <rdfs:label xml:lang="ja">依存する</rdfs:label>
+    <rdfs:comment xml:lang="ja">ライブラリが別ライブラリに依存する連鎖。脆弱性伝播の経路にもなる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Library"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Library"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/isDistributedAs">
+    <rdfs:label xml:lang="ja">OSSとして配布される</rdfs:label>
+    <rdfs:comment xml:lang="ja">ライブラリや実行環境がオープンソースとして公開される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Library"/>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/RuntimeEnvironment"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/OpenSourceSoftware"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/usesTool">
+    <rdfs:label xml:lang="ja">ツールを使う</rdfs:label>
+    <rdfs:comment xml:lang="ja">エディター型、CLI型、クラウド型などのAIコーディングツール利用。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICoding"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICodingTool"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/usesContext">
+    <rdfs:label xml:lang="ja">コンテキストを使う</rdfs:label>
+    <rdfs:comment xml:lang="ja">メンション等で必要な情報を渡し回答の質を上げる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AIAgent"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Context"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/guidedBy">
+    <rdfs:label xml:lang="ja">ルールに従う</rdfs:label>
+    <rdfs:comment xml:lang="ja">エージェントが作業マニュアルであるルールファイルに従って動く関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AIAgent"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/RuleFile"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/constrainedBy">
+    <rdfs:label xml:lang="ja">ガードレールで制約される</rdfs:label>
+    <rdfs:comment xml:lang="ja">危険な操作を承認や隔離によって制限する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AIAgent"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Guardrail"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/operatesViaCli">
+    <rdfs:label xml:lang="ja">CLI経由で操作する</rdfs:label>
+    <rdfs:comment xml:lang="ja">テキストコマンドで高速に指示し自動化する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICoding"/>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AIAgent"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/CommandLineInterface"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/versionedBy">
+    <rdfs:label xml:lang="ja">版管理される</rdfs:label>
+    <rdfs:comment xml:lang="ja">変更履歴をGitなどで記録しいつでも戻せる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AICoding"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/VersionControlSystem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/hostedOn">
+    <rdfs:label xml:lang="ja">ホストされる</rdfs:label>
+    <rdfs:comment xml:lang="ja">ローカルの変更をリモートへプッシュしクラウドと連携する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/VersionControlSystem"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/GitHub"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/collaboratesWithAgent">
+    <rdfs:label xml:lang="ja">エージェントと連携する</rdfs:label>
+    <rdfs:comment xml:lang="ja">Jules、Claude Code Web、Codexなどクラウド型エージェントへ作業を依頼する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/GitHub"/>
+    <rdfs:range rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/AIAgent"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/title">
+    <rdfs:label xml:lang="ja">タイトル</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍や成果物の名称。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/Book"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

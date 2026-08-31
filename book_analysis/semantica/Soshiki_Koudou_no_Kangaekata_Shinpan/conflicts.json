@@ -1,0 +1,53 @@
+[
+  {
+    "conflict_id": "ガイホウ_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "ガイホウ",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "EVENT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.9,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Soshiki_Koudou_no_Kangaekata_Shinpan"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Soshiki_Koudou_no_Kangaekata_Shinpan"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.71,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Soshiki_Koudou_no_Kangaekata_Shinpan"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

@@ -1,0 +1,5417 @@
+{
+  "entities": [
+    {
+      "id": "SHIFT社",
+      "name": "SHIFT社",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "SHIFT社",
+              "name": "SHIFT社",
+              "source": null
+            },
+            {
+              "id": "SHIFT社",
+              "name": "SHIFT社",
+              "source": null
+            },
+            {
+              "id": "SHIFT",
+              "name": "SHIFT",
+              "source": null
+            },
+            {
+              "id": "SHIFT",
+              "name": "SHIFT",
+              "source": null
+            },
+            {
+              "id": "shared information",
+              "name": "shared information",
+              "source": null
+            },
+            {
+              "id": "society",
+              "name": "society",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "SHIFT社",
+        "SHIFT社",
+        "SHIFT",
+        "SHIFT",
+        "shared information",
+        "society"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "日本",
+      "name": "日本",
+      "type": "GPE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "日本",
+              "name": "日本",
+              "source": null
+            },
+            {
+              "id": "日本",
+              "name": "日本",
+              "source": null
+            },
+            {
+              "id": "日本企業",
+              "name": "日本企業",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "日本",
+        "日本",
+        "日本企業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "最高人事責任者",
+      "name": "最高人事責任者",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "最高人事責任者",
+              "name": "最高人事責任者",
+              "source": null
+            },
+            {
+              "id": "最高人事責任者",
+              "name": "最高人事責任者",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "最高人事責任者",
+        "最高人事責任者"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "CHRO",
+      "name": "CHRO",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "CHRO",
+              "name": "CHRO",
+              "source": null
+            },
+            {
+              "id": "CHRO",
+              "name": "CHRO",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "CHRO",
+        "CHRO"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "東証マザーズ市場",
+      "name": "東証マザーズ市場",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "東証マザーズ市場",
+              "name": "東証マザーズ市場",
+              "source": null
+            },
+            {
+              "id": "東証マザーズ市場",
+              "name": "東証マザーズ市場",
+              "source": null
+            },
+            {
+              "id": "東証グロース市場",
+              "name": "東証グロース市場",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "東証マザーズ市場",
+        "東証マザーズ市場",
+        "東証グロース市場"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "IT業界",
+      "name": "IT業界",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "IT業界",
+              "name": "IT業界",
+              "source": null
+            },
+            {
+              "id": "IT業界",
+              "name": "IT業界",
+              "source": null
+            },
+            {
+              "id": "IT",
+              "name": "IT",
+              "source": null
+            },
+            {
+              "id": "IT",
+              "name": "IT",
+              "source": null
+            },
+            {
+              "id": "IT企業",
+              "name": "IT企業",
+              "source": null
+            },
+            {
+              "id": "IT industry",
+              "name": "IT industry",
+              "source": null
+            },
+            {
+              "id": "IT industry",
+              "name": "IT industry",
+              "source": null
+            }
+          ],
+          "merge_count": 7
+        }
+      },
+      "merged_from": [
+        "IT業界",
+        "IT業界",
+        "IT",
+        "IT",
+        "IT企業",
+        "IT industry",
+        "IT industry"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "近年",
+      "name": "近年",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "近年",
+              "name": "近年",
+              "source": null
+            },
+            {
+              "id": "近年",
+              "name": "近年",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "近年",
+        "近年"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "人的資本経営",
+      "name": "人的資本経営",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "人的資本経営",
+              "name": "人的資本経営",
+              "source": null
+            },
+            {
+              "id": "人的資本経営",
+              "name": "人的資本経営",
+              "source": null
+            },
+            {
+              "id": "人的資本",
+              "name": "人的資本",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "人的資本経営",
+        "人的資本経営",
+        "人的資本"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "有価証券報告書",
+      "name": "有価証券報告書",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "有価証券報告書",
+              "name": "有価証券報告書",
+              "source": null
+            },
+            {
+              "id": "有価証券報告書",
+              "name": "有価証券報告書",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "有価証券報告書",
+        "有価証券報告書"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "人材戦略",
+      "name": "人材戦略",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "人材戦略",
+              "name": "人材戦略",
+              "source": null
+            },
+            {
+              "id": "人材戦略",
+              "name": "人材戦略",
+              "source": null
+            },
+            {
+              "id": "人材育成",
+              "name": "人材育成",
+              "source": null
+            },
+            {
+              "id": "人材育成",
+              "name": "人材育成",
+              "source": null
+            },
+            {
+              "id": "人材",
+              "name": "人材",
+              "source": null
+            },
+            {
+              "id": "人材哲学",
+              "name": "人材哲学",
+              "source": null
+            },
+            {
+              "id": "人材不足",
+              "name": "人材不足",
+              "source": null
+            },
+            {
+              "id": "人手不足",
+              "name": "人手不足",
+              "source": null
+            },
+            {
+              "id": "人材データ",
+              "name": "人材データ",
+              "source": null
+            },
+            {
+              "id": "人材プール",
+              "name": "人材プール",
+              "source": null
+            },
+            {
+              "id": "人事制度",
+              "name": "人事制度",
+              "source": null
+            },
+            {
+              "id": "人事制度",
+              "name": "人事制度",
+              "source": null
+            },
+            {
+              "id": "人事",
+              "name": "人事",
+              "source": null
+            },
+            {
+              "id": "人事権",
+              "name": "人事権",
+              "source": null
+            },
+            {
+              "id": "人事施策",
+              "name": "人事施策",
+              "source": null
+            },
+            {
+              "id": "人事評価",
+              "name": "人事評価",
+              "source": null
+            },
+            {
+              "id": "人事責任者",
+              "name": "人事責任者",
+              "source": null
+            },
+            {
+              "id": "人事の常識",
+              "name": "人事の常識",
+              "source": null
+            },
+            {
+              "id": "人事情報システム",
+              "name": "人事情報システム",
+              "source": null
+            }
+          ],
+          "merge_count": 19
+        }
+      },
+      "merged_from": [
+        "人材戦略",
+        "人材戦略",
+        "人材育成",
+        "人材育成",
+        "人材",
+        "人材哲学",
+        "人材不足",
+        "人手不足",
+        "人材データ",
+        "人材プール",
+        "人事制度",
+        "人事制度",
+        "人事",
+        "人事権",
+        "人事施策",
+        "人事評価",
+        "人事責任者",
+        "人事の常識",
+        "人事情報システム"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "制度的可塑性",
+      "name": "制度的可塑性",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "制度的可塑性",
+              "name": "制度的可塑性",
+              "source": null
+            },
+            {
+              "id": "制度的可塑性",
+              "name": "制度的可塑性",
+              "source": null
+            },
+            {
+              "id": "制度変更",
+              "name": "制度変更",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "制度的可塑性",
+        "制度的可塑性",
+        "制度変更"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "1990年代",
+      "name": "1990年代",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "1990年代",
+              "name": "1990年代",
+              "source": null
+            },
+            {
+              "id": "1990年代",
+              "name": "1990年代",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "1990年代",
+        "1990年代"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "バブル崩壊",
+      "name": "バブル崩壊",
+      "type": "EVENT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "バブル崩壊",
+              "name": "バブル崩壊",
+              "source": null
+            },
+            {
+              "id": "バブル崩壊",
+              "name": "バブル崩壊",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "バブル崩壊",
+        "バブル崩壊"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "成果主義",
+      "name": "成果主義",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "成果主義",
+              "name": "成果主義",
+              "source": null
+            },
+            {
+              "id": "成果主義",
+              "name": "成果主義",
+              "source": null
+            },
+            {
+              "id": "成果",
+              "name": "成果",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "成果主義",
+        "成果主義",
+        "成果"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "コアな価値",
+      "name": "コアな価値",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "コアな価値",
+              "name": "コアな価値",
+              "source": null
+            },
+            {
+              "id": "コアな価値",
+              "name": "コアな価値",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "コアな価値",
+        "コアな価値"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "丹下社長",
+      "name": "丹下社長",
+      "type": "PERSON",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "丹下社長",
+              "name": "丹下社長",
+              "source": null
+            },
+            {
+              "id": "丹下社長",
+              "name": "丹下社長",
+              "source": null
+            },
+            {
+              "id": "丹下大社長",
+              "name": "丹下大社長",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "丹下社長",
+        "丹下社長",
+        "丹下大社長"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "採用戦略",
+      "name": "採用戦略",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "採用戦略",
+              "name": "採用戦略",
+              "source": null
+            },
+            {
+              "id": "採用戦略",
+              "name": "採用戦略",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "採用戦略",
+        "採用戦略"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "management",
+      "name": "management",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "management",
+              "name": "management",
+              "source": null
+            },
+            {
+              "id": "Management",
+              "name": "Management",
+              "source": null
+            },
+            {
+              "id": "money",
+              "name": "money",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "management",
+        "Management",
+        "money"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "PMO",
+      "name": "PMO",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "PMO",
+              "name": "PMO",
+              "source": null
+            },
+            {
+              "id": "PMO",
+              "name": "PMO",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "PMO",
+        "PMO"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "富士通",
+      "name": "富士通",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "富士通",
+              "name": "富士通",
+              "source": null
+            },
+            {
+              "id": "富士通",
+              "name": "富士通",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "富士通",
+        "富士通"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "NEC",
+      "name": "NEC",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "NEC",
+              "name": "NEC",
+              "source": null
+            },
+            {
+              "id": "NEC",
+              "name": "NEC",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "NEC",
+        "NEC"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "菅原要介",
+      "name": "菅原要介",
+      "type": "PERSON",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "菅原要介",
+              "name": "菅原要介",
+              "source": null
+            },
+            {
+              "id": "菅原要介氏",
+              "name": "菅原要介氏",
+              "source": null
+            },
+            {
+              "id": "菅原氏",
+              "name": "菅原氏",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "菅原要介",
+        "菅原要介氏",
+        "菅原氏"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "ソフトウェアのテスト",
+      "name": "ソフトウェアのテスト",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ソフトウェアのテスト",
+              "name": "ソフトウェアのテスト",
+              "source": null
+            },
+            {
+              "id": "ソフトウェアテスト業務",
+              "name": "ソフトウェアテスト業務",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ソフトウェアのテスト",
+        "ソフトウェアテスト業務"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "年功序列",
+      "name": "年功序列",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "年功序列",
+              "name": "年功序列",
+              "source": null
+            },
+            {
+              "id": "年功序列制度",
+              "name": "年功序列制度",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "年功序列",
+        "年功序列制度"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "2024年11月",
+      "name": "2024年11月",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "2024年11月",
+              "name": "2024年11月",
+              "source": null
+            },
+            {
+              "id": "2024年",
+              "name": "2024年",
+              "source": null
+            },
+            {
+              "id": "2025年8月期",
+              "name": "2025年8月期",
+              "source": null
+            },
+            {
+              "id": "2025年8月期",
+              "name": "2025年8月期",
+              "source": null
+            },
+            {
+              "id": "2025年",
+              "name": "2025年",
+              "source": null
+            },
+            {
+              "id": "2022年8月",
+              "name": "2022年8月",
+              "source": null
+            },
+            {
+              "id": "2014年",
+              "name": "2014年",
+              "source": null
+            },
+            {
+              "id": "2014年",
+              "name": "2014年",
+              "source": null
+            },
+            {
+              "id": "2023年3月期",
+              "name": "2023年3月期",
+              "source": null
+            },
+            {
+              "id": "2023",
+              "name": "2023",
+              "source": null
+            }
+          ],
+          "merge_count": 10
+        }
+      },
+      "merged_from": [
+        "2024年11月",
+        "2024年",
+        "2025年8月期",
+        "2025年8月期",
+        "2025年",
+        "2022年8月",
+        "2014年",
+        "2014年",
+        "2023年3月期",
+        "2023"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "Project Management Office",
+      "name": "Project Management Office",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Project Management Office",
+              "name": "Project Management Office",
+              "source": null
+            },
+            {
+              "id": "Project Manager",
+              "name": "Project Manager",
+              "source": null
+            },
+            {
+              "id": "profit-generating model",
+              "name": "profit-generating model",
+              "source": null
+            },
+            {
+              "id": "programming",
+              "name": "programming",
+              "source": null
+            },
+            {
+              "id": "Personnel authority",
+              "name": "Personnel authority",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "Project Management Office",
+        "Project Manager",
+        "profit-generating model",
+        "programming",
+        "Personnel authority"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "business leader/manager",
+      "name": "business leader/manager",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "business leader/manager",
+              "name": "business leader/manager",
+              "source": null
+            },
+            {
+              "id": "business",
+              "name": "business",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "business leader/manager",
+        "business"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "経営環境",
+      "name": "経営環境",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "経営環境",
+              "name": "経営環境",
+              "source": null
+            },
+            {
+              "id": "経営",
+              "name": "経営",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "経営環境",
+        "経営"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "相互評価",
+      "name": "相互評価",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "相互評価",
+              "name": "相互評価",
+              "source": null
+            },
+            {
+              "id": "相対評価",
+              "name": "相対評価",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "相互評価",
+        "相対評価"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "タレント・マネジメント・システム",
+      "name": "タレント・マネジメント・システム",
+      "type": "PRODUCT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "タレント・マネジメント・システム",
+              "name": "タレント・マネジメント・システム",
+              "source": null
+            },
+            {
+              "id": "タレントマネジメント",
+              "name": "タレントマネジメント",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "タレント・マネジメント・システム",
+        "タレントマネジメント"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "AI",
+      "name": "AI",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "AI",
+              "name": "AI",
+              "source": null
+            },
+            {
+              "id": "AI era",
+              "name": "AI era",
+              "source": null
+            },
+            {
+              "id": "Atsuhito Tsubuku",
+              "name": "Atsuhito Tsubuku",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "AI",
+        "AI era",
+        "Atsuhito Tsubuku"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "patissiers",
+      "name": "patissiers",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "patissiers",
+              "name": "patissiers",
+              "source": null
+            },
+            {
+              "id": "pastry chefs",
+              "name": "pastry chefs",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "patissiers",
+        "pastry chefs"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "戦略",
+      "name": "戦略",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "戦略",
+              "name": "戦略",
+              "source": null
+            },
+            {
+              "id": "戦術",
+              "name": "戦術",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "戦略",
+        "戦術"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "friendly competition",
+      "name": "friendly competition",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "friendly competition",
+              "name": "friendly competition",
+              "source": null
+            },
+            {
+              "id": "freelancers",
+              "name": "freelancers",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "friendly competition",
+        "freelancers"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "human resources",
+      "name": "human resources",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "human resources",
+              "name": "human resources",
+              "source": null
+            },
+            {
+              "id": "Hara",
+              "name": "Hara",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "human resources",
+        "Hara"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "東京都港区",
+      "name": "東京都港区",
+      "text": "東京都港区",
+      "type": "GPE",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "麻布台ヒルズ森JPタワー",
+      "name": "麻布台ヒルズ森JPタワー",
+      "text": "麻布台ヒルズ森JPタワー",
+      "type": "GPE",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "取材者",
+      "name": "取材者",
+      "text": "取材者",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "品質保証",
+      "name": "品質保証",
+      "text": "品質保証",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "最先端技術",
+      "name": "最先端技術",
+      "text": "最先端技術",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "5年後",
+      "name": "5年後",
+      "text": "5年後",
+      "type": "DATE",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "経済産業省",
+      "name": "経済産業省",
+      "text": "経済産業省",
+      "type": "ORG",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "女性管理職比率",
+      "name": "女性管理職比率",
+      "text": "女性管理職比率",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "男女間の賃金格差",
+      "name": "男女間の賃金格差",
+      "text": "男女間の賃金格差",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "労働人口",
+      "name": "労働人口",
+      "text": "労働人口",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "賃上げ機運",
+      "name": "賃上げ機運",
+      "text": "賃上げ機運",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "新商品",
+      "name": "新商品",
+      "text": "新商品",
+      "type": "PRODUCT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "新サービス",
+      "name": "新サービス",
+      "text": "新サービス",
+      "type": "PRODUCT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "業績",
+      "name": "業績",
+      "text": "業績",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "天才",
+      "name": "天才",
+      "text": "天才",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "普通の人々",
+      "name": "普通の人々",
+      "text": "普通の人々",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "その他大勢",
+      "name": "その他大勢",
+      "text": "その他大勢",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "創業者",
+      "name": "創業者",
+      "text": "創業者",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "エリート主義",
+      "name": "エリート主義",
+      "text": "エリート主義",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "皮剝き作業",
+      "name": "皮剝き作業",
+      "text": "皮剝き作業",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "企業成長",
+      "name": "企業成長",
+      "text": "企業成長",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "エンゲージメント",
+      "name": "エンゲージメント",
+      "text": "エンゲージメント",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "Relative evaluation",
+      "name": "Relative evaluation",
+      "text": "Relative evaluation",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "稼ぐモデルの構築",
+      "name": "稼ぐモデルの構築",
+      "text": "稼ぐモデルの構築",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "absolute evaluation",
+      "name": "absolute evaluation",
+      "text": "absolute evaluation",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "絶対評価",
+      "name": "絶対評価",
+      "text": "絶対評価",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "escape",
+      "name": "escape",
+      "text": "escape",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "逃げ",
+      "name": "逃げ",
+      "text": "逃げ",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "total optimization",
+      "name": "total optimization",
+      "text": "total optimization",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "全体最適",
+      "name": "全体最適",
+      "text": "全体最適",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "Commodity-like work",
+      "name": "Commodity-like work",
+      "text": "Commodity-like work",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "コモディティー化した仕事",
+      "name": "コモディティー化した仕事",
+      "text": "コモディティー化した仕事",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "99% of ordinary people",
+      "name": "99% of ordinary people",
+      "text": "99% of ordinary people",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "99％の普通の人たちを底上げしたい",
+      "name": "99％の普通の人たちを底上げしたい",
+      "text": "99％の普通の人たちを底上げしたい",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "top performers",
+      "name": "top performers",
+      "text": "top performers",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "supermarket managers",
+      "name": "supermarket managers",
+      "text": "supermarket managers",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "driving school instructors",
+      "name": "driving school instructors",
+      "text": "driving school instructors",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "team bonding",
+      "name": "team bonding",
+      "text": "team bonding",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "mutual motivation",
+      "name": "mutual motivation",
+      "text": "mutual motivation",
+      "type": "CONCEPT",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "切磋琢磨",
+      "name": "切磋琢磨",
+      "text": "切磋琢磨",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "Seiji Hara",
+      "name": "Seiji Hara",
+      "text": "Seiji Hara",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "workforce diversity",
+      "name": "workforce diversity",
+      "text": "workforce diversity",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "激務",
+      "name": "激務",
+      "text": "激務",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "完全成果主義",
+      "name": "完全成果主義",
+      "text": "完全成果主義",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "sports gym instructor",
+      "name": "sports gym instructor",
+      "text": "sports gym instructor",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "Tsubuku",
+      "name": "Tsubuku",
+      "text": "Tsubuku",
+      "type": "PERSON",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "宮大工",
+      "name": "宮大工",
+      "text": "宮大工",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "11 years",
+      "name": "11 years",
+      "text": "11 years",
+      "type": "DATE",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "age 29",
+      "name": "age 29",
+      "text": "age 29",
+      "type": "DATE",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "30s",
+      "name": "30s",
+      "text": "30s",
+      "type": "DATE",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "Diverse Workforce",
+      "name": "Diverse Workforce",
+      "text": "Diverse Workforce",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "consultants",
+      "name": "consultants",
+      "text": "consultants",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "gym instructors",
+      "name": "gym instructors",
+      "text": "gym instructors",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "police officers",
+      "name": "police officers",
+      "text": "police officers",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "nurses",
+      "name": "nurses",
+      "text": "nurses",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "actors",
+      "name": "actors",
+      "text": "actors",
+      "type": "CONCEPT",
+      "confidence": 0.83,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "idols",
+      "name": "idols",
+      "text": "idols",
+      "type": "CONCEPT",
+      "confidence": 0.83,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "警察官",
+      "name": "警察官",
+      "text": "警察官",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "看護師",
+      "name": "看護師",
+      "text": "看護師",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "コンサルタント",
+      "name": "コンサルタント",
+      "text": "コンサルタント",
+      "type": "CONCEPT",
+      "confidence": 0.83,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "社長",
+      "name": "社長",
+      "text": "社長",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "多様性",
+      "name": "多様性",
+      "text": "多様性",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "グロー市場",
+      "name": "グロー市場",
+      "text": "グロー市場",
+      "type": "ORG",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "野村総合研究所",
+      "name": "野村総合研究所",
+      "text": "野村総合研究所",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "アクセンチュア",
+      "name": "アクセンチュア",
+      "text": "アクセンチュア",
+      "type": "ORG",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "プロジェクトマネジメントオフィス",
+      "name": "プロジェクトマネジメントオフィス",
+      "text": "プロジェクトマネジメントオフィス",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "Growth市場",
+      "name": "Growth市場",
+      "text": "Growth市場",
+      "type": "ORG",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "マザーズ",
+      "name": "マザーズ",
+      "text": "マザーズ",
+      "type": "ORG",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "デジタルトランスフォーメーション",
+      "name": "デジタルトランスフォーメーション",
+      "text": "デジタルトランスフォーメーション",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "DX",
+      "name": "DX",
+      "text": "DX",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "id": "システム開発",
+      "name": "システム開発",
+      "text": "システム開発",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "SHIFT社",
+      "target": "2024年11月",
+      "type": "visited_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "東京都港区",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "麻布台ヒルズ森JPタワー",
+      "type": "located_in",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "麻布台ヒルズ森JPタワー",
+      "target": "東京都港区",
+      "type": "located_in",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "麻布台ヒルズ森JPタワー",
+      "target": "2024年",
+      "type": "opened_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "麻布台ヒルズ森JPタワー",
+      "target": "日本",
+      "type": "tallest_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "菅原要介",
+      "target": "SHIFT",
+      "type": "is_人事責任者_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "菅原要介",
+      "target": "最高人事責任者",
+      "type": "holds_position",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "最高人事責任者",
+      "target": "CHRO",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "菅原要介",
+      "target": "CHRO",
+      "type": "holds_position",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "菅原要介",
+      "target": "人材戦略",
+      "type": "talks_about",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "人事施策",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人事施策",
+      "target": "人事の常識",
+      "type": "deviates_from",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "取材者",
+      "target": "人事施策",
+      "type": "shocked_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "ソフトウェアのテスト",
+      "type": "specializes_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "ソフトウェアのテスト",
+      "target": "品質保証",
+      "type": "also_known_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "東証マザーズ市場",
+      "type": "listed_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "東証マザーズ市場",
+      "target": "東証グロース市場",
+      "type": "currently_known_as",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "2014年",
+      "type": "listed_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "2025年8月期",
+      "type": "reported_growth_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "ソフトウェアテスト業務",
+      "target": "IT業界",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "人材戦略",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "最先端技術",
+      "type": "does_not_depend_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "人材戦略",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "人材データ",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "人材データ",
+      "type": "manages",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "人事情報システム",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人事情報システム",
+      "target": "5年後",
+      "type": "collects_data_about",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人的資本経営",
+      "target": "日本",
+      "type": "important_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人的資本",
+      "target": "有価証券報告書",
+      "type": "disclosed_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人的資本経営",
+      "target": "人的資本",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人的資本経営",
+      "target": "近年",
+      "type": "gaining_importance_during",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "経済産業省",
+      "target": "人的資本経営",
+      "type": "defines",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "有価証券報告書",
+      "target": "人材育成",
+      "type": "discloses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "有価証券報告書",
+      "target": "女性管理職比率",
+      "type": "discloses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "有価証券報告書",
+      "target": "男女間の賃金格差",
+      "type": "discloses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "有価証券報告書",
+      "target": "2023年3月期",
+      "type": "mandatory_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "タレント・マネジメント・システム",
+      "target": "近年",
+      "type": "introduced_in",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "労働人口",
+      "target": "人手不足",
+      "type": "decline_leads_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "労働人口",
+      "target": "賃上げ機運",
+      "type": "decline_leads_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人手不足",
+      "target": "日本企業",
+      "type": "pressures",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "賃上げ機運",
+      "target": "日本企業",
+      "type": "pressures",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "経営環境",
+      "target": "日本企業",
+      "type": "drastic_change_affects",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "日本企業",
+      "target": "日本",
+      "type": "located_in",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "日本企業",
+      "target": "人材戦略",
+      "type": "forced_to_rebuild",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人的資本経営",
+      "target": "人事制度",
+      "type": "requires_difficult_change_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人事制度",
+      "target": "制度的可塑性",
+      "type": "has_low",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "バブル崩壊",
+      "target": "1990年代",
+      "type": "occurred_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "成果主義",
+      "target": "バブル崩壊",
+      "type": "introduced_after",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人事制度",
+      "target": "人材戦略",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "バブル崩壊",
+      "target": "1990年代",
+      "type": "occurred_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "成果主義",
+      "target": "バブル崩壊",
+      "type": "explored_after",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "成果主義",
+      "target": "年功序列",
+      "type": "contrasted_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "新商品",
+      "type": "contrasted_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "新サービス",
+      "type": "contrasted_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "制度的可塑性",
+      "type": "faces_issue",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "制度的可塑性",
+      "target": "制度変更",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "業績",
+      "type": "has_unclear_correlation_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "成果",
+      "type": "has_unclear_correlation_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "業績",
+      "target": "成果",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "普通の人々",
+      "type": "focuses_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "天才",
+      "type": "deprioritizes_relative_to_ordinary_people",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "普通の人々",
+      "target": "その他大勢",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "天才",
+      "target": "普通の人々",
+      "type": "contrasted_with",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "コアな価値",
+      "type": "has_core_focus_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "経営",
+      "type": "is_essential_issue_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "戦略",
+      "type": "requires_planning_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "戦術",
+      "type": "requires_planning_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人事制度",
+      "target": "社員",
+      "type": "difficult_to_gain_acceptance_from",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人事制度",
+      "target": "社員",
+      "type": "has_impact_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人事制度",
+      "target": "人事制度",
+      "type": "introduces",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "人材戦略",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "丹下大社長",
+      "target": "SHIFT",
+      "type": "is_founder_of",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "丹下大社長",
+      "target": "創業者",
+      "type": "is",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "丹下大社長",
+      "target": "人材哲学",
+      "type": "has",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "アプローチ",
+      "target": "能力発揮の阻害要因",
+      "type": "removes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "アプローチ",
+      "target": "コアな価値",
+      "type": "visualizes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "コアな価値",
+      "target": "その人",
+      "type": "belongs_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "余計なもの",
+      "target": "コアな価値",
+      "type": "obscures",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "丹下社長",
+      "target": "エリート主義",
+      "type": "opposes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "丹下社長",
+      "target": "皮剝き作業",
+      "type": "engages_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "人材戦略",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "企業成長",
+      "target": "人材",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "企業成長",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "人材",
+      "type": "emphasizes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人事評価",
+      "target": "人材戦略",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材育成",
+      "target": "人材戦略",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "採用戦略",
+      "target": "人材戦略",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "エンゲージメント",
+      "target": "人材戦略",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材戦略",
+      "target": "SHIFT社",
+      "type": "belongs_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Relative evaluation",
+      "target": "相互評価",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Relative evaluation",
+      "target": "相対評価",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "相互評価",
+      "target": "相対評価",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "business leader/manager",
+      "target": "profit-generating model",
+      "type": "responsible_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "business leader/manager",
+      "target": "human resources",
+      "type": "responsible_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "profit-generating model",
+      "target": "稼ぐモデルの構築",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "human resources",
+      "target": "人事",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "absolute evaluation",
+      "target": "絶対評価",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "escape",
+      "target": "逃げ",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "management",
+      "target": "escape",
+      "type": "considers_avoidance_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Personnel authority",
+      "target": "人事権",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "total optimization",
+      "target": "全体最適 (CONCEPT)",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Personnel authority",
+      "target": "total optimization",
+      "type": "is_indispensable_element_for_achieving",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人事権",
+      "target": "全体最適 (CONCEPT)",
+      "type": "is_indispensable_element_for_achieving",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Commodity-like work",
+      "target": "コモディティー化した仕事",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Commodity-like work",
+      "target": "shared information",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Management",
+      "target": "99% of ordinary people",
+      "type": "should_focus_on_raising_baseline_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Management",
+      "target": "top performers",
+      "type": "rather_than_just_focusing_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "99% of ordinary people",
+      "target": "99％の普通の人たちを底上げしたい",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "AI era",
+      "target": "AI",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "business",
+      "target": "society",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "business",
+      "target": "money",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "society",
+      "target": "money",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "IT",
+      "type": "is_company_in",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "IT",
+      "type": "hires_without_experience_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "programming",
+      "type": "hires_without_experience_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "patissiers",
+      "type": "hires_from_background",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "pastry chefs",
+      "type": "hires_from_background",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "supermarket managers",
+      "type": "hires_from_background",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "driving school instructors",
+      "type": "hires_from_background",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "patissiers",
+      "target": "pastry chefs",
+      "type": "same_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "IT industry",
+      "target": "team bonding",
+      "type": "related_to",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "IT industry",
+      "target": "mutual motivation",
+      "type": "related_to",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "team bonding",
+      "target": "mutual motivation",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "mutual motivation",
+      "target": "friendly competition",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "friendly competition",
+      "target": "切磋琢磨",
+      "type": "related_to",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Seiji Hara",
+      "target": "SHIFT",
+      "type": "joined",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Seiji Hara",
+      "target": "2023",
+      "type": "joined_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "technical roles",
+      "target": "SHIFT",
+      "type": "located_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Zero IT experience",
+      "target": "technical roles",
+      "type": "is_not_barrier_to_entry_for",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "IT",
+      "type": "operates_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "workforce diversity",
+      "type": "embraces",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Hara",
+      "target": "激務",
+      "type": "left_due_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Hara",
+      "target": "完全成果主義",
+      "type": "left_due_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Hara",
+      "target": "sports gym instructor",
+      "type": "became",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Hara",
+      "target": "SHIFT",
+      "type": "found_fit_at",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Hara",
+      "target": "PMO",
+      "type": "grew_into",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "PMO",
+      "target": "Project Management Office",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Atsuhito Tsubuku",
+      "target": "宮大工",
+      "type": "worked_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Atsuhito Tsubuku",
+      "target": "11 years",
+      "type": "worked_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Atsuhito Tsubuku",
+      "target": "IT industry",
+      "type": "switched_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Atsuhito Tsubuku",
+      "target": "age 29",
+      "type": "transitioned_at",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "Atsuhito Tsubuku",
+      "type": "hired",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Atsuhito Tsubuku",
+      "target": "Project Manager",
+      "type": "became",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Tsubuku",
+      "target": "Atsuhito Tsubuku",
+      "type": "same_as",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "IT industry",
+      "target": "30s",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "Diverse Workforce",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Diverse Workforce",
+      "target": "consultants",
+      "type": "includes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Diverse Workforce",
+      "target": "gym instructors",
+      "type": "includes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Diverse Workforce",
+      "target": "police officers",
+      "type": "includes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Diverse Workforce",
+      "target": "nurses",
+      "type": "includes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Diverse Workforce",
+      "target": "actors",
+      "type": "includes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Diverse Workforce",
+      "target": "idols",
+      "type": "includes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Diverse Workforce",
+      "target": "freelancers",
+      "type": "includes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "consultants",
+      "type": "hired",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "gym instructors",
+      "type": "hired",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "police officers",
+      "type": "hired",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "nurses",
+      "type": "hired",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "actors",
+      "type": "hired",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "idols",
+      "type": "hired",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "freelancers",
+      "type": "hired",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Diverse Workforce",
+      "target": "IT",
+      "type": "works_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "human resources",
+      "type": "has_unique_approach_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "diverse talent acquisition",
+      "type": "has_unique_approach_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "significant financial growth",
+      "type": "translated_into",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "high market expectations",
+      "type": "translated_into",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "sales",
+      "type": "achieved_increases_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "profits",
+      "type": "achieved_increases_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "採用戦略",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "警察官",
+      "type": "employs",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "看護師",
+      "type": "employs",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "コンサルタント",
+      "type": "employs",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "社長",
+      "type": "employs",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "採用戦略",
+      "target": "警察官",
+      "type": "targets",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "採用戦略",
+      "target": "看護師",
+      "type": "targets",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "採用戦略",
+      "target": "コンサルタント",
+      "type": "targets",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "採用戦略",
+      "target": "社長",
+      "type": "targets",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "菅原要介氏",
+      "target": "最高人事責任者",
+      "type": "holds_position",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "最高人事責任者",
+      "target": "CHRO",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "菅原要介氏",
+      "target": "SHIFT社",
+      "type": "works_for",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "多様性",
+      "type": "has_strength",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "多様な人材",
+      "type": "gathers",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "急成長",
+      "type": "achieved",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "多様な人材",
+      "target": "経験、性格、能力がバラバラの人々",
+      "type": "consists_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "2025年8月期",
+      "type": "recorded_consolidated_results_for",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "東証マザーズ市場",
+      "type": "listed_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "2014年",
+      "type": "listed_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "東証マザーズ市場",
+      "target": "グロー市場",
+      "type": "currently_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "富士通",
+      "type": "competes_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "NEC",
+      "type": "competes_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "野村総合研究所",
+      "type": "competes_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "アクセンチュア",
+      "type": "competes_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "IT業界",
+      "type": "increasing_presence_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "PMO",
+      "target": "プロジェクトマネジメントオフィス",
+      "type": "stands_for",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT社",
+      "target": "PMO",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "IT業界",
+      "target": "日本",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "IT業界",
+      "target": "人材不足",
+      "type": "faces",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材不足",
+      "target": "2025年",
+      "type": "predicted_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "IT",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "2022年8月",
+      "type": "has_employee_count_as_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "Growth市場",
+      "type": "listed_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "Growth市場",
+      "target": "マザーズ",
+      "type": "formerly_known_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "日本",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "独自の採用アプローチ",
+      "type": "conducts",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "4年制大学の新卒学生",
+      "type": "targets",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "人材プール",
+      "target": "SHIFT",
+      "type": "supports",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "採用戦略",
+      "target": "SHIFT",
+      "type": "supports",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "人材プール",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "採用戦略",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "富士通",
+      "target": "IT業界",
+      "type": "is_traditional_IT_giant_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "NEC",
+      "target": "IT業界",
+      "type": "is_traditional_IT_giant_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "IT業界",
+      "type": "increasing_presence_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "富士通",
+      "target": "NEC",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "富士通",
+      "type": "competes_with",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "SHIFT",
+      "target": "NEC",
+      "type": "competes_with",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "デジタルトランスフォーメーション",
+      "target": "DX",
+      "type": "abbreviated_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "デジタルトランスフォーメーション",
+      "target": "システム開発",
+      "type": "sought_along_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "DX",
+      "target": "システム開発",
+      "type": "sought_along_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "IT企業",
+      "target": "デジタルトランスフォーメーション",
+      "type": "has_high_demand_due_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "IT企業",
+      "target": "システム開発",
+      "type": "has_high_demand_due_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "IT企業",
+      "target": "DX",
+      "type": "has_high_demand_due_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "菅原氏",
+      "target": "CHRO",
+      "type": "works_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "CHRO",
+      "target": "SHIFT",
+      "type": "of_organization",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "CHRO",
+      "target": "最高人事責任者",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "菅原氏",
+      "target": "SHIFT",
+      "type": "employed_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    },
+    {
+      "source": "菅原氏",
+      "target": "人材戦略",
+      "type": "responsible_for",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "SHIFT_Kaibou"
+      },
+      "book_key": "SHIFT_Kaibou"
+    }
+  ],
+  "metadata": {
+    "num_entities": 106,
+    "num_relationships": 226,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-30T19:31:02.759391",
+    "entity_resolution_applied": true,
+    "book_key": "SHIFT_Kaibou",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

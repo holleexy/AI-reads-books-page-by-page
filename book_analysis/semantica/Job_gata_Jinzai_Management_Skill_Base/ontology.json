@@ -1,0 +1,554 @@
+{
+  "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/",
+  "name": "Job_gata_Jinzai_Management_Skill_BaseOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "SkillBasedOrganization",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedOrganization",
+      "label": "スキルベース組織",
+      "comment": "ジョブをモジュール化し、タスクという需要と個人のスキルという供給を細粒度で組み合わせて人材リソースを最大化する組織形態。",
+      "parent": null
+    },
+    {
+      "name": "SkillBasedTalentManagement",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedTalentManagement",
+      "label": "スキルベース人材マネジメント",
+      "comment": "スキルの管理・可視化、評価、キャリア開発・育成、タレントマーケットプレイス展開からなる実践プロセス。",
+      "parent": null
+    },
+    {
+      "name": "JobTypeLimitation",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/JobTypeLimitation",
+      "label": "ジョブ型の限界",
+      "comment": "ジョブディスクリプションによる職務の見える化が進む一方、人材獲得困難や名ばかり制度化が顕在化する課題。",
+      "parent": null
+    },
+    {
+      "name": "Skill",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/Skill",
+      "label": "スキル",
+      "comment": "個人が有する能力であり、タスク遂行のための供給側の要素。動的に変化するため継続的更新が必要。",
+      "parent": null
+    },
+    {
+      "name": "SoftSkill",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/SoftSkill",
+      "label": "ソフトスキル",
+      "comment": "ヒューマンスキルやコンセプチュアルスキルなどの対人・思考に関する能力。",
+      "parent": "Skill"
+    },
+    {
+      "name": "HardSkill",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/HardSkill",
+      "label": "ハードスキル",
+      "comment": "テクニカルスキルなどの専門的・技術的能力。",
+      "parent": "Skill"
+    },
+    {
+      "name": "Fluency",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/Fluency",
+      "label": "フルーエンシー",
+      "comment": "知識を自在に使いこなすだけでなく、陳腐化時に新たな知識を素早く学習・吸収するリスキル適性。",
+      "parent": "Skill"
+    },
+    {
+      "name": "Job",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/Job",
+      "label": "ジョブ",
+      "comment": "組織における役割や職務の枠組み。スキルベースではモジュール化され再構成されうる。",
+      "parent": null
+    },
+    {
+      "name": "Task",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/Task",
+      "label": "タスク",
+      "comment": "ジョブを要素分解した業務単位であり、スキル需要の細粒度の対象。",
+      "parent": null
+    },
+    {
+      "name": "JobDescription",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/JobDescription",
+      "label": "ジョブディスクリプション",
+      "comment": "職務の内容と要件を文書化した定義。ジョブ型の基盤だがスキルベースでは細分化の出発点となる。",
+      "parent": null
+    },
+    {
+      "name": "Employee",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/Employee",
+      "label": "従業員",
+      "comment": "スキルを保有しタスクを遂行する個人。自己申告・アセスメント・AI解析によりスキルが可視化される。",
+      "parent": null
+    },
+    {
+      "name": "Company",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/Company",
+      "label": "企業",
+      "comment": "スキルベース人材マネジメントを導入し、採用・配置・育成・報酬を再設計する組織。",
+      "parent": null
+    },
+    {
+      "name": "SkillTaxonomy",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillTaxonomy",
+      "label": "スキルタクソノミー",
+      "comment": "体系化されたスキル一覧。自己申告の前提であり、中央管理と現場更新、外部データセット活用が求められる。",
+      "parent": null
+    },
+    {
+      "name": "SkillLibrary",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillLibrary",
+      "label": "スキルライブラリ",
+      "comment": "採用・配置・育成など全人事プロセスを貫く単一のスキル基盤。",
+      "parent": null
+    },
+    {
+      "name": "TalentPool",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentPool",
+      "label": "タレントプール",
+      "comment": "企業全体の人材群。スキル需給ギャップを俯瞰し中長期の育成・採用方針を決める単位。",
+      "parent": null
+    },
+    {
+      "name": "SkillGap",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillGap",
+      "label": "スキルギャップ",
+      "comment": "ジョブサイドのスキル需要とタレントサイドのスキル供給の差。",
+      "parent": null
+    },
+    {
+      "name": "TalentMarketplace",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/TalentMarketplace",
+      "label": "タレントマーケットプレイス",
+      "comment": "社内の人材流動市場。社内副業やギグを通じリスキリング成果の発揮の場となる。",
+      "parent": null
+    },
+    {
+      "name": "InternalGig",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/InternalGig",
+      "label": "社内ギグ",
+      "comment": "社内副業や跨部門プロジェクトなど、スキルと興味に基づきマッチングされる短期的な機会。",
+      "parent": null
+    },
+    {
+      "name": "SkillBasedHiring",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedHiring",
+      "label": "スキルベース採用",
+      "comment": "学歴や職歴ではなく特定のスキル・能力に基づき候補者を評価・選択する手法。",
+      "parent": null
+    },
+    {
+      "name": "CareerDevelopment",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/CareerDevelopment",
+      "label": "キャリア開発",
+      "comment": "均一的育成から転換し、個人の志向とスキルギャップに基づきパーソナライズする育成。",
+      "parent": null
+    },
+    {
+      "name": "Reskilling",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/Reskilling",
+      "label": "リスキリング",
+      "comment": "新たなスキルを学習・獲得する取り組み。学びっぱなしを防ぐため発揮の場と一体で設計される。",
+      "parent": null
+    },
+    {
+      "name": "Matching",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/Matching",
+      "label": "マッチング",
+      "comment": "必要スキル保有者の把握、部門ニーズと個人希望の判断、配置後オンボーディングからなる配置プロセス。",
+      "parent": null
+    },
+    {
+      "name": "SkillBasedCompensation",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillBasedCompensation",
+      "label": "スキルベース報酬",
+      "comment": "保有スキルの幅と水準に応じて報酬を決める仕組み。保有か発揮か、職種間調整、降給の是非が論点。",
+      "parent": null
+    },
+    {
+      "name": "Assessment",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/Assessment",
+      "label": "アセスメント",
+      "comment": "自己申告、上司・客観基準評価、非構造化データからのAI推論などによるスキル可視化手法。",
+      "parent": null
+    },
+    {
+      "name": "ChangeManagement",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/ChangeManagement",
+      "label": "チェンジマネジメント",
+      "comment": "ビジョン、適応型リーダーシップ、心理的安全性、技術活用、規律ある自由、協力を駆動力とする組織変革。",
+      "parent": null
+    },
+    {
+      "name": "PsychologicalSafety",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/PsychologicalSafety",
+      "label": "心理的安全性",
+      "comment": "自己開示や挑戦を恐れない環境。FA制度や社内公募、変革成功の前提となる。",
+      "parent": null
+    },
+    {
+      "name": "Antifragility",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/Antifragility",
+      "label": "反脆弱性",
+      "comment": "効率化の極致であるスキルベース管理に遊びを持たせ、予期せぬストレスから強くなる性質。",
+      "parent": null
+    },
+    {
+      "name": "SkillTech",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/SkillTech",
+      "label": "スキルテック",
+      "comment": "AIによるスキル抽出・推定・マッチング・学習推奨・リテンション検知などを行う技術やプラットフォーム。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "requiresSkill",
+      "type": "object",
+      "domain": [
+        "Job",
+        "Task",
+        "SkillBasedHiring"
+      ],
+      "range": [
+        "Skill"
+      ],
+      "label": "必要とするスキル",
+      "comment": "ジョブやタスク、採用要件が需要側として求めるスキル。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/requiresSkill"
+    },
+    {
+      "name": "possessesSkill",
+      "type": "object",
+      "domain": [
+        "Employee"
+      ],
+      "range": [
+        "Skill"
+      ],
+      "label": "保有するスキル",
+      "comment": "従業員が持つスキル。報酬設計では発揮スキルとの区別が論点となる。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/possessesSkill"
+    },
+    {
+      "name": "exhibitsSkill",
+      "type": "object",
+      "domain": [
+        "Employee"
+      ],
+      "range": [
+        "Skill"
+      ],
+      "label": "発揮するスキル",
+      "comment": "実際の業務で用いられているスキル。保有スキルと対比される。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/exhibitsSkill"
+    },
+    {
+      "name": "consistsOfTask",
+      "type": "object",
+      "domain": [
+        "Job"
+      ],
+      "range": [
+        "Task"
+      ],
+      "label": "タスクに分解される",
+      "comment": "ジョブをモジュール化し必要なスキルを導出するための要素分解関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/consistsOfTask"
+    },
+    {
+      "name": "describedBy",
+      "type": "object",
+      "domain": [
+        "Job"
+      ],
+      "range": [
+        "JobDescription"
+      ],
+      "label": "記述される",
+      "comment": "ジョブがジョブディスクリプションによって定義される関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/describedBy"
+    },
+    {
+      "name": "employedBy",
+      "type": "object",
+      "domain": [
+        "Employee"
+      ],
+      "range": [
+        "Company"
+      ],
+      "label": "所属する",
+      "comment": "従業員が企業に雇用されている関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/employedBy"
+    },
+    {
+      "name": "memberOfPool",
+      "type": "object",
+      "domain": [
+        "Employee"
+      ],
+      "range": [
+        "TalentPool"
+      ],
+      "label": "人材群に属する",
+      "comment": "従業員がスキル需給分析の単位であるタレントプールに含まれる関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/memberOfPool"
+    },
+    {
+      "name": "classifiedIn",
+      "type": "object",
+      "domain": [
+        "Skill"
+      ],
+      "range": [
+        "SkillTaxonomy",
+        "SkillLibrary"
+      ],
+      "label": "体系に分類される",
+      "comment": "スキルがタクソノミーや単一ライブラリに位置づけられる関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/classifiedIn"
+    },
+    {
+      "name": "hasSkillTaxonomy",
+      "type": "object",
+      "domain": [
+        "Company",
+        "SkillBasedTalentManagement"
+      ],
+      "range": [
+        "SkillTaxonomy"
+      ],
+      "label": "スキルタクソノミーを持つ",
+      "comment": "組織が体系化されたスキル一覧を整備・運用する関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/hasSkillTaxonomy"
+    },
+    {
+      "name": "hasTalentMarketplace",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "TalentMarketplace"
+      ],
+      "label": "タレントマーケットプレイスを持つ",
+      "comment": "企業が社内人材流動市場を運営する関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/hasTalentMarketplace"
+    },
+    {
+      "name": "hasSkillGap",
+      "type": "object",
+      "domain": [
+        "TalentPool"
+      ],
+      "range": [
+        "SkillGap"
+      ],
+      "label": "スキルギャップを持つ",
+      "comment": "人材群単位で需給の差を俯瞰する関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/hasSkillGap"
+    },
+    {
+      "name": "concernsSkill",
+      "type": "object",
+      "domain": [
+        "SkillGap"
+      ],
+      "range": [
+        "Skill"
+      ],
+      "label": "対象スキルである",
+      "comment": "ギャップがどのスキルの過不足に関するかを示す。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/concernsSkill"
+    },
+    {
+      "name": "matchesTo",
+      "type": "object",
+      "domain": [
+        "Matching",
+        "TalentMarketplace"
+      ],
+      "range": [
+        "Employee",
+        "Task",
+        "InternalGig"
+      ],
+      "label": "マッチングする",
+      "comment": "必要スキル・興味・部門ニーズに基づき人と仕事を組み合わせる関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/matchesTo"
+    },
+    {
+      "name": "assessedBy",
+      "type": "object",
+      "domain": [
+        "Employee",
+        "Skill"
+      ],
+      "range": [
+        "Assessment"
+      ],
+      "label": "評価される",
+      "comment": "自己申告、上司評価、AI解析などによりスキルが可視化される関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/assessedBy"
+    },
+    {
+      "name": "developsThrough",
+      "type": "object",
+      "domain": [
+        "Employee"
+      ],
+      "range": [
+        "CareerDevelopment",
+        "Reskilling"
+      ],
+      "label": "育成される",
+      "comment": "個人の志向とギャップに基づくキャリア開発やリスキリングの関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/developsThrough"
+    },
+    {
+      "name": "compensatedBy",
+      "type": "object",
+      "domain": [
+        "Employee"
+      ],
+      "range": [
+        "SkillBasedCompensation"
+      ],
+      "label": "報酬が決まる",
+      "comment": "スキルの幅と水準に応じて報酬が決定される関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/compensatedBy"
+    },
+    {
+      "name": "offersGig",
+      "type": "object",
+      "domain": [
+        "TalentMarketplace"
+      ],
+      "range": [
+        "InternalGig"
+      ],
+      "label": "ギグ機会を提供する",
+      "comment": "マーケットプレイスが社内副業やプロジェクト機会を提供する関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/offersGig"
+    },
+    {
+      "name": "participatesInGig",
+      "type": "object",
+      "domain": [
+        "Employee"
+      ],
+      "range": [
+        "InternalGig"
+      ],
+      "label": "ギグに参加する",
+      "comment": "従業員が社内ギグや跨部門プロジェクトに参画する関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/participatesInGig"
+    },
+    {
+      "name": "implementsManagement",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "SkillBasedTalentManagement",
+        "SkillBasedOrganization"
+      ],
+      "label": "導入する",
+      "comment": "企業がスキルベースのマネジメントや組織形態を実装する関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/implementsManagement"
+    },
+    {
+      "name": "usesSkillTech",
+      "type": "object",
+      "domain": [
+        "Company",
+        "SkillBasedTalentManagement"
+      ],
+      "range": [
+        "SkillTech"
+      ],
+      "label": "スキルテックを用いる",
+      "comment": "AIプラットフォーム等でスキル推定・マッチング・学習推奨を行う関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/usesSkillTech"
+    },
+    {
+      "name": "hiresThrough",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "SkillBasedHiring"
+      ],
+      "label": "スキルベースで採用する",
+      "comment": "必須スキル定義、スクリーニング、実務模擬により候補者を選ぶ関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/hiresThrough"
+    },
+    {
+      "name": "managesChange",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "ChangeManagement"
+      ],
+      "label": "変革を推進する",
+      "comment": "人を中心に据えたチェンジマネジメントを実施する関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/managesChange"
+    },
+    {
+      "name": "requiresPsychologicalSafety",
+      "type": "object",
+      "domain": [
+        "ChangeManagement",
+        "TalentMarketplace",
+        "Matching"
+      ],
+      "range": [
+        "PsychologicalSafety"
+      ],
+      "label": "心理的安全性を必要とする",
+      "comment": "自発的異動や挑戦、自己開示を可能にするための前提条件。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/requiresPsychologicalSafety"
+    },
+    {
+      "name": "incorporatesAntifragility",
+      "type": "object",
+      "domain": [
+        "SkillBasedOrganization"
+      ],
+      "range": [
+        "Antifragility"
+      ],
+      "label": "反脆弱性を取り入れる",
+      "comment": "予測不能なリスクに備え組織に余裕を持たせる関係。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/incorporatesAntifragility"
+    },
+    {
+      "name": "name",
+      "type": "data",
+      "domain": [
+        "Skill",
+        "Job",
+        "Task",
+        "Employee",
+        "Company",
+        "SkillTaxonomy",
+        "SkillTech",
+        "TalentMarketplace"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "名称",
+      "comment": "エンティティを識別するための名称。",
+      "uri": "https://books.local/Job_gata_Jinzai_Management_Skill_Base/name"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

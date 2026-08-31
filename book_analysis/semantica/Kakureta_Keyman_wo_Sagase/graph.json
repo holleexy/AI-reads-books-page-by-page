@@ -1,0 +1,4527 @@
+{
+  "entities": [
+    {
+      "id": "法人営業",
+      "name": "法人営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "法人営業",
+              "name": "法人営業",
+              "source": null
+            },
+            {
+              "id": "法人営業",
+              "name": "法人営業",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "法人営業",
+        "法人営業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "購買決定",
+      "name": "購買決定",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "購買決定",
+              "name": "購買決定",
+              "source": null
+            },
+            {
+              "id": "購買決定",
+              "name": "購買決定",
+              "source": null
+            },
+            {
+              "id": "購買基準",
+              "name": "購買基準",
+              "source": null
+            },
+            {
+              "id": "購買プロセス",
+              "name": "購買プロセス",
+              "source": null
+            },
+            {
+              "id": "購買プロセス",
+              "name": "購買プロセス",
+              "source": null
+            },
+            {
+              "id": "購入の決断",
+              "name": "購入の決断",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "購買決定",
+        "購買決定",
+        "購買基準",
+        "購買プロセス",
+        "購買プロセス",
+        "購入の決断"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "デジタル時代",
+      "name": "デジタル時代",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "デジタル時代",
+              "name": "デジタル時代",
+              "source": null
+            },
+            {
+              "id": "デジタル時代",
+              "name": "デジタル時代",
+              "source": null
+            },
+            {
+              "id": "デジタル時代の営業手法",
+              "name": "デジタル時代の営業手法",
+              "source": null
+            },
+            {
+              "id": "デジタル広告",
+              "name": "デジタル広告",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "デジタル時代",
+        "デジタル時代",
+        "デジタル時代の営業手法",
+        "デジタル広告"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "B2B",
+      "name": "B2B",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "B2B",
+              "name": "B2B",
+              "source": null
+            },
+            {
+              "id": "B2B",
+              "name": "B2B",
+              "source": null
+            },
+            {
+              "id": "B2B购买过程",
+              "name": "B2B购买过程",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "B2B",
+        "B2B",
+        "B2B购买过程"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "フリーミアムモデル",
+      "name": "フリーミアムモデル",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "フリーミアムモデル",
+              "name": "フリーミアムモデル",
+              "source": null
+            },
+            {
+              "id": "フリーミアムモデル",
+              "name": "フリーミアムモデル",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "フリーミアムモデル",
+        "フリーミアムモデル"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "ABM",
+      "name": "ABM",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ABM",
+              "name": "ABM",
+              "source": null
+            },
+            {
+              "id": "ABM",
+              "name": "ABM",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ABM",
+        "ABM"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "コンテンツ・マーケティング",
+      "name": "コンテンツ・マーケティング",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "コンテンツ・マーケティング",
+              "name": "コンテンツ・マーケティング",
+              "source": null
+            },
+            {
+              "id": "コンテンツ・マーケティング",
+              "name": "コンテンツ・マーケティング",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "コンテンツ・マーケティング",
+        "コンテンツ・マーケティング"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "モビライザー",
+      "name": "モビライザー",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "モビライザー",
+              "name": "モビライザー",
+              "source": null
+            },
+            {
+              "id": "モビライザー",
+              "name": "モビライザー",
+              "source": null
+            },
+            {
+              "id": "モビライザー（Mobilizer）",
+              "name": "モビライザー（Mobilizer）",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "モビライザー",
+        "モビライザー",
+        "モビライザー（Mobilizer）"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "インサイト",
+      "name": "インサイト",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "インサイト",
+              "name": "インサイト",
+              "source": null
+            },
+            {
+              "id": "インサイト",
+              "name": "インサイト",
+              "source": null
+            },
+            {
+              "id": "インサイトの次元",
+              "name": "インサイトの次元",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "インサイト",
+        "インサイト",
+        "インサイトの次元"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "コマーシャル・インサイト",
+      "name": "コマーシャル・インサイト",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "コマーシャル・インサイト",
+              "name": "コマーシャル・インサイト",
+              "source": null
+            },
+            {
+              "id": "コマーシャル・インサイト",
+              "name": "コマーシャル・インサイト",
+              "source": null
+            },
+            {
+              "id": "コマーシャルインサイト",
+              "name": "コマーシャルインサイト",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "コマーシャル・インサイト",
+        "コマーシャル・インサイト",
+        "コマーシャルインサイト"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "チャレンジャー・セールス・モデル",
+      "name": "チャレンジャー・セールス・モデル",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "チャレンジャー・セールス・モデル",
+              "name": "チャレンジャー・セールス・モデル",
+              "source": null
+            },
+            {
+              "id": "チャレンジャー・セールス・モデル",
+              "name": "チャレンジャー・セールス・モデル",
+              "source": null
+            },
+            {
+              "id": "チャレンジャー・カスタマー",
+              "name": "チャレンジャー・カスタマー",
+              "source": null
+            },
+            {
+              "id": "チャレンジャースタイル",
+              "name": "チャレンジャースタイル",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "チャレンジャー・セールス・モデル",
+        "チャレンジャー・セールス・モデル",
+        "チャレンジャー・カスタマー",
+        "チャレンジャースタイル"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "経営幹部",
+      "name": "経営幹部",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "経営幹部",
+              "name": "経営幹部",
+              "source": null
+            },
+            {
+              "id": "経営幹部",
+              "name": "経営幹部",
+              "source": null
+            },
+            {
+              "id": "経営者",
+              "name": "経営者",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "経営幹部",
+        "経営幹部",
+        "経営者"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "ワシントンDC",
+      "name": "ワシントンDC",
+      "type": "GPE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ワシントンDC",
+              "name": "ワシントンDC",
+              "source": null
+            },
+            {
+              "id": "ワシントンDC",
+              "name": "ワシントンDC",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ワシントンDC",
+        "ワシントンDC"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "CFO",
+      "name": "CFO",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "CFO",
+              "name": "CFO",
+              "source": null
+            },
+            {
+              "id": "CFO",
+              "name": "CFO",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "CFO",
+        "CFO"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "卓越保证的卓越研究中心",
+      "name": "卓越保证的卓越研究中心",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "卓越保证的卓越研究中心",
+              "name": "卓越保证的卓越研究中心",
+              "source": null
+            },
+            {
+              "id": "卓越保证的卓越研究中心",
+              "name": "卓越保证的卓越研究中心",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "卓越保证的卓越研究中心",
+        "卓越保证的卓越研究中心"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "完璧な判断麻痺",
+      "name": "完璧な判断麻痺",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "完璧な判断麻痺",
+              "name": "完璧な判断麻痺",
+              "source": null
+            },
+            {
+              "id": "完璧な判断麻痺",
+              "name": "完璧な判断麻痺",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "完璧な判断麻痺",
+        "完璧な判断麻痺"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "ITセキュリティ",
+      "name": "ITセキュリティ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ITセキュリティ",
+              "name": "ITセキュリティ",
+              "source": null
+            },
+            {
+              "id": "ITセキュリティ",
+              "name": "ITセキュリティ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ITセキュリティ",
+        "ITセキュリティ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "コンプライアンス",
+      "name": "コンプライアンス",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "コンプライアンス",
+              "name": "コンプライアンス",
+              "source": null
+            },
+            {
+              "id": "コンプライアンス",
+              "name": "コンプライアンス",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "コンプライアンス",
+        "コンプライアンス"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "データプライバシー",
+      "name": "データプライバシー",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "データプライバシー",
+              "name": "データプライバシー",
+              "source": null
+            },
+            {
+              "id": "データプライバシー",
+              "name": "データプライバシー",
+              "source": null
+            },
+            {
+              "id": "データ分析",
+              "name": "データ分析",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "データプライバシー",
+        "データプライバシー",
+        "データ分析"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "ビジネス環境",
+      "name": "ビジネス環境",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ビジネス環境",
+              "name": "ビジネス環境",
+              "source": null
+            },
+            {
+              "id": "ビジネス環境",
+              "name": "ビジネス環境",
+              "source": null
+            },
+            {
+              "id": "ビジネス層",
+              "name": "ビジネス層",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "ビジネス環境",
+        "ビジネス環境",
+        "ビジネス層"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "コモディティ化",
+      "name": "コモディティ化",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "コモディティ化",
+              "name": "コモディティ化",
+              "source": null
+            },
+            {
+              "id": "コモディティ化",
+              "name": "コモディティ化",
+              "source": null
+            },
+            {
+              "id": "コモディティ化のジレンマ",
+              "name": "コモディティ化のジレンマ",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "コモディティ化",
+        "コモディティ化",
+        "コモディティ化のジレンマ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "パラドックス",
+      "name": "パラドックス",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "パラドックス",
+              "name": "パラドックス",
+              "source": null
+            },
+            {
+              "id": "パラドックス",
+              "name": "パラドックス",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "パラドックス",
+        "パラドックス"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "ソリューション",
+      "name": "ソリューション",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ソリューション",
+              "name": "ソリューション",
+              "source": null
+            },
+            {
+              "id": "ソリューション販売",
+              "name": "ソリューション販売",
+              "source": null
+            },
+            {
+              "id": "ソリューション購買",
+              "name": "ソリューション購買",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "ソリューション",
+        "ソリューション販売",
+        "ソリューション購買"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "意思決定の停滞",
+      "name": "意思決定の停滞",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "意思決定の停滞",
+              "name": "意思決定の停滞",
+              "source": null
+            },
+            {
+              "id": "意思決定",
+              "name": "意思決定",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "意思決定の停滞",
+        "意思決定"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "1年",
+      "name": "1年",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "1年",
+              "name": "1年",
+              "source": null
+            },
+            {
+              "id": "1年半",
+              "name": "1年半",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "1年",
+        "1年半"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "現代のビジネス環境",
+      "name": "現代のビジネス環境",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "現代のビジネス環境",
+              "name": "現代のビジネス環境",
+              "source": null
+            },
+            {
+              "id": "現代ビジネス",
+              "name": "現代ビジネス",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "現代のビジネス環境",
+        "現代ビジネス"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "営業・マーケティング",
+      "name": "営業・マーケティング",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "営業・マーケティング",
+              "name": "営業・マーケティング",
+              "source": null
+            },
+            {
+              "id": "営業やマーケティング活動",
+              "name": "営業やマーケティング活動",
+              "source": null
+            },
+            {
+              "id": "営業手法",
+              "name": "営業手法",
+              "source": null
+            },
+            {
+              "id": "営業",
+              "name": "営業",
+              "source": null
+            },
+            {
+              "id": "営業革新",
+              "name": "営業革新",
+              "source": null
+            },
+            {
+              "id": "営業責任者",
+              "name": "営業責任者",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "営業・マーケティング",
+        "営業やマーケティング活動",
+        "営業手法",
+        "営業",
+        "営業革新",
+        "営業責任者"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "顧客",
+      "name": "顧客",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "顧客",
+              "name": "顧客",
+              "source": null
+            },
+            {
+              "id": "顧客組織",
+              "name": "顧客組織",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "顧客",
+        "顧客組織"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "マーケッター",
+      "name": "マーケッター",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "マーケッター",
+              "name": "マーケッター",
+              "source": null
+            },
+            {
+              "id": "マーケティング",
+              "name": "マーケティング",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "マーケッター",
+        "マーケティング"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "情報のオーバーフロー",
+      "name": "情報のオーバーフロー",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "情報のオーバーフロー",
+              "name": "情報のオーバーフロー",
+              "source": null
+            },
+            {
+              "id": "情報の過多",
+              "name": "情報の過多",
+              "source": null
+            },
+            {
+              "id": "情報フロー",
+              "name": "情報フロー",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "情報のオーバーフロー",
+        "情報の過多",
+        "情報フロー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "組織の壁",
+      "name": "組織の壁",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "組織の壁",
+              "name": "組織の壁",
+              "source": null
+            },
+            {
+              "id": "組織変革",
+              "name": "組織変革",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "組織の壁",
+        "組織変革"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "破壊的（ディスラプティブ）な変化",
+      "name": "破壊的（ディスラプティブ）な変化",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "破壊的（ディスラプティブ）な変化",
+              "name": "破壊的（ディスラプティブ）な変化",
+              "source": null
+            },
+            {
+              "id": "破壊的変化",
+              "name": "破壊的変化",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "破壊的（ディスラプティブ）な変化",
+        "破壊的変化"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "content marketing",
+      "name": "content marketing",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "content marketing",
+              "name": "content marketing",
+              "source": null
+            },
+            {
+              "id": "Commercial Insight",
+              "name": "Commercial Insight",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "content marketing",
+        "Commercial Insight"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "サービス",
+      "name": "サービス",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "サービス",
+              "name": "サービス",
+              "source": null
+            },
+            {
+              "id": "サポート",
+              "name": "サポート",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "サービス",
+        "サポート"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "協調的・合議的な意思決定",
+      "name": "協調的・合議的な意思決定",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "協調的・合議的な意思決定",
+              "name": "協調的・合議的な意思決定",
+              "source": null
+            },
+            {
+              "id": "協調的アプローチ",
+              "name": "協調的アプローチ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "協調的・合議的な意思決定",
+        "協調的アプローチ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "pre-digital sales conventional wisdom",
+      "name": "pre-digital sales conventional wisdom",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "pre-digital sales conventional wisdom",
+              "name": "pre-digital sales conventional wisdom",
+              "source": null
+            },
+            {
+              "id": "profitability",
+              "name": "profitability",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "pre-digital sales conventional wisdom",
+        "profitability"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "商品カスタマイズ",
+      "name": "商品カスタマイズ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "商品カスタマイズ",
+              "name": "商品カスタマイズ",
+              "source": null
+            },
+            {
+              "id": "商品・サービス",
+              "name": "商品・サービス",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "商品カスタマイズ",
+        "商品・サービス"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "製品ベネフィット",
+      "name": "製品ベネフィット",
+      "text": "製品ベネフィット",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "ナーチャリング",
+      "name": "ナーチャリング",
+      "text": "ナーチャリング",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "契約獲得",
+      "name": "契約獲得",
+      "text": "契約獲得",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "成約率向上",
+      "name": "成約率向上",
+      "text": "成約率向上",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "専門家",
+      "name": "専門家",
+      "text": "専門家",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "ライバル会社",
+      "name": "ライバル会社",
+      "text": "ライバル会社",
+      "type": "ORG",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "target the top executive",
+      "name": "target the top executive",
+      "text": "target the top executive",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "トップを落とせ",
+      "name": "トップを落とせ",
+      "text": "トップを落とせ",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "無料トライアル",
+      "name": "無料トライアル",
+      "text": "無料トライアル",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "無料セミナー",
+      "name": "無料セミナー",
+      "text": "無料セミナー",
+      "type": "EVENT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "オファー",
+      "name": "オファー",
+      "text": "オファー",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "マイクロカンパニー",
+      "name": "マイクロカンパニー",
+      "text": "マイクロカンパニー",
+      "type": "ORG",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "零細企業",
+      "name": "零細企業",
+      "text": "零細企業",
+      "type": "ORG",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "アカウント・ベースト・マーケティング",
+      "name": "アカウント・ベースト・マーケティング",
+      "text": "アカウント・ベースト・マーケティング",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "近年",
+      "name": "近年",
+      "text": "近年",
+      "type": "DATE",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "不都合な真実",
+      "name": "不都合な真実",
+      "text": "不都合な真実",
+      "type": "PRODUCT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "Mobilizer",
+      "name": "Mobilizer",
+      "text": "Mobilizer",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "深いインサイト",
+      "name": "深いインサイト",
+      "text": "深いインサイト",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "プレミアム・モデル",
+      "name": "プレミアム・モデル",
+      "text": "プレミアム・モデル",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "SNS",
+      "name": "SNS",
+      "text": "SNS",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "本書",
+      "name": "本書",
+      "text": "本書",
+      "type": "PRODUCT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "半日",
+      "name": "半日",
+      "text": "半日",
+      "type": "DATE",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "技術的なイノベーション",
+      "name": "技術的なイノベーション",
+      "text": "技術的なイノベーション",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "ニューヨーク",
+      "name": "ニューヨーク",
+      "text": "ニューヨーク",
+      "type": "GPE",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "シリコンバレー",
+      "name": "シリコンバレー",
+      "text": "シリコンバレー",
+      "type": "GPE",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "隠れたキーマン",
+      "name": "隠れたキーマン",
+      "text": "隠れたキーマン",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "购买行为",
+      "name": "购买行为",
+      "text": "购买行为",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "不良议会",
+      "name": "不良议会",
+      "text": "不良议会",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "企业",
+      "name": "企业",
+      "text": "企业",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "政府",
+      "name": "政府",
+      "text": "政府",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "立法机关",
+      "name": "立法机关",
+      "text": "立法机关",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "德国",
+      "name": "德国",
+      "text": "德国",
+      "type": "GPE",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "kickoff",
+      "name": "kickoff",
+      "text": "kickoff",
+      "type": "EVENT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "3个月",
+      "name": "3个月",
+      "text": "3个月",
+      "type": "DATE",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "ROI",
+      "name": "ROI",
+      "text": "ROI",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "投资收益率",
+      "name": "投资收益率",
+      "text": "投资收益率",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "2个月",
+      "name": "2个月",
+      "text": "2个月",
+      "type": "DATE",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "卓越研究中心",
+      "name": "卓越研究中心",
+      "text": "卓越研究中心",
+      "type": "ORG",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "组织变革",
+      "name": "组织变革",
+      "text": "组织变革",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "高管",
+      "name": "高管",
+      "text": "高管",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "解决方案",
+      "name": "解决方案",
+      "text": "解决方案",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "销售",
+      "name": "销售",
+      "text": "销售",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "エクセレンス・アシュアランス・センター・オブ・エクセレンス",
+      "name": "エクセレンス・アシュアランス・センター・オブ・エクセレンス",
+      "text": "エクセレンス・アシュアランス・センター・オブ・エクセレンス",
+      "type": "ORG",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "プロジェクト命名委員会",
+      "name": "プロジェクト命名委員会",
+      "text": "プロジェクト命名委員会",
+      "type": "ORG",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "官僚主義",
+      "name": "官僚主義",
+      "text": "官僚主義",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "官庁病",
+      "name": "官庁病",
+      "text": "官庁病",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "レッドテープ",
+      "name": "レッドテープ",
+      "text": "レッドテープ",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "オペレーション",
+      "name": "オペレーション",
+      "text": "オペレーション",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "人事",
+      "name": "人事",
+      "text": "人事",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "ベンダー",
+      "name": "ベンダー",
+      "text": "ベンダー",
+      "type": "ORG",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "ステークホルダー",
+      "name": "ステークホルダー",
+      "text": "ステークホルダー",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "フォーチュン500",
+      "name": "フォーチュン500",
+      "text": "フォーチュン500",
+      "type": "ORG",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "20年前",
+      "name": "20年前",
+      "text": "20年前",
+      "type": "DATE",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "判断麻痺",
+      "name": "判断麻痺",
+      "text": "判断麻痺",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "調達",
+      "name": "調達",
+      "text": "調達",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "環境安全",
+      "name": "環境安全",
+      "text": "環境安全",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "品質管理",
+      "name": "品質管理",
+      "text": "品質管理",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "企業オペレーション",
+      "name": "企業オペレーション",
+      "text": "企業オペレーション",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "企業の運営",
+      "name": "企業の運営",
+      "text": "企業の運営",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "共通行動",
+      "name": "共通行動",
+      "text": "共通行動",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "調査研究データ",
+      "name": "調査研究データ",
+      "text": "調査研究データ",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "実践的な教訓",
+      "name": "実践的な教訓",
+      "text": "実践的な教訓",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "先駆的な戦略",
+      "name": "先駆的な戦略",
+      "text": "先駆的な戦略",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "戦略的優位性",
+      "name": "戦略的優位性",
+      "text": "戦略的優位性",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "断固たる行動",
+      "name": "断固たる行動",
+      "text": "断固たる行動",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "変革",
+      "name": "変革",
+      "text": "変革",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "職種",
+      "name": "職種",
+      "text": "職種",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "現場の担当者",
+      "name": "現場の担当者",
+      "text": "現場の担当者",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "役員クラス",
+      "name": "役員クラス",
+      "text": "役員クラス",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "販売戦略",
+      "name": "販売戦略",
+      "text": "販売戦略",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "サプライヤー",
+      "name": "サプライヤー",
+      "text": "サプライヤー",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "独自のソリューション",
+      "name": "独自のソリューション",
+      "text": "独自のソリューション",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "矛盾",
+      "name": "矛盾",
+      "text": "矛盾",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "The Challenger Sale",
+      "name": "The Challenger Sale",
+      "text": "The Challenger Sale",
+      "type": "PRODUCT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "CEB",
+      "name": "CEB",
+      "text": "CEB",
+      "type": "ORG",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "id": "企業実行委員会",
+      "name": "企業実行委員会",
+      "text": "企業実行委員会",
+      "type": "ORG",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "法人営業",
+      "target": "購買決定",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "法人営業",
+      "target": "商品カスタマイズ",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "法人営業",
+      "target": "製品ベネフィット",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "法人営業",
+      "target": "ナーチャリング",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "法人営業",
+      "target": "契約獲得",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "法人営業",
+      "target": "成約率向上",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "購買決定",
+      "target": "契約獲得",
+      "type": "leads_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "商品カスタマイズ",
+      "target": "契約獲得",
+      "type": "leads_to",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "製品ベネフィット",
+      "target": "成約率向上",
+      "type": "leads_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ナーチャリング",
+      "target": "契約獲得",
+      "type": "leads_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ナーチャリング",
+      "target": "成約率向上",
+      "type": "leads_to",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "専門家",
+      "target": "ライバル会社",
+      "type": "cannot_compete_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "法人営業",
+      "target": "デジタル時代",
+      "type": "occurs_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "専門家",
+      "target": "法人営業",
+      "type": "involved_in",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ライバル会社",
+      "target": "法人営業",
+      "type": "involved_in",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "target the top executive",
+      "target": "トップを落とせ",
+      "type": "equivalent_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "pre-digital sales conventional wisdom",
+      "target": "profitability",
+      "type": "decreases",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "無料トライアル",
+      "target": "オファー",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "無料セミナー",
+      "target": "オファー",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "オファー",
+      "target": "デジタル広告",
+      "type": "part_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "デジタル広告",
+      "target": "マイクロカンパニー",
+      "type": "attracts",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "マイクロカンパニー",
+      "target": "零細企業",
+      "type": "same_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ABM",
+      "target": "アカウント・ベースト・マーケティング",
+      "type": "is_also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ABM",
+      "target": "近年",
+      "type": "is_mainstream_approach_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コンテンツ・マーケティング",
+      "target": "近年",
+      "type": "is_mainstream_approach_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ABM",
+      "target": "コンテンツ・マーケティング",
+      "type": "used_together_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ABM",
+      "target": "コンテンツ・マーケティング",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ABM",
+      "target": "コンテンツ・マーケティング",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "マーケッター",
+      "target": "ABM",
+      "type": "teaches",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "マーケッター",
+      "target": "コンテンツ・マーケティング",
+      "type": "teaches",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "不都合な真実",
+      "target": "マーケッター",
+      "type": "presented_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "モビライザー",
+      "target": "Mobilizer",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "インサイト",
+      "target": "深いインサイト",
+      "type": "defined_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "モビライザー（Mobilizer）",
+      "target": "モビライザー",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "モビライザー",
+      "target": "B2B",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "モビライザー（Mobilizer）",
+      "target": "B2B",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "モビライザー",
+      "target": "単独の人物",
+      "type": "is_not",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "モビライザー",
+      "target": "特定の資質を持った複数人物の組み合わせ（群）",
+      "type": "exists_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コマーシャル・インサイト",
+      "target": "Commercial Insight",
+      "type": "same_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コマーシャル・インサイト",
+      "target": "モビライザー",
+      "type": "must_be_presented_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コマーシャル・インサイト",
+      "target": "インサイトの次元",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "インサイト",
+      "target": "ソリューション",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コマーシャル・インサイト",
+      "target": "商品・サービス",
+      "type": "must_evoke",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コマーシャル・インサイト",
+      "target": "インサイト",
+      "type": "part_of",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コンテンツ・マーケティング",
+      "target": "プレミアム・モデル",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "デジタル時代の営業手法",
+      "target": "モビライザー",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "デジタル時代の営業手法",
+      "target": "コマーシャル・インサイト",
+      "type": "involves",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "デジタル時代の営業手法",
+      "target": "デジタル時代",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コマーシャル・インサイト",
+      "target": "本書",
+      "type": "is_core_concept_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コマーシャル・インサイト",
+      "target": "企業",
+      "type": "has_transformative_impact_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コマーシャルインサイト",
+      "target": "1年",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コマーシャルインサイト",
+      "target": "1年半",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コマーシャルインサイト",
+      "target": "SNS",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "1年",
+      "target": "1年半",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "チャレンジャー・セールス・モデル",
+      "target": "チャレンジャースタイル",
+      "type": "proves_effectiveness_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "チャレンジャー・カスタマー",
+      "target": "チャレンジャー・セールス・モデル",
+      "type": "is_sequel_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "経営者",
+      "target": "本書",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "経営幹部",
+      "target": "本書",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "営業責任者",
+      "target": "本書",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "経営者",
+      "target": "半日",
+      "type": "should_spend",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "経営幹部",
+      "target": "半日",
+      "type": "should_spend",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "営業責任者",
+      "target": "半日",
+      "type": "should_spend",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "本書",
+      "target": "コマーシャル・インサイト",
+      "type": "helps_derive",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "組織の壁",
+      "target": "技術的なイノベーション",
+      "type": "hinders_spread_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "営業手法",
+      "target": "組織の壁",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "営業手法",
+      "target": "技術的なイノベーション",
+      "type": "limits_adoption_of",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ニューヨーク",
+      "target": "シリコンバレー",
+      "type": "similar_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ニューヨーク",
+      "target": "ワシントンDC",
+      "type": "contrasted_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "シリコンバレー",
+      "target": "ワシントンDC",
+      "type": "contrasted_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ワシントンDC",
+      "target": "営業革新",
+      "type": "has_hints_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "データ分析",
+      "target": "隠れたキーマン",
+      "type": "leads_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "B2B",
+      "target": "购买行为",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "B2B购买过程",
+      "target": "B2B",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "B2B购买过程",
+      "target": "购买行为",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "B2B购买过程",
+      "target": "不良议会",
+      "type": "similar_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "企业",
+      "target": "政府",
+      "type": "similar_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "政府",
+      "target": "企业",
+      "type": "wished_to_operate_like",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "企业",
+      "target": "立法机关",
+      "type": "operates_like",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "CFO",
+      "target": "德国",
+      "type": "associated_with",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "kickoff",
+      "target": "3个月",
+      "type": "delayed_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "kickoff",
+      "target": "ROI",
+      "type": "delays",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ROI",
+      "target": "投资收益率",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "卓越保证的卓越研究中心",
+      "target": "2个月",
+      "type": "caused_waste_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "CFO",
+      "target": "卓越保证的卓越研究中心",
+      "type": "satirizes",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "CFO",
+      "target": "卓越研究中心",
+      "type": "comments_on",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "卓越保证的卓越研究中心",
+      "target": "卓越研究中心",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "高管",
+      "target": "组织变革",
+      "type": "推动",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "解决方案",
+      "target": "组织变革",
+      "type": "难以顺利实施于",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "组织变革",
+      "target": "销售",
+      "type": "构成新现实",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "CFO",
+      "target": "エクセレンス・アシュアランス・センター・オブ・エクセレンス",
+      "type": "introduced",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "プロジェクト命名委員会",
+      "target": "官僚主義",
+      "type": "example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "官僚主義",
+      "target": "官庁病",
+      "type": "typical_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "プロジェクト命名委員会",
+      "target": "官庁病",
+      "type": "typical_example_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "官庁病",
+      "target": "レッドテープ",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "B2B",
+      "target": "購買プロセス",
+      "type": "related_to",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "経営幹部",
+      "target": "組織変革",
+      "type": "promotes",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "購買プロセス",
+      "target": "経営幹部",
+      "type": "affects",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "購買プロセス",
+      "target": "組織変革",
+      "type": "related_to",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "オペレーション",
+      "target": "購買プロセス",
+      "type": "causes_complexity_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "情報フロー",
+      "target": "完璧な判断麻痺",
+      "type": "causes",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "完璧な判断麻痺",
+      "target": "意思決定の停滞",
+      "type": "equivalent_to",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ベンダー",
+      "target": "ステークホルダー",
+      "type": "interacts_with",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "人事",
+      "target": "ステークホルダー",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ITセキュリティ",
+      "target": "ステークホルダー",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コンプライアンス",
+      "target": "ステークホルダー",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "フォーチュン500",
+      "target": "20年前",
+      "type": "smallest_company_size_multiple_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "情報のオーバーフロー",
+      "target": "判断麻痺",
+      "type": "causes",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "情報の過多",
+      "target": "完璧な判断麻痺",
+      "type": "causes",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "情報の過多",
+      "target": "情報のオーバーフロー",
+      "type": "related_to",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "完璧な判断麻痺",
+      "target": "判断麻痺",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "調達",
+      "target": "コンプライアンス",
+      "type": "interacts_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "調達",
+      "target": "データプライバシー",
+      "type": "interacts_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "調達",
+      "target": "ITセキュリティ",
+      "type": "interacts_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "調達",
+      "target": "環境安全",
+      "type": "interacts_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "調達",
+      "target": "品質管理",
+      "type": "interacts_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "企業オペレーション",
+      "target": "営業・マーケティング",
+      "type": "affects",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "企業オペレーション",
+      "target": "企業の運営",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "企業の運営",
+      "target": "意思決定",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "企業の運営",
+      "target": "営業やマーケティング活動",
+      "type": "affects",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "意思決定",
+      "target": "営業やマーケティング活動",
+      "type": "affects",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "営業・マーケティング",
+      "target": "営業やマーケティング活動",
+      "type": "related_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "購買基準",
+      "target": "顧客",
+      "type": "belongs_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "共通行動",
+      "target": "顧客",
+      "type": "occurs_among",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "破壊的変化",
+      "target": "ビジネス環境",
+      "type": "occurs_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "先駆的な戦略",
+      "target": "調査研究データ",
+      "type": "based_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "先駆的な戦略",
+      "target": "実践的な教訓",
+      "type": "based_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "破壊的（ディスラプティブ）な変化",
+      "target": "破壊的変化",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "先駆的な戦略",
+      "target": "破壊的（ディスラプティブ）な変化",
+      "type": "addresses",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "現代のビジネス環境",
+      "target": "協調的・合議的な意思決定",
+      "type": "emphasizes",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "データプライバシー",
+      "target": "購買決定",
+      "type": "influences",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "協調的アプローチ",
+      "target": "戦略的優位性",
+      "type": "undermines",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "顧客組織",
+      "target": "断固たる行動",
+      "type": "tends_to_avoid",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "変革",
+      "target": "断固たる行動",
+      "type": "example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "購入の決断",
+      "target": "断固たる行動",
+      "type": "example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "営業",
+      "target": "職種",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "マーケティング",
+      "target": "職種",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "サービス",
+      "target": "職種",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "サポート",
+      "target": "職種",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "現場の担当者",
+      "target": "ビジネス層",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "役員クラス",
+      "target": "ビジネス層",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "職種",
+      "target": "ビジネス層",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "販売戦略",
+      "target": "現代ビジネス",
+      "type": "located_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コモディティ化",
+      "target": "パラドックス",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "販売戦略",
+      "target": "ビジネス環境",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "現代ビジネス",
+      "target": "ビジネス環境",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "サプライヤー",
+      "target": "独自のソリューション",
+      "type": "creates",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "サプライヤー",
+      "target": "コモディティ化",
+      "type": "avoids",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "独自のソリューション",
+      "target": "コモディティ化",
+      "type": "perceived_as",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "パラドックス",
+      "target": "矛盾",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コモディティ化のジレンマ",
+      "target": "パラドックス",
+      "type": "is_characterized_by",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "コモディティ化のジレンマ",
+      "target": "サプライヤー",
+      "type": "involves",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "チャレンジャー・セールス・モデル",
+      "target": "The Challenger Sale",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "CEB",
+      "target": "企業実行委員会",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "チャレンジャー・セールス・モデル",
+      "target": "CEB",
+      "type": "created_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "チャレンジャー・セールス・モデル",
+      "target": "企業実行委員会",
+      "type": "created_by",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "The Challenger Sale",
+      "target": "CEB",
+      "type": "created_by",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "B2B",
+      "target": "ソリューション販売",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    },
+    {
+      "source": "ソリューション販売",
+      "target": "ソリューション購買",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Kakureta_Keyman_wo_Sagase"
+      },
+      "book_key": "Kakureta_Keyman_wo_Sagase"
+    }
+  ],
+  "metadata": {
+    "num_entities": 113,
+    "num_relationships": 158,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-30T19:39:23.076924",
+    "entity_resolution_applied": true,
+    "book_key": "Kakureta_Keyman_wo_Sagase",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

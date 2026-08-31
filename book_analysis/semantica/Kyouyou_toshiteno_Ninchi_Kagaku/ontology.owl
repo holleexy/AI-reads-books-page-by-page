@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/">
+    <rdfs:label>Kyouyou_toshiteno_Ninchi_KagakuOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Intelligence">
+    <rdfs:label xml:lang="ja">知性</rdfs:label>
+    <rdfs:comment xml:lang="ja">特定の才能の占有物ではなく、学校・職場・日常で考え判断し学び表現するすべての活動に関与する基盤。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/AnimalIntelligence">
+    <rdfs:label xml:lang="ja">動物の知性</rdfs:label>
+    <rdfs:comment xml:lang="ja">チンパンジーの記憶力やゴキブリの高速逃避行動など、人間以外の生物に見られる高度な知性。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Intelligence"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ArtificialIntelligence">
+    <rdfs:label xml:lang="ja">人工知能</rdfs:label>
+    <rdfs:comment xml:lang="ja">将棋や囲碁でプロを破るシステムや、ウィットに富んだ応答を返す対話システムとして現れる知性。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Intelligence"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CollectiveIntelligence">
+    <rdfs:label xml:lang="ja">集合的知性</rdfs:label>
+    <rdfs:comment xml:lang="ja">既存技術の組み合わせによる組織的成功や、群衆が衝突せず円滑に移動する協調として現れる知性。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Intelligence"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitiveScience">
+    <rdfs:label xml:lang="ja">認知科学</rdfs:label>
+    <rdfs:comment xml:lang="ja">心理学・言語学・哲学・神経科学・動物行動学・人工知能研究が協力し、知的システムの構造・機能・発生を探る学際領域。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Representation">
+    <rdfs:label xml:lang="ja">表象</rdfs:label>
+    <rdfs:comment xml:lang="ja">外界の対象を脳内で代理する情報であり、認知プロセスの基盤となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Computation">
+    <rdfs:label xml:lang="ja">計算</rdfs:label>
+    <rdfs:comment xml:lang="ja">入力情報に対して様々な処理を行い、表象を作り出すプロセス。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Knowledge">
+    <rdfs:label xml:lang="ja">知識</rdfs:label>
+    <rdfs:comment xml:lang="ja">経験・概念・技能として貯蔵され、記号的または分散的に表現される情報の総体。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/EpisodicMemory">
+    <rdfs:label xml:lang="ja">エピソード記憶</rdfs:label>
+    <rdfs:comment xml:lang="ja">いつどこでという時間的文脈を伴う、個人的な経験の記憶。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Knowledge"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/SemanticMemory">
+    <rdfs:label xml:lang="ja">意味記憶</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念やカテゴリー、言葉の意味に関する一般的な知識。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Knowledge"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ProceduralMemory">
+    <rdfs:label xml:lang="ja">手続き記憶</rdfs:label>
+    <rdfs:comment xml:lang="ja">自転車の乗り方など体で覚える技能であり、言語化が困難な運動表象。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Knowledge"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/MemoryProcess">
+    <rdfs:label xml:lang="ja">記憶過程</rdfs:label>
+    <rdfs:comment xml:lang="ja">符号化・貯蔵・検索の三段階からなる記憶の情報処理。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/WorkingMemory">
+    <rdfs:label xml:lang="ja">ワーキングメモリ</rdfs:label>
+    <rdfs:comment xml:lang="ja">約七プラスマイナス二チャンクの容量制限を持ち、保持と処理が同一資源を競合する短期記憶。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/MemoryProcess"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Perception">
+    <rdfs:label xml:lang="ja">知覚</rdfs:label>
+    <rdfs:comment xml:lang="ja">感覚情報を解釈する過程。中心窩以外は低解像度であり、視覚表象はおおざっぱで脆弱である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Thinking">
+    <rdfs:label xml:lang="ja">思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">演繹・帰納・仮説推論、問題解決、意思決定を含む高次の認知過程。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Heuristic">
+    <rdfs:label xml:lang="ja">ヒューリスティクス</rdfs:label>
+    <rdfs:comment xml:lang="ja">認知的労力を節約するための経験則。利用可能性や代表性などに基づく。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitiveBias">
+    <rdfs:label xml:lang="ja">認知バイアス</rdfs:label>
+    <rdfs:comment xml:lang="ja">確証バイアスや連言錯誤など、系統的に判断を歪める傾向。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/KnowledgeRepresentation">
+    <rdfs:label xml:lang="ja">知識表現</rdfs:label>
+    <rdfs:comment xml:lang="ja">スキーマ、プロダクションシステム、ニューラルネットワークなど、知識をモデル化する枠組み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitivePhenomenon">
+    <rdfs:label xml:lang="ja">認知現象</rdfs:label>
+    <rdfs:comment xml:lang="ja">盲視、変化盲、虚偽の記憶、プライミングなど、認知の性質や限界を示す現象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Context">
+    <rdfs:label xml:lang="ja">文脈</rdfs:label>
+    <rdfs:comment xml:lang="ja">課題の解釈や正答率を大きく左右する状況的枠組み。社会契約の文脈は論理課題の成績を向上させる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Environment">
+    <rdfs:label xml:lang="ja">環境</rdfs:label>
+    <rdfs:comment xml:lang="ja">知性が適応し、能動的に探索し、相互作用する外界。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/EmbodiedCognition">
+    <rdfs:label xml:lang="ja">身体化された認知</rdfs:label>
+    <rdfs:comment xml:lang="ja">カテゴリー認識が言語記号ではなく、視覚・聴覚・情動などの感覚モダリティのシミュレーションとして働くという立場。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ExtendedMind">
+    <rdfs:label xml:lang="ja">拡張された心</rdfs:label>
+    <rdfs:comment xml:lang="ja">認知は頭蓋内で完結せず、身体・道具・環境と相互作用しながら境界を越えて拡張される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ProspectTheory">
+    <rdfs:label xml:lang="ja">プロスペクト理論</rdfs:label>
+    <rdfs:comment xml:lang="ja">フレーミング効果、損失回避性、確率の過大・過小評価によって選好の逆転を説明する意思決定理論。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/studies">
+    <rdfs:label xml:lang="ja">研究する</rdfs:label>
+    <rdfs:comment xml:lang="ja">認知科学が知的システムの構造・機能・発生として対象とする関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitiveScience"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Intelligence"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Representation"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Knowledge"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/MemoryProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Perception"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Thinking"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/hasRepresentation">
+    <rdfs:label xml:lang="ja">表象を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">知的システムや知識が外界を代理する内部情報を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Intelligence"/>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Knowledge"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Representation"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/producesRepresentation">
+    <rdfs:label xml:lang="ja">表象を生成する</rdfs:label>
+    <rdfs:comment xml:lang="ja">計算過程が入力情報を処理して表象を作り出す関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Computation"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Representation"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/encodes">
+    <rdfs:label xml:lang="ja">符号化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">記憶過程が知識を符号化し貯蔵可能にする関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/MemoryProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Knowledge"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/usesHeuristic">
+    <rdfs:label xml:lang="ja">ヒューリスティクスを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">思考が認知的労力を節約するために経験則を用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Thinking"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Heuristic"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/causesBias">
+    <rdfs:label xml:lang="ja">バイアスを引き起こす</rdfs:label>
+    <rdfs:comment xml:lang="ja">ヒューリスティクスが系統的な判断の偏りを生じさせる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Heuristic"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitiveBias"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/dependsOnContext">
+    <rdfs:label xml:lang="ja">文脈に依存する</rdfs:label>
+    <rdfs:comment xml:lang="ja">思考・知覚・記憶の成績や解釈が状況的枠組みによって変わる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Thinking"/>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Perception"/>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/MemoryProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Context"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/interactsWith">
+    <rdfs:label xml:lang="ja">相互作用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">知性が身体を通じて環境と密接に関わり、適応的に変化する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Intelligence"/>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/EmbodiedCognition"/>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ExtendedMind"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Environment"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/isExhibitedBy">
+    <rdfs:label xml:lang="ja">において示される</rdfs:label>
+    <rdfs:comment xml:lang="ja">盲視や変化盲、虚偽の記憶などが知覚・記憶・思考の性質として現れる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitivePhenomenon"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Perception"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/MemoryProcess"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Thinking"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/modelsKnowledge">
+    <rdfs:label xml:lang="ja">知識をモデル化する</rdfs:label>
+    <rdfs:comment xml:lang="ja">スキーマやニューラルネットワークなどが知識の構造と獲得を表現する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/KnowledgeRepresentation"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Knowledge"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/explainsDecision">
+    <rdfs:label xml:lang="ja">意思決定を説明する</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロスペクト理論がフレーミングや損失回避による選好を説明する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/ProspectTheory"/>
+    <rdfs:range rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Thinking"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/hasDescription">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念や現象の補足的な説明文。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/Intelligence"/>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitiveScience"/>
+    <rdfs:domain rdf:resource="https://books.local/Kyouyou_toshiteno_Ninchi_Kagaku/CognitivePhenomenon"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

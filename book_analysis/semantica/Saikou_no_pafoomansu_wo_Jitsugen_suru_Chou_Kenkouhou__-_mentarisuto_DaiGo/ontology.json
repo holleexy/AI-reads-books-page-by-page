@@ -1,0 +1,500 @@
+{
+  "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/",
+  "name": "Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGoOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "BodyClock",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/BodyClock",
+      "label": "体内時計",
+      "comment": "約24.5時間周期の生体リズム。視交叉上核と末端細胞の時計を毎日リセットする必要がある。",
+      "parent": null
+    },
+    {
+      "name": "Chrononutrition",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Chrononutrition",
+      "label": "時間栄養学",
+      "comment": "食事の時間と量で時計遺伝子を制御し、運動能力・肥満・メンタルを最適化する考え方。",
+      "parent": null
+    },
+    {
+      "name": "CircadianReset",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/CircadianReset",
+      "label": "体内時計リセット",
+      "comment": "朝日による視交叉上核のリセットと、炭水化物・タンパク質摂取による末端細胞時計のリセット。",
+      "parent": null
+    },
+    {
+      "name": "Sunlight",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Sunlight",
+      "label": "太陽光",
+      "comment": "朝日は体内時計をリセットし代謝を最適化する。朝8時から12時に20〜30分浴びるとBMI低下が報告される。",
+      "parent": null
+    },
+    {
+      "name": "Meal",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Meal",
+      "label": "食事",
+      "comment": "摂取する食べ物のまとまり。1日3食習慣に科学的根拠はなく、石器時代には朝食の常備は不可能だった。",
+      "parent": null
+    },
+    {
+      "name": "Breakfast",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Breakfast",
+      "label": "朝食",
+      "comment": "朝は交感神経が優位で脂肪蓄積しやすいため生理学的には不要。RCTでは朝食抜き群が最も体重減少した。",
+      "parent": "Meal"
+    },
+    {
+      "name": "Food",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Food",
+      "label": "食品",
+      "comment": "健康効果や落とし穴を持つ飲食物。生の果物は適量、ジュースやドライフルーツは糖質濃縮のため避ける。",
+      "parent": null
+    },
+    {
+      "name": "Oil",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Oil",
+      "label": "油",
+      "comment": "ビタミン吸収に必須。エキストラバージンオリーブオイルが推奨され、マーガリンやトランス脂肪酸は避ける。",
+      "parent": "Food"
+    },
+    {
+      "name": "Nutrient",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Nutrient",
+      "label": "栄養素",
+      "comment": "人体の代謝・食欲・脳機能・腸内環境を左右する成分。",
+      "parent": null
+    },
+    {
+      "name": "Carbohydrate",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Carbohydrate",
+      "label": "炭水化物",
+      "comment": "摂取割合約50%が最も寿命が長い。極端な制限は寿命短縮と代謝柔軟性の破壊につながる。",
+      "parent": "Nutrient"
+    },
+    {
+      "name": "Protein",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Protein",
+      "label": "タンパク質",
+      "comment": "総カロリーの15%以上で食欲が自然に抑制される。ホエイは大豆より体脂肪減少効果が高い。",
+      "parent": "Nutrient"
+    },
+    {
+      "name": "Fat",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Fat",
+      "label": "脂質",
+      "comment": "炭水化物より食欲を刺激する。高脂肪食は日中の眠気を78%高め、レプチンとオレキシンに悪影響を与える。",
+      "parent": "Nutrient"
+    },
+    {
+      "name": "DietaryFiber",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/DietaryFiber",
+      "label": "食物繊維",
+      "comment": "腸内で酢酸などの短鎖脂肪酸に変わり食欲を抑える。不足すると腸内細菌が腸壁を食べ始める。",
+      "parent": "Nutrient"
+    },
+    {
+      "name": "Omega3FattyAcid",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Omega3FattyAcid",
+      "label": "オメガ3脂肪酸",
+      "comment": "DHA・EPA。海馬を大きくし認知機能を向上させ、1日1.5gを60日で慢性頭痛を75%減少させる。",
+      "parent": "Nutrient"
+    },
+    {
+      "name": "Phytochemical",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Phytochemical",
+      "label": "ファイトケミカル",
+      "comment": "ポリフェノールやカルテノイドなど。活性酸素を無毒化し老化や疾患を防ぐ植物由来物質。",
+      "parent": null
+    },
+    {
+      "name": "ArtificialSweetener",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ArtificialSweetener",
+      "label": "人工甘味料",
+      "comment": "FDA認可でも大腸菌を刺激して毒素を出させ、肥満や高血糖の人ではグルコース不耐症のリスクがある。",
+      "parent": null
+    },
+    {
+      "name": "Sleep",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Sleep",
+      "label": "睡眠",
+      "comment": "高脂肪食・夜のブルーライト・ホルモンバランスの影響を受ける休息機能。",
+      "parent": null
+    },
+    {
+      "name": "Stress",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Stress",
+      "label": "ストレス",
+      "comment": "午前中に負荷の高い仕事を終わらせると食欲増進ホルモンが抑えられ肥満リスクが下がる。",
+      "parent": null
+    },
+    {
+      "name": "Appetite",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Appetite",
+      "label": "食欲",
+      "comment": "プロテインレバレッジ、脂質、ストレス、どうにでもなれ効果、早歩きやテトリス等で増減する欲求。",
+      "parent": null
+    },
+    {
+      "name": "SkinCare",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/SkinCare",
+      "label": "スキンケア",
+      "comment": "必要なのは保湿と日焼け止めのみ。ワセリン等の油分膜とSPF30以上の広域スペクトラムを2時間おきに塗る。",
+      "parent": null
+    },
+    {
+      "name": "Brain",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Brain",
+      "label": "脳",
+      "comment": "青魚・クルミ・大豆などで最適化できる。オメガ3は海馬を大きくし認知機能を高める。",
+      "parent": null
+    },
+    {
+      "name": "GutMicrobiome",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/GutMicrobiome",
+      "label": "腸内環境",
+      "comment": "第2の脳。免疫とホルモンを支配し、食物繊維（MAC）不足や人工甘味料で乱れる。",
+      "parent": null
+    },
+    {
+      "name": "Hormone",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Hormone",
+      "label": "ホルモン",
+      "comment": "レプチン、オレキシン、コルチゾール、アドレナリン、ドーパミン、HSLなど生理調節物質。",
+      "parent": null
+    },
+    {
+      "name": "MetabolicFlexibility",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/MetabolicFlexibility",
+      "label": "代謝柔軟性",
+      "comment": "糖質と脂質を切り替えてエネルギーにする能力。極端な糖質制限で壊れ太りやすい体質になる。",
+      "parent": null
+    },
+    {
+      "name": "DietMethod",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/DietMethod",
+      "label": "ダイエット手法",
+      "comment": "総カロリーが同じなら糖質制限もバランス食も減量効果は同等。カロリーの質とタイミングが重要。",
+      "parent": null
+    },
+    {
+      "name": "IntermittentFasting",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/IntermittentFasting",
+      "label": "間欠的断食",
+      "comment": "HSLを活性化し内臓脂肪を分解する。中性脂肪・LDL減少、睡眠改善、抗炎症などの効果がある。",
+      "parent": "DietMethod"
+    },
+    {
+      "name": "LeanGains",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/LeanGains",
+      "label": "リーンゲインズ",
+      "comment": "8時間食事・16時間断食。12週間で運動なしに約350kcal削減と体重3%減少が確認された。",
+      "parent": "IntermittentFasting"
+    },
+    {
+      "name": "AlternateDayFasting",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/AlternateDayFasting",
+      "label": "日替わり断食",
+      "comment": "週3日カロリー半減。6週間で体脂肪15.1%減、筋肉減少は2.91%に抑えられる。",
+      "parent": "IntermittentFasting"
+    },
+    {
+      "name": "Exercise",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Exercise",
+      "label": "運動",
+      "comment": "下半身の大きな筋肉を鍛えるのが効率的。45分超の有酸素はコルチゾールで筋肉分解と食欲増進を招く。",
+      "parent": null
+    },
+    {
+      "name": "HIIT",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/HIIT",
+      "label": "高強度インターバルトレーニング",
+      "comment": "20秒全力・10秒休みの短時間高強度運動。アンチエイジングと脂肪燃焼に適する。",
+      "parent": "Exercise"
+    },
+    {
+      "name": "NEAT",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/NEAT",
+      "label": "非運動性活動熱産生",
+      "comment": "階段使用など日常生活の活動量。ジム通いより消費カロリーが高くなる場合がある。",
+      "parent": "Exercise"
+    },
+    {
+      "name": "BlueLight",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/BlueLight",
+      "label": "ブルーライト",
+      "comment": "夜の画面は睡眠ホルモンを阻害する。1日1.5時間以上のスマホ使用で肥満リスクが2倍になる。",
+      "parent": null
+    },
+    {
+      "name": "ResearchFinding",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ResearchFinding",
+      "label": "科学的知見",
+      "comment": "RCT、メタ分析、追跡調査などに基づく健康・栄養・運動に関する発見。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "resets",
+      "type": "object",
+      "domain": [
+        "CircadianReset",
+        "Sunlight",
+        "Meal"
+      ],
+      "range": [
+        "BodyClock"
+      ],
+      "label": "リセットする",
+      "comment": "太陽光や炭水化物・タンパク質の食事により体内時計をリセットする。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/resets"
+    },
+    {
+      "name": "contains",
+      "type": "object",
+      "domain": [
+        "Food",
+        "Oil",
+        "Meal"
+      ],
+      "range": [
+        "Nutrient",
+        "Phytochemical",
+        "Omega3FattyAcid"
+      ],
+      "label": "含む",
+      "comment": "食品や食事が栄養素やファイトケミカルを含む。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/contains"
+    },
+    {
+      "name": "affects",
+      "type": "object",
+      "domain": [
+        "Food",
+        "Meal",
+        "Fat",
+        "Stress",
+        "BlueLight",
+        "Exercise",
+        "ArtificialSweetener"
+      ],
+      "range": [
+        "Sleep",
+        "Brain",
+        "GutMicrobiome",
+        "Hormone",
+        "Appetite",
+        "SkinCare",
+        "MetabolicFlexibility"
+      ],
+      "label": "影響する",
+      "comment": "食事・光・ストレス・運動などが睡眠・脳・腸・ホルモン・食欲に影響する。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/affects"
+    },
+    {
+      "name": "improves",
+      "type": "object",
+      "domain": [
+        "Omega3FattyAcid",
+        "Phytochemical",
+        "DietaryFiber",
+        "Exercise",
+        "IntermittentFasting",
+        "Sunlight"
+      ],
+      "range": [
+        "Brain",
+        "Sleep",
+        "GutMicrobiome",
+        "SkinCare",
+        "MetabolicFlexibility"
+      ],
+      "label": "改善する",
+      "comment": "栄養素・運動・断食・太陽光が脳機能・睡眠・腸内環境などを改善する。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/improves"
+    },
+    {
+      "name": "impairs",
+      "type": "object",
+      "domain": [
+        "ArtificialSweetener",
+        "Fat",
+        "Carbohydrate",
+        "BlueLight"
+      ],
+      "range": [
+        "GutMicrobiome",
+        "MetabolicFlexibility",
+        "Sleep",
+        "Appetite"
+      ],
+      "label": "損なう",
+      "comment": "人工甘味料・高脂肪・極端な糖質制限・夜間ブルーライトが機能を損なう。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/impairs"
+    },
+    {
+      "name": "suppresses",
+      "type": "object",
+      "domain": [
+        "Protein",
+        "DietaryFiber",
+        "Exercise",
+        "IntermittentFasting"
+      ],
+      "range": [
+        "Appetite"
+      ],
+      "label": "抑制する",
+      "comment": "タンパク質15%以上、食物繊維、空腹時の早歩きなどが食欲を抑制する。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/suppresses"
+    },
+    {
+      "name": "stimulates",
+      "type": "object",
+      "domain": [
+        "Fat",
+        "Stress"
+      ],
+      "range": [
+        "Appetite"
+      ],
+      "label": "刺激する",
+      "comment": "脂質やストレスは食欲を刺激し過食を招きやすい。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/stimulates"
+    },
+    {
+      "name": "nourishes",
+      "type": "object",
+      "domain": [
+        "DietaryFiber"
+      ],
+      "range": [
+        "GutMicrobiome"
+      ],
+      "label": "養う",
+      "comment": "食物繊維（MAC）は腸内細菌のエサとなり腸壁破壊を防ぐ。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/nourishes"
+    },
+    {
+      "name": "activates",
+      "type": "object",
+      "domain": [
+        "IntermittentFasting",
+        "Sunlight"
+      ],
+      "range": [
+        "Hormone",
+        "CircadianReset"
+      ],
+      "label": "活性化する",
+      "comment": "断食はHSLやアドレナリンを活性化し、太陽光は体内時計リセットを活性化する。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/activates"
+    },
+    {
+      "name": "regulates",
+      "type": "object",
+      "domain": [
+        "GutMicrobiome",
+        "Chrononutrition",
+        "Hormone"
+      ],
+      "range": [
+        "Hormone",
+        "Brain",
+        "Appetite",
+        "BodyClock"
+      ],
+      "label": "調節する",
+      "comment": "腸内環境・時間栄養学・ホルモンが免疫・食欲・体内時計を調節する。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/regulates"
+    },
+    {
+      "name": "basedOn",
+      "type": "object",
+      "domain": [
+        "Chrononutrition",
+        "DietMethod",
+        "Exercise",
+        "SkinCare",
+        "Meal"
+      ],
+      "range": [
+        "ResearchFinding"
+      ],
+      "label": "根拠とする",
+      "comment": "実践法がRCTやメタ分析などの科学的知見に基づく。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/basedOn"
+    },
+    {
+      "name": "recommendedAmount",
+      "type": "data",
+      "domain": [
+        "Food",
+        "Nutrient",
+        "Protein",
+        "Omega3FattyAcid",
+        "SkinCare"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "推奨量",
+      "comment": "適量や摂取割合の目安。例：タンパク質は総カロリーの15%以上、果物は手のひら1個。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/recommendedAmount"
+    },
+    {
+      "name": "practiceMethod",
+      "type": "data",
+      "domain": [
+        "CircadianReset",
+        "IntermittentFasting",
+        "Exercise",
+        "SkinCare",
+        "HIIT"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "実践方法",
+      "comment": "リセット、断食時間、HIITの間隔、日焼け止めの塗り直しなど具体的なやり方。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/practiceMethod"
+    },
+    {
+      "name": "healthEffect",
+      "type": "data",
+      "domain": [
+        "Food",
+        "Nutrient",
+        "DietMethod",
+        "Exercise",
+        "IntermittentFasting",
+        "Phytochemical"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "健康効果",
+      "comment": "体重変化、頭痛減少、BMI低下、体脂肪減少など報告された効果の記述。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/healthEffect"
+    },
+    {
+      "name": "evidenceSummary",
+      "type": "data",
+      "domain": [
+        "ResearchFinding"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "知見要約",
+      "comment": "研究デザインと主な結論の短い要約。",
+      "uri": "https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/evidenceSummary"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

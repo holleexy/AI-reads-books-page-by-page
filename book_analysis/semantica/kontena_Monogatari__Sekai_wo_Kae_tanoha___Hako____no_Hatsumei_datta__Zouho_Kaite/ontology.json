@@ -1,0 +1,385 @@
+{
+  "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/",
+  "name": "kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_KaiteOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Book",
+      "label": "書籍",
+      "comment": "コンテナ物語のように、発明や経済史を扱う著作。",
+      "parent": null
+    },
+    {
+      "name": "Person",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Person",
+      "label": "人物",
+      "comment": "マルコム・マクリーンなど、コンテナ史に関わる人物。",
+      "parent": null
+    },
+    {
+      "name": "Company",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Company",
+      "label": "企業",
+      "comment": "シー・ランドや海運会社など、輸送や買収に関わる企業。",
+      "parent": null
+    },
+    {
+      "name": "Container",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Container",
+      "label": "コンテナ",
+      "comment": "貨物を運ぶ標準化された金属の箱。世界経済を変えた単純な発明。",
+      "parent": null
+    },
+    {
+      "name": "Innovation",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Innovation",
+      "label": "イノベーション",
+      "comment": "長年の経験と体系的アプローチ、予期せぬ結果の積み重ねによる革新。",
+      "parent": null
+    },
+    {
+      "name": "Containerization",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Containerization",
+      "label": "コンテナリゼーション",
+      "comment": "標準コンテナによる貨物輸送方式。輸送コストを下げグローバリゼーションを推進した。",
+      "parent": "Innovation"
+    },
+    {
+      "name": "DisruptiveTechnology",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/DisruptiveTechnology",
+      "label": "破壊的技術",
+      "comment": "予想外の形で経済地図や規制を塗り替える技術。コンテナがその典型。",
+      "parent": "Innovation"
+    },
+    {
+      "name": "Ship",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Ship",
+      "label": "船舶",
+      "comment": "アイデアルX号やSL-7、巨大コンテナ船などの船。",
+      "parent": null
+    },
+    {
+      "name": "Port",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Port",
+      "label": "港湾",
+      "comment": "ニューアーク、ポート・エリザベス、ロッテルダム、シンガポール、釜山などの港。",
+      "parent": null
+    },
+    {
+      "name": "City",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/City",
+      "label": "都市",
+      "comment": "ニューヨーク、ロンドン、リバプールなど盛衰した港湾都市。",
+      "parent": null
+    },
+    {
+      "name": "LaborUnion",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LaborUnion",
+      "label": "労働組合",
+      "comment": "国際港湾労働者協会や国際港湾倉庫労働者組合など港湾労働の組合。",
+      "parent": null
+    },
+    {
+      "name": "LaborAgreement",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LaborAgreement",
+      "label": "労働協約",
+      "comment": "機械化・近代化協定や年間所得保障など、コンテナ化を受け入れる労使協定。",
+      "parent": null
+    },
+    {
+      "name": "Standard",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Standard",
+      "label": "規格",
+      "comment": "ISOによるサイズ・金具の国際標準。TEUやツイストロックを含む。",
+      "parent": null
+    },
+    {
+      "name": "HistoricalEvent",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/HistoricalEvent",
+      "label": "歴史的出来事",
+      "comment": "1956年の最初の航海、ベトナム戦争の兵站危機、オイルショックなどの出来事。",
+      "parent": null
+    },
+    {
+      "name": "SupplyChain",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/SupplyChain",
+      "label": "サプライチェーン",
+      "comment": "低コスト輸送により構築されたグローバルな供給網と中間財貿易。",
+      "parent": null
+    },
+    {
+      "name": "IntermodalTransport",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/IntermodalTransport",
+      "label": "インターモーダル輸送",
+      "comment": "トラック、鉄道、船舶を連携させる一貫輸送。ピギーバック方式を含む。",
+      "parent": null
+    },
+    {
+      "name": "Consortium",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/Consortium",
+      "label": "コンソーシアム",
+      "comment": "価格競争を生き抜くために海運会社が形成した企業連合や同盟。",
+      "parent": null
+    },
+    {
+      "name": "LogisticsCluster",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/LogisticsCluster",
+      "label": "ロジスティクスクラスター",
+      "comment": "通過地点ではなく加工や再梱包を行う高度物流集積地。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "pioneeredBy",
+      "type": "object",
+      "domain": [
+        "Innovation",
+        "Containerization",
+        "Container"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "先駆者",
+      "comment": "発明やコンテナ輸送の先駆者となる人物を示す。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/pioneeredBy"
+    },
+    {
+      "name": "founded",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Company"
+      ],
+      "label": "設立した",
+      "comment": "人物が設立または主導した企業を示す。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/founded"
+    },
+    {
+      "name": "operatedBy",
+      "type": "object",
+      "domain": [
+        "Ship"
+      ],
+      "range": [
+        "Company"
+      ],
+      "label": "運航者",
+      "comment": "船舶を運航する海運会社を示す。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/operatedBy"
+    },
+    {
+      "name": "locatedIn",
+      "type": "object",
+      "domain": [
+        "Port",
+        "LogisticsCluster"
+      ],
+      "range": [
+        "City"
+      ],
+      "label": "所在する",
+      "comment": "港湾や物流拠点が属する都市を示す。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/locatedIn"
+    },
+    {
+      "name": "departedFrom",
+      "type": "object",
+      "domain": [
+        "Ship",
+        "HistoricalEvent"
+      ],
+      "range": [
+        "Port"
+      ],
+      "label": "出航した港",
+      "comment": "最初の航海などが出発した港を示す。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/departedFrom"
+    },
+    {
+      "name": "opposedBy",
+      "type": "object",
+      "domain": [
+        "Containerization"
+      ],
+      "range": [
+        "LaborUnion"
+      ],
+      "label": "反対した組合",
+      "comment": "機械化と職喪失を恐れてコンテナ化に抵抗した労働組合を示す。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/opposedBy"
+    },
+    {
+      "name": "agreedIn",
+      "type": "object",
+      "domain": [
+        "LaborUnion",
+        "Company"
+      ],
+      "range": [
+        "LaborAgreement"
+      ],
+      "label": "締結した協約",
+      "comment": "組合や企業が結んだ機械化・所得保障などの労働協約を示す。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/agreedIn"
+    },
+    {
+      "name": "usesStandard",
+      "type": "object",
+      "domain": [
+        "Container"
+      ],
+      "range": [
+        "Standard"
+      ],
+      "label": "採用規格",
+      "comment": "コンテナが従うサイズや隅金具などの国際規格を示す。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/usesStandard"
+    },
+    {
+      "name": "carriedBy",
+      "type": "object",
+      "domain": [
+        "Container"
+      ],
+      "range": [
+        "Ship",
+        "IntermodalTransport"
+      ],
+      "label": "輸送される",
+      "comment": "コンテナを運ぶ船舶または複合輸送体制を示す。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/carriedBy"
+    },
+    {
+      "name": "enabled",
+      "type": "object",
+      "domain": [
+        "Containerization",
+        "Container"
+      ],
+      "range": [
+        "SupplyChain",
+        "IntermodalTransport"
+      ],
+      "label": "可能にした",
+      "comment": "コンテナ化がグローバル・サプライチェーンや一貫輸送を可能にした関係。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/enabled"
+    },
+    {
+      "name": "causedDeclineOf",
+      "type": "object",
+      "domain": [
+        "Containerization"
+      ],
+      "range": [
+        "Port",
+        "City"
+      ],
+      "label": "衰退させた",
+      "comment": "伝統的港湾都市の雇用と地位を低下させた関係。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/causedDeclineOf"
+    },
+    {
+      "name": "causedRiseOf",
+      "type": "object",
+      "domain": [
+        "Containerization"
+      ],
+      "range": [
+        "Port",
+        "City",
+        "LogisticsCluster"
+      ],
+      "label": "台頭させた",
+      "comment": "新しいコンテナ港湾や物流集積地の成長を促した関係。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/causedRiseOf"
+    },
+    {
+      "name": "acquired",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "Company"
+      ],
+      "label": "買収した",
+      "comment": "企業が他社を買収した関係。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/acquired"
+    },
+    {
+      "name": "memberOf",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "Consortium"
+      ],
+      "label": "所属する連合",
+      "comment": "海運会社が属するコンソーシアムやアライアンスを示す。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/memberOf"
+    },
+    {
+      "name": "involvedIn",
+      "type": "object",
+      "domain": [
+        "Person",
+        "Company",
+        "Ship",
+        "Port"
+      ],
+      "range": [
+        "HistoricalEvent"
+      ],
+      "label": "関与した出来事",
+      "comment": "人物・企業・船舶・港湾が関与した歴史的出来事を示す。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/involvedIn"
+    },
+    {
+      "name": "describedIn",
+      "type": "object",
+      "domain": [
+        "Person",
+        "Company",
+        "Container",
+        "Innovation",
+        "HistoricalEvent"
+      ],
+      "range": [
+        "Book"
+      ],
+      "label": "記述された書籍",
+      "comment": "対象が扱われる書籍を示す。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/describedIn"
+    },
+    {
+      "name": "hasName",
+      "type": "data",
+      "domain": [
+        "Person",
+        "Company",
+        "Container",
+        "Ship",
+        "Port",
+        "City",
+        "Standard",
+        "Book"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "名称",
+      "comment": "対象の固有名や通称。",
+      "uri": "https://books.local/kontena_Monogatari__Sekai_wo_Kae_tanoha___Hako____no_Hatsumei_datta__Zouho_Kaite/hasName"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

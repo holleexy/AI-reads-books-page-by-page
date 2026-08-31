@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/">
+    <rdfs:label>Bouken_suru_Soshiki_no_TsukurikataOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization">
+    <rdfs:label xml:lang="ja">組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">人と事業の可能性を広げる有機的な土壌として再定義されるべき集団。戦略を達成するための機械ではない。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Worldview">
+    <rdfs:label xml:lang="ja">世界観</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織の根本的な思考枠組み（OS）。施策（アプリ）より先にアップデートすべき基盤。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MilitaryWorldview">
+    <rdfs:label xml:lang="ja">軍事的世界観</rdfs:label>
+    <rdfs:comment xml:lang="ja">奪い合い・競争・上下関係を前提とし、目標を行動を縛る指令、人を道具として扱う思考枠組み。官僚化と大企業病を招く。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Worldview"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureWorldview">
+    <rdfs:label xml:lang="ja">冒険的世界観</rdfs:label>
+    <rdfs:comment xml:lang="ja">開拓・共創・自己実現を前提とし、ビジネスを領地の奪い合いから可能性の開拓へと捉える思考枠組み。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Worldview"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureLens">
+    <rdfs:label xml:lang="ja">冒険的レンズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織のものの見方を軍事的から冒険的へ転換するための視点。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/GoalLens">
+    <rdfs:label xml:lang="ja">目標のレンズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">目標を行動を縛る指令から好奇心をかき立てる問い（Quest）へと捉える視点。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureLens"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/TeamLens">
+    <rdfs:label xml:lang="ja">チームのレンズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">チームを機能別に編成した小隊から個性を活かし合う精神的な共同体（仲間）へと捉える視点。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureLens"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MeetingLens">
+    <rdfs:label xml:lang="ja">会議のレンズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">会議を伝令と意思決定の場から対話と価値創造の場へと捉える視点。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureLens"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/GrowthLens">
+    <rdfs:label xml:lang="ja">成長のレンズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">成長を望ましいスキル・行動の習得から新たなアイデンティティの探究へと捉える視点。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureLens"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationLens">
+    <rdfs:label xml:lang="ja">組織のレンズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織を事業戦略のための手段から人と事業の可能性を広げる土壌へと捉える視点。アンゾフの「戦略は組織に従う」を重視する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureLens"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalModel">
+    <rdfs:label xml:lang="ja">組織モデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織の構造と動態を記述する枠組み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/CreativeCultivationModel">
+    <rdfs:label xml:lang="ja">創造的耕作モデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">CCM。ナドラー＆タッシュマンの機械的・静的な整合性モデルの限界を克服する、有機的で動的な組織モデル。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalModel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Inquiry">
+    <rdfs:label xml:lang="ja">探究</rdfs:label>
+    <rdfs:comment xml:lang="ja">CCMの中央に配置される四つの探求。個人・組織・事業・社会の可能性を広げる営み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/IndividualSelfRealizationInquiry">
+    <rdfs:label xml:lang="ja">個々の自己実現の探究</rdfs:label>
+    <rdfs:comment xml:lang="ja">従業員個人が自己実現を諦めずに追求する探究。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Inquiry"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalIdentityInquiry">
+    <rdfs:label xml:lang="ja">組織アイデンティティの探究</rdfs:label>
+    <rdfs:comment xml:lang="ja">私たちらしさを問い続ける探究。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Inquiry"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/BusinessCapabilityInquiry">
+    <rdfs:label xml:lang="ja">事業ケイパビリティの探究</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織の得意技を開拓し続ける探究。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Inquiry"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/SocialMissionInquiry">
+    <rdfs:label xml:lang="ja">社会的ミッションの探究</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織の存在意義を追求する探究。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Inquiry"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Alignment">
+    <rdfs:label xml:lang="ja">整合</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織の各要素を調和させ続けること。探究の整合を中核とする。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/FunctionalAlignment">
+    <rdfs:label xml:lang="ja">機能的整合</rdfs:label>
+    <rdfs:comment xml:lang="ja">事業構造・組織構造・業務構造といった構造面のデザイン。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Alignment"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/SpiritualAlignment">
+    <rdfs:label xml:lang="ja">精神的整合</rdfs:label>
+    <rdfs:comment xml:lang="ja">ブランド・組織文化・職場風土といった文化面のデザイン。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Alignment"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Goal">
+    <rdfs:label xml:lang="ja">目標</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織や個人が追う到達点。冒険的世界観では好奇心をかき立てる問いとして埋め込む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/ALIVEGoal">
+    <rdfs:label xml:lang="ja">ALIVE目標</rdfs:label>
+    <rdfs:comment xml:lang="ja">SMARTに代わり、Adaptive・Learningful・Interesting・Visionary・Experimentalな目標。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Goal"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Team">
+    <rdfs:label xml:lang="ja">チーム</rdfs:label>
+    <rdfs:comment xml:lang="ja">個性を活かし合う精神的な共同体。独自のバリューやローカルなルーティンを持ちうる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Person">
+    <rdfs:label xml:lang="ja">人</rdfs:label>
+    <rdfs:comment xml:lang="ja">自己実現の探究を行い、組織を構成する個人。道具ではなく可能性の担い手。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MiddleManager">
+    <rdfs:label xml:lang="ja">ミドルマネージャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織変革の要。プレイヤーからマネージャーへの転換によるアイデンティティ危機に直面しやすい。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Person"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Meeting">
+    <rdfs:label xml:lang="ja">会議</rdfs:label>
+    <rdfs:comment xml:lang="ja">対話と価値創造の場。ミクロなアジェンダとマクロな開催順序を再設計する対象。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/ManagementPhilosophy">
+    <rdfs:label xml:lang="ja">経営理念</rdfs:label>
+    <rdfs:comment xml:lang="ja">絶対的な教義ではなく、メンバーの探究のエネルギーを生み出すツール。矛盾を含んだメタファーが解釈の余地を生む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Impulse">
+    <rdfs:label xml:lang="ja">衝動</rdfs:label>
+    <rdfs:comment xml:lang="ja">ウズウズするような好奇心。組織変革の出発点となる小さな火種。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalChange">
+    <rdfs:label xml:lang="ja">組織変革</rdfs:label>
+    <rdfs:comment xml:lang="ja">世界観と実践を冒険的なものへ転換するプロセス。ポジティブな動機（もったいない）を起点とする。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Practice">
+    <rdfs:label xml:lang="ja">実践</rdfs:label>
+    <rdfs:comment xml:lang="ja">冒険する組織をつくる具体的な営み。深い自己紹介、リフレクション、ファシリテーション、冒険的フィードバックなどを含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/DeepSelfIntroduction">
+    <rdfs:label xml:lang="ja">深い自己紹介</rdfs:label>
+    <rdfs:comment xml:lang="ja">経歴だけでなく過去の葛藤・価値観・未来への好奇心（推しの精神）を共有し、心理的安全性を高める実践。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Practice"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Reflection">
+    <rdfs:label xml:lang="ja">リフレクション</rdfs:label>
+    <rdfs:comment xml:lang="ja">KPTやKMQTなどで経験を共有し、チームの共通体験化する内省の実践。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Practice"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Facilitation">
+    <rdfs:label xml:lang="ja">ファシリテーション</rdfs:label>
+    <rdfs:comment xml:lang="ja">各自の芸風を活かし、前提のズレを察知・理解・共創の三ステップで解消する対話の実践。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Practice"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureFeedback">
+    <rdfs:label xml:lang="ja">冒険的フィードバック</rdfs:label>
+    <rdfs:comment xml:lang="ja">過去のエラー行動の修正ではなく、未来の可能性の提案として目を開かせる言葉を贈る実践。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Practice"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/HareAndKe">
+    <rdfs:label xml:lang="ja">ハレとケ</rdfs:label>
+    <rdfs:comment xml:lang="ja">定例会議（ケ）の質向上と全社総会・合宿（ハレ）への資源投下により精神的整合性を高める場づくり。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Practice"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/LearningCulture">
+    <rdfs:label xml:lang="ja">学習文化</rdfs:label>
+    <rdfs:comment xml:lang="ja">教材から学ぶ個人スキル習得を超え、経験から生まれチームの関係性が変化することを称賛する文化。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/KnowledgeManagement">
+    <rdfs:label xml:lang="ja">ナレッジマネジメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">失敗談や葛藤を含む暗黙知と形式知の循環（SECIモデル）をデザインする営み。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Practice"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdaptiveChallenge">
+    <rdfs:label xml:lang="ja">適応課題</rdfs:label>
+    <rdfs:comment xml:lang="ja">価値観や関係性の修正が必要な問題。事象をチームが取り組む問いへ落とし込む目線合わせが重要。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AlumniNetwork">
+    <rdfs:label xml:lang="ja">アルムナイネットワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">退職を組織の裏切りではなく探究の卒業として捉え、卒業生と構築するネットワーク。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasWorldview">
+    <rdfs:label xml:lang="ja">世界観を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織が基盤とする思考枠組み（OS）を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Worldview"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/appliesLens">
+    <rdfs:label xml:lang="ja">レンズを適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織がものの見方を転換するために用いる冒険的レンズ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureLens"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/usesModel">
+    <rdfs:label xml:lang="ja">モデルを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織が自己を設計・耕作するために用いる組織モデル。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasCentralInquiry">
+    <rdfs:label xml:lang="ja">中核の探究を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">CCMの中央に配置される四つの探究との関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/CreativeCultivationModel"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Inquiry"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/pursuesInquiry">
+    <rdfs:label xml:lang="ja">探究を追求する</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人・チーム・組織が自己実現・アイデンティティ・ケイパビリティ・ミッションを問い続ける関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Person"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Team"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Inquiry"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasAlignment">
+    <rdfs:label xml:lang="ja">整合を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">構造面と文化面の両面をデザインし続ける関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/CreativeCultivationModel"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Alignment"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasGoal">
+    <rdfs:label xml:lang="ja">目標を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">問いと意味が埋め込まれた目標との関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Team"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Person"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Goal"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasMember">
+    <rdfs:label xml:lang="ja">成員を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織またはチームを構成する人との関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Team"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/belongsToTeam">
+    <rdfs:label xml:lang="ja">チームに属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人が精神的共同体としてのチームに参加する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Person"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Team"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/manages">
+    <rdfs:label xml:lang="ja">マネジメントする</rdfs:label>
+    <rdfs:comment xml:lang="ja">ミドルがマネジメントを新たな自己実現の探究として捉え直す対象。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MiddleManager"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Team"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasPhilosophy">
+    <rdfs:label xml:lang="ja">経営理念を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">探究のエネルギーを生み出すツールとしての理念との関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/ManagementPhilosophy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/generatesInquiryEnergy">
+    <rdfs:label xml:lang="ja">探究のエネルギーを生む</rdfs:label>
+    <rdfs:comment xml:lang="ja">理念がドグマではなく探究を駆動する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/ManagementPhilosophy"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Inquiry"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/undergoesChange">
+    <rdfs:label xml:lang="ja">変革を経る</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織が冒険する組織へと生まれ変わるプロセスとの関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalChange"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/isTriggeredBy">
+    <rdfs:label xml:lang="ja">衝動に引き起こされる</rdfs:label>
+    <rdfs:comment xml:lang="ja">変革が個人の好奇心やもったいないという感覚を火種とすること。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalChange"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Impulse"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasImpulse">
+    <rdfs:label xml:lang="ja">衝動を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人の心の中にあるウズウズする好奇心。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Person"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Impulse"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/employsPractice">
+    <rdfs:label xml:lang="ja">実践を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">冒険する組織をつくる20のカギに含まれる具体的営みとの関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Team"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Practice"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/holdsMeeting">
+    <rdfs:label xml:lang="ja">会議を開く</rdfs:label>
+    <rdfs:comment xml:lang="ja">対話と価値創造のための場を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Team"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Meeting"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasLearningCulture">
+    <rdfs:label xml:lang="ja">学習文化を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">アイデンティティの変容を称賛する学びの文化との関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/LearningCulture"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/addressesChallenge">
+    <rdfs:label xml:lang="ja">適応課題に取り組む</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題を問いへ落とし込み価値観や関係性を修正する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Team"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdaptiveChallenge"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasAlumniNetwork">
+    <rdfs:label xml:lang="ja">アルムナイネットワークを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">探究の卒業として捉えた退職者とのつながり。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AlumniNetwork"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/supportsChange">
+    <rdfs:label xml:lang="ja">変革を支える</rdfs:label>
+    <rdfs:comment xml:lang="ja">ミドルがトップダウンの構造・文化変革と現場発のうねりを統合する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MiddleManager"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/OrganizationalChange"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/transformsFrom">
+    <rdfs:label xml:lang="ja">から転換する</rdfs:label>
+    <rdfs:comment xml:lang="ja">軍事的世界観からの転換元を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Worldview"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/MilitaryWorldview"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/transformsTo">
+    <rdfs:label xml:lang="ja">へと転換する</rdfs:label>
+    <rdfs:comment xml:lang="ja">冒険的世界観への転換先を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Worldview"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:range rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/AdventureWorldview"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/embedsQuestion">
+    <rdfs:label xml:lang="ja">問いを埋め込む</rdfs:label>
+    <rdfs:comment xml:lang="ja">この目標を追うことがどんな学びの機会をもたらすかという問いの文言。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Goal"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasMetaphor">
+    <rdfs:label xml:lang="ja">メタファーを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">解釈の余地を生む、矛盾を含んだ理念の比喩表現。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/ManagementPhilosophy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/hasDescription">
+    <rdfs:label xml:lang="ja">説明を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">対象の意味や特徴を表す日本語の説明文。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Organization"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Team"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Inquiry"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Practice"/>
+    <rdfs:domain rdf:resource="https://books.local/Bouken_suru_Soshiki_no_Tsukurikata/Impulse"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

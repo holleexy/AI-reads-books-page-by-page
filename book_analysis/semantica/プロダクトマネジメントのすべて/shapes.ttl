@@ -1,0 +1,187 @@
+@prefix ex: <https://books.local/プロダクトマネジメントのすべて/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/プロダクトマネジメントのすべて/shapes> a owl:Ontology .
+
+<https://books.local/プロダクトマネジメントのすべて/ProductManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductManager ;
+    sh:name "プロダクトマネージャー" ;
+    sh:description "プロダクトを市場成功に導きエンジニア・デザイナー・マーケターを統率する役割。ミニCEOとも呼ばれビジネス・UX・技術の交差点で意思決定する。" ;
+    sh:property [
+        sh:path ex:managesProduct ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:requiresSkill ;
+        sh:class ex:PMSkill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/プロダクトマネジメントのすべて/ProductShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Product ;
+    sh:name "プロダクト" ;
+    sh:description "市場の顧客となりうる個人または組織に価値を提案するもの。狭義は成果物、広義は営業・PR・カスタマーサクセスを含む事業全体。" ;
+    sh:property [
+        sh:path ex:hasVision ;
+        sh:class ex:Vision ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:providesUserValue ;
+        sh:class ex:UserValue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:generatesRevenue ;
+        sh:class ex:BusinessRevenue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:isInStage ;
+        sh:class ex:ProductStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:achievesPMF ;
+        sh:class ex:ProductMarketFit ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLayer ;
+        sh:class ex:ProductLayer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:validatesWithMVP ;
+        sh:class ex:MinimumViableProduct ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/プロダクトマネジメントのすべて/VisionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Vision ;
+    sh:name "ビジョン" ;
+    sh:description "プロダクトが創り出したい未来の世界観であり存在理由。チーム全員が同じビジョンを述べ共有できることが重要。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/プロダクトマネジメントのすべて/UserValueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:UserValue ;
+    sh:name "ユーザー価値" ;
+    sh:description "ユーザーが価値を感じて継続利用する状態。当初は一部ユーザーに提案し検証済み仮説で拡大する。" .
+
+<https://books.local/プロダクトマネジメントのすべて/BusinessRevenueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessRevenue ;
+    sh:name "事業収益" ;
+    sh:description "チームと投資を持続しビジョンへ進むために必要な収益。市場観察と独自戦略でビジネスモデルを構築する。" .
+
+<https://books.local/プロダクトマネジメントのすべて/ProductStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductStage ;
+    sh:name "プロダクトステージ" ;
+    sh:description "0→1（PMF達成）、1→10（急成長）、10→100（大規模化）の段階。ステージごとに成功定義と必要な視点が変わる。" .
+
+<https://books.local/プロダクトマネジメントのすべて/ProductMarketFitShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductMarketFit ;
+    sh:name "プロダクトマーケットフィット" ;
+    sh:description "強力な価値仮説を見つけユーザーが想定価格で購入する状態。スタートアップと新規事業で最重要。" .
+
+<https://books.local/プロダクトマネジメントのすべて/ProductLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductLayer ;
+    sh:name "プロダクトレイヤー" ;
+    sh:description "コア（世界観・戦略）、Why（誰をどの状態に）、What（UX・ビジネスモデル）、How（実現）の4階層。上層変更は下層再検討を要する。" .
+
+<https://books.local/プロダクトマネジメントのすべて/PMSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PMSkill ;
+    sh:name "PMスキル" ;
+    sh:description "発想力・計画力・実行力・仮説検証力・リスク管理力・チーム構築力の6つ。ステージにより相対的重要度が変わる。" .
+
+<https://books.local/プロダクトマネジメントのすべて/LeanCanvasShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LeanCanvas ;
+    sh:name "リーンキャンバス" ;
+    sh:description "問題・ソリューション・UVP等9項目を1ページで整理しコア・Why・Whatの整合を検証するフレームワーク。" .
+
+<https://books.local/プロダクトマネジメントのすべて/MinimumViableProductShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MinimumViableProduct ;
+    sh:name "ミニマムバイアブルプロダクト" ;
+    sh:description "コア価値を提案する最小プロダクト。すべてを磨き切らず段階的リリースで価値検証する。" .
+
+<https://books.local/プロダクトマネジメントのすべて/ValuePropositionCanvasShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ValuePropositionCanvas ;
+    sh:name "バリュープロポジションキャンバス" ;
+    sh:description "顧客プロファイル（Jobs/Pains/Gains）と価値マップの左右整合をペルソナごとに確認するツール。" .
+
+<https://books.local/プロダクトマネジメントのすべて/PersonaShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Persona ;
+    sh:name "ペルソナ" ;
+    sh:description "ターゲットセグメントから実データに基づき作られた架空ユーザー。役割ごとに1つ作成する。" .
+
+<https://books.local/プロダクトマネジメントのすべて/CustomerJourneyMapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerJourneyMap ;
+    sh:name "カスタマージャーニーマップ" ;
+    sh:description "ユーザーの行動・思考とプロダクト機能を時系列で可視化し遷移・離脱理由を捉える。" .
+
+<https://books.local/プロダクトマネジメントのすべて/BusinessModelCanvasShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessModelCanvas ;
+    sh:name "ビジネスモデルキャンバス" ;
+    sh:description "顧客セグメントからコスト構造まで9ブロックで価値創造と提供の論理を記述する。" .
+
+<https://books.local/プロダクトマネジメントのすべて/ProductRoadmapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductRoadmap ;
+    sh:name "プロダクトロードマップ" ;
+    sh:description "ビジョンへ向かう中間マイルストーン付き行程。コミュニケーションツールとして継続更新する。" .
+
+<https://books.local/プロダクトマネジメントのすべて/NorthStarMetricShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:NorthStarMetric ;
+    sh:name "ノーススターメトリック" ;
+    sh:description "コア価値がユーザーに届いているかを測る単一指標。収益に先行しUX・リテンションと結びつく。" .
+
+<https://books.local/プロダクトマネジメントのすべて/ProductBacklogShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductBacklog ;
+    sh:name "プロダクトバックログ" ;
+    sh:description "優先順位付けされた機能・仕組みの継続更新リスト。ユーザーストーリーで伝達する。" .
+
+<https://books.local/プロダクトマネジメントのすべて/HypothesisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Hypothesis ;
+    sh:name "仮説" ;
+    sh:description "4階層を連鎖した検証対象。すべて仮説と捉え小さなリスクで高速ループを回す。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .

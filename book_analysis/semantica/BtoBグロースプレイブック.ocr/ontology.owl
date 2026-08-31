@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/BtoBグロースプレイブック.ocr/">
+    <rdfs:label>BtoBグロースプレイブック.ocrOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">PMFからARR100億円へ至る日本BtoB成長の戦略・手順・ノウハウを言語化した非線形プレイブック。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/Person">
+    <rdfs:label xml:lang="ja">人物</rdfs:label>
+    <rdfs:comment xml:lang="ja">著者、CxO、インタビュー対象者など、成長実践に関与する個人。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/Company">
+    <rdfs:label xml:lang="ja">企業</rdfs:label>
+    <rdfs:comment xml:lang="ja">日本のBtoB/SaaS企業。ARR規模や成長の壁への直面状況で特徴づけられる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/GrowthWall">
+    <rdfs:label xml:lang="ja">成長の壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">幻のPMF、拡大の谷、キャズムの壁、マルチプロダクトの沼、市場の限界と覇権争いからなる日本特有の連続障壁。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/HistoricalPhase">
+    <rdfs:label xml:lang="ja">歴史的フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">黎明期、DX中心期、SaaSバブル、2022年以降の評価修正、および中小効率化・エンタープライズ展開・人介在型SaaSといった進化段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/GTMStrategy">
+    <rdfs:label xml:lang="ja">GTM戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">将来の収益ミックスを描き、Who×Whatを先に決めHowを後から設計する市場投入戦略。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/SalesModel">
+    <rdfs:label xml:lang="ja">営業モデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">The Model、ABM、チャレンジャーセールス、ABC/IABCなど、製品タイプと顧客タイプに応じた営業の型。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/MarketSegment">
+    <rdfs:label xml:lang="ja">市場セグメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">業種（垂直）、企業規模（水平）、都市対地方などの顧客層。ビーチヘッドから隣接へ拡張する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/CustomerSuccess">
+    <rdfs:label xml:lang="ja">カスタマーサクセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">ヘルプデスクではなく成長エンジンとして、90日オンボーディング、ヘルススコア、NRR、アップセルを仕組み化する実践。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/PartnerSales">
+    <rdfs:label xml:lang="ja">パートナー営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客構造・営業動作・インセンティブの親和性に基づく代理店・SIer・専門家ネットワーク経由の販売。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/GrowthMetric">
+    <rdfs:label xml:lang="ja">成長指標</rdfs:label>
+    <rdfs:comment xml:lang="ja">ARR、チャーン、NRR、LTV/CAC、利用頻度など、真のPMFと再現可能な成長を診断する指標。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/Interview">
+    <rdfs:label xml:lang="ja">インタビュー</rdfs:label>
+    <rdfs:comment xml:lang="ja">SmartHR、マネーフォワード、Safieなどの経営者による本書収録の実践証言。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/Product">
+    <rdfs:label xml:lang="ja">製品</rdfs:label>
+    <rdfs:comment xml:lang="ja">クラウドSaaSおよびBPaaSなど、業務改善と働き方を変えるB2Bプロダクト。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/PlaybookPrinciple">
+    <rdfs:label xml:lang="ja">プレイブック原則</rdfs:label>
+    <rdfs:comment xml:lang="ja">守破離の守の習得、防御からの再定義、価値仮説と成長仮説の検証、属人性排除などの普遍原則。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/BtoBグロースプレイブック.ocr/Market">
+    <rdfs:label xml:lang="ja">市場</rdfs:label>
+    <rdfs:comment xml:lang="ja">日本SaaS市場と北米市場など、規模・導入慣習・SIer依存・ITリテラシーで規定される市場。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/hasAuthor">
+    <rdfs:label xml:lang="ja">著者</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍を執筆したパートナーまたは著者を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Book"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/featuresInterview">
+    <rdfs:label xml:lang="ja">収録インタビュー</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍に含まれる経営者インタビューを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Book"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Interview"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/hasInterviewee">
+    <rdfs:label xml:lang="ja">インタビュイー</rdfs:label>
+    <rdfs:comment xml:lang="ja">インタビュー対象の経営者を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Interview"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Person"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/belongsToCompany">
+    <rdfs:label xml:lang="ja">所属企業</rdfs:label>
+    <rdfs:comment xml:lang="ja">人物が所属または関与する企業を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Person"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/facesGrowthWall">
+    <rdfs:label xml:lang="ja">直面する成長の壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業が現在または過去に直面する五つの壁のいずれかを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/GrowthWall"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/precedesWall">
+    <rdfs:label xml:lang="ja">次に続く壁</rdfs:label>
+    <rdfs:comment xml:lang="ja">成長マップ上で後続する壁への順序関係を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/GrowthWall"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/GrowthWall"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/adoptsGTMStrategy">
+    <rdfs:label xml:lang="ja">採用するGTM戦略</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業がWho×What×Howで設計する市場投入の型を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/GTMStrategy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/targetsSegment">
+    <rdfs:label xml:lang="ja">対象セグメント</rdfs:label>
+    <rdfs:comment xml:lang="ja">GTMまたは企業が攻略する顧客層を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/GTMStrategy"/>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/MarketSegment"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/adoptsSalesModel">
+    <rdfs:label xml:lang="ja">採用する営業モデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品タイプと顧客タイプのマス目に応じた営業体制を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/SalesModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/offersProduct">
+    <rdfs:label xml:lang="ja">提供製品</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業が提供するSaaSまたは関連サービスを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Product"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/practicesCustomerSuccess">
+    <rdfs:label xml:lang="ja">実践するCS</rdfs:label>
+    <rdfs:comment xml:lang="ja">定着後の拡張を担うカスタマーサクセスの仕組みを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/CustomerSuccess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/usesPartnerSales">
+    <rdfs:label xml:lang="ja">用いるパートナー営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業が設計するパートナー販売の設計・検証・拡大を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/PartnerSales"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/hasMetric">
+    <rdfs:label xml:lang="ja">用いる成長指標</rdfs:label>
+    <rdfs:comment xml:lang="ja">成長と真のPMFを測る定量・定性指標を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/CustomerSuccess"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/GrowthMetric"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/inHistoricalPhase">
+    <rdfs:label xml:lang="ja">属する歴史的フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業または市場が位置する日本B2B進化の段階を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Market"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/HistoricalPhase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/appliesPrinciple">
+    <rdfs:label xml:lang="ja">適用する原則</rdfs:label>
+    <rdfs:comment xml:lang="ja">守の習得や価値仮説検証など、時代が変わっても変わらない成長原則を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Book"/>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/PlaybookPrinciple"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/operatesInMarket">
+    <rdfs:label xml:lang="ja">展開市場</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業が事業を展開する国内または海外市場を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Market"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/interviewCompany">
+    <rdfs:label xml:lang="ja">インタビュー対象企業</rdfs:label>
+    <rdfs:comment xml:lang="ja">インタビューが扱う成長事例の企業を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Interview"/>
+    <rdfs:range rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/missionStatement">
+    <rdfs:label xml:lang="ja">ミッション</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業の存在意義や長期目標を表す文言。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/arrLevel">
+    <rdfs:label xml:lang="ja">ARR水準</rdfs:label>
+    <rdfs:comment xml:lang="ja">年間経常収益の現状または目標（例: 10億円、100億円）。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/Company"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/BtoBグロースプレイブック.ocr/wallNameJa">
+    <rdfs:label xml:lang="ja">壁の日本語名</rdfs:label>
+    <rdfs:comment xml:lang="ja">成長の壁の日本語名称（幻のPMF、拡大の谷など）。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/BtoBグロースプレイブック.ocr/GrowthWall"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

@@ -1,0 +1,342 @@
+{
+  "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/",
+  "name": "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocrOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "InHouseSE",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/InHouseSE",
+      "label": "社内SE",
+      "comment": "事業会社に所属し内部システムと外部デジタルサービス双方を支援する情報システム担当。貢献は最高品質のシステムではなくビジネス価値である。",
+      "parent": null
+    },
+    {
+      "name": "FirstYearInHouseSE",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/FirstYearInHouseSE",
+      "label": "1年目社内SE",
+      "comment": "社会人1年目の社内SE。教えられない上司と学習対象の不明確さという構造的課題に直面し、何を誰から学ぶかを自ら考える必要がある。",
+      "parent": "InHouseSE"
+    },
+    {
+      "name": "SIer",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/SIer",
+      "label": "SIer",
+      "comment": "システムインテグレーター等のベンダー企業。日本のIT人材の約70%が所属し、社内SEの主な取引先となる。",
+      "parent": null
+    },
+    {
+      "name": "BusinessCompany",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/BusinessCompany",
+      "label": "事業会社",
+      "comment": "ユーザー企業。社内SEはIT業界ではなく所属する事業会社の業界に属し、利益と再投資の循環に貢献する。",
+      "parent": null
+    },
+    {
+      "name": "ITDepartment",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ITDepartment",
+      "label": "情報システム部門",
+      "comment": "情シス。組織図上の位置やCIO・DX推進組織の有無から会社のIT推進姿勢（守りのITか攻めのITか）が読み取れる。",
+      "parent": null
+    },
+    {
+      "name": "Skill",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Skill",
+      "label": "スキル",
+      "comment": "成果を出すために必要な知識・能力。単にスキルを上げても行動が成果に結びつかなければ結果は出ない。",
+      "parent": null
+    },
+    {
+      "name": "ConceptualSkill",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ConceptualSkill",
+      "label": "コンセプチュアルスキル",
+      "comment": "本質を捉え課題を克服するスキル。論理思考・批判的思考・多面的視点・俯瞰力など。日常の問題解決に特に有効。",
+      "parent": "Skill"
+    },
+    {
+      "name": "HumanSkill",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/HumanSkill",
+      "label": "ヒューマンスキル",
+      "comment": "関係を構築・維持するスキル。1年目には顧客視点と相手への敬意が最も効果的である。",
+      "parent": "Skill"
+    },
+    {
+      "name": "TechnicalSkill",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/TechnicalSkill",
+      "label": "テクニカルスキル",
+      "comment": "直ちに活用可能なIT業界知識、開発・インフラ・運用・管理スキル、業界・業務知識およびビジネスモデル理解。",
+      "parent": "Skill"
+    },
+    {
+      "name": "ManagementSkill",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ManagementSkill",
+      "label": "マネジメントスキル",
+      "comment": "人・モノ・金・情報を対象とする管理スキル。1年目は限定的な定型業務やプロジェクトを管理する。",
+      "parent": "Skill"
+    },
+    {
+      "name": "Project",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Project",
+      "label": "プロジェクト",
+      "comment": "期限付きの資源管理により成功へ導く取り組み。管理は手段であり目的ではない。進捗・資源・予算・課題等を可視化する。",
+      "parent": null
+    },
+    {
+      "name": "OperationsMaintenance",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/OperationsMaintenance",
+      "label": "運用保守",
+      "comment": "日常IT運用を支える登竜門業務。知識拡大・人脈拡大・問題解決スキル習得の機会となり、サービスデスク等の役割を含む。",
+      "parent": null
+    },
+    {
+      "name": "SystemConstruction",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/SystemConstruction",
+      "label": "システム構築",
+      "comment": "業務戦略・IT戦略・プロジェクト方針の下で行うシステム開発・導入。改善・スクラッチ・パッケージ・クラウド・RPAなどの手法がある。",
+      "parent": null
+    },
+    {
+      "name": "ProjectPhase",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ProjectPhase",
+      "label": "プロジェクトフェーズ",
+      "comment": "起案・立ち上げ・構築・リリース運用の4段階。1年目は限られた一領域に参加し前後のつながりを理解する必要がある。",
+      "parent": null
+    },
+    {
+      "name": "ProposalPhase",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ProposalPhase",
+      "label": "起案フェーズ",
+      "comment": "事業会社で極めて重要な企画段階。As-Is/To-Be、ITソリューション検討、超概算、承認（関所）を含む。企画書のオーナーは提案部門。",
+      "parent": "ProjectPhase"
+    },
+    {
+      "name": "LaunchPhase",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/LaunchPhase",
+      "label": "立ち上げフェーズ",
+      "comment": "構築の方向性（ルール・ガバナンス・組織・SIer関与）を定める段階。RFI/RFP、PoC、契約・価格交渉、体制構築を行う。",
+      "parent": "ProjectPhase"
+    },
+    {
+      "name": "ITInvestmentStyle",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/ITInvestmentStyle",
+      "label": "IT投資スタイル",
+      "comment": "会社のIT推進姿勢。投資額の目安や組織図から読み取れ、従来型と攻めのITに大別される。",
+      "parent": null
+    },
+    {
+      "name": "OffensiveIT",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/OffensiveIT",
+      "label": "攻めのIT",
+      "comment": "売上・付加価値、スピード第一、フロントエンド、アジャイル/DevOpsを特徴とするIT投資。CIOやDX推進組織がある場合に明確。",
+      "parent": "ITInvestmentStyle"
+    },
+    {
+      "name": "TraditionalITInvestment",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/TraditionalITInvestment",
+      "label": "従来型IT投資",
+      "comment": "コスト削減、安全性第一、バックエンド、ウォーターフォールを特徴とする守りのIT投資。",
+      "parent": "ITInvestmentStyle"
+    },
+    {
+      "name": "DevelopmentMethodology",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/DevelopmentMethodology",
+      "label": "開発手法",
+      "comment": "システム構築の進め方。ウォーターフォール、アジャイル、ハイブリッドなどがありプロジェクトの進行に大きく影響する。",
+      "parent": null
+    },
+    {
+      "name": "Waterfall",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Waterfall",
+      "label": "ウォーターフォール",
+      "comment": "管理・品質・計画がしやすい伝統的開発手法。従来型IT投資と親和性が高い。",
+      "parent": "DevelopmentMethodology"
+    },
+    {
+      "name": "Agile",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/Agile",
+      "label": "アジャイル",
+      "comment": "小さな単位で迅速にリリースし成果物を抑える手法。Web向きで物理運用には向きにくい。攻めのITと親和性が高い。",
+      "parent": "DevelopmentMethodology"
+    },
+    {
+      "name": "WBS",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/WBS",
+      "label": "WBS",
+      "comment": "作業分解構造。大中小の階層分解に担当・進捗・日付を付与しMECEで内部タスクも列挙する。現実的計画とエスカレに用いる。",
+      "parent": null
+    },
+    {
+      "name": "RASCI",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/RASCI",
+      "label": "RASCI",
+      "comment": "Responsible・Accountable・Support・Consulted・Informedによる役割分担マトリクス。誤解による超過を防ぐためRFPに添付する。",
+      "parent": null
+    },
+    {
+      "name": "FourthIndustrialRevolution",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/FourthIndustrialRevolution",
+      "label": "第4次産業革命",
+      "comment": "IoT・ビッグデータ・AIによる最適化。社内SEの役割を内部IT導入支援からデジタルサービス提供支援へと拡大させた背景。",
+      "parent": null
+    },
+    {
+      "name": "StructuralChallenge",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/StructuralChallenge",
+      "label": "構造的課題",
+      "comment": "個人の失敗ではなく構造に起因する1年目の困難。教えられない上司、学習対象の不明、人材偏在、リモートによる非公式学習の減少など。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "belongsToCompany",
+      "type": "object",
+      "domain": [
+        "InHouseSE"
+      ],
+      "range": [
+        "BusinessCompany"
+      ],
+      "label": "所属する",
+      "comment": "社内SEはIT業界ではなく事業会社に所属し、その業界の一員としてビジネスに貢献する。",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/belongsToCompany"
+    },
+    {
+      "name": "transactsWith",
+      "type": "object",
+      "domain": [
+        "InHouseSE"
+      ],
+      "range": [
+        "SIer"
+      ],
+      "label": "取引する",
+      "comment": "社内SEは依頼者として大手SIer（元請）やSESと取引し、新規はSIerへ委託、改修は既存運用ベンダーに相談することが多い。",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/transactsWith"
+    },
+    {
+      "name": "possessesSkill",
+      "type": "object",
+      "domain": [
+        "InHouseSE"
+      ],
+      "range": [
+        "Skill"
+      ],
+      "label": "スキルを持つ",
+      "comment": "成果・戦略・戦術を支えるコンセプチュアル・ヒューマン・テクニカル・マネジメントの各スキルを保有・習得する。",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/possessesSkill"
+    },
+    {
+      "name": "isAssignedAsGateway",
+      "type": "object",
+      "domain": [
+        "FirstYearInHouseSE"
+      ],
+      "range": [
+        "OperationsMaintenance",
+        "Project"
+      ],
+      "label": "登竜門として担当する",
+      "comment": "1年目は比較的広く浅い知識で遂行できる運用保守やプロジェクト管理をゲートウェイとして割り当てられることが多い。",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/isAssignedAsGateway"
+    },
+    {
+      "name": "facesChallenge",
+      "type": "object",
+      "domain": [
+        "FirstYearInHouseSE"
+      ],
+      "range": [
+        "StructuralChallenge"
+      ],
+      "label": "直面する",
+      "comment": "1年目社内SEは教えられない環境や学習対象の不明確さなど構造的課題に直面する。",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/facesChallenge"
+    },
+    {
+      "name": "hasPhase",
+      "type": "object",
+      "domain": [
+        "Project"
+      ],
+      "range": [
+        "ProjectPhase"
+      ],
+      "label": "フェーズを持つ",
+      "comment": "プロジェクトは起案・立ち上げ・構築・リリース運用のフェーズからなり、前後のつながりを理解した協働が不可欠である。",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/hasPhase"
+    },
+    {
+      "name": "employsMethodology",
+      "type": "object",
+      "domain": [
+        "SystemConstruction"
+      ],
+      "range": [
+        "DevelopmentMethodology"
+      ],
+      "label": "開発手法を用いる",
+      "comment": "ウォーターフォール、アジャイル、ハイブリッドなど、業務改善の方法と合わせて構築の進め方を選択する。",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/employsMethodology"
+    },
+    {
+      "name": "indicatesAttitude",
+      "type": "object",
+      "domain": [
+        "ITDepartment"
+      ],
+      "range": [
+        "ITInvestmentStyle"
+      ],
+      "label": "IT姿勢を示す",
+      "comment": "情シスの組織上の位置やCIO・DX組織の有無から、会社が守りのITか攻めのITかを読み取る。",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/indicatesAttitude"
+    },
+    {
+      "name": "usesWBS",
+      "type": "object",
+      "domain": [
+        "Project"
+      ],
+      "range": [
+        "WBS"
+      ],
+      "label": "WBSを用いる",
+      "comment": "進捗管理のため階層分解したWBSで自領域タスクを洗い出し、期限が守れない場合は早期にエスカレする。",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/usesWBS"
+    },
+    {
+      "name": "definesRolesWith",
+      "type": "object",
+      "domain": [
+        "Project"
+      ],
+      "range": [
+        "RASCI"
+      ],
+      "label": "RASCIで役割を定義する",
+      "comment": "役割分担の誤解による超過を防ぐため、社内ですり合わせたRASCIをRFPに添付する。",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/definesRolesWith"
+    },
+    {
+      "name": "name",
+      "type": "data",
+      "domain": [
+        "InHouseSE",
+        "Project",
+        "Skill",
+        "ITDepartment"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "名称",
+      "comment": "対象エンティティを識別するための名称。",
+      "uri": "https://books.local/社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr/name"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

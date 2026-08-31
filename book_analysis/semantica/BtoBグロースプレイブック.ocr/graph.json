@@ -1,0 +1,5670 @@
+{
+  "entities": [
+    {
+      "id": "Japanese",
+      "name": "Japanese",
+      "type": "GPE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Japanese",
+              "name": "Japanese",
+              "source": null
+            },
+            {
+              "id": "Japanese",
+              "name": "Japanese",
+              "source": null
+            },
+            {
+              "id": "Japan",
+              "name": "Japan",
+              "source": null
+            },
+            {
+              "id": "Japan",
+              "name": "Japan",
+              "source": null
+            },
+            {
+              "id": "Japanese market",
+              "name": "Japanese market",
+              "source": null
+            },
+            {
+              "id": "Japanese market structure",
+              "name": "Japanese market structure",
+              "source": null
+            },
+            {
+              "id": "Japanese SaaS ecosystem",
+              "name": "Japanese SaaS ecosystem",
+              "source": null
+            }
+          ],
+          "merge_count": 7
+        }
+      },
+      "merged_from": [
+        "Japanese",
+        "Japanese",
+        "Japan",
+        "Japan",
+        "Japanese market",
+        "Japanese market structure",
+        "Japanese SaaS ecosystem"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "B2B",
+      "name": "B2B",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "B2B",
+              "name": "B2B",
+              "source": null
+            },
+            {
+              "id": "B2B",
+              "name": "B2B",
+              "source": null
+            },
+            {
+              "id": "B2B/SaaS",
+              "name": "B2B/SaaS",
+              "source": null
+            },
+            {
+              "id": "BtoB Growth Playbook",
+              "name": "BtoB Growth Playbook",
+              "source": null
+            },
+            {
+              "id": "BtoB",
+              "name": "BtoB",
+              "source": null
+            },
+            {
+              "id": "BPaaS",
+              "name": "BPaaS",
+              "source": null
+            },
+            {
+              "id": "BPaaS",
+              "name": "BPaaS",
+              "source": null
+            },
+            {
+              "id": "BPO",
+              "name": "BPO",
+              "source": null
+            },
+            {
+              "id": "Business Process as a Service",
+              "name": "Business Process as a Service",
+              "source": null
+            },
+            {
+              "id": "Business Process Outsourcing",
+              "name": "Business Process Outsourcing",
+              "source": null
+            },
+            {
+              "id": "business customs",
+              "name": "business customs",
+              "source": null
+            },
+            {
+              "id": "business expansion",
+              "name": "business expansion",
+              "source": null
+            }
+          ],
+          "merge_count": 12
+        }
+      },
+      "merged_from": [
+        "B2B",
+        "B2B",
+        "B2B/SaaS",
+        "BtoB Growth Playbook",
+        "BtoB",
+        "BPaaS",
+        "BPaaS",
+        "BPO",
+        "Business Process as a Service",
+        "Business Process Outsourcing",
+        "business customs",
+        "business expansion"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "ARR",
+      "name": "ARR",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ARR",
+              "name": "ARR",
+              "source": null
+            },
+            {
+              "id": "ARR",
+              "name": "ARR",
+              "source": null
+            },
+            {
+              "id": "Annual Recurring Revenue",
+              "name": "Annual Recurring Revenue",
+              "source": null
+            },
+            {
+              "id": "AI era",
+              "name": "AI era",
+              "source": null
+            },
+            {
+              "id": "American",
+              "name": "American",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "ARR",
+        "ARR",
+        "Annual Recurring Revenue",
+        "AI era",
+        "American"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Rakus",
+      "name": "Rakus",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Rakus",
+              "name": "Rakus",
+              "source": null
+            },
+            {
+              "id": "Rakus",
+              "name": "Rakus",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Rakus",
+        "Rakus"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "10 billion yen",
+      "name": "10 billion yen",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "10 billion yen",
+              "name": "10 billion yen",
+              "source": null
+            },
+            {
+              "id": "10 billion yen",
+              "name": "10 billion yen",
+              "source": null
+            },
+            {
+              "id": "100 billion yen",
+              "name": "100 billion yen",
+              "source": null
+            },
+            {
+              "id": "100 billion yen",
+              "name": "100 billion yen",
+              "source": null
+            },
+            {
+              "id": "100-billion-yen business",
+              "name": "100-billion-yen business",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "10 billion yen",
+        "10 billion yen",
+        "100 billion yen",
+        "100 billion yen",
+        "100-billion-yen business"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "playbooks",
+      "name": "playbooks",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "playbooks",
+              "name": "playbooks",
+              "source": null
+            },
+            {
+              "id": "playbooks",
+              "name": "playbooks",
+              "source": null
+            },
+            {
+              "id": "playbook",
+              "name": "playbook",
+              "source": null
+            },
+            {
+              "id": "Playd",
+              "name": "Playd",
+              "source": null
+            },
+            {
+              "id": "PLG",
+              "name": "PLG",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "playbooks",
+        "playbooks",
+        "playbook",
+        "Playd",
+        "PLG"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Shu",
+      "name": "Shu",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Shu",
+              "name": "Shu",
+              "source": null
+            },
+            {
+              "id": "Shu",
+              "name": "Shu",
+              "source": null
+            },
+            {
+              "id": "Shu-Ha-Ri",
+              "name": "Shu-Ha-Ri",
+              "source": null
+            },
+            {
+              "id": "Shu Oshima",
+              "name": "Shu Oshima",
+              "source": null
+            },
+            {
+              "id": "SmartHR",
+              "name": "SmartHR",
+              "source": null
+            },
+            {
+              "id": "SmartHR",
+              "name": "SmartHR",
+              "source": null
+            },
+            {
+              "id": "SMEs",
+              "name": "SMEs",
+              "source": null
+            },
+            {
+              "id": "SMEs",
+              "name": "SMEs",
+              "source": null
+            },
+            {
+              "id": "SME",
+              "name": "SME",
+              "source": null
+            },
+            {
+              "id": "SME",
+              "name": "SME",
+              "source": null
+            },
+            {
+              "id": "SME SaaS",
+              "name": "SME SaaS",
+              "source": null
+            },
+            {
+              "id": "SMB",
+              "name": "SMB",
+              "source": null
+            },
+            {
+              "id": "Salesforce",
+              "name": "Salesforce",
+              "source": null
+            },
+            {
+              "id": "Salesforce",
+              "name": "Salesforce",
+              "source": null
+            },
+            {
+              "id": "SaaS",
+              "name": "SaaS",
+              "source": null
+            },
+            {
+              "id": "SaaS",
+              "name": "SaaS",
+              "source": null
+            },
+            {
+              "id": "SaaSモデル",
+              "name": "SaaSモデル",
+              "source": null
+            },
+            {
+              "id": "sales",
+              "name": "sales",
+              "source": null
+            },
+            {
+              "id": "SaaS bubble era",
+              "name": "SaaS bubble era",
+              "source": null
+            },
+            {
+              "id": "SaaS bubble",
+              "name": "SaaS bubble",
+              "source": null
+            },
+            {
+              "id": "Sansan",
+              "name": "Sansan",
+              "source": null
+            },
+            {
+              "id": "Sansan",
+              "name": "Sansan",
+              "source": null
+            },
+            {
+              "id": "SIers",
+              "name": "SIers",
+              "source": null
+            },
+            {
+              "id": "Safie",
+              "name": "Safie",
+              "source": null
+            },
+            {
+              "id": "software",
+              "name": "software",
+              "source": null
+            },
+            {
+              "id": "systematic textbook",
+              "name": "systematic textbook",
+              "source": null
+            },
+            {
+              "id": "Slack",
+              "name": "Slack",
+              "source": null
+            }
+          ],
+          "merge_count": 27
+        }
+      },
+      "merged_from": [
+        "Shu",
+        "Shu",
+        "Shu-Ha-Ri",
+        "Shu Oshima",
+        "SmartHR",
+        "SmartHR",
+        "SMEs",
+        "SMEs",
+        "SME",
+        "SME",
+        "SME SaaS",
+        "SMB",
+        "Salesforce",
+        "Salesforce",
+        "SaaS",
+        "SaaS",
+        "SaaSモデル",
+        "sales",
+        "SaaS bubble era",
+        "SaaS bubble",
+        "Sansan",
+        "Sansan",
+        "SIers",
+        "Safie",
+        "software",
+        "systematic textbook",
+        "Slack"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Executives",
+      "name": "Executives",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Executives",
+              "name": "Executives",
+              "source": null
+            },
+            {
+              "id": "executives",
+              "name": "executives",
+              "source": null
+            },
+            {
+              "id": "expense settlement",
+              "name": "expense settlement",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "Executives",
+        "executives",
+        "expense settlement"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "PMF",
+      "name": "PMF",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "PMF",
+              "name": "PMF",
+              "source": null
+            },
+            {
+              "id": "PMF",
+              "name": "PMF",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "PMF",
+        "PMF"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Money Forward",
+      "name": "Money Forward",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Money Forward",
+              "name": "Money Forward",
+              "source": null
+            },
+            {
+              "id": "Money Forward",
+              "name": "Money Forward",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Money Forward",
+        "Money Forward"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "IT",
+      "name": "IT",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "IT",
+              "name": "IT",
+              "source": null
+            },
+            {
+              "id": "IT",
+              "name": "IT",
+              "source": null
+            },
+            {
+              "id": "IT literacy",
+              "name": "IT literacy",
+              "source": null
+            },
+            {
+              "id": "IT consulting",
+              "name": "IT consulting",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "IT",
+        "IT",
+        "IT literacy",
+        "IT consulting"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "cloud",
+      "name": "cloud",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "cloud",
+              "name": "cloud",
+              "source": null
+            },
+            {
+              "id": "cloud",
+              "name": "cloud",
+              "source": null
+            },
+            {
+              "id": "cloud migration",
+              "name": "cloud migration",
+              "source": null
+            },
+            {
+              "id": "cloud technology",
+              "name": "cloud technology",
+              "source": null
+            },
+            {
+              "id": "CxOs",
+              "name": "CxOs",
+              "source": null
+            },
+            {
+              "id": "CX",
+              "name": "CX",
+              "source": null
+            },
+            {
+              "id": "Customer Success",
+              "name": "Customer Success",
+              "source": null
+            },
+            {
+              "id": "Customer Success",
+              "name": "Customer Success",
+              "source": null
+            },
+            {
+              "id": "customer success",
+              "name": "customer success",
+              "source": null
+            },
+            {
+              "id": "customer behavior",
+              "name": "customer behavior",
+              "source": null
+            },
+            {
+              "id": "CS",
+              "name": "CS",
+              "source": null
+            },
+            {
+              "id": "CS",
+              "name": "CS",
+              "source": null
+            },
+            {
+              "id": "Chasm Wall",
+              "name": "Chasm Wall",
+              "source": null
+            },
+            {
+              "id": "consulting",
+              "name": "consulting",
+              "source": null
+            },
+            {
+              "id": "consulting firms",
+              "name": "consulting firms",
+              "source": null
+            },
+            {
+              "id": "churn rate",
+              "name": "churn rate",
+              "source": null
+            },
+            {
+              "id": "Cybozu",
+              "name": "Cybozu",
+              "source": null
+            }
+          ],
+          "merge_count": 17
+        }
+      },
+      "merged_from": [
+        "cloud",
+        "cloud",
+        "cloud migration",
+        "cloud technology",
+        "CxOs",
+        "CX",
+        "Customer Success",
+        "Customer Success",
+        "customer success",
+        "customer behavior",
+        "CS",
+        "CS",
+        "Chasm Wall",
+        "consulting",
+        "consulting firms",
+        "churn rate",
+        "Cybozu"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "freee",
+      "name": "freee",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "freee",
+              "name": "freee",
+              "source": null
+            },
+            {
+              "id": "freee",
+              "name": "freee",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "freee",
+        "freee"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "HubSpot",
+      "name": "HubSpot",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "HubSpot",
+              "name": "HubSpot",
+              "source": null
+            },
+            {
+              "id": "HubSpot",
+              "name": "HubSpot",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "HubSpot",
+        "HubSpot"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "The Model",
+      "name": "The Model",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "The Model",
+              "name": "The Model",
+              "source": null
+            },
+            {
+              "id": "The Model",
+              "name": "The Model",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "The Model",
+        "The Model"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "日本市場",
+      "name": "日本市場",
+      "type": "GPE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "日本市場",
+              "name": "日本市場",
+              "source": null
+            },
+            {
+              "id": "日本市場",
+              "name": "日本市場",
+              "source": null
+            },
+            {
+              "id": "日本",
+              "name": "日本",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "日本市場",
+        "日本市場",
+        "日本"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "past 20 years",
+      "name": "past 20 years",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "past 20 years",
+              "name": "past 20 years",
+              "source": null
+            },
+            {
+              "id": "past ~20 years",
+              "name": "past ~20 years",
+              "source": null
+            },
+            {
+              "id": "Phase 2",
+              "name": "Phase 2",
+              "source": null
+            },
+            {
+              "id": "Phase 3",
+              "name": "Phase 3",
+              "source": null
+            },
+            {
+              "id": "Phantom/Illusory PMF",
+              "name": "Phantom/Illusory PMF",
+              "source": null
+            },
+            {
+              "id": "product × consulting",
+              "name": "product × consulting",
+              "source": null
+            },
+            {
+              "id": "product owners",
+              "name": "product owners",
+              "source": null
+            },
+            {
+              "id": "Product-Led Growth",
+              "name": "Product-Led Growth",
+              "source": null
+            }
+          ],
+          "merge_count": 8
+        }
+      },
+      "merged_from": [
+        "past 20 years",
+        "past ~20 years",
+        "Phase 2",
+        "Phase 3",
+        "Phantom/Illusory PMF",
+        "product × consulting",
+        "product owners",
+        "Product-Led Growth"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "North America",
+      "name": "North America",
+      "type": "GPE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "North America",
+              "name": "North America",
+              "source": null
+            },
+            {
+              "id": "North American",
+              "name": "North American",
+              "source": null
+            },
+            {
+              "id": "No Software",
+              "name": "No Software",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "North America",
+        "North American",
+        "No Software"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "2010s",
+      "name": "2010s",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "2010s",
+              "name": "2010s",
+              "source": null
+            },
+            {
+              "id": "2010",
+              "name": "2010",
+              "source": null
+            },
+            {
+              "id": "2018",
+              "name": "2018",
+              "source": null
+            },
+            {
+              "id": "2030",
+              "name": "2030",
+              "source": null
+            },
+            {
+              "id": "2021",
+              "name": "2021",
+              "source": null
+            },
+            {
+              "id": "2022",
+              "name": "2022",
+              "source": null
+            },
+            {
+              "id": "2023",
+              "name": "2023",
+              "source": null
+            },
+            {
+              "id": "2024",
+              "name": "2024",
+              "source": null
+            }
+          ],
+          "merge_count": 8
+        }
+      },
+      "merged_from": [
+        "2010s",
+        "2010",
+        "2018",
+        "2030",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Ha",
+      "name": "Ha",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Ha",
+              "name": "Ha",
+              "source": null
+            },
+            {
+              "id": "HR/labor",
+              "name": "HR/labor",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Ha",
+        "HR/labor"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "enterprise",
+      "name": "enterprise",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "enterprise",
+              "name": "enterprise",
+              "source": null
+            },
+            {
+              "id": "engineers",
+              "name": "engineers",
+              "source": null
+            },
+            {
+              "id": "English-speaking world",
+              "name": "English-speaking world",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "enterprise",
+        "engineers",
+        "English-speaking world"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "management-support practice",
+      "name": "management-support practice",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "management-support practice",
+              "name": "management-support practice",
+              "source": null
+            },
+            {
+              "id": "map",
+              "name": "map",
+              "source": null
+            },
+            {
+              "id": "manual",
+              "name": "manual",
+              "source": null
+            },
+            {
+              "id": "marketing",
+              "name": "marketing",
+              "source": null
+            },
+            {
+              "id": "Masanobu Takeda",
+              "name": "Masanobu Takeda",
+              "source": null
+            },
+            {
+              "id": "Masanori Bo",
+              "name": "Masanori Bo",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "management-support practice",
+        "map",
+        "manual",
+        "marketing",
+        "Masanobu Takeda",
+        "Masanori Bo"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "defense",
+      "name": "defense",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "defense",
+              "name": "defense",
+              "source": null
+            },
+            {
+              "id": "department heads",
+              "name": "department heads",
+              "source": null
+            },
+            {
+              "id": "Director COO",
+              "name": "Director COO",
+              "source": null
+            },
+            {
+              "id": "Director/Executive Officer Business Segment COO",
+              "name": "Director/Executive Officer Business Segment COO",
+              "source": null
+            },
+            {
+              "id": "DX",
+              "name": "DX",
+              "source": null
+            },
+            {
+              "id": "DX",
+              "name": "DX",
+              "source": null
+            },
+            {
+              "id": "difference in market size",
+              "name": "difference in market size",
+              "source": null
+            },
+            {
+              "id": "Digital Transformation",
+              "name": "Digital Transformation",
+              "source": null
+            }
+          ],
+          "merge_count": 8
+        }
+      },
+      "merged_from": [
+        "defense",
+        "department heads",
+        "Director COO",
+        "Director/Executive Officer Business Segment COO",
+        "DX",
+        "DX",
+        "difference in market size",
+        "Digital Transformation"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "universal theory",
+      "name": "universal theory",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "universal theory",
+              "name": "universal theory",
+              "source": null
+            },
+            {
+              "id": "United States",
+              "name": "United States",
+              "source": null
+            },
+            {
+              "id": "U.S.",
+              "name": "U.S.",
+              "source": null
+            },
+            {
+              "id": "U.S.",
+              "name": "U.S.",
+              "source": null
+            },
+            {
+              "id": "US",
+              "name": "US",
+              "source": null
+            },
+            {
+              "id": "US",
+              "name": "US",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "universal theory",
+        "United States",
+        "U.S.",
+        "U.S.",
+        "US",
+        "US"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "living playbook",
+      "name": "living playbook",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "living playbook",
+              "name": "living playbook",
+              "source": null
+            },
+            {
+              "id": "Live Consulting Startup Growth Team",
+              "name": "Live Consulting Startup Growth Team",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "living playbook",
+        "Live Consulting Startup Growth Team"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "LayerX",
+      "name": "LayerX",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "LayerX",
+              "name": "LayerX",
+              "source": null
+            },
+            {
+              "id": "Late 2000s–early 2010s",
+              "name": "Late 2000s–early 2010s",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "LayerX",
+        "Late 2000s–early 2010s"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Generative AI",
+      "name": "Generative AI",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Generative AI",
+              "name": "Generative AI",
+              "source": null
+            },
+            {
+              "id": "Grand View Research",
+              "name": "Grand View Research",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "Generative AI",
+        "Grand View Research"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "勝ち筋",
+      "name": "勝ち筋",
+      "text": "勝ち筋",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "T2D3",
+      "name": "T2D3",
+      "text": "T2D3",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Q2T3",
+      "name": "Q2T3",
+      "text": "Q2T3",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "守",
+      "name": "守",
+      "text": "守",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "five systematic steps/trials",
+      "name": "five systematic steps/trials",
+      "text": "five systematic steps/trials",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "幻のPMF",
+      "name": "幻のPMF",
+      "text": "幻のPMF",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "拡大の谷",
+      "name": "拡大の谷",
+      "text": "拡大の谷",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Valley of Expansion",
+      "name": "Valley of Expansion",
+      "text": "Valley of Expansion",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "キャズムの壁",
+      "name": "キャズムの壁",
+      "text": "キャズムの壁",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "マルチプロダクトの沼",
+      "name": "マルチプロダクトの沼",
+      "text": "マルチプロダクトの沼",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Multi-product swamp",
+      "name": "Multi-product swamp",
+      "text": "Multi-product swamp",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "30-billion-yen wall",
+      "name": "30-billion-yen wall",
+      "text": "30-billion-yen wall",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Takafumi Kurahashi",
+      "name": "Takafumi Kurahashi",
+      "text": "Takafumi Kurahashi",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Representative Director President",
+      "name": "Representative Director President",
+      "text": "Representative Director President",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Ryuhei Sadoshima",
+      "name": "Ryuhei Sadoshima",
+      "text": "Ryuhei Sadoshima",
+      "type": "PERSON",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "field practical knowledge",
+      "name": "field practical knowledge",
+      "text": "field practical knowledge",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "company growth",
+      "name": "company growth",
+      "text": "company growth",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "technological evolution",
+      "name": "technological evolution",
+      "text": "technological evolution",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "growth walls",
+      "name": "growth walls",
+      "text": "growth walls",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "成長の壁",
+      "name": "成長の壁",
+      "text": "成長の壁",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "always-on internet",
+      "name": "always-on internet",
+      "text": "always-on internet",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "mid-to-late 2010s",
+      "name": "mid-to-late 2010s",
+      "text": "mid-to-late 2010s",
+      "type": "DATE",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Zendesk",
+      "name": "Zendesk",
+      "text": "Zendesk",
+      "type": "ORG",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "NRR",
+      "name": "NRR",
+      "text": "NRR",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "Zoom",
+      "name": "Zoom",
+      "text": "Zoom",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "COVID-19 pandemic",
+      "name": "COVID-19 pandemic",
+      "text": "COVID-19 pandemic",
+      "type": "EVENT",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "remote work",
+      "name": "remote work",
+      "text": "remote work",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "楽楽精算",
+      "name": "楽楽精算",
+      "text": "楽楽精算",
+      "type": "PRODUCT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "accounting",
+      "name": "accounting",
+      "text": "accounting",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "KPI",
+      "name": "KPI",
+      "text": "KPI",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "市場規模の違い",
+      "name": "市場規模の違い",
+      "text": "市場規模の違い",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "アメリカ",
+      "name": "アメリカ",
+      "text": "アメリカ",
+      "type": "GPE",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "AAO/domestic SaaS",
+      "name": "AAO/domestic SaaS",
+      "text": "AAO/domestic SaaS",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "One Capital",
+      "name": "One Capital",
+      "text": "One Capital",
+      "type": "ORG",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "ringisho",
+      "name": "ringisho",
+      "text": "ringisho",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "id": "稟議書",
+      "name": "稟議書",
+      "text": "稟議書",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Japanese",
+      "target": "B2B",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS bubble era",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "SaaS bubble era",
+      "type": "follows",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "ARR",
+      "target": "Annual Recurring Revenue",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Rakus",
+      "target": "ARR",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Sansan",
+      "target": "ARR",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SmartHR",
+      "target": "ARR",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "LayerX",
+      "target": "ARR",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SmartHR",
+      "target": "LayerX",
+      "type": "interacts_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SmartHR",
+      "target": "2030",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "LayerX",
+      "target": "2030",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "勝ち筋",
+      "target": "10 billion yen",
+      "type": "breaks_through",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "playbook",
+      "target": "manual",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "勝ち筋",
+      "target": "playbook",
+      "type": "manifests_as",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Generative AI",
+      "target": "B2B",
+      "type": "fundamentally_changing_game_rules_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "T2D3",
+      "type": "ideal_growth_curve_shifting_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Q2T3",
+      "type": "ideal_growth_curve_shifting_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "T2D3",
+      "target": "Q2T3",
+      "type": "replaced_by",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "defense",
+      "target": "守",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "playbooks",
+      "target": "defense",
+      "type": "related_to",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Shu",
+      "target": "Shu-Ha-Ri",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Executives",
+      "target": "AI era",
+      "type": "exist_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Executives",
+      "target": "Shu",
+      "type": "know",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Executives",
+      "target": "Shu",
+      "type": "advance",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Executives",
+      "target": "Ha",
+      "type": "advance",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Shu",
+      "target": "Ha",
+      "type": "balanced_with",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese market structure",
+      "target": "Japan",
+      "type": "located_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "business customs",
+      "target": "Japan",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "customer behavior",
+      "target": "Japan",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese market structure",
+      "target": "business customs",
+      "type": "interacts_with",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese market structure",
+      "target": "customer behavior",
+      "type": "interacts_with",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "business customs",
+      "target": "customer behavior",
+      "type": "interacts_with",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "universal theory",
+      "target": "management-support practice",
+      "type": "pattern_observed_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "ARR",
+      "target": "10 billion yen",
+      "type": "has_threshold",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "companies",
+      "target": "ARR",
+      "type": "crossed",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "ARR",
+      "target": "patterned reproducible model",
+      "type": "has_become",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "model",
+      "target": "tacit sensation in successful founders' heads",
+      "type": "exists_as",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "model",
+      "target": "organizational or industry knowledge",
+      "type": "not_shared_as",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "10 billion yen",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "100 billion yen",
+      "type": "targets",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "five systematic steps/trials",
+      "type": "organized_into",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "five systematic steps/trials",
+      "target": "100 billion yen",
+      "type": "related_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "幻のPMF",
+      "target": "Phantom/Illusory PMF",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "拡大の谷",
+      "target": "Valley of Expansion",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "キャズムの壁",
+      "target": "Chasm Wall",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "マルチプロダクトの沼",
+      "target": "Multi-product swamp",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "PMF",
+      "type": "progresses_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "100 billion yen",
+      "type": "aims_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "幻のPMF",
+      "type": "must_overcome",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "Phantom/Illusory PMF",
+      "type": "must_overcome",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "拡大の谷",
+      "type": "must_overcome",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "Valley of Expansion",
+      "type": "must_overcome",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "キャズムの壁",
+      "type": "must_overcome",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "Chasm Wall",
+      "type": "must_overcome",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "マルチプロダクトの沼",
+      "type": "must_overcome",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "Multi-product swamp",
+      "type": "must_overcome",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "executives",
+      "target": "30-billion-yen wall",
+      "type": "diagnose",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "CxOs",
+      "target": "30-billion-yen wall",
+      "type": "diagnose",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "executives",
+      "target": "100-billion-yen business",
+      "type": "aiming_for",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "CxOs",
+      "target": "100-billion-yen business",
+      "type": "aiming_for",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "30-billion-yen wall",
+      "target": "100-billion-yen business",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "BtoB Growth Playbook",
+      "target": "PMF",
+      "type": "starts_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "BtoB Growth Playbook",
+      "target": "BtoB",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Takafumi Kurahashi",
+      "target": "SmartHR",
+      "type": "works_at",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Takafumi Kurahashi",
+      "target": "Director COO",
+      "type": "has_role",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Director COO",
+      "target": "SmartHR",
+      "type": "role_at",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Masanobu Takeda",
+      "target": "Money Forward",
+      "type": "works_at",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Masanobu Takeda",
+      "target": "Director/Executive Officer Business Segment COO",
+      "type": "has_role",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Director/Executive Officer Business Segment COO",
+      "target": "Money Forward",
+      "type": "role_at",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Ryuhei Sadoshima",
+      "target": "Safie",
+      "type": "works_at",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Ryuhei Sadoshima",
+      "target": "Representative Director President",
+      "type": "has_role",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Representative Director President",
+      "target": "Safie",
+      "type": "role_at",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SmartHR",
+      "target": "ARR",
+      "type": "exceeded",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Money Forward",
+      "target": "ARR",
+      "type": "exceeded",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Safie",
+      "target": "ARR",
+      "type": "exceeded",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "living playbook",
+      "target": "field practical knowledge",
+      "type": "fuses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "living playbook",
+      "target": "systematic textbook",
+      "type": "is_not",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "living playbook",
+      "target": "map",
+      "type": "becomes",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "map",
+      "target": "company growth",
+      "type": "supports",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "living playbook",
+      "target": "business expansion",
+      "type": "supports",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Shu Oshima",
+      "target": "Live Consulting Startup Growth Team",
+      "type": "partner_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Masanori Bo",
+      "target": "Live Consulting Startup Growth Team",
+      "type": "partner_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "past 20 years",
+      "type": "undergone_transformation_over",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "technological evolution",
+      "type": "transformed_in_tandem_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "growth walls",
+      "target": "成長の壁",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "growth walls",
+      "target": "playbooks",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "DX",
+      "target": "Digital Transformation",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "2010s",
+      "target": "DX",
+      "type": "time_period_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "DX",
+      "target": "SaaS",
+      "type": "drove_adoption_of",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "B2B",
+      "type": "central_model_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "IT",
+      "type": "is_not_merely",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "past ~20 years",
+      "type": "evolved_over",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "DX",
+      "type": "evolved_alongside",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "SaaS",
+      "type": "evolved_alongside",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japan",
+      "type": "influenced",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japan",
+      "type": "prompted_evolution_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Late 2000s–early 2010s",
+      "target": "cloud",
+      "type": "dawn_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Late 2000s–early 2010s",
+      "target": "SaaS",
+      "type": "birth_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "cloud technology",
+      "target": "B2B",
+      "type": "turning_point_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "always-on internet",
+      "target": "Japan",
+      "type": "became_normal_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "2010",
+      "target": "always-on internet",
+      "type": "time_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "cloud technology",
+      "target": "software",
+      "type": "caused_shift_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "software",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Rakus",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Sansan",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Cybozu",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Rakus",
+      "target": "Japanese",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Sansan",
+      "target": "Japanese",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Cybozu",
+      "target": "Japanese",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Rakus",
+      "target": "SMB",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Sansan",
+      "target": "SMB",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Cybozu",
+      "target": "SMB",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SMB",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SMEs",
+      "target": "SaaS",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SMEs",
+      "target": "IT",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "cloud",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "DX",
+      "target": "mid-to-late 2010s",
+      "type": "occurred_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "DX",
+      "target": "SaaS",
+      "type": "made_central",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "B2B",
+      "type": "central_to",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SmartHR",
+      "target": "DX",
+      "type": "symbolized",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Money Forward",
+      "target": "DX",
+      "type": "symbolized",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "freee",
+      "target": "DX",
+      "type": "symbolized",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Salesforce",
+      "target": "SaaS",
+      "type": "established",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Salesforce",
+      "target": "No Software",
+      "type": "used_slogan",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Salesforce",
+      "target": "SaaS",
+      "type": "popularized",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "HubSpot",
+      "target": "SaaS",
+      "type": "refined",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Zendesk",
+      "target": "SaaS",
+      "type": "refined",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "HubSpot",
+      "target": "ARR",
+      "type": "standardized",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Zendesk",
+      "target": "ARR",
+      "type": "standardized",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "HubSpot",
+      "target": "churn rate",
+      "type": "standardized",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Zendesk",
+      "target": "churn rate",
+      "type": "standardized",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "HubSpot",
+      "target": "NRR",
+      "type": "standardized",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Zendesk",
+      "target": "NRR",
+      "type": "standardized",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Customer Success",
+      "type": "built_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "The Model",
+      "type": "built_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Customer Success",
+      "target": "CS",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "The Model",
+      "target": "Salesforce",
+      "type": "created_by",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "The Model",
+      "target": "CS",
+      "type": "involves",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "CS",
+      "target": "SaaS",
+      "type": "part_of",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japan",
+      "type": "imported_into",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Salesforce",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "HubSpot",
+      "target": "Japan",
+      "type": "introduced_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Zoom",
+      "target": "Japan",
+      "type": "introduced_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Slack",
+      "target": "Japan",
+      "type": "introduced_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "HubSpot",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Zoom",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Slack",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Salesforce",
+      "target": "Japan",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japan",
+      "target": "SaaS bubble",
+      "type": "experienced",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS bubble",
+      "target": "Japan",
+      "type": "occurred_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS bubble",
+      "target": "2018",
+      "type": "started_around",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS bubble",
+      "target": "2021",
+      "type": "ended_around",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS bubble",
+      "target": "ARR",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "COVID-19 pandemic",
+      "target": "cloud migration",
+      "type": "accelerated",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "remote work",
+      "target": "cloud migration",
+      "type": "accelerated",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "cloud migration",
+      "target": "SaaS",
+      "type": "promoted",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "B2B",
+      "type": "is_symbolic_growth_model_for",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS bubble",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "2022",
+      "type": "valuations_corrected_after",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "U.S.",
+      "target": "SaaS",
+      "type": "interest_rate_hikes_contributed_to_correction_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese",
+      "target": "SaaS",
+      "type": "companies_growth_slowed_more_than_expected_in",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japanese",
+      "type": "expanded_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese",
+      "target": "U.S.",
+      "type": "did_not_copy_model_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japan",
+      "type": "adopted_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "SMEs",
+      "type": "focused_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "楽楽精算",
+      "target": "Rakus",
+      "type": "created_by",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "楽楽精算",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Rakus",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "freee",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SmartHR",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japan",
+      "type": "largest_market_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SME",
+      "target": "Japan",
+      "type": "located_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SME",
+      "target": "cloud",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "SMEs",
+      "type": "did_not_penetrate",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "IT literacy",
+      "target": "SMEs",
+      "type": "gaps_affected",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "IT literacy",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SME",
+      "target": "accounting",
+      "type": "has_need",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SME",
+      "target": "HR/labor",
+      "type": "has_need",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SME",
+      "target": "expense settlement",
+      "type": "has_need",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japanese",
+      "type": "used_by",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Customer Success",
+      "type": "depends_on",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Customer Success",
+      "target": "CS",
+      "type": "abbreviated_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese",
+      "target": "Customer Success",
+      "type": "requires",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "CS",
+      "target": "SaaS",
+      "type": "supports",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "CS",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "CS",
+      "target": "SaaS",
+      "type": "creates_burden_for",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Phase 2",
+      "target": "SaaS",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japanese",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Phase 2",
+      "target": "enterprise",
+      "type": "expansion_into",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Phase 2",
+      "target": "SME SaaS",
+      "type": "follows",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SME SaaS",
+      "target": "SaaS",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Playd",
+      "target": "SaaS",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Playd",
+      "target": "CX",
+      "type": "focuses_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Playd",
+      "target": "ARR",
+      "type": "surpassed",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japanese",
+      "type": "failed_in",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japan",
+      "type": "has_evolution_stage_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Phase 3",
+      "target": "Japan",
+      "type": "describes_evolution_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japan",
+      "target": "SaaS",
+      "type": "evolving_toward",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "CS",
+      "type": "expansion_into",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "BPaaS",
+      "type": "expansion_into",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "CS",
+      "target": "Customer Success",
+      "type": "stands_for",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "BPaaS",
+      "target": "Business Process as a Service",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "BPO",
+      "target": "Business Process Outsourcing",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "BPaaS",
+      "target": "SaaS",
+      "type": "combines",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "BPaaS",
+      "target": "BPO",
+      "type": "combines",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "BPaaS",
+      "target": "SMEs",
+      "type": "targeted_at",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "BPaaS",
+      "target": "SaaS",
+      "type": "pairs_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SMEs",
+      "target": "IT",
+      "type": "lacking",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "IT consulting",
+      "type": "enters",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "product × consulting",
+      "type": "uses",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "product × consulting",
+      "target": "IT consulting",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japanese market",
+      "type": "does_not_fit",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese SaaS ecosystem",
+      "target": "CS",
+      "type": "formed_through_fusion_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese SaaS ecosystem",
+      "target": "BPaaS",
+      "type": "formed_through_fusion_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese SaaS ecosystem",
+      "target": "consulting",
+      "type": "formed_through_fusion_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "CS",
+      "target": "Japanese SaaS ecosystem",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "BPaaS",
+      "target": "Japanese SaaS ecosystem",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "consulting",
+      "target": "Japanese SaaS ecosystem",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese SaaS ecosystem",
+      "target": "Japanese market",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese SaaS ecosystem",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "customer success",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "CS",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "customer success",
+      "target": "CS",
+      "type": "related_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "marketing",
+      "target": "sales",
+      "type": "interacts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "marketing",
+      "target": "CS",
+      "type": "interacts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "sales",
+      "target": "CS",
+      "type": "interacts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japan",
+      "type": "copied_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "United States",
+      "type": "adopted_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "engineers",
+      "target": "SaaS",
+      "type": "operates",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SIers",
+      "target": "Japan",
+      "type": "located_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "consulting firms",
+      "target": "Japan",
+      "type": "located_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SIers",
+      "target": "consulting firms",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Product-Led Growth",
+      "target": "PLG",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "PLG",
+      "target": "Japan",
+      "type": "difficult_to_operate_successfully_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "US",
+      "target": "Japanese",
+      "type": "contrasts_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "The Model",
+      "target": "U.S.",
+      "type": "originated_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "The Model",
+      "target": "Japan",
+      "type": "applied_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japan",
+      "target": "U.S.",
+      "type": "has_smaller_market_than",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "KPI",
+      "target": "Japanese",
+      "type": "depends_on",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B/SaaS",
+      "target": "Japanese",
+      "type": "localized_to",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japan",
+      "target": "SaaS",
+      "type": "evolved_adoption_mechanisms_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Customer Success",
+      "target": "SaaS",
+      "type": "is_adoption_mechanism_for",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japan",
+      "target": "Customer Success",
+      "type": "uses",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japan",
+      "type": "adapted_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "BPaaS",
+      "target": "SaaS",
+      "type": "combines",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "BPaaS",
+      "target": "Japanese",
+      "type": "originated_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "American",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japan",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese",
+      "target": "日本市場",
+      "type": "related_to",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "日本市場",
+      "target": "Japan",
+      "type": "located_in",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "Japan",
+      "type": "specific_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "U.S.",
+      "type": "contrasted_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese",
+      "target": "B2B",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "B2B",
+      "target": "市場規模の違い",
+      "type": "faces_challenge",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "市場規模の違い",
+      "target": "difference in market size",
+      "type": "also_known_as",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaSモデル",
+      "target": "アメリカ",
+      "type": "succeeded_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaSモデル",
+      "target": "日本",
+      "type": "transferred_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "日本市場",
+      "target": "日本",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaSモデル",
+      "target": "日本市場",
+      "type": "faces_structural_hurdles_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japan",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "AAO/domestic SaaS",
+      "target": "Japan",
+      "type": "located_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "AAO/domestic SaaS",
+      "type": "reported_as",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "2023",
+      "type": "estimated_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "One Capital",
+      "target": "SaaS",
+      "type": "surveyed",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "2024",
+      "type": "has_market_size_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Grand View Research",
+      "target": "SaaS",
+      "type": "reported_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "North America",
+      "target": "SaaS",
+      "type": "accounts_for_share_of",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japan",
+      "target": "SaaS",
+      "type": "has_market",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "Japan",
+      "type": "located_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "SaaS",
+      "target": "North American",
+      "type": "market_compared_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japan",
+      "target": "North American",
+      "type": "smaller_market_than",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "English-speaking world",
+      "target": "SaaS",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "English-speaking world",
+      "target": "Japan",
+      "type": "would_widen_gap_with",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "US",
+      "target": "Japan",
+      "type": "has_different_market_realities_than",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japan",
+      "target": "SaaS",
+      "type": "has_complex_multi_stage_adoption_process_for",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "US",
+      "target": "Japan",
+      "type": "has_faster_decision_making_compared_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "department heads",
+      "target": "US",
+      "type": "located_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "product owners",
+      "target": "US",
+      "type": "located_in",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "department heads",
+      "target": "product owners",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "ringisho",
+      "target": "稟議書",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    },
+    {
+      "source": "Japanese",
+      "target": "ringisho",
+      "type": "uses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "BtoBグロースプレイブック.ocr"
+      },
+      "book_key": "BtoBグロースプレイブック.ocr"
+    }
+  ],
+  "metadata": {
+    "num_entities": 63,
+    "num_relationships": 281,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-30T21:33:55.225569",
+    "entity_resolution_applied": true,
+    "book_key": "BtoBグロースプレイブック.ocr",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

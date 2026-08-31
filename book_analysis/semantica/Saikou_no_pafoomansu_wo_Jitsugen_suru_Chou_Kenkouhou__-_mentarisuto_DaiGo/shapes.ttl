@@ -1,0 +1,686 @@
+@prefix ex: <https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/shapes> a owl:Ontology .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/BodyClockShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BodyClock ;
+    sh:name "体内時計" ;
+    sh:description "約24.5時間周期の生体リズム。視交叉上核と末端細胞の時計を毎日リセットする必要がある。" .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ChrononutritionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Chrononutrition ;
+    sh:name "時間栄養学" ;
+    sh:description "食事の時間と量で時計遺伝子を制御し、運動能力・肥満・メンタルを最適化する考え方。" ;
+    sh:property [
+        sh:path ex:regulates ;
+        sh:class ex:Hormone ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/CircadianResetShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CircadianReset ;
+    sh:name "体内時計リセット" ;
+    sh:description "朝日による視交叉上核のリセットと、炭水化物・タンパク質摂取による末端細胞時計のリセット。" ;
+    sh:property [
+        sh:path ex:resets ;
+        sh:class ex:BodyClock ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practiceMethod ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/SunlightShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Sunlight ;
+    sh:name "太陽光" ;
+    sh:description "朝日は体内時計をリセットし代謝を最適化する。朝8時から12時に20〜30分浴びるとBMI低下が報告される。" ;
+    sh:property [
+        sh:path ex:resets ;
+        sh:class ex:BodyClock ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:Brain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:activates ;
+        sh:class ex:Hormone ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/MealShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Meal ;
+    sh:name "食事" ;
+    sh:description "摂取する食べ物のまとまり。1日3食習慣に科学的根拠はなく、石器時代には朝食の常備は不可能だった。" ;
+    sh:property [
+        sh:path ex:resets ;
+        sh:class ex:BodyClock ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:contains ;
+        sh:class ex:Nutrient ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:affects ;
+        sh:class ex:Sleep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/BreakfastShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Breakfast ;
+    sh:name "朝食" ;
+    sh:description "朝は交感神経が優位で脂肪蓄積しやすいため生理学的には不要。RCTでは朝食抜き群が最も体重減少した。" ;
+    sh:property [
+        sh:path ex:resets ;
+        sh:class ex:BodyClock ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:contains ;
+        sh:class ex:Nutrient ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:affects ;
+        sh:class ex:Sleep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/FoodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Food ;
+    sh:name "食品" ;
+    sh:description "健康効果や落とし穴を持つ飲食物。生の果物は適量、ジュースやドライフルーツは糖質濃縮のため避ける。" ;
+    sh:property [
+        sh:path ex:contains ;
+        sh:class ex:Nutrient ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:affects ;
+        sh:class ex:Sleep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:recommendedAmount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/OilShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Oil ;
+    sh:name "油" ;
+    sh:description "ビタミン吸収に必須。エキストラバージンオリーブオイルが推奨され、マーガリンやトランス脂肪酸は避ける。" ;
+    sh:property [
+        sh:path ex:contains ;
+        sh:class ex:Nutrient ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:affects ;
+        sh:class ex:Sleep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:recommendedAmount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/NutrientShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Nutrient ;
+    sh:name "栄養素" ;
+    sh:description "人体の代謝・食欲・脳機能・腸内環境を左右する成分。" ;
+    sh:property [
+        sh:path ex:recommendedAmount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/CarbohydrateShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Carbohydrate ;
+    sh:name "炭水化物" ;
+    sh:description "摂取割合約50%が最も寿命が長い。極端な制限は寿命短縮と代謝柔軟性の破壊につながる。" ;
+    sh:property [
+        sh:path ex:impairs ;
+        sh:class ex:GutMicrobiome ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:recommendedAmount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ProteinShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Protein ;
+    sh:name "タンパク質" ;
+    sh:description "総カロリーの15%以上で食欲が自然に抑制される。ホエイは大豆より体脂肪減少効果が高い。" ;
+    sh:property [
+        sh:path ex:suppresses ;
+        sh:class ex:Appetite ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:recommendedAmount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/FatShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Fat ;
+    sh:name "脂質" ;
+    sh:description "炭水化物より食欲を刺激する。高脂肪食は日中の眠気を78%高め、レプチンとオレキシンに悪影響を与える。" ;
+    sh:property [
+        sh:path ex:affects ;
+        sh:class ex:Sleep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:impairs ;
+        sh:class ex:GutMicrobiome ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:stimulates ;
+        sh:class ex:Appetite ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:recommendedAmount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/DietaryFiberShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DietaryFiber ;
+    sh:name "食物繊維" ;
+    sh:description "腸内で酢酸などの短鎖脂肪酸に変わり食欲を抑える。不足すると腸内細菌が腸壁を食べ始める。" ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:Brain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:suppresses ;
+        sh:class ex:Appetite ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:nourishes ;
+        sh:class ex:GutMicrobiome ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:recommendedAmount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/Omega3FattyAcidShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Omega3FattyAcid ;
+    sh:name "オメガ3脂肪酸" ;
+    sh:description "DHA・EPA。海馬を大きくし認知機能を向上させ、1日1.5gを60日で慢性頭痛を75%減少させる。" ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:Brain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:recommendedAmount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/PhytochemicalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Phytochemical ;
+    sh:name "ファイトケミカル" ;
+    sh:description "ポリフェノールやカルテノイドなど。活性酸素を無毒化し老化や疾患を防ぐ植物由来物質。" ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:Brain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ArtificialSweetenerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ArtificialSweetener ;
+    sh:name "人工甘味料" ;
+    sh:description "FDA認可でも大腸菌を刺激して毒素を出させ、肥満や高血糖の人ではグルコース不耐症のリスクがある。" ;
+    sh:property [
+        sh:path ex:affects ;
+        sh:class ex:Sleep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:impairs ;
+        sh:class ex:GutMicrobiome ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/SleepShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Sleep ;
+    sh:name "睡眠" ;
+    sh:description "高脂肪食・夜のブルーライト・ホルモンバランスの影響を受ける休息機能。" .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/StressShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Stress ;
+    sh:name "ストレス" ;
+    sh:description "午前中に負荷の高い仕事を終わらせると食欲増進ホルモンが抑えられ肥満リスクが下がる。" ;
+    sh:property [
+        sh:path ex:affects ;
+        sh:class ex:Sleep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:stimulates ;
+        sh:class ex:Appetite ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/AppetiteShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Appetite ;
+    sh:name "食欲" ;
+    sh:description "プロテインレバレッジ、脂質、ストレス、どうにでもなれ効果、早歩きやテトリス等で増減する欲求。" .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/SkinCareShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SkinCare ;
+    sh:name "スキンケア" ;
+    sh:description "必要なのは保湿と日焼け止めのみ。ワセリン等の油分膜とSPF30以上の広域スペクトラムを2時間おきに塗る。" ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:recommendedAmount ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practiceMethod ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/BrainShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Brain ;
+    sh:name "脳" ;
+    sh:description "青魚・クルミ・大豆などで最適化できる。オメガ3は海馬を大きくし認知機能を高める。" .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/GutMicrobiomeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GutMicrobiome ;
+    sh:name "腸内環境" ;
+    sh:description "第2の脳。免疫とホルモンを支配し、食物繊維（MAC）不足や人工甘味料で乱れる。" ;
+    sh:property [
+        sh:path ex:regulates ;
+        sh:class ex:Hormone ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/HormoneShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Hormone ;
+    sh:name "ホルモン" ;
+    sh:description "レプチン、オレキシン、コルチゾール、アドレナリン、ドーパミン、HSLなど生理調節物質。" ;
+    sh:property [
+        sh:path ex:regulates ;
+        sh:class ex:Hormone ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/MetabolicFlexibilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MetabolicFlexibility ;
+    sh:name "代謝柔軟性" ;
+    sh:description "糖質と脂質を切り替えてエネルギーにする能力。極端な糖質制限で壊れ太りやすい体質になる。" .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/DietMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DietMethod ;
+    sh:name "ダイエット手法" ;
+    sh:description "総カロリーが同じなら糖質制限もバランス食も減量効果は同等。カロリーの質とタイミングが重要。" ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/IntermittentFastingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IntermittentFasting ;
+    sh:name "間欠的断食" ;
+    sh:description "HSLを活性化し内臓脂肪を分解する。中性脂肪・LDL減少、睡眠改善、抗炎症などの効果がある。" ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:Brain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:suppresses ;
+        sh:class ex:Appetite ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:activates ;
+        sh:class ex:Hormone ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practiceMethod ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/LeanGainsShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LeanGains ;
+    sh:name "リーンゲインズ" ;
+    sh:description "8時間食事・16時間断食。12週間で運動なしに約350kcal削減と体重3%減少が確認された。" ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:Brain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:suppresses ;
+        sh:class ex:Appetite ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:activates ;
+        sh:class ex:Hormone ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practiceMethod ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/AlternateDayFastingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AlternateDayFasting ;
+    sh:name "日替わり断食" ;
+    sh:description "週3日カロリー半減。6週間で体脂肪15.1%減、筋肉減少は2.91%に抑えられる。" ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:Brain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:suppresses ;
+        sh:class ex:Appetite ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:activates ;
+        sh:class ex:Hormone ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practiceMethod ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ExerciseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Exercise ;
+    sh:name "運動" ;
+    sh:description "下半身の大きな筋肉を鍛えるのが効率的。45分超の有酸素はコルチゾールで筋肉分解と食欲増進を招く。" ;
+    sh:property [
+        sh:path ex:affects ;
+        sh:class ex:Sleep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:Brain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:suppresses ;
+        sh:class ex:Appetite ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practiceMethod ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/HIITShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HIIT ;
+    sh:name "高強度インターバルトレーニング" ;
+    sh:description "20秒全力・10秒休みの短時間高強度運動。アンチエイジングと脂肪燃焼に適する。" ;
+    sh:property [
+        sh:path ex:practiceMethod ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:affects ;
+        sh:class ex:Sleep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:Brain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:suppresses ;
+        sh:class ex:Appetite ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/NEATShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:NEAT ;
+    sh:name "非運動性活動熱産生" ;
+    sh:description "階段使用など日常生活の活動量。ジム通いより消費カロリーが高くなる場合がある。" ;
+    sh:property [
+        sh:path ex:affects ;
+        sh:class ex:Sleep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:Brain ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:suppresses ;
+        sh:class ex:Appetite ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:ResearchFinding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practiceMethod ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:healthEffect ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/BlueLightShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BlueLight ;
+    sh:name "ブルーライト" ;
+    sh:description "夜の画面は睡眠ホルモンを阻害する。1日1.5時間以上のスマホ使用で肥満リスクが2倍になる。" ;
+    sh:property [
+        sh:path ex:affects ;
+        sh:class ex:Sleep ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:impairs ;
+        sh:class ex:GutMicrobiome ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Saikou_no_pafoomansu_wo_Jitsugen_suru_Chou_Kenkouhou__-_mentarisuto_DaiGo/ResearchFindingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ResearchFinding ;
+    sh:name "科学的知見" ;
+    sh:description "RCT、メタ分析、追跡調査などに基づく健康・栄養・運動に関する発見。" ;
+    sh:property [
+        sh:path ex:evidenceSummary ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .

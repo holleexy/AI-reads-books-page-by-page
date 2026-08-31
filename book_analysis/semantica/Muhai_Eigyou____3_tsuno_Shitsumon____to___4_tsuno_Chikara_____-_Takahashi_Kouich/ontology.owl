@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/">
+    <rdfs:label>Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_KouichOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Book">
+    <rdfs:label xml:lang="ja">書籍</rdfs:label>
+    <rdfs:comment xml:lang="ja">無敗営業の知見をまとめた分析対象の書籍。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Author">
+    <rdfs:label xml:lang="ja">著者</rdfs:label>
+    <rdfs:comment xml:lang="ja">上場企業中心に三万人以上を指導し、八年無敗・受注率八割を維持した執筆者。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson">
+    <rdfs:label xml:lang="ja">営業担当者</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客との情報ギャップを解消し案件を推進する売り手。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HighPerformer">
+    <rdfs:label xml:lang="ja">ハイパフォーマー</rdfs:label>
+    <rdfs:comment xml:lang="ja">商談前後の連絡・資料分割・早期の社内巻き込みを欠かさない高成果営業。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/LowPerformer">
+    <rdfs:label xml:lang="ja">ローパフォーマー</rdfs:label>
+    <rdfs:comment xml:lang="ja">対面商談だけで勝負し、資料を一気に作成しがちな低成果営業。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Customer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">価格そのものではなく費用対効果の納得感で判断し、建前で断りやすい買い手。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPhilosophy">
+    <rdfs:label xml:lang="ja">営業理念</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業は根性ではなくステップ・バイ・ステップの体系化可能なスキルであるという思想。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InformationGap">
+    <rdfs:label xml:lang="ja">情報ギャップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">売り手と買い手の間に生じるズレであり、本書が解消すべき本質的課題。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPower">
+    <rdfs:label xml:lang="ja">四つの力</rdfs:label>
+    <rdfs:comment xml:lang="ja">四つのズレを構造的に解消するための営業能力の総称。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/QuestioningPower">
+    <rdfs:label xml:lang="ja">質問力</rdfs:label>
+    <rdfs:comment xml:lang="ja">要件ヒアリング不足という最大の失望要因を解消する力。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPower"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValuePropositionPower">
+    <rdfs:label xml:lang="ja">価値訴求力</rdfs:label>
+    <rdfs:comment xml:lang="ja">魅力や価値を感じてもらえないズレを解消し、選ばれる理由をつくる力。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPower"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProposalActionPower">
+    <rdfs:label xml:lang="ja">提案行動力</rdfs:label>
+    <rdfs:comment xml:lang="ja">レスポンスや動きの悪さを解消し、全ての力を回す実行力。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPower"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProposalLogicConstructionPower">
+    <rdfs:label xml:lang="ja">提案ロジック構築力</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の意図に沿わない提案を防ぎ、社内稟議で語れる選ぶ理由を組み立てる力。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPower"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesCase">
+    <rdfs:label xml:lang="ja">営業案件</rdfs:label>
+    <rdfs:comment xml:lang="ja">難易度に応じてリソース投下先を見極める対象となる商談機会。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/EasyWinCase">
+    <rdfs:label xml:lang="ja">楽勝案件</rdfs:label>
+    <rdfs:comment xml:lang="ja">誰が担当しても受注できる既存・予算確保済みなどの案件。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesCase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SureLossCase">
+    <rdfs:label xml:lang="ja">惨敗案件</rdfs:label>
+    <rdfs:comment xml:lang="ja">競合が深く浸透し当て馬になりやすい、誰が担当しても受注が難しい案件。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesCase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CloseContestCase">
+    <rdfs:label xml:lang="ja">接戦案件</rdfs:label>
+    <rdfs:comment xml:lang="ja">やり方次第で受注にも失注にもなる、最も重要な案件。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesCase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CloseContestPattern">
+    <rdfs:label xml:lang="ja">接戦パターン</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が何と何で迷っているかを把握するための迷いの類型。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CompetitorHesitation">
+    <rdfs:label xml:lang="ja">他社との迷い</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンペや相見積もりで競合他社と比較している接戦。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CloseContestPattern"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/PostponementHesitation">
+    <rdfs:label xml:lang="ja">保留との迷い</rdfs:label>
+    <rdfs:comment xml:lang="ja">今やるべきか後回しにすべきかを顧客が迷っている接戦。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CloseContestPattern"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InhouseHesitation">
+    <rdfs:label xml:lang="ja">内製との迷い</rdfs:label>
+    <rdfs:comment xml:lang="ja">外注すべきか自社でやるべきかを顧客が迷っている接戦。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CloseContestPattern"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/WinningQuestion">
+    <rdfs:label xml:lang="ja">三つの質問</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報ギャップを埋め接戦を制するための質問フレームワーク。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ContestSituationQuestion">
+    <rdfs:label xml:lang="ja">接戦状況を問う質問</rdfs:label>
+    <rdfs:comment xml:lang="ja">案件発生直後に他社状況や暫定順位、BANTCHを確認する質問。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/WinningQuestion"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/DecisionSceneQuestion">
+    <rdfs:label xml:lang="ja">決定の場面を問う質問</rdfs:label>
+    <rdfs:comment xml:lang="ja">決着後に、理由ではなく心が動いた瞬間や場面という事実を聞く質問。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/WinningQuestion"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BackgroundQuestion">
+    <rdfs:label xml:lang="ja">裏にある背景を問う質問</rdfs:label>
+    <rdfs:comment xml:lang="ja">枕詞を用い、顧客自身も気づいていない潜在課題を引き出す汎用質問。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/WinningQuestion"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HearingPhase">
+    <rdfs:label xml:lang="ja">商談フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ヒアリングを土台作りから具体化まで進める四段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/FoundationPhase">
+    <rdfs:label xml:lang="ja">土台作り</rdfs:label>
+    <rdfs:comment xml:lang="ja">信頼感・自己開示・興味関心でつかみとアイスブレイクを行う段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HearingPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BidirectionalHearingPhase">
+    <rdfs:label xml:lang="ja">双方向な聞く</rdfs:label>
+    <rdfs:comment xml:lang="ja">一方通行を避け、誠実な応答と枕詞でヒアリングへ切り込む段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HearingPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/DeepListeningPhase">
+    <rdfs:label xml:lang="ja">深掘りする聴く</rdfs:label>
+    <rdfs:comment xml:lang="ja">ピラミッド構造で発言割合を増やし、なぜかを掘り下げる段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HearingPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SpecifyingAskingPhase">
+    <rdfs:label xml:lang="ja">具体化する訊く</rdfs:label>
+    <rdfs:comment xml:lang="ja">条件付きオープン質問や選択肢付きクローズド質問でピンポイント情報を得る段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HearingPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProblemSolvingQuestion">
+    <rdfs:label xml:lang="ja">課題解決質問</rdfs:label>
+    <rdfs:comment xml:lang="ja">現状把握・深掘り・気づかせ・つなぎからなるSPIN応用の質問群。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValueQuadrant">
+    <rdfs:label xml:lang="ja">価値の四象限</rdfs:label>
+    <rdfs:comment xml:lang="ja">機能価値と情緒価値の二軸で顧客価値を四ゾーンに分類する枠組み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/LaborProvision">
+    <rdfs:label xml:lang="ja">労務提供</rdfs:label>
+    <rdfs:comment xml:lang="ja">事務作業や手間を代行する、経験の浅い営業でも実行しやすい価値。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValueQuadrant"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AffinityEmpathy">
+    <rdfs:label xml:lang="ja">好感・共感</rdfs:label>
+    <rdfs:comment xml:lang="ja">マナーや人柄を通じパートナーとしての安心感を与える情緒価値。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValueQuadrant"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InformationProvision">
+    <rdfs:label xml:lang="ja">情報提供・人の紹介</rdfs:label>
+    <rdfs:comment xml:lang="ja">業界知識や有益な人脈を提供する機能的価値。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValueQuadrant"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/PlusAlphaProposal">
+    <rdfs:label xml:lang="ja">プラスアルファ・提言</rdfs:label>
+    <rdfs:comment xml:lang="ja">優先課題に寄り添う斬新なアイデアと付加価値の高い提案。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValueQuadrant"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesModel">
+    <rdfs:label xml:lang="ja">営業モデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">リスト数とリードタイムに応じて勝ちパターンと力の重心が変わる営業様式。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/RouteSales">
+    <rdfs:label xml:lang="ja">ルート型営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">数百件の短期リストを行動量で回し、質問力・価値訴求力・提案行動力を重心とする型。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesModel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AccountSales">
+    <rdfs:label xml:lang="ja">アカウント型営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">少数大口を論理で深掘りし、質問力・価値訴求力・提案ロジック構築力を重心とする型。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesModel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AnalysisFramework">
+    <rdfs:label xml:lang="ja">分析フレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">案件把握や関係構築、逆転論理に用いる思考枠組みの総称。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BANTCH">
+    <rdfs:label xml:lang="ja">バンチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">予算・決裁・ニーズ・時期・競合・人数で案件の真の状況を見極める確認枠。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AnalysisFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/FiveCs">
+    <rdfs:label xml:lang="ja">五つのシー</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客、顧客の顧客、競合、自社、顧客の競合から刺さる情報を分析する枠。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AnalysisFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/JohariWindow">
+    <rdfs:label xml:lang="ja">ジョハリの窓</rdfs:label>
+    <rdfs:comment xml:lang="ja">自己開示とフィードバックで開放の窓を広げ、パートナーシップを築く枠。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AnalysisFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/RequirementOrganization">
+    <rdfs:label xml:lang="ja">要件整理</rdfs:label>
+    <rdfs:comment xml:lang="ja">キーワード化・具体化と網羅・優先順位確認で提案前のズレを防ぐ上流プロセス。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AnalysisFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/OppositionLogic">
+    <rdfs:label xml:lang="ja">対立ロジック</rdfs:label>
+    <rdfs:comment xml:lang="ja">自社と競合・保留・内製の対立を明示し、当社を選ぶ理由で不協和を解消する下流プロセス。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AnalysisFramework"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CognitiveDissonance">
+    <rdfs:label xml:lang="ja">認知的不協和</rdfs:label>
+    <rdfs:comment xml:lang="ja">迷いによる不快感を、断りやすい理由の正当化で解消しようとする顧客心理。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesAction">
+    <rdfs:label xml:lang="ja">営業行動</rdfs:label>
+    <rdfs:comment xml:lang="ja">商談前後の連絡、分割作成、電話商談、クロージングなどの実行行為。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/TenMinuteSales">
+    <rdfs:label xml:lang="ja">テンミニッツ営業</rdfs:label>
+    <rdfs:comment xml:lang="ja">訪問しない時間に十分程度の電話商談を行い直後にお役立ちメールを送る行動。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesAction"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Closing">
+    <rdfs:label xml:lang="ja">クロージング</rdfs:label>
+    <rdfs:comment xml:lang="ja">コンペ型では費用対効果と安心感、稟議型では担当者支援と期限・宿題で決裁を進める行為。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesAction"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HelpfulEmail">
+    <rdfs:label xml:lang="ja">お役立ちメール</rdfs:label>
+    <rdfs:comment xml:lang="ja">電話直後に議事録と課題へのレスポンスを分単位で送るフォローメール。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesAction"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/PillowPhrase">
+    <rdfs:label xml:lang="ja">枕詞</rdfs:label>
+    <rdfs:comment xml:lang="ja">もし仮に、個人的な意見、ビジョン実現のため、などで心理的ハードルを下げる前置き。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/writtenBy">
+    <rdfs:label xml:lang="ja">の著者である</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍とその執筆者を結びつける。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Book"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Author"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/hasPhilosophy">
+    <rdfs:label xml:lang="ja">の理念を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">書籍または著者が掲げる営業の基本思想。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Book"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Author"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPhilosophy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/trains">
+    <rdfs:label xml:lang="ja">を指導する</rdfs:label>
+    <rdfs:comment xml:lang="ja">著者がコンサルティングや研修で営業担当者を育成する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Author"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/sellsTo">
+    <rdfs:label xml:lang="ja">に営業する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者が顧客へ提案・交渉する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/arisesBetweenSeller">
+    <rdfs:label xml:lang="ja">売り手側に生じる</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報ギャップの売り手側当事者。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InformationGap"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/arisesBetweenBuyer">
+    <rdfs:label xml:lang="ja">買い手側に生じる</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報ギャップの買い手側当事者。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InformationGap"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/resolvedByPower">
+    <rdfs:label xml:lang="ja">により解消される</rdfs:label>
+    <rdfs:comment xml:lang="ja">四つのズレの各々に対応する力でギャップを埋める。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InformationGap"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPower"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/hasPower">
+    <rdfs:label xml:lang="ja">の力を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者が行使する四つの力。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPower"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/handlesCase">
+    <rdfs:label xml:lang="ja">を担当する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者と担当案件の関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesCase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/belongsToCustomer">
+    <rdfs:label xml:lang="ja">の顧客案件である</rdfs:label>
+    <rdfs:comment xml:lang="ja">案件が属する顧客。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesCase"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/hasContestPattern">
+    <rdfs:label xml:lang="ja">の迷いの型を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">接戦案件における他社・保留・内製のいずれかの迷い。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CloseContestCase"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CloseContestPattern"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/asksQuestion">
+    <rdfs:label xml:lang="ja">を問う</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者が接戦質問や課題解決質問を用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/WinningQuestion"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProblemSolvingQuestion"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/fillsGap">
+    <rdfs:label xml:lang="ja">のギャップを埋める</rdfs:label>
+    <rdfs:comment xml:lang="ja">三つの質問が情報ギャップ解消に寄与する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/WinningQuestion"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InformationGap"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/usesBantch">
+    <rdfs:label xml:lang="ja">バンチを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">接戦状況確認にBANTCHを活用する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ContestSituationQuestion"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BANTCH"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/usesPillowPhrase">
+    <rdfs:label xml:lang="ja">枕詞を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">背景質問や双方向ヒアリングで心理的ハードルを下げる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BackgroundQuestion"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/BidirectionalHearingPhase"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/PillowPhrase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/hasHearingPhase">
+    <rdfs:label xml:lang="ja">の商談段階を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">案件進行におけるヒアリング四段階。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesCase"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HearingPhase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/requiresQuestioningPower">
+    <rdfs:label xml:lang="ja">質問力を要する</rdfs:label>
+    <rdfs:comment xml:lang="ja">商談フェーズや質問群が質問力に依存する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HearingPhase"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProblemSolvingQuestion"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/WinningQuestion"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/QuestioningPower"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/deliversValueIn">
+    <rdfs:label xml:lang="ja">の象限で価値を出す</rdfs:label>
+    <rdfs:comment xml:lang="ja">価値訴求力が四象限のいずれかに価値を配置する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValuePropositionPower"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValueQuadrant"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/followsModel">
+    <rdfs:label xml:lang="ja">の営業モデルに従う</rdfs:label>
+    <rdfs:comment xml:lang="ja">担当者がルート型またはアカウント型を採る関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/emphasizesPower">
+    <rdfs:label xml:lang="ja">の力を重心とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業モデルごとに四つの力の重心が異なる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesModel"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPower"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/usesFramework">
+    <rdfs:label xml:lang="ja">の枠組みを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">分析・関係構築・逆転にフレームワークを適用する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProposalLogicConstructionPower"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValuePropositionPower"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AnalysisFramework"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/organizes">
+    <rdfs:label xml:lang="ja">の要件を整理する</rdfs:label>
+    <rdfs:comment xml:lang="ja">上流プロセスで案件課題を構造化する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/RequirementOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesCase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/reverses">
+    <rdfs:label xml:lang="ja">の接戦を逆転する</rdfs:label>
+    <rdfs:comment xml:lang="ja">対立ロジックでビハインドの接戦を覆す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/OppositionLogic"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CloseContestCase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/experiencesDissonance">
+    <rdfs:label xml:lang="ja">の不協和を感じる</rdfs:label>
+    <rdfs:comment xml:lang="ja">迷いを抱えた顧客が認知的不協和を経験する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CognitiveDissonance"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/resolvesDissonance">
+    <rdfs:label xml:lang="ja">の不協和を解消する</rdfs:label>
+    <rdfs:comment xml:lang="ja">当社を選ぶ理由で顧客の心理的不快を解消する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/OppositionLogic"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/CognitiveDissonance"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/performsAction">
+    <rdfs:label xml:lang="ja">の行動を行う</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者の具体的な実行行為。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesAction"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/drivenByActionPower">
+    <rdfs:label xml:lang="ja">提案行動力に駆動される</rdfs:label>
+    <rdfs:comment xml:lang="ja">電話・メール・クロージングは提案行動力の発現である。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesAction"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProposalActionPower"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/followedByEmail">
+    <rdfs:label xml:lang="ja">の後にお役立ちメールを送る</rdfs:label>
+    <rdfs:comment xml:lang="ja">十分間の電話商談直後に議事録付きメールを送る。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/TenMinuteSales"/>
+    <rdfs:range rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HelpfulEmail"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/describedAs">
+    <rdfs:label xml:lang="ja">説明文</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念の日本語による説明。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Book"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Author"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPhilosophy"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InformationGap"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPower"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesCase"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/WinningQuestion"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HearingPhase"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ValueQuadrant"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesModel"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/AnalysisFramework"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesAction"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/PillowPhrase"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/statisticValue">
+    <rdfs:label xml:lang="ja">統計値</rdfs:label>
+    <rdfs:comment xml:lang="ja">失望割合、受注率、指導人数、六人に一人などの数値表現。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/InformationGap"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Author"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesPerson"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Customer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/timingNote">
+    <rdfs:label xml:lang="ja">実施タイミング</rdfs:label>
+    <rdfs:comment xml:lang="ja">質問や行動を行う時機の説明。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/WinningQuestion"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/SalesAction"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/HearingPhase"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/examplePhrase">
+    <rdfs:label xml:lang="ja">例示台詞</rdfs:label>
+    <rdfs:comment xml:lang="ja">枕詞、質問例、稟議支援の台詞などの具体例。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/PillowPhrase"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/WinningQuestion"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/ProblemSolvingQuestion"/>
+    <rdfs:domain rdf:resource="https://books.local/Muhai_Eigyou____3_tsuno_Shitsumon____to___4_tsuno_Chikara_____-_Takahashi_Kouich/Closing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

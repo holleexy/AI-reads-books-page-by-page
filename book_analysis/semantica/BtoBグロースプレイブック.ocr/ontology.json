@@ -1,0 +1,382 @@
+{
+  "uri": "https://books.local/BtoBグロースプレイブック.ocr/",
+  "name": "BtoBグロースプレイブック.ocrOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "Book",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/Book",
+      "label": "書籍",
+      "comment": "PMFからARR100億円へ至る日本BtoB成長の戦略・手順・ノウハウを言語化した非線形プレイブック。",
+      "parent": null
+    },
+    {
+      "name": "Person",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/Person",
+      "label": "人物",
+      "comment": "著者、CxO、インタビュー対象者など、成長実践に関与する個人。",
+      "parent": null
+    },
+    {
+      "name": "Company",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/Company",
+      "label": "企業",
+      "comment": "日本のBtoB/SaaS企業。ARR規模や成長の壁への直面状況で特徴づけられる。",
+      "parent": null
+    },
+    {
+      "name": "GrowthWall",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/GrowthWall",
+      "label": "成長の壁",
+      "comment": "幻のPMF、拡大の谷、キャズムの壁、マルチプロダクトの沼、市場の限界と覇権争いからなる日本特有の連続障壁。",
+      "parent": null
+    },
+    {
+      "name": "HistoricalPhase",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/HistoricalPhase",
+      "label": "歴史的フェーズ",
+      "comment": "黎明期、DX中心期、SaaSバブル、2022年以降の評価修正、および中小効率化・エンタープライズ展開・人介在型SaaSといった進化段階。",
+      "parent": null
+    },
+    {
+      "name": "GTMStrategy",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/GTMStrategy",
+      "label": "GTM戦略",
+      "comment": "将来の収益ミックスを描き、Who×Whatを先に決めHowを後から設計する市場投入戦略。",
+      "parent": null
+    },
+    {
+      "name": "SalesModel",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/SalesModel",
+      "label": "営業モデル",
+      "comment": "The Model、ABM、チャレンジャーセールス、ABC/IABCなど、製品タイプと顧客タイプに応じた営業の型。",
+      "parent": null
+    },
+    {
+      "name": "MarketSegment",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/MarketSegment",
+      "label": "市場セグメント",
+      "comment": "業種（垂直）、企業規模（水平）、都市対地方などの顧客層。ビーチヘッドから隣接へ拡張する。",
+      "parent": null
+    },
+    {
+      "name": "CustomerSuccess",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/CustomerSuccess",
+      "label": "カスタマーサクセス",
+      "comment": "ヘルプデスクではなく成長エンジンとして、90日オンボーディング、ヘルススコア、NRR、アップセルを仕組み化する実践。",
+      "parent": null
+    },
+    {
+      "name": "PartnerSales",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/PartnerSales",
+      "label": "パートナー営業",
+      "comment": "顧客構造・営業動作・インセンティブの親和性に基づく代理店・SIer・専門家ネットワーク経由の販売。",
+      "parent": null
+    },
+    {
+      "name": "GrowthMetric",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/GrowthMetric",
+      "label": "成長指標",
+      "comment": "ARR、チャーン、NRR、LTV/CAC、利用頻度など、真のPMFと再現可能な成長を診断する指標。",
+      "parent": null
+    },
+    {
+      "name": "Interview",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/Interview",
+      "label": "インタビュー",
+      "comment": "SmartHR、マネーフォワード、Safieなどの経営者による本書収録の実践証言。",
+      "parent": null
+    },
+    {
+      "name": "Product",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/Product",
+      "label": "製品",
+      "comment": "クラウドSaaSおよびBPaaSなど、業務改善と働き方を変えるB2Bプロダクト。",
+      "parent": null
+    },
+    {
+      "name": "PlaybookPrinciple",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/PlaybookPrinciple",
+      "label": "プレイブック原則",
+      "comment": "守破離の守の習得、防御からの再定義、価値仮説と成長仮説の検証、属人性排除などの普遍原則。",
+      "parent": null
+    },
+    {
+      "name": "Market",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/Market",
+      "label": "市場",
+      "comment": "日本SaaS市場と北米市場など、規模・導入慣習・SIer依存・ITリテラシーで規定される市場。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "hasAuthor",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "著者",
+      "comment": "書籍を執筆したパートナーまたは著者を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/hasAuthor"
+    },
+    {
+      "name": "featuresInterview",
+      "type": "object",
+      "domain": [
+        "Book"
+      ],
+      "range": [
+        "Interview"
+      ],
+      "label": "収録インタビュー",
+      "comment": "書籍に含まれる経営者インタビューを示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/featuresInterview"
+    },
+    {
+      "name": "hasInterviewee",
+      "type": "object",
+      "domain": [
+        "Interview"
+      ],
+      "range": [
+        "Person"
+      ],
+      "label": "インタビュイー",
+      "comment": "インタビュー対象の経営者を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/hasInterviewee"
+    },
+    {
+      "name": "belongsToCompany",
+      "type": "object",
+      "domain": [
+        "Person"
+      ],
+      "range": [
+        "Company"
+      ],
+      "label": "所属企業",
+      "comment": "人物が所属または関与する企業を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/belongsToCompany"
+    },
+    {
+      "name": "facesGrowthWall",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "GrowthWall"
+      ],
+      "label": "直面する成長の壁",
+      "comment": "企業が現在または過去に直面する五つの壁のいずれかを示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/facesGrowthWall"
+    },
+    {
+      "name": "precedesWall",
+      "type": "object",
+      "domain": [
+        "GrowthWall"
+      ],
+      "range": [
+        "GrowthWall"
+      ],
+      "label": "次に続く壁",
+      "comment": "成長マップ上で後続する壁への順序関係を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/precedesWall"
+    },
+    {
+      "name": "adoptsGTMStrategy",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "GTMStrategy"
+      ],
+      "label": "採用するGTM戦略",
+      "comment": "企業がWho×What×Howで設計する市場投入の型を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/adoptsGTMStrategy"
+    },
+    {
+      "name": "targetsSegment",
+      "type": "object",
+      "domain": [
+        "GTMStrategy",
+        "Company"
+      ],
+      "range": [
+        "MarketSegment"
+      ],
+      "label": "対象セグメント",
+      "comment": "GTMまたは企業が攻略する顧客層を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/targetsSegment"
+    },
+    {
+      "name": "adoptsSalesModel",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "SalesModel"
+      ],
+      "label": "採用する営業モデル",
+      "comment": "製品タイプと顧客タイプのマス目に応じた営業体制を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/adoptsSalesModel"
+    },
+    {
+      "name": "offersProduct",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "Product"
+      ],
+      "label": "提供製品",
+      "comment": "企業が提供するSaaSまたは関連サービスを示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/offersProduct"
+    },
+    {
+      "name": "practicesCustomerSuccess",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "CustomerSuccess"
+      ],
+      "label": "実践するCS",
+      "comment": "定着後の拡張を担うカスタマーサクセスの仕組みを示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/practicesCustomerSuccess"
+    },
+    {
+      "name": "usesPartnerSales",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "PartnerSales"
+      ],
+      "label": "用いるパートナー営業",
+      "comment": "企業が設計するパートナー販売の設計・検証・拡大を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/usesPartnerSales"
+    },
+    {
+      "name": "hasMetric",
+      "type": "object",
+      "domain": [
+        "Company",
+        "CustomerSuccess"
+      ],
+      "range": [
+        "GrowthMetric"
+      ],
+      "label": "用いる成長指標",
+      "comment": "成長と真のPMFを測る定量・定性指標を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/hasMetric"
+    },
+    {
+      "name": "inHistoricalPhase",
+      "type": "object",
+      "domain": [
+        "Company",
+        "Market"
+      ],
+      "range": [
+        "HistoricalPhase"
+      ],
+      "label": "属する歴史的フェーズ",
+      "comment": "企業または市場が位置する日本B2B進化の段階を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/inHistoricalPhase"
+    },
+    {
+      "name": "appliesPrinciple",
+      "type": "object",
+      "domain": [
+        "Book",
+        "Company"
+      ],
+      "range": [
+        "PlaybookPrinciple"
+      ],
+      "label": "適用する原則",
+      "comment": "守の習得や価値仮説検証など、時代が変わっても変わらない成長原則を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/appliesPrinciple"
+    },
+    {
+      "name": "operatesInMarket",
+      "type": "object",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "Market"
+      ],
+      "label": "展開市場",
+      "comment": "企業が事業を展開する国内または海外市場を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/operatesInMarket"
+    },
+    {
+      "name": "interviewCompany",
+      "type": "object",
+      "domain": [
+        "Interview"
+      ],
+      "range": [
+        "Company"
+      ],
+      "label": "インタビュー対象企業",
+      "comment": "インタビューが扱う成長事例の企業を示す。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/interviewCompany"
+    },
+    {
+      "name": "missionStatement",
+      "type": "data",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "ミッション",
+      "comment": "企業の存在意義や長期目標を表す文言。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/missionStatement"
+    },
+    {
+      "name": "arrLevel",
+      "type": "data",
+      "domain": [
+        "Company"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "ARR水準",
+      "comment": "年間経常収益の現状または目標（例: 10億円、100億円）。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/arrLevel"
+    },
+    {
+      "name": "wallNameJa",
+      "type": "data",
+      "domain": [
+        "GrowthWall"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "壁の日本語名",
+      "comment": "成長の壁の日本語名称（幻のPMF、拡大の谷など）。",
+      "uri": "https://books.local/BtoBグロースプレイブック.ocr/wallNameJa"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

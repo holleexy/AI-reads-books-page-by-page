@@ -1,0 +1,3927 @@
+{
+  "entities": [
+    {
+      "id": "営業",
+      "name": "営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "営業",
+              "name": "営業",
+              "source": null
+            },
+            {
+              "id": "営業",
+              "name": "営業",
+              "source": null
+            },
+            {
+              "id": "営業職",
+              "name": "営業職",
+              "source": null
+            },
+            {
+              "id": "営業成績",
+              "name": "営業成績",
+              "source": null
+            },
+            {
+              "id": "営業代行",
+              "name": "営業代行",
+              "source": null
+            },
+            {
+              "id": "営業代行",
+              "name": "営業代行",
+              "source": null
+            },
+            {
+              "id": "営業支援",
+              "name": "営業支援",
+              "source": null
+            },
+            {
+              "id": "営業戦略",
+              "name": "営業戦略",
+              "source": null
+            },
+            {
+              "id": "営業データ",
+              "name": "営業データ",
+              "source": null
+            },
+            {
+              "id": "営業スタイル",
+              "name": "営業スタイル",
+              "source": null
+            },
+            {
+              "id": "営業版・虎の巻",
+              "name": "営業版・虎の巻",
+              "source": null
+            },
+            {
+              "id": "営業の成果をコントロールする術",
+              "name": "営業の成果をコントロールする術",
+              "source": null
+            }
+          ],
+          "merge_count": 12
+        }
+      },
+      "merged_from": [
+        "営業",
+        "営業",
+        "営業職",
+        "営業成績",
+        "営業代行",
+        "営業代行",
+        "営業支援",
+        "営業戦略",
+        "営業データ",
+        "営業スタイル",
+        "営業版・虎の巻",
+        "営業の成果をコントロールする術"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "成果",
+      "name": "成果",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "成果",
+              "name": "成果",
+              "source": null
+            },
+            {
+              "id": "成果",
+              "name": "成果",
+              "source": null
+            },
+            {
+              "id": "成果をコントロールする",
+              "name": "成果をコントロールする",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "成果",
+        "成果",
+        "成果をコントロールする"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "勘",
+      "name": "勘",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "勘",
+              "name": "勘",
+              "source": null
+            },
+            {
+              "id": "勘",
+              "name": "勘",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "勘",
+        "勘"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "偶然",
+      "name": "偶然",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "偶然",
+              "name": "偶然",
+              "source": null
+            },
+            {
+              "id": "偶然",
+              "name": "偶然",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "偶然",
+        "偶然"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "根性",
+      "name": "根性",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "根性",
+              "name": "根性",
+              "source": null
+            },
+            {
+              "id": "根性",
+              "name": "根性",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "根性",
+        "根性"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "精神論",
+      "name": "精神論",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "精神論",
+              "name": "精神論",
+              "source": null
+            },
+            {
+              "id": "精神論",
+              "name": "精神論",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "精神論",
+        "精神論"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "intuition",
+      "name": "intuition",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "intuition",
+              "name": "intuition",
+              "source": null
+            },
+            {
+              "id": "intuition",
+              "name": "intuition",
+              "source": null
+            },
+            {
+              "id": "intuition/gut feeling",
+              "name": "intuition/gut feeling",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "intuition",
+        "intuition",
+        "intuition/gut feeling"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "Selebricks",
+      "name": "Selebricks",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Selebricks",
+              "name": "Selebricks",
+              "source": null
+            },
+            {
+              "id": "Selebricks",
+              "name": "Selebricks",
+              "source": null
+            },
+            {
+              "id": "Serebrix",
+              "name": "Serebrix",
+              "source": null
+            },
+            {
+              "id": "success",
+              "name": "success",
+              "source": null
+            },
+            {
+              "id": "success factors",
+              "name": "success factors",
+              "source": null
+            },
+            {
+              "id": "Sales roles",
+              "name": "Sales roles",
+              "source": null
+            },
+            {
+              "id": "sales process",
+              "name": "sales process",
+              "source": null
+            },
+            {
+              "id": "sales professionals",
+              "name": "sales professionals",
+              "source": null
+            },
+            {
+              "id": "sales pitches",
+              "name": "sales pitches",
+              "source": null
+            },
+            {
+              "id": "salesperson",
+              "name": "salesperson",
+              "source": null
+            },
+            {
+              "id": "Sales",
+              "name": "Sales",
+              "source": null
+            },
+            {
+              "id": "sales",
+              "name": "sales",
+              "source": null
+            },
+            {
+              "id": "sales skills",
+              "name": "sales skills",
+              "source": null
+            },
+            {
+              "id": "Sales Evangelist",
+              "name": "Sales Evangelist",
+              "source": null
+            },
+            {
+              "id": "Sales is（営業とは何か）",
+              "name": "Sales is（営業とは何か）",
+              "source": null
+            },
+            {
+              "id": "sales methodology",
+              "name": "sales methodology",
+              "source": null
+            },
+            {
+              "id": "Sales Opportunity Lead",
+              "name": "Sales Opportunity Lead",
+              "source": null
+            },
+            {
+              "id": "sales representation/agency",
+              "name": "sales representation/agency",
+              "source": null
+            },
+            {
+              "id": "skills",
+              "name": "skills",
+              "source": null
+            },
+            {
+              "id": "SOL",
+              "name": "SOL",
+              "source": null
+            },
+            {
+              "id": "scientific sales technique",
+              "name": "scientific sales technique",
+              "source": null
+            }
+          ],
+          "merge_count": 21
+        }
+      },
+      "merged_from": [
+        "Selebricks",
+        "Selebricks",
+        "Serebrix",
+        "success",
+        "success factors",
+        "Sales roles",
+        "sales process",
+        "sales professionals",
+        "sales pitches",
+        "salesperson",
+        "Sales",
+        "sales",
+        "sales skills",
+        "Sales Evangelist",
+        "Sales is（営業とは何か）",
+        "sales methodology",
+        "Sales Opportunity Lead",
+        "sales representation/agency",
+        "skills",
+        "SOL",
+        "scientific sales technique"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "Celebricks",
+      "name": "Celebricks",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Celebricks",
+              "name": "Celebricks",
+              "source": null
+            },
+            {
+              "id": "Celebricks",
+              "name": "Celebricks",
+              "source": null
+            },
+            {
+              "id": "Celebrities",
+              "name": "Celebrities",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "Celebricks",
+        "Celebricks",
+        "Celebrities"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "顧客開拓メソッド",
+      "name": "顧客開拓メソッド",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "顧客開拓メソッド",
+              "name": "顧客開拓メソッド",
+              "source": null
+            },
+            {
+              "id": "顧客開拓メソッド",
+              "name": "顧客開拓メソッド",
+              "source": null
+            },
+            {
+              "id": "顧客",
+              "name": "顧客",
+              "source": null
+            },
+            {
+              "id": "顧客接点",
+              "name": "顧客接点",
+              "source": null
+            },
+            {
+              "id": "顧客の成功",
+              "name": "顧客の成功",
+              "source": null
+            },
+            {
+              "id": "顧客エンゲージメント",
+              "name": "顧客エンゲージメント",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "顧客開拓メソッド",
+        "顧客開拓メソッド",
+        "顧客",
+        "顧客接点",
+        "顧客の成功",
+        "顧客エンゲージメント"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "Outbound Sales",
+      "name": "Outbound Sales",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Outbound Sales",
+              "name": "Outbound Sales",
+              "source": null
+            },
+            {
+              "id": "Outbound sales",
+              "name": "Outbound sales",
+              "source": null
+            },
+            {
+              "id": "outbound sales",
+              "name": "outbound sales",
+              "source": null
+            },
+            {
+              "id": "outcomes",
+              "name": "outcomes",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "Outbound Sales",
+        "Outbound sales",
+        "outbound sales",
+        "outcomes"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "アウトバウンド営業",
+      "name": "アウトバウンド営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "アウトバウンド営業",
+              "name": "アウトバウンド営業",
+              "source": null
+            },
+            {
+              "id": "アウトバウンド営業",
+              "name": "アウトバウンド営業",
+              "source": null
+            },
+            {
+              "id": "アウトバウンド",
+              "name": "アウトバウンド",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "アウトバウンド営業",
+        "アウトバウンド営業",
+        "アウトバウンド"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "プル型営業",
+      "name": "プル型営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "プル型営業",
+              "name": "プル型営業",
+              "source": null
+            },
+            {
+              "id": "プル型営業",
+              "name": "プル型営業",
+              "source": null
+            },
+            {
+              "id": "プッシュ営業",
+              "name": "プッシュ営業",
+              "source": null
+            },
+            {
+              "id": "プッシュ型営業",
+              "name": "プッシュ型営業",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "プル型営業",
+        "プル型営業",
+        "プッシュ営業",
+        "プッシュ型営業"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "リード",
+      "name": "リード",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "リード",
+              "name": "リード",
+              "source": null
+            },
+            {
+              "id": "リード",
+              "name": "リード",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "リード",
+        "リード"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "担当者",
+      "name": "担当者",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "担当者",
+              "name": "担当者",
+              "source": null
+            },
+            {
+              "id": "担当者",
+              "name": "担当者",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "担当者",
+        "担当者"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "アポイントメント",
+      "name": "アポイントメント",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "アポイントメント",
+              "name": "アポイントメント",
+              "source": null
+            },
+            {
+              "id": "アポイントメント",
+              "name": "アポイントメント",
+              "source": null
+            },
+            {
+              "id": "アポ",
+              "name": "アポ",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "アポイントメント",
+        "アポイントメント",
+        "アポ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "商談",
+      "name": "商談",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "商談",
+              "name": "商談",
+              "source": null
+            },
+            {
+              "id": "商談",
+              "name": "商談",
+              "source": null
+            },
+            {
+              "id": "商談担当",
+              "name": "商談担当",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "商談",
+        "商談",
+        "商談担当"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "見込み顧客",
+      "name": "見込み顧客",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "見込み顧客",
+              "name": "見込み顧客",
+              "source": null
+            },
+            {
+              "id": "見込み客",
+              "name": "見込み客",
+              "source": null
+            },
+            {
+              "id": "見込み案件",
+              "name": "見込み案件",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "見込み顧客",
+        "見込み客",
+        "見込み案件"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "訪問営業",
+      "name": "訪問営業",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "訪問営業",
+              "name": "訪問営業",
+              "source": null
+            },
+            {
+              "id": "訪問営業担当",
+              "name": "訪問営業担当",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "訪問営業",
+        "訪問営業担当"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "科学的な営業術",
+      "name": "科学的な営業術",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "科学的な営業術",
+              "name": "科学的な営業術",
+              "source": null
+            },
+            {
+              "id": "科学的な営業方法",
+              "name": "科学的な営業方法",
+              "source": null
+            },
+            {
+              "id": "科学的なアプローチ",
+              "name": "科学的なアプローチ",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "科学的な営業術",
+        "科学的な営業方法",
+        "科学的なアプローチ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "customer acquisition methodology",
+      "name": "customer acquisition methodology",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "customer acquisition methodology",
+              "name": "customer acquisition methodology",
+              "source": null
+            },
+            {
+              "id": "customer accounts",
+              "name": "customer accounts",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "customer acquisition methodology",
+        "customer accounts"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "method for grasping victory",
+      "name": "method for grasping victory",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "method for grasping victory",
+              "name": "method for grasping victory",
+              "source": null
+            },
+            {
+              "id": "methodology",
+              "name": "methodology",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "method for grasping victory",
+        "methodology"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "マーケター",
+      "name": "マーケター",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "マーケター",
+              "name": "マーケター",
+              "source": null
+            },
+            {
+              "id": "マーケティング担当者",
+              "name": "マーケティング担当者",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "マーケター",
+        "マーケティング担当者"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "運任せの営業手法",
+      "name": "運任せの営業手法",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "運任せの営業手法",
+              "name": "運任せの営業手法",
+              "source": null
+            },
+            {
+              "id": "運",
+              "name": "運",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "運任せの営業手法",
+        "運"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "coincidence",
+      "name": "coincidence",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "coincidence",
+              "name": "coincidence",
+              "source": null
+            },
+            {
+              "id": "cooking",
+              "name": "cooking",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "coincidence",
+        "cooking"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "再現性",
+      "name": "再現性",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "再現性",
+              "name": "再現性",
+              "source": null
+            },
+            {
+              "id": "再現できない偶発性",
+              "name": "再現できない偶発性",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "再現性",
+        "再現できない偶発性"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "オンライン商談",
+      "name": "オンライン商談",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "オンライン商談",
+              "name": "オンライン商談",
+              "source": null
+            },
+            {
+              "id": "オンボーディング",
+              "name": "オンボーディング",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "オンライン商談",
+        "オンボーディング"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "やりがい",
+      "name": "やりがい",
+      "text": "やりがい",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "無力感",
+      "name": "無力感",
+      "text": "無力感",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "不確実な要素",
+      "name": "不確実な要素",
+      "text": "不確実な要素",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "思い込み",
+      "name": "思い込み",
+      "text": "思い込み",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "好不調の波",
+      "name": "好不調の波",
+      "text": "好不調の波",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "前提",
+      "name": "前提",
+      "text": "前提",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "論理的な手法",
+      "name": "論理的な手法",
+      "text": "論理的な手法",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "fantasy elements",
+      "name": "fantasy elements",
+      "text": "fantasy elements",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "sheer willpower/grit",
+      "name": "sheer willpower/grit",
+      "text": "sheer willpower/grit",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "結果を出し続けるための理論",
+      "name": "結果を出し続けるための理論",
+      "text": "結果を出し続けるための理論",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "勝利を掴むメソッド",
+      "name": "勝利を掴むメソッド",
+      "text": "勝利を掴むメソッド",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "reproducibility",
+      "name": "reproducibility",
+      "text": "reproducibility",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "ビジネスモデル",
+      "name": "ビジネスモデル",
+      "text": "ビジネスモデル",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "依頼主",
+      "name": "依頼主",
+      "text": "依頼主",
+      "type": "CONCEPT",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "代理店",
+      "name": "代理店",
+      "text": "代理店",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "株式会社セレブリックス",
+      "name": "株式会社セレブリックス",
+      "text": "株式会社セレブリックス",
+      "type": "ORG",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "日本",
+      "name": "日本",
+      "text": "日本",
+      "type": "GPE",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "Head of the Marketing Division",
+      "name": "Head of the Marketing Division",
+      "text": "Head of the Marketing Division",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "B2B",
+      "name": "B2B",
+      "text": "B2B",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "art of controlling sales results",
+      "name": "art of controlling sales results",
+      "text": "art of controlling sales results",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "motivational theories",
+      "name": "motivational theories",
+      "text": "motivational theories",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "systematic data analysis",
+      "name": "systematic data analysis",
+      "text": "systematic data analysis",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "1ヶ月",
+      "name": "1ヶ月",
+      "text": "1ヶ月",
+      "type": "DATE",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "23年間",
+      "name": "23年間",
+      "text": "23年間",
+      "type": "DATE",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "論理と技術で売る",
+      "name": "論理と技術で売る",
+      "text": "論理と技術で売る",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "セールステックツール",
+      "name": "セールステックツール",
+      "text": "セールステックツール",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "未完のメソッド",
+      "name": "未完のメソッド",
+      "text": "未完のメソッド",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "author",
+      "name": "author",
+      "text": "author",
+      "type": "CONCEPT",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "Quota",
+      "name": "Quota",
+      "text": "Quota",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "Noruma",
+      "name": "Noruma",
+      "text": "Noruma",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "Tough/Hard",
+      "name": "Tough/Hard",
+      "text": "Tough/Hard",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "Taisou",
+      "name": "Taisou",
+      "text": "Taisou",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "Japan",
+      "name": "Japan",
+      "text": "Japan",
+      "type": "GPE",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "younger generations",
+      "name": "younger generations",
+      "text": "younger generations",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "Top Sales professionals",
+      "name": "Top Sales professionals",
+      "text": "Top Sales professionals",
+      "type": "PERSON",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "happiness",
+      "name": "happiness",
+      "text": "happiness",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "トップセールス",
+      "name": "トップセールス",
+      "text": "トップセールス",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "上司",
+      "name": "上司",
+      "text": "上司",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "同僚",
+      "name": "同僚",
+      "text": "同僚",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "自分の介在価値",
+      "name": "自分の介在価値",
+      "text": "自分の介在価値",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "幸福度",
+      "name": "幸福度",
+      "text": "幸福度",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "実績",
+      "name": "実績",
+      "text": "実績",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "人間関係",
+      "name": "人間関係",
+      "text": "人間関係",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "セレブリックス",
+      "name": "セレブリックス",
+      "text": "セレブリックス",
+      "type": "ORG",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "transferable skills",
+      "name": "transferable skills",
+      "text": "transferable skills",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "inbound lead follow-ups",
+      "name": "inbound lead follow-ups",
+      "text": "inbound lead follow-ups",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "technology/skill",
+      "name": "technology/skill",
+      "text": "technology/skill",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "インバウンド営業",
+      "name": "インバウンド営業",
+      "text": "インバウンド営業",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "購買見込み客",
+      "name": "購買見込み客",
+      "text": "購買見込み客",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "インサイドセールス",
+      "name": "インサイドセールス",
+      "text": "インサイドセールス",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "非対面営業",
+      "name": "非対面営業",
+      "text": "非対面営業",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "フィールドセールス",
+      "name": "フィールドセールス",
+      "text": "フィールドセールス",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "案件",
+      "name": "案件",
+      "text": "案件",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "タッチポイント",
+      "name": "タッチポイント",
+      "text": "タッチポイント",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "ヒアリング",
+      "name": "ヒアリング",
+      "text": "ヒアリング",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "テレアポ",
+      "name": "テレアポ",
+      "text": "テレアポ",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "聞き取りり",
+      "name": "聞き取りり",
+      "text": "聞き取りり",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "ピッチ",
+      "name": "ピッチ",
+      "text": "ピッチ",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "プレゼンテーション",
+      "name": "プレゼンテーション",
+      "text": "プレゼンテーション",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "無料トライアル",
+      "name": "無料トライアル",
+      "text": "無料トライアル",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "カスタマーサクセス",
+      "name": "カスタマーサクセス",
+      "text": "カスタマーサクセス",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "recipes",
+      "name": "recipes",
+      "text": "recipes",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "big picture",
+      "name": "big picture",
+      "text": "big picture",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "ideal finished product",
+      "name": "ideal finished product",
+      "text": "ideal finished product",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "presentation materials",
+      "name": "presentation materials",
+      "text": "presentation materials",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "framework",
+      "name": "framework",
+      "text": "framework",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "good sales",
+      "name": "good sales",
+      "text": "good sales",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "id": "タイミング",
+      "name": "タイミング",
+      "text": "タイミング",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "営業",
+      "target": "成果",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "成果",
+      "target": "やりがい",
+      "type": "determines",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "成果",
+      "target": "無力感",
+      "type": "determines",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "営業",
+      "target": "成果をコントロールする",
+      "type": "involves_method",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "勘",
+      "target": "不確実な要素",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "偶然",
+      "target": "不確実な要素",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "根性",
+      "target": "不確実な要素",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "営業成績",
+      "target": "不確実な要素",
+      "type": "influenced_by",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "思い込み",
+      "target": "営業成績",
+      "type": "concerns",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "思い込み",
+      "target": "前提",
+      "type": "results_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "前提",
+      "target": "好不調の波",
+      "type": "about",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "好不調の波",
+      "target": "営業成績",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "論理的な手法",
+      "target": "精神論",
+      "type": "different_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "論理的な手法",
+      "target": "運任せの営業手法",
+      "type": "different_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "科学的なアプローチ",
+      "target": "論理的な手法",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "success",
+      "target": "fantasy elements",
+      "type": "not_dependent_on",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "intuition",
+      "target": "fantasy elements",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "coincidence",
+      "target": "fantasy elements",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "sheer willpower/grit",
+      "target": "fantasy elements",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "intuition",
+      "target": "勘",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "coincidence",
+      "target": "偶然",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "sheer willpower/grit",
+      "target": "根性",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "結果を出し続けるための理論",
+      "target": "勝利を掴むメソッド",
+      "type": "specifically_is",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "結果を出し続けるための理論",
+      "target": "method for grasping victory",
+      "type": "specifically_is",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "method for grasping victory",
+      "target": "勝利を掴むメソッド",
+      "type": "is_translation_of",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "scientific sales technique",
+      "target": "科学的な営業術",
+      "type": "same_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "reproducibility",
+      "target": "再現性",
+      "type": "same_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "scientific sales technique",
+      "target": "reproducibility",
+      "type": "provides",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "科学的な営業術",
+      "target": "再現性",
+      "type": "provides",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "営業代行",
+      "target": "sales representation/agency",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "営業代行",
+      "target": "ビジネスモデル",
+      "type": "is_a",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "営業代行",
+      "target": "依頼主",
+      "type": "acts_on_behalf_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "営業代行",
+      "target": "依頼主",
+      "type": "sells_products_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "営業代行",
+      "target": "代理店",
+      "type": "differs_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "株式会社セレブリックス",
+      "target": "営業支援",
+      "type": "operates_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "株式会社セレブリックス",
+      "target": "営業戦略",
+      "type": "plans_and_executes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Head of the Marketing Division",
+      "target": "Sales Evangelist",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Head of the Marketing Division",
+      "target": "B2B",
+      "type": "involves",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Sales Evangelist",
+      "target": "B2B",
+      "type": "involves",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Selebricks",
+      "target": "art of controlling sales results",
+      "type": "possesses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "art of controlling sales results",
+      "target": "営業の成果をコントロールする術",
+      "type": "also_known_as",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "customer acquisition methodology",
+      "target": "intuition",
+      "type": "rejects",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "customer acquisition methodology",
+      "target": "勘",
+      "type": "rejects",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "customer acquisition methodology",
+      "target": "motivational theories",
+      "type": "rejects",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "customer acquisition methodology",
+      "target": "精神論",
+      "type": "rejects",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "customer acquisition methodology",
+      "target": "systematic data analysis",
+      "type": "relies_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "intuition",
+      "target": "勘",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "motivational theories",
+      "target": "精神論",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Celebricks",
+      "target": "営業データ",
+      "type": "collects",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "営業データ",
+      "target": "1ヶ月",
+      "type": "collected_during",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Celebricks",
+      "target": "科学的な営業方法",
+      "type": "developed",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "科学的な営業方法",
+      "target": "論理と技術で売る",
+      "type": "defined_as",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Celebricks",
+      "target": "23年間",
+      "type": "has_history_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "顧客開拓メソッド",
+      "target": "営業版・虎の巻",
+      "type": "similar_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "顧客開拓メソッド",
+      "target": "未完のメソッド",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "顧客開拓メソッド",
+      "target": "セールステックツール",
+      "type": "uses",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "author",
+      "target": "Serebrix",
+      "type": "associated_with",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "author",
+      "target": "sales methodology",
+      "type": "discusses",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Quota",
+      "target": "Noruma",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Tough/Hard",
+      "target": "Taisou",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Sales roles",
+      "target": "Japan",
+      "type": "located_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Sales roles",
+      "target": "younger generations",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Top Sales professionals",
+      "target": "Sales",
+      "type": "believe_is_wonderful",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "happiness",
+      "target": "salesperson",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "トップセールス",
+      "target": "上司",
+      "type": "relied_upon_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "トップセールス",
+      "target": "顧客",
+      "type": "relied_upon_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "トップセールス",
+      "target": "同僚",
+      "type": "relied_upon_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "トップセールス",
+      "target": "自分の介在価値",
+      "type": "feels",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "実績",
+      "target": "幸福度",
+      "type": "is_main_factor_affecting",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "営業職",
+      "target": "幸福度",
+      "type": "has_attribute",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "成果",
+      "target": "営業",
+      "type": "leads_to_liking",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "成果",
+      "target": "人間関係",
+      "type": "improves",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "アウトバウンド",
+      "target": "営業",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Celebrities",
+      "target": "セレブリックス",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "Outbound Sales",
+      "target": "アウトバウンド営業",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "outbound sales",
+      "target": "transferable skills",
+      "type": "provides",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "transferable skills",
+      "target": "customer accounts",
+      "type": "applied_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "transferable skills",
+      "target": "inbound lead follow-ups",
+      "type": "applied_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "methodology",
+      "target": "sales professionals",
+      "type": "helps",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "methodology",
+      "target": "success factors",
+      "type": "upgrades",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "success factors",
+      "target": "intuition/gut feeling",
+      "type": "transformed_from",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "success factors",
+      "target": "technology/skill",
+      "type": "transformed_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "sales professionals",
+      "target": "success factors",
+      "type": "possess",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "アウトバウンド営業",
+      "target": "プッシュ営業",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "インバウンド営業",
+      "target": "プル型営業",
+      "type": "also_known_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "インバウンド営業",
+      "target": "営業スタイル",
+      "type": "is_a",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "プル型営業",
+      "target": "営業スタイル",
+      "type": "is_a",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "リード",
+      "target": "見込み顧客",
+      "type": "refers_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "SOL",
+      "target": "Sales Opportunity Lead",
+      "type": "stands_for",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "マーケター",
+      "target": "マーケティング担当者",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "マーケター",
+      "target": "リード",
+      "type": "acquires",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "マーケター",
+      "target": "購買見込み客",
+      "type": "acquires",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "マーケティング担当者",
+      "target": "リード",
+      "type": "acquires",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "マーケティング担当者",
+      "target": "購買見込み客",
+      "type": "acquires",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "リード",
+      "target": "購買見込み客",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "インサイドセールス",
+      "target": "非対面営業",
+      "type": "defined_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "インサイドセールス",
+      "target": "担当者",
+      "type": "refers_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "担当者",
+      "target": "非対面営業",
+      "type": "in_charge_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "担当者",
+      "target": "アポイントメント",
+      "type": "obtains",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "担当者",
+      "target": "商談",
+      "type": "handles",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "フィールドセールス",
+      "target": "訪問営業",
+      "type": "originally_referred_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "フィールドセールス",
+      "target": "訪問営業担当",
+      "type": "originally_referred_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "フィールドセールス",
+      "target": "商談担当",
+      "type": "defined_as",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "オンライン商談",
+      "target": "フィールドセールス",
+      "type": "led_to_redefinition_of",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "案件",
+      "target": "商談",
+      "type": "is_a",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "見込み案件",
+      "target": "商談",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "見込み案件",
+      "target": "案件",
+      "type": "may_become",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "タッチポイント",
+      "target": "顧客接点",
+      "type": "defined_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "ヒアリング",
+      "target": "聞き取りり",
+      "type": "is",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "ヒアリング",
+      "target": "テレアポ",
+      "type": "performed_during",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "ヒアリング",
+      "target": "商談",
+      "type": "performed_during",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "聞き取りり",
+      "target": "テレアポ",
+      "type": "performed_during",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "聞き取りり",
+      "target": "商談",
+      "type": "performed_during",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "ピッチ",
+      "target": "プレゼンテーション",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "ピッチ",
+      "target": "商談",
+      "type": "performed_during",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "プレゼンテーション",
+      "target": "商談",
+      "type": "performed_during",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "カスタマーサクセス",
+      "target": "顧客の成功",
+      "type": "is_concept_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "カスタマーサクセス",
+      "target": "担当者",
+      "type": "can_refer_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "プッシュ型営業",
+      "target": "プル型営業",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "アポ",
+      "target": "アポイントメント",
+      "type": "abbreviation_of",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "見込み客",
+      "target": "リード",
+      "type": "synonym_of",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "担当者",
+      "target": "アポイントメント",
+      "type": "takes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "担当者",
+      "target": "アポ",
+      "type": "takes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "リード",
+      "target": "担当者",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "recipes",
+      "target": "big picture",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "big picture",
+      "target": "ideal finished product",
+      "type": "represents",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "recipes",
+      "target": "cooking",
+      "type": "analogous_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "sales pitches",
+      "target": "sales skills",
+      "type": "example_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "presentation materials",
+      "target": "sales skills",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "sales skills",
+      "target": "sales process",
+      "type": "depends_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "skills",
+      "target": "framework",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "framework",
+      "target": "sales",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "framework",
+      "target": "good sales",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "framework",
+      "target": "outcomes",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "運",
+      "target": "再現できない偶発性",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    },
+    {
+      "source": "タイミング",
+      "target": "再現できない偶発性",
+      "type": "example_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Sales_is"
+      },
+      "book_key": "Sales_is"
+    }
+  ],
+  "metadata": {
+    "num_entities": 95,
+    "num_relationships": 136,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-31T01:27:09.130598",
+    "entity_resolution_applied": true,
+    "book_key": "Sales_is",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

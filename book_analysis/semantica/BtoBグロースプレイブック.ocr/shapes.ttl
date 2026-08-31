@@ -1,0 +1,218 @@
+@prefix ex: <https://books.local/BtoBグロースプレイブック.ocr/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/BtoBグロースプレイブック.ocr/shapes> a owl:Ontology .
+
+<https://books.local/BtoBグロースプレイブック.ocr/BookShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Book ;
+    sh:name "書籍" ;
+    sh:description "PMFからARR100億円へ至る日本BtoB成長の戦略・手順・ノウハウを言語化した非線形プレイブック。" ;
+    sh:property [
+        sh:path ex:hasAuthor ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:featuresInterview ;
+        sh:class ex:Interview ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesPrinciple ;
+        sh:class ex:PlaybookPrinciple ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BtoBグロースプレイブック.ocr/PersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;
+    sh:name "人物" ;
+    sh:description "著者、CxO、インタビュー対象者など、成長実践に関与する個人。" ;
+    sh:property [
+        sh:path ex:belongsToCompany ;
+        sh:class ex:Company ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BtoBグロースプレイブック.ocr/CompanyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Company ;
+    sh:name "企業" ;
+    sh:description "日本のBtoB/SaaS企業。ARR規模や成長の壁への直面状況で特徴づけられる。" ;
+    sh:property [
+        sh:path ex:facesGrowthWall ;
+        sh:class ex:GrowthWall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:adoptsGTMStrategy ;
+        sh:class ex:GTMStrategy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetsSegment ;
+        sh:class ex:MarketSegment ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:adoptsSalesModel ;
+        sh:class ex:SalesModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:offersProduct ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:practicesCustomerSuccess ;
+        sh:class ex:CustomerSuccess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesPartnerSales ;
+        sh:class ex:PartnerSales ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasMetric ;
+        sh:class ex:GrowthMetric ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:inHistoricalPhase ;
+        sh:class ex:HistoricalPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesPrinciple ;
+        sh:class ex:PlaybookPrinciple ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:operatesInMarket ;
+        sh:class ex:Market ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:missionStatement ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:arrLevel ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BtoBグロースプレイブック.ocr/GrowthWallShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GrowthWall ;
+    sh:name "成長の壁" ;
+    sh:description "幻のPMF、拡大の谷、キャズムの壁、マルチプロダクトの沼、市場の限界と覇権争いからなる日本特有の連続障壁。" ;
+    sh:property [
+        sh:path ex:precedesWall ;
+        sh:class ex:GrowthWall ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:wallNameJa ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BtoBグロースプレイブック.ocr/HistoricalPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HistoricalPhase ;
+    sh:name "歴史的フェーズ" ;
+    sh:description "黎明期、DX中心期、SaaSバブル、2022年以降の評価修正、および中小効率化・エンタープライズ展開・人介在型SaaSといった進化段階。" .
+
+<https://books.local/BtoBグロースプレイブック.ocr/GTMStrategyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GTMStrategy ;
+    sh:name "GTM戦略" ;
+    sh:description "将来の収益ミックスを描き、Who×Whatを先に決めHowを後から設計する市場投入戦略。" ;
+    sh:property [
+        sh:path ex:targetsSegment ;
+        sh:class ex:MarketSegment ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BtoBグロースプレイブック.ocr/SalesModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesModel ;
+    sh:name "営業モデル" ;
+    sh:description "The Model、ABM、チャレンジャーセールス、ABC/IABCなど、製品タイプと顧客タイプに応じた営業の型。" .
+
+<https://books.local/BtoBグロースプレイブック.ocr/MarketSegmentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MarketSegment ;
+    sh:name "市場セグメント" ;
+    sh:description "業種（垂直）、企業規模（水平）、都市対地方などの顧客層。ビーチヘッドから隣接へ拡張する。" .
+
+<https://books.local/BtoBグロースプレイブック.ocr/CustomerSuccessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerSuccess ;
+    sh:name "カスタマーサクセス" ;
+    sh:description "ヘルプデスクではなく成長エンジンとして、90日オンボーディング、ヘルススコア、NRR、アップセルを仕組み化する実践。" ;
+    sh:property [
+        sh:path ex:hasMetric ;
+        sh:class ex:GrowthMetric ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BtoBグロースプレイブック.ocr/PartnerSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PartnerSales ;
+    sh:name "パートナー営業" ;
+    sh:description "顧客構造・営業動作・インセンティブの親和性に基づく代理店・SIer・専門家ネットワーク経由の販売。" .
+
+<https://books.local/BtoBグロースプレイブック.ocr/GrowthMetricShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GrowthMetric ;
+    sh:name "成長指標" ;
+    sh:description "ARR、チャーン、NRR、LTV/CAC、利用頻度など、真のPMFと再現可能な成長を診断する指標。" .
+
+<https://books.local/BtoBグロースプレイブック.ocr/InterviewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Interview ;
+    sh:name "インタビュー" ;
+    sh:description "SmartHR、マネーフォワード、Safieなどの経営者による本書収録の実践証言。" ;
+    sh:property [
+        sh:path ex:hasInterviewee ;
+        sh:class ex:Person ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:interviewCompany ;
+        sh:class ex:Company ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/BtoBグロースプレイブック.ocr/ProductShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Product ;
+    sh:name "製品" ;
+    sh:description "クラウドSaaSおよびBPaaSなど、業務改善と働き方を変えるB2Bプロダクト。" .
+
+<https://books.local/BtoBグロースプレイブック.ocr/PlaybookPrincipleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PlaybookPrinciple ;
+    sh:name "プレイブック原則" ;
+    sh:description "守破離の守の習得、防御からの再定義、価値仮説と成長仮説の検証、属人性排除などの普遍原則。" .
+
+<https://books.local/BtoBグロースプレイブック.ocr/MarketShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Market ;
+    sh:name "市場" ;
+    sh:description "日本SaaS市場と北米市場など、規模・導入慣習・SIer依存・ITリテラシーで規定される市場。" ;
+    sh:property [
+        sh:path ex:inHistoricalPhase ;
+        sh:class ex:HistoricalPhase ;
+        sh:severity sh:Violation
+    ] .

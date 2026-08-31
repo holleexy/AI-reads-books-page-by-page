@@ -1,0 +1,343 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm/> .
+
+book:source a prov:Entity ;
+  foaf:name "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" .
+
+book:AI a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:ソフトウェアエンジニア a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:非エンジニア a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:職業エンジニア a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:自動化 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:バイブコーディング a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:ライブラリ a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロンプト a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:Chrome a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンジニアリング a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:関数 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:n8n a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:ワークフローツール a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:エージェント a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:Node.js a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:JavaScript a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:Python a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:Gemini a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:チャット型AI a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:CLI a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:コード a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:Windsurf a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:Google AI Studio a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:${daihonFilePath} a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:アプリケーション・プログラミング・インターフェース a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:構造的な作業 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:学習コスト a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:第3章 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:Vibe Coding a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:サービス運用 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:専門知識 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:コマンドラインインターフェース a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:ウェブサイト a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:GitHub a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:kazuyaseki a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:2022年末 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:ChatGPT a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:NotebookLM a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:画像生成AI a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:2、30分 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:Excel a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:自然言語 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:定型作業 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:スクリプト a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:構文 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:ドキュメント a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:人事 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニティマネージャー a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:動くものを作る a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:変数 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:条件分岐 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:Dify a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:インプット→加工処理→アウトプット a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:思考プロセス a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:分解して設計する a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:ノーコードツール a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:汎用エージェント a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:開発者 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:デジタル活動 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:ユニバーサルなインターフェース a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:マークダウン a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:動画編集ソフト a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:作業手順 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:tsx a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:連番の管理 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:命名規則 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:英語ID a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:PDF a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:Web a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:マインドセット a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:TypeScript a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:機械学習 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:データサイエンス a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:デファクトスタンダード a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:OpenAI a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:アンチグラビティ a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:Visual Studio Code a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:有料プラン a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:リファクタリング提案 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:タブ補完 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:利用規約 a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:OS a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:.exe a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .
+
+book:Mac a prov:Entity ;
+  book:book_key "Hi_enjinia_notameno_AI_koodingu_no_Kyoukasho__-_bansho_saboru__track613armory_gm" ;
+  prov:wasDerivedFrom book:source .

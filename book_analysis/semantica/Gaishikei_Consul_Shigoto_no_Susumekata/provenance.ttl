@@ -1,0 +1,339 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Gaishikei_Consul_Shigoto_no_Susumekata/> .
+
+book:source a prov:Entity ;
+  foaf:name "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" .
+
+book:資料作成 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:生成AI a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンサルタント a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:Management consulting a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:形式知化 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:Discussion a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:経営コンサルティング a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:サマリ a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ストーリー a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ワークプラン a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮説検証 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロジェクト a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:問題解決 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス書 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:Chapter 3 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:consulting industry a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:project management a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:定性分析 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:business reform a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:team intellectual labor a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:analysis a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:戦略部門 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:Excel a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人スキル a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:データ分析 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:チーム a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:スキル向上 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:成果最大化 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:生きた現場 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:不条理さ a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:アクセンチュア a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:知的労働 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:generative AI a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:university students a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:young professionals a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:career changers a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:competitive strategies a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:organizational restructuring a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:methodology for problem-solving as a team a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:skills to practice a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:Part II a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:research a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:議論 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:giroron a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:brainstorming a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:debate a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:negotiation a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:reporting a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:dialogue a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:作法 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:saho a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:文献調査 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:インタビュー a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報処理 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:1週間 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:S→C→Q a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロジックツリー a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:結論ファースト型 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:積み上げ型 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:会議参加の基本姿勢 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:成長サイクル a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:モノノロ a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハイライト a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:類型化 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:重要度 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:習熟の順序 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:スライド作成 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:ボディ a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:1枚 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:1セクション a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:1デック a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:タッチポイント設定 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:検討の不確実性 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:上位者 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:時間的制約 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:解決 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:1 to 3 months a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:普遍的な方法論 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:入社後の数カ月から数年 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:実行支援 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:方法論 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:論点設定・仮説構築 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .
+
+book:望ましくない事象 a prov:Entity ;
+  book:book_key "Gaishikei_Consul_Shigoto_no_Susumekata" ;
+  prov:wasDerivedFrom book:source .

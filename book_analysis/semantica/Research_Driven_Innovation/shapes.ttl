@@ -1,0 +1,513 @@
+@prefix ex: <https://books.local/Research_Driven_Innovation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Research_Driven_Innovation/shapes> a owl:Ontology .
+
+<https://books.local/Research_Driven_Innovation/ResearchDrivenInnovationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ResearchDrivenInnovation ;
+    sh:name "リサーチ・ドリブン・イノベーション" ;
+    sh:description "リサーチという反復的な探索活動を中核に据え、内と外の絶えざる往復による探究を本質とするイノベーションの実践手法。" ;
+    sh:property [
+        sh:path ex:integrates ;
+        sh:class ex:OutsideInApproach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:follows ;
+        sh:class ex:InquiryDrivenDoubleDiamond ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:illustratedBy ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/InnovationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Innovation ;
+    sh:name "イノベーション" ;
+    sh:description "シュンペーターの新結合に基づき、一見関係のない既存の知識同士を結びつけ新たな価値を生み出すこと。" ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:DesignThinking ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:involves ;
+        sh:class ex:Stakeholder ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "イノベーションを実施する集団。探究的衝動の抑圧、創造的自信の喪失、成功の罠が生じうる。" ;
+    sh:property [
+        sh:path ex:suppresses ;
+        sh:class ex:ExploratoryImpulse ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:fallsInto ;
+        sh:class ex:SuccessTrap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:cultivates ;
+        sh:class ex:CreativeSoil ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/IndividualShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Individual ;
+    sh:name "個人" ;
+    sh:description "探究的衝動と創造的自信を持つ主体。文脈的アプローチでは日常業務内で知の深化と探索のバランスを取る。" ;
+    sh:property [
+        sh:path ex:balances ;
+        sh:class ex:KnowledgeDeepening ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:memberOf ;
+        sh:class ex:Team ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:possesses ;
+        sh:class ex:NegativeCapability ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/TeamShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Team ;
+    sh:name "チーム" ;
+    sh:description "問いとデータを足場に創造的対話を行い、前提の合意形成まで進める実践単位。" ;
+    sh:property [
+        sh:path ex:cultivates ;
+        sh:class ex:CreativeSoil ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesAsScaffold ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:interprets ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:agreesOn ;
+        sh:class ex:Premise ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/ExploratoryImpulseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExploratoryImpulse ;
+    sh:name "探究的衝動" ;
+    sh:description "デューイの経験学習における内なる衝動。イノベーションの起点となり、問いによって刺激される。" .
+
+<https://books.local/Research_Driven_Innovation/CreativeConfidenceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CreativeConfidence ;
+    sh:name "創造的自信" ;
+    sh:description "個人が創造的に思考し行為できるという自信。組織内で抑圧され喪失されうる。" .
+
+<https://books.local/Research_Driven_Innovation/SuccessTrapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SuccessTrap ;
+    sh:name "成功の罠" ;
+    sh:description "一度成功した手法に固執し、中長期的な知の探索を怠ってしまう現象。" .
+
+<https://books.local/Research_Driven_Innovation/ChangeRigidityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ChangeRigidity ;
+    sh:name "変化の硬直化" ;
+    sh:description "個人・チーム・組織の各レイヤーでイノベーションを阻害する変化への抵抗。" .
+
+<https://books.local/Research_Driven_Innovation/KnowledgeDeepeningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KnowledgeDeepening ;
+    sh:name "知の深化" ;
+    sh:description "既存事業を改善する活動。両利きの経営の一方の極。" .
+
+<https://books.local/Research_Driven_Innovation/KnowledgeExplorationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KnowledgeExploration ;
+    sh:name "知の探索" ;
+    sh:description "新たな可能性を探る活動。両利きの経営の他方の極。" .
+
+<https://books.local/Research_Driven_Innovation/AmbidextrousManagementShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AmbidextrousManagement ;
+    sh:name "両利きの経営" ;
+    sh:description "知の深化と知の探索を両立させイノベーションを持続させる経営。連続的・構造的・文脈的アプローチがある。" ;
+    sh:property [
+        sh:path ex:balances ;
+        sh:class ex:KnowledgeDeepening ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/ContextualApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ContextualApproach ;
+    sh:name "文脈的アプローチ" ;
+    sh:description "各個人が日常業務内で深化と探索のバランスを取る両利きの方法。最も重要視される。" ;
+    sh:property [
+        sh:path ex:balances ;
+        sh:class ex:KnowledgeDeepening ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/OrganizationalLearningShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationalLearning ;
+    sh:name "組織学習" ;
+    sh:description "イノベーションの延長線上にある学習。衝動から観察・結合・判断を経て目的へ昇華する。" .
+
+<https://books.local/Research_Driven_Innovation/CreativeSoilShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CreativeSoil ;
+    sh:name "創造の土壌" ;
+    sh:description "氷山モデルにおけるプロセス層。個人の衝動や関係性の質を耕すことで創造性が育まれる。" .
+
+<https://books.local/Research_Driven_Innovation/InnovationApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InnovationApproach ;
+    sh:name "イノベーション・アプローチ" ;
+    sh:description "イノベーションの方向性を見出すためのアプローチの総称。" .
+
+<https://books.local/Research_Driven_Innovation/OutsideInApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OutsideInApproach ;
+    sh:name "アウトサイド・イン" ;
+    sh:description "ユーザー観察・共感・プロトタイピングによる外から内へのアプローチ。アブダクションで多様な見方を立ち上げる。" ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:DesignThinking ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/InsideOutApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InsideOutApproach ;
+    sh:name "インサイド・アウト" ;
+    sh:description "つくり手の熟考・ビジョン・批判的対話・プロービングによる内から外へのアプローチ。驚きや愛を呼ぶ意味を提案する。" ;
+    sh:property [
+        sh:path ex:basedOn ;
+        sh:class ex:DesignThinking ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/DesignThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DesignThinking ;
+    sh:name "デザイン思考" ;
+    sh:description "エスノグラフィ、共感、批判厳禁の発想、プロトタイピングを用いるアウトサイド・インの手法。" .
+
+<https://books.local/Research_Driven_Innovation/MeaningInnovationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MeaningInnovation ;
+    sh:name "意味のイノベーション" ;
+    sh:description "生活者が求めるものを探るのではなく、つくり手が意味を提案するインサイド・アウトの手法。" .
+
+<https://books.local/Research_Driven_Innovation/InquiryDrivenDoubleDiamondShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InquiryDrivenDoubleDiamond ;
+    sh:name "探究的ダブルダイヤモンドモデル" ;
+    sh:description "方向性を探索し定義していくリサーチ・ドリブン・イノベーションの実践プロセスモデル。" ;
+    sh:property [
+        sh:path ex:hasStep ;
+        sh:class ex:ProcessStep ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/ProcessStepShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProcessStep ;
+    sh:name "プロセス段階" ;
+    sh:description "探究的ダブルダイヤモンドを構成する実践ステップの総称。" .
+
+<https://books.local/Research_Driven_Innovation/QuestionFormulationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:QuestionFormulation ;
+    sh:name "問いを立てる" ;
+    sh:description "価値探究型のリサーチクエスチョンを立て、探究的衝動と創造的対話を誘発する第一段階。" .
+
+<https://books.local/Research_Driven_Innovation/DataCollectionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DataCollection ;
+    sh:name "データを集める" ;
+    sh:description "正解ではなく足場としてデータを集める第二段階。わかるためのデータとつくるためのデータがある。" ;
+    sh:property [
+        sh:path ex:usesAsScaffold ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/DataInterpretationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DataInterpretation ;
+    sh:name "データを解釈する" ;
+    sh:description "社会構成主義に立ち、関係性の解釈の重ね合わせと対話により意味を生成する第三段階。" ;
+    sh:property [
+        sh:path ex:interprets ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:conductedVia ;
+        sh:class ex:Dialogue ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/ConsensusFormationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConsensusFormation ;
+    sh:name "合意を形成する" ;
+    sh:description "答えではなく前提で一致し、HMW形式で次フェーズへ進む第四段階。違和感を尊重する。" ;
+    sh:property [
+        sh:path ex:agreesOn ;
+        sh:class ex:Premise ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/IdeaGenerationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IdeaGeneration ;
+    sh:name "アイデアの生成" ;
+    sh:description "機能解析法と形態チャート法により多様な組み合わせのアイデアを生み出す段階。" ;
+    sh:property [
+        sh:path ex:generates ;
+        sh:class ex:Idea ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesMethod ;
+        sh:class ex:FunctionAnalysisMethod ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/IdeaVerificationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IdeaVerification ;
+    sh:name "アイデアの検証" ;
+    sh:description "リーン・スタートアップとプロトタイピングにより、進みたい方向性に沿っているかを確かめる段階。" ;
+    sh:property [
+        sh:path ex:verifiesWith ;
+        sh:class ex:Prototype ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/ResearchQuestionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ResearchQuestion ;
+    sh:name "リサーチクエスチョン" ;
+    sh:description "目標ありきではなく人間や社会の本質への関心から立つ問い。実用的関心と概念的関心、内と外のマトリクスで探索する。" ;
+    sh:property [
+        sh:path ex:stimulates ;
+        sh:class ex:ExploratoryImpulse ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:involves ;
+        sh:class ex:Stakeholder ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/DataShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Data ;
+    sh:name "データ" ;
+    sh:description "正解を導くものではなく、不確実な海で高く跳ぶための足場（錨）。客観的・大量・即答である必要はない。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/DataForUnderstandingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DataForUnderstanding ;
+    sh:name "わかるためのデータ" ;
+    sh:description "チームの共通理解（立脚点）をつくるデータ。既知の未知へのアプローチ。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/DataForCreatingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DataForCreating ;
+    sh:name "つくるためのデータ" ;
+    sh:description "多様な解釈を生み出し新たな気づきを促すデータ。未知の未知へのアプローチ。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/DialogueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Dialogue ;
+    sh:name "対話" ;
+    sh:description "結論を急ぐ議論とは異なり、判断を留保し価値観の共有と新たな意味の生成を目的とする営み。" .
+
+<https://books.local/Research_Driven_Innovation/PremiseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Premise ;
+    sh:name "前提" ;
+    sh:description "答えで固定化せず個人の思考の余地を残すために一致させる合意対象。" ;
+    sh:property [
+        sh:path ex:expressedAs ;
+        sh:class ex:HowMightWe ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/HowMightWeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HowMightWe ;
+    sh:name "ハウ・マイト・ウィ" ;
+    sh:description "私たちはどのようにすればできるだろうか、という形式で前提を表現する問い。行為・感情・場・関係性に着目する。" .
+
+<https://books.local/Research_Driven_Innovation/IdeaShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Idea ;
+    sh:name "アイデア" ;
+    sh:description "方向性合意後の生成フェーズで生み出される構想。良し悪しより進みたい方向性との整合が問われる。" ;
+    sh:property [
+        sh:path ex:verifiesWith ;
+        sh:class ex:Prototype ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/FunctionAnalysisMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FunctionAnalysisMethod ;
+    sh:name "機能解析法" ;
+    sh:description "入力・処理（ブラックボックス）・出力で機能を分解しアイデア生成の基礎をつくる方法。" ;
+    sh:property [
+        sh:path ex:generates ;
+        sh:class ex:Idea ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/MorphologicalChartMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MorphologicalChartMethod ;
+    sh:name "形態チャート法" ;
+    sh:description "分解した各要素の実現手段を掛け合わせ、多様なアイデアの組み合わせを生成する方法。" ;
+    sh:property [
+        sh:path ex:generates ;
+        sh:class ex:Idea ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/LeanStartupShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LeanStartup ;
+    sh:name "リーン・スタートアップ" ;
+    sh:description "低コストの実用最小限の製品を早期に作成し学習する検証手法。" .
+
+<https://books.local/Research_Driven_Innovation/PrototypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Prototype ;
+    sh:name "プロトタイプ" ;
+    sh:description "試行錯誤を通じて学習するための試作。アイデア自体の評価より方向性の確認に用いる。" .
+
+<https://books.local/Research_Driven_Innovation/ResearcherShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Researcher ;
+    sh:name "リサーチャー" ;
+    sh:description "単なるデータ収集・分析者ではなく、問いを立て対話をファシリテートし思考を跳躍させる哲学者かつクリエイター。" ;
+    sh:property [
+        sh:path ex:memberOf ;
+        sh:class ex:Team ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:facilitates ;
+        sh:class ex:Dialogue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:possesses ;
+        sh:class ex:NegativeCapability ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/NegativeCapabilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:NegativeCapability ;
+    sh:name "ネガティブ・ケイパビリティ" ;
+    sh:description "不確実性や曖昧さを耐え抜き享受する能力。イノベーションに不可欠。" .
+
+<https://books.local/Research_Driven_Innovation/CaseStudyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CaseStudy ;
+    sh:name "ケーススタディ" ;
+    sh:description "トイレ空間、シチズンのブランディング、さとり世代向け保険、コンビニ高頻度ユーザーなどプロセス検証事例。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/WorkshopShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Workshop ;
+    sh:name "ワークショップ" ;
+    sh:description "入力・プロセス・成果物を設計し、わからなかったことから共有して解釈を深める場。" ;
+    sh:property [
+        sh:path ex:interprets ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:conductedVia ;
+        sh:class ex:Dialogue ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Research_Driven_Innovation/StakeholderShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Stakeholder ;
+    sh:name "ステークホルダー" ;
+    sh:description "問いの点検やイノベーションの価値に関わる利害関係者。" .

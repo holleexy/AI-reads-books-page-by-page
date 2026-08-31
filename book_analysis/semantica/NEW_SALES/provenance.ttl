@@ -1,0 +1,443 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/NEW_SALES/> .
+
+book:source a prov:Entity ;
+  foaf:name "NEW_SALES" ;
+  book:book_key "NEW_SALES" .
+
+book:プロダクト営業 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:ソリューション営業 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:ストーリー営業 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:OLD SALES a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:NEW SALES a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:サプライズ営業 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:シナリオ営業 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:決定支援 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:Surprise a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:ITエンジニア a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:テクノロジー a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業担当者 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:インターネット a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:AI a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:著者 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:ITツール a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:アメリカ a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:役割の変化 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:目的の変化 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:仕事 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:チャレンジャー・セールス・モデル a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハイパフォーマー a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:働く a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織のエンゲージメント a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンゲージメント a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:セールスイネーブルメント a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:1900年頃 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:技術職 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:投資利益率 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:商品開発部門 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:20世紀 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客事例 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:価値 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:課題 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:理想 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:テレビCM絵コンテ a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:データ情報 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:トレンド情報 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:売らない営業 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:セグメント情報 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:気付き a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:ホワイトペーパー a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:白書 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:ウェビナー a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報提供の専門家 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:購買プロセス a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:比較訴求 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:金額の壁 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:工程の壁 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:期日の壁 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:アポイントメント a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:専門職 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:古い営業 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:人工知能 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:バリューチェーン a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーケティング部門 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:カスタマーサービス部門 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:労働力人口 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:ROI a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:国際水準 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:モチベーション a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:企画職 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:事務職 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:満足度のランキング a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:毎日 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:行動量 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:口八丁手八丁 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:精神論 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:近年 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:CRM a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:MA a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:パーソナルトレーナー a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:ピーター・ティール氏 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:PayPal a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:シリコンバレー a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:創業者 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:独占 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:方法の変化 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:新規顧客 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:既存顧客 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハンター・ファーマー・モデル a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:第2段階「方法の変化」 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:The psychology of selling and advertising a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:オブジェクションハンドリング a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:オープンクエスチョン・クローズドクエスチョン a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:変化への対応力 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人の成果 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:人類 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:数千年 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:労働は苦役なり a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:問題意識 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:ナレッジワーク a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:○○商事 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:□□電機 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:経理 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:開発 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:イネーブルメント a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:数年前 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:パラダイムチェンジ a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:7つのS a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:4つのS a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:属人的なチーム a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:再現性のあるチーム a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:感覚的なチーム a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:科学的なチーム a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:television infomercials a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:Product Sales a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .
+
+book:陳腐化 a prov:Entity ;
+  book:book_key "NEW_SALES" ;
+  prov:wasDerivedFrom book:source .

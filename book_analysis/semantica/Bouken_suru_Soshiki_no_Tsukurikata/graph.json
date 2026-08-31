@@ -1,0 +1,5593 @@
+{
+  "entities": [
+    {
+      "id": "ONE PIECE",
+      "name": "ONE PIECE",
+      "type": "PRODUCT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ONE PIECE",
+              "name": "ONE PIECE",
+              "source": null
+            },
+            {
+              "id": "ONE PIECE",
+              "name": "ONE PIECE",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ONE PIECE",
+        "ONE PIECE"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "Quest",
+      "name": "Quest",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "Quest",
+              "name": "Quest",
+              "source": null
+            },
+            {
+              "id": "Quest",
+              "name": "Quest",
+              "source": null
+            },
+            {
+              "id": "Question",
+              "name": "Question",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "Quest",
+        "Quest",
+        "Question"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "チームのレンズ",
+      "name": "チームのレンズ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "チームのレンズ",
+              "name": "チームのレンズ",
+              "source": null
+            },
+            {
+              "id": "チームのレンズ",
+              "name": "チームのレンズ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "チームのレンズ",
+        "チームのレンズ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "戦士だけのパーティ",
+      "name": "戦士だけのパーティ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "戦士だけのパーティ",
+              "name": "戦士だけのパーティ",
+              "source": null
+            },
+            {
+              "id": "戦士だけのパーティ",
+              "name": "戦士だけのパーティ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "戦士だけのパーティ",
+        "戦士だけのパーティ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "会議のレンズ",
+      "name": "会議のレンズ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "会議のレンズ",
+              "name": "会議のレンズ",
+              "source": null
+            },
+            {
+              "id": "会議のレンズ",
+              "name": "会議のレンズ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "会議のレンズ",
+        "会議のレンズ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "軍略会議",
+      "name": "軍略会議",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "軍略会議",
+              "name": "軍略会議",
+              "source": null
+            },
+            {
+              "id": "軍略会議",
+              "name": "軍略会議",
+              "source": null
+            },
+            {
+              "id": "軍略型会議",
+              "name": "軍略型会議",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "軍略会議",
+        "軍略会議",
+        "軍略型会議"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "雑談",
+      "name": "雑談",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "雑談",
+              "name": "雑談",
+              "source": null
+            },
+            {
+              "id": "雑談",
+              "name": "雑談",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "雑談",
+        "雑談"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "討論",
+      "name": "討論",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "討論",
+              "name": "討論",
+              "source": null
+            },
+            {
+              "id": "討論",
+              "name": "討論",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "討論",
+        "討論"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "議論",
+      "name": "議論",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "議論",
+              "name": "議論",
+              "source": null
+            },
+            {
+              "id": "議論",
+              "name": "議論",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "議論",
+        "議論"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "イノベーション",
+      "name": "イノベーション",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "イノベーション",
+              "name": "イノベーション",
+              "source": null
+            },
+            {
+              "id": "イノベーション",
+              "name": "イノベーション",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "イノベーション",
+        "イノベーション"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "クエストのレンズ",
+      "name": "クエストのレンズ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "クエストのレンズ",
+              "name": "クエストのレンズ",
+              "source": null
+            },
+            {
+              "id": "クエストのレンズ",
+              "name": "クエストのレンズ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "クエストのレンズ",
+        "クエストのレンズ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "成長のレンズ",
+      "name": "成長のレンズ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "成長のレンズ",
+              "name": "成長のレンズ",
+              "source": null
+            },
+            {
+              "id": "成長のレンズ",
+              "name": "成長のレンズ",
+              "source": null
+            },
+            {
+              "id": "成長",
+              "name": "成長",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "成長のレンズ",
+        "成長のレンズ",
+        "成長"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "組織のレンズ",
+      "name": "組織のレンズ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "組織のレンズ",
+              "name": "組織のレンズ",
+              "source": null
+            },
+            {
+              "id": "組織のレンズ",
+              "name": "組織のレンズ",
+              "source": null
+            },
+            {
+              "id": "組織",
+              "name": "組織",
+              "source": null
+            },
+            {
+              "id": "組織人",
+              "name": "組織人",
+              "source": null
+            },
+            {
+              "id": "組織変革",
+              "name": "組織変革",
+              "source": null
+            },
+            {
+              "id": "組織文化",
+              "name": "組織文化",
+              "source": null
+            },
+            {
+              "id": "組織構造",
+              "name": "組織構造",
+              "source": null
+            },
+            {
+              "id": "組織開発",
+              "name": "組織開発",
+              "source": null
+            },
+            {
+              "id": "組織づくり",
+              "name": "組織づくり",
+              "source": null
+            },
+            {
+              "id": "組織のミッション",
+              "name": "組織のミッション",
+              "source": null
+            },
+            {
+              "id": "組織は戦略に従う",
+              "name": "組織は戦略に従う",
+              "source": null
+            }
+          ],
+          "merge_count": 11
+        }
+      },
+      "merged_from": [
+        "組織のレンズ",
+        "組織のレンズ",
+        "組織",
+        "組織人",
+        "組織変革",
+        "組織文化",
+        "組織構造",
+        "組織開発",
+        "組織づくり",
+        "組織のミッション",
+        "組織は戦略に従う"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "パラダイムシフト",
+      "name": "パラダイムシフト",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "パラダイムシフト",
+              "name": "パラダイムシフト",
+              "source": null
+            },
+            {
+              "id": "パラダイムシフト",
+              "name": "パラダイムシフト",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "パラダイムシフト",
+        "パラダイムシフト"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "対話",
+      "name": "対話",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "対話",
+              "name": "対話",
+              "source": null
+            },
+            {
+              "id": "対話",
+              "name": "対話",
+              "source": null
+            },
+            {
+              "id": "対話の場づくり",
+              "name": "対話の場づくり",
+              "source": null
+            },
+            {
+              "id": "対話と価値創造の場",
+              "name": "対話と価値創造の場",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "対話",
+        "対話",
+        "対話の場づくり",
+        "対話と価値創造の場"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "アイデンティティ",
+      "name": "アイデンティティ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "アイデンティティ",
+              "name": "アイデンティティ",
+              "source": null
+            },
+            {
+              "id": "アイデンティティ",
+              "name": "アイデンティティ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "アイデンティティ",
+        "アイデンティティ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "自分らしさ",
+      "name": "自分らしさ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "自分らしさ",
+              "name": "自分らしさ",
+              "source": null
+            },
+            {
+              "id": "自分らしさ",
+              "name": "自分らしさ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "自分らしさ",
+        "自分らしさ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "戦略",
+      "name": "戦略",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "戦略",
+              "name": "戦略",
+              "source": null
+            },
+            {
+              "id": "戦略",
+              "name": "戦略",
+              "source": null
+            },
+            {
+              "id": "戦略は組織に従う",
+              "name": "戦略は組織に従う",
+              "source": null
+            },
+            {
+              "id": "戦術",
+              "name": "戦術",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "戦略",
+        "戦略",
+        "戦略は組織に従う",
+        "戦術"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "KEY 9",
+      "name": "KEY 9",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "KEY 9",
+              "name": "KEY 9",
+              "source": null
+            },
+            {
+              "id": "KEY 9",
+              "name": "KEY 9",
+              "source": null
+            },
+            {
+              "id": "KEY 10",
+              "name": "KEY 10",
+              "source": null
+            },
+            {
+              "id": "KEY 10",
+              "name": "KEY 10",
+              "source": null
+            },
+            {
+              "id": "KEY 11",
+              "name": "KEY 11",
+              "source": null
+            },
+            {
+              "id": "KEY 11",
+              "name": "KEY 11",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "KEY 9",
+        "KEY 9",
+        "KEY 10",
+        "KEY 10",
+        "KEY 11",
+        "KEY 11"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "世界観",
+      "name": "世界観",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "世界観",
+              "name": "世界観",
+              "source": null
+            },
+            {
+              "id": "世界観",
+              "name": "世界観",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "世界観",
+        "世界観"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ロジスティクス",
+      "name": "ロジスティクス",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ロジスティクス",
+              "name": "ロジスティクス",
+              "source": null
+            },
+            {
+              "id": "ロジスティクス",
+              "name": "ロジスティクス",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ロジスティクス",
+        "ロジスティクス"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "VUCA",
+      "name": "VUCA",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "VUCA",
+              "name": "VUCA",
+              "source": null
+            },
+            {
+              "id": "VUCA",
+              "name": "VUCA",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "VUCA",
+        "VUCA"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "孫子の兵法",
+      "name": "孫子の兵法",
+      "type": "PRODUCT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "孫子の兵法",
+              "name": "孫子の兵法",
+              "source": null
+            },
+            {
+              "id": "孫子の兵法",
+              "name": "孫子の兵法",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "孫子の兵法",
+        "孫子の兵法"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "軍事的世界観",
+      "name": "軍事的世界観",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "軍事的世界観",
+              "name": "軍事的世界観",
+              "source": null
+            },
+            {
+              "id": "軍事的世界観",
+              "name": "軍事的世界観",
+              "source": null
+            },
+            {
+              "id": "軍事的・競争的世界観",
+              "name": "軍事的・競争的世界観",
+              "source": null
+            },
+            {
+              "id": "軍事的な発想",
+              "name": "軍事的な発想",
+              "source": null
+            },
+            {
+              "id": "軍事関連",
+              "name": "軍事関連",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "軍事的世界観",
+        "軍事的世界観",
+        "軍事的・競争的世界観",
+        "軍事的な発想",
+        "軍事関連"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "会社中心のキャリア観",
+      "name": "会社中心のキャリア観",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "会社中心のキャリア観",
+              "name": "会社中心のキャリア観",
+              "source": null
+            },
+            {
+              "id": "会社中心のキャリア観",
+              "name": "会社中心のキャリア観",
+              "source": null
+            },
+            {
+              "id": "会社",
+              "name": "会社",
+              "source": null
+            },
+            {
+              "id": "会社",
+              "name": "会社",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "会社中心のキャリア観",
+        "会社中心のキャリア観",
+        "会社",
+        "会社"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "人生中心のキャリア観",
+      "name": "人生中心のキャリア観",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "人生中心のキャリア観",
+              "name": "人生中心のキャリア観",
+              "source": null
+            },
+            {
+              "id": "人生中心のキャリア観",
+              "name": "人生中心のキャリア観",
+              "source": null
+            },
+            {
+              "id": "人生の一部",
+              "name": "人生の一部",
+              "source": null
+            },
+            {
+              "id": "人生",
+              "name": "人生",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "人生中心のキャリア観",
+        "人生中心のキャリア観",
+        "人生の一部",
+        "人生"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "キャリア観",
+      "name": "キャリア観",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "キャリア観",
+              "name": "キャリア観",
+              "source": null
+            },
+            {
+              "id": "キャリア観",
+              "name": "キャリア観",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "キャリア観",
+        "キャリア観"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "天動説",
+      "name": "天動説",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "天動説",
+              "name": "天動説",
+              "source": null
+            },
+            {
+              "id": "天動説",
+              "name": "天動説",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "天動説",
+        "天動説"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "地動説",
+      "name": "地動説",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "地動説",
+              "name": "地動説",
+              "source": null
+            },
+            {
+              "id": "地動説",
+              "name": "地動説",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "地動説",
+        "地動説"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "adventurous dialogue",
+      "name": "adventurous dialogue",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "adventurous dialogue",
+              "name": "adventurous dialogue",
+              "source": null
+            },
+            {
+              "id": "Adventurous Meetings",
+              "name": "Adventurous Meetings",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "adventurous dialogue",
+        "Adventurous Meetings"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ビジネス組織論",
+      "name": "ビジネス組織論",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ビジネス組織論",
+              "name": "ビジネス組織論",
+              "source": null
+            },
+            {
+              "id": "ビジネス用語",
+              "name": "ビジネス用語",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ビジネス組織論",
+        "ビジネス用語"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "facilitation skills",
+      "name": "facilitation skills",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "facilitation skills",
+              "name": "facilitation skills",
+              "source": null
+            },
+            {
+              "id": "facilitator's artistic style",
+              "name": "facilitator's artistic style",
+              "source": null
+            },
+            {
+              "id": "Four Artistic Styles",
+              "name": "Four Artistic Styles",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "facilitation skills",
+        "facilitator's artistic style",
+        "Four Artistic Styles"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "新時代の組織モデル",
+      "name": "新時代の組織モデル",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "新時代の組織モデル",
+              "name": "新時代の組織モデル",
+              "source": null
+            },
+            {
+              "id": "新しい組織モデル",
+              "name": "新しい組織モデル",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "新時代の組織モデル",
+        "新しい組織モデル"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "多様性の価値",
+      "name": "多様性の価値",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "多様性の価値",
+              "name": "多様性の価値",
+              "source": null
+            },
+            {
+              "id": "多様",
+              "name": "多様",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "多様性の価値",
+        "多様"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "2つの探究",
+      "name": "2つの探究",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "2つの探究",
+              "name": "2つの探究",
+              "source": null
+            },
+            {
+              "id": "2つの流れ",
+              "name": "2つの流れ",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "2つの探究",
+        "2つの流れ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ファシリテーション力",
+      "name": "ファシリテーション力",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ファシリテーション力",
+              "name": "ファシリテーション力",
+              "source": null
+            },
+            {
+              "id": "ファシリテーターとしての芸風",
+              "name": "ファシリテーターとしての芸風",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "ファシリテーション力",
+        "ファシリテーターとしての芸風"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "catalytic questions",
+      "name": "catalytic questions",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "catalytic questions",
+              "name": "catalytic questions",
+              "source": null
+            },
+            {
+              "id": "Clear Questions",
+              "name": "Clear Questions",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "catalytic questions",
+        "Clear Questions"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "トップダウン",
+      "name": "トップダウン",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "トップダウン",
+              "name": "トップダウン",
+              "source": null
+            },
+            {
+              "id": "トップリーダーのための話し方",
+              "name": "トップリーダーのための話し方",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "トップダウン",
+        "トップリーダーのための話し方"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "冒険的成長",
+      "name": "冒険的成長",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "冒険的成長",
+              "name": "冒険的成長",
+              "source": null
+            },
+            {
+              "id": "冒険的ミーティング",
+              "name": "冒険的ミーティング",
+              "source": null
+            },
+            {
+              "id": "冒険的・開拓的世界観",
+              "name": "冒険的・開拓的世界観",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "冒険的成長",
+        "冒険的ミーティング",
+        "冒険的・開拓的世界観"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "company-wide assemblies",
+      "name": "company-wide assemblies",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "company-wide assemblies",
+              "name": "company-wide assemblies",
+              "source": null
+            },
+            {
+              "id": "communication skills",
+              "name": "communication skills",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "company-wide assemblies",
+        "communication skills"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "冒険する組織の考え方",
+      "name": "冒険する組織の考え方",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "冒険する組織の考え方",
+              "name": "冒険する組織の考え方",
+              "source": null
+            },
+            {
+              "id": "冒険の羅針盤",
+              "name": "冒険の羅針盤",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "冒険する組織の考え方",
+        "冒険の羅針盤"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "OS",
+      "name": "OS",
+      "text": "OS",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "心理的安全性",
+      "name": "心理的安全性",
+      "text": "心理的安全性",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "1 on 1ミーティング",
+      "name": "1 on 1ミーティング",
+      "text": "1 on 1ミーティング",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "軍隊型組織",
+      "name": "軍隊型組織",
+      "text": "軍隊型組織",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "官僚化",
+      "name": "官僚化",
+      "text": "官僚化",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "大企業病",
+      "name": "大企業病",
+      "text": "大企業病",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "3つの道",
+      "name": "3つの道",
+      "text": "3つの道",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ベンチャー精神",
+      "name": "ベンチャー精神",
+      "text": "ベンチャー精神",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "麦わらの一味",
+      "name": "麦わらの一味",
+      "text": "麦わらの一味",
+      "type": "ORG",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "5つの冒険的レンズ",
+      "name": "5つの冒険的レンズ",
+      "text": "5つの冒険的レンズ",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "目標のレンズ",
+      "name": "目標のレンズ",
+      "text": "目標のレンズ",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "野生の思考",
+      "name": "野生の思考",
+      "text": "野生の思考",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "かし合う仲間",
+      "name": "かし合う仲間",
+      "text": "かし合う仲間",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ドライな組織",
+      "name": "ドライな組織",
+      "text": "ドライな組織",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "創造の場",
+      "name": "創造の場",
+      "text": "創造の場",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "やらされ感",
+      "name": "やらされ感",
+      "text": "やらされ感",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "好奇心・探究心",
+      "name": "好奇心・探究心",
+      "text": "好奇心・探究心",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "理論的枠組み",
+      "name": "理論的枠組み",
+      "text": "理論的枠組み",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "レンズ",
+      "name": "レンズ",
+      "text": "レンズ",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "選択と集中",
+      "name": "選択と集中",
+      "text": "選択と集中",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "分散と修繕",
+      "name": "分散と修繕",
+      "text": "分散と修繕",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "機能別に編成した小隊",
+      "name": "機能別に編成した小隊",
+      "text": "機能別に編成した小隊",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "仲間",
+      "name": "仲間",
+      "text": "仲間",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "RPG",
+      "name": "RPG",
+      "text": "RPG",
+      "type": "PRODUCT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ハイフェッツ",
+      "name": "ハイフェッツ",
+      "text": "ハイフェッツ",
+      "type": "PERSON",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "適応課題",
+      "name": "適応課題",
+      "text": "適応課題",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "伝令と意思決定の場",
+      "name": "伝令と意思決定の場",
+      "text": "伝令と意思決定の場",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "モチベーション",
+      "name": "モチベーション",
+      "text": "モチベーション",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "コミュニケーション",
+      "name": "コミュニケーション",
+      "text": "コミュニケーション",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "察知",
+      "name": "察知",
+      "text": "察知",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "気づき",
+      "name": "気づき",
+      "text": "気づき",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "理解",
+      "name": "理解",
+      "text": "理解",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "深掘り",
+      "name": "深掘り",
+      "text": "深掘り",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "共創",
+      "name": "共創",
+      "text": "共創",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "④成長のレンズ",
+      "name": "④成長のレンズ",
+      "text": "④成長のレンズ",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "やりたいこと",
+      "name": "やりたいこと",
+      "text": "やりたいこと",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "環境",
+      "name": "環境",
+      "text": "環境",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "文化",
+      "name": "文化",
+      "text": "文化",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "土壌",
+      "name": "土壌",
+      "text": "土壌",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "事業戦略",
+      "name": "事業戦略",
+      "text": "事業戦略",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "人と事業の可能性を広げる土壌",
+      "name": "人と事業の可能性を広げる土壌",
+      "text": "人と事業の可能性を広げる土壌",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "チャンドラー",
+      "name": "チャンドラー",
+      "text": "チャンドラー",
+      "type": "PERSON",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "Structure follows Strategy",
+      "name": "Structure follows Strategy",
+      "text": "Structure follows Strategy",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "アンゾフ",
+      "name": "アンゾフ",
+      "text": "アンゾフ",
+      "type": "PERSON",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "哲学",
+      "name": "哲学",
+      "text": "哲学",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "自己実現",
+      "name": "自己実現",
+      "text": "自己実現",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "つじつま合わせ",
+      "name": "つじつま合わせ",
+      "text": "つじつま合わせ",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "整合性",
+      "name": "整合性",
+      "text": "整合性",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ベルトコンベア型の組織",
+      "name": "ベルトコンベア型の組織",
+      "text": "ベルトコンベア型の組織",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "個人の欲望",
+      "name": "個人の欲望",
+      "text": "個人の欲望",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "社会の課題",
+      "name": "社会の課題",
+      "text": "社会の課題",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "バラバラな思惑",
+      "name": "バラバラな思惑",
+      "text": "バラバラな思惑",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "Chapter 6",
+      "name": "Chapter 6",
+      "text": "Chapter 6",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "today's era",
+      "name": "today's era",
+      "text": "today's era",
+      "type": "DATE",
+      "confidence": 0.71,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "4つの芸風",
+      "name": "4つの芸風",
+      "text": "4つの芸風",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "famous MC",
+      "name": "famous MC",
+      "text": "famous MC",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "Misalignment-Free Facilitation",
+      "name": "Misalignment-Free Facilitation",
+      "text": "Misalignment-Free Facilitation",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ズレないファシリテーション",
+      "name": "ズレないファシリテーション",
+      "text": "ズレないファシリテーション",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "daily routine meetings",
+      "name": "daily routine meetings",
+      "text": "daily routine meetings",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "日々の定例ミーティング",
+      "name": "日々の定例ミーティング",
+      "text": "日々の定例ミーティング",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "organizational culture",
+      "name": "organizational culture",
+      "text": "organizational culture",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "Two Flows",
+      "name": "Two Flows",
+      "text": "Two Flows",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "全社総会のデザイン",
+      "name": "全社総会のデザイン",
+      "text": "全社総会のデザイン",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "日常しかない会社",
+      "name": "日常しかない会社",
+      "text": "日常しかない会社",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "dedicated members",
+      "name": "dedicated members",
+      "text": "dedicated members",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "熱心な乗組員",
+      "name": "熱心な乗組員",
+      "text": "熱心な乗組員",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "leaders",
+      "name": "leaders",
+      "text": "leaders",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "起爆剤となる問い",
+      "name": "起爆剤となる問い",
+      "text": "起爆剤となる問い",
+      "type": "CONCEPT",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "KMQT",
+      "name": "KMQT",
+      "text": "KMQT",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "Public Events",
+      "name": "Public Events",
+      "text": "Public Events",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ちぐはぐ感",
+      "name": "ちぐはぐ感",
+      "text": "ちぐはぐ感",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "バーンアウト",
+      "name": "バーンアウト",
+      "text": "バーンアウト",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "燃え尽き症候群",
+      "name": "燃え尽き症候群",
+      "text": "燃え尽き症候群",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "役",
+      "name": "役",
+      "text": "役",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "氷山",
+      "name": "氷山",
+      "text": "氷山",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "転職",
+      "name": "転職",
+      "text": "転職",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "独立",
+      "name": "独立",
+      "text": "独立",
+      "type": "CONCEPT",
+      "confidence": 0.76,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "違和感",
+      "name": "違和感",
+      "text": "違和感",
+      "type": "CONCEPT",
+      "confidence": 0.81,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "work self",
+      "name": "work self",
+      "text": "work self",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "job performance",
+      "name": "job performance",
+      "text": "job performance",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "promotions",
+      "name": "promotions",
+      "text": "promotions",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "burnout",
+      "name": "burnout",
+      "text": "burnout",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "vague dissatisfaction",
+      "name": "vague dissatisfaction",
+      "text": "vague dissatisfaction",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "モヤモヤ",
+      "name": "モヤモヤ",
+      "text": "モヤモヤ",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "human resources",
+      "name": "human resources",
+      "text": "human resources",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "corporate structures",
+      "name": "corporate structures",
+      "text": "corporate structures",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "iceberg",
+      "name": "iceberg",
+      "text": "iceberg",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ミスマッチ",
+      "name": "ミスマッチ",
+      "text": "ミスマッチ",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "言葉",
+      "name": "言葉",
+      "text": "言葉",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "言い回し",
+      "name": "言い回し",
+      "text": "言い回し",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "口癖",
+      "name": "口癖",
+      "text": "口癖",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "兵站",
+      "name": "兵站",
+      "text": "兵站",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "アジャイル",
+      "name": "アジャイル",
+      "text": "アジャイル",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "OODAループ",
+      "name": "OODAループ",
+      "text": "OODAループ",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "米軍",
+      "name": "米軍",
+      "text": "米軍",
+      "type": "ORG",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "クラウゼヴィッツ",
+      "name": "クラウゼヴィッツ",
+      "text": "クラウゼヴィッツ",
+      "type": "PERSON",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ラッール",
+      "name": "ラッール",
+      "text": "ラッール",
+      "type": "PERSON",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "フィードバックループ",
+      "name": "フィードバックループ",
+      "text": "フィードバックループ",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ヴーカ",
+      "name": "ヴーカ",
+      "text": "ヴーカ",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "ランチェスターの法則",
+      "name": "ランチェスターの法則",
+      "text": "ランチェスターの法則",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "平和主義者",
+      "name": "平和主義者",
+      "text": "平和主義者",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "現代の会社組織",
+      "name": "現代の会社組織",
+      "text": "現代の会社組織",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "無意識",
+      "name": "無意識",
+      "text": "無意識",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "企業戦士",
+      "name": "企業戦士",
+      "text": "企業戦士",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "若い世代",
+      "name": "若い世代",
+      "text": "若い世代",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "id": "上からの命令観",
+      "name": "上からの命令観",
+      "text": "上からの命令観",
+      "type": "CONCEPT",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ONE PIECE",
+      "target": "ビジネス組織論",
+      "type": "applied_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "軍事的・競争的世界観",
+      "target": "冒険的・開拓的世界観",
+      "type": "needs_shift_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "心理的安全性",
+      "target": "OS",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "1 on 1ミーティング",
+      "target": "OS",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "軍隊型組織",
+      "target": "官僚化",
+      "type": "undergoes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "軍隊型組織",
+      "target": "大企業病",
+      "type": "falls_into",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "官僚化",
+      "target": "大企業病",
+      "type": "leads_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "3つの道",
+      "target": "官僚化",
+      "type": "escape_path_from",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "3つの道",
+      "target": "大企業病",
+      "type": "escape_path_from",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "ベンチャー精神",
+      "target": "2つの探究",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "麦わらの一味",
+      "target": "ONE PIECE",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "冒険する組織の考え方",
+      "target": "5つの冒険的レンズ",
+      "type": "presents",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "目標のレンズ",
+      "target": "Quest",
+      "type": "transforms_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "目標のレンズ",
+      "target": "野生の思考",
+      "type": "prevents_loss_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "チームのレンズ",
+      "target": "戦士だけのパーティ",
+      "type": "describes_transition_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "チームのレンズ",
+      "target": "かし合う仲間",
+      "type": "describes_transition_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "戦士だけのパーティ",
+      "target": "かし合う仲間",
+      "type": "transforms_into",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "ドライな組織",
+      "target": "戦士だけのパーティ",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "会議のレンズ",
+      "target": "軍略会議",
+      "type": "shifts_from",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "会議のレンズ",
+      "target": "創造の場",
+      "type": "shifts_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "軍略会議",
+      "target": "創造の場",
+      "type": "transforms_into",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "会議のレンズ",
+      "target": "雑談",
+      "type": "requires_distinction_of",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "会議のレンズ",
+      "target": "討論",
+      "type": "requires_distinction_of",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "会議のレンズ",
+      "target": "議論",
+      "type": "requires_distinction_of",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "雑談",
+      "target": "討論",
+      "type": "related_to",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "討論",
+      "target": "議論",
+      "type": "related_to",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "雑談",
+      "target": "議論",
+      "type": "related_to",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "レンズ",
+      "target": "理論的枠組み",
+      "type": "provides",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "理論的枠組み",
+      "target": "やらされ感",
+      "type": "transforms_from",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "理論的枠組み",
+      "target": "好奇心・探究心",
+      "type": "transforms_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織変革",
+      "target": "クエストのレンズ",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織変革",
+      "target": "チームのレンズ",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織変革",
+      "target": "会議のレンズ",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織変革",
+      "target": "成長のレンズ",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織変革",
+      "target": "組織のレンズ",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "イノベーション",
+      "target": "クエストのレンズ",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "イノベーション",
+      "target": "チームのレンズ",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "イノベーション",
+      "target": "会議のレンズ",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "イノベーション",
+      "target": "成長のレンズ",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "イノベーション",
+      "target": "組織のレンズ",
+      "type": "uses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "クエストのレンズ",
+      "target": "Question",
+      "type": "transforms_into",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "Quest",
+      "target": "Question",
+      "type": "depends_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "パラダイムシフト",
+      "target": "選択と集中",
+      "type": "transitions_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "パラダイムシフト",
+      "target": "分散と修繕",
+      "type": "transitions_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "分散と修繕",
+      "target": "パラダイムシフト",
+      "type": "is_new_approach_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "選択と集中",
+      "target": "パラダイムシフト",
+      "type": "is_previous_approach_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "チームのレンズ",
+      "target": "機能別に編成した小隊",
+      "type": "transforms_team_view_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "チームのレンズ",
+      "target": "仲間",
+      "type": "transforms_team_view_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "多様性の価値",
+      "target": "RPG",
+      "type": "analogized_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "戦士だけのパーティ",
+      "target": "RPG",
+      "type": "used_as_example_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "戦士だけのパーティ",
+      "target": "多様性の価値",
+      "type": "illustrates_importance_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "ハイフェッツ",
+      "target": "適応課題",
+      "type": "refers_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "会議のレンズ",
+      "target": "伝令と意思決定の場",
+      "type": "redefines_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "会議のレンズ",
+      "target": "対話と価値創造の場",
+      "type": "redefines_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "軍略型会議",
+      "target": "軍略会議",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "トップダウン",
+      "target": "軍略会議",
+      "type": "characterizes",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "軍略会議",
+      "target": "モチベーション",
+      "type": "negatively_affects",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "軍略型会議",
+      "target": "モチベーション",
+      "type": "has_drawback_involving",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "対話",
+      "target": "コミュニケーション",
+      "type": "type_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "対話",
+      "target": "雑談",
+      "type": "differs_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "対話",
+      "target": "討論",
+      "type": "differs_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "対話",
+      "target": "議論",
+      "type": "differs_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "対話",
+      "target": "察知",
+      "type": "has_step",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "対話",
+      "target": "理解",
+      "type": "has_step",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "対話",
+      "target": "共創",
+      "type": "has_step",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "察知",
+      "target": "気づき",
+      "type": "equivalent_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "理解",
+      "target": "深掘り",
+      "type": "equivalent_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "察知",
+      "target": "理解",
+      "type": "precedes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "理解",
+      "target": "共創",
+      "type": "precedes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "察知",
+      "target": "対話",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "理解",
+      "target": "対話",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "共創",
+      "target": "対話",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "④成長のレンズ",
+      "target": "冒険的成長",
+      "type": "emphasizes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "④成長のレンズ",
+      "target": "アイデンティティ",
+      "type": "emphasizes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "自分らしさ",
+      "target": "アイデンティティ",
+      "type": "equated_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "アイデンティティ",
+      "target": "成長",
+      "type": "key_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "やりたいこと",
+      "target": "アイデンティティ",
+      "type": "related_to",
+      "confidence": 0.75,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織のレンズ",
+      "target": "環境",
+      "type": "emphasizes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織のレンズ",
+      "target": "文化",
+      "type": "emphasizes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "環境",
+      "target": "文化",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "戦略",
+      "target": "組織のレンズ",
+      "type": "is_not_main_focus_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織文化",
+      "target": "土壌",
+      "type": "metaphorically_represented_as",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "土壌",
+      "target": "イノベーション",
+      "type": "cultivated_to_foster",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織文化",
+      "target": "イノベーション",
+      "type": "enables",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "パラダイムシフト",
+      "target": "成長のレンズ",
+      "type": "located_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "自分らしさ",
+      "target": "アイデンティティ",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織のレンズ",
+      "target": "事業戦略",
+      "type": "transforms_from_means_for",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織のレンズ",
+      "target": "人と事業の可能性を広げる土壌",
+      "type": "transforms_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "チャンドラー",
+      "target": "組織は戦略に従う",
+      "type": "proposed",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織は戦略に従う",
+      "target": "Structure follows Strategy",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "会社",
+      "target": "組織構造",
+      "type": "equivalent_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織構造",
+      "target": "戦略",
+      "type": "follows",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "戦略",
+      "target": "会社",
+      "type": "is_main_relative_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "戦略は組織に従う",
+      "target": "アンゾフ",
+      "type": "is_reverse_proposition_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織開発",
+      "target": "哲学",
+      "type": "has",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "冒険の羅針盤",
+      "target": "自己実現",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "冒険の羅針盤",
+      "target": "新時代の組織モデル",
+      "type": "presents",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織づくり",
+      "target": "つじつま合わせ",
+      "type": "has_challenge",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "つじつま合わせ",
+      "target": "整合性",
+      "type": "equivalent_to",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "つじつま合わせ",
+      "target": "多様",
+      "type": "based_on",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織づくり",
+      "target": "多様",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "ベルトコンベア型の組織",
+      "target": "新しい組織モデル",
+      "type": "transitions_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "新しい組織モデル",
+      "target": "個人の欲望",
+      "type": "integrates",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "新しい組織モデル",
+      "target": "社会の課題",
+      "type": "integrates",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "新しい組織モデル",
+      "target": "バラバラな思惑",
+      "type": "integrates",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "Chapter 6",
+      "target": "対話の場づくり",
+      "type": "focuses_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "対話の場づくり",
+      "target": "adventurous dialogue",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "Chapter 6",
+      "target": "KEY 9",
+      "type": "introduces",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "Chapter 6",
+      "target": "KEY 10",
+      "type": "introduces",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "Chapter 6",
+      "target": "KEY 11",
+      "type": "introduces",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "KEY 9",
+      "target": "Chapter 6",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "KEY 10",
+      "target": "Chapter 6",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "KEY 11",
+      "target": "Chapter 6",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "KEY 9",
+      "target": "facilitation skills",
+      "type": "addresses",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "facilitation skills",
+      "target": "ファシリテーション力",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "KEY 9",
+      "target": "facilitator's artistic style",
+      "type": "emphasizes",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "today's era",
+      "target": "facilitator's artistic style",
+      "type": "requires_development_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "facilitator's artistic style",
+      "target": "ファシリテーターとしての芸風",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "Four Artistic Styles",
+      "target": "4つの芸風",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "Four Artistic Styles",
+      "target": "famous MC",
+      "type": "preferred_over",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "Misalignment-Free Facilitation",
+      "target": "ズレないファシリテーション",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "KEY 10",
+      "target": "daily routine meetings",
+      "type": "focuses_on",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "daily routine meetings",
+      "target": "日々の定例ミーティング",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "daily routine meetings",
+      "target": "organizational culture",
+      "type": "contains_essence_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "Two Flows",
+      "target": "2つの流れ",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "Adventurous Meetings",
+      "target": "冒険的ミーティング",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "KEY 11",
+      "target": "company-wide assemblies",
+      "type": "discusses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "KEY 11",
+      "target": "全社総会のデザイン",
+      "type": "discusses",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "KEY 11",
+      "target": "日常しかない会社",
+      "type": "warns_about",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "company-wide assemblies",
+      "target": "全社総会のデザイン",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "dedicated members",
+      "target": "熱心な乗組員",
+      "type": "related_to",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "dedicated members",
+      "target": "communication skills",
+      "type": "needs",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "dedicated members",
+      "target": "catalytic questions",
+      "type": "needs",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "熱心な乗組員",
+      "target": "トップリーダーのための話し方",
+      "type": "needs",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "熱心な乗組員",
+      "target": "起爆剤となる問い",
+      "type": "needs",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "leaders",
+      "target": "communication skills",
+      "type": "needs",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "leaders",
+      "target": "catalytic questions",
+      "type": "needs",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "leaders",
+      "target": "トップリーダーのための話し方",
+      "type": "needs",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "communication skills",
+      "target": "トップリーダーのための話し方",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "catalytic questions",
+      "target": "起爆剤となる問い",
+      "type": "related_to",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "KMQT",
+      "target": "Public Events",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "KMQT",
+      "target": "Clear Questions",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "Public Events",
+      "target": "Clear Questions",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "バーンアウト",
+      "target": "燃え尽き症候群",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "ちぐはぐ感",
+      "target": "バーンアウト",
+      "type": "can_lead_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "組織",
+      "target": "役",
+      "type": "seeks",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "役",
+      "target": "組織人",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "転職",
+      "target": "氷山",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "独立",
+      "target": "氷山",
+      "type": "part_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "違和感",
+      "target": "氷山",
+      "type": "accumulates_under",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "job performance",
+      "target": "promotions",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "job performance",
+      "target": "burnout",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "promotions",
+      "target": "burnout",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "vague dissatisfaction",
+      "target": "モヤモヤ",
+      "type": "equivalent_to",
+      "confidence": 0.98,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "vague dissatisfaction",
+      "target": "human resources",
+      "type": "underlies",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "vague dissatisfaction",
+      "target": "corporate structures",
+      "type": "underlies",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "vague dissatisfaction",
+      "target": "iceberg",
+      "type": "is_hidden_portion_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "世界観",
+      "target": "世界観",
+      "type": "mismatches_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "ミスマッチ",
+      "target": "世界観",
+      "type": "exists_between",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "言葉",
+      "target": "世界観",
+      "type": "provides_clue_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "世界観",
+      "target": "言い回し",
+      "type": "appears_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "世界観",
+      "target": "口癖",
+      "type": "appears_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "言い回し",
+      "target": "言葉",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "口癖",
+      "target": "言葉",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "ビジネス用語",
+      "target": "軍事関連",
+      "type": "contains_terms_derived_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "戦略",
+      "target": "ビジネス用語",
+      "type": "is_most_frequently_used_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "戦略",
+      "target": "軍事関連",
+      "type": "has_origin_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "戦術",
+      "target": "兵站",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "兵站",
+      "target": "ロジスティクス",
+      "type": "equivalent_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "アジャイル",
+      "target": "米軍",
+      "type": "originated_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "OODAループ",
+      "target": "米軍",
+      "type": "originated_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "VUCA",
+      "target": "米軍",
+      "type": "originated_from",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "ラッール",
+      "target": "クラウゼヴィッツ",
+      "type": "is_misspelling_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "孫子の兵法",
+      "target": "クラウゼヴィッツ",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "VUCA",
+      "target": "ヴーカ",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "孫子の兵法",
+      "target": "ランチェスターの法則",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "平和主義者",
+      "target": "軍事的な発想",
+      "type": "uses",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "会社中心のキャリア観",
+      "target": "人生中心のキャリア観",
+      "type": "transitions_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "キャリア観",
+      "target": "会社中心のキャリア観",
+      "type": "includes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "キャリア観",
+      "target": "人生中心のキャリア観",
+      "type": "includes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "人生中心のキャリア観",
+      "target": "人生の一部",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "天動説",
+      "target": "地動説",
+      "type": "shifts_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "パラダイムシフト",
+      "target": "天動説",
+      "type": "analogous_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "パラダイムシフト",
+      "target": "地動説",
+      "type": "analogous_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "軍事的世界観",
+      "target": "無意識",
+      "type": "permeates",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "無意識",
+      "target": "現代の会社組織",
+      "type": "part_of",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "軍事的世界観",
+      "target": "現代の会社組織",
+      "type": "related_to",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "会社で働く個人たち",
+      "target": "軍事的世界観",
+      "type": "accepted_as_taken_for_granted",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "会社中心のキャリア観",
+      "target": "組織のミッション",
+      "type": "prioritizes",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "天動説",
+      "target": "地動説",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "若い世代",
+      "target": "人生",
+      "type": "has_main_proposition",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "若い世代",
+      "target": "会社",
+      "type": "does_not_prioritize",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "若い世代",
+      "target": "人生中心のキャリア観",
+      "type": "shifting_towards",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    },
+    {
+      "source": "上からの命令観",
+      "target": "キャリア観",
+      "type": "is_a",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+      },
+      "book_key": "Bouken_suru_Soshiki_no_Tsukurikata"
+    }
+  ],
+  "metadata": {
+    "num_entities": 147,
+    "num_relationships": 194,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-31T11:32:59.888323",
+    "entity_resolution_applied": true,
+    "book_key": "Bouken_suru_Soshiki_no_Tsukurikata",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}
