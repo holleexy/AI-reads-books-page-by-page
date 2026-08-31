@@ -53,17 +53,24 @@ def summary_path(book_key: str, repo_root: Path | None = None) -> Path:
     return matches[-1]
 
 
+def count_knowledge(book_key: str, repo_root: Path | None = None) -> int:
+    return len(load_knowledge(book_key, limit=None, offset=0, repo_root=repo_root))
+
+
 def load_knowledge(
     book_key: str,
     limit: int | None = None,
     repo_root: Path | None = None,
+    offset: int = 0,
 ) -> list[dict]:
     path = knowledge_path(book_key, repo_root=repo_root)
     if not path.is_file():
         raise FileNotFoundError(f"knowledge JSON not found: {path}")
     payload = json.loads(path.read_text(encoding="utf-8"))
     items = normalize_knowledge(payload.get("knowledge") or [])
-    if limit is not None:
+    start = max(0, int(offset or 0))
+    items = items[start:]
+    if limit is not None and int(limit) > 0:
         items = items[: int(limit)]
     return items
 

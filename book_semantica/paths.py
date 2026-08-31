@@ -19,6 +19,9 @@ HERMES_EXPLORER_PORT = 8766
 DEFAULT_LIMIT = 80
 DEFAULT_BOOK_KEY = "労務入門.ocr"
 DEFAULT_MODEL = "grok-4.6"
+BATCH_STATE_FILENAME = "batch_state.json"
+EXTRACT_CACHE_FILENAME = "extract_cache.json"
+MANIFEST_RELPATH = Path("book_analysis/semantica/manifest.jsonl")
 
 
 class ForbiddenOutputPath(RuntimeError):
@@ -51,6 +54,25 @@ def assert_safe_output_path(path: Path | str) -> Path:
             f"refusing to write Hermes graph: {forbidden}"
         )
     return resolved
+
+
+def assert_output_directory(path: Path | str) -> Path:
+    """Treat existing files and the Hermes work graph as forbidden file outputs.
+
+    A path is a file only if it already exists as a file, or it is exactly
+    HERMES_GRAPH_PATH (even when that file does not exist yet). Book keys such
+    as ``採用入門.ocr`` are directories: a suffix alone is not a file.
+    Nonexistent paths are directories to create.
+    """
+    candidate = Path(path)
+    if candidate.is_file():
+        assert_safe_output_path(candidate)
+        raise ForbiddenOutputPath(
+            f"output_dir must be a directory, not a file: {candidate}"
+        )
+    assert_safe_output_path(candidate)
+    assert_safe_output_path(candidate / "graph.json")
+    return candidate
 
 
 def assert_viewer_port(port: int) -> int:

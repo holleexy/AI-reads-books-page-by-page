@@ -24,3 +24,5 @@
 - [既存コーパスは取り直さない](12-no-full-reextract.md)
 - [品質のすきまを、プログラムを追わない人向けに](15-quality-gaps-plain.md)
 - [同じすきまが戻らないようにした](16-quality-recurrence-plain.md)
+- [50冊以上・増加前提での置き場](17-scale-stores.md)
+- [50冊以上やるとき、別のデータベースは要るか](18-scale-stores-plain.md)

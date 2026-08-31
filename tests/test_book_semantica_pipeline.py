@@ -276,6 +276,86 @@ class MockedPipelineTests(unittest.TestCase):
                     extract_entities_relations=_fake_extract,
                 )
 
+    def test_run_book_accepts_ocr_suffix_output_dir(self):
+        from book_semantica.pipeline import RunConfig, _resolve_output_dir, run_book
+
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            kb = root / "book_analysis" / "knowledge_bases"
+            summaries = root / "book_analysis" / "summaries"
+            kb.mkdir(parents=True)
+            summaries.mkdir(parents=True)
+            (kb / "採用入門.ocr_knowledge.json").write_text(
+                json.dumps(
+                    {
+                        "knowledge": [
+                            "採用は人と組織を結びつけることである。",
+                            {"text": "母集団形成は採用の起点である。", "page": 4},
+                            {"text": "選考は基準を揃えることである。", "page": 9},
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            (summaries / "採用入門.ocr_final_001.md").write_text(
+                "採用は人と組織を結びつける。\n",
+                encoding="utf-8",
+            )
+            out = root / "採用入門.ocr"
+            config = RunConfig(
+                book_key="採用入門.ocr",
+                limit=3,
+                repo_root=root,
+                output_dir=out,
+            )
+            self.assertEqual(_resolve_output_dir(config), out)
+            result = run_book(
+                config,
+                generate_ontology=_fake_ontology,
+                extract_entities_relations=_fake_extract,
+            )
+            self.assertEqual(result, out)
+            graph = json.loads((out / "graph.json").read_text(encoding="utf-8"))
+            self.assertGreaterEqual(len(graph.get("entities") or []), 1)
+
+    def test_run_batch_ocr_key_succeeds_without_replacing_run_book(self):
+        from book_semantica.batch import run_batch
+
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            kb = root / "book_analysis" / "knowledge_bases"
+            summaries = root / "book_analysis" / "summaries"
+            kb.mkdir(parents=True)
+            summaries.mkdir(parents=True)
+            (kb / "採用入門.ocr_knowledge.json").write_text(
+                json.dumps(
+                    {
+                        "knowledge": [
+                            "採用は人と組織を結びつけることである。",
+                            {"text": "母集団形成は採用の起点である。", "page": 4},
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            (summaries / "採用入門.ocr_final_001.md").write_text(
+                "採用は人と組織を結びつける。\n",
+                encoding="utf-8",
+            )
+            rows = run_batch(
+                repo_root=root,
+                extract_entities_relations=_fake_extract,
+                generate_ontology=_fake_ontology,
+                book_keys=["採用入門.ocr"],
+                limit=2,
+            )
+            row = {item["book_key"]: item for item in rows}["採用入門.ocr"]
+            self.assertEqual(row["status"], "success", row.get("error"))
+            self.assertNotIn("must be a directory", row.get("error") or "")
+            self.assertEqual(row["item_count"], 2)
+
     def test_value_conflicts_are_detected(self):
         from book_semantica.graph import detect_conflicts
 

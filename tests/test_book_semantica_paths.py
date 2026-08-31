@@ -62,6 +62,23 @@ class OutputPathTests(unittest.TestCase):
         target = paths.book_output_dir("労務入門.ocr") / "graph.json"
         paths.assert_safe_output_path(target)
 
+    def test_assert_output_directory_accepts_ocr_suffix_path(self):
+        with TemporaryDirectory() as tmp:
+            out = Path(tmp) / "採用入門.ocr"
+            self.assertEqual(paths.assert_output_directory(out), out)
+
+    def test_assert_output_directory_rejects_existing_file(self):
+        with TemporaryDirectory() as tmp:
+            target = Path(tmp) / "notes.txt"
+            target.write_text("x\n", encoding="utf-8")
+            with self.assertRaises(paths.ForbiddenOutputPath) as caught:
+                paths.assert_output_directory(target)
+            self.assertIn("must be a directory, not a file", str(caught.exception))
+
+    def test_assert_output_directory_rejects_hermes_graph(self):
+        with self.assertRaises(paths.ForbiddenOutputPath):
+            paths.assert_output_directory(paths.HERMES_GRAPH_PATH)
+
     def test_book_output_dir_is_not_hermes_graph(self):
         out = paths.book_output_dir("労務入門.ocr")
         self.assertNotEqual(out.resolve(), paths.HERMES_GRAPH_PATH.resolve())
