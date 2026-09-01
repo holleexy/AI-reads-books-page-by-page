@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 
 XAI_OAUTH_CLIENT_ID = "b1a00492-073a-47ea-816f-4c329264a828"
 DEFAULT_TOKEN_ENDPOINT = "https://auth.x.ai/oauth2/token"
-REFRESH_SKEW_SECONDS = 120
+REFRESH_SKEW_SECONDS = 3600
 
 
 class XaiOAuthError(RuntimeError):
@@ -74,20 +74,20 @@ def unwrap_tokens(state: dict | None) -> tuple[dict, dict]:
 
 def access_token_needs_refresh(access_token: str, *, skew_seconds: int = REFRESH_SKEW_SECONDS) -> bool:
     if not isinstance(access_token, str) or "." not in access_token:
-        return False
+        return True
     try:
         parts = access_token.split(".")
         if len(parts) < 2:
-            return False
+            return True
         payload_b64 = parts[1]
         payload_b64 += "=" * (-len(payload_b64) % 4)
         payload = json.loads(base64.urlsafe_b64decode(payload_b64.encode("ascii")).decode("utf-8"))
         exp = payload.get("exp")
         if not isinstance(exp, (int, float)):
-            return False
+            return True
         return float(exp) <= time.time() + max(0, int(skew_seconds))
     except Exception:
-        return False
+        return True
 
 
 def validate_token_endpoint(url: str) -> str:
@@ -282,7 +282,5 @@ def resolve_access_token(*, force_refresh: bool = False) -> str | None:
                 pool_index=cred["pool_index"],
             )
             return payload["access_token"]
-        if force_refresh:
-            return None
-        return creds[0]["access"]
+        continue
     return None

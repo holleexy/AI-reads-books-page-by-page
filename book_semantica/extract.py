@@ -8,13 +8,77 @@ from __future__ import annotations
 
 from typing import Any
 
+import os
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+import xai_oauth
 from book_semantica.paths import DEFAULT_MODEL
 from book_semantica.provenance import stamp_entity, stamp_relation
-from book_semantica.xai_provider import register_xai_provider
 
 
 class LLMExtractionError(RuntimeError):
     """xAI / LLM extraction failed. Pattern NER was not used."""
+
+
+_oauth_refresh_lock = threading.Lock()
+
+
+def _is_auth_error(exc: Exception) -> bool:
+    name = type(exc).__name__.lower()
+    msg = str(exc).lower()
+    if "authentication" in name or "permissiondenied" in name:
+        return True
+    return any(
+        token in msg
+        for token in (
+            "unauthenticated",
+            "bad-credentials",
+            "invalid_api_key",
+            "unauthorized",
+            "403",
+        )
+    )
+
+
+def _extract_llm_kwargs(config) -> dict:
+    model = getattr(config, "model", None) or DEFAULT_MODEL
+    kwargs = {
+        "provider": "xai",
+        "llm_model": model,
+        "model": model,
+        "silent_fail": False,
+    }
+    api_key = os.environ.get("XAI_API_KEY")
+    if api_key:
+        kwargs["api_key"] = api_key
+    return kwargs
+
+
+def _refresh_xai_access_token() -> str | None:
+    with _oauth_refresh_lock:
+        token = xai_oauth.resolve_access_token(force_refresh=True)
+        if token:
+            os.environ["XAI_API_KEY"] = token
+        return token
+
+
+def _call_llm_with_auth_retry(fn, *args, fail_label: str, config):
+    kwargs = _extract_llm_kwargs(config)
+    try:
+        return fn(*args, **kwargs)
+    except Exception as exc:
+        if not _is_auth_error(exc):
+            raise LLMExtractionError(f"{fail_label}: {exc}") from exc
+        token = _refresh_xai_access_token()
+        if not token:
+            raise LLMExtractionError(f"{fail_label}: {exc}") from exc
+        retry_kwargs = _extract_llm_kwargs(config)
+        retry_kwargs["api_key"] = token
+        try:
+            return fn(*args, **retry_kwargs)
+        except Exception as retry_exc:
+            raise LLMExtractionError(f"{fail_label}: {retry_exc}") from retry_exc
 
 
 def _entity_to_dict(entity: Any, book_key: str, page: int | None) -> dict:
@@ -86,52 +150,101 @@ def _reject_pattern_entities(entities: list) -> None:
             )
 
 
+def _extract_concurrency(config) -> int:
+    raw = getattr(config, "extract_concurrency", None)
+    if raw is None:
+        raw = os.environ.get("EXTRACT_CONCURRENCY", "2")
+    try:
+        value = int(raw)
+    except (TypeError, ValueError):
+        value = 2
+    return max(1, min(4, value))
+
+
+def _extract_one_item(
+    item: dict,
+    config,
+    extract_ents,
+    extract_rels,
+) -> tuple[list[dict], list[dict]]:
+    text = item.get("text") or ""
+    if not text.strip():
+        return [], []
+    book_key = getattr(config, "book_key")
+    page = item.get("page")
+    extracted = _call_llm_with_auth_retry(
+        extract_ents,
+        text,
+        fail_label="LLM NER failed",
+        config=config,
+    )
+    _reject_pattern_entities(extracted)
+    entities = [_entity_to_dict(ent, book_key, page) for ent in extracted or []]
+    if not extracted:
+        return entities, []
+    extracted_rels = _call_llm_with_auth_retry(
+        extract_rels,
+        text,
+        extracted,
+        fail_label="LLM relation extraction failed",
+        config=config,
+    )
+    relations = [_relation_to_dict(rel, book_key, page) for rel in extracted_rels or []]
+    return entities, relations
+
+
+def _extract_items(
+    items: list[dict],
+    config,
+    extract_ents,
+    extract_rels,
+) -> tuple[list[dict], list[dict], dict[str, str]]:
+    workers = _extract_concurrency(config)
+    indexed = list(enumerate(items))
+    slots: list[tuple[list[dict], list[dict]] | None] = [None] * len(indexed)
+
+    def run_one(pair: tuple[int, dict]) -> tuple[int, list[dict], list[dict]]:
+        index, item = pair
+        ents, rels = _extract_one_item(item, config, extract_ents, extract_rels)
+        return index, ents, rels
+
+    if workers == 1 or len(items) <= 1:
+        for index, item in indexed:
+            ents, rels = _extract_one_item(item, config, extract_ents, extract_rels)
+            slots[index] = (ents, rels)
+    else:
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = [pool.submit(run_one, pair) for pair in indexed]
+            try:
+                for future in as_completed(futures):
+                    index, ents, rels = future.result()
+                    slots[index] = (ents, rels)
+            except Exception:
+                for future in futures:
+                    future.cancel()
+                raise
+
+    entities: list[dict] = []
+    relations: list[dict] = []
+    for slot in slots:
+        if slot is None:
+            continue
+        ents, rels = slot
+        entities.extend(ents)
+        relations.extend(rels)
+    return entities, relations, {"ner_method": "llm", "relation_method": "llm"}
+
+
 def extract_entities_relations(
     items: list[dict], config
 ) -> tuple[list[dict], list[dict], dict[str, str]]:
-    register_xai_provider()
+    from book_semantica.xai_provider import register_xai_provider
     from semantica.semantic_extract.methods import (
         get_entity_method,
         get_relation_method,
     )
 
-    model = getattr(config, "model", None) or DEFAULT_MODEL
-    book_key = getattr(config, "book_key")
+    register_xai_provider()
     extract_ents = get_entity_method("llm")
     extract_rels = get_relation_method("llm")
-    entities: list[dict] = []
-    relations: list[dict] = []
-    for item in items:
-        text = item.get("text") or ""
-        if not text.strip():
-            continue
-        page = item.get("page")
-        try:
-            extracted = extract_ents(
-                text,
-                provider="xai",
-                llm_model=model,
-                model=model,
-                silent_fail=False,
-            )
-        except Exception as exc:
-            raise LLMExtractionError(f"LLM NER failed: {exc}") from exc
-        _reject_pattern_entities(extracted)
-        entities.extend(_entity_to_dict(ent, book_key, page) for ent in extracted or [])
-        if not extracted:
-            continue
-        try:
-            extracted_rels = extract_rels(
-                text,
-                extracted,
-                provider="xai",
-                llm_model=model,
-                model=model,
-                silent_fail=False,
-            )
-        except Exception as exc:
-            raise LLMExtractionError(f"LLM relation extraction failed: {exc}") from exc
-        relations.extend(
-            _relation_to_dict(rel, book_key, page) for rel in extracted_rels or []
-        )
-    return entities, relations, {"ner_method": "llm", "relation_method": "llm"}
+    return _extract_items(items, config, extract_ents, extract_rels)

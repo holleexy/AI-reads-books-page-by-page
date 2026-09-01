@@ -72,13 +72,27 @@ class JwtExpiryTests(unittest.TestCase):
         self.assertTrue(xai_oauth.access_token_needs_refresh(token))
 
     def test_fresh_jwt_does_not_need_refresh(self):
-        token = fake_jwt(exp=int(time.time()) + 3600)
+        token = fake_jwt(exp=int(time.time()) + 7200)
         self.assertFalse(xai_oauth.access_token_needs_refresh(token))
+
+    def test_opaque_non_jwt_needs_refresh(self):
+        self.assertTrue(xai_oauth.access_token_needs_refresh("opaque-provider-access"))
+
+    def test_token_expiring_in_30_minutes_needs_refresh(self):
+        token = fake_jwt(exp=int(time.time()) + 1800)
+        self.assertTrue(xai_oauth.access_token_needs_refresh(token))
+
+    def test_unparseable_jwt_needs_refresh(self):
+        self.assertTrue(xai_oauth.access_token_needs_refresh("abc.!!!not-json!!!.sig"))
+
+    def test_jwt_missing_exp_needs_refresh(self):
+        token = f"{_b64url({'alg': 'none'})}.{_b64url({'sub': 'no-exp'})}.sig"
+        self.assertTrue(xai_oauth.access_token_needs_refresh(token))
 
 
 class ResolveAccessTokenTests(unittest.TestCase):
     def test_reads_valid_token_from_auth_json(self):
-        token = fake_jwt(exp=int(time.time()) + 3600)
+        token = fake_jwt(exp=int(time.time()) + 7200)
         with self._auth_file(nested_store(access=token)) as path:
             with patch.dict(os.environ, {"XAI_OAUTH_AUTH_JSON": str(path), "XAI_DISABLE_OAUTH": ""}, clear=False):
                 os.environ.pop("XAI_DISABLE_OAUTH", None)
@@ -87,7 +101,7 @@ class ResolveAccessTokenTests(unittest.TestCase):
 
     def test_prefers_fresh_pool_token_over_expired_provider(self):
         stale = fake_jwt(exp=int(time.time()) - 10)
-        fresh = fake_jwt(exp=int(time.time()) + 3600)
+        fresh = fake_jwt(exp=int(time.time()) + 7200)
         store = nested_store(access=stale, refresh="stale-refresh")
         store["credential_pool"] = {
             "xai-oauth": [
@@ -129,14 +143,40 @@ class ResolveAccessTokenTests(unittest.TestCase):
         with self.assertRaisesRegex(xai_oauth.XaiOAuthError, "token_endpoint"):
             xai_oauth.validate_token_endpoint("https://evil.example/oauth2/token")
 
-    def test_keeps_expired_token_when_refresh_fails(self):
+    def test_returns_none_when_refresh_fails(self):
         old = fake_jwt(exp=int(time.time()) - 10)
         with self._auth_file(nested_store(access=old, refresh="dead-refresh")) as path:
             with patch.object(xai_oauth, "refresh_tokens", side_effect=xai_oauth.XaiOAuthError("invalid_grant")):
                 with patch.dict(os.environ, {"XAI_OAUTH_AUTH_JSON": str(path)}, clear=False):
                     os.environ.pop("XAI_DISABLE_OAUTH", None)
                     resolved = xai_oauth.resolve_access_token()
-        self.assertEqual(resolved, old)
+        self.assertIsNone(resolved)
+
+    def test_skips_failed_file_and_tries_next_candidate(self):
+        dead = fake_jwt(exp=int(time.time()) - 10)
+        stale_next = fake_jwt(exp=int(time.time()) - 5)
+        live = fake_jwt(exp=int(time.time()) + 7200)
+        with self._auth_file(nested_store(access=dead, refresh="dead-refresh")) as dead_path:
+            with self._auth_file(nested_store(access=stale_next, refresh="live-refresh")) as live_path:
+                with patch.object(xai_oauth, "candidate_auth_files", return_value=[dead_path, live_path]):
+                    with patch.object(
+                        xai_oauth,
+                        "refresh_tokens",
+                        side_effect=[
+                            xai_oauth.XaiOAuthError("invalid_grant"),
+                            {
+                                "access_token": live,
+                                "refresh_token": "next-refresh",
+                                "expires_in": 21600,
+                            },
+                        ],
+                    ) as refresh:
+                        with patch.dict(os.environ, {}, clear=False):
+                            os.environ.pop("XAI_DISABLE_OAUTH", None)
+                            os.environ.pop("XAI_OAUTH_AUTH_JSON", None)
+                            resolved = xai_oauth.resolve_access_token()
+        self.assertEqual(resolved, live)
+        self.assertEqual(refresh.call_count, 2)
 
     def test_disable_env_skips_oauth(self):
         token = fake_jwt(exp=int(time.time()) + 3600)

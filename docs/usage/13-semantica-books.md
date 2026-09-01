@@ -54,6 +54,8 @@ SHACL の `xsd:xsd:string` は書き出し時に `xsd:string` へ直す。
 2. Hermes の xAI OAuth（このリポの `.venv` で `xai_oauth` を呼び、取れたトークンを子プロセスの `XAI_API_KEY` にする）
 3. `bws run` があるときは、その注入
 
+OAuth の access は、失効の1時間前（`REFRESH_SKEW_SECONDS` が 3600 以上）に更新する。JWT でないキーは「まだ使える」とみなさない。抽出中に NER / 関係 LLM が HTTP 403 や `unauthenticated` / `bad-credentials` を返したら、`force_refresh` して `XAI_API_KEY` を差し替え、その知識点だけもう一度 LLM を呼ぶ。英語のパターン NER には落ちない。冊内の同時実行（既定2）でも refresh はロックで一本化する。refresh が全部失敗したときは期限切れの access を使わず、次の auth ファイルを試す。
+
 件数を減らして試すときは `--limit 3` にする。
 1冊の途中から再開するときは `--offset` を付ける。済みスライスは再抽出せず、蓄積した項目と結びからグラフを組み直す。
 
@@ -86,6 +88,8 @@ SHACL の `xsd:xsd:string` は書き出し時に `xsd:string` へ直す。
 ```
 
 `batch` のライブ実行は Semantica の venv が要る。チャンク既定は 80 件である。
+知識点ごとの LLM は既定で 2 本同時である。`EXTRACT_CONCURRENCY=1` で直列に戻せる。上限は 4 である。
+冊の同時数は上げない。swap が満杯のあいだ 3 冊以上は出さない。
 全件は `--all-points` または `--limit 0` を明示したときだけである。
 
 ```bash
