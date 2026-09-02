@@ -7,7 +7,7 @@ from enum import Enum
 from typing import Any
 
 from book_semantica.provenance import stamp_entity
-from book_semantica.quality import collect_duplicates, filter_conflicts
+from book_semantica.quality import collect_duplicates, drop_identity_edges, filter_conflicts
 
 
 def _jsonable(value: Any) -> Any:
@@ -72,12 +72,14 @@ def build_graph(entities: list[dict], relationships: list[dict]) -> dict[str, An
     from semantica.kg import GraphBuilder
 
     builder = GraphBuilder(merge_entities=True, resolve_conflicts=True)
-    return builder.build(
+    graph = builder.build(
         {"entities": entities, "relationships": relationships},
         extract=False,
         extract_relations=False,
         extract_triplets=False,
     )
+    graph["relationships"] = drop_identity_edges(graph.get("relationships") or [])
+    return graph
 
 
 def detect_duplicates(

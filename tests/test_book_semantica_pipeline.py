@@ -427,6 +427,40 @@ class MockedPipelineTests(unittest.TestCase):
                     RunConfig(book_key="demo"),
                 )
 
+    def test_build_graph_drops_identity_edges(self):
+        from book_semantica.graph import build_graph
+
+        graph = build_graph(
+            [
+                {"id": "Product Owner", "name": "Product Owner", "type": "CONCEPT"},
+                {"id": "Labor", "name": "Labor", "type": "CONCEPT"},
+                {"id": "労務", "name": "労務", "type": "CONCEPT"},
+            ],
+            [
+                {
+                    "source": "Product Owner",
+                    "target": "Product Owner",
+                    "type": "same_as",
+                },
+                {"source": "Labor", "target": "労務", "type": "also_known_as"},
+                {"source": "AI", "target": "AI", "type": "is_a"},
+            ],
+        )
+        rels = graph.get("relationships") or []
+        self.assertTrue(rels)
+        for rel in rels:
+            src = str(rel.get("source") or rel.get("subject") or "").strip()
+            tgt = str(rel.get("target") or rel.get("object") or "").strip()
+            self.assertNotEqual(src, tgt, rel)
+        pairs = {
+            (
+                str(rel.get("source") or rel.get("subject") or ""),
+                str(rel.get("target") or rel.get("object") or ""),
+            )
+            for rel in rels
+        }
+        self.assertIn(("Labor", "労務"), pairs)
+
 
 if __name__ == "__main__":
     unittest.main()

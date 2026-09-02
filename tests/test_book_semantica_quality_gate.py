@@ -132,6 +132,39 @@ class ExportSanitizationTests(unittest.TestCase):
             self.assertEqual(len(conflicts), 1)
             self.assertIn("労務", owl)
 
+    def test_repair_export_strips_identity_edges_from_graph_json(self):
+        graph = {
+            "entities": list(_GRAPH["entities"]),
+            "relationships": [
+                {
+                    "source": "Product Owner",
+                    "target": "Product Owner",
+                    "type": "same_as",
+                },
+                {"source": "Labor", "target": "労務", "type": "also_known_as"},
+                {"source": "AI", "target": "AI", "type": "is_a"},
+            ],
+        }
+        with TemporaryDirectory() as tmp:
+            out_dir = Path(tmp) / "out"
+            out_dir.mkdir()
+            repair_export(
+                out_dir,
+                graph=graph,
+                ontology=_ONTOLOGY,
+                book_key="demo",
+                conflicts=[],
+            )
+            written = json.loads((out_dir / "graph.json").read_text(encoding="utf-8"))
+            rels = written.get("relationships") or []
+            self.assertEqual(len(rels), 1)
+            self.assertEqual(rels[0]["source"], "Labor")
+            self.assertEqual(rels[0]["target"], "労務")
+            for rel in rels:
+                src = str(rel.get("source") or "").strip()
+                tgt = str(rel.get("target") or "").strip()
+                self.assertNotEqual(src, tgt)
+
 
 @unittest.skipUnless(
     (LIVE_DIR / "ontology.owl").is_file() and (LIVE_DIR / "graph.json").is_file(),

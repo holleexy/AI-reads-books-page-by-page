@@ -1,6 +1,7 @@
 import sys
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
@@ -83,6 +84,20 @@ class DuplicateAliasTests(unittest.TestCase):
         self.assertEqual(result["groups"][0]["members"], ["労務"])
         self.assertEqual(result["groups"][0]["count"], 2)
 
+    def test_self_loop_does_not_create_alias_group(self):
+        entities = [{"id": "Product Owner", "name": "Product Owner"}]
+        relations = [
+            {
+                "source": "Product Owner",
+                "target": "Product Owner",
+                "type": "same_as",
+            }
+        ]
+        result = quality.collect_duplicates(entities, relations)
+        kinds = {group["kind"] for group in result["groups"]}
+        self.assertNotIn("alias", kinds)
+        self.assertFalse(result["groups"])
+
 
 class ConflictFilterTests(unittest.TestCase):
     def test_drops_null_id_confidence_noise(self):
@@ -147,6 +162,43 @@ class QualityGateTests(unittest.TestCase):
                 graph=graph,
             )
 
+    def test_self_same_as_only_does_not_raise(self):
+        graph = {
+            "relationships": [
+                {
+                    "source": "Product Owner",
+                    "target": "Product Owner",
+                    "type": "same_as",
+                }
+            ]
+        }
+        quality.assert_artifact_quality(
+            owl='<rdfs:label xml:lang="ja">労務</rdfs:label>',
+            shacl="sh:datatype xsd:string .",
+            duplicates={"groups": []},
+            conflicts=[],
+            ontology={"classes": [{"name": "LaborAffairs", "label": "労務"}]},
+            graph=graph,
+        )
+
+    def test_collect_duplicates_and_gate_use_only_iter_alias_pairs(self):
+        rels = [{"source": "Labor", "target": "労務", "type": "also_known_as"}]
+        with patch.object(quality, "iter_alias_pairs", return_value=[]):
+            result = quality.collect_duplicates(
+                [{"id": "Labor"}, {"id": "労務"}], rels
+            )
+            self.assertFalse(
+                any(group.get("kind") == "alias" for group in result["groups"])
+            )
+            quality.assert_artifact_quality(
+                owl='<rdfs:label xml:lang="ja">労務</rdfs:label>',
+                shacl="sh:datatype xsd:string .",
+                duplicates={"groups": []},
+                conflicts=[],
+                ontology={"classes": [{"name": "LaborAffairs", "label": "労務"}]},
+                graph={"relationships": rels},
+            )
+
     def test_raises_on_confidence_conflict_noise(self):
         with self.assertRaises(quality.QualityError):
             quality.assert_artifact_quality(
@@ -176,6 +228,59 @@ class QualityGateTests(unittest.TestCase):
         kinds = {group["kind"] for group in merged["groups"]}
         self.assertIn("exact_id", kinds)
         self.assertIn("alias", kinds)
+
+
+class AliasPairTests(unittest.TestCase):
+    def test_empty_and_none_are_not_alias_pairs(self):
+        self.assertEqual(list(quality.iter_alias_pairs([])), [])
+        self.assertEqual(list(quality.iter_alias_pairs(None)), [])
+
+    def test_self_loop_is_not_an_alias_pair(self):
+        rels = [
+            {
+                "source": "Product Owner",
+                "target": "Product Owner",
+                "type": "same_as",
+            }
+        ]
+        self.assertEqual(list(quality.iter_alias_pairs(rels)), [])
+
+    def test_distinct_also_known_as_is_an_alias_pair(self):
+        rels = [{"source": "Labor", "target": "労務", "type": "also_known_as"}]
+        self.assertEqual(list(quality.iter_alias_pairs(rels)), [("Labor", "労務")])
+
+    def test_blank_and_none_endpoints_are_not_alias_pairs(self):
+        rels = [
+            {"source": "", "target": "労務", "type": "same_as"},
+            {"source": "Labor", "target": None, "type": "same_as"},
+            {"source": "None", "target": "労務", "type": "same_as"},
+        ]
+        self.assertEqual(list(quality.iter_alias_pairs(rels)), [])
+
+
+class IdentityEdgeTests(unittest.TestCase):
+    def test_drops_self_loops_of_any_relation_type(self):
+        rels = [
+            {
+                "source": "Product Owner",
+                "target": "Product Owner",
+                "type": "same_as",
+            },
+            {"source": "AI", "target": "AI", "type": "is_a"},
+            {"source": "Labor", "target": "労務", "type": "also_known_as"},
+        ]
+        kept = quality.drop_identity_edges(rels)
+        self.assertEqual(len(kept), 1)
+        self.assertEqual(kept[0]["source"], "Labor")
+        self.assertEqual(kept[0]["target"], "労務")
+
+    def test_strips_before_comparing_endpoints(self):
+        rels = [{"source": "AI ", "target": "AI", "type": "related_to"}]
+        self.assertEqual(quality.drop_identity_edges(rels), [])
+
+    def test_empty_and_none_relationships_yield_empty(self):
+        self.assertEqual(quality.drop_identity_edges([]), [])
+        self.assertEqual(quality.drop_identity_edges(None), [])
 
 
 if __name__ == "__main__":

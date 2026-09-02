@@ -12,6 +12,7 @@ from book_semantica.paths import assert_safe_output_path
 from book_semantica.quality import (
     assert_artifact_quality,
     collect_duplicates,
+    drop_identity_edges,
     filter_conflicts,
     fix_shacl_datatypes,
     merge_duplicate_reports,
@@ -58,6 +59,7 @@ def sanitize_export_payload(
     book_key: str,
 ) -> tuple[dict, dict, list]:
     """Re-apply the four quality fixes even if the caller skipped them."""
+    graph["relationships"] = drop_identity_edges(graph.get("relationships") or [])
     ontology = normalize_ontology(ontology, book_key=book_key)
     graph_dups = collect_duplicates(
         graph.get("entities") or [],
@@ -164,6 +166,8 @@ def repair_export(
         book_key=book_key,
     )
     written: dict[str, Path] = {}
+    written["graph.json"] = out_dir / "graph.json"
+    _write_json(written["graph.json"], graph)
     written["ontology.json"] = out_dir / "ontology.json"
     _write_json(written["ontology.json"], ontology)
     written["ontology.owl"] = out_dir / "ontology.owl"

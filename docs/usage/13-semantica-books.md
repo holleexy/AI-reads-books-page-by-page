@@ -30,6 +30,12 @@ SHACL の `xsd:xsd:string` は書き出し時に `xsd:string` へ直す。
 `conflicts.json` の null id と confidence だけの行は捨てる。
 書き出しの最後にこの 4 点を検査する。違反なら例外で止まる。
 
+関係は相異なる2つの端点を結ぶ。
+source と target が同じ辺は、別名かどうかにかかわらず知識ではない。
+`build_graph` と `repair` は、その自己辺を `graph.json` から落とす。
+別名グループは、相異なる2つの実体IDを結ぶ `also_known_as` / `translated_as` / `same_as` だけから作る。
+自己辺だけでは品質ゲートは落ちない。
+
 ## 起動
 
 引数無しの既定サブコマンドは `run` である。
@@ -129,7 +135,7 @@ Hermes の作業記録パスは書かない。
 そのファイルが無い状態で問い合わせできる、という意味ではない。
 
 保存済みのグラフを LLM なしで直すときは `repair` である。
-OWL の日本語ラベル、SHACL の datatype、重複グループ、矛盾のノイズ除去だけを書き直す。
+OWL の日本語ラベル、SHACL の datatype、重複グループ、矛盾のノイズ除去に加え、自己辺を `graph.json` から落とす。
 
 ```bash
 ./scripts/run_book_semantica.sh repair --book-key 労務入門.ocr

@@ -190,6 +190,40 @@ def _member_id(entity: dict) -> str:
     ).strip()
 
 
+def _rel_endpoints(rel: dict) -> tuple[str, str]:
+    src = str(rel.get("source") or rel.get("subject") or "").strip()
+    tgt = str(rel.get("target") or rel.get("object") or "").strip()
+    return src, tgt
+
+
+def iter_alias_pairs(relationships: list[dict] | None):
+    """Yield distinct (source, target) pairs from alias relations.
+
+    Empty, None, and source==target edges are not alias pairs.
+    """
+    for rel in relationships or []:
+        rel_type = str(rel.get("type") or rel.get("predicate") or "")
+        if rel_type not in ALIAS_RELATIONS:
+            continue
+        src, tgt = _rel_endpoints(rel)
+        if not src or not tgt or src == "None" or tgt == "None":
+            continue
+        if src == tgt:
+            continue
+        yield src, tgt
+
+
+def drop_identity_edges(relationships: list[dict] | None) -> list[dict]:
+    """Drop relations whose endpoints are the same after strip. All types."""
+    kept: list[dict] = []
+    for rel in relationships or []:
+        src, tgt = _rel_endpoints(rel)
+        if src == tgt:
+            continue
+        kept.append(rel)
+    return kept
+
+
 def _union_find_groups(pairs: list[tuple[str, str]]) -> list[list[str]]:
     parent: dict[str, str] = {}
 
@@ -237,15 +271,7 @@ def collect_duplicates(entities: list[dict], relationships: list[dict] | None = 
                 }
             )
 
-    alias_pairs: list[tuple[str, str]] = []
-    for rel in relationships or []:
-        rel_type = str(rel.get("type") or rel.get("predicate") or "")
-        if rel_type not in ALIAS_RELATIONS:
-            continue
-        src = str(rel.get("source") or rel.get("subject") or "").strip()
-        tgt = str(rel.get("target") or rel.get("object") or "").strip()
-        if src and tgt and src != "None" and tgt != "None":
-            alias_pairs.append((src, tgt))
+    alias_pairs = list(iter_alias_pairs(relationships))
     for members in _union_find_groups(alias_pairs):
         groups.append(
             {
@@ -354,15 +380,7 @@ def assert_artifact_quality(
 
     groups = (duplicates or {}).get("groups") or []
     relations = (graph or {}).get("relationships") or []
-    alias_pairs = []
-    for rel in relations:
-        rel_type = str(rel.get("type") or rel.get("predicate") or "")
-        if rel_type not in ALIAS_RELATIONS:
-            continue
-        src = str(rel.get("source") or "").strip()
-        tgt = str(rel.get("target") or "").strip()
-        if src and tgt and src != "None" and tgt != "None":
-            alias_pairs.append(frozenset({src, tgt}))
+    alias_pairs = [frozenset({src, tgt}) for src, tgt in iter_alias_pairs(relations)]
     if alias_pairs and not groups:
         raise QualityError(
             "duplicates.json is empty but graph has also_known_as/translated_as"
