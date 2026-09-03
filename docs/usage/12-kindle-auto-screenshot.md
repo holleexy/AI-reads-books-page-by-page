@@ -72,8 +72,6 @@ Windows PowerShell 5.1 は BOM なし UTF-8 の日本語を壊して読む。
 そのため `.ps1` は ASCII 本文と UTF-8 BOM に固定してある。
 既定の起動は WinForms ではなく `cmd` の `choice` である。
 
-レビュー内容は [2026-08-28 の記録](../reviews/2026-08-28-kindle-capture-ps51.md) と [2026-08-29 のめくりリトライ](../reviews/2026-08-29-kindle-turn-retry.md) にある。
-
 ## このあと
 
 画像フォルダを Linux へ渡し、[スクリーンショットから PDF](11-screenshot-to-pdf.md) の 2 以降（PDF 化 → OCR → `read_books.py`）へ進む。

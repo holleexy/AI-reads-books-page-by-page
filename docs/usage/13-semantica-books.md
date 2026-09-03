@@ -129,6 +129,10 @@ Hermes の作業記録パスは書かない。
 
 横断のマニフェストは `book_analysis/semantica/manifest.jsonl` である。
 
+冊グラフの正本は、この冊ディレクトリのファイルである。
+FAISS は横断検索の段で入れる。今は入れない。
+Neo4j は横断統合を常用面にしたあとで入れる。今は入れない。
+
 ## 問い合わせと画面
 
 `query` と `serve` は、先に `run` が `book_analysis/semantica/{book_key}/graph.json` を書いたときだけ動く。
