@@ -1,0 +1,363 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Jissen_People_Analytics/> .
+
+book:source a prov:Entity ;
+  foaf:name "Jissen_People_Analytics" ;
+  book:book_key "Jissen_People_Analytics" .
+
+book:ピープルアナリティクス a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:People Analytics a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:アプローチ a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:データ分析 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:統計学 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:テクノロジー a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:サーベイ a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:量 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:単年集計 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:経年比較 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベンチマーク比較 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:要因分析 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:予測分析 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:記述的分析 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:診断的分析 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:大湾 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:2017 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:回帰分析 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:処方的分析 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:Data analytics a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:役職 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:人事分析 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:発令 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:実践 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:Waber a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:道具箱 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:活用できるものは何でも活用したい a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:職場の問題解決 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:managers a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:general staff a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:external consultants a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:HR professionals a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:第6章 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:戦略 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:課題 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:論点 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:担当者 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:取り組み a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:研究会 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業担当者 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮説 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:仕事 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:オペレーショナルデータ a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:給与 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:センチメントデータ a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:社員の意識調査 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:パーソナリティデータ a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:性格特性 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:アクティビティデータ a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:電子機器 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:行動ログ a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:意思決定 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:AI a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:数値 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:フラグ管理 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:尺度 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:自然言語処理（NLP） a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:NLP a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:可視化 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:分析 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:Gartner社 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:価値 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:難易度 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:factor analysis a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:e-commerce recommendation engines a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:男女賃金格差 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:昇進パターン a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:林 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンディション a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:天気マーク a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:労働意欲 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:中嶋 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:上司の能力 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:決定木分析 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:共分散構造分析 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:行列計算 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:女性管理職比率 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:機械学習 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:推薦システム a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:レコメンドシステム a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:Katsamakas a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:学習コンテンツ a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:社内オープンポジション a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:働き方 a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:アナリティクス a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンジニアリング a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .
+
+book:beneficial actions a prov:Entity ;
+  book:book_key "Jissen_People_Analytics" ;
+  prov:wasDerivedFrom book:source .

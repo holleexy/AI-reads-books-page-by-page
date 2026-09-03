@@ -1,0 +1,418 @@
+@prefix ex: <https://books.local/Toi_no_Design/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Toi_no_Design/shapes> a owl:Ontology .
+
+<https://books.local/Toi_no_Design/ToiNoDesignShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ToiNoDesign ;
+    sh:name "問いのデザイン" ;
+    sh:description "人々が創造的対話を通して認識と関係性を編み直すための媒体を設計すること。答えを急がず、本質的な問いをリフレーミングし、ワークショップのプロセスをデザインする手法。" ;
+    sh:property [
+        sh:path ex:designsToi ;
+        sh:class ex:Toi ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:designsWorkshop ;
+        sh:class ex:Workshop ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:definesProblem ;
+        sh:class ex:Problem ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesThinkingMethod ;
+        sh:class ex:ThinkingMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesReframing ;
+        sh:class ex:Reframing ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesScaffolding ;
+        sh:class ex:Scaffolding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnTheory ;
+        sh:class ex:SocialConstructivism ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:illustratedByCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/ToiShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Toi ;
+    sh:name "問い" ;
+    sh:description "認識と関係性を編み直す媒体。答えを変え、思考と感情を刺激し、対話を誘発し、内省と関係再構築を促し、創造的対話のトリガーとなり、新たな問いを生む七つの基本性質を持つ。" ;
+    sh:property [
+        sh:path ex:triggersCreativeDialogue ;
+        sh:class ex:CreativeDialogue ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:generatesNewToi ;
+        sh:class ex:Toi ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:overcomesFixation ;
+        sh:class ex:RecognitionFixation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesScaffolding ;
+        sh:class ex:Scaffolding ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasConstraint ;
+        sh:class ex:Constraint ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/CreativeDialogueShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CreativeDialogue ;
+    sh:name "創造的対話" ;
+    sh:description "矛盾や制約を含む問いによって引き起こされ、予期せぬアイデアを創発させる対話。討論や議論とは異なり、互いの前提を更新するコミュニケーション。" ;
+    sh:property [
+        sh:path ex:overcomesFixation ;
+        sh:class ex:RecognitionFixation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/RecognitionFixationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RecognitionFixation ;
+    sh:name "認識の固定化" ;
+    sh:description "無意識のうちに前提が固まり、本質的な課題が見えなくなる病い。現代の組織が抱える複雑な課題の根本原因の一つ。" .
+
+<https://books.local/Toi_no_Design/RelationshipFixationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RelationshipFixation ;
+    sh:name "関係性の固定化" ;
+    sh:description "集団の暗黙の了解や心理的契約が固まり、創造的対話が起きにくくなる病い。" .
+
+<https://books.local/Toi_no_Design/ProblemShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Problem ;
+    sh:name "課題" ;
+    sh:description "関係者全員が解決すべきだと前向きに合意できる問題設定。要件確認、目標精緻化、阻害要因の検討、リフレーミング、課題定義の五ステップで設計する。" ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:Goal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasObstacle ;
+        sh:class ex:Obstacle ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/WorkshopShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Workshop ;
+    sh:name "ワークショップ" ;
+    sh:description "定義した課題を参加者の具体的な経験に翻訳し、時間的・空間的に設計した創造的対話の場。導入、知る活動、創る活動、まとめからなる。" ;
+    sh:property [
+        sh:path ex:hasGoal ;
+        sh:class ex:Goal ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasActivity ;
+        sh:class ex:WorkshopActivity ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToOrganization ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/FacilitatorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Facilitator ;
+    sh:name "ファシリテーター" ;
+    sh:description "設計した問いのポテンシャルを最大限に引き出し、心理的安全性とプロセスの目的を支え続ける役割。" ;
+    sh:property [
+        sh:path ex:designsToi ;
+        sh:class ex:Toi ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:designsWorkshop ;
+        sh:class ex:Workshop ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesThinkingMethod ;
+        sh:class ex:ThinkingMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesReframing ;
+        sh:class ex:Reframing ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:facilitates ;
+        sh:class ex:Workshop ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToOrganization ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasSkill ;
+        sh:class ex:FacilitatorSkill ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasRole ;
+        sh:class ex:FacilitationRole ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:asksImprovisedQuestion ;
+        sh:class ex:ImprovisedQuestion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:ensuresPsychologicalSafety ;
+        sh:class ex:PsychologicalSafety ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsLearningCycle ;
+        sh:class ex:ExperientialLearningCycle ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/ParticipantShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Participant ;
+    sh:name "参加者" ;
+    sh:description "ワークショップに参加し、問いを通じて認識と関係性を編み直す当事者。" ;
+    sh:property [
+        sh:path ex:participatesIn ;
+        sh:class ex:Workshop ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToOrganization ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "企業、学校、地域社会など、認識の固定化と関係性の固定化に陥りうる集団。" .
+
+<https://books.local/Toi_no_Design/ThinkingMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThinkingMethod ;
+    sh:name "思考法" ;
+    sh:description "問題を捉え直すための思考法の総称。素朴思考、天邪鬼思考、道具思考、構造化思考、哲学的思考の五つがある。" ;
+    sh:property [
+        sh:path ex:overcomesFixation ;
+        sh:class ex:RecognitionFixation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/NaiveThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:NaiveThinking ;
+    sh:name "素朴思考" ;
+    sh:description "そもそもこれは何かと、専門家の視点を捨てて原点に立ち返り、知の呪いを打破する思考法。" ;
+    sh:property [
+        sh:path ex:overcomesFixation ;
+        sh:class ex:RecognitionFixation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/ContrarianThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ContrarianThinking ;
+    sh:name "天邪鬼思考" ;
+    sh:description "前提を疑い、あえて正反対の視点やアイデアを潰す視点から問題を見る思考法。" ;
+    sh:property [
+        sh:path ex:overcomesFixation ;
+        sh:class ex:RecognitionFixation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/ToolThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ToolThinking ;
+    sh:name "道具思考" ;
+    sh:description "心理学や工学など異なる専門分野の知識やフレームワークを通して問題を再解釈する思考法。" ;
+    sh:property [
+        sh:path ex:overcomesFixation ;
+        sh:class ex:RecognitionFixation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/StructuralThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:StructuralThinking ;
+    sh:name "構造化思考" ;
+    sh:description "要素間の関係性を俯瞰し、因果関係の全体像を掴む思考法。" ;
+    sh:property [
+        sh:path ex:overcomesFixation ;
+        sh:class ex:RecognitionFixation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/PhilosophicalThinkingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PhilosophicalThinking ;
+    sh:name "哲学的思考" ;
+    sh:description "本質観取を通じて、その概念が成立する不可欠な特徴を深く洞察する思考法。" ;
+    sh:property [
+        sh:path ex:overcomesFixation ;
+        sh:class ex:RecognitionFixation ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/GoalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Goal ;
+    sh:name "目標" ;
+    sh:description "成果目標、プロセス目標、ビジョンに分解され、期間と松竹梅の優先順位が明確化されるもの。" ;
+    sh:property [
+        sh:path ex:hasObstacle ;
+        sh:class ex:Obstacle ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/ObstacleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Obstacle ;
+    sh:name "阻害要因" ;
+    sh:description "目標と現状の間にある認識のズレ、対話不足、固定観念などの障壁。" .
+
+<https://books.local/Toi_no_Design/WorkshopActivityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WorkshopActivity ;
+    sh:name "ワークショップ活動" ;
+    sh:description "プログラムを構成する活動。導入、知る活動、創る活動、まとめの四段階からなる。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/ScaffoldingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Scaffolding ;
+    sh:name "足場かけ" ;
+    sh:description "いきなり抽象度の高い問いを投げず、探索対象、制約、表現の工夫により思考を段階的に深める問いの設計。" ;
+    sh:property [
+        sh:path ex:hasConstraint ;
+        sh:class ex:Constraint ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/ConstraintShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Constraint ;
+    sh:name "制約" ;
+    sh:description "自由にするのではなく、形容詞、矛盾条件、アウトプット形式などを課して思考の解像度を上げる条件。" .
+
+<https://books.local/Toi_no_Design/ReframingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Reframing ;
+    sh:name "リフレーミング" ;
+    sh:description "自分本位、自己目的化、ネガティブ他責、優等生、壮大といった課題設定の罠を避け、視点を転換して目標や問いを再設定すること。" .
+
+<https://books.local/Toi_no_Design/FacilitatorSkillShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FacilitatorSkill ;
+    sh:name "ファシリテータースキル" ;
+    sh:description "説明力、場の観察力、即興力、情報編集力、リフレーミング力、場のホールド力の六つのコアスキル。" .
+
+<https://books.local/Toi_no_Design/ImprovisedQuestionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ImprovisedQuestion ;
+    sh:name "即興の問いかけ" ;
+    sh:description "場に応じた問いかけ。シンプル、ティーチング、コーチング、フィロソフィカルの四パターンがある。" .
+
+<https://books.local/Toi_no_Design/FacilitationRoleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FacilitationRole ;
+    sh:name "ファシリテーション役割" ;
+    sh:description "チームで相互補完する役割。チーフ、フロア、バック、グラフィックレコーダーがある。" ;
+    sh:property [
+        sh:path ex:ensuresPsychologicalSafety ;
+        sh:class ex:PsychologicalSafety ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Toi_no_Design/PsychologicalSafetyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PsychologicalSafety ;
+    sh:name "心理的安全性" ;
+    sh:description "参加者が安心して創造性を発揮できるよう、ファシリテーターが支え続ける場の条件。" .
+
+<https://books.local/Toi_no_Design/SocialConstructivismShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SocialConstructivism ;
+    sh:name "社会構成主義" ;
+    sh:description "答えや現実は客観的に存在するのではなく、関係者間の対話を通じて社会的に構成されるという立場。" .
+
+<https://books.local/Toi_no_Design/ExperientialLearningCycleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExperientialLearningCycle ;
+    sh:name "経験学習サイクル" ;
+    sh:description "実践から学び、理論と結びつけ、新たな能動的実験へと繋げる継続的サイクル。ファシリテーターの熟達に不可欠。" .
+
+<https://books.local/Toi_no_Design/CurseOfKnowledgeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CurseOfKnowledge ;
+    sh:name "知の呪い" ;
+    sh:description "専門家や組織内の人間が陥る固定化された前提。素朴な問いや天邪鬼な視点で打破する。" .
+
+<https://books.local/Toi_no_Design/CaseStudyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CaseStudy ;
+    sh:name "ケーススタディ" ;
+    sh:description "資生堂TRUST8、インスメタルADDMA、京浜急行三浦Cocoon、ナレッジキャピタル、ユヌス博士との対話、京都大学総合博物館などの実践事例。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .

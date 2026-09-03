@@ -1,0 +1,417 @@
+@prefix ex: <https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/shapes> a owl:Ontology .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/EnterpriseSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EnterpriseSales ;
+    sh:name "エンタープライズセールス" ;
+    sh:description "大企業向け営業。組織内の政治力学や感情を動かすアナログな部分を言語化・構造化し、仮説提案型で再現性のある手法を確立する領域。" ;
+    sh:property [
+        sh:path ex:hasPhase ;
+        sh:class ex:SalesPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsModel ;
+        sh:class ex:SalesModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/LargeEnterpriseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LargeEnterprise ;
+    sh:name "大企業" ;
+    sh:description "社員数と企業の歴史により購買プロセスと意思決定が複雑化した企業。万が一のリスクと慣性の法則が制約となる。" ;
+    sh:property [
+        sh:path ex:hasPurchaseProcess ;
+        sh:class ex:PurchaseProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesOrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesOrganization ;
+    sh:name "営業組織" ;
+    sh:description "大企業担当として成果を出し続ける営業組織。個人スキルに依存せず施策とチームで実行する。" ;
+    sh:property [
+        sh:path ex:targetsEnterprise ;
+        sh:class ex:LargeEnterprise ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:servesCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:implementsMeasure ;
+        sh:class ex:SalesMeasure ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:organizedAs ;
+        sh:class ex:AccountTeam ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliesTargeting ;
+        sh:class ex:Targeting ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:occupiesTerritory ;
+        sh:class ex:Territory ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:forecastsWith ;
+        sh:class ex:Forecast ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "エンタープライズセールスの対象となる大企業側の組織・部門・関係者。" ;
+    sh:property [
+        sh:path ex:hasChampion ;
+        sh:class ex:Champion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasAccountPlan ;
+        sh:class ex:AccountPlan ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPersonShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesPerson ;
+    sh:name "営業担当者" ;
+    sh:description "仮説提案と関係構築を担う営業個人。スーパー営業個人への依存は避ける。" ;
+    sh:property [
+        sh:path ex:servesCustomer ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:proposesProject ;
+        sh:class ex:Project ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsToTeam ;
+        sh:class ex:AccountTeam ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:occupiesTerritory ;
+        sh:class ex:Territory ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ProjectShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Project ;
+    sh:name "プロジェクト" ;
+    sh:description "顧客の購買ではなく顧客側の企画・準備・成功までを対象とする営業の中心単位。" ;
+    sh:property [
+        sh:path ex:hasHypothesis ;
+        sh:class ex:ProjectHypothesis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasChampion ;
+        sh:class ex:Champion ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCompellingEvent ;
+        sh:class ex:CompellingEvent ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesPhase ;
+    sh:name "営業フェーズ" ;
+    sh:description "プロジェクトベースの営業プロセスを構成するListen、Build & Trust、Partner、Successの総称。" ;
+    sh:property [
+        sh:path ex:measuredByKPI ;
+        sh:class ex:KPI ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ListenPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ListenPhase ;
+    sh:name "顧客理解フェーズ" ;
+    sh:description "リサーチで経営層の優先課題や競合の脅威を把握し、五要素のプロジェクト仮説を構築するフェーズ。" ;
+    sh:property [
+        sh:path ex:hasHypothesis ;
+        sh:class ex:ProjectHypothesis ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:measuredByKPI ;
+        sh:class ex:KPI ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/BuildAndTrustPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BuildAndTrustPhase ;
+    sh:name "関係構築フェーズ" ;
+    sh:description "プロジェクト仮説を重要課題として認識させ、チャンピオンを探しマインドシェアを獲得するフェーズ。" ;
+    sh:property [
+        sh:path ex:measuredByKPI ;
+        sh:class ex:KPI ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/PartnerPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PartnerPhase ;
+    sh:name "信頼醸成フェーズ" ;
+    sh:description "現場の現状把握と要件定義を行い、実現可能性（ROI）を証明し特殊事情を踏まえたRFPを作成するフェーズ。" ;
+    sh:property [
+        sh:path ex:measuredByKPI ;
+        sh:class ex:KPI ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SuccessPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SuccessPhase ;
+    sh:name "成功と展開フェーズ" ;
+    sh:description "契約を始まりとし、ビジネス成果の創出とモデルケース化、他部署への横展開を行うフェーズ。" ;
+    sh:property [
+        sh:path ex:measuredByKPI ;
+        sh:class ex:KPI ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ProjectHypothesisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProjectHypothesis ;
+    sh:name "プロジェクト仮説" ;
+    sh:description "背景、課題、打ち手、自社の貢献領域、期待効果の五要素からなる顧客プロジェクトの仮説。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ChampionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Champion ;
+    sh:name "チャンピオン" ;
+    sh:description "顧客社内でプロジェクトを推進する社内推進者。専門家化と自走化の核となる。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesMeasureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesMeasure ;
+    sh:name "営業施策" ;
+    sh:description "個人スキルに依存せず組織として実行する相互連動の施策群。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountPlanShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AccountPlan ;
+    sh:name "アカウントプラン" ;
+    sh:description "顧客が起こすべきプロジェクトの着眼点を提供する顧客理解のフレームワーク。" ;
+    sh:property [
+        sh:path ex:includesMap ;
+        sh:class ex:CustomerMap ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ProjectSellingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProjectSelling ;
+    sh:name "プロジェクトセリング" ;
+    sh:description "モノではなくプロジェクトの成功を提案しゴールまで伴走する手法。目的・KPI・機能・体制・運用ルール・トレーニングの六つの不在を取り除く。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerSuccessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerSuccess ;
+    sh:name "カスタマーサクセス" ;
+    sh:description "契約後の成果創出を支援し、解約防止を超えて自走化と横展開、次のビジネスにつなげる定着化施策。" ;
+    sh:property [
+        sh:path ex:supportsSuccess ;
+        sh:class ex:Project ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ExecutiveSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExecutiveSales ;
+    sh:name "エグゼクティブセールス" ;
+    sh:description "会社対会社の関係構築。フェーズに応じたアジェンダで役員訪問し、キーマン紹介や稟議リスクを低減する。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerMapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerMap ;
+    sh:name "顧客マップ" ;
+    sh:description "チーム全員の顧客理解を均一化するために作成・共有する地図の総称。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/PotentialMapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PotentialMap ;
+    sh:name "ポテンシャルマップ" ;
+    sh:description "バリューチェーンごとに自社製品の導入ポテンシャル（売上の最大値）を可視化するマップ。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/InsightMapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InsightMap ;
+    sh:name "インサイトマップ" ;
+    sh:description "ゴール、プレッシャー、戦略、障害、施策の五要素で顧客の投資優先順位を分析するマップ。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/RelationshipMapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RelationshipMap ;
+    sh:name "人脈マップ" ;
+    sh:description "公式な組織図に加え、暗黙の意思決定ルートやチャンピオンへのアプローチ方法を可視化するマップ。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/BANTFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BANTFramework ;
+    sh:name "BANTフレームワーク" ;
+    sh:description "予算、決裁権、必要性、導入時期で見込み客を選定する枠組み。主に絞り込み型セールスで用いる。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/KPIShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KPI ;
+    sh:name "KPI" ;
+    sh:description "各フェーズに応じて設定し定量可視化する指標。マップ情報取得数、仮説作成件数、受注率、LTVなどを含む。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountTeamShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AccountTeam ;
+    sh:name "アカウントチーム" ;
+    sh:description "スーパー営業個人に依存せず、複数人でチームセリングを行う分業体制。" ;
+    sh:property [
+        sh:path ex:hasRole ;
+        sh:class ex:SalesRole ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesRoleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesRole ;
+    sh:name "営業役割" ;
+    sh:description "アカウントチーム内の分業上の役割。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/InsideSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InsideSales ;
+    sh:name "インサイドセールス" ;
+    sh:description "圧倒的な行動量で顧客情報を収集し、定期的な情報取得をルーティン化する役割。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SolutionEngineerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SolutionEngineer ;
+    sh:name "ソリューションエンジニア" ;
+    sh:description "業界・技術知識を基に顧客の企画構想を支援するプリセールス。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerSuccessManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerSuccessManager ;
+    sh:name "カスタマーサクセスマネージャー" ;
+    sh:description "導入後の定着支援とビジネス成果創出を担当する役割。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AccountManager ;
+    sh:name "アカウントマネージャー" ;
+    sh:description "限られた人数リソースを適切に配分・管理する指揮官。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SalesModel ;
+    sh:name "営業モデル" ;
+    sh:description "購買ボリュームとカスタマイズ性の違いに応じた営業手法の類型。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/FunnelingSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FunnelingSales ;
+    sh:name "絞り込み型セールス" ;
+    sh:description "標準品を多数の顧客に効率よく販売する中小企業向けモデル。認知拡大からBANT選定、契約で終了する。" ;
+    sh:property [
+        sh:path ex:usesBANT ;
+        sh:class ex:BANTFramework ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/DiffusionSalesShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DiffusionSales ;
+    sh:name "拡散型セールス" ;
+    sh:description "カスタマイズ提案でLTVを最大化する大企業向けモデル。企業エンゲージメントは人数×信用であり、契約はスタートである。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/PurchaseProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PurchaseProcess ;
+    sh:name "購買プロセス" ;
+    sh:description "情報収集・検討・評価の責任者が異なり、多数の関与者と稟議を要する大企業特有の分業プロセス。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/TargetingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Targeting ;
+    sh:name "ターゲティング" ;
+    sh:description "トータルポテンシャルと難易度の二軸で、限られたリソースを数社に徹底的に絞る行為。木こりのジレンマを断つ。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/TerritoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Territory ;
+    sh:name "陣地" ;
+    sh:description "顧客に選ばれるために確保する時間、マインド、情報、予算の四つの陣地。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ForecastShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Forecast ;
+    sh:name "フォーキャスト" ;
+    sh:description "大型案件が売上の大部分を占めるため正確さが求められる業績予測。確率論ではなく狙った商談の必勝を基本とする。" ;
+    sh:property [
+        sh:path ex:usesScorecard ;
+        sh:class ex:Scorecard ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ScorecardShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Scorecard ;
+    sh:name "スコアカード" ;
+    sh:description "営業と技術の視点を二分割表示し、事実と根拠および次にやるべきアクションを記載する評価表。" .
+
+<https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CompellingEventShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CompellingEvent ;
+    sh:name "コンペリングイベント" ;
+    sh:description "プロジェクトを今開始すべき理由。チャンピオンの存在、エグゼクティブカバレッジと並ぶ見極めの不変要素。" .

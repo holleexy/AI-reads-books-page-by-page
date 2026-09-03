@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Jissen_People_Analytics/">
+    <rdfs:label>Jissen_People_AnalyticsOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/PeopleAnalytics">
+    <rdfs:label xml:lang="ja">ピープルアナリティクス</rdfs:label>
+    <rdfs:comment xml:lang="ja">人材マネジメントの意思決定において、量的データと質的データを統合し、組織と人材を深く理解したうえで実装へつなげる実践的取り組み。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/PracticePhilosophy">
+    <rdfs:label xml:lang="ja">実践思想</rdfs:label>
+    <rdfs:comment xml:lang="ja">活用できるものは何でも活用すること、および誰でもできる取り組みであることを掲げるピープルアナリティクスの基本思想。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/Approach">
+    <rdfs:label xml:lang="ja">アプローチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ピープルアナリティクスにおけるデータ収集と分析の方法論の総称。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/QuantitativeApproach">
+    <rdfs:label xml:lang="ja">量的アプローチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">サーベイや業務データなどの数値データを統計学やテクノロジーで分析するアプローチ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/Approach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/QualitativeApproach">
+    <rdfs:label xml:lang="ja">質的アプローチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">インタビューや観察調査により物語モード（ナラティブ）を通じて現実に迫るアプローチ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/Approach"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/Data">
+    <rdfs:label xml:lang="ja">データ</rdfs:label>
+    <rdfs:comment xml:lang="ja">人材・組織の理解と意思決定に用いる情報の総称。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/QuantitativeData">
+    <rdfs:label xml:lang="ja">量的データ</rdfs:label>
+    <rdfs:comment xml:lang="ja">数値化され統計分析の対象となる人材・組織データ。量的データだけでは複雑な人材・組織の理解に限界がある。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/Data"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/QualitativeData">
+    <rdfs:label xml:lang="ja">質的データ</rdfs:label>
+    <rdfs:comment xml:lang="ja">インタビューや観察から得られる物語・文脈・意味づけを含む非数値データ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/Data"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/OperationalData">
+    <rdfs:label xml:lang="ja">オペレーショナルデータ</rdfs:label>
+    <rdfs:comment xml:lang="ja">発令や給与など業務の過程で蓄積されるデータ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/QuantitativeData"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/SentimentData">
+    <rdfs:label xml:lang="ja">センチメントデータ</rdfs:label>
+    <rdfs:comment xml:lang="ja">エンゲージメントサーベイ等から得られる感情・意見データ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/QuantitativeData"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/PersonalityData">
+    <rdfs:label xml:lang="ja">パーソナリティデータ</rdfs:label>
+    <rdfs:comment xml:lang="ja">適性検査等から得られる性格特性データ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/QuantitativeData"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/ActivityData">
+    <rdfs:label xml:lang="ja">アクティビティデータ</rdfs:label>
+    <rdfs:comment xml:lang="ja">メールやチャットなどの行動ログデータ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/QuantitativeData"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/CollectionMethod">
+    <rdfs:label xml:lang="ja">データ収集手法</rdfs:label>
+    <rdfs:comment xml:lang="ja">量的・質的データを収集するための調査手法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/Survey">
+    <rdfs:label xml:lang="ja">サーベイ</rdfs:label>
+    <rdfs:comment xml:lang="ja">アンケート調査により量的データを収集する手法。回答負荷の最適化、ダブルバーレルの回避、中立な言葉選びが設計上の要点となる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/CollectionMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/Interview">
+    <rdfs:label xml:lang="ja">インタビュー</rdfs:label>
+    <rdfs:comment xml:lang="ja">相手の語りを引き出す質的データ収集手法。傾聴、受容、オウム返し、共感的理解によるラポール形成が重要である。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/CollectionMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/Observation">
+    <rdfs:label xml:lang="ja">観察調査</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織エスノグラフィーとして暗黙のルールや非言語の相互作用に注目する質的データ収集手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/CollectionMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/InterviewType">
+    <rdfs:label xml:lang="ja">インタビュー類型</rdfs:label>
+    <rdfs:comment xml:lang="ja">構造化・半構造化・非構造化の使い分けによるインタビューの分類。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/StructuredInterview">
+    <rdfs:label xml:lang="ja">構造化インタビュー</rdfs:label>
+    <rdfs:comment xml:lang="ja">質問項目と順序をあらかじめ固定したインタビュー。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/InterviewType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/SemiStructuredInterview">
+    <rdfs:label xml:lang="ja">半構造化インタビュー</rdfs:label>
+    <rdfs:comment xml:lang="ja">主要な問いを持ちつつ相手の語りに応じて深掘りするインタビュー。採用基準見直しなどの仮説検証で用いられる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/InterviewType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/UnstructuredInterview">
+    <rdfs:label xml:lang="ja">非構造化インタビュー</rdfs:label>
+    <rdfs:comment xml:lang="ja">自由な対話を通じて語りを引き出すインタビュー。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/InterviewType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/ObservationType">
+    <rdfs:label xml:lang="ja">観察類型</rdfs:label>
+    <rdfs:comment xml:lang="ja">観察者が対象集団に関与する度合いによる観察調査の分類。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/ParticipantObservation">
+    <rdfs:label xml:lang="ja">参与的観察</rdfs:label>
+    <rdfs:comment xml:lang="ja">観察者が対象の活動に参加しながら記録する観察。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/ObservationType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/NonParticipantObservation">
+    <rdfs:label xml:lang="ja">非参与的観察</rdfs:label>
+    <rdfs:comment xml:lang="ja">観察者が活動に参加せず外部から記録する観察。研修効果測定などで用いられる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/ObservationType"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/ThickDescription">
+    <rdfs:label xml:lang="ja">厚い記述</rdfs:label>
+    <rdfs:comment xml:lang="ja">5W1Hだけでなく対象者の意味づけや文脈を詳細に記録する観察記述の方法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/AnalysisPhase">
+    <rdfs:label xml:lang="ja">分析フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">理解と実装に大別されるピープルアナリティクスの実践フェーズ。理解は実装に先立つ不可欠な前提である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/UnderstandingPhase">
+    <rdfs:label xml:lang="ja">理解フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">複雑な人間や組織の問題を解決するために、まず現状を深く理解するフェーズ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/ImplementationPhase">
+    <rdfs:label xml:lang="ja">実装フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">理解に基づき具体的なアクションや施策を現場に実装するフェーズ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/AnalysisStage">
+    <rdfs:label xml:lang="ja">分析段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">記述的・診断的・予測的・処方的の四段階からなる分析の段階区分。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/DescriptiveAnalysis">
+    <rdfs:label xml:lang="ja">記述的分析</rdfs:label>
+    <rdfs:comment xml:lang="ja">何が起こったかを可視化する分析段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/DiagnosticAnalysis">
+    <rdfs:label xml:lang="ja">診断的分析</rdfs:label>
+    <rdfs:comment xml:lang="ja">なぜ起こったかの要因を特定する分析段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/PredictiveAnalysis">
+    <rdfs:label xml:lang="ja">予測的分析</rdfs:label>
+    <rdfs:comment xml:lang="ja">何が起こりそうかを予測する分析段階。ブラックボックス化すると現場の納得感やアクションに繋がりにくい。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/PrescriptiveAnalysis">
+    <rdfs:label xml:lang="ja">処方的分析</rdfs:label>
+    <rdfs:comment xml:lang="ja">どうすればよいかの具体的なアクションを提示する分析段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisStage"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/AnalysisMethod">
+    <rdfs:label xml:lang="ja">分析方法</rdfs:label>
+    <rdfs:comment xml:lang="ja">収集したデータを解釈し、仮説検証や理論生成を行う手法の総称。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/QuantitativeAnalysisMethod">
+    <rdfs:label xml:lang="ja">量的データ分析方法</rdfs:label>
+    <rdfs:comment xml:lang="ja">t検定、分散分析、相関分析、重回帰分析、媒介分析、決定木分析など統計手法による分析方法。HADなどのツールが用いられる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/QualitativeAnalysisMethod">
+    <rdfs:label xml:lang="ja">質的データ分析方法</rdfs:label>
+    <rdfs:comment xml:lang="ja">抜粋・抽出、KJ法、グラウンデッド・セオリー・アプローチ、カテゴリー分析など質的データを構造化する手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/KJMethod">
+    <rdfs:label xml:lang="ja">KJ法</rdfs:label>
+    <rdfs:comment xml:lang="ja">データをカード化してグルーピングし図解化することで課題の構造を明らかにする質的分析手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/QualitativeAnalysisMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/GroundedTheoryApproach">
+    <rdfs:label xml:lang="ja">グラウンデッド・セオリー・アプローチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">オープンコーディング、アキシャルコーディング、セレクティブコーディングを経て理論を生成する質的分析手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/QualitativeAnalysisMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/CategoryAnalysis">
+    <rdfs:label xml:lang="ja">カテゴリー分析</rdfs:label>
+    <rdfs:comment xml:lang="ja">複数人が独立してカテゴリーを付与し相互主観性により客観性を担保する質的分析手法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/QualitativeAnalysisMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/MeasurementScale">
+    <rdfs:label xml:lang="ja">尺度</rdfs:label>
+    <rdfs:comment xml:lang="ja">比率尺度、間隔尺度、順序尺度、名義尺度の理解と適切な選択に関する測定尺度。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/OrganizationDesign">
+    <rdfs:label xml:lang="ja">組織設計</rdfs:label>
+    <rdfs:comment xml:lang="ja">存在意義、やるべきこと、立ち位置、人材配置、評価方法の五論点からなるピープルアナリティクス推進組織の設計。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/OrganizationStructure">
+    <rdfs:label xml:lang="ja">組織形態</rdfs:label>
+    <rdfs:comment xml:lang="ja">ピープルアナリティクス機能の社内における配置形態。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/CentralizedStructure">
+    <rdfs:label xml:lang="ja">中央集権型</rdfs:label>
+    <rdfs:comment xml:lang="ja">専門部門に分析機能を集約する組織形態。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/OrganizationStructure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/FederalStructure">
+    <rdfs:label xml:lang="ja">連邦型</rdfs:label>
+    <rdfs:comment xml:lang="ja">各部門に分析人材を配置する組織形態。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/OrganizationStructure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/HybridStructure">
+    <rdfs:label xml:lang="ja">ハイブリッド型</rdfs:label>
+    <rdfs:comment xml:lang="ja">中央集権型から連邦型などへ段階的に移行する組織形態。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/OrganizationStructure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/CaseStudy">
+    <rdfs:label xml:lang="ja">ケーススタディ</rdfs:label>
+    <rdfs:comment xml:lang="ja">採用基準の見直し、離職防止、研修効果測定、エンゲイジメント向上など量的・質的手法を統合した実践事例。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/EthicalPrinciple">
+    <rdfs:label xml:lang="ja">倫理原則</rdfs:label>
+    <rdfs:comment xml:lang="ja">権力性への自覚や現場への寄り添いを含め、分析結果で従業員を過度にコントロールしないための倫理的指針。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/HRDataUtilizationPrinciple">
+    <rdfs:label xml:lang="ja">人事データ利活用原則</rdfs:label>
+    <rdfs:comment xml:lang="ja">効用最大化、目的明確化、利用制限、適正取得、正確性・最新性・公平性、セキュリティ確保、アカウンタビリティ、責任所在明確化、人間関与の九原則。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Jissen_People_Analytics/EthicalPrinciple"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/RequirementSpecification">
+    <rdfs:label xml:lang="ja">要件定義書</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロジェクトの迷走を防ぎ、継続的な組織的ナレッジとして記録を残すための文書。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/DataProtectionOfficer">
+    <rdfs:label xml:lang="ja">データ保護責任者</rdfs:label>
+    <rdfs:comment xml:lang="ja">責任所在明確化の原則に基づき選任されるデータ保護の責任者。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Jissen_People_Analytics/PhillipsROIModel">
+    <rdfs:label xml:lang="ja">フィリップスの5レベルROIモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">研修の効果測定に用いられる評価モデル。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/usesApproach">
+    <rdfs:label xml:lang="ja">用いるアプローチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ピープルアナリティクスが採用する量的または質的アプローチを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/PeopleAnalytics"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/Approach"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/hasPhilosophy">
+    <rdfs:label xml:lang="ja">持つ実践思想</rdfs:label>
+    <rdfs:comment xml:lang="ja">ピープルアナリティクスが依拠する実践思想を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/PeopleAnalytics"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/PracticePhilosophy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/hasPhase">
+    <rdfs:label xml:lang="ja">持つフェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">理解フェーズまたは実装フェーズとの関係を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/PeopleAnalytics"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisPhase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/hasStage">
+    <rdfs:label xml:lang="ja">持つ分析段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">記述・診断・予測・処方のいずれかの分析段階を持つことを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/PeopleAnalytics"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisPhase"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisStage"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/precedesPhase">
+    <rdfs:label xml:lang="ja">先行する</rdfs:label>
+    <rdfs:comment xml:lang="ja">理解フェーズが実装フェーズに先立つ関係を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/UnderstandingPhase"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/ImplementationPhase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/usesCollectionMethod">
+    <rdfs:label xml:lang="ja">用いる収集手法</rdfs:label>
+    <rdfs:comment xml:lang="ja">アプローチまたは実践が用いるデータ収集手法を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/Approach"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/PeopleAnalytics"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/CollectionMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/collectsData">
+    <rdfs:label xml:lang="ja">収集するデータ</rdfs:label>
+    <rdfs:comment xml:lang="ja">収集手法が対象とするデータの種類を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/CollectionMethod"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/Data"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/usesScale">
+    <rdfs:label xml:lang="ja">用いる尺度</rdfs:label>
+    <rdfs:comment xml:lang="ja">サーベイ設計で選択する測定尺度を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/Survey"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/MeasurementScale"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/hasInterviewType">
+    <rdfs:label xml:lang="ja">持つインタビュー類型</rdfs:label>
+    <rdfs:comment xml:lang="ja">インタビューの構造化の程度を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/Interview"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/InterviewType"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/hasObservationType">
+    <rdfs:label xml:lang="ja">持つ観察類型</rdfs:label>
+    <rdfs:comment xml:lang="ja">観察調査が参与的か非参与的かを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/Observation"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/ObservationType"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/usesThickDescription">
+    <rdfs:label xml:lang="ja">用いる厚い記述</rdfs:label>
+    <rdfs:comment xml:lang="ja">観察調査が厚い記述により意味づけと文脈を記録することを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/Observation"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/ThickDescription"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/usesAnalysisMethod">
+    <rdfs:label xml:lang="ja">用いる分析方法</rdfs:label>
+    <rdfs:comment xml:lang="ja">データ分析に用いる量的または質的手法を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/Approach"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/PeopleAnalytics"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/CaseStudy"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/analyzesData">
+    <rdfs:label xml:lang="ja">分析するデータ</rdfs:label>
+    <rdfs:comment xml:lang="ja">分析方法が対象とするデータを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisMethod"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/Data"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/appliedInCase">
+    <rdfs:label xml:lang="ja">適用される事例</rdfs:label>
+    <rdfs:comment xml:lang="ja">手法やアプローチが用いられたケーススタディを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/CollectionMethod"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisMethod"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/Approach"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/CaseStudy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/evaluatesWithModel">
+    <rdfs:label xml:lang="ja">用いる評価モデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">研修効果測定などの事例が依拠する評価モデルを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/CaseStudy"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/PhillipsROIModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/hasOrganizationStructure">
+    <rdfs:label xml:lang="ja">持つ組織形態</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織設計における立ち位置（中央集権型・連邦型・ハイブリッド型）を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/OrganizationDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/OrganizationStructure"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/hasOrganizationDesign">
+    <rdfs:label xml:lang="ja">持つ組織設計</rdfs:label>
+    <rdfs:comment xml:lang="ja">ピープルアナリティクス推進のための組織設計を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/PeopleAnalytics"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/OrganizationDesign"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/followsPrinciple">
+    <rdfs:label xml:lang="ja">従う原則</rdfs:label>
+    <rdfs:comment xml:lang="ja">実践が遵守すべき倫理原則および人事データ利活用原則を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/PeopleAnalytics"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/EthicalPrinciple"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/hasRequirementSpecification">
+    <rdfs:label xml:lang="ja">持つ要件定義書</rdfs:label>
+    <rdfs:comment xml:lang="ja">推進プロジェクトが作成する要件定義書との関係を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/PeopleAnalytics"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/OrganizationDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/RequirementSpecification"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Jissen_People_Analytics/hasDataProtectionOfficer">
+    <rdfs:label xml:lang="ja">選任するデータ保護責任者</rdfs:label>
+    <rdfs:comment xml:lang="ja">責任所在明確化の原則に基づくデータ保護責任者の選任関係を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/OrganizationDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Jissen_People_Analytics/DataProtectionOfficer"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Jissen_People_Analytics/hasDescription">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">対象の補足的な説明文。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/PeopleAnalytics"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/Approach"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/Data"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/CollectionMethod"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/AnalysisMethod"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/CaseStudy"/>
+    <rdfs:domain rdf:resource="https://books.local/Jissen_People_Analytics/EthicalPrinciple"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

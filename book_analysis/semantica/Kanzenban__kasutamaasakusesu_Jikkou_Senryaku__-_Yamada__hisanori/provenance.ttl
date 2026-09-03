@@ -1,0 +1,259 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/> .
+
+book:source a prov:Entity ;
+  foaf:name "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" .
+
+book:カスタマーサクセス a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:CS a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:B to B SaaS a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:SaaS a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:サブスクリプションモデル a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネスモデル a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:ソフトウェア a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:B2C a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客のサクセス a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:アウトカム a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロダクト・サービス a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:成果 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:条件2 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:Success a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:提供価値 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:Concept A a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:ストック型 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:2017年頃 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:サービス化する a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:フロー型 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:SI a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:IoT a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:価値を伝えること a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:セールス部門 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:翔泳社 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:Biz/Zine a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベストプラクティス a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:増補改訂版カスタマーサクセス実行戦略 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:合同会社sasket a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:サスケット a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:勉強会 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:プラクティス a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーケット a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:ドライバー a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:保有から利用へ a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:Netflix a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:Spotify a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:15-20 years a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:ASP a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:Application Service Provider a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:サポート部門 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポストセールス a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:既存顧客向けセールス a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:メインミッション a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:近年 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:アンケート a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:コールセンター界隈 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:満足しているのに継続しない顧客 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:長年 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:継続性 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:利用ログ a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:インターネット技術 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:自動車 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:家電 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:利益（アウトカム） a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:動画配信サービス a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:レンタカーサービス a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンテンツ a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:購買動機 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:Outcomes a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:製品・サービス a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .
+
+book:個別化 a prov:Entity ;
+  book:book_key "Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori" ;
+  prov:wasDerivedFrom book:source .

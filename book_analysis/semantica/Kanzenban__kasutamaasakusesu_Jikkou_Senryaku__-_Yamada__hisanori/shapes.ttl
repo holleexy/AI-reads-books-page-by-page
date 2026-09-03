@@ -1,0 +1,424 @@
+@prefix ex: <https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/shapes> a owl:Ontology .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerSuccess ;
+    sh:name "カスタマーサクセス" ;
+    sh:description "顧客が製品やサービスを利用しながら望ましい成果を達成することを保証する能動的なビジネスアプローチ。満足ではなく成果の実現にコミットする。" ;
+    sh:property [
+        sh:path ex:deliversOutcome ;
+        sh:class ex:Outcome ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:differsFrom ;
+        sh:class ex:CustomerSupport ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:basedOnBusinessModel ;
+        sh:class ex:BusinessModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:measuredBy ;
+        sh:class ex:CSMetric ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:alignsWith ;
+        sh:class ex:SanpoYoshi ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSupportShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerSupport ;
+    sh:name "カスタマーサポート" ;
+    sh:description "機能的な問題やトラブルシューティングに焦点を当て、顧客満足（CSAT）を目標とする反応的な防衛的対応。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/OutcomeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Outcome ;
+    sh:name "アウトカム" ;
+    sh:description "顧客が求める具体的で価値のある成果。CSの最終目標であり、顧客の事業文脈に応じて個別化される。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SuccessStateShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SuccessState ;
+    sh:name "成功状態" ;
+    sh:description "顧客がアウトカムを継続的に実現している状態。成功の定義そのもの。" ;
+    sh:property [
+        sh:path ex:realizesOutcome ;
+        sh:class ex:Outcome ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "製品またはサービスを利用し、個別の事業文脈に基づくアウトカムを求める個人または組織。" ;
+    sh:property [
+        sh:path ex:seeksOutcome ;
+        sh:class ex:Outcome ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesProduct ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:segmentedBy ;
+        sh:class ex:EngagementModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:inLifecyclePhase ;
+        sh:class ex:CustomerLifecyclePhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:achievesSuccess ;
+        sh:class ex:SuccessState ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHealthScore ;
+        sh:class ex:HealthScore ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasChurnRisk ;
+        sh:class ex:Churn ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:managedBy ;
+        sh:class ex:CustomerSuccessManager ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Product ;
+    sh:name "製品" ;
+    sh:description "顧客が利用する製品またはサービス。価値提供の媒体であり、PLGでは獲得・維持・拡大の駆動力となる。" ;
+    sh:property [
+        sh:path ex:employsPLG ;
+        sh:class ex:ProductLedGrowth ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/BusinessModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessModel ;
+    sh:name "ビジネスモデル" ;
+    sh:description "企業が収益を生み出す仕組み。フロー型とストック型に大別される。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/FlowModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FlowModel ;
+    sh:name "フローモデル" ;
+    sh:description "システムインテグレーションのような一回限りの取引に依存し、常に新規販売を必要とする従来型モデル。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/StockModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:StockModel ;
+    sh:name "ストックモデル" ;
+    sh:description "継続的な顧客利用に基づき安定した予測可能な経常収益を生み出すモデル。SaaSとサブスクリプションが代表例。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SubscriptionModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SubscriptionModel ;
+    sh:name "サブスクリプションモデル" ;
+    sh:description "定期課金により収益を得るモデル。収益性は顧客維持に完全に依存するためCSが不可欠となる。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SaaSShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SaaS ;
+    sh:name "SaaS" ;
+    sh:description "ソフトウェアをサービスとして提供する形態。カスタマーサクセスが現代ビジネスの推進力となる主要な適用領域。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSMaturityLevelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CSMaturityLevel ;
+    sh:name "CS成熟度レベル" ;
+    sh:description "Gainsightが定義するカスタマーサクセス組織の進化段階。リアクティブからトランスフォームまでの四段階。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ReactiveStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ReactiveStage ;
+    sh:name "リアクティブ段階" ;
+    sh:description "顧客からの問い合わせにその場しのぎで対応する初期の成熟段階。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/InsightsAndActionsStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InsightsAndActionsStage ;
+    sh:name "インサイトとアクション段階" ;
+    sh:description "360度顧客ビューやライフサイクル管理など、データに基づく枠組みを構築する段階。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/OutcomesStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OutcomesStage ;
+    sh:name "アウトカム段階" ;
+    sh:description "アドプション・更新・拡大管理を通じて顧客成功を能動的に推進する段階。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/TransformStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TransformStage ;
+    sh:name "トランスフォーム段階" ;
+    sh:description "顧客ライフサイクルを完全に制御し、CSを高い維持率を持つ主要な利益センターにする段階。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/EngagementModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EngagementModel ;
+    sh:name "エンゲージメントモデル" ;
+    sh:description "顧客ピラミッドに基づきリソースを効率配分するためのセグメント別接触モデル。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/HighTouchShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HighTouch ;
+    sh:name "ハイタッチ" ;
+    sh:description "大規模エンタープライズアカウント向けに専任CSMを配置する高密度支援モデル。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/LowTouchShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LowTouch ;
+    sh:name "ロータッチ" ;
+    sh:description "ミッドマーケット向けに標準化された支援で数百アカウントをCSMが管理するモデル。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/TechTouchShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TechTouch ;
+    sh:name "テックタッチ" ;
+    sh:description "中小企業向けの自動化・技術主導のエンゲージメントモデル。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerLifecyclePhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerLifecyclePhase ;
+    sh:name "カスタマーライフサイクルフェーズ" ;
+    sh:description "オンボーディングからチャーンまでの顧客関係を管理する一連の段階。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/OnboardingShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Onboarding ;
+    sh:name "オンボーディング" ;
+    sh:description "製品のコア価値を届け初期設定を完了させる最も重要なフェーズ。期間は通常1〜3ヶ月。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/AdoptionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Adoption ;
+    sh:name "アドプション" ;
+    sh:description "顧客が製品を日常業務のワークフローに統合する利用フェーズ。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/RenewalShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Renewal ;
+    sh:name "リニューアル" ;
+    sh:description "契約継続を確認し拡大機会を探るフェーズ。チャーン傍受のための更新管理が行われる。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ChurnShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Churn ;
+    sh:name "チャーン" ;
+    sh:description "解約。コントロール可能なものと不可能なものに分かれ、退出を丁寧に管理し再契約の余地と解約理由データを残す。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/LightSuccessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LightSuccess ;
+    sh:name "ライトサクセス" ;
+    sh:description "現場レベルでの即時的な運用上の便益（利便性・時間短縮など）。短期的な顧客維持を確保する。" ;
+    sh:property [
+        sh:path ex:realizesOutcome ;
+        sh:class ex:Outcome ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/DeepSuccessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DeepSuccess ;
+    sh:name "ディープサクセス" ;
+    sh:description "経営層レベルでの長期的な事業変革とROI。複数年の顧客維持を確保する。" ;
+    sh:property [
+        sh:path ex:realizesOutcome ;
+        sh:class ex:Outcome ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/HealthScoreShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HealthScore ;
+    sh:name "ヘルススコア" ;
+    sh:description "アカウントの健全性や更新可能性を判断する指標または指標の集合。利用ログとCSMの定性的直感を組み合わせて設計する。" ;
+    sh:property [
+        sh:path ex:designedWith ;
+        sh:class ex:DEARFramework ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/DEARFrameworkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DEARFramework ;
+    sh:name "DEARフレームワーク" ;
+    sh:description "展開の完了度、関係の強さ、利用率、価値実現を測定するヘルススコア設計手法。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSMetricShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CSMetric ;
+    sh:name "CSメトリクス" ;
+    sh:description "既存顧客による健全で摩擦のないサービス利用に焦点を当てた指標。顧客成長を考慮し絶対数ではなく比率として設計する。" ;
+    sh:property [
+        sh:path ex:indicatesROI ;
+        sh:class ex:ROI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ROIShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ROI ;
+    sh:name "投資対効果" ;
+    sh:description "顧客が実現する価値。提供者はCSメトリクスを売上増またはコスト減に結びつける論理式を構築し顧客と検証する。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSCTAShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CSCTA ;
+    sh:name "CS CTA" ;
+    sh:description "利用低下などのデータ閾値で発動する自動アラート。CSMがダッシュボードを常時監視せず大規模ポートフォリオを管理できる。" ;
+    sh:property [
+        sh:path ex:triggeredFor ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignedTo ;
+        sh:class ex:CustomerSuccessManager ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSTechStackShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CSTechStack ;
+    sh:name "CSテックスタック" ;
+    sh:description "データサイロを解消するため統合するCRM、CSプラットフォーム、利用分析、コミュニケーションおよびマーケティングツール群。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductLedGrowthShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductLedGrowth ;
+    sh:name "プロダクトレッドグロース" ;
+    sh:description "摩擦のないオンボーディング、バイラリティ、拡張可能な価格、アプリ内アップグレードにより製品自体が獲得・維持・拡大を推進する戦略。" ;
+    sh:property [
+        sh:path ex:generatesPQL ;
+        sh:class ex:ProductQualifiedLead ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductQualifiedLeadShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductQualifiedLead ;
+    sh:name "プロダクトクオリファイドリード" ;
+    sh:description "製品内で価値を体験し営業対話の準備ができたユーザー。従来のMQLより高い転換率を示す。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSOrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CSOrganization ;
+    sh:name "CS組織" ;
+    sh:description "CSM、カスタマーマーケティング、CS Ops、テクニカルサポート、コントロールセンターの五機能からなる成熟したCS部門。" ;
+    sh:property [
+        sh:path ex:hasMaturityLevel ;
+        sh:class ex:CSMaturityLevel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesTechStack ;
+        sh:class ex:CSTechStack ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:name ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccessManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerSuccessManager ;
+    sh:name "カスタマーサクセスマネージャー" ;
+    sh:description "顧客の第一線支援を担う役割。ミッドマーケットでは目安として約50アカウント、またはCSM一人あたりARR500万ドル未満。" ;
+    sh:property [
+        sh:path ex:memberOf ;
+        sh:class ex:CSOrganization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:collectsVoC ;
+        sh:class ex:VoiceOfCustomer ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductManager ;
+    sh:name "プロダクトマネージャー" ;
+    sh:description "正しい製品を構築する責任を持つ役割。" ;
+    sh:property [
+        sh:path ex:buildsProduct ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductMarketingManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProductMarketingManager ;
+    sh:name "プロダクトマーケティングマネージャー" ;
+    sh:description "製品を市場に適合させる役割。新機能のメッセージ定義、採用KPI、営業・CS向けコンテンツ、VoCフィードバックループを担う。" ;
+    sh:property [
+        sh:path ex:usesVoC ;
+        sh:class ex:VoiceOfCustomer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:fitsProductToMarket ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/VoiceOfCustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:VoiceOfCustomer ;
+    sh:name "顧客の声" ;
+    sh:description "CSが収集する生の顧客インサイト。PMMのプロダクトマーケットフィット加速戦略の燃料となる。" .
+
+<https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SanpoYoshiShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SanpoYoshi ;
+    sh:name "三方良し" ;
+    sh:description "売り手良し、買い手良し、世間良しという日本の伝統的商売哲学。事業活動を通じた人間的信頼の構築としてCSの思想的基盤となる。" .

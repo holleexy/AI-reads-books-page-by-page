@@ -1,0 +1,516 @@
+{
+  "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/",
+  "name": "kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosubOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "CustomerSuccess",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccess",
+      "label": "カスタマーサクセス",
+      "comment": "顧客がプロダクトやサービスを使って望んだビジネス成果を上げるようにする手法。方程式はCS＝CX＋COであり、人間ファーストに基づく全社的マインドセットとビジネス戦略である。",
+      "parent": null
+    },
+    {
+      "name": "CustomerExperience",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerExperience",
+      "label": "カスタマー体験",
+      "comment": "顧客がプロダクトやサービスを通じて得る体験（CX）。成果と組み合わせた四象限マトリクスでロイヤルティとチャーンリスクを把握する。",
+      "parent": null
+    },
+    {
+      "name": "CustomerOutcome",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerOutcome",
+      "label": "カスタマーの成果",
+      "comment": "顧客がプロダクトやサービスを用いて達成するビジネス成果（CO）。体験が良くても成果が出ていなければ将来的なチャーンリスクがある。",
+      "parent": null
+    },
+    {
+      "name": "CustomerSuccessManager",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccessManager",
+      "label": "カスタマーサクセスマネージャー",
+      "comment": "顧客の成功を自社の成功に直結させる職種。知識、課題解決能力、関係構築の三つのコアコンピテンシーが求められ、業務の八割はプロアクティブであるべきである。",
+      "parent": null
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer",
+      "label": "顧客",
+      "comment": "サブスクリプションモデルにおいて主導権を持ち、価値を感じなければいつでも解約できる主体。",
+      "parent": null
+    },
+    {
+      "name": "Vendor",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Vendor",
+      "label": "ベンダー",
+      "comment": "プロダクトやサービスを提供する企業。クラウドとSaaSの普及により顧客へパワーシフトした。",
+      "parent": null
+    },
+    {
+      "name": "Product",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Product",
+      "label": "プロダクト",
+      "comment": "ベンダーが提供する製品やサービス。CSMには自社プロダクトへの深い精通が必須である。",
+      "parent": null
+    },
+    {
+      "name": "SubscriptionModel",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/SubscriptionModel",
+      "label": "サブスクリプションモデル",
+      "comment": "継続課金型のビジネスモデル。オンプレミスの売り切りから移行し、カスタマーサクセス誕生の背景となった。",
+      "parent": null
+    },
+    {
+      "name": "Churn",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Churn",
+      "label": "チャーン",
+      "comment": "顧客の解約。Salesforce創業初期の高解約率がCS職誕生の契機となった持続不可能な脅威である。",
+      "parent": null
+    },
+    {
+      "name": "ConsumptionGap",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/ConsumptionGap",
+      "label": "コンサンプションギャップ",
+      "comment": "プロダクトが提供できる価値と顧客が実際に得られている価値の差。CSMはこのギャップを埋め、アップセルや契約拡張の商機に変える。",
+      "parent": null
+    },
+    {
+      "name": "NetPromoterScore",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/NetPromoterScore",
+      "label": "ネットプロモータースコア",
+      "comment": "顧客ロイヤルティを測る指標。0から6を批判者、7から8を中立者、9から10を推奨者とする。",
+      "parent": null
+    },
+    {
+      "name": "CustomerHealthScore",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerHealthScore",
+      "label": "カスタマーヘルススコア",
+      "comment": "顧客の健全性をアウトカム指標と体験指標で定量化した指標。標準化に加え、人間のエモーショナルインテリジェンスによるマイクロセグメンテーションが不可欠である。",
+      "parent": null
+    },
+    {
+      "name": "CustomerLifecycle",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerLifecycle",
+      "label": "カスタマーライフサイクル",
+      "comment": "検討・評価、成約、オンボーディング、アダプション、契約更新・拡張またはチャーンからなる顧客の生涯過程。",
+      "parent": null
+    },
+    {
+      "name": "JourneyMap",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/JourneyMap",
+      "label": "ジャーニーマップ",
+      "comment": "ライフサイクル各フェーズで顧客が迷子にならないようマイルストーンを示した道筋。営業からCSへのハンドオフは特に重要な真実の瞬間である。",
+      "parent": null
+    },
+    {
+      "name": "SuccessPlan",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/SuccessPlan",
+      "label": "サクセスプラン",
+      "comment": "ベンダーと顧客が合意した目標、マイルストーン、タイムラインを記録し、目標達成への責任を共有する現在進行形のプロセス。",
+      "parent": null
+    },
+    {
+      "name": "Segmentation",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Segmentation",
+      "label": "セグメンテーション",
+      "comment": "収益、規模、成長ポテンシャルなどで顧客を分類し、ハイタッチ、ミドルタッチ、テックタッチなど適したリソースとアプローチを割り当てること。",
+      "parent": null
+    },
+    {
+      "name": "TouchModel",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/TouchModel",
+      "label": "タッチモデル",
+      "comment": "顧客セグメントに応じた接点設計。エンタープライズ向けハイタッチ、ミッドマーケット向けミドルタッチ、SMB向けテックタッチがある。",
+      "parent": null
+    },
+    {
+      "name": "Risk",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Risk",
+      "label": "リスク",
+      "comment": "実装、感情、サポート、プロダクト、企業、契約更新の六カテゴリーで管理される顧客リスク。",
+      "parent": null
+    },
+    {
+      "name": "ExecutiveBusinessReview",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/ExecutiveBusinessReview",
+      "label": "エグゼクティブビジネスレビュー",
+      "comment": "成果の進捗を共有しROIを証明する最重要会議。満足させるだけでなく具体的なアクションを引き出すことを目的とする。",
+      "parent": null
+    },
+    {
+      "name": "VoiceOfCustomer",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/VoiceOfCustomer",
+      "label": "ボイス・オブ・カスタマー",
+      "comment": "定性的コメントのパターンから洞察を抽出する顧客の声。ステークホルダーとエンドユーザーのセンチメント乖離は重要なリスク指標である。",
+      "parent": null
+    },
+    {
+      "name": "WhiteSpace",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/WhiteSpace",
+      "label": "ホワイトスペース",
+      "comment": "顧客内に残されたアップセルやクロスセルの潜在機会。データで特定しパイプラインダッシュボードで管理する。",
+      "parent": null
+    },
+    {
+      "name": "Advocacy",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Advocacy",
+      "label": "アドボカシー",
+      "comment": "顧客の成功体験（CSQA）に基づく推薦。紹介（CSQL）はマーケティングや営業のリードより成約率が高い。",
+      "parent": null
+    },
+    {
+      "name": "CSOrganization",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CSOrganization",
+      "label": "CS組織",
+      "comment": "セグメンテーションとリソース配分、報酬モデル、キャリアパスを設計するカスタマーサクセス組織。",
+      "parent": null
+    },
+    {
+      "name": "IncentiveModel",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/IncentiveModel",
+      "label": "報酬モデル",
+      "comment": "未成熟段階ではオンボーディング完了やEBR実施回数などの先行指標、成熟段階ではリテンションやアップセルなどの遅行指標に連動させる報酬設計。",
+      "parent": null
+    },
+    {
+      "name": "CareerPath",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CareerPath",
+      "label": "キャリアパス",
+      "comment": "ジョブ、レベル、スキルを定義し、九ブロックモデルで人材評価と育成を行い、内部異動も促進する経路。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "hasCustomerExperience",
+      "type": "object",
+      "domain": [
+        "CustomerSuccess"
+      ],
+      "range": [
+        "CustomerExperience"
+      ],
+      "label": "カスタマー体験を持つ",
+      "comment": "カスタマーサクセスがカスタマー体験（CX）を構成要素として含む関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasCustomerExperience"
+    },
+    {
+      "name": "hasCustomerOutcome",
+      "type": "object",
+      "domain": [
+        "CustomerSuccess"
+      ],
+      "range": [
+        "CustomerOutcome"
+      ],
+      "label": "カスタマー成果を持つ",
+      "comment": "カスタマーサクセスがカスタマーの成果（CO）を構成要素として含む関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasCustomerOutcome"
+    },
+    {
+      "name": "manages",
+      "type": "object",
+      "domain": [
+        "CustomerSuccessManager"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "担当する",
+      "comment": "CSMが顧客の成功を支援し関係を構築する担当関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/manages"
+    },
+    {
+      "name": "usesProduct",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "Product"
+      ],
+      "label": "プロダクトを利用する",
+      "comment": "顧客が価値と成果を得るためにプロダクトを利用する関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/usesProduct"
+    },
+    {
+      "name": "providedBy",
+      "type": "object",
+      "domain": [
+        "Product"
+      ],
+      "range": [
+        "Vendor"
+      ],
+      "label": "提供される",
+      "comment": "プロダクトがベンダーによって提供される関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/providedBy"
+    },
+    {
+      "name": "employs",
+      "type": "object",
+      "domain": [
+        "Vendor"
+      ],
+      "range": [
+        "CustomerSuccessManager"
+      ],
+      "label": "雇用する",
+      "comment": "ベンダーがCSMを雇用しCS組織に配置する関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/employs"
+    },
+    {
+      "name": "hasConsumptionGap",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "ConsumptionGap"
+      ],
+      "label": "利用格差を持つ",
+      "comment": "顧客がプロダクト提供価値と実際の獲得価値の差を抱える関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasConsumptionGap"
+    },
+    {
+      "name": "hasHealthScore",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "CustomerHealthScore"
+      ],
+      "label": "ヘルススコアを持つ",
+      "comment": "顧客の健全性がヘルススコアで定量化される関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasHealthScore"
+    },
+    {
+      "name": "measuredByNps",
+      "type": "object",
+      "domain": [
+        "CustomerExperience"
+      ],
+      "range": [
+        "NetPromoterScore"
+      ],
+      "label": "NPSで測定される",
+      "comment": "カスタマー体験やロイヤルティがネットプロモータースコアで測定される関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/measuredByNps"
+    },
+    {
+      "name": "hasLifecycle",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "CustomerLifecycle"
+      ],
+      "label": "ライフサイクルを持つ",
+      "comment": "顧客が検討から更新・拡張またはチャーンまでのライフサイクルをたどる関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasLifecycle"
+    },
+    {
+      "name": "hasJourneyMap",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "JourneyMap"
+      ],
+      "label": "ジャーニーマップを持つ",
+      "comment": "顧客の各フェーズがジャーニーマップのマイルストーンで案内される関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasJourneyMap"
+    },
+    {
+      "name": "hasSuccessPlan",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "SuccessPlan"
+      ],
+      "label": "サクセスプランを持つ",
+      "comment": "顧客とベンダーが目標達成の責任をサクセスプランで共有する関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasSuccessPlan"
+    },
+    {
+      "name": "segmentedBy",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "Segmentation"
+      ],
+      "label": "セグメント分類される",
+      "comment": "顧客が収益や規模などに基づきセグメントへ分類される関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/segmentedBy"
+    },
+    {
+      "name": "approachedWith",
+      "type": "object",
+      "domain": [
+        "Segmentation"
+      ],
+      "range": [
+        "TouchModel"
+      ],
+      "label": "タッチモデルで接する",
+      "comment": "セグメントに対してハイタッチ、ミドルタッチ、テックタッチのいずれかが割り当てられる関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/approachedWith"
+    },
+    {
+      "name": "facesRisk",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "Risk"
+      ],
+      "label": "リスクに直面する",
+      "comment": "顧客が実装、感情、サポート、プロダクト、企業、契約更新などのリスクに直面する関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/facesRisk"
+    },
+    {
+      "name": "reviewedIn",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "ExecutiveBusinessReview"
+      ],
+      "label": "EBRでレビューされる",
+      "comment": "顧客の成果進捗とROIがエグゼクティブビジネスレビューで共有される関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/reviewedIn"
+    },
+    {
+      "name": "givesVoice",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "VoiceOfCustomer"
+      ],
+      "label": "顧客の声を提供する",
+      "comment": "顧客が定性的フィードバックとしてボイス・オブ・カスタマーを提供する関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/givesVoice"
+    },
+    {
+      "name": "hasWhiteSpace",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "WhiteSpace"
+      ],
+      "label": "ホワイトスペースを持つ",
+      "comment": "顧客アカウント内にアップセルやクロスセルの潜在機会が残されている関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasWhiteSpace"
+    },
+    {
+      "name": "generatesAdvocacy",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "Advocacy"
+      ],
+      "label": "アドボカシーを生む",
+      "comment": "顧客の成功体験から推薦や紹介リードが生まれる関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/generatesAdvocacy"
+    },
+    {
+      "name": "belongsTo",
+      "type": "object",
+      "domain": [
+        "CustomerSuccessManager"
+      ],
+      "range": [
+        "CSOrganization"
+      ],
+      "label": "組織に属する",
+      "comment": "CSMがCS組織に所属しリソース配分やキャリアパスの対象となる関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/belongsTo"
+    },
+    {
+      "name": "usesIncentiveModel",
+      "type": "object",
+      "domain": [
+        "CSOrganization"
+      ],
+      "range": [
+        "IncentiveModel"
+      ],
+      "label": "報酬モデルを用いる",
+      "comment": "CS組織が成熟度に応じたインセンティブ設計を用いる関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/usesIncentiveModel"
+    },
+    {
+      "name": "hasCareerPath",
+      "type": "object",
+      "domain": [
+        "CustomerSuccessManager"
+      ],
+      "range": [
+        "CareerPath"
+      ],
+      "label": "キャリアパスを持つ",
+      "comment": "CSMがジョブ、レベル、スキルに沿った成長経路を持つ関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasCareerPath"
+    },
+    {
+      "name": "originatedFrom",
+      "type": "object",
+      "domain": [
+        "CustomerSuccess"
+      ],
+      "range": [
+        "SubscriptionModel"
+      ],
+      "label": "起源とする",
+      "comment": "カスタマーサクセスがサブスクリプションモデルの台頭とチャーン脅威から生まれた関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/originatedFrom"
+    },
+    {
+      "name": "preventsChurn",
+      "type": "object",
+      "domain": [
+        "CustomerSuccess"
+      ],
+      "range": [
+        "Churn"
+      ],
+      "label": "チャーンを防ぐ",
+      "comment": "カスタマーサクセスが解約を防ぎ持続的な収益成長を支える関係。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/preventsChurn"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "CustomerSuccess",
+        "Customer",
+        "Product",
+        "CustomerSuccessManager"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "概念や主体の補足説明を表す文字列。",
+      "uri": "https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/description"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

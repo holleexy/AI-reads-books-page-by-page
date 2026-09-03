@@ -1,0 +1,683 @@
+@prefix ex: <https://books.local/Jissen_People_Analytics/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/Jissen_People_Analytics/shapes> a owl:Ontology .
+
+<https://books.local/Jissen_People_Analytics/PeopleAnalyticsShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PeopleAnalytics ;
+    sh:name "ピープルアナリティクス" ;
+    sh:description "人材マネジメントの意思決定において、量的データと質的データを統合し、組織と人材を深く理解したうえで実装へつなげる実践的取り組み。" ;
+    sh:property [
+        sh:path ex:usesApproach ;
+        sh:class ex:Approach ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPhilosophy ;
+        sh:class ex:PracticePhilosophy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasPhase ;
+        sh:class ex:AnalysisPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStage ;
+        sh:class ex:AnalysisStage ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesCollectionMethod ;
+        sh:class ex:CollectionMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesAnalysisMethod ;
+        sh:class ex:AnalysisMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasOrganizationDesign ;
+        sh:class ex:OrganizationDesign ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsPrinciple ;
+        sh:class ex:EthicalPrinciple ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasRequirementSpecification ;
+        sh:class ex:RequirementSpecification ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/PracticePhilosophyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PracticePhilosophy ;
+    sh:name "実践思想" ;
+    sh:description "活用できるものは何でも活用すること、および誰でもできる取り組みであることを掲げるピープルアナリティクスの基本思想。" .
+
+<https://books.local/Jissen_People_Analytics/ApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Approach ;
+    sh:name "アプローチ" ;
+    sh:description "ピープルアナリティクスにおけるデータ収集と分析の方法論の総称。" ;
+    sh:property [
+        sh:path ex:usesCollectionMethod ;
+        sh:class ex:CollectionMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesAnalysisMethod ;
+        sh:class ex:AnalysisMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/QuantitativeApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:QuantitativeApproach ;
+    sh:name "量的アプローチ" ;
+    sh:description "サーベイや業務データなどの数値データを統計学やテクノロジーで分析するアプローチ。" ;
+    sh:property [
+        sh:path ex:usesCollectionMethod ;
+        sh:class ex:CollectionMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesAnalysisMethod ;
+        sh:class ex:AnalysisMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/QualitativeApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:QualitativeApproach ;
+    sh:name "質的アプローチ" ;
+    sh:description "インタビューや観察調査により物語モード（ナラティブ）を通じて現実に迫るアプローチ。" ;
+    sh:property [
+        sh:path ex:usesCollectionMethod ;
+        sh:class ex:CollectionMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesAnalysisMethod ;
+        sh:class ex:AnalysisMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/DataShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Data ;
+    sh:name "データ" ;
+    sh:description "人材・組織の理解と意思決定に用いる情報の総称。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/QuantitativeDataShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:QuantitativeData ;
+    sh:name "量的データ" ;
+    sh:description "数値化され統計分析の対象となる人材・組織データ。量的データだけでは複雑な人材・組織の理解に限界がある。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/QualitativeDataShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:QualitativeData ;
+    sh:name "質的データ" ;
+    sh:description "インタビューや観察から得られる物語・文脈・意味づけを含む非数値データ。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/OperationalDataShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OperationalData ;
+    sh:name "オペレーショナルデータ" ;
+    sh:description "発令や給与など業務の過程で蓄積されるデータ。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/SentimentDataShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SentimentData ;
+    sh:name "センチメントデータ" ;
+    sh:description "エンゲージメントサーベイ等から得られる感情・意見データ。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/PersonalityDataShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PersonalityData ;
+    sh:name "パーソナリティデータ" ;
+    sh:description "適性検査等から得られる性格特性データ。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/ActivityDataShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ActivityData ;
+    sh:name "アクティビティデータ" ;
+    sh:description "メールやチャットなどの行動ログデータ。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/CollectionMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CollectionMethod ;
+    sh:name "データ収集手法" ;
+    sh:description "量的・質的データを収集するための調査手法。" ;
+    sh:property [
+        sh:path ex:collectsData ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/SurveyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Survey ;
+    sh:name "サーベイ" ;
+    sh:description "アンケート調査により量的データを収集する手法。回答負荷の最適化、ダブルバーレルの回避、中立な言葉選びが設計上の要点となる。" ;
+    sh:property [
+        sh:path ex:usesScale ;
+        sh:class ex:MeasurementScale ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:collectsData ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/InterviewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Interview ;
+    sh:name "インタビュー" ;
+    sh:description "相手の語りを引き出す質的データ収集手法。傾聴、受容、オウム返し、共感的理解によるラポール形成が重要である。" ;
+    sh:property [
+        sh:path ex:hasInterviewType ;
+        sh:class ex:InterviewType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:collectsData ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/ObservationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Observation ;
+    sh:name "観察調査" ;
+    sh:description "組織エスノグラフィーとして暗黙のルールや非言語の相互作用に注目する質的データ収集手法。" ;
+    sh:property [
+        sh:path ex:hasObservationType ;
+        sh:class ex:ObservationType ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usesThickDescription ;
+        sh:class ex:ThickDescription ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:collectsData ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/InterviewTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InterviewType ;
+    sh:name "インタビュー類型" ;
+    sh:description "構造化・半構造化・非構造化の使い分けによるインタビューの分類。" .
+
+<https://books.local/Jissen_People_Analytics/StructuredInterviewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:StructuredInterview ;
+    sh:name "構造化インタビュー" ;
+    sh:description "質問項目と順序をあらかじめ固定したインタビュー。" .
+
+<https://books.local/Jissen_People_Analytics/SemiStructuredInterviewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SemiStructuredInterview ;
+    sh:name "半構造化インタビュー" ;
+    sh:description "主要な問いを持ちつつ相手の語りに応じて深掘りするインタビュー。採用基準見直しなどの仮説検証で用いられる。" .
+
+<https://books.local/Jissen_People_Analytics/UnstructuredInterviewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:UnstructuredInterview ;
+    sh:name "非構造化インタビュー" ;
+    sh:description "自由な対話を通じて語りを引き出すインタビュー。" .
+
+<https://books.local/Jissen_People_Analytics/ObservationTypeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ObservationType ;
+    sh:name "観察類型" ;
+    sh:description "観察者が対象集団に関与する度合いによる観察調査の分類。" .
+
+<https://books.local/Jissen_People_Analytics/ParticipantObservationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ParticipantObservation ;
+    sh:name "参与的観察" ;
+    sh:description "観察者が対象の活動に参加しながら記録する観察。" .
+
+<https://books.local/Jissen_People_Analytics/NonParticipantObservationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:NonParticipantObservation ;
+    sh:name "非参与的観察" ;
+    sh:description "観察者が活動に参加せず外部から記録する観察。研修効果測定などで用いられる。" .
+
+<https://books.local/Jissen_People_Analytics/ThickDescriptionShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ThickDescription ;
+    sh:name "厚い記述" ;
+    sh:description "5W1Hだけでなく対象者の意味づけや文脈を詳細に記録する観察記述の方法。" .
+
+<https://books.local/Jissen_People_Analytics/AnalysisPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnalysisPhase ;
+    sh:name "分析フェーズ" ;
+    sh:description "理解と実装に大別されるピープルアナリティクスの実践フェーズ。理解は実装に先立つ不可欠な前提である。" ;
+    sh:property [
+        sh:path ex:hasStage ;
+        sh:class ex:AnalysisStage ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/UnderstandingPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:UnderstandingPhase ;
+    sh:name "理解フェーズ" ;
+    sh:description "複雑な人間や組織の問題を解決するために、まず現状を深く理解するフェーズ。" ;
+    sh:property [
+        sh:path ex:precedesPhase ;
+        sh:class ex:ImplementationPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasStage ;
+        sh:class ex:AnalysisStage ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/ImplementationPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ImplementationPhase ;
+    sh:name "実装フェーズ" ;
+    sh:description "理解に基づき具体的なアクションや施策を現場に実装するフェーズ。" ;
+    sh:property [
+        sh:path ex:hasStage ;
+        sh:class ex:AnalysisStage ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/AnalysisStageShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnalysisStage ;
+    sh:name "分析段階" ;
+    sh:description "記述的・診断的・予測的・処方的の四段階からなる分析の段階区分。" .
+
+<https://books.local/Jissen_People_Analytics/DescriptiveAnalysisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DescriptiveAnalysis ;
+    sh:name "記述的分析" ;
+    sh:description "何が起こったかを可視化する分析段階。" .
+
+<https://books.local/Jissen_People_Analytics/DiagnosticAnalysisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DiagnosticAnalysis ;
+    sh:name "診断的分析" ;
+    sh:description "なぜ起こったかの要因を特定する分析段階。" .
+
+<https://books.local/Jissen_People_Analytics/PredictiveAnalysisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PredictiveAnalysis ;
+    sh:name "予測的分析" ;
+    sh:description "何が起こりそうかを予測する分析段階。ブラックボックス化すると現場の納得感やアクションに繋がりにくい。" .
+
+<https://books.local/Jissen_People_Analytics/PrescriptiveAnalysisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PrescriptiveAnalysis ;
+    sh:name "処方的分析" ;
+    sh:description "どうすればよいかの具体的なアクションを提示する分析段階。" .
+
+<https://books.local/Jissen_People_Analytics/AnalysisMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AnalysisMethod ;
+    sh:name "分析方法" ;
+    sh:description "収集したデータを解釈し、仮説検証や理論生成を行う手法の総称。" ;
+    sh:property [
+        sh:path ex:analyzesData ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/QuantitativeAnalysisMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:QuantitativeAnalysisMethod ;
+    sh:name "量的データ分析方法" ;
+    sh:description "t検定、分散分析、相関分析、重回帰分析、媒介分析、決定木分析など統計手法による分析方法。HADなどのツールが用いられる。" ;
+    sh:property [
+        sh:path ex:analyzesData ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/QualitativeAnalysisMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:QualitativeAnalysisMethod ;
+    sh:name "質的データ分析方法" ;
+    sh:description "抜粋・抽出、KJ法、グラウンデッド・セオリー・アプローチ、カテゴリー分析など質的データを構造化する手法。" ;
+    sh:property [
+        sh:path ex:analyzesData ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/KJMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KJMethod ;
+    sh:name "KJ法" ;
+    sh:description "データをカード化してグルーピングし図解化することで課題の構造を明らかにする質的分析手法。" ;
+    sh:property [
+        sh:path ex:analyzesData ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/GroundedTheoryApproachShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:GroundedTheoryApproach ;
+    sh:name "グラウンデッド・セオリー・アプローチ" ;
+    sh:description "オープンコーディング、アキシャルコーディング、セレクティブコーディングを経て理論を生成する質的分析手法。" ;
+    sh:property [
+        sh:path ex:analyzesData ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/CategoryAnalysisShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CategoryAnalysis ;
+    sh:name "カテゴリー分析" ;
+    sh:description "複数人が独立してカテゴリーを付与し相互主観性により客観性を担保する質的分析手法。" ;
+    sh:property [
+        sh:path ex:analyzesData ;
+        sh:class ex:Data ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:appliedInCase ;
+        sh:class ex:CaseStudy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/MeasurementScaleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MeasurementScale ;
+    sh:name "尺度" ;
+    sh:description "比率尺度、間隔尺度、順序尺度、名義尺度の理解と適切な選択に関する測定尺度。" .
+
+<https://books.local/Jissen_People_Analytics/OrganizationDesignShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationDesign ;
+    sh:name "組織設計" ;
+    sh:description "存在意義、やるべきこと、立ち位置、人材配置、評価方法の五論点からなるピープルアナリティクス推進組織の設計。" ;
+    sh:property [
+        sh:path ex:hasOrganizationStructure ;
+        sh:class ex:OrganizationStructure ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasRequirementSpecification ;
+        sh:class ex:RequirementSpecification ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDataProtectionOfficer ;
+        sh:class ex:DataProtectionOfficer ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/OrganizationStructureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:OrganizationStructure ;
+    sh:name "組織形態" ;
+    sh:description "ピープルアナリティクス機能の社内における配置形態。" .
+
+<https://books.local/Jissen_People_Analytics/CentralizedStructureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CentralizedStructure ;
+    sh:name "中央集権型" ;
+    sh:description "専門部門に分析機能を集約する組織形態。" .
+
+<https://books.local/Jissen_People_Analytics/FederalStructureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FederalStructure ;
+    sh:name "連邦型" ;
+    sh:description "各部門に分析人材を配置する組織形態。" .
+
+<https://books.local/Jissen_People_Analytics/HybridStructureShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HybridStructure ;
+    sh:name "ハイブリッド型" ;
+    sh:description "中央集権型から連邦型などへ段階的に移行する組織形態。" .
+
+<https://books.local/Jissen_People_Analytics/CaseStudyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CaseStudy ;
+    sh:name "ケーススタディ" ;
+    sh:description "採用基準の見直し、離職防止、研修効果測定、エンゲイジメント向上など量的・質的手法を統合した実践事例。" ;
+    sh:property [
+        sh:path ex:usesAnalysisMethod ;
+        sh:class ex:AnalysisMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:evaluatesWithModel ;
+        sh:class ex:PhillipsROIModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/EthicalPrincipleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:EthicalPrinciple ;
+    sh:name "倫理原則" ;
+    sh:description "権力性への自覚や現場への寄り添いを含め、分析結果で従業員を過度にコントロールしないための倫理的指針。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/HRDataUtilizationPrincipleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:HRDataUtilizationPrinciple ;
+    sh:name "人事データ利活用原則" ;
+    sh:description "効用最大化、目的明確化、利用制限、適正取得、正確性・最新性・公平性、セキュリティ確保、アカウンタビリティ、責任所在明確化、人間関与の九原則。" ;
+    sh:property [
+        sh:path ex:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/Jissen_People_Analytics/RequirementSpecificationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RequirementSpecification ;
+    sh:name "要件定義書" ;
+    sh:description "プロジェクトの迷走を防ぎ、継続的な組織的ナレッジとして記録を残すための文書。" .
+
+<https://books.local/Jissen_People_Analytics/DataProtectionOfficerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DataProtectionOfficer ;
+    sh:name "データ保護責任者" ;
+    sh:description "責任所在明確化の原則に基づき選任されるデータ保護の責任者。" .
+
+<https://books.local/Jissen_People_Analytics/PhillipsROIModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PhillipsROIModel ;
+    sh:name "フィリップスの5レベルROIモデル" ;
+    sh:description "研修の効果測定に用いられる評価モデル。" .

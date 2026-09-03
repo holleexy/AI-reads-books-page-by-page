@@ -1,0 +1,593 @@
+{
+  "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/",
+  "name": "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_TsuzukOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "EnterpriseSales",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/EnterpriseSales",
+      "label": "エンタープライズセールス",
+      "comment": "大企業向け営業。組織内の政治力学や感情を動かすアナログな部分を言語化・構造化し、仮説提案型で再現性のある手法を確立する領域。",
+      "parent": null
+    },
+    {
+      "name": "LargeEnterprise",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/LargeEnterprise",
+      "label": "大企業",
+      "comment": "社員数と企業の歴史により購買プロセスと意思決定が複雑化した企業。万が一のリスクと慣性の法則が制約となる。",
+      "parent": null
+    },
+    {
+      "name": "SalesOrganization",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesOrganization",
+      "label": "営業組織",
+      "comment": "大企業担当として成果を出し続ける営業組織。個人スキルに依存せず施策とチームで実行する。",
+      "parent": null
+    },
+    {
+      "name": "Customer",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Customer",
+      "label": "顧客",
+      "comment": "エンタープライズセールスの対象となる大企業側の組織・部門・関係者。",
+      "parent": null
+    },
+    {
+      "name": "SalesPerson",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPerson",
+      "label": "営業担当者",
+      "comment": "仮説提案と関係構築を担う営業個人。スーパー営業個人への依存は避ける。",
+      "parent": null
+    },
+    {
+      "name": "Project",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Project",
+      "label": "プロジェクト",
+      "comment": "顧客の購買ではなく顧客側の企画・準備・成功までを対象とする営業の中心単位。",
+      "parent": null
+    },
+    {
+      "name": "SalesPhase",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPhase",
+      "label": "営業フェーズ",
+      "comment": "プロジェクトベースの営業プロセスを構成するListen、Build & Trust、Partner、Successの総称。",
+      "parent": null
+    },
+    {
+      "name": "ListenPhase",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ListenPhase",
+      "label": "顧客理解フェーズ",
+      "comment": "リサーチで経営層の優先課題や競合の脅威を把握し、五要素のプロジェクト仮説を構築するフェーズ。",
+      "parent": "SalesPhase"
+    },
+    {
+      "name": "BuildAndTrustPhase",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/BuildAndTrustPhase",
+      "label": "関係構築フェーズ",
+      "comment": "プロジェクト仮説を重要課題として認識させ、チャンピオンを探しマインドシェアを獲得するフェーズ。",
+      "parent": "SalesPhase"
+    },
+    {
+      "name": "PartnerPhase",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/PartnerPhase",
+      "label": "信頼醸成フェーズ",
+      "comment": "現場の現状把握と要件定義を行い、実現可能性（ROI）を証明し特殊事情を踏まえたRFPを作成するフェーズ。",
+      "parent": "SalesPhase"
+    },
+    {
+      "name": "SuccessPhase",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SuccessPhase",
+      "label": "成功と展開フェーズ",
+      "comment": "契約を始まりとし、ビジネス成果の創出とモデルケース化、他部署への横展開を行うフェーズ。",
+      "parent": "SalesPhase"
+    },
+    {
+      "name": "ProjectHypothesis",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ProjectHypothesis",
+      "label": "プロジェクト仮説",
+      "comment": "背景、課題、打ち手、自社の貢献領域、期待効果の五要素からなる顧客プロジェクトの仮説。",
+      "parent": null
+    },
+    {
+      "name": "Champion",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Champion",
+      "label": "チャンピオン",
+      "comment": "顧客社内でプロジェクトを推進する社内推進者。専門家化と自走化の核となる。",
+      "parent": null
+    },
+    {
+      "name": "SalesMeasure",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesMeasure",
+      "label": "営業施策",
+      "comment": "個人スキルに依存せず組織として実行する相互連動の施策群。",
+      "parent": null
+    },
+    {
+      "name": "AccountPlan",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountPlan",
+      "label": "アカウントプラン",
+      "comment": "顧客が起こすべきプロジェクトの着眼点を提供する顧客理解のフレームワーク。",
+      "parent": "SalesMeasure"
+    },
+    {
+      "name": "ProjectSelling",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ProjectSelling",
+      "label": "プロジェクトセリング",
+      "comment": "モノではなくプロジェクトの成功を提案しゴールまで伴走する手法。目的・KPI・機能・体制・運用ルール・トレーニングの六つの不在を取り除く。",
+      "parent": "SalesMeasure"
+    },
+    {
+      "name": "CustomerSuccess",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerSuccess",
+      "label": "カスタマーサクセス",
+      "comment": "契約後の成果創出を支援し、解約防止を超えて自走化と横展開、次のビジネスにつなげる定着化施策。",
+      "parent": "SalesMeasure"
+    },
+    {
+      "name": "ExecutiveSales",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ExecutiveSales",
+      "label": "エグゼクティブセールス",
+      "comment": "会社対会社の関係構築。フェーズに応じたアジェンダで役員訪問し、キーマン紹介や稟議リスクを低減する。",
+      "parent": "SalesMeasure"
+    },
+    {
+      "name": "CustomerMap",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerMap",
+      "label": "顧客マップ",
+      "comment": "チーム全員の顧客理解を均一化するために作成・共有する地図の総称。",
+      "parent": null
+    },
+    {
+      "name": "PotentialMap",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/PotentialMap",
+      "label": "ポテンシャルマップ",
+      "comment": "バリューチェーンごとに自社製品の導入ポテンシャル（売上の最大値）を可視化するマップ。",
+      "parent": "CustomerMap"
+    },
+    {
+      "name": "InsightMap",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/InsightMap",
+      "label": "インサイトマップ",
+      "comment": "ゴール、プレッシャー、戦略、障害、施策の五要素で顧客の投資優先順位を分析するマップ。",
+      "parent": "CustomerMap"
+    },
+    {
+      "name": "RelationshipMap",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/RelationshipMap",
+      "label": "人脈マップ",
+      "comment": "公式な組織図に加え、暗黙の意思決定ルートやチャンピオンへのアプローチ方法を可視化するマップ。",
+      "parent": "CustomerMap"
+    },
+    {
+      "name": "BANTFramework",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/BANTFramework",
+      "label": "BANTフレームワーク",
+      "comment": "予算、決裁権、必要性、導入時期で見込み客を選定する枠組み。主に絞り込み型セールスで用いる。",
+      "parent": null
+    },
+    {
+      "name": "KPI",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/KPI",
+      "label": "KPI",
+      "comment": "各フェーズに応じて設定し定量可視化する指標。マップ情報取得数、仮説作成件数、受注率、LTVなどを含む。",
+      "parent": null
+    },
+    {
+      "name": "AccountTeam",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountTeam",
+      "label": "アカウントチーム",
+      "comment": "スーパー営業個人に依存せず、複数人でチームセリングを行う分業体制。",
+      "parent": null
+    },
+    {
+      "name": "SalesRole",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesRole",
+      "label": "営業役割",
+      "comment": "アカウントチーム内の分業上の役割。",
+      "parent": null
+    },
+    {
+      "name": "InsideSales",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/InsideSales",
+      "label": "インサイドセールス",
+      "comment": "圧倒的な行動量で顧客情報を収集し、定期的な情報取得をルーティン化する役割。",
+      "parent": "SalesRole"
+    },
+    {
+      "name": "SolutionEngineer",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SolutionEngineer",
+      "label": "ソリューションエンジニア",
+      "comment": "業界・技術知識を基に顧客の企画構想を支援するプリセールス。",
+      "parent": "SalesRole"
+    },
+    {
+      "name": "CustomerSuccessManager",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerSuccessManager",
+      "label": "カスタマーサクセスマネージャー",
+      "comment": "導入後の定着支援とビジネス成果創出を担当する役割。",
+      "parent": "SalesRole"
+    },
+    {
+      "name": "AccountManager",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountManager",
+      "label": "アカウントマネージャー",
+      "comment": "限られた人数リソースを適切に配分・管理する指揮官。",
+      "parent": "SalesRole"
+    },
+    {
+      "name": "SalesModel",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesModel",
+      "label": "営業モデル",
+      "comment": "購買ボリュームとカスタマイズ性の違いに応じた営業手法の類型。",
+      "parent": null
+    },
+    {
+      "name": "FunnelingSales",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/FunnelingSales",
+      "label": "絞り込み型セールス",
+      "comment": "標準品を多数の顧客に効率よく販売する中小企業向けモデル。認知拡大からBANT選定、契約で終了する。",
+      "parent": "SalesModel"
+    },
+    {
+      "name": "DiffusionSales",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/DiffusionSales",
+      "label": "拡散型セールス",
+      "comment": "カスタマイズ提案でLTVを最大化する大企業向けモデル。企業エンゲージメントは人数×信用であり、契約はスタートである。",
+      "parent": "SalesModel"
+    },
+    {
+      "name": "PurchaseProcess",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/PurchaseProcess",
+      "label": "購買プロセス",
+      "comment": "情報収集・検討・評価の責任者が異なり、多数の関与者と稟議を要する大企業特有の分業プロセス。",
+      "parent": null
+    },
+    {
+      "name": "Targeting",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Targeting",
+      "label": "ターゲティング",
+      "comment": "トータルポテンシャルと難易度の二軸で、限られたリソースを数社に徹底的に絞る行為。木こりのジレンマを断つ。",
+      "parent": null
+    },
+    {
+      "name": "Territory",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Territory",
+      "label": "陣地",
+      "comment": "顧客に選ばれるために確保する時間、マインド、情報、予算の四つの陣地。",
+      "parent": null
+    },
+    {
+      "name": "Forecast",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Forecast",
+      "label": "フォーキャスト",
+      "comment": "大型案件が売上の大部分を占めるため正確さが求められる業績予測。確率論ではなく狙った商談の必勝を基本とする。",
+      "parent": null
+    },
+    {
+      "name": "Scorecard",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Scorecard",
+      "label": "スコアカード",
+      "comment": "営業と技術の視点を二分割表示し、事実と根拠および次にやるべきアクションを記載する評価表。",
+      "parent": null
+    },
+    {
+      "name": "CompellingEvent",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CompellingEvent",
+      "label": "コンペリングイベント",
+      "comment": "プロジェクトを今開始すべき理由。チャンピオンの存在、エグゼクティブカバレッジと並ぶ見極めの不変要素。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "targetsEnterprise",
+      "type": "object",
+      "domain": [
+        "SalesOrganization"
+      ],
+      "range": [
+        "LargeEnterprise"
+      ],
+      "label": "担当する",
+      "comment": "営業組織が担当する大企業を示す。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/targetsEnterprise"
+    },
+    {
+      "name": "servesCustomer",
+      "type": "object",
+      "domain": [
+        "SalesOrganization",
+        "SalesPerson"
+      ],
+      "range": [
+        "Customer"
+      ],
+      "label": "顧客を担当する",
+      "comment": "組織または担当者が顧客企業を担当する関係。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/servesCustomer"
+    },
+    {
+      "name": "hasPhase",
+      "type": "object",
+      "domain": [
+        "EnterpriseSales"
+      ],
+      "range": [
+        "SalesPhase"
+      ],
+      "label": "フェーズを持つ",
+      "comment": "エンタープライズセールスが四つの営業フェーズで構成されることを示す。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasPhase"
+    },
+    {
+      "name": "followsModel",
+      "type": "object",
+      "domain": [
+        "EnterpriseSales"
+      ],
+      "range": [
+        "SalesModel"
+      ],
+      "label": "モデルに従う",
+      "comment": "エンタープライズセールスが拡散型などの営業モデルに従う関係。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/followsModel"
+    },
+    {
+      "name": "proposesProject",
+      "type": "object",
+      "domain": [
+        "SalesPerson"
+      ],
+      "range": [
+        "Project"
+      ],
+      "label": "プロジェクトを提案する",
+      "comment": "営業担当者が顧客プロジェクトを企画・提案する関係。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/proposesProject"
+    },
+    {
+      "name": "hasHypothesis",
+      "type": "object",
+      "domain": [
+        "Project",
+        "ListenPhase"
+      ],
+      "range": [
+        "ProjectHypothesis"
+      ],
+      "label": "仮説を持つ",
+      "comment": "プロジェクトまたは顧客理解フェーズがプロジェクト仮説を持つ関係。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasHypothesis"
+    },
+    {
+      "name": "hasChampion",
+      "type": "object",
+      "domain": [
+        "Project",
+        "Customer"
+      ],
+      "range": [
+        "Champion"
+      ],
+      "label": "チャンピオンを持つ",
+      "comment": "顧客またはプロジェクトが社内推進者を持つ関係。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasChampion"
+    },
+    {
+      "name": "hasAccountPlan",
+      "type": "object",
+      "domain": [
+        "Customer"
+      ],
+      "range": [
+        "AccountPlan"
+      ],
+      "label": "アカウントプランを持つ",
+      "comment": "顧客理解のためのアカウントプランを紐付ける。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasAccountPlan"
+    },
+    {
+      "name": "includesMap",
+      "type": "object",
+      "domain": [
+        "AccountPlan"
+      ],
+      "range": [
+        "CustomerMap"
+      ],
+      "label": "マップを含む",
+      "comment": "アカウントプランがポテンシャル・インサイト・人脈の各マップを含む。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/includesMap"
+    },
+    {
+      "name": "implementsMeasure",
+      "type": "object",
+      "domain": [
+        "SalesOrganization"
+      ],
+      "range": [
+        "SalesMeasure"
+      ],
+      "label": "施策を実行する",
+      "comment": "営業組織が四つの営業施策を組織として実行する関係。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/implementsMeasure"
+    },
+    {
+      "name": "measuredByKPI",
+      "type": "object",
+      "domain": [
+        "SalesPhase"
+      ],
+      "range": [
+        "KPI"
+      ],
+      "label": "KPIで測る",
+      "comment": "各フェーズの進捗を対応するKPIで定量化する。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/measuredByKPI"
+    },
+    {
+      "name": "organizedAs",
+      "type": "object",
+      "domain": [
+        "SalesOrganization"
+      ],
+      "range": [
+        "AccountTeam"
+      ],
+      "label": "チームとして編成する",
+      "comment": "営業組織がアカウントチームによる分業体制をとる。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/organizedAs"
+    },
+    {
+      "name": "hasRole",
+      "type": "object",
+      "domain": [
+        "AccountTeam"
+      ],
+      "range": [
+        "SalesRole"
+      ],
+      "label": "役割を持つ",
+      "comment": "アカウントチームがインサイドセールス等の役割を持つ。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasRole"
+    },
+    {
+      "name": "belongsToTeam",
+      "type": "object",
+      "domain": [
+        "SalesPerson"
+      ],
+      "range": [
+        "AccountTeam"
+      ],
+      "label": "チームに所属する",
+      "comment": "営業担当者がアカウントチームに所属する関係。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/belongsToTeam"
+    },
+    {
+      "name": "hasPurchaseProcess",
+      "type": "object",
+      "domain": [
+        "LargeEnterprise"
+      ],
+      "range": [
+        "PurchaseProcess"
+      ],
+      "label": "購買プロセスを持つ",
+      "comment": "大企業が複雑な分業型の購買プロセスを持つ。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasPurchaseProcess"
+    },
+    {
+      "name": "appliesTargeting",
+      "type": "object",
+      "domain": [
+        "SalesOrganization"
+      ],
+      "range": [
+        "Targeting"
+      ],
+      "label": "ターゲティングを適用する",
+      "comment": "限られたリソースを高ポテンシャルかつ勝算のある顧客に絞る。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/appliesTargeting"
+    },
+    {
+      "name": "occupiesTerritory",
+      "type": "object",
+      "domain": [
+        "SalesPerson",
+        "SalesOrganization"
+      ],
+      "range": [
+        "Territory"
+      ],
+      "label": "陣地を確保する",
+      "comment": "時間・マインド・情報・予算の陣地を顧客内で確保する。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/occupiesTerritory"
+    },
+    {
+      "name": "hasCompellingEvent",
+      "type": "object",
+      "domain": [
+        "Project"
+      ],
+      "range": [
+        "CompellingEvent"
+      ],
+      "label": "開始理由を持つ",
+      "comment": "プロジェクトが今開始すべき理由を持つことを示す。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasCompellingEvent"
+    },
+    {
+      "name": "forecastsWith",
+      "type": "object",
+      "domain": [
+        "SalesOrganization"
+      ],
+      "range": [
+        "Forecast"
+      ],
+      "label": "業績予測する",
+      "comment": "営業組織が大型案件を含む業績を予測する。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/forecastsWith"
+    },
+    {
+      "name": "usesScorecard",
+      "type": "object",
+      "domain": [
+        "Forecast"
+      ],
+      "range": [
+        "Scorecard"
+      ],
+      "label": "スコアカードを用いる",
+      "comment": "フォーキャストにおいて営業と技術の視点乖離からリスクを察知する。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/usesScorecard"
+    },
+    {
+      "name": "supportsSuccess",
+      "type": "object",
+      "domain": [
+        "CustomerSuccess"
+      ],
+      "range": [
+        "Project"
+      ],
+      "label": "成功を支援する",
+      "comment": "カスタマーサクセスが導入後の成果創出と横展開を支援する。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/supportsSuccess"
+    },
+    {
+      "name": "usesBANT",
+      "type": "object",
+      "domain": [
+        "FunnelingSales"
+      ],
+      "range": [
+        "BANTFramework"
+      ],
+      "label": "BANTを用いる",
+      "comment": "絞り込み型セールスが見込み客選定にBANTを用いる。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/usesBANT"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "EnterpriseSales",
+        "ProjectHypothesis",
+        "KPI",
+        "Territory",
+        "Targeting"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "概念や指標、陣地、仮説などの補足説明。",
+      "uri": "https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/description"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

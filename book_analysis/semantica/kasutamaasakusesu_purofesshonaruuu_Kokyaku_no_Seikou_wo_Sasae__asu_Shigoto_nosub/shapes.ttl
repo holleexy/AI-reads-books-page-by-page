@@ -1,0 +1,298 @@
+@prefix ex: <https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/shapes> a owl:Ontology .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerSuccess ;
+    sh:name "カスタマーサクセス" ;
+    sh:description "顧客がプロダクトやサービスを使って望んだビジネス成果を上げるようにする手法。方程式はCS＝CX＋COであり、人間ファーストに基づく全社的マインドセットとビジネス戦略である。" ;
+    sh:property [
+        sh:path ex:hasCustomerExperience ;
+        sh:class ex:CustomerExperience ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCustomerOutcome ;
+        sh:class ex:CustomerOutcome ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:originatedFrom ;
+        sh:class ex:SubscriptionModel ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:preventsChurn ;
+        sh:class ex:Churn ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerExperienceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerExperience ;
+    sh:name "カスタマー体験" ;
+    sh:description "顧客がプロダクトやサービスを通じて得る体験（CX）。成果と組み合わせた四象限マトリクスでロイヤルティとチャーンリスクを把握する。" ;
+    sh:property [
+        sh:path ex:measuredByNps ;
+        sh:class ex:NetPromoterScore ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerOutcomeShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerOutcome ;
+    sh:name "カスタマーの成果" ;
+    sh:description "顧客がプロダクトやサービスを用いて達成するビジネス成果（CO）。体験が良くても成果が出ていなければ将来的なチャーンリスクがある。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccessManagerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerSuccessManager ;
+    sh:name "カスタマーサクセスマネージャー" ;
+    sh:description "顧客の成功を自社の成功に直結させる職種。知識、課題解決能力、関係構築の三つのコアコンピテンシーが求められ、業務の八割はプロアクティブであるべきである。" ;
+    sh:property [
+        sh:path ex:manages ;
+        sh:class ex:Customer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:belongsTo ;
+        sh:class ex:CSOrganization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCareerPath ;
+        sh:class ex:CareerPath ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+    sh:name "顧客" ;
+    sh:description "サブスクリプションモデルにおいて主導権を持ち、価値を感じなければいつでも解約できる主体。" ;
+    sh:property [
+        sh:path ex:usesProduct ;
+        sh:class ex:Product ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasConsumptionGap ;
+        sh:class ex:ConsumptionGap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasHealthScore ;
+        sh:class ex:CustomerHealthScore ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLifecycle ;
+        sh:class ex:CustomerLifecycle ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasJourneyMap ;
+        sh:class ex:JourneyMap ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasSuccessPlan ;
+        sh:class ex:SuccessPlan ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:segmentedBy ;
+        sh:class ex:Segmentation ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:facesRisk ;
+        sh:class ex:Risk ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:reviewedIn ;
+        sh:class ex:ExecutiveBusinessReview ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:givesVoice ;
+        sh:class ex:VoiceOfCustomer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasWhiteSpace ;
+        sh:class ex:WhiteSpace ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:generatesAdvocacy ;
+        sh:class ex:Advocacy ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/VendorShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Vendor ;
+    sh:name "ベンダー" ;
+    sh:description "プロダクトやサービスを提供する企業。クラウドとSaaSの普及により顧客へパワーシフトした。" ;
+    sh:property [
+        sh:path ex:employs ;
+        sh:class ex:CustomerSuccessManager ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/ProductShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Product ;
+    sh:name "プロダクト" ;
+    sh:description "ベンダーが提供する製品やサービス。CSMには自社プロダクトへの深い精通が必須である。" ;
+    sh:property [
+        sh:path ex:providedBy ;
+        sh:class ex:Vendor ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/SubscriptionModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SubscriptionModel ;
+    sh:name "サブスクリプションモデル" ;
+    sh:description "継続課金型のビジネスモデル。オンプレミスの売り切りから移行し、カスタマーサクセス誕生の背景となった。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/ChurnShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Churn ;
+    sh:name "チャーン" ;
+    sh:description "顧客の解約。Salesforce創業初期の高解約率がCS職誕生の契機となった持続不可能な脅威である。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/ConsumptionGapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ConsumptionGap ;
+    sh:name "コンサンプションギャップ" ;
+    sh:description "プロダクトが提供できる価値と顧客が実際に得られている価値の差。CSMはこのギャップを埋め、アップセルや契約拡張の商機に変える。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/NetPromoterScoreShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:NetPromoterScore ;
+    sh:name "ネットプロモータースコア" ;
+    sh:description "顧客ロイヤルティを測る指標。0から6を批判者、7から8を中立者、9から10を推奨者とする。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerHealthScoreShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerHealthScore ;
+    sh:name "カスタマーヘルススコア" ;
+    sh:description "顧客の健全性をアウトカム指標と体験指標で定量化した指標。標準化に加え、人間のエモーショナルインテリジェンスによるマイクロセグメンテーションが不可欠である。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerLifecycleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CustomerLifecycle ;
+    sh:name "カスタマーライフサイクル" ;
+    sh:description "検討・評価、成約、オンボーディング、アダプション、契約更新・拡張またはチャーンからなる顧客の生涯過程。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/JourneyMapShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:JourneyMap ;
+    sh:name "ジャーニーマップ" ;
+    sh:description "ライフサイクル各フェーズで顧客が迷子にならないようマイルストーンを示した道筋。営業からCSへのハンドオフは特に重要な真実の瞬間である。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/SuccessPlanShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SuccessPlan ;
+    sh:name "サクセスプラン" ;
+    sh:description "ベンダーと顧客が合意した目標、マイルストーン、タイムラインを記録し、目標達成への責任を共有する現在進行形のプロセス。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/SegmentationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Segmentation ;
+    sh:name "セグメンテーション" ;
+    sh:description "収益、規模、成長ポテンシャルなどで顧客を分類し、ハイタッチ、ミドルタッチ、テックタッチなど適したリソースとアプローチを割り当てること。" ;
+    sh:property [
+        sh:path ex:approachedWith ;
+        sh:class ex:TouchModel ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/TouchModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TouchModel ;
+    sh:name "タッチモデル" ;
+    sh:description "顧客セグメントに応じた接点設計。エンタープライズ向けハイタッチ、ミッドマーケット向けミドルタッチ、SMB向けテックタッチがある。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/RiskShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Risk ;
+    sh:name "リスク" ;
+    sh:description "実装、感情、サポート、プロダクト、企業、契約更新の六カテゴリーで管理される顧客リスク。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/ExecutiveBusinessReviewShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ExecutiveBusinessReview ;
+    sh:name "エグゼクティブビジネスレビュー" ;
+    sh:description "成果の進捗を共有しROIを証明する最重要会議。満足させるだけでなく具体的なアクションを引き出すことを目的とする。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/VoiceOfCustomerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:VoiceOfCustomer ;
+    sh:name "ボイス・オブ・カスタマー" ;
+    sh:description "定性的コメントのパターンから洞察を抽出する顧客の声。ステークホルダーとエンドユーザーのセンチメント乖離は重要なリスク指標である。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/WhiteSpaceShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WhiteSpace ;
+    sh:name "ホワイトスペース" ;
+    sh:description "顧客内に残されたアップセルやクロスセルの潜在機会。データで特定しパイプラインダッシュボードで管理する。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/AdvocacyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Advocacy ;
+    sh:name "アドボカシー" ;
+    sh:description "顧客の成功体験（CSQA）に基づく推薦。紹介（CSQL）はマーケティングや営業のリードより成約率が高い。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CSOrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CSOrganization ;
+    sh:name "CS組織" ;
+    sh:description "セグメンテーションとリソース配分、報酬モデル、キャリアパスを設計するカスタマーサクセス組織。" ;
+    sh:property [
+        sh:path ex:usesIncentiveModel ;
+        sh:class ex:IncentiveModel ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/IncentiveModelShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IncentiveModel ;
+    sh:name "報酬モデル" ;
+    sh:description "未成熟段階ではオンボーディング完了やEBR実施回数などの先行指標、成熟段階ではリテンションやアップセルなどの遅行指標に連動させる報酬設計。" .
+
+<https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CareerPathShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CareerPath ;
+    sh:name "キャリアパス" ;
+    sh:description "ジョブ、レベル、スキルを定義し、九ブロックモデルで人材評価と育成を行い、内部異動も促進する経路。" .

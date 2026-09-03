@@ -1,0 +1,649 @@
+{
+  "uri": "https://books.local/Jissen_People_Analytics/",
+  "name": "Jissen_People_AnalyticsOntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "PeopleAnalytics",
+      "uri": "https://books.local/Jissen_People_Analytics/PeopleAnalytics",
+      "label": "ピープルアナリティクス",
+      "comment": "人材マネジメントの意思決定において、量的データと質的データを統合し、組織と人材を深く理解したうえで実装へつなげる実践的取り組み。",
+      "parent": null
+    },
+    {
+      "name": "PracticePhilosophy",
+      "uri": "https://books.local/Jissen_People_Analytics/PracticePhilosophy",
+      "label": "実践思想",
+      "comment": "活用できるものは何でも活用すること、および誰でもできる取り組みであることを掲げるピープルアナリティクスの基本思想。",
+      "parent": null
+    },
+    {
+      "name": "Approach",
+      "uri": "https://books.local/Jissen_People_Analytics/Approach",
+      "label": "アプローチ",
+      "comment": "ピープルアナリティクスにおけるデータ収集と分析の方法論の総称。",
+      "parent": null
+    },
+    {
+      "name": "QuantitativeApproach",
+      "uri": "https://books.local/Jissen_People_Analytics/QuantitativeApproach",
+      "label": "量的アプローチ",
+      "comment": "サーベイや業務データなどの数値データを統計学やテクノロジーで分析するアプローチ。",
+      "parent": "Approach"
+    },
+    {
+      "name": "QualitativeApproach",
+      "uri": "https://books.local/Jissen_People_Analytics/QualitativeApproach",
+      "label": "質的アプローチ",
+      "comment": "インタビューや観察調査により物語モード（ナラティブ）を通じて現実に迫るアプローチ。",
+      "parent": "Approach"
+    },
+    {
+      "name": "Data",
+      "uri": "https://books.local/Jissen_People_Analytics/Data",
+      "label": "データ",
+      "comment": "人材・組織の理解と意思決定に用いる情報の総称。",
+      "parent": null
+    },
+    {
+      "name": "QuantitativeData",
+      "uri": "https://books.local/Jissen_People_Analytics/QuantitativeData",
+      "label": "量的データ",
+      "comment": "数値化され統計分析の対象となる人材・組織データ。量的データだけでは複雑な人材・組織の理解に限界がある。",
+      "parent": "Data"
+    },
+    {
+      "name": "QualitativeData",
+      "uri": "https://books.local/Jissen_People_Analytics/QualitativeData",
+      "label": "質的データ",
+      "comment": "インタビューや観察から得られる物語・文脈・意味づけを含む非数値データ。",
+      "parent": "Data"
+    },
+    {
+      "name": "OperationalData",
+      "uri": "https://books.local/Jissen_People_Analytics/OperationalData",
+      "label": "オペレーショナルデータ",
+      "comment": "発令や給与など業務の過程で蓄積されるデータ。",
+      "parent": "QuantitativeData"
+    },
+    {
+      "name": "SentimentData",
+      "uri": "https://books.local/Jissen_People_Analytics/SentimentData",
+      "label": "センチメントデータ",
+      "comment": "エンゲージメントサーベイ等から得られる感情・意見データ。",
+      "parent": "QuantitativeData"
+    },
+    {
+      "name": "PersonalityData",
+      "uri": "https://books.local/Jissen_People_Analytics/PersonalityData",
+      "label": "パーソナリティデータ",
+      "comment": "適性検査等から得られる性格特性データ。",
+      "parent": "QuantitativeData"
+    },
+    {
+      "name": "ActivityData",
+      "uri": "https://books.local/Jissen_People_Analytics/ActivityData",
+      "label": "アクティビティデータ",
+      "comment": "メールやチャットなどの行動ログデータ。",
+      "parent": "QuantitativeData"
+    },
+    {
+      "name": "CollectionMethod",
+      "uri": "https://books.local/Jissen_People_Analytics/CollectionMethod",
+      "label": "データ収集手法",
+      "comment": "量的・質的データを収集するための調査手法。",
+      "parent": null
+    },
+    {
+      "name": "Survey",
+      "uri": "https://books.local/Jissen_People_Analytics/Survey",
+      "label": "サーベイ",
+      "comment": "アンケート調査により量的データを収集する手法。回答負荷の最適化、ダブルバーレルの回避、中立な言葉選びが設計上の要点となる。",
+      "parent": "CollectionMethod"
+    },
+    {
+      "name": "Interview",
+      "uri": "https://books.local/Jissen_People_Analytics/Interview",
+      "label": "インタビュー",
+      "comment": "相手の語りを引き出す質的データ収集手法。傾聴、受容、オウム返し、共感的理解によるラポール形成が重要である。",
+      "parent": "CollectionMethod"
+    },
+    {
+      "name": "Observation",
+      "uri": "https://books.local/Jissen_People_Analytics/Observation",
+      "label": "観察調査",
+      "comment": "組織エスノグラフィーとして暗黙のルールや非言語の相互作用に注目する質的データ収集手法。",
+      "parent": "CollectionMethod"
+    },
+    {
+      "name": "InterviewType",
+      "uri": "https://books.local/Jissen_People_Analytics/InterviewType",
+      "label": "インタビュー類型",
+      "comment": "構造化・半構造化・非構造化の使い分けによるインタビューの分類。",
+      "parent": null
+    },
+    {
+      "name": "StructuredInterview",
+      "uri": "https://books.local/Jissen_People_Analytics/StructuredInterview",
+      "label": "構造化インタビュー",
+      "comment": "質問項目と順序をあらかじめ固定したインタビュー。",
+      "parent": "InterviewType"
+    },
+    {
+      "name": "SemiStructuredInterview",
+      "uri": "https://books.local/Jissen_People_Analytics/SemiStructuredInterview",
+      "label": "半構造化インタビュー",
+      "comment": "主要な問いを持ちつつ相手の語りに応じて深掘りするインタビュー。採用基準見直しなどの仮説検証で用いられる。",
+      "parent": "InterviewType"
+    },
+    {
+      "name": "UnstructuredInterview",
+      "uri": "https://books.local/Jissen_People_Analytics/UnstructuredInterview",
+      "label": "非構造化インタビュー",
+      "comment": "自由な対話を通じて語りを引き出すインタビュー。",
+      "parent": "InterviewType"
+    },
+    {
+      "name": "ObservationType",
+      "uri": "https://books.local/Jissen_People_Analytics/ObservationType",
+      "label": "観察類型",
+      "comment": "観察者が対象集団に関与する度合いによる観察調査の分類。",
+      "parent": null
+    },
+    {
+      "name": "ParticipantObservation",
+      "uri": "https://books.local/Jissen_People_Analytics/ParticipantObservation",
+      "label": "参与的観察",
+      "comment": "観察者が対象の活動に参加しながら記録する観察。",
+      "parent": "ObservationType"
+    },
+    {
+      "name": "NonParticipantObservation",
+      "uri": "https://books.local/Jissen_People_Analytics/NonParticipantObservation",
+      "label": "非参与的観察",
+      "comment": "観察者が活動に参加せず外部から記録する観察。研修効果測定などで用いられる。",
+      "parent": "ObservationType"
+    },
+    {
+      "name": "ThickDescription",
+      "uri": "https://books.local/Jissen_People_Analytics/ThickDescription",
+      "label": "厚い記述",
+      "comment": "5W1Hだけでなく対象者の意味づけや文脈を詳細に記録する観察記述の方法。",
+      "parent": null
+    },
+    {
+      "name": "AnalysisPhase",
+      "uri": "https://books.local/Jissen_People_Analytics/AnalysisPhase",
+      "label": "分析フェーズ",
+      "comment": "理解と実装に大別されるピープルアナリティクスの実践フェーズ。理解は実装に先立つ不可欠な前提である。",
+      "parent": null
+    },
+    {
+      "name": "UnderstandingPhase",
+      "uri": "https://books.local/Jissen_People_Analytics/UnderstandingPhase",
+      "label": "理解フェーズ",
+      "comment": "複雑な人間や組織の問題を解決するために、まず現状を深く理解するフェーズ。",
+      "parent": "AnalysisPhase"
+    },
+    {
+      "name": "ImplementationPhase",
+      "uri": "https://books.local/Jissen_People_Analytics/ImplementationPhase",
+      "label": "実装フェーズ",
+      "comment": "理解に基づき具体的なアクションや施策を現場に実装するフェーズ。",
+      "parent": "AnalysisPhase"
+    },
+    {
+      "name": "AnalysisStage",
+      "uri": "https://books.local/Jissen_People_Analytics/AnalysisStage",
+      "label": "分析段階",
+      "comment": "記述的・診断的・予測的・処方的の四段階からなる分析の段階区分。",
+      "parent": null
+    },
+    {
+      "name": "DescriptiveAnalysis",
+      "uri": "https://books.local/Jissen_People_Analytics/DescriptiveAnalysis",
+      "label": "記述的分析",
+      "comment": "何が起こったかを可視化する分析段階。",
+      "parent": "AnalysisStage"
+    },
+    {
+      "name": "DiagnosticAnalysis",
+      "uri": "https://books.local/Jissen_People_Analytics/DiagnosticAnalysis",
+      "label": "診断的分析",
+      "comment": "なぜ起こったかの要因を特定する分析段階。",
+      "parent": "AnalysisStage"
+    },
+    {
+      "name": "PredictiveAnalysis",
+      "uri": "https://books.local/Jissen_People_Analytics/PredictiveAnalysis",
+      "label": "予測的分析",
+      "comment": "何が起こりそうかを予測する分析段階。ブラックボックス化すると現場の納得感やアクションに繋がりにくい。",
+      "parent": "AnalysisStage"
+    },
+    {
+      "name": "PrescriptiveAnalysis",
+      "uri": "https://books.local/Jissen_People_Analytics/PrescriptiveAnalysis",
+      "label": "処方的分析",
+      "comment": "どうすればよいかの具体的なアクションを提示する分析段階。",
+      "parent": "AnalysisStage"
+    },
+    {
+      "name": "AnalysisMethod",
+      "uri": "https://books.local/Jissen_People_Analytics/AnalysisMethod",
+      "label": "分析方法",
+      "comment": "収集したデータを解釈し、仮説検証や理論生成を行う手法の総称。",
+      "parent": null
+    },
+    {
+      "name": "QuantitativeAnalysisMethod",
+      "uri": "https://books.local/Jissen_People_Analytics/QuantitativeAnalysisMethod",
+      "label": "量的データ分析方法",
+      "comment": "t検定、分散分析、相関分析、重回帰分析、媒介分析、決定木分析など統計手法による分析方法。HADなどのツールが用いられる。",
+      "parent": "AnalysisMethod"
+    },
+    {
+      "name": "QualitativeAnalysisMethod",
+      "uri": "https://books.local/Jissen_People_Analytics/QualitativeAnalysisMethod",
+      "label": "質的データ分析方法",
+      "comment": "抜粋・抽出、KJ法、グラウンデッド・セオリー・アプローチ、カテゴリー分析など質的データを構造化する手法。",
+      "parent": "AnalysisMethod"
+    },
+    {
+      "name": "KJMethod",
+      "uri": "https://books.local/Jissen_People_Analytics/KJMethod",
+      "label": "KJ法",
+      "comment": "データをカード化してグルーピングし図解化することで課題の構造を明らかにする質的分析手法。",
+      "parent": "QualitativeAnalysisMethod"
+    },
+    {
+      "name": "GroundedTheoryApproach",
+      "uri": "https://books.local/Jissen_People_Analytics/GroundedTheoryApproach",
+      "label": "グラウンデッド・セオリー・アプローチ",
+      "comment": "オープンコーディング、アキシャルコーディング、セレクティブコーディングを経て理論を生成する質的分析手法。",
+      "parent": "QualitativeAnalysisMethod"
+    },
+    {
+      "name": "CategoryAnalysis",
+      "uri": "https://books.local/Jissen_People_Analytics/CategoryAnalysis",
+      "label": "カテゴリー分析",
+      "comment": "複数人が独立してカテゴリーを付与し相互主観性により客観性を担保する質的分析手法。",
+      "parent": "QualitativeAnalysisMethod"
+    },
+    {
+      "name": "MeasurementScale",
+      "uri": "https://books.local/Jissen_People_Analytics/MeasurementScale",
+      "label": "尺度",
+      "comment": "比率尺度、間隔尺度、順序尺度、名義尺度の理解と適切な選択に関する測定尺度。",
+      "parent": null
+    },
+    {
+      "name": "OrganizationDesign",
+      "uri": "https://books.local/Jissen_People_Analytics/OrganizationDesign",
+      "label": "組織設計",
+      "comment": "存在意義、やるべきこと、立ち位置、人材配置、評価方法の五論点からなるピープルアナリティクス推進組織の設計。",
+      "parent": null
+    },
+    {
+      "name": "OrganizationStructure",
+      "uri": "https://books.local/Jissen_People_Analytics/OrganizationStructure",
+      "label": "組織形態",
+      "comment": "ピープルアナリティクス機能の社内における配置形態。",
+      "parent": null
+    },
+    {
+      "name": "CentralizedStructure",
+      "uri": "https://books.local/Jissen_People_Analytics/CentralizedStructure",
+      "label": "中央集権型",
+      "comment": "専門部門に分析機能を集約する組織形態。",
+      "parent": "OrganizationStructure"
+    },
+    {
+      "name": "FederalStructure",
+      "uri": "https://books.local/Jissen_People_Analytics/FederalStructure",
+      "label": "連邦型",
+      "comment": "各部門に分析人材を配置する組織形態。",
+      "parent": "OrganizationStructure"
+    },
+    {
+      "name": "HybridStructure",
+      "uri": "https://books.local/Jissen_People_Analytics/HybridStructure",
+      "label": "ハイブリッド型",
+      "comment": "中央集権型から連邦型などへ段階的に移行する組織形態。",
+      "parent": "OrganizationStructure"
+    },
+    {
+      "name": "CaseStudy",
+      "uri": "https://books.local/Jissen_People_Analytics/CaseStudy",
+      "label": "ケーススタディ",
+      "comment": "採用基準の見直し、離職防止、研修効果測定、エンゲイジメント向上など量的・質的手法を統合した実践事例。",
+      "parent": null
+    },
+    {
+      "name": "EthicalPrinciple",
+      "uri": "https://books.local/Jissen_People_Analytics/EthicalPrinciple",
+      "label": "倫理原則",
+      "comment": "権力性への自覚や現場への寄り添いを含め、分析結果で従業員を過度にコントロールしないための倫理的指針。",
+      "parent": null
+    },
+    {
+      "name": "HRDataUtilizationPrinciple",
+      "uri": "https://books.local/Jissen_People_Analytics/HRDataUtilizationPrinciple",
+      "label": "人事データ利活用原則",
+      "comment": "効用最大化、目的明確化、利用制限、適正取得、正確性・最新性・公平性、セキュリティ確保、アカウンタビリティ、責任所在明確化、人間関与の九原則。",
+      "parent": "EthicalPrinciple"
+    },
+    {
+      "name": "RequirementSpecification",
+      "uri": "https://books.local/Jissen_People_Analytics/RequirementSpecification",
+      "label": "要件定義書",
+      "comment": "プロジェクトの迷走を防ぎ、継続的な組織的ナレッジとして記録を残すための文書。",
+      "parent": null
+    },
+    {
+      "name": "DataProtectionOfficer",
+      "uri": "https://books.local/Jissen_People_Analytics/DataProtectionOfficer",
+      "label": "データ保護責任者",
+      "comment": "責任所在明確化の原則に基づき選任されるデータ保護の責任者。",
+      "parent": null
+    },
+    {
+      "name": "PhillipsROIModel",
+      "uri": "https://books.local/Jissen_People_Analytics/PhillipsROIModel",
+      "label": "フィリップスの5レベルROIモデル",
+      "comment": "研修の効果測定に用いられる評価モデル。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "usesApproach",
+      "type": "object",
+      "domain": [
+        "PeopleAnalytics"
+      ],
+      "range": [
+        "Approach"
+      ],
+      "label": "用いるアプローチ",
+      "comment": "ピープルアナリティクスが採用する量的または質的アプローチを示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/usesApproach"
+    },
+    {
+      "name": "hasPhilosophy",
+      "type": "object",
+      "domain": [
+        "PeopleAnalytics"
+      ],
+      "range": [
+        "PracticePhilosophy"
+      ],
+      "label": "持つ実践思想",
+      "comment": "ピープルアナリティクスが依拠する実践思想を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/hasPhilosophy"
+    },
+    {
+      "name": "hasPhase",
+      "type": "object",
+      "domain": [
+        "PeopleAnalytics"
+      ],
+      "range": [
+        "AnalysisPhase"
+      ],
+      "label": "持つフェーズ",
+      "comment": "理解フェーズまたは実装フェーズとの関係を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/hasPhase"
+    },
+    {
+      "name": "hasStage",
+      "type": "object",
+      "domain": [
+        "PeopleAnalytics",
+        "AnalysisPhase"
+      ],
+      "range": [
+        "AnalysisStage"
+      ],
+      "label": "持つ分析段階",
+      "comment": "記述・診断・予測・処方のいずれかの分析段階を持つことを示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/hasStage"
+    },
+    {
+      "name": "precedesPhase",
+      "type": "object",
+      "domain": [
+        "UnderstandingPhase"
+      ],
+      "range": [
+        "ImplementationPhase"
+      ],
+      "label": "先行する",
+      "comment": "理解フェーズが実装フェーズに先立つ関係を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/precedesPhase"
+    },
+    {
+      "name": "usesCollectionMethod",
+      "type": "object",
+      "domain": [
+        "Approach",
+        "PeopleAnalytics"
+      ],
+      "range": [
+        "CollectionMethod"
+      ],
+      "label": "用いる収集手法",
+      "comment": "アプローチまたは実践が用いるデータ収集手法を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/usesCollectionMethod"
+    },
+    {
+      "name": "collectsData",
+      "type": "object",
+      "domain": [
+        "CollectionMethod"
+      ],
+      "range": [
+        "Data"
+      ],
+      "label": "収集するデータ",
+      "comment": "収集手法が対象とするデータの種類を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/collectsData"
+    },
+    {
+      "name": "usesScale",
+      "type": "object",
+      "domain": [
+        "Survey"
+      ],
+      "range": [
+        "MeasurementScale"
+      ],
+      "label": "用いる尺度",
+      "comment": "サーベイ設計で選択する測定尺度を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/usesScale"
+    },
+    {
+      "name": "hasInterviewType",
+      "type": "object",
+      "domain": [
+        "Interview"
+      ],
+      "range": [
+        "InterviewType"
+      ],
+      "label": "持つインタビュー類型",
+      "comment": "インタビューの構造化の程度を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/hasInterviewType"
+    },
+    {
+      "name": "hasObservationType",
+      "type": "object",
+      "domain": [
+        "Observation"
+      ],
+      "range": [
+        "ObservationType"
+      ],
+      "label": "持つ観察類型",
+      "comment": "観察調査が参与的か非参与的かを示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/hasObservationType"
+    },
+    {
+      "name": "usesThickDescription",
+      "type": "object",
+      "domain": [
+        "Observation"
+      ],
+      "range": [
+        "ThickDescription"
+      ],
+      "label": "用いる厚い記述",
+      "comment": "観察調査が厚い記述により意味づけと文脈を記録することを示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/usesThickDescription"
+    },
+    {
+      "name": "usesAnalysisMethod",
+      "type": "object",
+      "domain": [
+        "Approach",
+        "PeopleAnalytics",
+        "CaseStudy"
+      ],
+      "range": [
+        "AnalysisMethod"
+      ],
+      "label": "用いる分析方法",
+      "comment": "データ分析に用いる量的または質的手法を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/usesAnalysisMethod"
+    },
+    {
+      "name": "analyzesData",
+      "type": "object",
+      "domain": [
+        "AnalysisMethod"
+      ],
+      "range": [
+        "Data"
+      ],
+      "label": "分析するデータ",
+      "comment": "分析方法が対象とするデータを示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/analyzesData"
+    },
+    {
+      "name": "appliedInCase",
+      "type": "object",
+      "domain": [
+        "CollectionMethod",
+        "AnalysisMethod",
+        "Approach"
+      ],
+      "range": [
+        "CaseStudy"
+      ],
+      "label": "適用される事例",
+      "comment": "手法やアプローチが用いられたケーススタディを示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/appliedInCase"
+    },
+    {
+      "name": "evaluatesWithModel",
+      "type": "object",
+      "domain": [
+        "CaseStudy"
+      ],
+      "range": [
+        "PhillipsROIModel"
+      ],
+      "label": "用いる評価モデル",
+      "comment": "研修効果測定などの事例が依拠する評価モデルを示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/evaluatesWithModel"
+    },
+    {
+      "name": "hasOrganizationStructure",
+      "type": "object",
+      "domain": [
+        "OrganizationDesign"
+      ],
+      "range": [
+        "OrganizationStructure"
+      ],
+      "label": "持つ組織形態",
+      "comment": "組織設計における立ち位置（中央集権型・連邦型・ハイブリッド型）を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/hasOrganizationStructure"
+    },
+    {
+      "name": "hasOrganizationDesign",
+      "type": "object",
+      "domain": [
+        "PeopleAnalytics"
+      ],
+      "range": [
+        "OrganizationDesign"
+      ],
+      "label": "持つ組織設計",
+      "comment": "ピープルアナリティクス推進のための組織設計を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/hasOrganizationDesign"
+    },
+    {
+      "name": "followsPrinciple",
+      "type": "object",
+      "domain": [
+        "PeopleAnalytics"
+      ],
+      "range": [
+        "EthicalPrinciple"
+      ],
+      "label": "従う原則",
+      "comment": "実践が遵守すべき倫理原則および人事データ利活用原則を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/followsPrinciple"
+    },
+    {
+      "name": "hasRequirementSpecification",
+      "type": "object",
+      "domain": [
+        "PeopleAnalytics",
+        "OrganizationDesign"
+      ],
+      "range": [
+        "RequirementSpecification"
+      ],
+      "label": "持つ要件定義書",
+      "comment": "推進プロジェクトが作成する要件定義書との関係を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/hasRequirementSpecification"
+    },
+    {
+      "name": "hasDataProtectionOfficer",
+      "type": "object",
+      "domain": [
+        "OrganizationDesign"
+      ],
+      "range": [
+        "DataProtectionOfficer"
+      ],
+      "label": "選任するデータ保護責任者",
+      "comment": "責任所在明確化の原則に基づくデータ保護責任者の選任関係を示す。",
+      "uri": "https://books.local/Jissen_People_Analytics/hasDataProtectionOfficer"
+    },
+    {
+      "name": "hasDescription",
+      "type": "data",
+      "domain": [
+        "PeopleAnalytics",
+        "Approach",
+        "Data",
+        "CollectionMethod",
+        "AnalysisMethod",
+        "CaseStudy",
+        "EthicalPrinciple"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "対象の補足的な説明文。",
+      "uri": "https://books.local/Jissen_People_Analytics/hasDescription"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

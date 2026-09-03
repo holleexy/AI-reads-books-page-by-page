@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/">
+    <rdfs:label>kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosubOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccess">
+    <rdfs:label xml:lang="ja">カスタマーサクセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客がプロダクトやサービスを使って望んだビジネス成果を上げるようにする手法。方程式はCS＝CX＋COであり、人間ファーストに基づく全社的マインドセットとビジネス戦略である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerExperience">
+    <rdfs:label xml:lang="ja">カスタマー体験</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客がプロダクトやサービスを通じて得る体験（CX）。成果と組み合わせた四象限マトリクスでロイヤルティとチャーンリスクを把握する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerOutcome">
+    <rdfs:label xml:lang="ja">カスタマーの成果</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客がプロダクトやサービスを用いて達成するビジネス成果（CO）。体験が良くても成果が出ていなければ将来的なチャーンリスクがある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccessManager">
+    <rdfs:label xml:lang="ja">カスタマーサクセスマネージャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の成功を自社の成功に直結させる職種。知識、課題解決能力、関係構築の三つのコアコンピテンシーが求められ、業務の八割はプロアクティブであるべきである。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">サブスクリプションモデルにおいて主導権を持ち、価値を感じなければいつでも解約できる主体。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Vendor">
+    <rdfs:label xml:lang="ja">ベンダー</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロダクトやサービスを提供する企業。クラウドとSaaSの普及により顧客へパワーシフトした。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Product">
+    <rdfs:label xml:lang="ja">プロダクト</rdfs:label>
+    <rdfs:comment xml:lang="ja">ベンダーが提供する製品やサービス。CSMには自社プロダクトへの深い精通が必須である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/SubscriptionModel">
+    <rdfs:label xml:lang="ja">サブスクリプションモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">継続課金型のビジネスモデル。オンプレミスの売り切りから移行し、カスタマーサクセス誕生の背景となった。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Churn">
+    <rdfs:label xml:lang="ja">チャーン</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の解約。Salesforce創業初期の高解約率がCS職誕生の契機となった持続不可能な脅威である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/ConsumptionGap">
+    <rdfs:label xml:lang="ja">コンサンプションギャップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロダクトが提供できる価値と顧客が実際に得られている価値の差。CSMはこのギャップを埋め、アップセルや契約拡張の商機に変える。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/NetPromoterScore">
+    <rdfs:label xml:lang="ja">ネットプロモータースコア</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客ロイヤルティを測る指標。0から6を批判者、7から8を中立者、9から10を推奨者とする。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerHealthScore">
+    <rdfs:label xml:lang="ja">カスタマーヘルススコア</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の健全性をアウトカム指標と体験指標で定量化した指標。標準化に加え、人間のエモーショナルインテリジェンスによるマイクロセグメンテーションが不可欠である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerLifecycle">
+    <rdfs:label xml:lang="ja">カスタマーライフサイクル</rdfs:label>
+    <rdfs:comment xml:lang="ja">検討・評価、成約、オンボーディング、アダプション、契約更新・拡張またはチャーンからなる顧客の生涯過程。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/JourneyMap">
+    <rdfs:label xml:lang="ja">ジャーニーマップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ライフサイクル各フェーズで顧客が迷子にならないようマイルストーンを示した道筋。営業からCSへのハンドオフは特に重要な真実の瞬間である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/SuccessPlan">
+    <rdfs:label xml:lang="ja">サクセスプラン</rdfs:label>
+    <rdfs:comment xml:lang="ja">ベンダーと顧客が合意した目標、マイルストーン、タイムラインを記録し、目標達成への責任を共有する現在進行形のプロセス。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Segmentation">
+    <rdfs:label xml:lang="ja">セグメンテーション</rdfs:label>
+    <rdfs:comment xml:lang="ja">収益、規模、成長ポテンシャルなどで顧客を分類し、ハイタッチ、ミドルタッチ、テックタッチなど適したリソースとアプローチを割り当てること。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/TouchModel">
+    <rdfs:label xml:lang="ja">タッチモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客セグメントに応じた接点設計。エンタープライズ向けハイタッチ、ミッドマーケット向けミドルタッチ、SMB向けテックタッチがある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Risk">
+    <rdfs:label xml:lang="ja">リスク</rdfs:label>
+    <rdfs:comment xml:lang="ja">実装、感情、サポート、プロダクト、企業、契約更新の六カテゴリーで管理される顧客リスク。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/ExecutiveBusinessReview">
+    <rdfs:label xml:lang="ja">エグゼクティブビジネスレビュー</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果の進捗を共有しROIを証明する最重要会議。満足させるだけでなく具体的なアクションを引き出すことを目的とする。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/VoiceOfCustomer">
+    <rdfs:label xml:lang="ja">ボイス・オブ・カスタマー</rdfs:label>
+    <rdfs:comment xml:lang="ja">定性的コメントのパターンから洞察を抽出する顧客の声。ステークホルダーとエンドユーザーのセンチメント乖離は重要なリスク指標である。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/WhiteSpace">
+    <rdfs:label xml:lang="ja">ホワイトスペース</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客内に残されたアップセルやクロスセルの潜在機会。データで特定しパイプラインダッシュボードで管理する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Advocacy">
+    <rdfs:label xml:lang="ja">アドボカシー</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の成功体験（CSQA）に基づく推薦。紹介（CSQL）はマーケティングや営業のリードより成約率が高い。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CSOrganization">
+    <rdfs:label xml:lang="ja">CS組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">セグメンテーションとリソース配分、報酬モデル、キャリアパスを設計するカスタマーサクセス組織。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/IncentiveModel">
+    <rdfs:label xml:lang="ja">報酬モデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">未成熟段階ではオンボーディング完了やEBR実施回数などの先行指標、成熟段階ではリテンションやアップセルなどの遅行指標に連動させる報酬設計。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CareerPath">
+    <rdfs:label xml:lang="ja">キャリアパス</rdfs:label>
+    <rdfs:comment xml:lang="ja">ジョブ、レベル、スキルを定義し、九ブロックモデルで人材評価と育成を行い、内部異動も促進する経路。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasCustomerExperience">
+    <rdfs:label xml:lang="ja">カスタマー体験を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">カスタマーサクセスがカスタマー体験（CX）を構成要素として含む関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccess"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerExperience"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasCustomerOutcome">
+    <rdfs:label xml:lang="ja">カスタマー成果を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">カスタマーサクセスがカスタマーの成果（CO）を構成要素として含む関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccess"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerOutcome"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/manages">
+    <rdfs:label xml:lang="ja">担当する</rdfs:label>
+    <rdfs:comment xml:lang="ja">CSMが顧客の成功を支援し関係を構築する担当関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccessManager"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/usesProduct">
+    <rdfs:label xml:lang="ja">プロダクトを利用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が価値と成果を得るためにプロダクトを利用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Product"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/providedBy">
+    <rdfs:label xml:lang="ja">提供される</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロダクトがベンダーによって提供される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Product"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Vendor"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/employs">
+    <rdfs:label xml:lang="ja">雇用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">ベンダーがCSMを雇用しCS組織に配置する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Vendor"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccessManager"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasConsumptionGap">
+    <rdfs:label xml:lang="ja">利用格差を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客がプロダクト提供価値と実際の獲得価値の差を抱える関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/ConsumptionGap"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasHealthScore">
+    <rdfs:label xml:lang="ja">ヘルススコアを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の健全性がヘルススコアで定量化される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerHealthScore"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/measuredByNps">
+    <rdfs:label xml:lang="ja">NPSで測定される</rdfs:label>
+    <rdfs:comment xml:lang="ja">カスタマー体験やロイヤルティがネットプロモータースコアで測定される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerExperience"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/NetPromoterScore"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasLifecycle">
+    <rdfs:label xml:lang="ja">ライフサイクルを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が検討から更新・拡張またはチャーンまでのライフサイクルをたどる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerLifecycle"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasJourneyMap">
+    <rdfs:label xml:lang="ja">ジャーニーマップを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の各フェーズがジャーニーマップのマイルストーンで案内される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/JourneyMap"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasSuccessPlan">
+    <rdfs:label xml:lang="ja">サクセスプランを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客とベンダーが目標達成の責任をサクセスプランで共有する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/SuccessPlan"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/segmentedBy">
+    <rdfs:label xml:lang="ja">セグメント分類される</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が収益や規模などに基づきセグメントへ分類される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Segmentation"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/approachedWith">
+    <rdfs:label xml:lang="ja">タッチモデルで接する</rdfs:label>
+    <rdfs:comment xml:lang="ja">セグメントに対してハイタッチ、ミドルタッチ、テックタッチのいずれかが割り当てられる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Segmentation"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/TouchModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/facesRisk">
+    <rdfs:label xml:lang="ja">リスクに直面する</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が実装、感情、サポート、プロダクト、企業、契約更新などのリスクに直面する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Risk"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/reviewedIn">
+    <rdfs:label xml:lang="ja">EBRでレビューされる</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の成果進捗とROIがエグゼクティブビジネスレビューで共有される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/ExecutiveBusinessReview"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/givesVoice">
+    <rdfs:label xml:lang="ja">顧客の声を提供する</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が定性的フィードバックとしてボイス・オブ・カスタマーを提供する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/VoiceOfCustomer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasWhiteSpace">
+    <rdfs:label xml:lang="ja">ホワイトスペースを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客アカウント内にアップセルやクロスセルの潜在機会が残されている関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/WhiteSpace"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/generatesAdvocacy">
+    <rdfs:label xml:lang="ja">アドボカシーを生む</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の成功体験から推薦や紹介リードが生まれる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Advocacy"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/belongsTo">
+    <rdfs:label xml:lang="ja">組織に属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">CSMがCS組織に所属しリソース配分やキャリアパスの対象となる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccessManager"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CSOrganization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/usesIncentiveModel">
+    <rdfs:label xml:lang="ja">報酬モデルを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">CS組織が成熟度に応じたインセンティブ設計を用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CSOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/IncentiveModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/hasCareerPath">
+    <rdfs:label xml:lang="ja">キャリアパスを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">CSMがジョブ、レベル、スキルに沿った成長経路を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccessManager"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CareerPath"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/originatedFrom">
+    <rdfs:label xml:lang="ja">起源とする</rdfs:label>
+    <rdfs:comment xml:lang="ja">カスタマーサクセスがサブスクリプションモデルの台頭とチャーン脅威から生まれた関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccess"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/SubscriptionModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/preventsChurn">
+    <rdfs:label xml:lang="ja">チャーンを防ぐ</rdfs:label>
+    <rdfs:comment xml:lang="ja">カスタマーサクセスが解約を防ぎ持続的な収益成長を支える関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccess"/>
+    <rdfs:range rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Churn"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/description">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念や主体の補足説明を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccess"/>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Customer"/>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/Product"/>
+    <rdfs:domain rdf:resource="https://books.local/kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub/CustomerSuccessManager"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

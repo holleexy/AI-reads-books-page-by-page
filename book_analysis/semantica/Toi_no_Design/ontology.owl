@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Toi_no_Design/">
+    <rdfs:label>Toi_no_DesignOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/ToiNoDesign">
+    <rdfs:label xml:lang="ja">問いのデザイン</rdfs:label>
+    <rdfs:comment xml:lang="ja">人々が創造的対話を通して認識と関係性を編み直すための媒体を設計すること。答えを急がず、本質的な問いをリフレーミングし、ワークショップのプロセスをデザインする手法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/Toi">
+    <rdfs:label xml:lang="ja">問い</rdfs:label>
+    <rdfs:comment xml:lang="ja">認識と関係性を編み直す媒体。答えを変え、思考と感情を刺激し、対話を誘発し、内省と関係再構築を促し、創造的対話のトリガーとなり、新たな問いを生む七つの基本性質を持つ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/CreativeDialogue">
+    <rdfs:label xml:lang="ja">創造的対話</rdfs:label>
+    <rdfs:comment xml:lang="ja">矛盾や制約を含む問いによって引き起こされ、予期せぬアイデアを創発させる対話。討論や議論とは異なり、互いの前提を更新するコミュニケーション。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/RecognitionFixation">
+    <rdfs:label xml:lang="ja">認識の固定化</rdfs:label>
+    <rdfs:comment xml:lang="ja">無意識のうちに前提が固まり、本質的な課題が見えなくなる病い。現代の組織が抱える複雑な課題の根本原因の一つ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/RelationshipFixation">
+    <rdfs:label xml:lang="ja">関係性の固定化</rdfs:label>
+    <rdfs:comment xml:lang="ja">集団の暗黙の了解や心理的契約が固まり、創造的対話が起きにくくなる病い。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/Problem">
+    <rdfs:label xml:lang="ja">課題</rdfs:label>
+    <rdfs:comment xml:lang="ja">関係者全員が解決すべきだと前向きに合意できる問題設定。要件確認、目標精緻化、阻害要因の検討、リフレーミング、課題定義の五ステップで設計する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/Workshop">
+    <rdfs:label xml:lang="ja">ワークショップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">定義した課題を参加者の具体的な経験に翻訳し、時間的・空間的に設計した創造的対話の場。導入、知る活動、創る活動、まとめからなる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/Facilitator">
+    <rdfs:label xml:lang="ja">ファシリテーター</rdfs:label>
+    <rdfs:comment xml:lang="ja">設計した問いのポテンシャルを最大限に引き出し、心理的安全性とプロセスの目的を支え続ける役割。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/Participant">
+    <rdfs:label xml:lang="ja">参加者</rdfs:label>
+    <rdfs:comment xml:lang="ja">ワークショップに参加し、問いを通じて認識と関係性を編み直す当事者。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/Organization">
+    <rdfs:label xml:lang="ja">組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業、学校、地域社会など、認識の固定化と関係性の固定化に陥りうる集団。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/ThinkingMethod">
+    <rdfs:label xml:lang="ja">思考法</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題を捉え直すための思考法の総称。素朴思考、天邪鬼思考、道具思考、構造化思考、哲学的思考の五つがある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/NaiveThinking">
+    <rdfs:label xml:lang="ja">素朴思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">そもそもこれは何かと、専門家の視点を捨てて原点に立ち返り、知の呪いを打破する思考法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Toi_no_Design/ThinkingMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/ContrarianThinking">
+    <rdfs:label xml:lang="ja">天邪鬼思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">前提を疑い、あえて正反対の視点やアイデアを潰す視点から問題を見る思考法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Toi_no_Design/ThinkingMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/ToolThinking">
+    <rdfs:label xml:lang="ja">道具思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">心理学や工学など異なる専門分野の知識やフレームワークを通して問題を再解釈する思考法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Toi_no_Design/ThinkingMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/StructuralThinking">
+    <rdfs:label xml:lang="ja">構造化思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">要素間の関係性を俯瞰し、因果関係の全体像を掴む思考法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Toi_no_Design/ThinkingMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/PhilosophicalThinking">
+    <rdfs:label xml:lang="ja">哲学的思考</rdfs:label>
+    <rdfs:comment xml:lang="ja">本質観取を通じて、その概念が成立する不可欠な特徴を深く洞察する思考法。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Toi_no_Design/ThinkingMethod"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/Goal">
+    <rdfs:label xml:lang="ja">目標</rdfs:label>
+    <rdfs:comment xml:lang="ja">成果目標、プロセス目標、ビジョンに分解され、期間と松竹梅の優先順位が明確化されるもの。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/Obstacle">
+    <rdfs:label xml:lang="ja">阻害要因</rdfs:label>
+    <rdfs:comment xml:lang="ja">目標と現状の間にある認識のズレ、対話不足、固定観念などの障壁。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/WorkshopActivity">
+    <rdfs:label xml:lang="ja">ワークショップ活動</rdfs:label>
+    <rdfs:comment xml:lang="ja">プログラムを構成する活動。導入、知る活動、創る活動、まとめの四段階からなる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/Scaffolding">
+    <rdfs:label xml:lang="ja">足場かけ</rdfs:label>
+    <rdfs:comment xml:lang="ja">いきなり抽象度の高い問いを投げず、探索対象、制約、表現の工夫により思考を段階的に深める問いの設計。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/Constraint">
+    <rdfs:label xml:lang="ja">制約</rdfs:label>
+    <rdfs:comment xml:lang="ja">自由にするのではなく、形容詞、矛盾条件、アウトプット形式などを課して思考の解像度を上げる条件。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/Reframing">
+    <rdfs:label xml:lang="ja">リフレーミング</rdfs:label>
+    <rdfs:comment xml:lang="ja">自分本位、自己目的化、ネガティブ他責、優等生、壮大といった課題設定の罠を避け、視点を転換して目標や問いを再設定すること。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/FacilitatorSkill">
+    <rdfs:label xml:lang="ja">ファシリテータースキル</rdfs:label>
+    <rdfs:comment xml:lang="ja">説明力、場の観察力、即興力、情報編集力、リフレーミング力、場のホールド力の六つのコアスキル。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/ImprovisedQuestion">
+    <rdfs:label xml:lang="ja">即興の問いかけ</rdfs:label>
+    <rdfs:comment xml:lang="ja">場に応じた問いかけ。シンプル、ティーチング、コーチング、フィロソフィカルの四パターンがある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/FacilitationRole">
+    <rdfs:label xml:lang="ja">ファシリテーション役割</rdfs:label>
+    <rdfs:comment xml:lang="ja">チームで相互補完する役割。チーフ、フロア、バック、グラフィックレコーダーがある。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/PsychologicalSafety">
+    <rdfs:label xml:lang="ja">心理的安全性</rdfs:label>
+    <rdfs:comment xml:lang="ja">参加者が安心して創造性を発揮できるよう、ファシリテーターが支え続ける場の条件。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/SocialConstructivism">
+    <rdfs:label xml:lang="ja">社会構成主義</rdfs:label>
+    <rdfs:comment xml:lang="ja">答えや現実は客観的に存在するのではなく、関係者間の対話を通じて社会的に構成されるという立場。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/ExperientialLearningCycle">
+    <rdfs:label xml:lang="ja">経験学習サイクル</rdfs:label>
+    <rdfs:comment xml:lang="ja">実践から学び、理論と結びつけ、新たな能動的実験へと繋げる継続的サイクル。ファシリテーターの熟達に不可欠。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/CurseOfKnowledge">
+    <rdfs:label xml:lang="ja">知の呪い</rdfs:label>
+    <rdfs:comment xml:lang="ja">専門家や組織内の人間が陥る固定化された前提。素朴な問いや天邪鬼な視点で打破する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Toi_no_Design/CaseStudy">
+    <rdfs:label xml:lang="ja">ケーススタディ</rdfs:label>
+    <rdfs:comment xml:lang="ja">資生堂TRUST8、インスメタルADDMA、京浜急行三浦Cocoon、ナレッジキャピタル、ユヌス博士との対話、京都大学総合博物館などの実践事例。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/designsToi">
+    <rdfs:label xml:lang="ja">問いを設計する</rdfs:label>
+    <rdfs:comment xml:lang="ja">本質的な問いを媒体として設計する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/ToiNoDesign"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Facilitator"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Toi"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/designsWorkshop">
+    <rdfs:label xml:lang="ja">ワークショップを設計する</rdfs:label>
+    <rdfs:comment xml:lang="ja">課題を参加者の経験へ翻訳し、時間と空間のプロセスとして設計する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/ToiNoDesign"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Facilitator"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Workshop"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/definesProblem">
+    <rdfs:label xml:lang="ja">課題を定義する</rdfs:label>
+    <rdfs:comment xml:lang="ja">上流工程として、関係者が前向きに合意できる課題を文章化する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/ToiNoDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Problem"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/triggersCreativeDialogue">
+    <rdfs:label xml:lang="ja">創造的対話を誘発する</rdfs:label>
+    <rdfs:comment xml:lang="ja">投げかけられた問いが対話を引き起こし、アイデアの創発につながる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Toi"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/CreativeDialogue"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/generatesNewToi">
+    <rdfs:label xml:lang="ja">新たな問いを生み出す</rdfs:label>
+    <rdfs:comment xml:lang="ja">問いに向き合うことで、さらに深い問いが連鎖的に生まれる基本サイクル。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Toi"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Toi"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/overcomesFixation">
+    <rdfs:label xml:lang="ja">固定化を克服する</rdfs:label>
+    <rdfs:comment xml:lang="ja">問いと対話、思考法によって固定化された前提や知の呪いを揺さぶる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Toi"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/CreativeDialogue"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/ThinkingMethod"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/RecognitionFixation"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/RelationshipFixation"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/CurseOfKnowledge"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/usesThinkingMethod">
+    <rdfs:label xml:lang="ja">思考法を用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">問題の捉え直しのために五つの思考法を適用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/ToiNoDesign"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Facilitator"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/ThinkingMethod"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/hasGoal">
+    <rdfs:label xml:lang="ja">目標を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">課題やワークショップが成果・プロセス・ビジョンの目標を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Problem"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Workshop"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Goal"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/hasObstacle">
+    <rdfs:label xml:lang="ja">阻害要因を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">目標と現状のあいだにある障壁を特定する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Problem"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Goal"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Obstacle"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/appliesReframing">
+    <rdfs:label xml:lang="ja">リフレーミングする</rdfs:label>
+    <rdfs:comment xml:lang="ja">視点を転換して課題や問いを再設定する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/ToiNoDesign"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Facilitator"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Reframing"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Problem"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Toi"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/usesScaffolding">
+    <rdfs:label xml:lang="ja">足場かけを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">思考を段階的に深める足場の問いを設計に組み込む関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/ToiNoDesign"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Toi"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Scaffolding"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/hasConstraint">
+    <rdfs:label xml:lang="ja">制約を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">問いが思考の解像度を上げる制約を伴う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Toi"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Scaffolding"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Constraint"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/hasActivity">
+    <rdfs:label xml:lang="ja">活動を含む</rdfs:label>
+    <rdfs:comment xml:lang="ja">ワークショップが導入からまとめまでの活動で構成される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Workshop"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/WorkshopActivity"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/facilitates">
+    <rdfs:label xml:lang="ja">ファシリテートする</rdfs:label>
+    <rdfs:comment xml:lang="ja">ファシリテーターが場を進行し、問いのポテンシャルを引き出す関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Facilitator"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Workshop"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/participatesIn">
+    <rdfs:label xml:lang="ja">参加する</rdfs:label>
+    <rdfs:comment xml:lang="ja">当事者がワークショップに参加する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Participant"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Workshop"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/belongsToOrganization">
+    <rdfs:label xml:lang="ja">組織に属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">人や場が企業・学校・地域などの組織に位置づく関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Facilitator"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Participant"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Workshop"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/Organization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/hasSkill">
+    <rdfs:label xml:lang="ja">スキルを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ファシリテーターが六つのコアスキルを備える関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Facilitator"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/FacilitatorSkill"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/hasRole">
+    <rdfs:label xml:lang="ja">役割を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">チーム・ファシリテーションにおける分担役割。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Facilitator"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/FacilitationRole"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/asksImprovisedQuestion">
+    <rdfs:label xml:lang="ja">即興の問いかけをする</rdfs:label>
+    <rdfs:comment xml:lang="ja">状況に応じて四パターンの即興的な問いを投げる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Facilitator"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/ImprovisedQuestion"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/ensuresPsychologicalSafety">
+    <rdfs:label xml:lang="ja">心理的安全性を確保する</rdfs:label>
+    <rdfs:comment xml:lang="ja">参加者が安心して創造性を発揮できる場を支え続ける関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Facilitator"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/FacilitationRole"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/PsychologicalSafety"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/basedOnTheory">
+    <rdfs:label xml:lang="ja">理論に基づく</rdfs:label>
+    <rdfs:comment xml:lang="ja">問いのデザインが社会構成主義の立場に基づく関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/ToiNoDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/SocialConstructivism"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/followsLearningCycle">
+    <rdfs:label xml:lang="ja">経験学習サイクルに従う</rdfs:label>
+    <rdfs:comment xml:lang="ja">実践と内省を通じてファシリテーターが熟達する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Facilitator"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/ExperientialLearningCycle"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Toi_no_Design/illustratedByCase">
+    <rdfs:label xml:lang="ja">事例によって示される</rdfs:label>
+    <rdfs:comment xml:lang="ja">手法の実践がケーススタディによって解明される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/ToiNoDesign"/>
+    <rdfs:range rdf:resource="https://books.local/Toi_no_Design/CaseStudy"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Toi_no_Design/description">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念や事例の内容を表す文字列。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Toi"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Problem"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/Goal"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/CaseStudy"/>
+    <rdfs:domain rdf:resource="https://books.local/Toi_no_Design/WorkshopActivity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

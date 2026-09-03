@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/">
+    <rdfs:label>Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanoriOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccess">
+    <rdfs:label xml:lang="ja">カスタマーサクセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が製品やサービスを利用しながら望ましい成果を達成することを保証する能動的なビジネスアプローチ。満足ではなく成果の実現にコミットする。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSupport">
+    <rdfs:label xml:lang="ja">カスタマーサポート</rdfs:label>
+    <rdfs:comment xml:lang="ja">機能的な問題やトラブルシューティングに焦点を当て、顧客満足（CSAT）を目標とする反応的な防衛的対応。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Outcome">
+    <rdfs:label xml:lang="ja">アウトカム</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が求める具体的で価値のある成果。CSの最終目標であり、顧客の事業文脈に応じて個別化される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SuccessState">
+    <rdfs:label xml:lang="ja">成功状態</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客がアウトカムを継続的に実現している状態。成功の定義そのもの。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Customer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品またはサービスを利用し、個別の事業文脈に基づくアウトカムを求める個人または組織。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Product">
+    <rdfs:label xml:lang="ja">製品</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が利用する製品またはサービス。価値提供の媒体であり、PLGでは獲得・維持・拡大の駆動力となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/BusinessModel">
+    <rdfs:label xml:lang="ja">ビジネスモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">企業が収益を生み出す仕組み。フロー型とストック型に大別される。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/FlowModel">
+    <rdfs:label xml:lang="ja">フローモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">システムインテグレーションのような一回限りの取引に依存し、常に新規販売を必要とする従来型モデル。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/BusinessModel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/StockModel">
+    <rdfs:label xml:lang="ja">ストックモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">継続的な顧客利用に基づき安定した予測可能な経常収益を生み出すモデル。SaaSとサブスクリプションが代表例。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/BusinessModel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SubscriptionModel">
+    <rdfs:label xml:lang="ja">サブスクリプションモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">定期課金により収益を得るモデル。収益性は顧客維持に完全に依存するためCSが不可欠となる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/StockModel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SaaS">
+    <rdfs:label>SaaS</rdfs:label>
+    <rdfs:comment xml:lang="ja">ソフトウェアをサービスとして提供する形態。カスタマーサクセスが現代ビジネスの推進力となる主要な適用領域。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/StockModel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSMaturityLevel">
+    <rdfs:label xml:lang="ja">CS成熟度レベル</rdfs:label>
+    <rdfs:comment xml:lang="ja">Gainsightが定義するカスタマーサクセス組織の進化段階。リアクティブからトランスフォームまでの四段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ReactiveStage">
+    <rdfs:label xml:lang="ja">リアクティブ段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客からの問い合わせにその場しのぎで対応する初期の成熟段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSMaturityLevel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/InsightsAndActionsStage">
+    <rdfs:label xml:lang="ja">インサイトとアクション段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">360度顧客ビューやライフサイクル管理など、データに基づく枠組みを構築する段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSMaturityLevel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/OutcomesStage">
+    <rdfs:label xml:lang="ja">アウトカム段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">アドプション・更新・拡大管理を通じて顧客成功を能動的に推進する段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSMaturityLevel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/TransformStage">
+    <rdfs:label xml:lang="ja">トランスフォーム段階</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客ライフサイクルを完全に制御し、CSを高い維持率を持つ主要な利益センターにする段階。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSMaturityLevel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/EngagementModel">
+    <rdfs:label xml:lang="ja">エンゲージメントモデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客ピラミッドに基づきリソースを効率配分するためのセグメント別接触モデル。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/HighTouch">
+    <rdfs:label xml:lang="ja">ハイタッチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">大規模エンタープライズアカウント向けに専任CSMを配置する高密度支援モデル。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/EngagementModel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/LowTouch">
+    <rdfs:label xml:lang="ja">ロータッチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ミッドマーケット向けに標準化された支援で数百アカウントをCSMが管理するモデル。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/EngagementModel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/TechTouch">
+    <rdfs:label xml:lang="ja">テックタッチ</rdfs:label>
+    <rdfs:comment xml:lang="ja">中小企業向けの自動化・技術主導のエンゲージメントモデル。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/EngagementModel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerLifecyclePhase">
+    <rdfs:label xml:lang="ja">カスタマーライフサイクルフェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">オンボーディングからチャーンまでの顧客関係を管理する一連の段階。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Onboarding">
+    <rdfs:label xml:lang="ja">オンボーディング</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品のコア価値を届け初期設定を完了させる最も重要なフェーズ。期間は通常1〜3ヶ月。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerLifecyclePhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Adoption">
+    <rdfs:label xml:lang="ja">アドプション</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が製品を日常業務のワークフローに統合する利用フェーズ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerLifecyclePhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Renewal">
+    <rdfs:label xml:lang="ja">リニューアル</rdfs:label>
+    <rdfs:comment xml:lang="ja">契約継続を確認し拡大機会を探るフェーズ。チャーン傍受のための更新管理が行われる。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerLifecyclePhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Churn">
+    <rdfs:label xml:lang="ja">チャーン</rdfs:label>
+    <rdfs:comment xml:lang="ja">解約。コントロール可能なものと不可能なものに分かれ、退出を丁寧に管理し再契約の余地と解約理由データを残す。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerLifecyclePhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/LightSuccess">
+    <rdfs:label xml:lang="ja">ライトサクセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">現場レベルでの即時的な運用上の便益（利便性・時間短縮など）。短期的な顧客維持を確保する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SuccessState"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/DeepSuccess">
+    <rdfs:label xml:lang="ja">ディープサクセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">経営層レベルでの長期的な事業変革とROI。複数年の顧客維持を確保する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SuccessState"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/HealthScore">
+    <rdfs:label xml:lang="ja">ヘルススコア</rdfs:label>
+    <rdfs:comment xml:lang="ja">アカウントの健全性や更新可能性を判断する指標または指標の集合。利用ログとCSMの定性的直感を組み合わせて設計する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/DEARFramework">
+    <rdfs:label xml:lang="ja">DEARフレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">展開の完了度、関係の強さ、利用率、価値実現を測定するヘルススコア設計手法。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSMetric">
+    <rdfs:label xml:lang="ja">CSメトリクス</rdfs:label>
+    <rdfs:comment xml:lang="ja">既存顧客による健全で摩擦のないサービス利用に焦点を当てた指標。顧客成長を考慮し絶対数ではなく比率として設計する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ROI">
+    <rdfs:label xml:lang="ja">投資対効果</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が実現する価値。提供者はCSメトリクスを売上増またはコスト減に結びつける論理式を構築し顧客と検証する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSCTA">
+    <rdfs:label>CS CTA</rdfs:label>
+    <rdfs:comment xml:lang="ja">利用低下などのデータ閾値で発動する自動アラート。CSMがダッシュボードを常時監視せず大規模ポートフォリオを管理できる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSTechStack">
+    <rdfs:label xml:lang="ja">CSテックスタック</rdfs:label>
+    <rdfs:comment xml:lang="ja">データサイロを解消するため統合するCRM、CSプラットフォーム、利用分析、コミュニケーションおよびマーケティングツール群。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductLedGrowth">
+    <rdfs:label xml:lang="ja">プロダクトレッドグロース</rdfs:label>
+    <rdfs:comment xml:lang="ja">摩擦のないオンボーディング、バイラリティ、拡張可能な価格、アプリ内アップグレードにより製品自体が獲得・維持・拡大を推進する戦略。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductQualifiedLead">
+    <rdfs:label xml:lang="ja">プロダクトクオリファイドリード</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品内で価値を体験し営業対話の準備ができたユーザー。従来のMQLより高い転換率を示す。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSOrganization">
+    <rdfs:label xml:lang="ja">CS組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">CSM、カスタマーマーケティング、CS Ops、テクニカルサポート、コントロールセンターの五機能からなる成熟したCS部門。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccessManager">
+    <rdfs:label xml:lang="ja">カスタマーサクセスマネージャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の第一線支援を担う役割。ミッドマーケットでは目安として約50アカウント、またはCSM一人あたりARR500万ドル未満。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductManager">
+    <rdfs:label xml:lang="ja">プロダクトマネージャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">正しい製品を構築する責任を持つ役割。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductMarketingManager">
+    <rdfs:label xml:lang="ja">プロダクトマーケティングマネージャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品を市場に適合させる役割。新機能のメッセージ定義、採用KPI、営業・CS向けコンテンツ、VoCフィードバックループを担う。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/VoiceOfCustomer">
+    <rdfs:label xml:lang="ja">顧客の声</rdfs:label>
+    <rdfs:comment xml:lang="ja">CSが収集する生の顧客インサイト。PMMのプロダクトマーケットフィット加速戦略の燃料となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SanpoYoshi">
+    <rdfs:label xml:lang="ja">三方良し</rdfs:label>
+    <rdfs:comment xml:lang="ja">売り手良し、買い手良し、世間良しという日本の伝統的商売哲学。事業活動を通じた人間的信頼の構築としてCSの思想的基盤となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/deliversOutcome">
+    <rdfs:label xml:lang="ja">アウトカムを提供する</rdfs:label>
+    <rdfs:comment xml:lang="ja">カスタマーサクセスが顧客へ成果を届ける関係。価値提供は提供者の責任である。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccess"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Outcome"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/differsFrom">
+    <rdfs:label xml:lang="ja">と区別される</rdfs:label>
+    <rdfs:comment xml:lang="ja">能動的な攻めのCSと、反応的な守りのカスタマーサポートとの対比。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccess"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSupport"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/realizesOutcome">
+    <rdfs:label xml:lang="ja">アウトカムを実現する</rdfs:label>
+    <rdfs:comment xml:lang="ja">成功状態が顧客アウトカムの継続的な実現として定義される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SuccessState"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Outcome"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/seeksOutcome">
+    <rdfs:label xml:lang="ja">アウトカムを求める</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が自らの事業文脈に基づく具体的成果を求める関係。CS実施の第一条件。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Outcome"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/usesProduct">
+    <rdfs:label xml:lang="ja">製品を利用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が製品またはサービスを利用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Product"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/basedOnBusinessModel">
+    <rdfs:label xml:lang="ja">ビジネスモデルに基づく</rdfs:label>
+    <rdfs:comment xml:lang="ja">CSがストック型・サブスクリプション型の収益構造の上に成立する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccess"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/BusinessModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/hasMaturityLevel">
+    <rdfs:label xml:lang="ja">成熟度レベルを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">CS組織がGainsightの四段階のいずれかに位置づく関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSMaturityLevel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/segmentedBy">
+    <rdfs:label xml:lang="ja">によりセグメント化される</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客がハイタッチ・ロータッチ・テックタッチのいずれかに割り当てられる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/EngagementModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/inLifecyclePhase">
+    <rdfs:label xml:lang="ja">ライフサイクルフェーズにある</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客関係がオンボーディングからチャーンまでのいずれかの段階にある関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerLifecyclePhase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/achievesSuccess">
+    <rdfs:label xml:lang="ja">成功を達成する</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客がライトサクセスまたはディープサクセスに至る関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SuccessState"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/hasHealthScore">
+    <rdfs:label xml:lang="ja">ヘルススコアを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">アカウントの健全性・更新可能性を示すスコアが顧客に紐づく関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/HealthScore"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/designedWith">
+    <rdfs:label xml:lang="ja">で設計される</rdfs:label>
+    <rdfs:comment xml:lang="ja">ヘルススコアが展開・エンゲージメント・アドプション・ROIの枠組みで設計される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/HealthScore"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/DEARFramework"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/measuredBy">
+    <rdfs:label xml:lang="ja">により測定される</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客成功の達成可否をCSメトリクスで測定する関係。CS実施の第二条件。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccess"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSMetric"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/indicatesROI">
+    <rdfs:label xml:lang="ja">ROIを示す</rdfs:label>
+    <rdfs:comment xml:lang="ja">CSメトリクスを売上増またはコスト減に結びつけることで投資対効果を示す関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSMetric"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ROI"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/hasChurnRisk">
+    <rdfs:label xml:lang="ja">チャーンリスクを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が解約リスクを抱える関係。チャンピオン離任などはコントロール不能リスクの兆候となる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Churn"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/managedBy">
+    <rdfs:label xml:lang="ja">により管理される</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客アカウントがCSMによって担当・管理される関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccessManager"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/memberOf">
+    <rdfs:label xml:lang="ja">に所属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">CSMがCS組織の一員である関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccessManager"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSOrganization"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/usesTechStack">
+    <rdfs:label xml:lang="ja">テックスタックを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">CS組織がCRM・CSプラットフォーム等を統合して運用する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSTechStack"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/triggeredFor">
+    <rdfs:label xml:lang="ja">に対して発動する</rdfs:label>
+    <rdfs:comment xml:lang="ja">データ閾値に基づくCTAが特定顧客に対して自動アラートを出す関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSCTA"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/assignedTo">
+    <rdfs:label xml:lang="ja">に割り当てられる</rdfs:label>
+    <rdfs:comment xml:lang="ja">CTAが担当CSMに割り当てられ行動を促す関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSCTA"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccessManager"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/employsPLG">
+    <rdfs:label xml:lang="ja">PLGを採用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品がプロダクトレッドグロース戦略により獲得・維持・拡大を駆動する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Product"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductLedGrowth"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/generatesPQL">
+    <rdfs:label xml:lang="ja">PQLを生成する</rdfs:label>
+    <rdfs:comment xml:lang="ja">製品内価値体験を経て営業対話可能なリードが生まれる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductLedGrowth"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductQualifiedLead"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/collectsVoC">
+    <rdfs:label xml:lang="ja">顧客の声を収集する</rdfs:label>
+    <rdfs:comment xml:lang="ja">CSMが生の顧客インサイトを集める関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccessManager"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/VoiceOfCustomer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/usesVoC">
+    <rdfs:label xml:lang="ja">顧客の声を活用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">PMMがCS由来のVoCをプロダクトマーケットフィット加速に用いる関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductMarketingManager"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/VoiceOfCustomer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/buildsProduct">
+    <rdfs:label xml:lang="ja">製品を構築する</rdfs:label>
+    <rdfs:comment xml:lang="ja">PdMが正しい製品を作る責任を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductManager"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Product"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/fitsProductToMarket">
+    <rdfs:label xml:lang="ja">製品を市場に適合させる</rdfs:label>
+    <rdfs:comment xml:lang="ja">PMMが製品を市場にフィットさせる責任を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/ProductMarketingManager"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Product"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/alignsWith">
+    <rdfs:label xml:lang="ja">に沿う</rdfs:label>
+    <rdfs:comment xml:lang="ja">カスタマーサクセスが三方良しの思想と根本的に一致する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CustomerSuccess"/>
+    <rdfs:range rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/SanpoYoshi"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/name">
+    <rdfs:label xml:lang="ja">名称</rdfs:label>
+    <rdfs:comment xml:lang="ja">対象を識別するための名称。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Customer"/>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/Product"/>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSMetric"/>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/HealthScore"/>
+    <rdfs:domain rdf:resource="https://books.local/Kanzenban__kasutamaasakusesu_Jikkou_Senryaku__-_Yamada__hisanori/CSOrganization"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

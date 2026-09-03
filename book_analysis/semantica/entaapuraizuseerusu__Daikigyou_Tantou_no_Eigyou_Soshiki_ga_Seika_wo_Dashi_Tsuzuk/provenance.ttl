@@ -1,0 +1,503 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/> .
+
+book:source a prov:Entity ;
+  foaf:name "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" .
+
+book:IT a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンタープライズセールス a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:アナログな営業 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業担当者 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報収集 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:ブラックボックス a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:大企業 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:中小企業 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:ROI a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:B2B a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:リード a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:意思決定 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:決裁権 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:アフターサポート a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:経営会議 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:購買ボリューム a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:カスタマイズ性 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:時間軸 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:標準品 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:絞り込み型セールス a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:見込み客 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:稟議制 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロセス管理 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:セキュリティリスク a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーケティング a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:decision-making a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:purchasing process a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:検討 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:システム構築 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:商談対応 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:sales approaches a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス環境 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:分業型組織 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:製品導入 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:利用者 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:購入数 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業文化 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:legacy systems a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:フェーズ a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:Chapter 1 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:market influence a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:KPI管理 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:科学的な営業手法 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:足を運び通う a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:接待をして信頼関係を築く a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客を深く知る a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:セールスフォース・ルージュ a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:マネージャー a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:本部長 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:インターネット a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:人口減少 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:人員最適化 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:生産性向上 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮説提案型 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:screening/qualifying a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:enterprise (large) companies a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:Employee count a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:financial power a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:organizational structure a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:business flexibility a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:complex purchasing processes a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:worst-case scenarios a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:万が一 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:customer management application a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:mobile phone a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:testing a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:OS a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:Tokyo Shoko Research a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:4年契約 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:アプリケーション a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:数十年以上 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:成功体験 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:ナレッジ a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:行動規範 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:方針転換 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:ピボット a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:小回り a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:何十年 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:激動 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:強み a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:安定感 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:東京商工リサーチ a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:2023年 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:慣性の法則 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:費用対効果 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:法務 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:社内システム a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:cloud systems a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:executives a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:after-sales support a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:評価と判断 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:責任者 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:課題感 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:機械導入 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:企画部門 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:製造部門 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:契約プロセス a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:予算制度 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:保守・サポート a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:予防処置 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:相見積もり a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:役員 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:部長 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:課長 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:販売行為 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:工数 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:調査報告書 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:再発防止 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハイリスク・ハイリターン a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:A製品 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:B製品 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:金額 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:1年 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:10年 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:専用設計 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:拡散型 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:認知拡大 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:名刺情報 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:広告 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:イベント a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:展示会 a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .
+
+book:メルマガ a prov:Entity ;
+  book:book_key "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk" ;
+  prov:wasDerivedFrom book:source .

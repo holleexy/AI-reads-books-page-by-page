@@ -1,0 +1,77 @@
+[
+  {
+    "conflict_id": "Customer Success_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "Customer Success",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "ORG",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.87,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "kasutamaasakusesu_purofesshonaruuu_Kokyaku_no_Seikou_wo_Sasae__asu_Shigoto_nosub"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

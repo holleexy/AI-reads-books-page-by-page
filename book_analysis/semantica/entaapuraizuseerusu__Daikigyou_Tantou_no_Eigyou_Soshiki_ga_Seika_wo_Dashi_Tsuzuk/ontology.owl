@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <owl:Ontology rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/">
+    <rdfs:label>entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_TsuzukOntology</rdfs:label>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/EnterpriseSales">
+    <rdfs:label xml:lang="ja">エンタープライズセールス</rdfs:label>
+    <rdfs:comment xml:lang="ja">大企業向け営業。組織内の政治力学や感情を動かすアナログな部分を言語化・構造化し、仮説提案型で再現性のある手法を確立する領域。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/LargeEnterprise">
+    <rdfs:label xml:lang="ja">大企業</rdfs:label>
+    <rdfs:comment xml:lang="ja">社員数と企業の歴史により購買プロセスと意思決定が複雑化した企業。万が一のリスクと慣性の法則が制約となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesOrganization">
+    <rdfs:label xml:lang="ja">営業組織</rdfs:label>
+    <rdfs:comment xml:lang="ja">大企業担当として成果を出し続ける営業組織。個人スキルに依存せず施策とチームで実行する。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Customer">
+    <rdfs:label xml:lang="ja">顧客</rdfs:label>
+    <rdfs:comment xml:lang="ja">エンタープライズセールスの対象となる大企業側の組織・部門・関係者。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPerson">
+    <rdfs:label xml:lang="ja">営業担当者</rdfs:label>
+    <rdfs:comment xml:lang="ja">仮説提案と関係構築を担う営業個人。スーパー営業個人への依存は避ける。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Project">
+    <rdfs:label xml:lang="ja">プロジェクト</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客の購買ではなく顧客側の企画・準備・成功までを対象とする営業の中心単位。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPhase">
+    <rdfs:label xml:lang="ja">営業フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロジェクトベースの営業プロセスを構成するListen、Build &amp; Trust、Partner、Successの総称。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ListenPhase">
+    <rdfs:label xml:lang="ja">顧客理解フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">リサーチで経営層の優先課題や競合の脅威を把握し、五要素のプロジェクト仮説を構築するフェーズ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/BuildAndTrustPhase">
+    <rdfs:label xml:lang="ja">関係構築フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロジェクト仮説を重要課題として認識させ、チャンピオンを探しマインドシェアを獲得するフェーズ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/PartnerPhase">
+    <rdfs:label xml:lang="ja">信頼醸成フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">現場の現状把握と要件定義を行い、実現可能性（ROI）を証明し特殊事情を踏まえたRFPを作成するフェーズ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SuccessPhase">
+    <rdfs:label xml:lang="ja">成功と展開フェーズ</rdfs:label>
+    <rdfs:comment xml:lang="ja">契約を始まりとし、ビジネス成果の創出とモデルケース化、他部署への横展開を行うフェーズ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPhase"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ProjectHypothesis">
+    <rdfs:label xml:lang="ja">プロジェクト仮説</rdfs:label>
+    <rdfs:comment xml:lang="ja">背景、課題、打ち手、自社の貢献領域、期待効果の五要素からなる顧客プロジェクトの仮説。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Champion">
+    <rdfs:label xml:lang="ja">チャンピオン</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客社内でプロジェクトを推進する社内推進者。専門家化と自走化の核となる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesMeasure">
+    <rdfs:label xml:lang="ja">営業施策</rdfs:label>
+    <rdfs:comment xml:lang="ja">個人スキルに依存せず組織として実行する相互連動の施策群。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountPlan">
+    <rdfs:label xml:lang="ja">アカウントプラン</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客が起こすべきプロジェクトの着眼点を提供する顧客理解のフレームワーク。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ProjectSelling">
+    <rdfs:label xml:lang="ja">プロジェクトセリング</rdfs:label>
+    <rdfs:comment xml:lang="ja">モノではなくプロジェクトの成功を提案しゴールまで伴走する手法。目的・KPI・機能・体制・運用ルール・トレーニングの六つの不在を取り除く。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerSuccess">
+    <rdfs:label xml:lang="ja">カスタマーサクセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">契約後の成果創出を支援し、解約防止を超えて自走化と横展開、次のビジネスにつなげる定着化施策。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ExecutiveSales">
+    <rdfs:label xml:lang="ja">エグゼクティブセールス</rdfs:label>
+    <rdfs:comment xml:lang="ja">会社対会社の関係構築。フェーズに応じたアジェンダで役員訪問し、キーマン紹介や稟議リスクを低減する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesMeasure"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerMap">
+    <rdfs:label xml:lang="ja">顧客マップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">チーム全員の顧客理解を均一化するために作成・共有する地図の総称。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/PotentialMap">
+    <rdfs:label xml:lang="ja">ポテンシャルマップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">バリューチェーンごとに自社製品の導入ポテンシャル（売上の最大値）を可視化するマップ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerMap"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/InsightMap">
+    <rdfs:label xml:lang="ja">インサイトマップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">ゴール、プレッシャー、戦略、障害、施策の五要素で顧客の投資優先順位を分析するマップ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerMap"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/RelationshipMap">
+    <rdfs:label xml:lang="ja">人脈マップ</rdfs:label>
+    <rdfs:comment xml:lang="ja">公式な組織図に加え、暗黙の意思決定ルートやチャンピオンへのアプローチ方法を可視化するマップ。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerMap"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/BANTFramework">
+    <rdfs:label xml:lang="ja">BANTフレームワーク</rdfs:label>
+    <rdfs:comment xml:lang="ja">予算、決裁権、必要性、導入時期で見込み客を選定する枠組み。主に絞り込み型セールスで用いる。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/KPI">
+    <rdfs:label>KPI</rdfs:label>
+    <rdfs:comment xml:lang="ja">各フェーズに応じて設定し定量可視化する指標。マップ情報取得数、仮説作成件数、受注率、LTVなどを含む。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountTeam">
+    <rdfs:label xml:lang="ja">アカウントチーム</rdfs:label>
+    <rdfs:comment xml:lang="ja">スーパー営業個人に依存せず、複数人でチームセリングを行う分業体制。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesRole">
+    <rdfs:label xml:lang="ja">営業役割</rdfs:label>
+    <rdfs:comment xml:lang="ja">アカウントチーム内の分業上の役割。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/InsideSales">
+    <rdfs:label xml:lang="ja">インサイドセールス</rdfs:label>
+    <rdfs:comment xml:lang="ja">圧倒的な行動量で顧客情報を収集し、定期的な情報取得をルーティン化する役割。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SolutionEngineer">
+    <rdfs:label xml:lang="ja">ソリューションエンジニア</rdfs:label>
+    <rdfs:comment xml:lang="ja">業界・技術知識を基に顧客の企画構想を支援するプリセールス。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerSuccessManager">
+    <rdfs:label xml:lang="ja">カスタマーサクセスマネージャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">導入後の定着支援とビジネス成果創出を担当する役割。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountManager">
+    <rdfs:label xml:lang="ja">アカウントマネージャー</rdfs:label>
+    <rdfs:comment xml:lang="ja">限られた人数リソースを適切に配分・管理する指揮官。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesRole"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesModel">
+    <rdfs:label xml:lang="ja">営業モデル</rdfs:label>
+    <rdfs:comment xml:lang="ja">購買ボリュームとカスタマイズ性の違いに応じた営業手法の類型。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/FunnelingSales">
+    <rdfs:label xml:lang="ja">絞り込み型セールス</rdfs:label>
+    <rdfs:comment xml:lang="ja">標準品を多数の顧客に効率よく販売する中小企業向けモデル。認知拡大からBANT選定、契約で終了する。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesModel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/DiffusionSales">
+    <rdfs:label xml:lang="ja">拡散型セールス</rdfs:label>
+    <rdfs:comment xml:lang="ja">カスタマイズ提案でLTVを最大化する大企業向けモデル。企業エンゲージメントは人数×信用であり、契約はスタートである。</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesModel"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/PurchaseProcess">
+    <rdfs:label xml:lang="ja">購買プロセス</rdfs:label>
+    <rdfs:comment xml:lang="ja">情報収集・検討・評価の責任者が異なり、多数の関与者と稟議を要する大企業特有の分業プロセス。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Targeting">
+    <rdfs:label xml:lang="ja">ターゲティング</rdfs:label>
+    <rdfs:comment xml:lang="ja">トータルポテンシャルと難易度の二軸で、限られたリソースを数社に徹底的に絞る行為。木こりのジレンマを断つ。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Territory">
+    <rdfs:label xml:lang="ja">陣地</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客に選ばれるために確保する時間、マインド、情報、予算の四つの陣地。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Forecast">
+    <rdfs:label xml:lang="ja">フォーキャスト</rdfs:label>
+    <rdfs:comment xml:lang="ja">大型案件が売上の大部分を占めるため正確さが求められる業績予測。確率論ではなく狙った商談の必勝を基本とする。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Scorecard">
+    <rdfs:label xml:lang="ja">スコアカード</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業と技術の視点を二分割表示し、事実と根拠および次にやるべきアクションを記載する評価表。</rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CompellingEvent">
+    <rdfs:label xml:lang="ja">コンペリングイベント</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロジェクトを今開始すべき理由。チャンピオンの存在、エグゼクティブカバレッジと並ぶ見極めの不変要素。</rdfs:comment>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/targetsEnterprise">
+    <rdfs:label xml:lang="ja">担当する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業組織が担当する大企業を示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/LargeEnterprise"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/servesCustomer">
+    <rdfs:label xml:lang="ja">顧客を担当する</rdfs:label>
+    <rdfs:comment xml:lang="ja">組織または担当者が顧客企業を担当する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesOrganization"/>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Customer"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasPhase">
+    <rdfs:label xml:lang="ja">フェーズを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">エンタープライズセールスが四つの営業フェーズで構成されることを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/EnterpriseSales"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPhase"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/followsModel">
+    <rdfs:label xml:lang="ja">モデルに従う</rdfs:label>
+    <rdfs:comment xml:lang="ja">エンタープライズセールスが拡散型などの営業モデルに従う関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/EnterpriseSales"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesModel"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/proposesProject">
+    <rdfs:label xml:lang="ja">プロジェクトを提案する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者が顧客プロジェクトを企画・提案する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Project"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasHypothesis">
+    <rdfs:label xml:lang="ja">仮説を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロジェクトまたは顧客理解フェーズがプロジェクト仮説を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Project"/>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ListenPhase"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ProjectHypothesis"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasChampion">
+    <rdfs:label xml:lang="ja">チャンピオンを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客またはプロジェクトが社内推進者を持つ関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Project"/>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Champion"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasAccountPlan">
+    <rdfs:label xml:lang="ja">アカウントプランを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">顧客理解のためのアカウントプランを紐付ける。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Customer"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountPlan"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/includesMap">
+    <rdfs:label xml:lang="ja">マップを含む</rdfs:label>
+    <rdfs:comment xml:lang="ja">アカウントプランがポテンシャル・インサイト・人脈の各マップを含む。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountPlan"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerMap"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/implementsMeasure">
+    <rdfs:label xml:lang="ja">施策を実行する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業組織が四つの営業施策を組織として実行する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesMeasure"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/measuredByKPI">
+    <rdfs:label xml:lang="ja">KPIで測る</rdfs:label>
+    <rdfs:comment xml:lang="ja">各フェーズの進捗を対応するKPIで定量化する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPhase"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/KPI"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/organizedAs">
+    <rdfs:label xml:lang="ja">チームとして編成する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業組織がアカウントチームによる分業体制をとる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountTeam"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasRole">
+    <rdfs:label xml:lang="ja">役割を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">アカウントチームがインサイドセールス等の役割を持つ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountTeam"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesRole"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/belongsToTeam">
+    <rdfs:label xml:lang="ja">チームに所属する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業担当者がアカウントチームに所属する関係。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPerson"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/AccountTeam"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasPurchaseProcess">
+    <rdfs:label xml:lang="ja">購買プロセスを持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">大企業が複雑な分業型の購買プロセスを持つ。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/LargeEnterprise"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/PurchaseProcess"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/appliesTargeting">
+    <rdfs:label xml:lang="ja">ターゲティングを適用する</rdfs:label>
+    <rdfs:comment xml:lang="ja">限られたリソースを高ポテンシャルかつ勝算のある顧客に絞る。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Targeting"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/occupiesTerritory">
+    <rdfs:label xml:lang="ja">陣地を確保する</rdfs:label>
+    <rdfs:comment xml:lang="ja">時間・マインド・情報・予算の陣地を顧客内で確保する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesPerson"/>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Territory"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/hasCompellingEvent">
+    <rdfs:label xml:lang="ja">開始理由を持つ</rdfs:label>
+    <rdfs:comment xml:lang="ja">プロジェクトが今開始すべき理由を持つことを示す。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Project"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CompellingEvent"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/forecastsWith">
+    <rdfs:label xml:lang="ja">業績予測する</rdfs:label>
+    <rdfs:comment xml:lang="ja">営業組織が大型案件を含む業績を予測する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/SalesOrganization"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Forecast"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/usesScorecard">
+    <rdfs:label xml:lang="ja">スコアカードを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">フォーキャストにおいて営業と技術の視点乖離からリスクを察知する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Forecast"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Scorecard"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/supportsSuccess">
+    <rdfs:label xml:lang="ja">成功を支援する</rdfs:label>
+    <rdfs:comment xml:lang="ja">カスタマーサクセスが導入後の成果創出と横展開を支援する。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/CustomerSuccess"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Project"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/usesBANT">
+    <rdfs:label xml:lang="ja">BANTを用いる</rdfs:label>
+    <rdfs:comment xml:lang="ja">絞り込み型セールスが見込み客選定にBANTを用いる。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/FunnelingSales"/>
+    <rdfs:range rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/BANTFramework"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/description">
+    <rdfs:label xml:lang="ja">説明</rdfs:label>
+    <rdfs:comment xml:lang="ja">概念や指標、陣地、仮説などの補足説明。</rdfs:comment>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/EnterpriseSales"/>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/ProjectHypothesis"/>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/KPI"/>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Territory"/>
+    <rdfs:domain rdf:resource="https://books.local/entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk/Targeting"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>

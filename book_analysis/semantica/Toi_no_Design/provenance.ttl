@@ -1,0 +1,395 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix book: <https://books.local/Toi_no_Design/> .
+
+book:source a prov:Entity ;
+  foaf:name "Toi_no_Design" ;
+  book:book_key "Toi_no_Design" .
+
+book:問いのデザイン a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:製品開発 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:ワークショップ a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:ファシリテーター a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:現代社会 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:認識の固定化 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:関係性の固定化 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:アンラーニング a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:心理的契約 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:創造的対話 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:答え a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:自動車メーカー a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:AI a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:中世 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:高度な学習 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:自動運転化 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:まちづくり a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:カーアクセサリー a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:移動 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:イノベーティブな製品アイデア a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:社会問題 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:大学の研究者 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:唯一の真理 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:安斎 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:塩瀬 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:人材育成 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:研修講師 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:サイエンスイベント a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:ゲストスピーカー a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:コーディネーター a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:美術館 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:ナビゲーター a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンサルタント a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:ある病い a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮説 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:百面相 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:教育 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織課題 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:人間の学習メカニズム a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:数学の公式 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:反復練習 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:効率 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:生産性 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:無意識のルーティン a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:学習棄却 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:相互理解 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:Psychological Contract a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:経営学 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:定年 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:雇用 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:転職 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:従業員 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:変わりたくても変われない a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:好奇心 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:前提 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロセス a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニケーション a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:ボトムアップの組織変革 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:学校教育 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:主体的で対話的な生徒の育成 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:100年 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:この20年 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本全国 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:レクリエーション a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:日常 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:非日常 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:本書 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:人々の認識と関係性の病い a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:課題のデザイン a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:英語 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:question a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:problem a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:インタビュー a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:テスト a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:研究者 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:哲学者 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:リサーチクエスチョン a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:タイヤ a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:メンテナンス備品 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:企画会議 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:自己目的化 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:ユーザー中心のデザイン思考 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:素人視点 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:素朴な疑問 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:本質的な問い a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:快適な移動の時間 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:水平展開 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:視点のシフト a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:人工知能時代 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:解決策 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:ブレイクスルー a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:リフレーミング a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:紀元前2200年頃 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:メソポタミア文明 a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:水洗式トイレ a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヨーロッパ a prov:Entity ;
+  book:book_key "Toi_no_Design" ;
+  prov:wasDerivedFrom book:source .

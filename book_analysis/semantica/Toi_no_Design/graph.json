@@ -1,0 +1,3567 @@
+{
+  "entities": [
+    {
+      "id": "問いのデザイン",
+      "name": "問いのデザイン",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "問いのデザイン",
+              "name": "問いのデザイン",
+              "source": null
+            },
+            {
+              "id": "問いのデザイン",
+              "name": "問いのデザイン",
+              "source": null
+            },
+            {
+              "id": "問い",
+              "name": "問い",
+              "source": null
+            },
+            {
+              "id": "問い",
+              "name": "問い",
+              "source": null
+            },
+            {
+              "id": "問いとは何か",
+              "name": "問いとは何か",
+              "source": null
+            },
+            {
+              "id": "問う",
+              "name": "問う",
+              "source": null
+            }
+          ],
+          "merge_count": 6
+        }
+      },
+      "merged_from": [
+        "問いのデザイン",
+        "問いのデザイン",
+        "問い",
+        "問い",
+        "問いとは何か",
+        "問う"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "製品開発",
+      "name": "製品開発",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "製品開発",
+              "name": "製品開発",
+              "source": null
+            },
+            {
+              "id": "製品開発",
+              "name": "製品開発",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "製品開発",
+        "製品開発"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "ワークショップ",
+      "name": "ワークショップ",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ワークショップ",
+              "name": "ワークショップ",
+              "source": null
+            },
+            {
+              "id": "ワークショップ",
+              "name": "ワークショップ",
+              "source": null
+            },
+            {
+              "id": "ワークショップ疲れ",
+              "name": "ワークショップ疲れ",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "ワークショップ",
+        "ワークショップ",
+        "ワークショップ疲れ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "ファシリテーター",
+      "name": "ファシリテーター",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "ファシリテーター",
+              "name": "ファシリテーター",
+              "source": null
+            },
+            {
+              "id": "ファシリテーター",
+              "name": "ファシリテーター",
+              "source": null
+            },
+            {
+              "id": "ファシリテーション",
+              "name": "ファシリテーション",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "ファシリテーター",
+        "ファシリテーター",
+        "ファシリテーション"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "現代社会",
+      "name": "現代社会",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "現代社会",
+              "name": "現代社会",
+              "source": null
+            },
+            {
+              "id": "現代社会",
+              "name": "現代社会",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "現代社会",
+        "現代社会"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "認識の固定化",
+      "name": "認識の固定化",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "認識の固定化",
+              "name": "認識の固定化",
+              "source": null
+            },
+            {
+              "id": "認識の固定化",
+              "name": "認識の固定化",
+              "source": null
+            },
+            {
+              "id": "認識",
+              "name": "認識",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "認識の固定化",
+        "認識の固定化",
+        "認識"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "関係性の固定化",
+      "name": "関係性の固定化",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "関係性の固定化",
+              "name": "関係性の固定化",
+              "source": null
+            },
+            {
+              "id": "関係性の固定化",
+              "name": "関係性の固定化",
+              "source": null
+            },
+            {
+              "id": "関係性",
+              "name": "関係性",
+              "source": null
+            },
+            {
+              "id": "関係性",
+              "name": "関係性",
+              "source": null
+            }
+          ],
+          "merge_count": 4
+        }
+      },
+      "merged_from": [
+        "関係性の固定化",
+        "関係性の固定化",
+        "関係性",
+        "関係性"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "アンラーニング",
+      "name": "アンラーニング",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "アンラーニング",
+              "name": "アンラーニング",
+              "source": null
+            },
+            {
+              "id": "アンラーニング",
+              "name": "アンラーニング",
+              "source": null
+            },
+            {
+              "id": "アンケート",
+              "name": "アンケート",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "アンラーニング",
+        "アンラーニング",
+        "アンケート"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "心理的契約",
+      "name": "心理的契約",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "心理的契約",
+              "name": "心理的契約",
+              "source": null
+            },
+            {
+              "id": "心理的契約",
+              "name": "心理的契約",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "心理的契約",
+        "心理的契約"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "創造的対話",
+      "name": "創造的対話",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "創造的対話",
+              "name": "創造的対話",
+              "source": null
+            },
+            {
+              "id": "創造的対話",
+              "name": "創造的対話",
+              "source": null
+            },
+            {
+              "id": "創造的なコミュニケーション",
+              "name": "創造的なコミュニケーション",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "創造的対話",
+        "創造的対話",
+        "創造的なコミュニケーション"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "答え",
+      "name": "答え",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "答え",
+              "name": "答え",
+              "source": null
+            },
+            {
+              "id": "答え",
+              "name": "答え",
+              "source": null
+            },
+            {
+              "id": "答えを出す",
+              "name": "答えを出す",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "答え",
+        "答え",
+        "答えを出す"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "自動車メーカー",
+      "name": "自動車メーカー",
+      "type": "ORG",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "自動車メーカー",
+              "name": "自動車メーカー",
+              "source": null
+            },
+            {
+              "id": "自動車メーカー",
+              "name": "自動車メーカー",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "自動車メーカー",
+        "自動車メーカー"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "AI",
+      "name": "AI",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "AI",
+              "name": "AI",
+              "source": null
+            },
+            {
+              "id": "AI",
+              "name": "AI",
+              "source": null
+            },
+            {
+              "id": "AI技術",
+              "name": "AI技術",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "AI",
+        "AI",
+        "AI技術"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "中世",
+      "name": "中世",
+      "type": "DATE",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "中世",
+              "name": "中世",
+              "source": null
+            },
+            {
+              "id": "中世",
+              "name": "中世",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "中世",
+        "中世"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "高度な学習",
+      "name": "高度な学習",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "高度な学習",
+              "name": "高度な学習",
+              "source": null
+            },
+            {
+              "id": "高度な数学",
+              "name": "高度な数学",
+              "source": null
+            },
+            {
+              "id": "高校数学",
+              "name": "高校数学",
+              "source": null
+            }
+          ],
+          "merge_count": 3
+        }
+      },
+      "merged_from": [
+        "高度な学習",
+        "高度な数学",
+        "高校数学"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "自動運転化",
+      "name": "自動運転化",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "自動運転化",
+              "name": "自動運転化",
+              "source": null
+            },
+            {
+              "id": "自動運転技術",
+              "name": "自動運転技術",
+              "source": null
+            },
+            {
+              "id": "自動運転社会",
+              "name": "自動運転社会",
+              "source": null
+            },
+            {
+              "id": "自動運転社会",
+              "name": "自動運転社会",
+              "source": null
+            },
+            {
+              "id": "自社技術",
+              "name": "自社技術",
+              "source": null
+            },
+            {
+              "id": "自動化された認識",
+              "name": "自動化された認識",
+              "source": null
+            },
+            {
+              "id": "自社製品",
+              "name": "自社製品",
+              "source": null
+            }
+          ],
+          "merge_count": 7
+        }
+      },
+      "merged_from": [
+        "自動運転化",
+        "自動運転技術",
+        "自動運転社会",
+        "自動運転社会",
+        "自社技術",
+        "自動化された認識",
+        "自社製品"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "まちづくり",
+      "name": "まちづくり",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "まちづくり",
+              "name": "まちづくり",
+              "source": null
+            },
+            {
+              "id": "まちづくりプロジェクト",
+              "name": "まちづくりプロジェクト",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "まちづくり",
+        "まちづくりプロジェクト"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "カーアクセサリー",
+      "name": "カーアクセサリー",
+      "type": "PRODUCT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "カーアクセサリー",
+              "name": "カーアクセサリー",
+              "source": null
+            },
+            {
+              "id": "カーアクセサリー部門",
+              "name": "カーアクセサリー部門",
+              "source": null
+            },
+            {
+              "id": "カーナビ",
+              "name": "カーナビ",
+              "source": null
+            },
+            {
+              "id": "カーナビ",
+              "name": "カーナビ",
+              "source": null
+            },
+            {
+              "id": "カーオーディオ",
+              "name": "カーオーディオ",
+              "source": null
+            }
+          ],
+          "merge_count": 5
+        }
+      },
+      "merged_from": [
+        "カーアクセサリー",
+        "カーアクセサリー部門",
+        "カーナビ",
+        "カーナビ",
+        "カーオーディオ"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "移動",
+      "name": "移動",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "移動",
+              "name": "移動",
+              "source": null
+            },
+            {
+              "id": "移動の時間",
+              "name": "移動の時間",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "移動",
+        "移動の時間"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "イノベーティブな製品アイデア",
+      "name": "イノベーティブな製品アイデア",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "イノベーティブな製品アイデア",
+              "name": "イノベーティブな製品アイデア",
+              "source": null
+            },
+            {
+              "id": "イノベーション",
+              "name": "イノベーション",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "イノベーティブな製品アイデア",
+        "イノベーション"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "社会問題",
+      "name": "社会問題",
+      "type": "CONCEPT",
+      "properties": {},
+      "relationships": [],
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design",
+        "provenance": {
+          "merged_from": [
+            {
+              "id": "社会問題",
+              "name": "社会問題",
+              "source": null
+            },
+            {
+              "id": "社会変化",
+              "name": "社会変化",
+              "source": null
+            }
+          ],
+          "merge_count": 2
+        }
+      },
+      "merged_from": [
+        "社会問題",
+        "社会変化"
+      ],
+      "merge_strategy": "keep_most_complete",
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "大学の研究者",
+      "name": "大学の研究者",
+      "text": "大学の研究者",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "唯一の真理",
+      "name": "唯一の真理",
+      "text": "唯一の真理",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "安斎",
+      "name": "安斎",
+      "text": "安斎",
+      "type": "PERSON",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "塩瀬",
+      "name": "塩瀬",
+      "text": "塩瀬",
+      "type": "PERSON",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "人材育成",
+      "name": "人材育成",
+      "text": "人材育成",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "研修講師",
+      "name": "研修講師",
+      "text": "研修講師",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "サイエンスイベント",
+      "name": "サイエンスイベント",
+      "text": "サイエンスイベント",
+      "type": "EVENT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "ゲストスピーカー",
+      "name": "ゲストスピーカー",
+      "text": "ゲストスピーカー",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "コーディネーター",
+      "name": "コーディネーター",
+      "text": "コーディネーター",
+      "type": "CONCEPT",
+      "confidence": 0.89,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "美術館",
+      "name": "美術館",
+      "text": "美術館",
+      "type": "ORG",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "ナビゲーター",
+      "name": "ナビゲーター",
+      "text": "ナビゲーター",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "コンサルタント",
+      "name": "コンサルタント",
+      "text": "コンサルタント",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "ある病い",
+      "name": "ある病い",
+      "text": "ある病い",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "仮説",
+      "name": "仮説",
+      "text": "仮説",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "百面相",
+      "name": "百面相",
+      "text": "百面相",
+      "type": "CONCEPT",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "ビジネス",
+      "name": "ビジネス",
+      "text": "ビジネス",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "教育",
+      "name": "教育",
+      "text": "教育",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "組織課題",
+      "name": "組織課題",
+      "text": "組織課題",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "人間の学習メカニズム",
+      "name": "人間の学習メカニズム",
+      "text": "人間の学習メカニズム",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "数学の公式",
+      "name": "数学の公式",
+      "text": "数学の公式",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "反復練習",
+      "name": "反復練習",
+      "text": "反復練習",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "効率",
+      "name": "効率",
+      "text": "効率",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "生産性",
+      "name": "生産性",
+      "text": "生産性",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "無意識のルーティン",
+      "name": "無意識のルーティン",
+      "text": "無意識のルーティン",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "学習棄却",
+      "name": "学習棄却",
+      "text": "学習棄却",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "相互理解",
+      "name": "相互理解",
+      "text": "相互理解",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "Psychological Contract",
+      "name": "Psychological Contract",
+      "text": "Psychological Contract",
+      "type": "CONCEPT",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "経営学",
+      "name": "経営学",
+      "text": "経営学",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "定年",
+      "name": "定年",
+      "text": "定年",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "雇用",
+      "name": "雇用",
+      "text": "雇用",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "転職",
+      "name": "転職",
+      "text": "転職",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "従業員",
+      "name": "従業員",
+      "text": "従業員",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "変わりたくても変われない",
+      "name": "変わりたくても変われない",
+      "text": "変わりたくても変われない",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "好奇心",
+      "name": "好奇心",
+      "text": "好奇心",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "前提",
+      "name": "前提",
+      "text": "前提",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "プロセス",
+      "name": "プロセス",
+      "text": "プロセス",
+      "type": "CONCEPT",
+      "confidence": 0.84,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "コミュニケーション",
+      "name": "コミュニケーション",
+      "text": "コミュニケーション",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "ボトムアップの組織変革",
+      "name": "ボトムアップの組織変革",
+      "text": "ボトムアップの組織変革",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "学校教育",
+      "name": "学校教育",
+      "text": "学校教育",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "主体的で対話的な生徒の育成",
+      "name": "主体的で対話的な生徒の育成",
+      "text": "主体的で対話的な生徒の育成",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "100年",
+      "name": "100年",
+      "text": "100年",
+      "type": "DATE",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "この20年",
+      "name": "この20年",
+      "text": "この20年",
+      "type": "DATE",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "日本全国",
+      "name": "日本全国",
+      "text": "日本全国",
+      "type": "GPE",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "レクリエーション",
+      "name": "レクリエーション",
+      "text": "レクリエーション",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "日常",
+      "name": "日常",
+      "text": "日常",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "非日常",
+      "name": "非日常",
+      "text": "非日常",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "本書",
+      "name": "本書",
+      "text": "本書",
+      "type": "PRODUCT",
+      "confidence": 0.72,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "人々の認識と関係性の病い",
+      "name": "人々の認識と関係性の病い",
+      "text": "人々の認識と関係性の病い",
+      "type": "CONCEPT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "課題のデザイン",
+      "name": "課題のデザイン",
+      "text": "課題のデザイン",
+      "type": "CONCEPT",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "英語",
+      "name": "英語",
+      "text": "英語",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "question",
+      "name": "question",
+      "text": "question",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "problem",
+      "name": "problem",
+      "text": "problem",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "インタビュー",
+      "name": "インタビュー",
+      "text": "インタビュー",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "テスト",
+      "name": "テスト",
+      "text": "テスト",
+      "type": "CONCEPT",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "研究者",
+      "name": "研究者",
+      "text": "研究者",
+      "type": "CONCEPT",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "哲学者",
+      "name": "哲学者",
+      "text": "哲学者",
+      "type": "CONCEPT",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "リサーチクエスチョン",
+      "name": "リサーチクエスチョン",
+      "text": "リサーチクエスチョン",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "タイヤ",
+      "name": "タイヤ",
+      "text": "タイヤ",
+      "type": "PRODUCT",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "メンテナンス備品",
+      "name": "メンテナンス備品",
+      "text": "メンテナンス備品",
+      "type": "PRODUCT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "企画会議",
+      "name": "企画会議",
+      "text": "企画会議",
+      "type": "EVENT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "自己目的化",
+      "name": "自己目的化",
+      "text": "自己目的化",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "ユーザー中心のデザイン思考",
+      "name": "ユーザー中心のデザイン思考",
+      "text": "ユーザー中心のデザイン思考",
+      "type": "CONCEPT",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "素人視点",
+      "name": "素人視点",
+      "text": "素人視点",
+      "type": "CONCEPT",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "素朴な疑問",
+      "name": "素朴な疑問",
+      "text": "素朴な疑問",
+      "type": "CONCEPT",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "本質的な問い",
+      "name": "本質的な問い",
+      "text": "本質的な問い",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "快適な移動の時間",
+      "name": "快適な移動の時間",
+      "text": "快適な移動の時間",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "水平展開",
+      "name": "水平展開",
+      "text": "水平展開",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "視点のシフト",
+      "name": "視点のシフト",
+      "text": "視点のシフト",
+      "type": "CONCEPT",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "人工知能時代",
+      "name": "人工知能時代",
+      "text": "人工知能時代",
+      "type": "DATE",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "解決策",
+      "name": "解決策",
+      "text": "解決策",
+      "type": "CONCEPT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "ブレイクスルー",
+      "name": "ブレイクスルー",
+      "text": "ブレイクスルー",
+      "type": "CONCEPT",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "リフレーミング",
+      "name": "リフレーミング",
+      "text": "リフレーミング",
+      "type": "CONCEPT",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "紀元前2200年頃",
+      "name": "紀元前2200年頃",
+      "text": "紀元前2200年頃",
+      "type": "DATE",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "メソポタミア文明",
+      "name": "メソポタミア文明",
+      "text": "メソポタミア文明",
+      "type": "GPE",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "水洗式トイレ",
+      "name": "水洗式トイレ",
+      "text": "水洗式トイレ",
+      "type": "PRODUCT",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "id": "ヨーロッパ",
+      "name": "ヨーロッパ",
+      "text": "ヨーロッパ",
+      "type": "GPE",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "大学の研究者",
+      "target": "唯一の真理",
+      "type": "inquires_into",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "安斎",
+      "target": "塩瀬",
+      "type": "collaborates_with",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "研修講師",
+      "target": "人材育成",
+      "type": "role_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ゲストスピーカー",
+      "target": "サイエンスイベント",
+      "type": "role_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "コーディネーター",
+      "target": "まちづくり",
+      "type": "role_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ナビゲーター",
+      "target": "美術館",
+      "type": "role_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "コンサルタント",
+      "target": "製品開発",
+      "type": "role_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ある病い",
+      "target": "現代社会",
+      "type": "common_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "仮説",
+      "target": "ある病い",
+      "type": "concerns",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "仮説",
+      "target": "現代社会",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "認識の固定化",
+      "target": "関係性の固定化",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "認識の固定化",
+      "target": "ビジネス",
+      "type": "is_root_cause_of_problems_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "認識の固定化",
+      "target": "教育",
+      "type": "is_root_cause_of_problems_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "認識の固定化",
+      "target": "組織課題",
+      "type": "is_root_cause_of_problems_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "認識の固定化",
+      "target": "製品開発",
+      "type": "is_root_cause_of_problems_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "関係性の固定化",
+      "target": "ビジネス",
+      "type": "is_root_cause_of_problems_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "関係性の固定化",
+      "target": "教育",
+      "type": "is_root_cause_of_problems_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "関係性の固定化",
+      "target": "組織課題",
+      "type": "is_root_cause_of_problems_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "関係性の固定化",
+      "target": "製品開発",
+      "type": "is_root_cause_of_problems_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "人間の学習メカニズム",
+      "target": "効率",
+      "type": "contributes_to_improvement_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "人間の学習メカニズム",
+      "target": "生産性",
+      "type": "contributes_to_improvement_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "数学の公式",
+      "target": "反復練習",
+      "type": "becomes_unconsciously_usable_through",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "反復練習",
+      "target": "人間の学習メカニズム",
+      "type": "exemplifies_process_in",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "自動化された認識",
+      "target": "無意識のルーティン",
+      "type": "equivalent_to",
+      "confidence": 0.97,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "自動化された認識",
+      "target": "高度な学習",
+      "type": "hinders",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "無意識のルーティン",
+      "target": "高校数学",
+      "type": "used_in",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "高校数学",
+      "target": "高度な数学",
+      "type": "must_be_unlearned_for",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "学習棄却",
+      "target": "アンラーニング",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "関係性の固定化",
+      "target": "相互理解",
+      "type": "inhibits",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "関係性の固定化",
+      "target": "創造的なコミュニケーション",
+      "type": "inhibits",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "心理的契約",
+      "target": "Psychological Contract",
+      "type": "also_known_as",
+      "confidence": 0.99,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "心理的契約",
+      "target": "経営学",
+      "type": "is_term_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "Psychological Contract",
+      "target": "経営学",
+      "type": "is_term_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "心理的契約",
+      "target": "従業員",
+      "type": "exemplified_by",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "雇用",
+      "target": "定年",
+      "type": "continues_until",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "従業員",
+      "target": "転職",
+      "type": "does_not_need_to_consider",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "心理的契約",
+      "target": "雇用",
+      "type": "related_to",
+      "confidence": 0.87,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "心理的契約",
+      "target": "企業外の関係性",
+      "type": "applies_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "暗黙のルール",
+      "target": "心理的契約",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "固定的な認識",
+      "target": "心理的契約",
+      "type": "part_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "認識",
+      "target": "関係性",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "認識",
+      "target": "変わりたくても変われない",
+      "type": "causes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "関係性",
+      "target": "変わりたくても変われない",
+      "type": "causes",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "変わりたくても変われない",
+      "target": "現代社会",
+      "type": "located_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "創造的対話",
+      "target": "プロセス",
+      "type": "is_a",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問い",
+      "target": "好奇心",
+      "type": "stimulates",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問い",
+      "target": "前提",
+      "type": "challenges",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "創造的対話",
+      "target": "コミュニケーション",
+      "type": "deepens",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "創造的対話",
+      "target": "関係性",
+      "type": "reweaves",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "創造的対話",
+      "target": "ボトムアップの組織変革",
+      "type": "results_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "創造的対話",
+      "target": "イノベーティブな製品アイデア",
+      "type": "results_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "創造的対話",
+      "target": "主体的で対話的な生徒の育成",
+      "type": "results_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "創造的対話",
+      "target": "まちづくりプロジェクト",
+      "type": "results_in",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "主体的で対話的な生徒の育成",
+      "target": "学校教育",
+      "type": "located_in",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問い",
+      "target": "答え",
+      "type": "preferred_over",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問い",
+      "target": "ワークショップ",
+      "type": "shared_in",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ワークショップ",
+      "target": "100年",
+      "type": "has_history_exceeding",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ワークショップ",
+      "target": "この20年",
+      "type": "popularized_during",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ワークショップ",
+      "target": "日本全国",
+      "type": "spread_throughout",
+      "confidence": 0.94,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ワークショップ",
+      "target": "レクリエーション",
+      "type": "implemented_as",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ワークショップ",
+      "target": "日常",
+      "type": "intended_to_shake",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ワークショップ",
+      "target": "非日常",
+      "type": "supposed_to_be",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ワークショップ",
+      "target": "ワークショップ疲れ",
+      "type": "causes",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ファシリテーター",
+      "target": "ワークショップ",
+      "type": "facilitates",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "本書",
+      "target": "問いのデザイン",
+      "type": "has_theme",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ワークショップ",
+      "target": "問いのデザイン",
+      "type": "quality_depends_on",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問いのデザイン",
+      "target": "ワークショップ",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問いのデザイン",
+      "target": "人々の認識と関係性の病い",
+      "type": "solves",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問いのデザイン",
+      "target": "課題のデザイン",
+      "type": "described_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問いのデザイン",
+      "target": "問いとは何か",
+      "type": "emphasizes_importance_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問い",
+      "target": "英語",
+      "type": "translated_into",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問い",
+      "target": "question",
+      "type": "expressed_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問い",
+      "target": "problem",
+      "type": "expressed_as",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "インタビュー",
+      "target": "問う",
+      "type": "is_a_form_of",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "テスト",
+      "target": "問う",
+      "type": "is_a_form_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "アンケート",
+      "target": "問う",
+      "type": "is_a_form_of",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "リサーチクエスチョン",
+      "target": "問う",
+      "type": "is_a_form_of",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "社会問題",
+      "target": "問う",
+      "type": "is_a_form_of",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "研究者",
+      "target": "リサーチクエスチョン",
+      "type": "confronts",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "哲学者",
+      "target": "リサーチクエスチョン",
+      "type": "confronts",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "研究者",
+      "target": "問う",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "哲学者",
+      "target": "問う",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問い",
+      "target": "答えを出す",
+      "type": "paired_with",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "カーアクセサリー",
+      "target": "自動車メーカー",
+      "type": "created_by",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "カーナビ",
+      "target": "カーアクセサリー",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "カーオーディオ",
+      "target": "カーアクセサリー",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "タイヤ",
+      "target": "カーアクセサリー",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "メンテナンス備品",
+      "target": "カーアクセサリー",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "AI技術",
+      "target": "自動運転化",
+      "type": "leads_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "自動運転化",
+      "target": "カーナビ",
+      "type": "threatens",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "カーナビ",
+      "target": "AI",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "企画会議",
+      "target": "ワークショップ",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "企画会議",
+      "target": "カーナビ",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ワークショップ",
+      "target": "カーナビ",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "AI",
+      "target": "カーナビ",
+      "type": "affects",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "カーナビ",
+      "target": "AI",
+      "type": "uses",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "AI",
+      "target": "カーナビ",
+      "type": "makes_unnecessary",
+      "confidence": 0.91,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "AI",
+      "target": "社会変化",
+      "type": "indicates",
+      "confidence": 0.86,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "社会変化",
+      "target": "カーナビ",
+      "type": "related_to",
+      "confidence": 0.78,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "素人視点",
+      "target": "ユーザー中心のデザイン思考",
+      "type": "used_in",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "素朴な疑問",
+      "target": "素人視点",
+      "type": "originates_from",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "素朴な疑問",
+      "target": "本質的な問い",
+      "type": "elicits",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "本質的な問い",
+      "target": "ユーザー中心のデザイン思考",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "カーナビ",
+      "target": "快適な移動の時間",
+      "type": "contrasted_with",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "自動運転技術",
+      "target": "AI",
+      "type": "related_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "カーナビ",
+      "target": "移動",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "自動運転社会",
+      "target": "移動の時間",
+      "type": "related_to",
+      "confidence": 0.93,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "カーナビ",
+      "target": "自動運転社会",
+      "type": "contrasted_with",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "自社製品",
+      "target": "自社技術",
+      "type": "expanded_to",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "水平展開",
+      "target": "視点のシフト",
+      "type": "equivalent_to",
+      "confidence": 0.96,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "水平展開",
+      "target": "問い",
+      "type": "leads_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "視点のシフト",
+      "target": "問い",
+      "type": "leads_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "カーナビ",
+      "target": "自動運転社会",
+      "type": "insufficient_for",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "カーアクセサリー部門",
+      "target": "自動車メーカー",
+      "type": "part_of",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "カーアクセサリー部門",
+      "target": "人工知能時代",
+      "type": "related_to",
+      "confidence": 0.82,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "自動車メーカー",
+      "target": "人工知能時代",
+      "type": "related_to",
+      "confidence": 0.8,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問い",
+      "target": "答え",
+      "type": "influences",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "問い",
+      "target": "解決策",
+      "type": "influences",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "答え",
+      "target": "解決策",
+      "type": "related_to",
+      "confidence": 0.85,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "イノベーション",
+      "target": "リフレーミング",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "ブレイクスルー",
+      "target": "リフレーミング",
+      "type": "depends_on",
+      "confidence": 0.92,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "イノベーション",
+      "target": "ブレイクスルー",
+      "type": "related_to",
+      "confidence": 0.88,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "水洗式トイレ",
+      "target": "メソポタミア文明",
+      "type": "created_by",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "水洗式トイレ",
+      "target": "紀元前2200年頃",
+      "type": "created_around",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "メソポタミア文明",
+      "target": "紀元前2200年頃",
+      "type": "existed_around",
+      "confidence": 0.9,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    },
+    {
+      "source": "中世",
+      "target": "ヨーロッパ",
+      "type": "related_to",
+      "confidence": 0.95,
+      "metadata": {
+        "provider": "xai",
+        "model": "grok-4.6",
+        "extraction_method": "llm_typed",
+        "book_key": "Toi_no_Design"
+      },
+      "book_key": "Toi_no_Design"
+    }
+  ],
+  "metadata": {
+    "num_entities": 97,
+    "num_relationships": 126,
+    "temporal_enabled": false,
+    "timestamp": "2026-08-31T14:50:29.276473",
+    "entity_resolution_applied": true,
+    "book_key": "Toi_no_Design",
+    "limit": 80,
+    "offset": 0,
+    "provider": "xai",
+    "ner_method": "llm",
+    "relation_method": "llm"
+  }
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "conflict_id": "ワークショップ_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "ワークショップ",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "EVENT",
+      "EVENT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Toi_no_Design"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Toi_no_Design"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.96,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Toi_no_Design"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Toi_no_Design"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Toi_no_Design"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Toi_no_Design"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Toi_no_Design"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Toi_no_Design"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

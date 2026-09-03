@@ -1,0 +1,131 @@
+[
+  {
+    "conflict_id": "IT_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "IT",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "CONCEPT",
+      "ORG"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.96,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.87,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "SMEs_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "SMEs",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "ORG"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "経営会議_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "経営会議",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "EVENT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.87,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "entaapuraizuseerusu__Daikigyou_Tantou_no_Eigyou_Soshiki_ga_Seika_wo_Dashi_Tsuzuk"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]
