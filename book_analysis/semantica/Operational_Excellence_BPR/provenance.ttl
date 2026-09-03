@@ -6,11 +6,11 @@ book:source a prov:Entity ;
   foaf:name "Operational_Excellence_BPR" ;
   book:book_key "Operational_Excellence_BPR" .
 
-book:業務改革 a prov:Entity ;
+book:オペレーション a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
-book:オペレーション a prov:Entity ;
+book:企業経営 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
@@ -22,7 +22,7 @@ book:浮世絵 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
-book:経営層 a prov:Entity ;
+book:コスト削減 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
@@ -30,7 +30,43 @@ book:Operational Excellence a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
-book:product development a prov:Entity ;
+book:マイケル・トレーシー a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:フレッド・ウィアセーマ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:1995年 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ナンバーワン企業の法則 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:カスタマー・インティマシー a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロダクト・イノベーション a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:運営の卓越性 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:B2B a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネスモデル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:業務改革 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
@@ -54,335 +90,11 @@ book:市場 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
-book:TSMC a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:営業 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:設計 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:調達 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:部分最適化 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:文鎮型組織 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:ナイキ a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:アシックス a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:ビジネス環境 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:business reform project a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:汎用品 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:Acquiring good customers a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:1995年 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:customer acquisition a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:顧客開拓 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:製品の革新性 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:B2B a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:専門化 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:バリュー・ディシプリン a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:top executives a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:コスト削減 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:competitive advantage a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:生産計画 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:20世紀半ば a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:ゲーテ a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:よい顧客をつかむ a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:問題の可視化 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:企業経営 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:material costs a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:Fred Wiersema a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:革新 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:受け渡し a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:連携 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:江戸時代 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:版元 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:絵師 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:彫師 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:摺師 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:現場の社員 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:モノづくり企業 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:稼ぐ力 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:マネジメント層 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:技術力 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:マイケル・トレーシー a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:フレッド・ウィアセーマ a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:ナンバーワン企業の法則 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:３つの価値基準 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:企業を支える３つのチカラ a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:カスタマー・インティマシー a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:プロダクト・イノベーション a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:運営の卓越性 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:Generating profit through operations a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:red ocean a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:両利きの経営 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:既存領域の深化 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:新領域の探索 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:BCP a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:一社購買 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:電子部材 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:トレース＆ウィアード a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:新製品開発 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:sales trends a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:ground-level improvements a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:worker efforts a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:management team a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:First Hurdle a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:Second Hurdle a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:departmental barriers a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:silos a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:特定市場への製品投入 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:新たな顧客アプローチの展開 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:要素技術開発を通じた商品化 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:アプローチ a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:Pure Play Foundry a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:good products will sell a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:個人 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:立案プロセス a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:外部環境 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:競合 a prov:Entity ;
+book:製品 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
 book:VUCA a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:Volatility a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:Uncertainty a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:Ambiguity a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
@@ -394,67 +106,15 @@ book:スピード a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
-book:アメリカ a prov:Entity ;
+book:営業 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
-book:教育哲学者 a prov:Entity ;
+book:設計 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
-book:ロバート・ハッチンス a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:ハッチンス a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:文明論 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:現代のビジネス a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:エキスパート a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:判断力 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:物流 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:品質管理 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:経理 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:数値目標 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:年度末 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:平準化 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:リスク回避 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:長納期部品 a prov:Entity ;
+book:部分最適化 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
@@ -462,19 +122,7 @@ book:過剰在庫 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
-book:在庫の山 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:価値訴求 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:職能 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:部門 a prov:Entity ;
+book:生産ライン a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
@@ -494,43 +142,11 @@ book:トップダウン a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
-book:タコツボ状態 a prov:Entity ;
+book:文鎮型組織 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
-book:サイロ化 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:縦軸 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:横軸 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:プロセス・リエンジニアリング a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:4つの可視化＋1つの整流化 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:見えない業務 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:課題の探り方 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:真因の突き詰め方 a prov:Entity ;
-  book:book_key "Operational_Excellence_BPR" ;
-  prov:wasDerivedFrom book:source .
-
-book:現状業務 a prov:Entity ;
+book:問題の可視化 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
@@ -558,7 +174,767 @@ book:トランスフォーマー a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
-book:The Discipline of Market Leaders a prov:Entity ;
+book:ナイキ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:財務諸表 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:競争力 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:効率性 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:行動指標 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:KPI a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:結果指標 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:パフォーマンス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:売上高 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:仕組み a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:属人化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:育成プログラム a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポジション a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:マッチング a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ジョブディスクリプション a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:スキル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:指標 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:職人技 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:アナログワーク a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:簡素化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:DX a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:IT a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:手技 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:dependency on specific individuals a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:EBITDA a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:内部統制 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:システム a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:タスク a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ブレイクダウン a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:レイヤー2 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:受注設計／組立型 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:需要予測 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:標準化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:フロー a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ERP a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:量販店 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:バラエティ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:リポジトリ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:リードタイム a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ボトルネック a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:調達部門 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:人事部 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロールモデル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Digital Transformation a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ZARA a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:スペイン a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:低コスト a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:レジリエンス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:目的 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:QCD a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:品質 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:納期 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮説検証型 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:原点立ち返り型 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:改革 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Eliminate a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:排除 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Rearrange a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:結合 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:入替 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:時間短縮 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:代替 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:日立製作所 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:メトリックス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:メカニズム a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:評価指標 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:教育プログラム a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:変革 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:風土 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:キーエンス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:大塚商会 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ディスコン a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:8つのプロセス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:座学 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Key Performance Indicator a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:マネジメント層 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:perspective 1 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:マニュアル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:モデル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:自動化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:横軸（機能・職能） a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:判断力 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:職能 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:利益率 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:法則 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:小さな三角形 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Year-over-Year a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:汎用品 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:未来へ向けて積み上げていくアプローチ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:第1グループ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Acquiring good customers a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニケーション手段 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:卓越した業務運営 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:This is how you work a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:要求定義書作成 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:metrics/indicators a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客開拓 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:適材 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:知識体系 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Hypothesis-Verification Approach a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:エクセレンス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:unconscious empirical rules a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:経営管理部門 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:部門 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:役割 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ワークフローシステム a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンサルティングサービス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:専門化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:縦軸 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:バリュー・ディシプリン a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:お行儀のよいしつこさ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:worker efforts a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:権限・組織構造 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:在庫の山 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:完全性 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベストプラクティス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:国内工場 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:勤務地 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:20世紀半ば a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:データ分析 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Leaders a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:自社サイト a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ゲーテ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:よい顧客をつかむ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:作業系業務 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:例外系 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:サプライヤー a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:４つの可視化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Cash Flow Statement a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:価値訴求 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:サイロ化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:思考法 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:雇用条件 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:現代のビジネス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:searchability a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:継続性 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:分岐 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:外部環境 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:課題の探り方 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:4つの可視化＋1つの整流化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:従業員満足度 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハッチンス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Fred Wiersema a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Balance Sheet a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:商品群 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:版元 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:トレース＆ウィアード a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:革新 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:受け渡し a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:連携 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:江戸時代 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:絵師 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:彫師 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:摺師 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:モノづくり企業 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:稼ぐ力 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:技術力 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:３つの価値基準 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業を支える３つのチカラ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Generating profit through operations a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:両利きの経営 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:既存領域の深化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:新領域の探索 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:一社購買 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:電子部材 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:新製品開発 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ground-level improvements a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:特定市場への製品投入 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:新たな顧客アプローチの展開 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:要素技術開発を通じた商品化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:good products will sell a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:立案プロセス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:競合 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Volatility a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:アメリカ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:教育哲学者 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロバート・ハッチンス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:文明論 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:エキスパート a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:物流 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:数値目標 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:年度末 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:平準化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:リスク回避 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:長納期部品 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:タコツボ状態 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:見えない業務 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:真因の突き詰め方 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
@@ -570,6 +946,986 @@ book:原価率 a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .
 
-book:利益率 a prov:Entity ;
+book:販管費 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:販売費および一般管理費 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:イノベーション a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:広田氏 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:社長 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:エントリーモデル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:高価格帯シューズ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:日経新聞 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:収益力 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:high business quality a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:systems/frameworks a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:中間指標 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:年単位 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:四半期単位 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:海外販社 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:本社 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:販社 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:連結目線 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:代理店 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:押し込み a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:1つの指標が1つの意味を持つことの有効性 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:一流の仕組み a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ミドルアッパー層 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:体系化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:中途採用 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:求職票 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:社内教育プログラム a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:デジタル化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:勘所 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:キラーワード a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Xさん a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:shujinka a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:craftsmanship a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:hand techniques a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:感覚 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:factory response a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Earnings Before Interest, Taxes, Depreciation, and Amortization a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:企画・経理部門 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:新規設備 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:隔靴掻痒 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:工場長 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:仕掛在庫 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:工程内リードタイム a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:前年比 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:モチベーション向上 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポートフォリオ管理 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:業績・投融資経営 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:セールス・マーケティング a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:抵抗勢力 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:意味のある差異 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:開始条件 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:終了条件 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:手戻り a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:後続タスク a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:海図なき航海 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:つまみ食い a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハイパフォーマンス企業 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:不離一体 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベンダーロックイン a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:基幹システム a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:多品種少量生産 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:単一製品の大量生産 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:製販モデル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:見込み生産 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:カスタム品の受注組み立て a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:デル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:多様性 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:新工場 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:新しいオペレーションの設計と導入 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:差異性 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:型 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Human Resource Management a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:課長 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:プレイヤー a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:与信チェック a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ソーシングのスペシャリスト a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:「育む」プロセス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:達成度評価 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ノウハウ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ケース a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:凡事徹底に如くはなし a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:イデオローグ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:指導者 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:パワーアップ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:記述レベル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:会社概要 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:具体的な職務内容 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:期待される目標 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:直属の上司 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:時間外手当支給の有無 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:要件 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:待遇 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:資格 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:学歴 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:福利厚生 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヒューマンリソース・マネジメント・ワーク a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:実践手法 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:テクニック a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ボディブロー a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:シーズン毎 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:欠品 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:販売機会の損失 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Pull型の戦略 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポルトガル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:モロッコ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヨーロッパ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:危機対応力 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:検討 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:１つの整流化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:streamlining a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Analysis a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Evaluation a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:流れ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ドキュメント a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:4 layers a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:flowchart format a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Naming Tasks a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:行為 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:コツ２ タスクの粒度 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:粒度 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:レベル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:使い勝手 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:成果物 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ルール a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:読み手 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:正常系 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:イレギュラー系 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:問いの設定 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Status Quo Bias a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:最新化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:底上げ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:美辞麗句 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:手段系キーワード a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Quality a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:複眼 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:複数の視点 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:丁々発止の議論 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:談論風発 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:気づき a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:虫の目 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:微观視点 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:鳥の目 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:宏观視点 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:多言語印刷・製本 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:取扱説明書 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:各国 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ゼロベース思考 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ギャップ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:インプリメンテーション a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:管理者 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:しがらみにとらわれない視点からの見解 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:現業部門のマネジメント a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:パラダイムシフト a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ソリューション a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:東京 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Web会議 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:月次 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:待ち時間 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポテンヒット a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:工程間の待ち時間 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:検査待ち a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:拠点間物流 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:盲点 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:屋台化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:加工の順序 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:機械の配置 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:紙の帳票 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハンコ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:承認 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:単価 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:負荷 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:動作分析 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:メール a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:チャット a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:スレッド管理 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:アベレージヒッター a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:再配置 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:かな整理 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:熟練者 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:第三者的な視点 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:抽象的なパターン a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:言語化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:値の源泉 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:投下資本利益率ツリー a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:シェア拡大 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ターゲット顧客 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:資本効率性 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:他社ベンチマーク a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:他業界事例 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:キリのよい目標 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:倍増 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:半減 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:大台突破 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:つなぎ方 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:効果測定 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:アンケート a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:定量データ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:手順書 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:説明会 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ユーザートレーニング a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:文書 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:Aさん a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:構造 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:責任 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:チームメンバー a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:求められるスキル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:あなたの仕事の進め方 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:測定方法 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:グローバルコンサルティングファーム a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:独シーメンス社 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:省人化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:執行役員 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:收支責任 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:強い事業 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:効果検証と継続運用 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:監視・管理 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:地政学的な変化 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:6つのバブル a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:6 bubbles a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:成功指標 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:過去数十年 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:体制・組織設計 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:有意なスキルを持つ人材 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:万能薬 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:創意工夫 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:品番数 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:余剰在庫 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:廃版 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:エリアマネジャー a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ジョン・コッター a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:コッター a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:危機感の醸成 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:強力な変革推進チームの結成 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:短期的な成果の創出と計画の修正 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:さらなる変革の推進 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:真の狙い a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:重要性 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ティム・クック a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:スティーブ・ジョブズ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:マーティン・リーブス a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ボストンコンサルティンググループ a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヘンダーソン研究所 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:所長 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:日々の業務 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:無駄の削減 a prov:Entity ;
+  book:book_key "Operational_Excellence_BPR" ;
+  prov:wasDerivedFrom book:source .
+
+book:トータルな業務モデル a prov:Entity ;
   book:book_key "Operational_Excellence_BPR" ;
   prov:wasDerivedFrom book:source .

@@ -1,0 +1,617 @@
+{
+  "uri": "https://books.local/AI_Agent_x_BPR/",
+  "name": "AI_Agent_x_BPROntology",
+  "version": "1.0",
+  "classes": [
+    {
+      "name": "AIAgent",
+      "uri": "https://books.local/AI_Agent_x_BPR/AIAgent",
+      "label": "AIエージェント",
+      "comment": "目的・理解・行動・学習の四要素を満たし、自律的に業務を代行するシステム。",
+      "parent": null
+    },
+    {
+      "name": "Copilot",
+      "uri": "https://books.local/AI_Agent_x_BPR/Copilot",
+      "label": "コパイロット",
+      "comment": "人間を支援する生成AIの活用形態であり、エージェント化の前段階。",
+      "parent": null
+    },
+    {
+      "name": "DigitalWorker",
+      "uri": "https://books.local/AI_Agent_x_BPR/DigitalWorker",
+      "label": "デジタルワーカー",
+      "comment": "人間の指示を待たず24時間365日稼働するAIエージェント。",
+      "parent": "AIAgent"
+    },
+    {
+      "name": "AgentCapability",
+      "uri": "https://books.local/AI_Agent_x_BPR/AgentCapability",
+      "label": "エージェント能力",
+      "comment": "目的設定、ギャップ理解、タスク実行、結果からの学習のいずれか。",
+      "parent": null
+    },
+    {
+      "name": "BusinessReform",
+      "uri": "https://books.local/AI_Agent_x_BPR/BusinessReform",
+      "label": "業務改革",
+      "comment": "AIエージェントにより仕事の定義自体を変える経営の意思決定。",
+      "parent": null
+    },
+    {
+      "name": "BusinessProcess",
+      "uri": "https://books.local/AI_Agent_x_BPR/BusinessProcess",
+      "label": "業務プロセス",
+      "comment": "企業における一連の業務活動。縦割りではなく作業構造でも整理する。",
+      "parent": null
+    },
+    {
+      "name": "BackOfficeWork",
+      "uri": "https://books.local/AI_Agent_x_BPR/BackOfficeWork",
+      "label": "バックオフィス業務",
+      "comment": "間接業務。横串整理により共通エージェントの再利用がしやすい。",
+      "parent": "BusinessProcess"
+    },
+    {
+      "name": "FrontOfficeWork",
+      "uri": "https://books.local/AI_Agent_x_BPR/FrontOfficeWork",
+      "label": "フロントオフィス業務",
+      "comment": "顧客対応・営業・マーケティング等。判断重要性と手順明確さで分類する。",
+      "parent": "BusinessProcess"
+    },
+    {
+      "name": "RPA",
+      "uri": "https://books.local/AI_Agent_x_BPR/RPA",
+      "label": "RPA",
+      "comment": "ロボティック・プロセス・オートメーション。従来の間接業務効率化技術。",
+      "parent": null
+    },
+    {
+      "name": "ERP",
+      "uri": "https://books.local/AI_Agent_x_BPR/ERP",
+      "label": "ERP",
+      "comment": "統合基幹業務システム。デジタル化の基盤として導入されてきた。",
+      "parent": null
+    },
+    {
+      "name": "AIAMMethod",
+      "uri": "https://books.local/AI_Agent_x_BPR/AIAMMethod",
+      "label": "AIAM法",
+      "comment": "目的と成果から逆算してAIエージェント業務改革を進める五フェーズ手法。",
+      "parent": null
+    },
+    {
+      "name": "AIAMPhase",
+      "uri": "https://books.local/AI_Agent_x_BPR/AIAMPhase",
+      "label": "AIAMフェーズ",
+      "comment": "基本計画立案、業務設計、検証計画策定、構築・検証、システム開発のいずれか。",
+      "parent": null
+    },
+    {
+      "name": "DesignPrinciple",
+      "uri": "https://books.local/AI_Agent_x_BPR/DesignPrinciple",
+      "label": "設計原則",
+      "comment": "トップダウンとボトムアップ、変革リーダー、クイックウィン、人間最終判断など。",
+      "parent": null
+    },
+    {
+      "name": "TechnicalLayer",
+      "uri": "https://books.local/AI_Agent_x_BPR/TechnicalLayer",
+      "label": "技術層",
+      "comment": "AIエージェント五層アーキテクチャを構成する層。",
+      "parent": null
+    },
+    {
+      "name": "IntelligenceLayer",
+      "uri": "https://books.local/AI_Agent_x_BPR/IntelligenceLayer",
+      "label": "知能層",
+      "comment": "思考と理解を担う層。ChatGPT、Claude、Gemini、Llamaなど。",
+      "parent": "TechnicalLayer"
+    },
+    {
+      "name": "MemoryKnowledgeLayer",
+      "uri": "https://books.local/AI_Agent_x_BPR/MemoryKnowledgeLayer",
+      "label": "記憶・知識層",
+      "comment": "文脈維持と知識保持を担う層。短期・長期メモリ、RAGなど。",
+      "parent": "TechnicalLayer"
+    },
+    {
+      "name": "ActionLayer",
+      "uri": "https://books.local/AI_Agent_x_BPR/ActionLayer",
+      "label": "行動層",
+      "comment": "タスク実行を担う層。API連携やツール利用など。",
+      "parent": "TechnicalLayer"
+    },
+    {
+      "name": "ControlCoordinationLayer",
+      "uri": "https://books.local/AI_Agent_x_BPR/ControlCoordinationLayer",
+      "label": "制御・調整層",
+      "comment": "統括と安全確保を担う層。オーケストレーション、ガードレールなど。",
+      "parent": "TechnicalLayer"
+    },
+    {
+      "name": "LearningOptimizationLayer",
+      "uri": "https://books.local/AI_Agent_x_BPR/LearningOptimizationLayer",
+      "label": "学習・最適化層",
+      "comment": "継続的改善を担う層。フィードバックやログ分析など。",
+      "parent": "TechnicalLayer"
+    },
+    {
+      "name": "ProvisionForm",
+      "uri": "https://books.local/AI_Agent_x_BPR/ProvisionForm",
+      "label": "提供形態",
+      "comment": "SaaS型、API連携型、ローカルLLM型のいずれか。",
+      "parent": null
+    },
+    {
+      "name": "WorkPattern",
+      "uri": "https://books.local/AI_Agent_x_BPR/WorkPattern",
+      "label": "業務型",
+      "comment": "作業構造単位の業務分類。部門横断の横串整理の基礎。",
+      "parent": null
+    },
+    {
+      "name": "SummaryTranscriptionPattern",
+      "uri": "https://books.local/AI_Agent_x_BPR/SummaryTranscriptionPattern",
+      "label": "要約・転記型",
+      "comment": "議事録作成や申請入力など定型性が高く削減効果が大きい型。目安削減率80%。",
+      "parent": "WorkPattern"
+    },
+    {
+      "name": "CheckReviewPattern",
+      "uri": "https://books.local/AI_Agent_x_BPR/CheckReviewPattern",
+      "label": "チェック・校閲型",
+      "comment": "経費審査や請求確認などヒューマンエラー防止効果が大きい型。目安削減率60%。",
+      "parent": "WorkPattern"
+    },
+    {
+      "name": "InquiryResponsePattern",
+      "uri": "https://books.local/AI_Agent_x_BPR/InquiryResponsePattern",
+      "label": "問い合わせ対応型",
+      "comment": "社内FAQや人事問合せなど24時間対応が可能な型。目安削減率50%。",
+      "parent": "WorkPattern"
+    },
+    {
+      "name": "AssessmentProcess",
+      "uri": "https://books.local/AI_Agent_x_BPR/AssessmentProcess",
+      "label": "業務選定アセスメント",
+      "comment": "工数整理、適性評価、前提確認、削減率算定、取組選定の五ステップ。",
+      "parent": null
+    },
+    {
+      "name": "PriorityCategory",
+      "uri": "https://books.local/AI_Agent_x_BPR/PriorityCategory",
+      "label": "取組優先区分",
+      "comment": "すぐ着手、中期仕込み、他施策対応の三領域。",
+      "parent": null
+    },
+    {
+      "name": "Barrier",
+      "uri": "https://books.local/AI_Agent_x_BPR/Barrier",
+      "label": "導入の壁",
+      "comment": "情報管理、要件ずれ、検証地獄、精度、ガバナンス、効果可視化、人の壁のいずれか。",
+      "parent": null
+    },
+    {
+      "name": "LLMCharacteristic",
+      "uri": "https://books.local/AI_Agent_x_BPR/LLMCharacteristic",
+      "label": "LLM特性",
+      "comment": "確率的出力、ハルシネーション、コンテキスト依存、表データ不得手、ポチョムキン理解など。",
+      "parent": null
+    },
+    {
+      "name": "ROI",
+      "uri": "https://books.local/AI_Agent_x_BPR/ROI",
+      "label": "投資対効果",
+      "comment": "工数削減費を導入コストで割った指標。横展開を含む包括評価が重要。",
+      "parent": null
+    },
+    {
+      "name": "KPI",
+      "uri": "https://books.local/AI_Agent_x_BPR/KPI",
+      "label": "KPI",
+      "comment": "目標合意、検証ゴール、撤退基準、効果可視化に用いる重要業績評価指標。",
+      "parent": null
+    },
+    {
+      "name": "SuccessPrinciple",
+      "uri": "https://books.local/AI_Agent_x_BPR/SuccessPrinciple",
+      "label": "成功の要諦",
+      "comment": "トップダウン開始、推進機能、科学的業務選定など成功のための十原則。",
+      "parent": null
+    },
+    {
+      "name": "CaseStudy",
+      "uri": "https://books.local/AI_Agent_x_BPR/CaseStudy",
+      "label": "事例",
+      "comment": "明治安田生命、富士通、Walmart、Klaviyo等のAI活用実例。",
+      "parent": null
+    },
+    {
+      "name": "Organization",
+      "uri": "https://books.local/AI_Agent_x_BPR/Organization",
+      "label": "組織",
+      "comment": "業務改革や事例の主体となる企業・団体。",
+      "parent": null
+    },
+    {
+      "name": "FutureScenario",
+      "uri": "https://books.local/AI_Agent_x_BPR/FutureScenario",
+      "label": "未来シナリオ",
+      "comment": "汎用型・特化型エージェントの進化とAI 2027における知能爆発の想定。",
+      "parent": null
+    }
+  ],
+  "properties": [
+    {
+      "name": "hasCapability",
+      "type": "object",
+      "domain": [
+        "AIAgent"
+      ],
+      "range": [
+        "AgentCapability"
+      ],
+      "label": "能力を持つ",
+      "comment": "エージェントが目的・理解・行動・学習のいずれかを備えることを表す。",
+      "uri": "https://books.local/AI_Agent_x_BPR/hasCapability"
+    },
+    {
+      "name": "hasLayer",
+      "type": "object",
+      "domain": [
+        "AIAgent"
+      ],
+      "range": [
+        "TechnicalLayer"
+      ],
+      "label": "層を構成する",
+      "comment": "エージェントが五層アーキテクチャのいずれかの層を持つことを表す。",
+      "uri": "https://books.local/AI_Agent_x_BPR/hasLayer"
+    },
+    {
+      "name": "hasProvisionForm",
+      "type": "object",
+      "domain": [
+        "AIAgent"
+      ],
+      "range": [
+        "ProvisionForm"
+      ],
+      "label": "提供形態を持つ",
+      "comment": "SaaS型、API連携型、ローカルLLM型としての提供を表す。",
+      "uri": "https://books.local/AI_Agent_x_BPR/hasProvisionForm"
+    },
+    {
+      "name": "evolvedFrom",
+      "type": "object",
+      "domain": [
+        "AIAgent",
+        "DigitalWorker"
+      ],
+      "range": [
+        "Copilot"
+      ],
+      "label": "から進化した",
+      "comment": "コパイロット支援から自律エージェントへの進化関係。",
+      "uri": "https://books.local/AI_Agent_x_BPR/evolvedFrom"
+    },
+    {
+      "name": "exhibitsCharacteristic",
+      "type": "object",
+      "domain": [
+        "AIAgent",
+        "IntelligenceLayer"
+      ],
+      "range": [
+        "LLMCharacteristic"
+      ],
+      "label": "特性を示す",
+      "comment": "LLM由来の出力や理解の特性を持つことを表す。",
+      "uri": "https://books.local/AI_Agent_x_BPR/exhibitsCharacteristic"
+    },
+    {
+      "name": "improves",
+      "type": "object",
+      "domain": [
+        "AIAgent"
+      ],
+      "range": [
+        "BusinessProcess"
+      ],
+      "label": "を改善する",
+      "comment": "エージェントが対象業務の生産性や品質を高める関係。",
+      "uri": "https://books.local/AI_Agent_x_BPR/improves"
+    },
+    {
+      "name": "usesMethod",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "AIAMMethod"
+      ],
+      "label": "手法を用いる",
+      "comment": "業務改革がAIAM法に従って推進されることを表す。",
+      "uri": "https://books.local/AI_Agent_x_BPR/usesMethod"
+    },
+    {
+      "name": "reforms",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "BusinessProcess"
+      ],
+      "label": "を改革対象とする",
+      "comment": "改革イニシアティブが対象とする業務プロセス。",
+      "uri": "https://books.local/AI_Agent_x_BPR/reforms"
+    },
+    {
+      "name": "facesBarrier",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "Barrier"
+      ],
+      "label": "壁に直面する",
+      "comment": "導入現場で直面する七つの壁との関係。",
+      "uri": "https://books.local/AI_Agent_x_BPR/facesBarrier"
+    },
+    {
+      "name": "hasROI",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "ROI"
+      ],
+      "label": "ROIを持つ",
+      "comment": "改革施策の投資対効果。",
+      "uri": "https://books.local/AI_Agent_x_BPR/hasROI"
+    },
+    {
+      "name": "hasKPI",
+      "type": "object",
+      "domain": [
+        "BusinessReform",
+        "AIAMPhase"
+      ],
+      "range": [
+        "KPI"
+      ],
+      "label": "KPIを持つ",
+      "comment": "目標設定・検証・撤退判断に用いる指標。",
+      "uri": "https://books.local/AI_Agent_x_BPR/hasKPI"
+    },
+    {
+      "name": "followsPrinciple",
+      "type": "object",
+      "domain": [
+        "BusinessReform"
+      ],
+      "range": [
+        "SuccessPrinciple"
+      ],
+      "label": "要諦に従う",
+      "comment": "成功の十要諦のいずれかを指針とすることを表す。",
+      "uri": "https://books.local/AI_Agent_x_BPR/followsPrinciple"
+    },
+    {
+      "name": "usedHistoricalTechnology",
+      "type": "object",
+      "domain": [
+        "BusinessReform",
+        "Organization"
+      ],
+      "range": [
+        "RPA",
+        "ERP"
+      ],
+      "label": "歴史的技術を用いた",
+      "comment": "RPAやERPなど従来のデジタル化手段との関係。",
+      "uri": "https://books.local/AI_Agent_x_BPR/usedHistoricalTechnology"
+    },
+    {
+      "name": "hasPhase",
+      "type": "object",
+      "domain": [
+        "AIAMMethod"
+      ],
+      "range": [
+        "AIAMPhase"
+      ],
+      "label": "フェーズを持つ",
+      "comment": "AIAM法を構成する五フェーズとの関係。",
+      "uri": "https://books.local/AI_Agent_x_BPR/hasPhase"
+    },
+    {
+      "name": "nextPhase",
+      "type": "object",
+      "domain": [
+        "AIAMPhase"
+      ],
+      "range": [
+        "AIAMPhase"
+      ],
+      "label": "次フェーズ",
+      "comment": "計画から本番開発へ進むフェーズ順序。",
+      "uri": "https://books.local/AI_Agent_x_BPR/nextPhase"
+    },
+    {
+      "name": "hasDesignPrinciple",
+      "type": "object",
+      "domain": [
+        "AIAMMethod"
+      ],
+      "range": [
+        "DesignPrinciple"
+      ],
+      "label": "設計原則を持つ",
+      "comment": "推進時に守るべき設計原則。",
+      "uri": "https://books.local/AI_Agent_x_BPR/hasDesignPrinciple"
+    },
+    {
+      "name": "assessedBy",
+      "type": "object",
+      "domain": [
+        "BusinessProcess"
+      ],
+      "range": [
+        "AssessmentProcess"
+      ],
+      "label": "により評価される",
+      "comment": "業務選定アセスメントによる適性と効果の評価。",
+      "uri": "https://books.local/AI_Agent_x_BPR/assessedBy"
+    },
+    {
+      "name": "hasWorkPattern",
+      "type": "object",
+      "domain": [
+        "BusinessProcess",
+        "BackOfficeWork"
+      ],
+      "range": [
+        "WorkPattern"
+      ],
+      "label": "業務型を持つ",
+      "comment": "要約転記、チェック校閲、問い合わせ対応などの型分類。",
+      "uri": "https://books.local/AI_Agent_x_BPR/hasWorkPattern"
+    },
+    {
+      "name": "assignedToCategory",
+      "type": "object",
+      "domain": [
+        "BusinessProcess"
+      ],
+      "range": [
+        "PriorityCategory"
+      ],
+      "label": "優先区分に分類される",
+      "comment": "AI親和度と難度に基づく取組優先度。",
+      "uri": "https://books.local/AI_Agent_x_BPR/assignedToCategory"
+    },
+    {
+      "name": "conductedBy",
+      "type": "object",
+      "domain": [
+        "CaseStudy",
+        "BusinessReform"
+      ],
+      "range": [
+        "Organization"
+      ],
+      "label": "実施組織",
+      "comment": "事例または改革を担う組織。",
+      "uri": "https://books.local/AI_Agent_x_BPR/conductedBy"
+    },
+    {
+      "name": "illustrates",
+      "type": "object",
+      "domain": [
+        "CaseStudy"
+      ],
+      "range": [
+        "BusinessProcess",
+        "WorkPattern",
+        "AIAgent"
+      ],
+      "label": "を例示する",
+      "comment": "事例が示す対象業務・業務型・エージェント。",
+      "uri": "https://books.local/AI_Agent_x_BPR/illustrates"
+    },
+    {
+      "name": "describesFutureOf",
+      "type": "object",
+      "domain": [
+        "FutureScenario"
+      ],
+      "range": [
+        "AIAgent"
+      ],
+      "label": "将来を記述する",
+      "comment": "汎用型・特化型進化や知能爆発シナリオとの関係。",
+      "uri": "https://books.local/AI_Agent_x_BPR/describesFutureOf"
+    },
+    {
+      "name": "description",
+      "type": "data",
+      "domain": [
+        "AIAgent",
+        "BusinessReform",
+        "Barrier",
+        "LLMCharacteristic",
+        "SuccessPrinciple",
+        "FutureScenario",
+        "ROI"
+      ],
+      "range": [
+        "xsd:string"
+      ],
+      "label": "説明",
+      "comment": "概念の日本語説明文。",
+      "uri": "https://books.local/AI_Agent_x_BPR/description"
+    },
+    {
+      "name": "reductionRate",
+      "type": "data",
+      "domain": [
+        "WorkPattern"
+      ],
+      "range": [
+        "xsd:decimal"
+      ],
+      "label": "削減率",
+      "comment": "業務類型別の工数削減率目安（0から1）。",
+      "uri": "https://books.local/AI_Agent_x_BPR/reductionRate"
+    },
+    {
+      "name": "phaseOrder",
+      "type": "data",
+      "domain": [
+        "AIAMPhase"
+      ],
+      "range": [
+        "xsd:integer"
+      ],
+      "label": "フェーズ順序",
+      "comment": "AIAM法における1から5の順序。",
+      "uri": "https://books.local/AI_Agent_x_BPR/phaseOrder"
+    },
+    {
+      "name": "roiValue",
+      "type": "data",
+      "domain": [
+        "ROI"
+      ],
+      "range": [
+        "xsd:decimal"
+      ],
+      "label": "ROI値",
+      "comment": "工数削減費を導入コストで割った数値。",
+      "uri": "https://books.local/AI_Agent_x_BPR/roiValue"
+    },
+    {
+      "name": "targetYear",
+      "type": "data",
+      "domain": [
+        "FutureScenario"
+      ],
+      "range": [
+        "xsd:integer"
+      ],
+      "label": "対象年",
+      "comment": "シナリオが想定する西暦年。",
+      "uri": "https://books.local/AI_Agent_x_BPR/targetYear"
+    }
+  ],
+  "metadata": {
+    "source": "llm",
+    "provider": "xai"
+  }
+}

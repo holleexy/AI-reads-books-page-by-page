@@ -1,5 +1,362 @@
 [
   {
+    "conflict_id": "HR_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "HR",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "ORG",
+      "ORG",
+      "ORG",
+      "ORG",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "finance_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "finance",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "ORG",
+      "ORG",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.84,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.94,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "decision-maker_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "decision-maker",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "PERSON",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.94,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.89,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.9,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.94,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.84,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.89,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.85,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.85,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.87,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
     "conflict_id": "salespeople_type_conflict",
     "conflict_type": "value_conflict",
     "entity_id": "salespeople",
@@ -7,7 +364,25 @@
     "relationship_id": null,
     "conflicting_values": [
       "CONCEPT",
-      "PERSON"
+      "PERSON",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "PERSON",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "PERSON",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT"
     ],
     "sources": [
       {
@@ -25,6 +400,2091 @@
         "document": "unknown",
         "page": null,
         "confidence": 0.81,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.87,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.9,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.85,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.81,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.87,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.84,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.85,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.71,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 0.9212500000000001,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "Salespeople_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "Salespeople",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "PERSON",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.72,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.87,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.72,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "「検討が進まない」迷路_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "「検討が進まない」迷路",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "PRODUCT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.94,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.94,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "vendors_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "vendors",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "ORG",
+      "CONCEPT",
+      "ORG"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.77,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.8,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "発注決定_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "発注決定",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "EVENT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.9,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.89,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.97,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.96,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "key persons_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "key persons",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "PERSON",
+      "PERSON",
+      "PERSON"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.9,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "decision-makers_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "decision-makers",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "PERSON",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.89,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.8,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.9,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "key person_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "key person",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "CONCEPT",
+      "PERSON",
+      "PERSON",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "PERSON",
+      "PERSON",
+      "CONCEPT",
+      "PERSON",
+      "PERSON",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.81,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.79,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.81,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.85,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.84,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.85,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.84,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 0.9249112426035506,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "落とし穴の見分け方チェックリスト_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "落とし穴の見分け方チェックリスト",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "PRODUCT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.9,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "organization_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "organization",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "ORG",
+      "ORG",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.72,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.7,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "email_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "email",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "PRODUCT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.72,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "C_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "C",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "PERSON",
+      "CONCEPT",
+      "ORG",
+      "ORG",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Multiple conflicting values detected. Manual review recommended.",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "迷路_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "迷路",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "PRODUCT",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "regular meeting_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "regular meeting",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "EVENT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "A_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "A",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "ORG",
+      "ORG",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "B_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "B",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "ORG",
+      "ORG",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "D_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "D",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "ORG",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "SaaS_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "SaaS",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "PRODUCT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "SNS_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "SNS",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "PRODUCT",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.85,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "Human resources_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "Human resources",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT",
+      "ORG"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.87,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.9,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.9,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "E_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "E",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "ORG",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "seminar attendance_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "seminar attendance",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "EVENT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.72,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.78,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "Master Document_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "Master Document",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "PRODUCT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "Company_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "Company",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "ORG"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "3軍_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "3軍",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "ORG",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "Account Plan_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "Account Plan",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "CONCEPT",
+      "PRODUCT",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.93,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.95,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.92,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "法人営業勝ちパターン大全"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
         "metadata": {
           "provider": "xai",
           "model": "grok-4.6",

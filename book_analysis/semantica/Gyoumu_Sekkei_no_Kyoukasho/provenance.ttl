@@ -6,10 +6,6 @@ book:source a prov:Entity ;
   foaf:name "Gyoumu_Sekkei_no_Kyoukasho" ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" .
 
-book:業務設計 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
 book:役割 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
@@ -18,95 +14,7 @@ book:システム a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
-book:WORKING a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:DX a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:デジタル化 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:AI a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:RPA a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:ロボティック・プロセス・オートメーション a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:プロジェクト a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:1970年代 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:自動化 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:製造業 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:ホワイトカラー a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:情報システム部門 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:ビジネス・プロセス・リエンジニアリング a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:business process design a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:現場主義 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:Digital Transformation a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:WHY a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:関係者間の連携 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:情報の流れ a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
 book:チームマネジメント a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:HOW a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:organizational culture a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:top-down a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
@@ -114,11 +22,11 @@ book:作業手順 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
-book:意思決定の仕組み a prov:Entity ;
+book:ソフトウェア開発 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
-book:ソフトウェア開発 a prov:Entity ;
+book:RPA a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
@@ -126,47 +34,11 @@ book:エクセル a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
-book:2004 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:Professor a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
 book:Erik Stolterman a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
-book:Umeå University a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:Transformation a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:Robotic Process Automation a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:machine learning a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:ハンマーしか持っていなければ、すべてが釘に見える a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:If all you have is a hammer, everything looks like a nail a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
 book:URL a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:Excel a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
@@ -178,19 +50,11 @@ book:アナログな業務 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
-book:紙での回覧 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
 book:品質 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
 book:手段の目的化 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:経営陣 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
@@ -210,7 +74,19 @@ book:大野耐一 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
-book:スキル a prov:Entity ;
+book:自動化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロボティック・プロセス・オートメーション a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:現代 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ホワイトカラー a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
@@ -222,27 +98,7 @@ book:数年単位 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
-book:PDCAサイクル a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:プロセスマップ a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:実践的なアプローチ a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
 book:受注 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:出荷 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:担当者 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
@@ -250,39 +106,11 @@ book:短期間 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
-book:CRMシステム a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:マネジメント層 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:個別最適化 a prov:Entity ;
+book:業務部門 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
 book:水掛け論 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:平行線の議論 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:コミュニケーションの課題 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:処理手順 a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:使えないシステム a prov:Entity ;
-  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
-  prov:wasDerivedFrom book:source .
-
-book:構造的な問題 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
@@ -294,7 +122,1679 @@ book:認識のズレ a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
-book:対立構造 a prov:Entity ;
+book:導入実績 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:内閣府 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:令和4年 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:日本 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:生産年齢人口 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:高度経済成長期 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:人口ボーナス期 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:コロナ禍 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:過去10年間 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:数ヶ月から数年 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:サブスクリプション a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:会計 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:UI a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:野良SaaS a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:シャドーIT a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:例外処理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:暗黙知 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:セキュリティ対策 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:社内の雑用係 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:プロセスオフィス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:欧米 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:外部コンサルタント a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:新しい技術 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:技術の進化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:事務処理の自動化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:データ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:改善提案 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:テクノロジー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:変化の時代 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:画像認識技術 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:バックオフィス業務 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:19世紀初頭 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:イギリス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ラッダイト運動 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:産業革命 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:機械化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:准教授 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:雇用の未来 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:米国 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンピューター a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:チャンス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:新たな価値 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:感覚系 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:仕組系 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:属人化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:リスク a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:○○さん a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:効率化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:パフォーマンス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:言語化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:識学 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:人間 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:三枝匡氏 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業変革 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:兵站 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:補給 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:中国 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:キングダム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:水滸伝 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:三国志 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:東京大学 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:馬田隆明 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハンコ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:費用対効果 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ペーパーレス化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:契約プロセス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:取引先 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:反社チェック a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:与信チェック a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:上司 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:部下 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニケーション a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:確認プロセス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:アメリカ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:J-SOX法 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Nikkei Business a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Hideyoshi a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:地図 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:基準 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ツール a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:全体像 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:箱根駅伝 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:第91回大会 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:パソコン a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:オンラインツール a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ワークショップ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:2〜3時間 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:新規事業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:成果物 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:マニュアル a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ブルーカラー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:カイゼン a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:柔軟性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:判断力 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:推察力 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:完全な自動化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:コストパフォーマンス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:適応力 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:分岐条件 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:曖昧さ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:給与計算 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:少子高齢化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:可視化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:終身雇用 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:明日の自分へのギフト a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:後任者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:持続可能性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:部分最適 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:虫の目 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:鳥の目 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:魚の目 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:形式知 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:3つの視点 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Bird's-eye view a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:詳細 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:スナップショット a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベスト・プラクティス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ノウハウ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:匠の技 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:野中郁次郎 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:竹内弘高 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:知識創造理論 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:セキモデル a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:共同化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:表出化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:連結化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:内面化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベテラン a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:引き継ぎ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Ops a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:旭酒造 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:獺祭 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:杜氏 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:発酵タンク a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:温度カーブ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:酒米 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:洗米工程 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:麹菌 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:昇華 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ブラックボックス化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:フルオートメーション a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:知的資産 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:具体と抽象を行き来する力 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:抽象化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:階層 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:視点 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンジニア a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:コード a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:再設計 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポランニーのパラドックス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:deep learning a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:AlphaGo a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:2022 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ガバナンス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:説明責任 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:入力データ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:継続的な改善 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:運用スキル a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ムリ・ムダ・ムラ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ボトルネック a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:自律性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:目的指向性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:学習能力 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:前工程 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:後工程 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:つながり a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業活動 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:連携 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:最終工程 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:自工程完結 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:アンドン a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:トリガー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:月末 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:締め日 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:決まった時期 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:タイミング a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:付箋 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:メンバー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:違和感 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:競争力 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:開発 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ゴール a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Word a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:俯瞰 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:非効率 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:アジャイル a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:トップダウン a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:やり方 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:関係者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:委託 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヒアリング a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:個別定義シート a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:条件分岐 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:繰り返し処理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:依存関係 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:グリッド線付きテンプレート（基本編） a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:処理ステップ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:売上 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:仕入 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:人件費 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:試算表 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:白紙テンプレート a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:担当部門 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人の姿勢 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:文書化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:熟練者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ルール a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:チェックリスト a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:繁忙期 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:大量生産 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:マルチタスク a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:理論値 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:1日 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:マッキンゼー・アンド・カンパニー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ナレッジワーカー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:実作業以外の時間 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:human judgment a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:毎月末 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:納品完了時 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:JKK a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:カンバン方式 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:終了タイミング a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:開始タイミング a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:完了とみなす状態 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:思考 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:スポーツ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:慣性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:前任者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:リゲイン a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:長時間労働 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:頑張ること a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:従業員 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:グレッグ・マキューン a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:トレードオフ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヒト a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:菅原健一氏 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:小さく分けて考える a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:一覧表 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:5営業日 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:郵送 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:稟議システム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:内田和成 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:意思決定の迅速化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報のルート a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:幹 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:枝葉 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:電子稟議ツール a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:押印ステップ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:カスタマイズ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:課題 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:业务 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:加工 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:テンプレート a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:参照 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:出力 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:請求フロー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:未入金一覧 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:登録 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:起点 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:終点 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:意見と事実 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:手戻り a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ピーター・ドラッカー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:計画的な廃棄 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:過剰品質 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:負担の軽減 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:サイバーエージェント a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:捨てる会議 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:フレームワーク a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:イーロン・マスク a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:テスラ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:5つの戒律 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:第3戒 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:整理してから自動化する a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:実行しやすさ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポストイット a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:優先順位マトリクス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:物流 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ザ・ゴール a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:アレックス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:local optimization a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:お客様は神様です a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:落語家 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:三遊亭圓生氏 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:演歌歌手 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:特別対応 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ドイツ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:要望の集約 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:規模の経済性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:再・抽象化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:仮説 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:検証された仕組み a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:先読み力 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:介入点 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:中長期 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:差距分析 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ギャップ分析 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:10 business days a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:15+ days a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:+5 days a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:方針 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:受取請求書処理の早期化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:提出期限 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:施策 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:外注 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Kanban system a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:意識改革 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:一気通貫 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:バランス感覚 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:これからの時代 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:人工知能 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:特化型AI a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:一貫性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:大規模言語モデル a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:司法試験 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:近年 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:統計的推論 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハルシネーション a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:中山七里 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:有罪、とAIは告げた a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:法廷ミステリー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:裁判官 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:銀の弾丸 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:特効薬 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:成功事例 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:絶対に必要な機能 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:あれば便利な機能 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:投資対効果 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:すり合わせ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:合意形成 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:イレギュラーなケース a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:標準的なプロセス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:流行 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:進捗管理の可視化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:選定候補のリストアップ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Gemini a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:比較項目を設定 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:実行可能性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:操作性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:デモ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:トライアル a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:評価軸 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:移行の難易度 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:将来の拡張性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:フロー図 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:オペレーション a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Shokujinka a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:14年連続 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:デヴィッド・グレーバー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:人類学者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ブルシット・ジョブ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:入社手続き a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:年末調整 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:採用市場 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:内定辞退 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:中小企業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:地方企業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ラリー・ウォール a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:怠惰 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:短気 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:傲慢 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:正確性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:FAQシステム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:完成形 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:代表 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:設計 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:市場環境 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:レガシー化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:環境変化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:経済産業省 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:四半期ごと a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:変更管理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:法改正 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:组织 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:审批流程 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:规则 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:机制 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:キーエンス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:金融業界 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:多層化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:複雑化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:みずほ銀行 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:勘定系システム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:法制度 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:根本的な課題 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:構想力が劇的に高まるアーキテクト思考 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:二重運用 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ノーコードツール a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ジョナ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:不確実性を受け入れる姿勢 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ウォーターフォール型 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:監査対応 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:安定運用 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:試行錯誤 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:年次 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:動かしながら考える a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:より少ない時間で価値を最大化する a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:失敗を学びに変える姿勢 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:マシュー・サイド a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:公正な文化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:小さな改善 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:フレッド・ウィアセーマ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:価値規律モデル a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Value Disciplines a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客ニーズ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:オカムラ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:強い現場 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:文化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:動き a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:線 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:翻訳装置 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:双方向の関係 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:持続的な強さ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:高山技研 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:三池 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:前年度 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:入社10年目 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:鈴木 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:キックオフミーティング a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
@@ -302,6 +1802,2146 @@ book:予算執行 a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .
 
-book:導入実績 a prov:Entity ;
+book:インプリベンダー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:初期設定 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:フワフワした気持ち a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:クラウドフォース社 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:齋藤 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:小野寺 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:製造現場 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:在庫管理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:入金管理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベンダー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:帳票類 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:通常業務 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ISO a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:準備不足 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:上層部 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:定例会議 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:トランスフォーメーション a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:スカイハイ・ブリッジ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:対象業務 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:労務部門 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:残業削減 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:城ヶ崎 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:主人公 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:篠田 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:信頼関係 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:印刷作業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:支給日 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:排除 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:無駄 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:手作業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:規定値 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:安心感 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ダブルチェック a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:封入後の枚数チェック a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:管理者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:昨年 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:一体感 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:試験導入 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:第2営業日 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:MoneyCrew a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:兼務 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:専任 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:president a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:勤怠締め a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:HRツール a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:発生頻度 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:難易度 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:社労士 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:大原課長 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:2 months a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ゼロベース a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:支払申請の漏れ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:突合 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:上流プロセス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:教授 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:承認プロセス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:働き方 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベルトコンベア a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:3 Elements of Understanding a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Ushio a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:反復作業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:異動 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:退職 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:影響範囲 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:定量評価 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:最適化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:使いやすさ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:隐性知识 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:用紙 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジョナリー・カンパニー2　飛躍の法則 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:リアルタイム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:村田聡一郎氏 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジネス・プロセス・リエンジニアリング a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:心理的抵抗 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:安藤広大氏 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:岩田圭弘 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:坂田幸樹氏 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ユーザー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:前受金の取り崩し処理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:クロスファンクショナルな協業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:要件定義 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:記入ステップ1 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:榊巻亮 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:考える力 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:信太明氏 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:細谷功氏 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:3ヶ月 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:構造的な問題 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:青山学院大学 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:楠木氏 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ダイナミズムの欠如 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:念には念を入れて a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:オップス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Group sharing a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:アクションラーニング a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:センサー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:責任 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:点数 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:習慣 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:汎用人工知能（AGI） a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:1〜2か月 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:紙ベースの承認作業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:再現性のある動作 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:局所最適 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:時代の変化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:場当たり的な対応 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:内発的動機付け a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:整合性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:手応え a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:レベル3 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:knowledge silos a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:見えない土台 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:本质 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:重複作業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:打ち手の全体像 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:機能 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:申請業務 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:パス回し a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:問い合わせ対応品質 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:timing incentives a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:書類 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:vendor a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:遠回り a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:既存業務の見直し a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:formal Japanese business language a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:労働者階級 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:必要な処理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:特定の事例 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:約5年 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:手抜き a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:临时应对措施 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:4か月 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:5月 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ズームアウト a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ピンチイン a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:供給側の体制づくり a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:倉庫 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:统一性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:高度な業務感覚 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:対応プロセス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:工場の製造工程 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:不整合 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:売り手（労働者）優位 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:波及効果 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:基本姿勢 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:単一工程 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:数値管理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:共通認識 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:選定根拠 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:決算業務 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:自己批判 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:分担計画 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:内部要因 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:全社方針 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:事前知識 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:見直しのタイミング a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:日常業務の処理量 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:top-down a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:関東学生連合チーム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:状況判断 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:質問リスト a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ペインポイント a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:戦術 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:協調 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:職種 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:過剰な承認プロセス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:人材獲得競争 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:時間的リソース a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:モデル a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:未来を実装する a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:If all you have is a hammer, everything looks like a nail a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:平行線の議論 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:使えないシステム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:対立構造 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:高齢社会白書 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:無料トライアル a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:無断導入 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:阿吽の呼吸 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:秘伝のタレ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:外資系企業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:先進的なテクノロジー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:働く人の役割 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:脅威 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:身体の使い方 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:筋トレ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:適切な食事 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:栄養管理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:図式化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:軍事用語 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:戦国時代 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:格言 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:行政手続き a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:中・北部織物工業地帯 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:JR a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:俺たちの箱根駅伝 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:あうんの呼吸 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:共存 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:今回限りの業務 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:備え a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポジション a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:監督 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:山口県 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:吸水時間 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:勘所 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:执行 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:智能手机地图 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:缩放操作 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:流程改善 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:先抽象化，后具体化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:全局观 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:核心结构 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:知识的迁移和应用 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:気づき a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:牛尾剛氏 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:意図 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:往復 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:転換手法 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:見取り図 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:不要なプロセス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:再構築 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:主要なルート a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:くるはずのものがきていない a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:異常に気づく能力 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:沢渡あまね a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:太めのペン a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:何のためにやっているのか a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:何が成果物か a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:議論のたたき台 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:負荷分散 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:バトンの受け渡し a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:次世代 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:見積書 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:休職対応 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人に頼る時代 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:頭の切り替え a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:午前中 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:非構造的な業務の進め方 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:高機能なシステム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:きっかけ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:定義されたフロー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:隠れた手間 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:事象 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:特徴 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:概念 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:学校教育 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:口頭伝承 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:取捨選択 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:アインシュタイン a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:観点 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:真の業務改革 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:主流の流れ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:補助的業務 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:停滞箇所 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:長年 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:引っ越し a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:通勤 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:掃除 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:あるべき姿 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:受け渡し a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:備考欄 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:事例分析 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:5～10分 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:グルーピング a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:追加の気づきを書き足す a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:指針 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:羅針盤 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ジム・コリンズ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ワン・トゥ・ゼロ（1→0） a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ネバダ州 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:バッテリー工場 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:おにぎり a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:サンドイッチ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:2×2の象限 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ニーズ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:多面的な検討 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:逆説 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:長期的な効率 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:統制型発想 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:余地 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:微調整 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:准确性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:成本削减 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:现状 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:人がやるべきこと a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:急がば回れ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:統合基幹業務システム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:正解としての業務プロセス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:展示会 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:唯一無二の正解 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:実行フェーズ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:直感 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:解決したい課題と導入目的の整理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:レビューサイト a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヘルプページ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:候補システム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:約2週間 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:実際の操作感 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:数値化されていない要素 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:重点項目 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:再比較 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ドキュメント管理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:需要の喚起 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:優秀な人材 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:◯◯さん a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:建築設計 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:无意识惯例化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:权宜之计 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:常规操作 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:客户应对规则 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:案例研究 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:灵活应对策略 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:标准化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:平衡难题 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:悪循環 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ケーススタディ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:硬直化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:省力化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:フェイルセーフ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:完璧 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:方向性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:まず動いてみて改善しながら進める姿勢 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:オフィス家具メーカー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:多品種かつ短納期 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ライセンス料 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:第1クォーター a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:long-term contract commitments a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:1 year a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:白石 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:希望スケジュール a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:単年度 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:来期 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:自責感情 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:再起 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:危機的状況 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:参加者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:社内ステークホルダー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Gyōmu Sekkei a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:パラダイムシフト a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:一番の近道 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:砦の守護者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:対人関係 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:プライド a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:8月 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:総務 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:結合できそう a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:簡素化？ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:部外者の視点 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:検証・補完 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:背景理解 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:枚数チェック a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:利害関係者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヒューマンチェック a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:代替可能性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:建設的な議論 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:全自動化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:手法やツール a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ミス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:有効性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:万が一があってはいけない a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:オープンなコミュニケーション a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:前進感 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:本格導入 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:配付 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:物理的な手作業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:自信 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:誇り a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ポジティブな反応 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:平社員 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Kizaki (城ヶ崎) a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:債権債務管理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:半年 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:進め方の計画 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:当事者意識 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ウメオ大学 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:X a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:抜本的な改革 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:不毛な議論 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:複合的な問題 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:時間当たり労働生産性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:自社サーバー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:月額課金 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:quality control a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:単純な入力作業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:科学的な筋トレや食事管理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:とにかく仕組み化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:へいたん a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:支援体制 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:連絡網 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:資本家階級 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:学生スポーツ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:従来のやり方 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:一緒に業務を行う人へのギフト a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:広い視野 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:クリーンルーム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:応用 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:分散したシステム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:国土交通省 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:哲学者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:化学者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:強化学習 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ゴミ出し a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:未処理の案件 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:前の業務が完了したタイミング a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:言葉 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:上位概念 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:抜け漏れと重複の発見 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:類似処理 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:過去の環境の変化が穏やかな時代 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:観察の事例2 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:部品準備 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:段取り a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:新任者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:前提条件 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:着手タイミング a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:次の工程 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:アドバイザー a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:やる気 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:精神論 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:未着の請求書 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:残りの処理量 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:爱因斯坦 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:经营学者 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:顾问 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:転記 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:伝達漏れ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:行為 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:羽田康祐氏 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:Nevada a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:rice balls a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:大きな改革 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:金額換算 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:4つの象限 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:仕掛品の山 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:急いては事を仕損じる a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:先を見通す力 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:自転車操業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:現行プロセス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:工数削減 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:問題発見力 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:四象限 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:実施までの期間 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:体制 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:サンプルマトリクス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:業界の商慣行 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:妥当性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:かんばん方式 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:合理的 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:決められたとおりに動く a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:基幹業務システム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:専用システム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:検討ポイント a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:拡張性 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:総合スコア a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:決裁 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:出発点 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:各シート（ドキュメント）の修正 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:一連のプロセス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:所要時間 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:販売戦略 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:誰が担当してもスムーズに処理できる仕組み a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:休息 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:図面 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:负责人 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:处理规则 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:工作方式 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:浪费 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:自然なプロセス a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:キャップドゥ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:二次元の業務フロー図 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:電車の路線図 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:時系列 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:想定外の問題 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:制度や組織変更 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:枠組み a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:納得感 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:前向きな改善文化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:一橋ビジネススクール a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:突然の抜擢 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:係長 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:中堅社員 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:真夏日 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:40 years a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:社員トレーニング a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンタープライズITシステム a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:世界 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:グラフ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:初年度 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:次年度以降 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:段階的アプローチ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ミーティングセッティング a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:本当の課題 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:入力の自動化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:外回り営業 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:制約条件 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:今期中 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:稼働開始 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:無理のある設定 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:材料 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:kickoff a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:圧倒的な準備不足 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:基礎固め a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:葛藤 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:失敗プロジェクト a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:振り返り a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:原因分析 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:同期関係 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:斎藤 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:まずは、できることから一歩ずつ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:再発リスク a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:他部署 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:劳务课 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:变革提案 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:现场人员 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:知识已经文档化 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:沟通障碍 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:非语言信号 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:中間管理職 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:3要素フレームワーク a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:一緒に手を動かすところから始めよう a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:緊急発注 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:連鎖的依存関係 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ズレ a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:手渡しでの配付 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:控除額 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:検知 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:最後の砦 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:zero-based review a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:ランニングコスト a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:HyperHR a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:室長 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:棚卸し a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:月1回 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:物語の構造 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:門外漢 a prov:Entity ;
+  book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
+  prov:wasDerivedFrom book:source .
+
+book:6 months a prov:Entity ;
   book:book_key "Gyoumu_Sekkei_no_Kyoukasho" ;
   prov:wasDerivedFrom book:source .

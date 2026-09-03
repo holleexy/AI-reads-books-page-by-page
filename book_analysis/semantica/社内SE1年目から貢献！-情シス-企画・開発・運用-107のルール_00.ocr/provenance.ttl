@@ -6,15 +6,7 @@ book:source a prov:Entity ;
   foaf:name "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" .
 
-book:In-house SEs a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
 book:社内SE a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:SEs a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
@@ -22,35 +14,31 @@ book:Japan a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:First-year in-house SEs a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
 book:4th Industrial Revolution a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:Amazon a prov:Entity ;
+book:ITヘルプデスク a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:Germany a prov:Entity ;
+book:ERP a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:traditional IT investment a prov:Entity ;
+book:COVID-19 pandemic a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:offensive IT a prov:Entity ;
+book:ways of working a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:CIO a prov:Entity ;
+book:growth a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:Google a prov:Entity ;
+book:事業会社 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
@@ -62,7 +50,543 @@ book:Hitachi a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:Accenture a prov:Entity ;
+book:準委任契約 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:運用保守 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:job-type employment a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ジョブ型雇用 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:コンセプチュアルスキル a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヒューマンスキル a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:テクニカルスキル a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:動機づけ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:振り返り a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:values a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:定常業務 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロジカルシンキング a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:クリティカルシンキング a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ラテラルシンキング a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:多面的視野 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:俯瞰力 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:コミュニケーション力 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヒアリング力 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヒト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:モノ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:カネ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:内発的動機 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:外発的動機 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:kickoff meeting a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:R&D a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:保守 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:SAP a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:national qualifications a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ベンダー資格 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:顧客視点 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:相手への敬意 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:three-day monk a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:1年生 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:会社員 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:登竜門 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:切り分け a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:インシデント a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:進捗管理 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:課題解決 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:成果物管理 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:予定 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:マイルストーン a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:担当領域 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:工数 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:人日 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:開発 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:受入テスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:請負契約 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:PMO a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:体制図 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:組織図 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:1-on-1s a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:会議体 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:テスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:移行 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:リソース a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:DX a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:丸投げ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:デジタル化 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:起案フェーズ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:立ち上げフェーズ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:構築フェーズ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンハンス開発 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:スクラッチ開発 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:パッケージ導入 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:クラウドサービス利用 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:守備範囲 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:要求分析 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:詳細設計 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:プログラミング a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:単体テスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:結合テスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:超概算見積もり a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:企画書 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:システムランドスケープ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:5-year a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:役割分担 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:関所 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報提供依頼書 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:提案依頼書 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:有識者 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Q&A a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:企業力 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:導入実績 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:価格 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:フォロワー a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:アゲインスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:外部結合テスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:総合テスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:負荷テスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:セキュリティテスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:不具合 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:障害 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:暫定対応 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:恒久対応 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:トレーニング a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:新業務 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:新システム a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:過渡期 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:カットオーバー a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:本番環境 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:全体像 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:非機能要件 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:認識齟齬 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:帳票 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:機能要件一覧.xlsx a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:可用性 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:画面要件 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:バッチ要件 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:スコープ外 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:out-of-scope a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:日次売上レポート a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:商品コード a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:数量 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:単価 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:売上金額 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:印刷者 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:MSP Gothic a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:合計金額 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:チェンジマネジメント a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:検証環境 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:性能テスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:現新比較テスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:段取り a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:開始・終了判定チェックリスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:なぜなぜ分析 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハイパーケア a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:臨戦態勢 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:段階移行 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:一括移行 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:並行移行 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:残障害 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:秘密保持契約書 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:メンバーシップ型雇用 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:基本情報技術者試験 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
@@ -70,7 +594,47 @@ book:攻めのIT a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
+book:エンタープライズアーキテクチャ定義 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:マネジメントスキル a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:サービス a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:テーラーメイド・カスタムデモ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:6/2–6/12 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
 book:20th century a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:セミナー・勉強会 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:自社開発のモデル a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:エンティティ一覧 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:behavior a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:既存システムランドスケープ a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
@@ -78,31 +642,99 @@ book:2011 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:business models a prov:Entity ;
+book:責任者 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:NTT a prov:Entity ;
+book:ソリューションアーキテクチャ定義 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:globalization a prov:Entity ;
+book:デモとプレゼン a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:Ministry of Economy, Trade and Industry a prov:Entity ;
+book:ネットワークを広げる a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:ERP packages a prov:Entity ;
+book:インフラ構築 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:AI a prov:Entity ;
+book:業務遂行能力 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:Web-related a prov:Entity ;
+book:基礎 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:経費精算 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:施策 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:桁数制限 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:行動依頼 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:バグ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:連番ラベル a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:レポートライン a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:評価表 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Amazon a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:応用 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:3 months a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:夢・志 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Figure 2-9 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:利用開始日 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:文字配置 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ユーザー系国家資格 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:未 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
@@ -110,51 +742,43 @@ book:FY1990 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:Programmer a prov:Entity ;
+book:作業管理 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:new IT investment a prov:Entity ;
+book:管理台帳 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:Basic Survey on Overseas Business Activities a prov:Entity ;
+book:サイロ化 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:PCs a prov:Entity ;
+book:受注業務 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:December 2004 a prov:Entity ;
+book:1 month a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:remote work a prov:Entity ;
+book:タイミング・場 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:non-IT a prov:Entity ;
+book:7/1 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:3rd Industrial Revolution a prov:Entity ;
+book:個別契約書 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:big data a prov:Entity ;
+book:戦略 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:Rakuten a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:5th Industrial Revolution a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:Hannover Messe 2011 a prov:Entity ;
+book:チャレンジ精神 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
@@ -162,27 +786,31 @@ book:UK a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:Catapult Centres a prov:Entity ;
+book:承認資料 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:USA a prov:Entity ;
+book:ロールバック a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:Advanced Manufacturing Partnership a prov:Entity ;
+book:登録日 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:IBM a prov:Entity ;
+book:内部留保 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:COVID-19 pandemic a prov:Entity ;
+book:報告会 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:pandemic a prov:Entity ;
+book:図7-15 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:5th Industrial Revolution a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
@@ -190,19 +818,7 @@ book:少子高齢化 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:population growth a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:ways of working a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
 book:1868 a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:WWII a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
@@ -210,95 +826,7 @@ book:1945 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:company growth lifecycle a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:growth a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:waterfall a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:frontend a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:organization chart a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:DX promotion organization a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:Help Desk a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:事業会社 a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:Nomura Research Institute a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:業種 a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:SoftBank a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:KDDI a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:Oracle a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:hardware a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:Toshiba a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:システムエンジニア a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:ネットワークエンジニア a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:セキュリティエンジニア a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:プログラマー a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:テスター a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:Tester a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
 book:客先常駐SE a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
-book:準委任契約 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
@@ -306,18 +834,926 @@ book:一次請け a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:subcontractor a prov:Entity ;
-  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
-  prov:wasDerivedFrom book:source .
-
 book:二次請け a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:on-site/resident support a prov:Entity ;
+book:常駐支援 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .
 
-book:常駐支援 a prov:Entity ;
+book:検収 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:利益 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:知識 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:スキル a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:意識 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:姿勢 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:報酬・罰則 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:経験を体系化 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:優先順位 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:概念化能力 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:知的好奇心 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:探究心 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:柔軟性 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:洞察力 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:先見性 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:交渉力 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:向上心 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:プレゼンテーション力 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:コーチング力 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:紐づき a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:部門目標 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:個人目標 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ミッション a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ビジョン a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:抽象化思考 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:製品企画 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:研究開発 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:試作／量産 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:生産 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:調達 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:物流 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:販売 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Kinaxis a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:国家資格 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:民間資格 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:経済産業省 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:技術系国家資格 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:情報セキュリティマネジメント a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:止血 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:努力 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:三日坊主 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:6 months a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:思考方法 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:打ち手 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:勤怠申請 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:目標管理 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:本書 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:アプリケーション知識 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:第3章 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ヘルプデスク a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:人脈を構築する a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:問い合わせ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:対応 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:解消連絡 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:営業 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:財産 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:やるべきタスクを判断する4象限 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:重要度 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:緊急度 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:今すぐやる a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:計画する a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:本当に重要かを問う a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:やらない a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:①–④ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:稟議 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ソフトウェア、ハードウェア管理 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:実績 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:必要作業 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:遅延対応 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Jira Software a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:大分類 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:中分類 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:小分類 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:完了 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:関連部署 H a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:旅費、会議費 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハードウェア購入費 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ガソリンを枯れさせない a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:投資 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:lump-sum a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:予兆検知 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:4 days a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:作法 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:内容 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:手段 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:工程別 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:週次定例 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:設計 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:受領資料 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:備品 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:カテゴリ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:品目 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:最終確認日 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ライセンス期限 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:保管場所 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:返却期限 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:協業でフェーズを進める a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハイブリッド開発 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:V字モデルのハイブリッド開発 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:費用対効果 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:解決する課題特定 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:想定効果 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:本末転倒 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:机上説明 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:XXXシステム a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:納期 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:5つのステップ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:定例会 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:終身雇用制度 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:予備費 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:お墨付き a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:胸を借りる a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:根回し a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:随時 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:契約の準備 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:人の巻き込み a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:見積書 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:共通領域 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:図6-6 RFP実施領域の選択肢 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:連絡先 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:前提条件・応札要件 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:第三者機関 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:意思決定者 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:コントリビューター a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:決裁 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:机上検証・概念実証 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:NO先行着手 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:外資系 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:実現性 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:噛み合わない要件定義 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:避けるべき要件定義 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:関係者 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:同一SIerによる支援 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:構造設計 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:オフショア開発 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ニアショア開発 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:デバッグ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:手順書 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:教育 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:仕組み a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:デプロイ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:バージョン a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ドキュメント名称 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:対象外 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:レスポンス a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:キックオフ会議 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:熱量 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ハイレベルな要求や要件 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:アドミン系情報 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:テーブル関連図 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:その他要件 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:お客様視点 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:性能、拡張性 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:エコロジー a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:year-end a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:間合い a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:言った言わない a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:key influential leaders a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:キーとなるリーダー a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:図式 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:メタ情報 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:印字内容 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:左詰 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:右詰 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:トランザクションデータ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:年月日 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:文書化 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:場の設定 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:判断 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ツール a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Zero issues a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:洗い出せていない a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:問題点の横展開 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:宝の持ち腐れ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:やりっぱなし a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:変更・改革実行 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:狙い a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:自分事化 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Jeanie Duck a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:タコツボドン a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ウチムキング a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:カコボウレイ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ミザル・イワザル・キカザル a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:Mizaru-Iwasaru-Kikazaru a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ノラクラ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:マンテン a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:カイケツゼロ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:リグレッションテスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:回帰テスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:時間 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:範囲/スコープ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:はざま a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:環境切り替え a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:設定漏れ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:疎通確認 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:次工程 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:考え方 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:処理情報連携 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:分析システムB a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:シナリオ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:連携事項 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:差分 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ストレステスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:容量テスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ロングランテスト a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:水平思考 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:人前で報告するときの心得 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:古い仕組み a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:新しい仕組み a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:旧業務 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:拠点 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:目的 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:前提事項 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:2x2 matrix a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:不測の事態 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:リハーサルから本番移行へ a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:お見合い a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:専任の移行推進者 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:新サービス a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:安定稼働判断 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:効果測定 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:判定会 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:ウォールーム a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:作戦室 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:シフト表 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:朝会 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:夕会 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:寝耳に水 a prov:Entity ;
+  book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
+  prov:wasDerivedFrom book:source .
+
+book:チーム編成 a prov:Entity ;
   book:book_key "社内SE1年目から貢献！-情シス-企画・開発・運用-107のルール_00.ocr" ;
   prov:wasDerivedFrom book:source .

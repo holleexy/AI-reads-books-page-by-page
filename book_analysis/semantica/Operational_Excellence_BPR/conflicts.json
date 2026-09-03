@@ -1,1 +1,155 @@
-[]
+[
+  {
+    "conflict_id": "製品_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "製品",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "CONCEPT",
+      "PRODUCT",
+      "PRODUCT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.87,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Operational_Excellence_BPR"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.91,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Operational_Excellence_BPR"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Operational_Excellence_BPR"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "ITツール_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "ITツール",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "PRODUCT",
+      "CONCEPT",
+      "CONCEPT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.86,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Operational_Excellence_BPR"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Operational_Excellence_BPR"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Operational_Excellence_BPR"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.88,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Operational_Excellence_BPR"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  },
+  {
+    "conflict_id": "情報システム_type_conflict",
+    "conflict_type": "value_conflict",
+    "entity_id": "情報システム",
+    "property_name": "type",
+    "relationship_id": null,
+    "conflicting_values": [
+      "PRODUCT",
+      "CONCEPT"
+    ],
+    "sources": [
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.82,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Operational_Excellence_BPR"
+        }
+      },
+      {
+        "document": "unknown",
+        "page": null,
+        "confidence": 0.94,
+        "metadata": {
+          "provider": "xai",
+          "model": "grok-4.6",
+          "extraction_method": "llm_typed",
+          "book_key": "Operational_Excellence_BPR"
+        }
+      }
+    ],
+    "confidence": 1.0,
+    "severity": "critical",
+    "recommended_action": "Compare source documents and use most recent or authoritative source",
+    "metadata": {}
+  }
+]

@@ -1,0 +1,477 @@
+@prefix ex: <https://books.local/AI_Agent_x_BPR/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://books.local/AI_Agent_x_BPR/shapes> a owl:Ontology .
+
+<https://books.local/AI_Agent_x_BPR/AIAgentShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AIAgent ;
+    sh:name "AIエージェント" ;
+    sh:description "目的・理解・行動・学習の四要素を満たし、自律的に業務を代行するシステム。" ;
+    sh:property [
+        sh:path ex:hasCapability ;
+        sh:class ex:AgentCapability ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLayer ;
+        sh:class ex:TechnicalLayer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasProvisionForm ;
+        sh:class ex:ProvisionForm ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:evolvedFrom ;
+        sh:class ex:Copilot ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exhibitsCharacteristic ;
+        sh:class ex:LLMCharacteristic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/CopilotShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Copilot ;
+    sh:name "コパイロット" ;
+    sh:description "人間を支援する生成AIの活用形態であり、エージェント化の前段階。" .
+
+<https://books.local/AI_Agent_x_BPR/DigitalWorkerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DigitalWorker ;
+    sh:name "デジタルワーカー" ;
+    sh:description "人間の指示を待たず24時間365日稼働するAIエージェント。" ;
+    sh:property [
+        sh:path ex:evolvedFrom ;
+        sh:class ex:Copilot ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasCapability ;
+        sh:class ex:AgentCapability ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasLayer ;
+        sh:class ex:TechnicalLayer ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasProvisionForm ;
+        sh:class ex:ProvisionForm ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:exhibitsCharacteristic ;
+        sh:class ex:LLMCharacteristic ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:improves ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/AgentCapabilityShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AgentCapability ;
+    sh:name "エージェント能力" ;
+    sh:description "目的設定、ギャップ理解、タスク実行、結果からの学習のいずれか。" .
+
+<https://books.local/AI_Agent_x_BPR/BusinessReformShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessReform ;
+    sh:name "業務改革" ;
+    sh:description "AIエージェントにより仕事の定義自体を変える経営の意思決定。" ;
+    sh:property [
+        sh:path ex:usesMethod ;
+        sh:class ex:AIAMMethod ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:reforms ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:facesBarrier ;
+        sh:class ex:Barrier ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasROI ;
+        sh:class ex:ROI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasKPI ;
+        sh:class ex:KPI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:followsPrinciple ;
+        sh:class ex:SuccessPrinciple ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:usedHistoricalTechnology ;
+        sh:class ex:RPA ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:conductedBy ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/BusinessProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BusinessProcess ;
+    sh:name "業務プロセス" ;
+    sh:description "企業における一連の業務活動。縦割りではなく作業構造でも整理する。" ;
+    sh:property [
+        sh:path ex:assessedBy ;
+        sh:class ex:AssessmentProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasWorkPattern ;
+        sh:class ex:WorkPattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignedToCategory ;
+        sh:class ex:PriorityCategory ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/BackOfficeWorkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:BackOfficeWork ;
+    sh:name "バックオフィス業務" ;
+    sh:description "間接業務。横串整理により共通エージェントの再利用がしやすい。" ;
+    sh:property [
+        sh:path ex:hasWorkPattern ;
+        sh:class ex:WorkPattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assessedBy ;
+        sh:class ex:AssessmentProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignedToCategory ;
+        sh:class ex:PriorityCategory ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/FrontOfficeWorkShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FrontOfficeWork ;
+    sh:name "フロントオフィス業務" ;
+    sh:description "顧客対応・営業・マーケティング等。判断重要性と手順明確さで分類する。" ;
+    sh:property [
+        sh:path ex:assessedBy ;
+        sh:class ex:AssessmentProcess ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasWorkPattern ;
+        sh:class ex:WorkPattern ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:assignedToCategory ;
+        sh:class ex:PriorityCategory ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/RPAShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:RPA ;
+    sh:name "RPA" ;
+    sh:description "ロボティック・プロセス・オートメーション。従来の間接業務効率化技術。" .
+
+<https://books.local/AI_Agent_x_BPR/ERPShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ERP ;
+    sh:name "ERP" ;
+    sh:description "統合基幹業務システム。デジタル化の基盤として導入されてきた。" .
+
+<https://books.local/AI_Agent_x_BPR/AIAMMethodShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AIAMMethod ;
+    sh:name "AIAM法" ;
+    sh:description "目的と成果から逆算してAIエージェント業務改革を進める五フェーズ手法。" ;
+    sh:property [
+        sh:path ex:hasPhase ;
+        sh:class ex:AIAMPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:hasDesignPrinciple ;
+        sh:class ex:DesignPrinciple ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/AIAMPhaseShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AIAMPhase ;
+    sh:name "AIAMフェーズ" ;
+    sh:description "基本計画立案、業務設計、検証計画策定、構築・検証、システム開発のいずれか。" ;
+    sh:property [
+        sh:path ex:hasKPI ;
+        sh:class ex:KPI ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:nextPhase ;
+        sh:class ex:AIAMPhase ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:phaseOrder ;
+        sh:datatype xsd:integer ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/DesignPrincipleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:DesignPrinciple ;
+    sh:name "設計原則" ;
+    sh:description "トップダウンとボトムアップ、変革リーダー、クイックウィン、人間最終判断など。" .
+
+<https://books.local/AI_Agent_x_BPR/TechnicalLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:TechnicalLayer ;
+    sh:name "技術層" ;
+    sh:description "AIエージェント五層アーキテクチャを構成する層。" .
+
+<https://books.local/AI_Agent_x_BPR/IntelligenceLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:IntelligenceLayer ;
+    sh:name "知能層" ;
+    sh:description "思考と理解を担う層。ChatGPT、Claude、Gemini、Llamaなど。" ;
+    sh:property [
+        sh:path ex:exhibitsCharacteristic ;
+        sh:class ex:LLMCharacteristic ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/MemoryKnowledgeLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:MemoryKnowledgeLayer ;
+    sh:name "記憶・知識層" ;
+    sh:description "文脈維持と知識保持を担う層。短期・長期メモリ、RAGなど。" .
+
+<https://books.local/AI_Agent_x_BPR/ActionLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ActionLayer ;
+    sh:name "行動層" ;
+    sh:description "タスク実行を担う層。API連携やツール利用など。" .
+
+<https://books.local/AI_Agent_x_BPR/ControlCoordinationLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ControlCoordinationLayer ;
+    sh:name "制御・調整層" ;
+    sh:description "統括と安全確保を担う層。オーケストレーション、ガードレールなど。" .
+
+<https://books.local/AI_Agent_x_BPR/LearningOptimizationLayerShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LearningOptimizationLayer ;
+    sh:name "学習・最適化層" ;
+    sh:description "継続的改善を担う層。フィードバックやログ分析など。" .
+
+<https://books.local/AI_Agent_x_BPR/ProvisionFormShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ProvisionForm ;
+    sh:name "提供形態" ;
+    sh:description "SaaS型、API連携型、ローカルLLM型のいずれか。" .
+
+<https://books.local/AI_Agent_x_BPR/WorkPatternShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:WorkPattern ;
+    sh:name "業務型" ;
+    sh:description "作業構造単位の業務分類。部門横断の横串整理の基礎。" ;
+    sh:property [
+        sh:path ex:reductionRate ;
+        sh:datatype xsd:decimal ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/SummaryTranscriptionPatternShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SummaryTranscriptionPattern ;
+    sh:name "要約・転記型" ;
+    sh:description "議事録作成や申請入力など定型性が高く削減効果が大きい型。目安削減率80%。" ;
+    sh:property [
+        sh:path ex:reductionRate ;
+        sh:datatype xsd:decimal ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/CheckReviewPatternShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CheckReviewPattern ;
+    sh:name "チェック・校閲型" ;
+    sh:description "経費審査や請求確認などヒューマンエラー防止効果が大きい型。目安削減率60%。" ;
+    sh:property [
+        sh:path ex:reductionRate ;
+        sh:datatype xsd:decimal ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/InquiryResponsePatternShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:InquiryResponsePattern ;
+    sh:name "問い合わせ対応型" ;
+    sh:description "社内FAQや人事問合せなど24時間対応が可能な型。目安削減率50%。" ;
+    sh:property [
+        sh:path ex:reductionRate ;
+        sh:datatype xsd:decimal ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/AssessmentProcessShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:AssessmentProcess ;
+    sh:name "業務選定アセスメント" ;
+    sh:description "工数整理、適性評価、前提確認、削減率算定、取組選定の五ステップ。" .
+
+<https://books.local/AI_Agent_x_BPR/PriorityCategoryShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:PriorityCategory ;
+    sh:name "取組優先区分" ;
+    sh:description "すぐ着手、中期仕込み、他施策対応の三領域。" .
+
+<https://books.local/AI_Agent_x_BPR/BarrierShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Barrier ;
+    sh:name "導入の壁" ;
+    sh:description "情報管理、要件ずれ、検証地獄、精度、ガバナンス、効果可視化、人の壁のいずれか。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/LLMCharacteristicShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:LLMCharacteristic ;
+    sh:name "LLM特性" ;
+    sh:description "確率的出力、ハルシネーション、コンテキスト依存、表データ不得手、ポチョムキン理解など。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/ROIShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:ROI ;
+    sh:name "投資対効果" ;
+    sh:description "工数削減費を導入コストで割った指標。横展開を含む包括評価が重要。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:roiValue ;
+        sh:datatype xsd:decimal ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/KPIShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:KPI ;
+    sh:name "KPI" ;
+    sh:description "目標合意、検証ゴール、撤退基準、効果可視化に用いる重要業績評価指標。" .
+
+<https://books.local/AI_Agent_x_BPR/SuccessPrincipleShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:SuccessPrinciple ;
+    sh:name "成功の要諦" ;
+    sh:description "トップダウン開始、推進機能、科学的業務選定など成功のための十原則。" ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/CaseStudyShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:CaseStudy ;
+    sh:name "事例" ;
+    sh:description "明治安田生命、富士通、Walmart、Klaviyo等のAI活用実例。" ;
+    sh:property [
+        sh:path ex:conductedBy ;
+        sh:class ex:Organization ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:illustrates ;
+        sh:class ex:BusinessProcess ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:Organization ;
+    sh:name "組織" ;
+    sh:description "業務改革や事例の主体となる企業・団体。" ;
+    sh:property [
+        sh:path ex:usedHistoricalTechnology ;
+        sh:class ex:RPA ;
+        sh:severity sh:Violation
+    ] .
+
+<https://books.local/AI_Agent_x_BPR/FutureScenarioShape>
+    a sh:NodeShape ;
+    sh:targetClass ex:FutureScenario ;
+    sh:name "未来シナリオ" ;
+    sh:description "汎用型・特化型エージェントの進化とAI 2027における知能爆発の想定。" ;
+    sh:property [
+        sh:path ex:describesFutureOf ;
+        sh:class ex:AIAgent ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:description ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Violation
+    ] ;
+    sh:property [
+        sh:path ex:targetYear ;
+        sh:datatype xsd:integer ;
+        sh:severity sh:Violation
+    ] .
