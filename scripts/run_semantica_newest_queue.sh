@@ -4,7 +4,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 ROOT="${PWD}"
-QUEUE="${ROOT}/book_analysis/semantica/queue/pending-newest.txt"
+QUEUE="${QUEUE:-${ROOT}/book_analysis/semantica/queue/pending-newest.txt}"
 RUN_DIR="${ROOT}/book_analysis/semantica/queue/run-$(date +%Y%m%d-%H%M%S)"
 LOG_DIR="${RUN_DIR}/logs"
 mkdir -p "${LOG_DIR}"
@@ -12,6 +12,11 @@ MAX_JOBS="${MAX_JOBS:-2}"
 LOAD_PAUSE="${LOAD_PAUSE:-6}"
 MEM_MIN_KB="${MEM_MIN_KB:-1500000}"
 LIMIT="${LIMIT:-80}"
+FORCE="${FORCE:-0}"
+FORCE_ARGS=()
+if [[ "${FORCE}" == "1" ]]; then
+  FORCE_ARGS+=(--force)
+fi
 
 if [[ ! -f "${QUEUE}" ]]; then
   echo "missing queue: ${QUEUE}" >&2
@@ -19,7 +24,7 @@ if [[ ! -f "${QUEUE}" ]]; then
 fi
 
 echo "run_dir=${RUN_DIR}"
-echo "max_jobs=${MAX_JOBS} load_pause=${LOAD_PAUSE} mem_min_kb=${MEM_MIN_KB} limit=${LIMIT}"
+echo "max_jobs=${MAX_JOBS} load_pause=${LOAD_PAUSE} mem_min_kb=${MEM_MIN_KB} limit=${LIMIT} force=${FORCE}"
 cp "${QUEUE}" "${RUN_DIR}/queue.txt"
 : > "${RUN_DIR}/done.txt"
 : > "${RUN_DIR}/fail.txt"
@@ -58,11 +63,13 @@ wait_for_slot() {
 
 while IFS= read -r key || [[ -n "${key}" ]]; do
   [[ -z "${key}" ]] && continue
-  graph="${ROOT}/book_analysis/semantica/${key}/graph.json"
-  if [[ -f "${graph}" ]] && [[ -s "${graph}" ]]; then
-    if python3 -c "import json,sys; p=sys.argv[1]; d=json.load(open(p)); sys.exit(0 if d.get('entities') else 1)" "${graph}" 2>/dev/null; then
-      echo "skip ${key}" | tee -a "${RUN_DIR}/done.txt"
-      continue
+  if [[ "${FORCE}" != "1" ]]; then
+    graph="${ROOT}/book_analysis/semantica/${key}/graph.json"
+    if [[ -f "${graph}" ]] && [[ -s "${graph}" ]]; then
+      if python3 -c "import json,sys; p=sys.argv[1]; d=json.load(open(p)); sys.exit(0 if d.get('entities') else 1)" "${graph}" 2>/dev/null; then
+        echo "skip ${key}" | tee -a "${RUN_DIR}/done.txt"
+        continue
+      fi
     fi
   fi
   if book_already_running "${key}"; then
@@ -74,7 +81,7 @@ while IFS= read -r key || [[ -n "${key}" ]]; do
   echo "$(date -Iseconds) START ${key}" | tee -a "${RUN_DIR}/progress.txt"
   (
     set +e
-    "${ROOT}/scripts/run_book_semantica.sh" batch --book-key "${key}" --limit "${LIMIT}" >"${log}" 2>&1
+    "${ROOT}/scripts/run_book_semantica.sh" batch --book-key "${key}" --limit "${LIMIT}" "${FORCE_ARGS[@]}" >"${log}" 2>&1
     rc=$?
     if [[ ${rc} -eq 0 ]]; then
       echo "$(date -Iseconds) OK ${key} rc=${rc}" >> "${RUN_DIR}/progress.txt"
